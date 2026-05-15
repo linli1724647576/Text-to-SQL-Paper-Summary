@@ -1,0 +1,84 @@
+name: Build, Crawl, and Deploy Pages
+
+on:
+  push:
+    branches: ["main", "master"]
+  workflow_dispatch:
+    inputs:
+      full_crawl:
+        description: "Fetch CCF-A/arXiv rawdata, enrich abstracts, then process"
+        type: boolean
+        default: false
+      process_rawdata:
+        description: "Process existing data/rawdata before building"
+        type: boolean
+        default: true
+      from_year:
+        description: "Full crawl start year"
+        type: string
+        default: "2020"
+      to_year:
+        description: "Full crawl end year"
+        type: string
+        default: "2026"
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch full rawdata
+        if: inputs.full_crawl
+        run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year }}" --to-year "${{ inputs.to_year }}" --arxiv-max-results 1000 --sleep 0.5
+
+      - name: Enrich abstracts
+        if: inputs.full_crawl
+        env:
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: python scripts/enrich_abstracts.py data/rawdata --delay 1.0
+
+      - name: Process rawdata
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/process_folder.py
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit refreshed data
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rawdata data/labeldata/labeldata.json data/venues.json web/index.html
+          git diff --cached --quiet || git commit -m "Update crawled Text-to-SQL papers"
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

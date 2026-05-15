@@ -22,7 +22,7 @@ on:
         type: string
         default: "2026"
   schedule:
-    - cron: "17 3 * * 1"
+    - cron: "17 3 1 * *"
 
 permissions:
   contents: write
@@ -47,11 +47,11 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch full rawdata
-        if: inputs.full_crawl
+        if: github.event_name == 'schedule' || inputs.full_crawl
         run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year }}" --to-year "${{ inputs.to_year }}" --arxiv-max-results 1000 --sleep 0.5
 
       - name: Enrich abstracts
-        if: inputs.full_crawl
+        if: github.event_name == 'schedule' || inputs.full_crawl
         env:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: python scripts/enrich_abstracts.py data/rawdata --delay 1.0

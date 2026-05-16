@@ -47,6 +47,10 @@ OPENALEX_JOURNAL_SOURCES = {
     "TOSEM": "S142627899",
 }
 
+OPENALEX_CONFERENCE_SOURCES = {
+    "VLDB": "S4210226185",
+}
+
 
 def clean(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
@@ -207,7 +211,7 @@ def normalize_openalex_work(work, venue, year, track):
     return entry
 
 
-def fetch_openalex_journal(source_id, venue, year, track):
+def fetch_openalex_source(source_id, venue, year, track):
     cursor = "*"
     combined = {}
     while True:
@@ -236,6 +240,10 @@ def fetch_openalex_journal(source_id, venue, year, track):
     if not combined:
         raise RuntimeError("empty")
     return combined
+
+
+def fetch_openalex_journal(source_id, venue, year, track):
+    return fetch_openalex_source(source_id, venue, year, track)
 
 
 def fetch_dblp_venue(dblp_key, venue, year, track):
@@ -398,18 +406,62 @@ def main():
             papers = fetch_dblp_venue(dblp_key, venue, year, track)
         except Exception as exc:
             print(f"  WARN: failed {venue}{year}: {exc}", file=sys.stderr)
-            failures.append(
-                {
-                    "venue": venue,
-                    "year": year,
-                    "track": track,
-                    "source": "dblp",
-                    "source_type": "dblp-conference",
-                    "status": "failed",
-                    "error": str(exc),
-                }
-            )
-            continue
+            if out_path.exists():
+                warnings.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "dblp",
+                        "source_type": "dblp-conference",
+                        "status": "existing_kept",
+                        "error": str(exc),
+                    }
+                )
+                print(f"  keeping existing rawdata -> {out_path}", file=sys.stderr)
+                continue
+            source_id = OPENALEX_CONFERENCE_SOURCES.get(venue)
+            if not source_id:
+                failures.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "dblp",
+                        "source_type": "dblp-conference",
+                        "status": "failed",
+                        "error": str(exc),
+                    }
+                )
+                continue
+            try:
+                print(f"  trying OpenAlex conference fallback {venue}{year}", file=sys.stderr)
+                papers = fetch_openalex_source(source_id, venue, year, track)
+                warnings.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "openalex-conference-fallback",
+                        "source_type": "dblp-conference",
+                        "status": "fallback_used",
+                        "reason": f"DBLP conference failed or empty: {exc}",
+                    }
+                )
+            except Exception as fallback_exc:
+                print(f"  WARN: OpenAlex conference fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
+                failures.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "conference",
+                        "source_type": "dblp-conference",
+                        "status": "failed",
+                        "error": f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                    }
+                )
+                continue
         write_json(out_path, papers)
         total += len(papers)
         print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)

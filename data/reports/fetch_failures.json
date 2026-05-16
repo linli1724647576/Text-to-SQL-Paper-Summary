@@ -1,50 +1,37 @@
 {
   "summary": {
-    "fetched_entries": 1252,
+    "fetched_entries": 931,
     "failure_count": 0,
-    "warning_count": 5
+    "warning_count": 3
   },
   "failures": [],
   "warnings": [
     {
-      "venue": "AIJ",
-      "year": 2025,
-      "track": "AI",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: Remote end closed connection without response"
-    },
-    {
-      "venue": "TKDE",
+      "venue": "VLDB",
       "year": 2025,
       "track": "DB",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde37.xml: Remote end closed connection without response"
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/vldb/vldb2025.xml: HTTP Error 404: Not Found"
     },
     {
-      "venue": "VLDBJ",
-      "year": 2025,
-      "track": "DB",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb34.xml: Remote end closed connection without response"
+      "venue": "FSE",
+      "year": 2024,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2024.xml: Remote end closed connection without response; https://dblp.org/db/conf/sigsoft/fse2024c.xml: Remote end closed connection without response; https://dblp.org/rec/conf/sigsoft/2024c.xml: Remote end closed connection without response"
     },
     {
-      "venue": "TSE",
+      "venue": "FSE",
       "year": 2025,
       "track": "SE",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse51.xml: Remote end closed connection without response"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2025,
-      "track": "SE",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem34.xml: Remote end closed connection without response"
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2025.xml: Remote end closed connection without response"
     }
   ]
 }

@@ -10,6 +10,7 @@ import sys
 import tempfile
 from pathlib import Path
 
+from label_papers import RELEVANCE_POLICY_VERSION
 from venues import canonical_venue_from_filename
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,13 @@ AUTODATA_DIR = REPO_ROOT / "data" / "autocrawl"
 VENUES_PATH = REPO_ROOT / "data" / "venues.json"
 SCRIPT_DIR = Path(__file__).resolve().parent
 SENTINEL_VERSION = 2
+PROCESSING_FINGERPRINT_FILES = (
+    "extract_papers.py",
+    "label_papers.py",
+    "merge_labeldata.py",
+    "paper_utils.py",
+    "venues.py",
+)
 
 
 def canonical_venue(path):
@@ -40,7 +48,24 @@ def sha256_file(path):
     return digest.hexdigest()
 
 
-def fingerprint_group(paths):
+def processing_fingerprint():
+    files = []
+    digest = hashlib.sha256()
+    digest.update(f"relevance_policy:{RELEVANCE_POLICY_VERSION}".encode("utf-8"))
+    for name in PROCESSING_FINGERPRINT_FILES:
+        path = SCRIPT_DIR / name
+        file_hash = sha256_file(path)
+        files.append({"path": repo_relative(path), "sha256": file_hash})
+        digest.update(name.encode("utf-8"))
+        digest.update(file_hash.encode("ascii"))
+    return {
+        "relevance_policy_version": RELEVANCE_POLICY_VERSION,
+        "files": files,
+        "sha256": digest.hexdigest(),
+    }
+
+
+def fingerprint_group(paths, processing):
     return {
         "files": [
             {
@@ -48,7 +73,8 @@ def fingerprint_group(paths):
                 "sha256": sha256_file(path),
             }
             for path in sorted(paths, key=repo_relative)
-        ]
+        ],
+        "processing": processing,
     }
 
 
@@ -67,7 +93,10 @@ def save_processed(processed):
     payload = {
         "version": SENTINEL_VERSION,
         "venues": {
-            venue: {"files": sorted(record.get("files", []), key=lambda item: item["path"])}
+            venue: {
+                "files": sorted(record.get("files", []), key=lambda item: item["path"]),
+                "processing": record.get("processing", {}),
+            }
             for venue, record in sorted(processed.get("venues", {}).items())
         },
     }
@@ -119,7 +148,8 @@ def main():
     for path in files:
         grouped.setdefault(canonical_venue(path), []).append(path)
 
-    fingerprints = {venue: fingerprint_group(paths) for venue, paths in grouped.items()}
+    processing = processing_fingerprint()
+    fingerprints = {venue: fingerprint_group(paths, processing) for venue, paths in grouped.items()}
     changed_groups = {
         venue: paths
         for venue, paths in grouped.items()

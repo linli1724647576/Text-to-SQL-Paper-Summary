@@ -7,7 +7,33 @@
           "path": "data/rawdata/2020/AAAI2020.json",
           "sha256": "c966fb0bc31fb1e1968ab9c2b656df06ce06d556a87cf8d8d877bee6a5b7907a"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AAAI2021": {
       "files": [
@@ -15,7 +41,33 @@
           "path": "data/rawdata/2021/AAAI2021.json",
           "sha256": "0456da286cda0ecd24a85614a0dd88ece3cafff4048f5fd0bfa1d1d256195047"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AAAI2022": {
       "files": [
@@ -23,7 +75,33 @@
           "path": "data/rawdata/2022/AAAI2022.json",
           "sha256": "8ff93595f03ebbea437d87a0e0fedb7812e3b15f22a38673b0bef770f6b9c813"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AAAI2023": {
       "files": [
@@ -31,7 +109,33 @@
           "path": "data/rawdata/2023/AAAI2023.json",
           "sha256": "c563b3eec204d88bfcf54d43208d75132330586fa3787b74a77cc3c3b4a17631"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AAAI2024": {
       "files": [
@@ -39,7 +143,33 @@
           "path": "data/rawdata/2024/AAAI2024.json",
           "sha256": "00e5ecfe2469fcaabb25aae291f9cd2fdc68190f5f6e897fbd28554308d9e702"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AAAI2025": {
       "files": [
@@ -47,7 +177,33 @@
           "path": "data/rawdata/2025/AAAI2025.json",
           "sha256": "6b1986e995c8b378d1ca2bb3f9465d22ce17ed754975a7166c4441f6e5ca00d7"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2020": {
       "files": [
@@ -55,7 +211,33 @@
           "path": "data/rawdata/2020/ACL2020.json",
           "sha256": "ba1d6fc4f50e3e6c5f2a41e69841a5d0ed9f61b0afdcb01480a64ad85bb20a2a"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2021": {
       "files": [
@@ -63,7 +245,33 @@
           "path": "data/rawdata/2021/ACL2021.json",
           "sha256": "52c054267cfbe13788a2971479ac51d0b5a2bb51932b87bb2150e1c431053af8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2022": {
       "files": [
@@ -71,7 +279,33 @@
           "path": "data/rawdata/2022/ACL2022.json",
           "sha256": "317ae1425c6261cfc14cdfb30f7901956bbb4b22b17259fbec40698a1ad62e56"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2023": {
       "files": [
@@ -79,7 +313,33 @@
           "path": "data/rawdata/2023/ACL2023.json",
           "sha256": "01652436103bf8e51be1fee8a6457a160759602a905b7e29d7b34eb42bb18dc7"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2024": {
       "files": [
@@ -87,7 +347,33 @@
           "path": "data/rawdata/2024/ACL2024.json",
           "sha256": "b7bc935a49f8ad5211e73cde99543935421ad67e24456f706711b2a4440cf4fd"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ACL2025": {
       "files": [
@@ -99,7 +385,33 @@
           "path": "data/rawdata/2025/ACL2025.json",
           "sha256": "e74df6d18242d558575dbd68d7313c6bdb00936e84389f3bad8b5b57d9b3e80c"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "AIJ2025": {
       "files": [
@@ -107,7 +419,33 @@
           "path": "data/rawdata/2025/AIJ2025.json",
           "sha256": "a0f9a43ba436abb4bdd7134f13475595416c9612d0f0cd6f910daef7e0479f09"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2020": {
       "files": [
@@ -115,7 +453,33 @@
           "path": "data/rawdata/2020/ASE2020.json",
           "sha256": "dcd3bb841acb88e998a697d53f1490f10614fc5decd4d28e3e95acab22636d3f"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2021": {
       "files": [
@@ -123,7 +487,33 @@
           "path": "data/rawdata/2021/ASE2021.json",
           "sha256": "31cf79027fafca43487bce38aa6c90d16b8b768055a1e5f62ecf7452778fdeaa"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2022": {
       "files": [
@@ -131,7 +521,33 @@
           "path": "data/rawdata/2022/ASE2022.json",
           "sha256": "c51bda2b50aec7bd5776112ff7c27224f68ccf4a2fe7ac496d8023d65f4fc463"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2023": {
       "files": [
@@ -139,7 +555,33 @@
           "path": "data/rawdata/2023/ASE2023.json",
           "sha256": "a13970ff92461d967c01271457725652cafa4a4082a1afe6500cceeff9d6cd98"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2024": {
       "files": [
@@ -151,7 +593,33 @@
           "path": "data/rawdata/2024/ASE2024.json",
           "sha256": "d130ee095c099845495d1a7d692657a7cb02a74b5ac7d2f6272d6957a7d44a8b"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ASE2025": {
       "files": [
@@ -159,7 +627,33 @@
           "path": "data/rawdata/2025/ASE2025-accepted.json",
           "sha256": "cb83c9a107c01f32676ae8a7d82aa26e2ed82f8d6d142167433c14e9f2d6bc6b"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ArXiv": {
       "files": [
@@ -167,7 +661,33 @@
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
           "sha256": "40a64bcac6ac30926fbb77ef366ebf41c0d422552dfd3641a85de850af24f7a8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2020": {
       "files": [
@@ -175,7 +695,33 @@
           "path": "data/rawdata/2020/CVPR2020.json",
           "sha256": "01a9815bf5b7003d1a391401c241eef211649783bc40aaebde7267c79dda8200"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2021": {
       "files": [
@@ -183,7 +729,33 @@
           "path": "data/rawdata/2021/CVPR2021.json",
           "sha256": "a716cbe900edd30e43eb09b87cacc32944dc8f8d366eb490678f03537dcedd29"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2022": {
       "files": [
@@ -191,7 +763,33 @@
           "path": "data/rawdata/2022/CVPR2022.json",
           "sha256": "5329034929ad24cd575d7a34eb27b8f015cd71b66379b25ca2fe17d52f822c08"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2023": {
       "files": [
@@ -199,7 +797,33 @@
           "path": "data/rawdata/2023/CVPR2023.json",
           "sha256": "946a03965a3c148cc95ddcb5db95778f4e586d7d99d7df5c3eaef571eb3fd72e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2024": {
       "files": [
@@ -207,7 +831,33 @@
           "path": "data/rawdata/2024/CVPR2024.json",
           "sha256": "7a9b6f14cbd59fac4fa75634336441a4c231c2876957a18c9490c5e532ae682b"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "CVPR2025": {
       "files": [
@@ -215,15 +865,207 @@
           "path": "data/rawdata/2025/CVPR2025.json",
           "sha256": "f687fdadc9af80886186e0498c8f4941355c996dbc9d9f0affdfb5b5629ba085"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "FSE2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/FSE2020.json",
+          "sha256": "ae43cab54ef314c4b31b3d22898c958dac5182ea8e09c70b984e970616aa11cb"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "FSE2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/FSE2021.json",
+          "sha256": "2598dffa324ffc5c0c7cba10d6180146f4800ed9dd88a1fb0c710c64b33f9472"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "FSE2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/FSE2022.json",
+          "sha256": "a8be7cfaf78c050e2b3ee21679ff4783fac12a409d91cb123ebffa1ca18f2667"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "FSE2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/FSE2023.json",
+          "sha256": "7cd012b5c10b2d69a80fc83382cd981ff28413d2fb14a42cfee64d2c570ac97a"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "FSE2024": {
       "files": [
         {
           "path": "data/rawdata/2024/FSE2024-accepted.json",
           "sha256": "4ae4f279a4d600009fbc6291e0b785af970b9593a6888964b74a80b8727bd347"
+        },
+        {
+          "path": "data/rawdata/2024/FSE2024.json",
+          "sha256": "87ceab7c2ff62ed88ffaed7630ecdaa6ca47ab3187b8276759fe08be41e28b48"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "FSE2025": {
       "files": [
@@ -235,7 +1077,33 @@
           "path": "data/rawdata/2025/FSE2025.json",
           "sha256": "0dcfd99ca6026207c1f5ebe4106ffb49bac6df223db5b602a7d76792d4f5e055"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICCV2021": {
       "files": [
@@ -243,7 +1111,33 @@
           "path": "data/rawdata/2021/ICCV2021.json",
           "sha256": "df11952bab0159fdeb072064c3d42e26b491ef0faa07dd15e8ba9ef4a7be20a8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICCV2023": {
       "files": [
@@ -251,7 +1145,33 @@
           "path": "data/rawdata/2023/ICCV2023.json",
           "sha256": "b705f77e46610371b85657b4b4acc38de9b76a14ccae37bcd6127b1f77b0dc19"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICCV2025": {
       "files": [
@@ -259,7 +1179,33 @@
           "path": "data/rawdata/2025/ICCV2025.json",
           "sha256": "df2e142cc03799f0d397332f0ad1bcf954bb510c3899b8f12a2f63f4fc7e4a3e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2020": {
       "files": [
@@ -267,7 +1213,33 @@
           "path": "data/rawdata/2020/ICDE2020.json",
           "sha256": "eee4b0671b45fb2bd834f84ab1d1cea33b32b878a17ca7e546e48caea13cf085"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2021": {
       "files": [
@@ -275,7 +1247,33 @@
           "path": "data/rawdata/2021/ICDE2021.json",
           "sha256": "9a17c5dcf06bc18641d4df255578052aef69d33b758bcff2d2394a8a867c4e41"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2022": {
       "files": [
@@ -283,7 +1281,33 @@
           "path": "data/rawdata/2022/ICDE2022.json",
           "sha256": "6aa4b9232684615283c7d7b46cd7cdea4935c56d7e259aed23e1066fbeea38ad"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2023": {
       "files": [
@@ -291,7 +1315,33 @@
           "path": "data/rawdata/2023/ICDE2023.json",
           "sha256": "156135a7cf6b00e8763e6da7939bb69faa5b4954e67d6abcd7ffa7835eeed6c7"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2024": {
       "files": [
@@ -299,7 +1349,33 @@
           "path": "data/rawdata/2024/ICDE2024.json",
           "sha256": "d529531e7d6bce0e34fa7342b71f88f10e81afef3ad0e40a2406fbb4d170320d"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICDE2025": {
       "files": [
@@ -311,7 +1387,33 @@
           "path": "data/rawdata/2025/ICDE2025.json",
           "sha256": "47b1c2eb8e42be5616906e57a275843303efc85e4d9f8b6520d15ac304282ed1"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2020": {
       "files": [
@@ -323,7 +1425,33 @@
           "path": "data/rawdata/2020/ICML2020.json",
           "sha256": "f48acaf0a0861d45bca93df72ec9f56ff9c053a546dc5eec7b0f490904e9d7f8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2021": {
       "files": [
@@ -335,7 +1463,33 @@
           "path": "data/rawdata/2021/ICML2021.json",
           "sha256": "eae56ddf41db8fed241e99735e856a9e02e0fb548337def34187d257de9c1979"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2022": {
       "files": [
@@ -347,7 +1501,33 @@
           "path": "data/rawdata/2022/ICML2022.json",
           "sha256": "df42d24cb4ef45670ec99cd9e853cce865649ae567c469454a8078a28c0196fb"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2023": {
       "files": [
@@ -359,7 +1539,33 @@
           "path": "data/rawdata/2023/ICML2023.json",
           "sha256": "1514673dc2b1e1e09f9c4933ffcf089c4bc260f9cee801acb2f047d5000916d2"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2024": {
       "files": [
@@ -371,7 +1577,33 @@
           "path": "data/rawdata/2024/ICML2024.json",
           "sha256": "0396e8b5fb2a9456145bbd88278cb3c09003e8ae621a2b1ed3254f2a2b8c1ed9"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICML2025": {
       "files": [
@@ -383,7 +1615,33 @@
           "path": "data/rawdata/2025/ICML2025.json",
           "sha256": "6e9b426b2378eda15f133073a7d02eb956436187f34b3d4e11cb6099f3c5a680"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2020": {
       "files": [
@@ -391,7 +1649,33 @@
           "path": "data/rawdata/2020/ICSE2020.json",
           "sha256": "125876dd5013975c485d147a218233722b97d15ebde268661e1df673e34686a5"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2021": {
       "files": [
@@ -399,7 +1683,33 @@
           "path": "data/rawdata/2021/ICSE2021.json",
           "sha256": "9e3944bfe4eddcbe2eb1bd91dbe15b7dbdeab0421e899fca0b028de3491b5bcd"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2022": {
       "files": [
@@ -407,7 +1717,33 @@
           "path": "data/rawdata/2022/ICSE2022.json",
           "sha256": "2c4c6590df60f26e6e900fa6d83531e2c529c2868c1973acea3e3a7087c3cc11"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2023": {
       "files": [
@@ -415,7 +1751,33 @@
           "path": "data/rawdata/2023/ICSE2023.json",
           "sha256": "f0fb292f6f447632fcaa55e60de388a528b6d0d76ec1e30dc84f2ad69b85452e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2024": {
       "files": [
@@ -427,7 +1789,33 @@
           "path": "data/rawdata/2024/ICSE2024.json",
           "sha256": "b862de099592df4887e34faa2f26d7e5cfcc2ed36f2ab3a12d7a12eb9c5d7ebe"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ICSE2025": {
       "files": [
@@ -439,7 +1827,33 @@
           "path": "data/rawdata/2025/ICSE2025.json",
           "sha256": "1a334acd07165a520f44e06eb5351a356796f7afe97119073f2a63e84ecf9c3f"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2020": {
       "files": [
@@ -451,7 +1865,33 @@
           "path": "data/rawdata/2020/IJCAI2020.json",
           "sha256": "62943213cb8943feba25ddbec2ee11881774aad64287898a2b04280af8591e7e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2021": {
       "files": [
@@ -463,7 +1903,33 @@
           "path": "data/rawdata/2021/IJCAI2021.json",
           "sha256": "b872d93fe8f319ec635421eae6b6428197418b56e91c6b7c8a4df3cfd122ac3b"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2022": {
       "files": [
@@ -475,7 +1941,33 @@
           "path": "data/rawdata/2022/IJCAI2022.json",
           "sha256": "63011c3344a741c785a6311f859ffc64ef42554cddfe434c39b3dd669626e46e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2023": {
       "files": [
@@ -487,7 +1979,33 @@
           "path": "data/rawdata/2023/IJCAI2023.json",
           "sha256": "d15f4c84829f7a7acb246223083af4d07cb22d04c4c61ef2a8a88beee09a6425"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2024": {
       "files": [
@@ -499,7 +2017,33 @@
           "path": "data/rawdata/2024/IJCAI2024.json",
           "sha256": "6332392a298d31d392be8e433fa151dd94b97177d84eb207637537789befbcca"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "IJCAI2025": {
       "files": [
@@ -511,7 +2055,33 @@
           "path": "data/rawdata/2025/IJCAI2025.json",
           "sha256": "c7be8d5ec3c801804f313e1f49f3a3ea9443ccf64f3b07eaaf49eebc0c79640e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2020": {
       "files": [
@@ -519,7 +2089,33 @@
           "path": "data/rawdata/2020/ISSTA2020.json",
           "sha256": "086f34682242ac1990c55dbdca0138e79483e9e5c688c8230fbfd365d43ca8c7"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2021": {
       "files": [
@@ -527,7 +2123,33 @@
           "path": "data/rawdata/2021/ISSTA2021.json",
           "sha256": "5db4df33b079bfc5c85eae5e5c63210eee84a478e49968354e78faae426ed0bd"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2022": {
       "files": [
@@ -535,7 +2157,33 @@
           "path": "data/rawdata/2022/ISSTA2022.json",
           "sha256": "723bbedf5be8b318ae8c5d957655f4c2bacbdb72eeb8c5cbaec28f9b73d4adf6"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2023": {
       "files": [
@@ -543,7 +2191,33 @@
           "path": "data/rawdata/2023/ISSTA2023.json",
           "sha256": "0181b9b14f62ac22fad6f60b4d4378af3e3ea3fed161d648d70a61e0fe56fec6"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2024": {
       "files": [
@@ -551,7 +2225,33 @@
           "path": "data/rawdata/2024/ISSTA2024.json",
           "sha256": "1b1ee7832c6bf09173f882d610f28ae217b62ae8a0cede0f1d7f49500ce13c4f"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "ISSTA2025": {
       "files": [
@@ -559,7 +2259,33 @@
           "path": "data/rawdata/2025/ISSTA2025-accepted.json",
           "sha256": "8e8780aa56025ebe18244d0c0bb390d3d81ad38ae5b251be254073be07d7c6e0"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2020": {
       "files": [
@@ -567,7 +2293,33 @@
           "path": "data/rawdata/2020/KDD2020.json",
           "sha256": "92954413550c8622da07c0afcf21b97594d35bc46831dd8a9e831b9da6c8022c"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2021": {
       "files": [
@@ -575,7 +2327,33 @@
           "path": "data/rawdata/2021/KDD2021.json",
           "sha256": "4154c6b17e226fe26bb2facfeabc735824cd931aa6653db707d62e74d5ba672d"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2022": {
       "files": [
@@ -583,7 +2361,33 @@
           "path": "data/rawdata/2022/KDD2022.json",
           "sha256": "d7cccc95138832ce5ecb7cec8099da458cdb6ae6357eb45461057b953abd3262"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2023": {
       "files": [
@@ -591,7 +2395,33 @@
           "path": "data/rawdata/2023/KDD2023.json",
           "sha256": "2b078f23c17528112d94e11a203335b455972e93488926cc6bc3492d4395fc9b"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2024": {
       "files": [
@@ -603,7 +2433,33 @@
           "path": "data/rawdata/2024/KDD2024.json",
           "sha256": "156f2f51b953ee52bf0b89b3a20eea29d37ed8577307b78fab05cb0bea61dba1"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "KDD2025": {
       "files": [
@@ -615,7 +2471,33 @@
           "path": "data/rawdata/2025/KDD2025.json",
           "sha256": "75689cf4043b3ee2d3fa66ede36a96f00f1b3194e212d92ea6c05bba4ff2f247"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2020": {
       "files": [
@@ -627,7 +2509,33 @@
           "path": "data/rawdata/2020/NeurIPS2020.json",
           "sha256": "10a23650abe386d58672aa585778d55da22b100ff3c60661183b3de323a0602e"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2021": {
       "files": [
@@ -639,7 +2547,33 @@
           "path": "data/rawdata/2021/NeurIPS2021.json",
           "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2022": {
       "files": [
@@ -651,7 +2585,33 @@
           "path": "data/rawdata/2022/NeurIPS2022.json",
           "sha256": "55ba3fccabbaab2653a9691389876df58fbc08b48e18cf94714aa06561f89cc8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2023": {
       "files": [
@@ -663,7 +2623,33 @@
           "path": "data/rawdata/2023/NeurIPS2023.json",
           "sha256": "2258c446921b39b63b05c9e406f372a50edcf4d0030a3514f2ee03e3b85bad3a"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2024": {
       "files": [
@@ -675,7 +2661,33 @@
           "path": "data/rawdata/2024/NeurIPS2024.json",
           "sha256": "3096f271a49fb85a56256c325bc5810f64033d757cf08fcc5dacf799c2481fae"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "NeurIPS2025": {
       "files": [
@@ -683,7 +2695,33 @@
           "path": "data/rawdata/2025/NeurIPS2025-accepted.json",
           "sha256": "2fb5b788bddd4b8581c2bee87055f1761350d1f365a8e5cc71b833f130490365"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2020": {
       "files": [
@@ -691,7 +2729,33 @@
           "path": "data/rawdata/2020/SIGIR2020.json",
           "sha256": "2e6b34c8627845638c8d4f64681b0ac3904e6bebc41cd8df89610a22e6233eb4"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2021": {
       "files": [
@@ -699,7 +2763,33 @@
           "path": "data/rawdata/2021/SIGIR2021.json",
           "sha256": "d219a354ac1f9b2f20734adf1e30a7768a0b40e4b1238b5b2834a1bb318e95de"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2022": {
       "files": [
@@ -707,7 +2797,33 @@
           "path": "data/rawdata/2022/SIGIR2022.json",
           "sha256": "6033b859f2c79a10e4820dc1fcf425306c3395b909edd35835e24f75b4bb2ee8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2023": {
       "files": [
@@ -715,7 +2831,33 @@
           "path": "data/rawdata/2023/SIGIR2023.json",
           "sha256": "32c59462380c124ee1d3356a945633d322c612158bfc778771b3a747897eba19"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2024": {
       "files": [
@@ -723,7 +2865,33 @@
           "path": "data/rawdata/2024/SIGIR2024.json",
           "sha256": "521ede0ff9e5b157cbdac6a4ce66a18ac733d0ee86811efd45a5f85a2cb42a7f"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGIR2025": {
       "files": [
@@ -735,7 +2903,33 @@
           "path": "data/rawdata/2025/SIGIR2025.json",
           "sha256": "342f4be0cbeac4ff6b9591111429375959170311086237c82c039d5b07c37f7a"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2020": {
       "files": [
@@ -747,7 +2941,33 @@
           "path": "data/rawdata/2020/SIGMOD2020.json",
           "sha256": "fdd68abc83eaf1ddee442a49fe24125724f7c6ef33e6ab247ef4c19684fc51d8"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2021": {
       "files": [
@@ -759,7 +2979,33 @@
           "path": "data/rawdata/2021/SIGMOD2021.json",
           "sha256": "312c39093047dc2d5ac84596b127a7c401598b97e899b2afb731672d149b4658"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2022": {
       "files": [
@@ -771,7 +3017,33 @@
           "path": "data/rawdata/2022/SIGMOD2022.json",
           "sha256": "30c9842e795334fb9ab494e8f339aef4b785098e7b9e13c786a7b9744eb476cb"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2023": {
       "files": [
@@ -783,7 +3055,33 @@
           "path": "data/rawdata/2023/SIGMOD2023.json",
           "sha256": "710424cca08ffd689e03591aa1688a698bbfc9d7dbb6d7c2f6530218742111a0"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2024": {
       "files": [
@@ -795,7 +3093,33 @@
           "path": "data/rawdata/2024/SIGMOD2024.json",
           "sha256": "d57d75f25b209994749103f83c2e51311576309a0507440f3403b39c539874d2"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2025": {
       "files": [
@@ -807,7 +3131,33 @@
           "path": "data/rawdata/2025/SIGMOD2025.json",
           "sha256": "21a5216ffcf575815b12827ca9eb7ed6f60037e7be16ff90f6c87b9b3c23c4d0"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "SIGMOD2026": {
       "files": [
@@ -815,7 +3165,33 @@
           "path": "data/rawdata/2026/SIGMOD2026-accepted.json",
           "sha256": "f03d35043a9b63494fc3d845b30a9770c6ece7a1eb060bbf2d2d48e88573b2cf"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "TKDE2025": {
       "files": [
@@ -823,7 +3199,33 @@
           "path": "data/rawdata/2025/TKDE2025.json",
           "sha256": "53fbcd92ba6cf8c583759cf593ce5a23f8f6805ddbffef0833f1d38f4f99bdae"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "TOSEM2025": {
       "files": [
@@ -831,7 +3233,33 @@
           "path": "data/rawdata/2025/TOSEM2025.json",
           "sha256": "be580070e74646980604320b3a76ed473b9c9fbc0b54d5e91e1ccf7d98a7084a"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "TSE2025": {
       "files": [
@@ -839,7 +3267,33 @@
           "path": "data/rawdata/2025/TSE2025.json",
           "sha256": "0eb3dc9f50dabfa9e1e14d46caa98393efe8d5120062958a4f9f7bb0c08dc358"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "VLDB2020": {
       "files": [
@@ -847,7 +3301,33 @@
           "path": "data/rawdata/2020/VLDB2020.json",
           "sha256": "d4035f83b9d08470687e875a5ab5c6ed4e2d5a877f08a2180355dd3fdd5c16bf"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "VLDB2021": {
       "files": [
@@ -855,7 +3335,33 @@
           "path": "data/rawdata/2021/VLDB2021.json",
           "sha256": "92c359fc431f586e34fb80e1206ab8cd3d3538a9b332b50664a6755d5cc6bfdb"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "VLDB2022": {
       "files": [
@@ -863,7 +3369,33 @@
           "path": "data/rawdata/2022/VLDB2022.json",
           "sha256": "9acbba371073ef5b1507e1f600701e3ee4eb141d3281a712411b18e9c505f4ff"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "VLDB2023": {
       "files": [
@@ -871,7 +3403,101 @@
           "path": "data/rawdata/2023/VLDB2023.json",
           "sha256": "e030c60fde929c5ab1e46e87f040f54ee617b7d126283ae00d328b7b266aa6e0"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "VLDB2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/VLDB2024.json",
+          "sha256": "c13e62832dc6908b36896fcc8c3b6a6b8d223066e7e9de315f3eece373b20d12"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
+    },
+    "VLDB2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/VLDB2025.json",
+          "sha256": "0fcd2819d66d869f42d63f668fd85406d3c7f34086d07e30af37400644e9400f"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "VLDBJ2025": {
       "files": [
@@ -879,7 +3505,33 @@
           "path": "data/rawdata/2025/VLDBJ2025.json",
           "sha256": "913bac4f0c2b18758345c2d7e6a33262c1b2b814bd608035eac573e817c813c4"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2020": {
       "files": [
@@ -887,7 +3539,33 @@
           "path": "data/rawdata/2020/WWW2020.json",
           "sha256": "d97963b9a786eed040d4bdd92f78bd7e28f660c1b63b0e590cceb4f5751fb884"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2021": {
       "files": [
@@ -895,7 +3573,33 @@
           "path": "data/rawdata/2021/WWW2021.json",
           "sha256": "4c18fefd416cce6bd679cf394e2158c494ebe110588f340c6899672ea25db143"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2022": {
       "files": [
@@ -903,7 +3607,33 @@
           "path": "data/rawdata/2022/WWW2022.json",
           "sha256": "3831d1cdfc6dd276beaddd0dc8def54b7e84ab59c5f595d2da77f18204b4cf68"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2023": {
       "files": [
@@ -911,7 +3641,33 @@
           "path": "data/rawdata/2023/WWW2023.json",
           "sha256": "3592aefdd3ea04c1a86942d179322241e24a430772b5949305246c9df61dc965"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2024": {
       "files": [
@@ -919,7 +3675,33 @@
           "path": "data/rawdata/2024/WWW2024.json",
           "sha256": "d0e26c7edbf403ac60d34e20b39b398295fcb7742fb66297f67c04baaa6e3d9d"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2025": {
       "files": [
@@ -927,7 +3709,33 @@
           "path": "data/rawdata/2025/WWW2025.json",
           "sha256": "cdad12959dfa439dff6c341f0264e93dee57a21f9dd8a3c7d1944fcb93047cf2"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "WWW2026": {
       "files": [
@@ -935,7 +3743,33 @@
           "path": "data/rawdata/2026/WWW2026-accepted.json",
           "sha256": "c88b49841a3ce5dc6e9b50fe6bb6dce311d096d7131e932073e7d5b218508440"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     },
     "其他": {
       "files": [
@@ -951,7 +3785,33 @@
           "path": "data/rawdata/2024/CCS2024.json",
           "sha256": "76ca6e1fe7e635ae5fa32ea9d1c6f3cc744217565ebe0ce99390dc0205deabc0"
         }
-      ]
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-p0-ccf-recall-v3",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "695c78ed561bbeb170530a4f5d991848017a3eec0b9c76b53f3bbc5f7a788e70"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "407cb9150b269d00fdcda4b6238c073bcd43edf7fc960fc113dd05fa48a886f0"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "994417f031fd91737df076b327bf097358bcccc68c8f945bfc828954511718a1"
+          }
+        ],
+        "sha256": "52c78091700b5b8286e4804ce8c354d43105571ff48b0485fc7368a086172be7"
+      }
     }
   }
 }

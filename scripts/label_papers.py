@@ -20,13 +20,22 @@ from taxonomy import LLM_TERMS, PIPELINE_TAXONOMY, TOPIC_TAXONOMY
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
+RELEVANCE_POLICY_VERSION = "2026-05-16-p0-ccf-recall-v3"
+
 
 def norm(text):
     return re.sub(r"\s+", " ", (text or "").lower())
 
 
+def contains_term(text, term):
+    if re.fullmatch(r"[a-z0-9]+", term or ""):
+        pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
+        return re.search(pattern, text) is not None
+    return term in text
+
+
 def contains_any(text, terms):
-    return any(term in text for term in terms)
+    return any(contains_term(text, term) for term in terms)
 
 
 DIRECT_TEXT2SQL_TERMS = [
@@ -34,7 +43,10 @@ DIRECT_TEXT2SQL_TERMS = [
     "text to sql",
     "text2sql",
     "nl2sql",
+    "nl-to-sql",
+    "nl to sql",
     "natural language to sql",
+    "natural language-to-sql",
     "natural-language-to-sql",
     "semantic parsing to sql",
     "semantic parsing into sql",
@@ -45,6 +57,13 @@ DIRECT_TEXT2SQL_TERMS = [
     "nlqs to sql",
     "natural language interface to database",
     "natural language interfaces to databases",
+    "natural language interface for database",
+    "natural language interface for databases",
+    "natural language database interface",
+    "natural language query interface",
+    "natural language querying on structured data",
+    "nli/db",
+    "nli-db",
     "nlidb",
     "consultas en lenguaje natural",
     "natural language query (nlq)",
@@ -113,6 +132,29 @@ NON_TEXT2SQL_DOMAIN_TERMS = [
     "wireless communications",
 ]
 
+CODE_ONLY_TERMS = [
+    "code generation",
+    "code search",
+    "semantic code search",
+    "source code",
+    "function-level code",
+    "programming language",
+]
+
+TASK_LIST_CONTEXT_TERMS = [
+    "continual learning",
+    "logits replay",
+    "moclip",
+    "class-incremental",
+    "task-incremental",
+    "multi-task",
+    "multitask",
+    "chart question answering",
+    "chart qa",
+    "visual question answering",
+    "multimodal",
+]
+
 BACKGROUND_MENTION_PATTERNS = [
     r"\bincluding\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text\s*[- ]?\s*to\s*[- ]?\s*sql",
     r"\bincluding\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text2sql",
@@ -125,6 +167,12 @@ BACKGROUND_MENTION_PATTERNS = [
 
 def background_only_text2sql_mention(text):
     return any(re.search(pattern, text) for pattern in BACKGROUND_MENTION_PATTERNS)
+
+
+def task_list_only_text2sql_mention(text):
+    if not re.search(r"\bnl2sql\s+tasks?\b|\btext\s*[- ]?\s*to\s*[- ]?\s*sql\s+tasks?\b|\btext2sql\s+tasks?\b", text):
+        return False
+    return contains_any(text, TASK_LIST_CONTEXT_TERMS + CODE_ONLY_TERMS)
 
 
 def relevance_level(title, abstract, keywords=""):
@@ -141,6 +189,10 @@ def relevance_level(title, abstract, keywords=""):
     boundary_application = contains_any(primary_text, APPLICATION_BOUNDARY_TERMS)
 
     if not direct_in_title and contains_any(primary_text, NON_TEXT2SQL_DOMAIN_TERMS):
+        return "irrelevant"
+    if task_list_only_text2sql_mention(primary_text):
+        return "irrelevant"
+    if not direct_in_title and contains_any(primary_text, CODE_ONLY_TERMS) and not contains_any(primary_text, SQL_GENERATION_TERMS):
         return "irrelevant"
     if not direct_in_title and background_only_text2sql_mention(primary_text):
         return "irrelevant"

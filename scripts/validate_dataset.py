@@ -111,6 +111,20 @@ def journal_rawdata_coverage(rawdata_dir, from_year, to_year):
     return coverage
 
 
+def ccf_conference_rawdata_coverage(rawdata_dir, from_year, to_year):
+    coverage = {}
+    for track, venue, _dblp_key, year in iter_ccf_a_venues(from_year, to_year, tracks=["AI", "DB", "SE"]):
+        files = sorted((Path(rawdata_dir) / str(year)).glob(f"{venue}{year}*.json"))
+        coverage[f"{venue}{year}"] = {
+            "track": track,
+            "venue": venue,
+            "year": year,
+            "files": [path.relative_to(REPO_ROOT).as_posix() for path in files],
+            "present": bool(files),
+        }
+    return coverage
+
+
 def report_failures(reports_dir):
     reports_dir = Path(reports_dir)
     failures = []
@@ -231,6 +245,17 @@ def validate(args):
     if missing_journals:
         fatal_errors.append(
             f"README journal rawdata missing for {args.from_year}-{args.to_year}: {', '.join(missing_journals)}"
+        )
+
+    conference_coverage = ccf_conference_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)
+    missing_conference_rawdata = [
+        key for key, record in sorted(conference_coverage.items()) if not record["present"]
+    ]
+    metrics["ccf_conference_rawdata_missing"] = missing_conference_rawdata
+    if missing_conference_rawdata:
+        fatal_errors.append(
+            f"CCF-A conference rawdata missing for {args.from_year}-{args.to_year}: "
+            + ", ".join(missing_conference_rawdata)
         )
 
     failures, report_warnings = report_failures(args.reports_dir)

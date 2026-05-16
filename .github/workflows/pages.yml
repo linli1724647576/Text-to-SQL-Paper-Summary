@@ -75,6 +75,10 @@ jobs:
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/reconcile_ccf_venues.py
 
+      - name: Dedupe and prune irrelevant papers
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/merge_labeldata.py --dedupe-only --prune-irrelevant
+
       - name: Validate dataset
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json

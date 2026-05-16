@@ -93,7 +93,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf /tmp/text2sql-gh-pages
           git clone --depth 1 --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" /tmp/text2sql-gh-pages
-          rsync -a --delete web/ /tmp/text2sql-gh-pages/
+          rsync -a --delete --exclude .git web/ /tmp/text2sql-gh-pages/
           touch /tmp/text2sql-gh-pages/.nojekyll
           cd /tmp/text2sql-gh-pages
           git add -A

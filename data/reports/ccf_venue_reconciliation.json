@@ -1,10 +1,45 @@
 {
   "summary": {
-    "ccf_raw_evidence_matches": 120,
-    "updated_count": 0,
-    "promoted_count": 0,
+    "ccf_raw_evidence_matches": 145,
+    "updated_count": 2,
+    "promoted_count": 2,
     "metadata_fix_count": 0,
-    "already_aligned_count": 120
+    "already_aligned_count": 143
   },
-  "updates": []
+  "updates": [
+    {
+      "title": "Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing",
+      "from": {
+        "venue": "ArXiv",
+        "venue_track": "ArXiv",
+        "booktitle": "arXiv",
+        "journal": ""
+      },
+      "to": {
+        "venue": "NeurIPS",
+        "venue_track": "AI 领域",
+        "booktitle": "NeurIPS Conference",
+        "journal": ""
+      },
+      "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
+      "rawdata_title": "Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing"
+    },
+    {
+      "title": "ST-Raptor: LLM-Powered Semi-Structured Table Question Answering",
+      "from": {
+        "venue": "ArXiv",
+        "venue_track": "ArXiv",
+        "booktitle": "arXiv",
+        "journal": ""
+      },
+      "to": {
+        "venue": "SIGMOD",
+        "venue_track": "数据库领域",
+        "booktitle": "SIGMOD Conference",
+        "journal": ""
+      },
+      "rawdata_path": "data/rawdata/2026/SIGMOD2026-accepted.json",
+      "rawdata_title": "ST-Raptor: LLM-Powered Semi-Structured Table Question Answering"
+    }
+  ]
 }

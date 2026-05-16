@@ -1,8 +1,8 @@
 {
   "summary": {
-    "fetched_entries": 93241,
+    "fetched_entries": 52204,
     "failure_count": 1,
-    "warning_count": 13
+    "warning_count": 75
   },
   "failures": [
     {
@@ -12,10 +12,109 @@
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "failed",
-      "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
+      "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 503: Service Unavailable"
     }
   ],
   "warnings": [
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/nips/nips2020.xml: HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/nips/nips2021.xml: HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/nips/nips2022.xml: HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/nips/nips2023.xml: HTTP Error 404: Not Found; https://dblp.org/db/conf/nips/neurips2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/nips/2023.xml: XML or text declaration not at start of entity: line 1, column 6"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/nips/nips2024.xml: HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/rec/conf/iccv/2023.xml: The read operation timed out; https://dblp.org/db/conf/iccvw/iccvw2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/iccvw/2023.xml: XML or text declaration not at start of entity: line 1, column 6"
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icml/icml2024.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/icml/2024.xml: XML or text declaration not at start of entity: line 1, column 6"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2021,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/ijcai/ijcai2021.xml: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2024,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/ijcai/ijcai2024.xml: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "venue": "SIGMOD",
+      "year": 2023,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigmod/sigmod2023.xml: HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "SIGMOD",
+      "year": 2024,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigmod/sigmod2024.xml: HTTP Error 404: Not Found"
+    },
     {
       "venue": "VLDB",
       "year": 2021,
@@ -23,7 +122,7 @@
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/journals/pvldb/pvldb14.xml: Remote end closed connection without response; https://dblp.org/db/conf/vldb/vldb2021.xml: Remote end closed connection without response"
+      "error": "https://dblp.org/db/journals/pvldb/pvldb14.xml: HTTP Error 503: Service Unavailable; https://dblp.org/db/conf/vldb/vldb2021.xml: HTTP Error 404: Not Found"
     },
     {
       "venue": "VLDB",
@@ -32,7 +131,7 @@
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/journals/pvldb/pvldb15.xml: Remote end closed connection without response; https://dblp.org/db/conf/vldb/vldb2022.xml: Remote end closed connection without response"
+      "error": "https://dblp.org/db/journals/pvldb/pvldb15.xml: The read operation timed out; https://dblp.org/db/conf/vldb/vldb2022.xml: HTTP Error 404: Not Found"
     },
     {
       "venue": "VLDB",
@@ -41,7 +140,7 @@
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/journals/pvldb/pvldb16.xml: Remote end closed connection without response; https://dblp.org/db/conf/vldb/vldb2023.xml: Remote end closed connection without response"
+      "error": "https://dblp.org/db/journals/pvldb/pvldb16.xml: HTTP Error 503: Service Unavailable; https://dblp.org/db/conf/vldb/vldb2023.xml: HTTP Error 404: Not Found"
     },
     {
       "venue": "VLDB",
@@ -50,16 +149,232 @@
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/journals/pvldb/pvldb17.xml: Remote end closed connection without response; https://dblp.org/db/conf/vldb/vldb2024.xml: Remote end closed connection without response"
+      "error": "https://dblp.org/db/conf/vldb/vldb2024.xml: HTTP Error 404: Not Found; https://dblp.org/db/conf/vldb/vldb2024w.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/vldb/2024w.xml: XML or text declaration not at start of entity: line 1, column 6"
     },
     {
-      "venue": "VLDB",
+      "venue": "WWW",
       "year": 2025,
       "track": "DB",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/journals/pvldb/pvldb18.xml: Remote end closed connection without response; https://dblp.org/db/conf/vldb/vldb2025.xml: HTTP Error 404: Not Found"
+      "error": "https://dblp.org/rec/conf/www/2025.xml: Remote end closed connection without response; https://dblp.org/db/conf/www/www2025c.xml: Remote end closed connection without response; https://dblp.org/rec/conf/www/2025c.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2020,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2020.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2021,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2021.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2022,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2022.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2023,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2023.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2024,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2024.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2025,
+      "track": "DB",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigir/sigir2025.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2020,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2020.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2021,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2021.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2022,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2022.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2023,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2023.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2024,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2024.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2025,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/icse/icse2025.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "FSE",
+      "year": 2020,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2020.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "FSE",
+      "year": 2021,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2021.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "FSE",
+      "year": 2024,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2024.xml: HTTP Error 404: Not Found; https://dblp.org/db/conf/sigsoft/fse2024c.xml: Remote end closed connection without response; https://dblp.org/rec/conf/sigsoft/2024c.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "FSE",
+      "year": 2025,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2025.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2020,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2020.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2021,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2021.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2022,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2022.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2023,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2023.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2024,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2024.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ASE",
+      "year": 2025,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/kbse/kbse2025.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ISSTA",
+      "year": 2020,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/issta/issta2020.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "ISSTA",
+      "year": 2021,
+      "track": "SE",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/issta/issta2021.xml: Remote end closed connection without response"
     },
     {
       "venue": "AIJ",
@@ -84,6 +399,14 @@
       "source": "openalex-journal-fallback",
       "status": "fallback_used",
       "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/ai/ai307.xml: Remote end closed connection without response; https://dblp.org/db/journals/ai/ai308.xml: Remote end closed connection without response; https://dblp.org/db/journals/ai/ai309.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "AIJ",
+      "year": 2023,
+      "track": "AI",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/ai/ai317.xml: Remote end closed connection without response; https://dblp.org/db/journals/ai/ai318.xml: Remote end closed connection without response; https://dblp.org/db/journals/ai/ai319.xml: Remote end closed connection without response"
     },
     {
       "venue": "AIJ",
@@ -118,13 +441,220 @@
       "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde32.xml: Remote end closed connection without response"
     },
     {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"text-to-sql\"",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "The read operation timed out"
+      "venue": "TKDE",
+      "year": 2021,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde33.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2022,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde34.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2023,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde35.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2024,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde36.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2025,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde37.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2026,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde38.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2020,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb29.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2021,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb30.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2022,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb31.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2023,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb32.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2024,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb33.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2025,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb34.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2026,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb35.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2020,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse46.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2021,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse47.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2022,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse48.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2023,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse49.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2024,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse50.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2025,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse51.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2026,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse52.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2020,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem29.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2021,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem30.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2022,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem31.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2023,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem32.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2024,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem33.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2025,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem34.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2026,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem35.xml: Remote end closed connection without response"
     }
   ]
 }

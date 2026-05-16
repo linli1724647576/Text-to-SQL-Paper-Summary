@@ -113,37 +113,36 @@
       "venue": "TOSEM",
       "normalized_venue": "TOSEM",
       "category": "软件工程",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3746226",
-        "https://doi.org/10.1145/3746226"
+        "https://doi.org/10.1145/3746226",
+        "https://openalex.org/W4411673827"
       ],
       "notes": "risk-directed sample"
     },
     {
-      "title": "Dynamic Hybrid Relation Exploration Network for Cross-Domain Context-Dependent Semantic Parsing",
+      "title": "EHRSQL: A Practical Text-to-SQL Benchmark for Electronic Health Records",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
+      "venue": "NeurIPS",
+      "normalized_venue": "NeurIPS",
       "category": "AI 领域",
-      "year": "2021",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v35i14.17550",
-        "https://doi.org/10.1609/aaai.v35i14.17550"
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/643e347250cf9289e5a2a6c1ed5ee42e-Abstract-Datasets_and_Benchmarks.html"
       ],
-      "notes": ""
+      "notes": "missing doi"
     },
     {
-      "title": "Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads",
+      "title": "Demonstration of ThalamusDB: Answering Complex SQL Queries with Natural Language Predicates on Multi-Modal Data",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_application",
@@ -151,13 +150,13 @@
       "venue": "SIGMOD",
       "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3722212.3725101",
-        "https://doi.org/10.1145/3722212.3725101"
+        "10.1145/3555041.3589730",
+        "https://doi.org/10.1145/3555041.3589730"
       ],
       "notes": ""
     },
@@ -180,41 +179,42 @@
       "notes": "missing doi"
     },
     {
-      "title": "Simplifying Data Integration: SLM-Driven Systems for Unified Semantic Queries Across Heterogeneous Databases",
+      "title": "Sevi: Speech-to-Visualization through Neural Machine Translation",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE65448.2025.00378",
-        "https://doi.org/10.1109/ICDE65448.2025.00378"
+        "10.1145/3514221.3520150",
+        "https://doi.org/10.1145/3514221.3520150"
       ],
       "notes": ""
     },
     {
-      "title": "Natural Language to SQL: State of the Art and Open Problems",
+      "title": "Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2025",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://www.vldb.org/pvldb/vol18/p5466-luo.pdf"
+        "10.1609/aaai.v34i05.6427",
+        "https://doi.org/10.1609/aaai.v34i05.6427"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
       "title": "Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL",
@@ -254,21 +254,39 @@
       "notes": ""
     },
     {
-      "title": "CLEAR: A Parser-Independent Disambiguation Framework for NL2SQL",
+      "title": "CatSQL: Towards Real World Natural Language to SQL Applications",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE65448.2025.00247",
-        "https://doi.org/10.1109/ICDE65448.2025.00247"
+        "https://www.vldb.org/pvldb/vol16/p1534-fu.pdf"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
+      "present_in_labeldata": true,
+      "stratum": "readme_journal",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1145/3579638",
+        "https://openalex.org/W4319736724"
       ],
       "notes": ""
     },
@@ -286,32 +304,13 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/TKDE.2025.3592032",
-        "https://doi.org/10.1109/TKDE.2025.3592032"
+        "https://doi.org/10.1109/tkde.2025.3592032",
+        "https://openalex.org/W4412623423"
       ],
       "notes": ""
     },
     {
-      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
-      "present_in_labeldata": true,
-      "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TSE",
-      "normalized_venue": "TSE",
-      "category": "软件工程",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/TSE.2024.3523284",
-        "https://doi.org/10.1109/TSE.2024.3523284"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
+      "title": "A Survey on Deep Reinforcement Learning for Data Processing and Analytics",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_application",
@@ -319,32 +318,13 @@
       "venue": "TKDE",
       "normalized_venue": "TKDE",
       "category": "数据库领域",
-      "year": "2024",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/TKDE.2024.3393356",
-        "https://doi.org/10.1109/TKDE.2024.3393356"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
-      "present_in_labeldata": true,
-      "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TOSEM",
-      "normalized_venue": "TOSEM",
-      "category": "软件工程",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3579638",
-        "https://doi.org/10.1145/3579638"
+        "https://doi.org/10.1109/tkde.2022.3155196",
+        "https://openalex.org/W3188362739"
       ],
       "notes": ""
     },
@@ -362,27 +342,46 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/TKDE.2025.3525587",
-        "https://doi.org/10.1109/TKDE.2025.3525587"
+        "https://doi.org/10.1109/tkde.2025.3525587",
+        "https://openalex.org/W4406028351"
       ],
       "notes": ""
     },
     {
-      "title": "Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey",
+      "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
       "category": "数据库领域",
       "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/TKDE.2024.3400824",
-        "https://doi.org/10.1109/TKDE.2024.3400824"
+        "https://doi.org/10.1007/s00778-024-00837-0",
+        "https://openalex.org/W4391883497"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "prompt4vis: prompting large language models with example mining for tabular data visualization",
+      "present_in_labeldata": true,
+      "stratum": "readme_journal",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1007/s00778-025-00912-0",
+        "https://openalex.org/W4410034792"
       ],
       "notes": ""
     },
@@ -406,7 +405,26 @@
       "notes": ""
     },
     {
-      "title": "ODIN: A NL2SQL Recommender to Handle Schema Ambiguity",
+      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
+      "present_in_labeldata": true,
+      "stratum": "readme_journal",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1007/s00778-023-00809-w",
+        "https://openalex.org/W4386099755"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "LLMSQL: Upgrading WikiSQL for the LLM Era of Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -419,61 +437,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2505.19302v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2604.28049v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Can Language Models Analyze Data? Evaluating Large Language Models for Question Answering over Datasets",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2605.10419v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2508.07087v2"
+        "https://arxiv.org/abs/2510.02350v2"
       ],
       "notes": "missing doi"
     },
@@ -496,7 +460,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL",
+      "title": "Agentic LLMs for Question Answering over Tabular Data",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -509,158 +473,14 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.15276v2"
+        "https://arxiv.org/abs/2509.09234v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Boundary-Aware NL2SQL: Integrating Reliability through Hybrid Reward and Data Synthesis",
+      "title": "SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.10318v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "LLMSQL: Upgrading WikiSQL for the LLM Era of Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2510.02350v2"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "TiInsight: A SQL-based Automated Exploratory Data Analysis System through Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.09404v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2604.25149v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Business Logic-Driven Text-to-SQL Data Synthesis for Business Intelligence",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.14518v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "ATHENA++: Natural Language Querying for Complex Nested SQL Queries",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "http://www.vldb.org/pvldb/vol13/p2747-sen.pdf"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Lightweight Transformers for Zero-Shot and Fine-Tuned Text-to-SQL Generation Using Spider",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2508.04623v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2507.06013v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "On Repairing Natural Language to SQL Queries",
-      "present_in_labeldata": true,
-      "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
       "venue": "ArXiv",
@@ -671,64 +491,195 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2310.03866v1"
+        "https://arxiv.org/abs/2305.11061v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability",
+      "title": "Datrics Text2SQL: A Framework for Natural Language to SQL Query Generation",
       "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE65448.2025.00065",
-        "https://doi.org/10.1109/ICDE65448.2025.00065"
+        "https://arxiv.org/abs/2506.12234v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2020",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2006.06434v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2509.24403v6"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Exploring Database Normalization Effects on SQL Generation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2510.01989v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "A survey on deep learning approaches for text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1007/s00778-022-00776-8",
+        "https://openalex.org/W4317716303"
       ],
       "notes": ""
     },
     {
-      "title": "APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL",
+      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
       "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TSE",
+      "normalized_venue": "TSE",
+      "category": "软件工程",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.16720v1"
+        "https://doi.org/10.1109/tse.2024.3523284",
+        "https://openalex.org/W4405846260"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
-      "title": "DP-Bench: A Benchmark for Evaluating Data Product Creation Systems",
+      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
       "present_in_labeldata": true,
-      "stratum": "fill",
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1109/tkde.2024.3393356",
+        "https://openalex.org/W4396597709"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1007/s00778-021-00663-8",
+        "https://openalex.org/W3144778742"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1109/tkde.2024.3400824",
+        "https://openalex.org/W4396886508"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.15798v1"
+        "https://doi.org/10.1145/3767739",
+        "https://openalex.org/W4414241772"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
       "title": "Explaining Natural Language query results",
@@ -748,6 +699,60 @@
         "https://doi.org/10.1007/s00778-019-00584-7"
       ],
       "notes": ""
+    },
+    {
+      "title": "Comparison and Analysis of Value Linking in Text-to-SQL systems",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://2026.sigmod.org/sigmod_papers.shtml"
+      ],
+      "notes": "missing doi, abstract"
+    },
+    {
+      "title": "Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2602.17001v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "BenchPress: A Human-in-the-Loop Annotation System for Rapid Text-to-SQL Benchmark Curation",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2510.13853v2"
+      ],
+      "notes": "missing doi"
     }
   ]
 }

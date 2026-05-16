@@ -79,6 +79,22 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7160951202"
   },
+  "Selection Hyper-heuristics Can Automatically Adjust the Learning Period to Optimally Solve Pseudo-Boolean Problems": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7161239509",
+    "author": "Benjamin Doerr and Pietro S. Oliveto and John Alasdair Warwicker",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Selection Hyper-heuristics Can Automatically Adjust the Learning Period to Optimally Solve Pseudo-Boolean Problems",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Selection (genetic algorithm), Computer science, Artificial intelligence, Machine learning, Period (music), Mathematical optimization, Probably approximately correct learning, Algorithm, Feature selection, Pattern recognition (psychology)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104560",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104560",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7161239509"
+  },
   "Approximate multi-objective search": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7155625204",

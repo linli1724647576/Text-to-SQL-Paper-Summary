@@ -1,19 +1,10 @@
 {
   "summary": {
-    "fetched_entries": 43891,
-    "failure_count": 1,
+    "fetched_entries": 44130,
+    "failure_count": 0,
     "warning_count": 2
   },
-  "failures": [
-    {
-      "venue": "SIGIR",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://sigir2025.dei.unipd.it/accepted-papers.html",
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
-    }
-  ],
+  "failures": [],
   "warnings": [
     {
       "venue": "ISSTA",

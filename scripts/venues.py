@@ -1,5 +1,7 @@
 """Tracked venue configuration matching the ASE survey coverage style."""
 
+import re
+
 TRACKED_VENUES = {
     "Software Engineering": {
         "ICSE": {
@@ -135,69 +137,146 @@ CCF_A_VENUES = {
 }
 
 
+AI_CCF_A_VENUES = {
+    "AAAI",
+    "ACL",
+    "AIJ",
+    "CVPR",
+    "ICCV",
+    "ICML",
+    "IJCV",
+    "IJCAI",
+    "JMLR",
+    "NeurIPS",
+    "TPAMI",
+}
+
+DATABASE_CCF_A_VENUES = {
+    "ICDE",
+    "KDD",
+    "PODS",
+    "SIGIR",
+    "SIGMOD",
+    "TKDE",
+    "TODS",
+    "TOIS",
+    "VLDB",
+    "VLDBJ",
+    "WWW",
+}
+
+SE_CCF_A_VENUES = {
+    "ASE",
+    "FSE",
+    "ICSE",
+    "ISSTA",
+    "TOSEM",
+    "TSE",
+}
+
+PUBLICATION_CATEGORIES = [
+    "软件工程",
+    "数据库领域",
+    "AI 领域",
+    "ArXiv",
+    "其他",
+]
+
+OTHER_VENUE = "其他"
+ARXIV_VENUE = "ArXiv"
+
+ALL_CCF_A_VENUES = AI_CCF_A_VENUES | DATABASE_CCF_A_VENUES | SE_CCF_A_VENUES
+
 VENUE_ALIASES = {
-    "acl": "ACL",
-    "annual meeting of the association for computational linguistics": "ACL",
-    "findings of the association for computational linguistics": "ACL",
-    "emnlp": "EMNLP",
-    "empirical methods in natural language processing": "EMNLP",
-    "naacl": "NAACL",
-    "north american chapter of the association for computational linguistics": "NAACL",
-    "icml": "ICML",
-    "international conference on machine learning": "ICML",
     "aaai": "AAAI",
     "aaai conference on artificial intelligence": "AAAI",
-    "ijcai": "IJCAI",
-    "international joint conference on artificial intelligence": "IJCAI",
-    "cvpr": "CVPR",
+    "acl": "ACL",
+    "annual meeting of the association for computational linguistics": "ACL",
+    "artificial intelligence": "AIJ",
+    "artificial intelligence journal": "AIJ",
     "computer vision and pattern recognition": "CVPR",
+    "cvpr": "CVPR",
     "iccv": "ICCV",
     "international conference on computer vision": "ICCV",
+    "icml": "ICML",
+    "international conference on machine learning": "ICML",
+    "ijcai": "IJCAI",
+    "international joint conference on artificial intelligence": "IJCAI",
+    "international journal of computer vision": "IJCV",
+    "journal of machine learning research": "JMLR",
     "neurips": "NeurIPS",
-    "nips": "NeurIPS",
     "neural information processing systems": "NeurIPS",
-    "iclr": "ICLR",
-    "international conference on learning representations": "ICLR",
-    "openreview.net": "ICLR",
-    "icse": "ICSE",
-    "international conference on software engineering": "ICSE",
-    "fse": "FSE",
-    "foundations of software engineering": "FSE",
-    "joint meeting on european software engineering conference and symposium on the foundations of software engineering": "FSE",
-    "ase": "ASE",
-    "automated software engineering": "ASE",
-    "issta": "ISSTA",
-    "international symposium on software testing and analysis": "ISSTA",
-    "tse": "TSE",
-    "ieee transactions on software engineering": "TSE",
-    "tosem": "TOSEM",
-    "acm transactions on software engineering and methodology": "TOSEM",
-    "sigmod": "SIGMOD",
+    "nips": "NeurIPS",
+    "transactions on pattern analysis and machine intelligence": "TPAMI",
+    "tpami": "TPAMI",
+    "acm sigmod": "SIGMOD",
     "international conference on management of data": "SIGMOD",
-    "vldb": "VLDB",
-    "very large data bases": "VLDB",
+    "pacmmod": "SIGMOD",
+    "proceedings of the acm on management of data": "SIGMOD",
+    "sigmod": "SIGMOD",
+    "acm transactions on database systems": "TODS",
+    "tods": "TODS",
+    "acm transactions on information systems": "TOIS",
+    "tois": "TOIS",
+    "ieee transactions on knowledge and data engineering": "TKDE",
+    "tkde": "TKDE",
     "icde": "ICDE",
     "international conference on data engineering": "ICDE",
     "kdd": "KDD",
     "knowledge discovery and data mining": "KDD",
-    "www": "WWW",
-    "web conference": "WWW",
+    "pods": "PODS",
+    "principles of database systems": "PODS",
     "sigir": "SIGIR",
     "research and development in information retrieval": "SIGIR",
-    "pldi": "PLDI",
-    "programming language design and implementation": "PLDI",
-    "oopsla": "OOPSLA",
-    "popl": "POPL",
-    "principles of programming languages": "POPL",
-    "ccs": "CCS",
-    "computer and communications security": "CCS",
-    "conference on computer and communications security": "CCS",
-    "usenix security": "USENIXSec",
-    "s&p": "S&P",
-    "security and privacy": "S&P",
-    "ndss": "NDSS",
-    "network and distributed system security": "NDSS",
+    "the web conference": "WWW",
+    "web conference": "WWW",
+    "www conference": "WWW",
+    "world wide web conference": "WWW",
+    "thewebconf": "WWW",
+    "vldb": "VLDB",
+    "very large data bases": "VLDB",
+    "proceedings of the vldb endowment": "VLDB",
+    "vldb journal": "VLDBJ",
+    "vldbj": "VLDBJ",
+    "ieee/acm international conference on automated software engineering": "ASE",
+    "ieee / acm international conference on automated software engineering": "ASE",
+    "international conference on automated software engineering": "ASE",
+    "automated software engineering": "ASE",
+    "ase": "ASE",
+    "joint meeting on european software engineering conference and symposium on the foundations of software engineering": "FSE",
+    "foundations of software engineering": "FSE",
+    "fse": "FSE",
+    "icse": "ICSE",
+    "international conference on software engineering": "ICSE",
+    "international symposium on software testing and analysis": "ISSTA",
+    "issta": "ISSTA",
+    "acm transactions on software engineering and methodology": "TOSEM",
+    "tosem": "TOSEM",
+    "ieee transactions on software engineering": "TSE",
+    "tse": "TSE",
 }
+
+
+def _contains_alias(haystack, alias):
+    if len(alias) <= 4 and re.fullmatch(r"[a-z&]+", alias):
+        pattern = rf"(?<![a-z0-9]){re.escape(alias)}(?![a-z0-9])"
+        return re.search(pattern, haystack) is not None
+    return alias in haystack
+
+
+def venue_base_name(venue):
+    compact = (venue or "").strip()
+    if "arxiv" in compact.lower():
+        return ARXIV_VENUE
+    compact = re.sub(r"\s*20\d{2}$", "", compact)
+    compact = re.sub(r"20\d{2}$", "", compact)
+    compact = re.sub(r"[-_ ]?(main|findings|short|long|demo|industry)$", "", compact, flags=re.I)
+    compact = compact.strip(" -_")
+    if compact in ALL_CCF_A_VENUES:
+        return compact
+    if compact == ARXIV_VENUE:
+        return ARXIV_VENUE
+    return OTHER_VENUE
 
 
 def iter_tracked_venues(from_year=None, to_year=None):
@@ -226,17 +305,46 @@ def iter_ccf_a_venues(from_year=None, to_year=None, tracks=None):
 
 
 def normalize_venue_name(raw_venue, title="", year=""):
-    haystack = f"{raw_venue} {title}".lower()
+    haystack = (raw_venue or "").lower()
     for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
-        if alias in haystack:
+        if _contains_alias(haystack, alias):
             return f"{abbr}{year}" if year else abbr
-    compact = (raw_venue or "Unknown").strip()
-    compact = compact.strip()
-    if year:
-        compact = compact.replace(str(year), "").strip(" -_")
-    if not compact:
-        compact = "Unknown"
-    return f"{compact} {year}".strip()
+    return OTHER_VENUE
+
+
+def publication_category(entry):
+    """Classify papers into the five publication buckets used by the website."""
+    venue = normalize_entry_venue(entry)
+    if venue == ARXIV_VENUE:
+        return "ArXiv"
+    base = venue_base_name(venue)
+    if base in SE_CCF_A_VENUES:
+        return "软件工程"
+    if base in DATABASE_CCF_A_VENUES:
+        return "数据库领域"
+    if base in AI_CCF_A_VENUES:
+        return "AI 领域"
+    return "其他"
+
+
+def _venue_source_text(entry):
+    # Do not trust the existing "venue" field here: older runs may already have
+    # written a wrong bucket such as ASE. Use source-like fields instead.
+    return " ".join(
+        str(entry.get(key, ""))
+        for key in ("booktitle", "journal", "container", "source", "publisher", "url", "doi")
+    ).lower()
+
+
+def normalize_entry_venue(entry):
+    """Return a strict CCF-A venue bucket, ArXiv, or Other."""
+    source_text = _venue_source_text(entry)
+    if "arxiv" in source_text:
+        return ARXIV_VENUE
+    for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
+        if _contains_alias(source_text, alias):
+            return abbr
+    return OTHER_VENUE
 
 
 def canonical_venue_from_filename(path):

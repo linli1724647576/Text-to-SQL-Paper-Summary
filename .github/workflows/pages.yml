@@ -22,7 +22,8 @@ on:
         type: string
         default: "2026"
   schedule:
-    - cron: "17 3 1 * *"
+    # 01:00 Asia/Shanghai every day.
+    - cron: "0 17 * * *"
 
 permissions:
   contents: write
@@ -48,7 +49,7 @@ jobs:
 
       - name: Fetch full rawdata
         if: github.event_name == 'schedule' || inputs.full_crawl
-        run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year }}" --to-year "${{ inputs.to_year }}" --arxiv-max-results 1000 --sleep 0.5
+        run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --arxiv-max-results 1000 --sleep 0.5
 
       - name: Enrich abstracts
         if: github.event_name == 'schedule' || inputs.full_crawl
@@ -59,6 +60,14 @@ jobs:
       - name: Process rawdata
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/process_folder.py
+
+      - name: Fetch official accepted papers
+        if: github.event_name == 'schedule' || inputs.full_crawl
+        run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
+
+      - name: Merge official accepted papers
+        if: github.event_name == 'schedule' || inputs.full_crawl
+        run: python scripts/process_official_accepted.py
 
       - name: Build site
         run: python scripts/build_site.py

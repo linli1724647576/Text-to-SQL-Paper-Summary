@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from venues import iter_tracked_venues, normalize_venue_name
+from venues import iter_tracked_venues, normalize_entry_venue, normalize_venue_name, publication_category
 
 
 DEFAULT_SEARCH_QUERIES = [
@@ -109,7 +109,7 @@ def normalize_s2_paper(paper, venue_override=None, venue_track=None):
     url = paper.get("url") or ""
     if paper.get("externalIds", {}).get("DOI"):
         url = "https://doi.org/" + paper["externalIds"]["DOI"]
-    return {
+    entry = {
         "type": paper.get("publicationTypes", [""])[0] if paper.get("publicationTypes") else "",
         "key": paper.get("paperId") or "",
         "author": " and ".join(authors),
@@ -120,10 +120,13 @@ def normalize_s2_paper(paper, venue_override=None, venue_track=None):
         "keywords": ", ".join(paper.get("fieldsOfStudy") or []),
         "url": url,
         "doi": paper.get("externalIds", {}).get("DOI", ""),
-        "venue": venue_override or normalize_venue_name(venue, title, year),
+        "venue": normalize_venue_name(venue, title, year),
         "venue_track": venue_track or "",
         "semantic_scholar_id": paper.get("paperId") or "",
     }
+    entry["venue"] = normalize_entry_venue(entry)
+    entry["venue_track"] = publication_category(entry)
+    return entry
 
 
 def normalize_work(work, venue_override=None, venue_track=None):
@@ -146,9 +149,9 @@ def normalize_work(work, venue_override=None, venue_track=None):
 
     year = str(work.get("publication_year") or "")
     venue = source_name(work)
-    venue_label = venue_override or normalize_venue_name(venue, title, year)
+    venue_label = normalize_venue_name(venue, title, year)
 
-    return {
+    entry = {
         "type": work.get("type") or "",
         "key": work.get("id") or "",
         "author": " and ".join(authors),
@@ -163,6 +166,9 @@ def normalize_work(work, venue_override=None, venue_track=None):
         "venue_track": venue_track or "",
         "openalex_id": work.get("id") or "",
     }
+    entry["venue"] = normalize_entry_venue(entry)
+    entry["venue_track"] = publication_category(entry)
+    return entry
 
 
 def crawl_query(query, from_year, to_year, max_results, sleep):

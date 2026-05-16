@@ -3,36 +3,30 @@
 
 import html
 import json
-import re
 from pathlib import Path
 
 from taxonomy import PIPELINE_TAXONOMY, TOPIC_TAXONOMY
-from venues import normalize_venue_name
+from venues import PUBLICATION_CATEGORIES, normalize_entry_venue, publication_category, venue_base_name
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = REPO_ROOT / "data" / "labeldata" / "labeldata.json"
 OUTPUT_PATH = REPO_ROOT / "web" / "index.html"
 
 
-def venue_base(venue):
-    venue = normalize_venue_name(venue or "")
-    venue = re.sub(r"\s*20\d{2}$", "", venue or "")
-    venue = re.sub(r"20\d{2}$", "", venue or "")
-    venue = re.sub(r"[-_ ]?(main|findings|short|long|demo|industry)$", "", venue, flags=re.I)
-    return venue or "Unknown"
-
-
 def compact_papers(data):
     papers = []
     for title, entry in data.items():
+        venue = normalize_entry_venue(entry)
+        category = publication_category({**entry, "venue": venue})
         papers.append(
             {
                 "t": entry.get("title", title),
                 "a": entry.get("abstract", ""),
                 "au": entry.get("author", ""),
                 "y": str(entry.get("year", "")),
-                "v": normalize_venue_name(entry.get("venue", ""), entry.get("title", title), str(entry.get("year", ""))),
-                "vb": venue_base(entry.get("venue", "")),
+                "v": venue,
+                "vb": venue_base_name(venue),
+                "c": category,
                 "u": entry.get("url", ""),
                 "l": entry.get("labels", []),
                 "s": entry.get("pipeline_stages", []),
@@ -65,7 +59,7 @@ def make_options(values, counts_map, label):
     options = [f'<option value="">{html.escape(label)}</option>']
     for value in values:
         options.append(
-            f'<option value="{html.escape(value)}">{html.escape(value)} ({counts_map[value]})</option>'
+            f'<option value="{html.escape(value)}">{html.escape(value)} ({counts_map.get(value, 0)})</option>'
         )
     return "\n".join(options)
 
@@ -75,8 +69,10 @@ def render_html(papers):
     stage_counts = counts(papers, "s")
     year_counts = scalar_counts(papers, "y")
     venue_counts = scalar_counts(papers, "vb")
+    category_counts = scalar_counts(papers, "c")
     years = sorted([y for y in year_counts if y and y != "Unknown"], reverse=True)
     venues = sorted(venue_counts)
+    categories = PUBLICATION_CATEGORIES
 
     return TEMPLATE.replace("__PAPERS__", json.dumps(papers, ensure_ascii=False)).replace(
         "__TOPIC_TAXONOMY__", json.dumps(TOPIC_TAXONOMY, ensure_ascii=False)
@@ -92,6 +88,14 @@ def render_html(papers):
         "__YEAR_OPTIONS__", make_options(years, year_counts, "All Years")
     ).replace(
         "__VENUE_OPTIONS__", make_options(venues, venue_counts, "All Venues")
+    ).replace(
+        "__CATEGORY_OPTIONS__", make_options(categories, category_counts, "All Categories")
+    ).replace(
+        "__YEARS__", json.dumps(years, ensure_ascii=False)
+    ).replace(
+        "__VENUES__", json.dumps(venues, ensure_ascii=False)
+    ).replace(
+        "__CATEGORIES__", json.dumps(categories, ensure_ascii=False)
     )
 
 
@@ -331,6 +335,7 @@ input:focus, select:focus { outline: 3px solid rgba(37,99,235,.14); border-color
     <div class="pipeline" id="pipeline"></div>
     <div class="toolbar">
       <div class="search"><input id="search" placeholder="Search by title, abstract, author, topic..." autocomplete="off"></div>
+      <select id="category">__CATEGORY_OPTIONS__</select>
       <select id="year">__YEAR_OPTIONS__</select>
       <select id="venue">__VENUE_OPTIONS__</select>
     </div>
@@ -350,10 +355,14 @@ const PIPELINE_TAXONOMY = __PIPELINE_TAXONOMY__;
 const TOPIC_COUNTS = __TOPIC_COUNTS__;
 const STAGE_COUNTS = __STAGE_COUNTS__;
 const TOTAL = __TOTAL__;
+const YEARS = __YEARS__;
+const VENUES = __VENUES__;
+const CATEGORIES = __CATEGORIES__;
 
 const activeTopics = new Set();
 const activeStages = new Set();
 let query = "";
+let activeCategory = "";
 let activeYear = "";
 let activeVenue = "";
 let filtered = PAPERS.slice();
@@ -390,8 +399,20 @@ function renderTree(targetId, taxonomy, counts, activeSet, type) {
 }
 
 function syncSidebar() {
-  renderTree("topicTree", TOPIC_TAXONOMY, TOPIC_COUNTS, activeTopics, "topic");
-  renderTree("stageTree", PIPELINE_TAXONOMY, STAGE_COUNTS, activeStages, "stage");
+  renderTree(
+    "topicTree",
+    TOPIC_TAXONOMY,
+    countLabels(PAPERS.filter(paper => matches(paper, "topic")), "l"),
+    activeTopics,
+    "topic"
+  );
+  renderTree(
+    "stageTree",
+    PIPELINE_TAXONOMY,
+    countLabels(PAPERS.filter(paper => matches(paper, "stage")), "s"),
+    activeStages,
+    "stage"
+  );
   byId("clearTopics").classList.toggle("show", activeTopics.size > 0);
   byId("clearStages").classList.toggle("show", activeStages.size > 0);
   renderPipeline();
@@ -425,17 +446,71 @@ document.addEventListener("click", event => {
 byId("clearTopics").onclick = () => { activeTopics.clear(); applyFilters(); };
 byId("clearStages").onclick = () => { activeStages.clear(); applyFilters(); };
 byId("search").oninput = event => { query = event.target.value.trim().toLowerCase(); applyFilters(); };
+byId("category").onchange = event => { activeCategory = event.target.value; applyFilters(); };
 byId("year").onchange = event => { activeYear = event.target.value; applyFilters(); };
 byId("venue").onchange = event => { activeVenue = event.target.value; applyFilters(); };
 
-function matches(paper) {
-  const text = [paper.t, paper.a, paper.au, paper.v, paper.l.join(" "), paper.s.join(" ")].join(" ").toLowerCase();
+function matches(paper, exclude = "") {
+  const text = [paper.t, paper.a, paper.au, paper.v, paper.c, paper.l.join(" "), paper.s.join(" ")].join(" ").toLowerCase();
   if (query && !text.includes(query)) return false;
-  if (activeYear && paper.y !== activeYear) return false;
-  if (activeVenue && paper.vb !== activeVenue) return false;
-  if ([...activeTopics].some(label => !paper.l.includes(label))) return false;
-  if ([...activeStages].some(label => !paper.s.includes(label))) return false;
+  if (exclude !== "category" && activeCategory && paper.c !== activeCategory) return false;
+  if (exclude !== "year" && activeYear && paper.y !== activeYear) return false;
+  if (exclude !== "venue" && activeVenue && paper.vb !== activeVenue) return false;
+  if (exclude !== "topic" && [...activeTopics].some(label => !paper.l.includes(label))) return false;
+  if (exclude !== "stage" && [...activeStages].some(label => !paper.s.includes(label))) return false;
   return true;
+}
+
+function countLabels(papers, key) {
+  return papers.reduce((acc, paper) => {
+    (paper[key] || []).forEach(value => {
+      acc[value] = (acc[value] || 0) + 1;
+    });
+    return acc;
+  }, {});
+}
+
+function countScalar(papers, key) {
+  return papers.reduce((acc, paper) => {
+    const value = paper[key] || "Unknown";
+    acc[value] = (acc[value] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+function refreshSelect(selectId, values, counts, allLabel, activeValue) {
+  const select = byId(selectId);
+  select.innerHTML = [`<option value="">${escapeHtml(allLabel)}</option>`].concat(
+    values.map(value => {
+      const count = counts[value] || 0;
+      const selected = value === activeValue ? " selected" : "";
+      return `<option value="${escapeHtml(value)}"${selected}>${escapeHtml(value)} (${count})</option>`;
+    })
+  ).join("");
+}
+
+function syncSelectCounts() {
+  refreshSelect(
+    "category",
+    CATEGORIES,
+    countScalar(PAPERS.filter(paper => matches(paper, "category")), "c"),
+    "All Categories",
+    activeCategory
+  );
+  refreshSelect(
+    "year",
+    YEARS,
+    countScalar(PAPERS.filter(paper => matches(paper, "year")), "y"),
+    "All Years",
+    activeYear
+  );
+  refreshSelect(
+    "venue",
+    VENUES,
+    countScalar(PAPERS.filter(paper => matches(paper, "venue")), "vb"),
+    "All Venues",
+    activeVenue
+  );
 }
 
 function tag(label, kind) {
@@ -444,6 +519,7 @@ function tag(label, kind) {
 
 function renderTags() {
   const tags = [];
+  if (activeCategory) tags.push(tag("Category: " + activeCategory, "category"));
   if (activeYear) tags.push(tag("Year: " + activeYear, "year"));
   if (activeVenue) tags.push(tag("Venue: " + activeVenue, "venue"));
   activeTopics.forEach(label => tags.push(tag(label, "topic")));
@@ -459,6 +535,7 @@ byId("filterTags").onclick = event => {
   const value = button.dataset.remove;
   if (kind === "topic") activeTopics.delete(value);
   if (kind === "stage") activeStages.delete(value);
+  if (kind === "category") { activeCategory = ""; byId("category").value = ""; }
   if (kind === "year") { activeYear = ""; byId("year").value = ""; }
   if (kind === "venue") { activeVenue = ""; byId("venue").value = ""; }
   if (kind === "query") { query = ""; byId("search").value = ""; }
@@ -473,6 +550,7 @@ function paperCard(paper) {
     <div class="paper-head">
       <div class="paper-title">${linkTitle}</div>
       <div class="meta">
+        <span class="tag badge">${escapeHtml(paper.c || "其他")}</span>
         <span class="tag badge">${escapeHtml(paper.v || "Unknown")}</span>
         <span class="tag year">${escapeHtml(paper.y || "Unknown")}</span>
         ${topics}${stages}
@@ -498,6 +576,7 @@ function applyFilters() {
   filtered = PAPERS.filter(matches);
   byId("statusText").textContent = `Showing ${filtered.length} of ${TOTAL} papers`;
   byId("topCount").textContent = `${TOTAL} papers`;
+  syncSelectCounts();
   syncSidebar();
   renderTags();
   renderPapers();

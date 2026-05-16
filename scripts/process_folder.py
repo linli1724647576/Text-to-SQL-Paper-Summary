@@ -2,9 +2,9 @@
 """Process rawdata files through extract -> label -> merge -> build."""
 
 import argparse
+import hashlib
 import json
 import os
-import re
 import subprocess
 import sys
 import tempfile
@@ -16,21 +16,62 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
 VENUES_PATH = REPO_ROOT / "data" / "venues.json"
 SCRIPT_DIR = Path(__file__).resolve().parent
+SENTINEL_VERSION = 2
 
 
 def canonical_venue(path):
     return canonical_venue_from_filename(path)
 
 
+def repo_relative(path):
+    resolved = Path(path).resolve()
+    try:
+        return resolved.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return resolved.as_posix()
+
+
+def sha256_file(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def fingerprint_group(paths):
+    return {
+        "files": [
+            {
+                "path": repo_relative(path),
+                "sha256": sha256_file(path),
+            }
+            for path in sorted(paths, key=repo_relative)
+        ]
+    }
+
+
 def load_processed():
-    if VENUES_PATH.exists():
-        return set(json.load(open(VENUES_PATH, encoding="utf-8")))
-    return set()
+    if not VENUES_PATH.exists():
+        return {"version": SENTINEL_VERSION, "venues": {}}
+    with open(VENUES_PATH, encoding="utf-8") as f:
+        payload = json.load(f)
+    if isinstance(payload, dict) and isinstance(payload.get("venues"), dict):
+        return {"version": SENTINEL_VERSION, "venues": payload["venues"]}
+    return {"version": SENTINEL_VERSION, "venues": {}}
 
 
-def save_processed(venues):
+def save_processed(processed):
     VENUES_PATH.parent.mkdir(parents=True, exist_ok=True)
-    json.dump(sorted(venues), open(VENUES_PATH, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    payload = {
+        "version": SENTINEL_VERSION,
+        "venues": {
+            venue: {"files": sorted(record.get("files", []), key=lambda item: item["path"])}
+            for venue, record in sorted(processed.get("venues", {}).items())
+        },
+    }
+    with open(VENUES_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
 
 def raw_files(directory):
@@ -65,15 +106,20 @@ def main():
     for path in files:
         grouped.setdefault(canonical_venue(path), []).append(path)
 
-    new_groups = {venue: paths for venue, paths in grouped.items() if venue not in processed}
-    print(f"Found {len(grouped)} venues; {len(new_groups)} new", file=sys.stderr)
-    for venue, paths in sorted(new_groups.items()):
+    fingerprints = {venue: fingerprint_group(paths) for venue, paths in grouped.items()}
+    changed_groups = {
+        venue: paths
+        for venue, paths in grouped.items()
+        if processed["venues"].get(venue) != fingerprints[venue]
+    }
+    print(f"Found {len(grouped)} venues; {len(changed_groups)} changed", file=sys.stderr)
+    for venue, paths in sorted(changed_groups.items()):
         print(f"  {venue}: {[p.name for p in paths]}", file=sys.stderr)
 
     if args.dry_run:
         return
 
-    for venue, paths in sorted(new_groups.items()):
+    for venue, paths in sorted(changed_groups.items()):
         with tempfile.TemporaryDirectory(prefix=f"text2sql_{venue}_") as tmp:
             extracted = {}
             for path in paths:
@@ -95,13 +141,8 @@ def main():
             if not run("label_papers.py", [all_path, "--phase", phase, "-o", labeled_path]):
                 continue
             if not args.filter_only and run("merge_labeldata.py", [labeled_path]):
-                with open(labeled_path, encoding="utf-8") as f:
-                    labeled = json.load(f)
-                if labeled:
-                    processed.add(venue)
-                    save_processed(processed)
-                else:
-                    print(f"  No relevant papers for {venue}; venue not marked processed", file=sys.stderr)
+                processed["venues"][venue] = fingerprints[venue]
+                save_processed(processed)
 
     if not args.filter_only and not args.no_rebuild:
         run("build_site.py", [])

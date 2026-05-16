@@ -1,27 +1,849 @@
-[
-  "AAAI2020",
-  "AAAI2021",
-  "AAAI2023",
-  "AAAI2025",
-  "ACL2020",
-  "ACL2021",
-  "ACL2023",
-  "ACL2024",
-  "ACL2025",
-  "ICDE2023",
-  "ICDE2024",
-  "ICDE2025",
-  "ICML2025",
-  "IJCAI2020",
-  "IJCAI2022",
-  "KDD2022",
-  "NeurIPS2021",
-  "NeurIPS2022",
-  "NeurIPS2023",
-  "SIGIR2023",
-  "SIGIR2024",
-  "SIGMOD2020",
-  "SIGMOD2021",
-  "SIGMOD2025",
-  "WWW2020"
-]
+{
+  "version": 2,
+  "venues": {
+    "AAAI2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/AAAI2020.json",
+          "sha256": "6c1a17bba23508ff5705b1c0740c7a8df853539f68497208a39e5579074aaf35"
+        }
+      ]
+    },
+    "AAAI2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/AAAI2021.json",
+          "sha256": "0456da286cda0ecd24a85614a0dd88ece3cafff4048f5fd0bfa1d1d256195047"
+        }
+      ]
+    },
+    "AAAI2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/AAAI2022.json",
+          "sha256": "8ff93595f03ebbea437d87a0e0fedb7812e3b15f22a38673b0bef770f6b9c813"
+        }
+      ]
+    },
+    "AAAI2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/AAAI2023.json",
+          "sha256": "c563b3eec204d88bfcf54d43208d75132330586fa3787b74a77cc3c3b4a17631"
+        }
+      ]
+    },
+    "AAAI2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/AAAI2024.json",
+          "sha256": "c00b1311fc47d2463421e15d1ae74170fc8566d4eae5bf9341a0cae169dbf96c"
+        }
+      ]
+    },
+    "AAAI2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/AAAI2025.json",
+          "sha256": "6b1986e995c8b378d1ca2bb3f9465d22ce17ed754975a7166c4441f6e5ca00d7"
+        }
+      ]
+    },
+    "ACL2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ACL2020.json",
+          "sha256": "ba1d6fc4f50e3e6c5f2a41e69841a5d0ed9f61b0afdcb01480a64ad85bb20a2a"
+        }
+      ]
+    },
+    "ACL2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ACL2021.json",
+          "sha256": "52c054267cfbe13788a2971479ac51d0b5a2bb51932b87bb2150e1c431053af8"
+        }
+      ]
+    },
+    "ACL2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ACL2023.json",
+          "sha256": "01652436103bf8e51be1fee8a6457a160759602a905b7e29d7b34eb42bb18dc7"
+        }
+      ]
+    },
+    "ACL2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ACL2024.json",
+          "sha256": "b7bc935a49f8ad5211e73cde99543935421ad67e24456f706711b2a4440cf4fd"
+        }
+      ]
+    },
+    "ACL2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ACL2025-accepted.json",
+          "sha256": "945ac7d0367bdcb782ddaa6001ba3b6a38b5a66b39f744cb8cea5afdb2a636b5"
+        },
+        {
+          "path": "data/rawdata/2025/ACL2025.json",
+          "sha256": "f336e77b0b33e47488bbf5ba2e0a053bef19c01147b813cfb3b350944ef14697"
+        }
+      ]
+    },
+    "ASE2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ASE2020.json",
+          "sha256": "dcd3bb841acb88e998a697d53f1490f10614fc5decd4d28e3e95acab22636d3f"
+        }
+      ]
+    },
+    "ASE2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ASE2021.json",
+          "sha256": "31cf79027fafca43487bce38aa6c90d16b8b768055a1e5f62ecf7452778fdeaa"
+        }
+      ]
+    },
+    "ASE2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ASE2022.json",
+          "sha256": "c51bda2b50aec7bd5776112ff7c27224f68ccf4a2fe7ac496d8023d65f4fc463"
+        }
+      ]
+    },
+    "ASE2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ASE2023.json",
+          "sha256": "a13970ff92461d967c01271457725652cafa4a4082a1afe6500cceeff9d6cd98"
+        }
+      ]
+    },
+    "ASE2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ASE2024-accepted.json",
+          "sha256": "cf12d613aa24bd0c39ef411024bcebd3172d883f72b18a45bca38347462fabe4"
+        },
+        {
+          "path": "data/rawdata/2024/ASE2024.json",
+          "sha256": "d130ee095c099845495d1a7d692657a7cb02a74b5ac7d2f6272d6957a7d44a8b"
+        }
+      ]
+    },
+    "ASE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ASE2025-accepted.json",
+          "sha256": "cb83c9a107c01f32676ae8a7d82aa26e2ed82f8d6d142167433c14e9f2d6bc6b"
+        }
+      ]
+    },
+    "CVPR2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/CVPR2020.json",
+          "sha256": "806f57e9f0c5bee0bef18a88db928e0e08f6b89169212120a264565d9e12dc2c"
+        }
+      ]
+    },
+    "CVPR2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/CVPR2021.json",
+          "sha256": "a716cbe900edd30e43eb09b87cacc32944dc8f8d366eb490678f03537dcedd29"
+        }
+      ]
+    },
+    "CVPR2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/CVPR2022.json",
+          "sha256": "5329034929ad24cd575d7a34eb27b8f015cd71b66379b25ca2fe17d52f822c08"
+        }
+      ]
+    },
+    "CVPR2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/CVPR2023.json",
+          "sha256": "946a03965a3c148cc95ddcb5db95778f4e586d7d99d7df5c3eaef571eb3fd72e"
+        }
+      ]
+    },
+    "CVPR2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/CVPR2024.json",
+          "sha256": "7a9b6f14cbd59fac4fa75634336441a4c231c2876957a18c9490c5e532ae682b"
+        }
+      ]
+    },
+    "CVPR2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/CVPR2025.json",
+          "sha256": "f687fdadc9af80886186e0498c8f4941355c996dbc9d9f0affdfb5b5629ba085"
+        }
+      ]
+    },
+    "FSE2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/FSE2024-accepted.json",
+          "sha256": "4ae4f279a4d600009fbc6291e0b785af970b9593a6888964b74a80b8727bd347"
+        }
+      ]
+    },
+    "FSE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/FSE2025-accepted.json",
+          "sha256": "4eafd7d83041621ba1683b7491a17caef7b2d931d9c38ee0aa01a92cb6a6091e"
+        },
+        {
+          "path": "data/rawdata/2025/FSE2025.json",
+          "sha256": "0dcfd99ca6026207c1f5ebe4106ffb49bac6df223db5b602a7d76792d4f5e055"
+        }
+      ]
+    },
+    "ICCV2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ICCV2021.json",
+          "sha256": "5302d14734fd1b9cb2651dbe275a19e554b2021396054c9711d9c4f9a412f3de"
+        }
+      ]
+    },
+    "ICCV2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ICCV2023.json",
+          "sha256": "b705f77e46610371b85657b4b4acc38de9b76a14ccae37bcd6127b1f77b0dc19"
+        }
+      ]
+    },
+    "ICCV2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ICCV2025.json",
+          "sha256": "a8f78e49bfdf152df2538d69f38c02cde68c98e2c68e034dd4308c9a49766358"
+        }
+      ]
+    },
+    "ICDE2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ICDE2020.json",
+          "sha256": "eee4b0671b45fb2bd834f84ab1d1cea33b32b878a17ca7e546e48caea13cf085"
+        }
+      ]
+    },
+    "ICDE2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ICDE2021.json",
+          "sha256": "9a17c5dcf06bc18641d4df255578052aef69d33b758bcff2d2394a8a867c4e41"
+        }
+      ]
+    },
+    "ICDE2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ICDE2022.json",
+          "sha256": "6aa4b9232684615283c7d7b46cd7cdea4935c56d7e259aed23e1066fbeea38ad"
+        }
+      ]
+    },
+    "ICDE2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ICDE2023.json",
+          "sha256": "156135a7cf6b00e8763e6da7939bb69faa5b4954e67d6abcd7ffa7835eeed6c7"
+        }
+      ]
+    },
+    "ICDE2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ICDE2024.json",
+          "sha256": "d529531e7d6bce0e34fa7342b71f88f10e81afef3ad0e40a2406fbb4d170320d"
+        }
+      ]
+    },
+    "ICDE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ICDE2025-accepted.json",
+          "sha256": "236fce80e2d0ea47190abf4ec50da72a5514975cd68313be7399a45a0106d694"
+        },
+        {
+          "path": "data/rawdata/2025/ICDE2025.json",
+          "sha256": "47b1c2eb8e42be5616906e57a275843303efc85e4d9f8b6520d15ac304282ed1"
+        }
+      ]
+    },
+    "ICML2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ICML2020.json",
+          "sha256": "f48acaf0a0861d45bca93df72ec9f56ff9c053a546dc5eec7b0f490904e9d7f8"
+        }
+      ]
+    },
+    "ICML2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ICML2021.json",
+          "sha256": "eae56ddf41db8fed241e99735e856a9e02e0fb548337def34187d257de9c1979"
+        }
+      ]
+    },
+    "ICML2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ICML2022-accepted.json",
+          "sha256": "18df288a94a7e057e44672a2f75e8f45c50961bc6b231e674b79765a70919e82"
+        },
+        {
+          "path": "data/rawdata/2022/ICML2022.json",
+          "sha256": "df42d24cb4ef45670ec99cd9e853cce865649ae567c469454a8078a28c0196fb"
+        }
+      ]
+    },
+    "ICML2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ICML2023-accepted.json",
+          "sha256": "4fa0288e7c25b260d6a2543f6ca14cec3bd2b987acabeb5213af64d9696bbdd1"
+        },
+        {
+          "path": "data/rawdata/2023/ICML2023.json",
+          "sha256": "1514673dc2b1e1e09f9c4933ffcf089c4bc260f9cee801acb2f047d5000916d2"
+        }
+      ]
+    },
+    "ICML2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ICML2024-accepted.json",
+          "sha256": "bc15f48e41b6a34d0842aad31d8ce5c03bb73def4523941f80c7e07235bd71ec"
+        },
+        {
+          "path": "data/rawdata/2024/ICML2024.json",
+          "sha256": "0396e8b5fb2a9456145bbd88278cb3c09003e8ae621a2b1ed3254f2a2b8c1ed9"
+        }
+      ]
+    },
+    "ICML2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ICML2025-accepted.json",
+          "sha256": "13f1ce46d01c5b4b3d64f233e69f940e1b663ae1a5a7778aa5ff21107e8e9b38"
+        },
+        {
+          "path": "data/rawdata/2025/ICML2025.json",
+          "sha256": "6e9b426b2378eda15f133073a7d02eb956436187f34b3d4e11cb6099f3c5a680"
+        }
+      ]
+    },
+    "ICSE2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ICSE2020.json",
+          "sha256": "125876dd5013975c485d147a218233722b97d15ebde268661e1df673e34686a5"
+        }
+      ]
+    },
+    "ICSE2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ICSE2021.json",
+          "sha256": "9e3944bfe4eddcbe2eb1bd91dbe15b7dbdeab0421e899fca0b028de3491b5bcd"
+        }
+      ]
+    },
+    "ICSE2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ICSE2022.json",
+          "sha256": "2c4c6590df60f26e6e900fa6d83531e2c529c2868c1973acea3e3a7087c3cc11"
+        }
+      ]
+    },
+    "ICSE2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ICSE2023.json",
+          "sha256": "f0fb292f6f447632fcaa55e60de388a528b6d0d76ec1e30dc84f2ad69b85452e"
+        }
+      ]
+    },
+    "ICSE2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ICSE2024-accepted.json",
+          "sha256": "9f5c78c12e01897fb6af8632026e41dc44a62b271afb1b01a4cbc2bf27005c24"
+        },
+        {
+          "path": "data/rawdata/2024/ICSE2024.json",
+          "sha256": "b862de099592df4887e34faa2f26d7e5cfcc2ed36f2ab3a12d7a12eb9c5d7ebe"
+        }
+      ]
+    },
+    "ICSE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ICSE2025-accepted.json",
+          "sha256": "b06797b5cfd5d8c916fc60773c7a8876b572133bcce9f20e560977219f06a2cc"
+        },
+        {
+          "path": "data/rawdata/2025/ICSE2025.json",
+          "sha256": "1a334acd07165a520f44e06eb5351a356796f7afe97119073f2a63e84ecf9c3f"
+        }
+      ]
+    },
+    "IJCAI2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/IJCAI2020-accepted.json",
+          "sha256": "3528245277c84fd85d6e68d96354ef5d24ff80ade24adb4242b6d5f04a7bff93"
+        },
+        {
+          "path": "data/rawdata/2020/IJCAI2020.json",
+          "sha256": "62943213cb8943feba25ddbec2ee11881774aad64287898a2b04280af8591e7e"
+        }
+      ]
+    },
+    "IJCAI2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/IJCAI2021-accepted.json",
+          "sha256": "fb9a00956f7a1ad0d765b55234810251a1b648d0e33fa637b9e33f8a9dfdc68a"
+        },
+        {
+          "path": "data/rawdata/2021/IJCAI2021.json",
+          "sha256": "b872d93fe8f319ec635421eae6b6428197418b56e91c6b7c8a4df3cfd122ac3b"
+        }
+      ]
+    },
+    "IJCAI2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/IJCAI2022-accepted.json",
+          "sha256": "165016d10c7c6b609e198d3e24554e29e115773dfe025a09a4edcbfc914b1dad"
+        },
+        {
+          "path": "data/rawdata/2022/IJCAI2022.json",
+          "sha256": "63011c3344a741c785a6311f859ffc64ef42554cddfe434c39b3dd669626e46e"
+        }
+      ]
+    },
+    "IJCAI2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/IJCAI2023-accepted.json",
+          "sha256": "6239f86072342cc7daac918d78f7c3e19c5bc932077488f385a253fa29634363"
+        },
+        {
+          "path": "data/rawdata/2023/IJCAI2023.json",
+          "sha256": "d15f4c84829f7a7acb246223083af4d07cb22d04c4c61ef2a8a88beee09a6425"
+        }
+      ]
+    },
+    "IJCAI2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/IJCAI2024-accepted.json",
+          "sha256": "68824dcd4de1e472fda2caab8436ce3924582c0458e0642bf77671f9c9e3094e"
+        },
+        {
+          "path": "data/rawdata/2024/IJCAI2024.json",
+          "sha256": "6332392a298d31d392be8e433fa151dd94b97177d84eb207637537789befbcca"
+        }
+      ]
+    },
+    "IJCAI2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/IJCAI2025-accepted.json",
+          "sha256": "9de843ffcfe22c756d73e4c224ddb1c2a847bfd3ae68ed5ec2fca6dbff249af4"
+        },
+        {
+          "path": "data/rawdata/2025/IJCAI2025.json",
+          "sha256": "c7be8d5ec3c801804f313e1f49f3a3ea9443ccf64f3b07eaaf49eebc0c79640e"
+        }
+      ]
+    },
+    "ISSTA2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/ISSTA2020.json",
+          "sha256": "086f34682242ac1990c55dbdca0138e79483e9e5c688c8230fbfd365d43ca8c7"
+        }
+      ]
+    },
+    "ISSTA2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/ISSTA2021.json",
+          "sha256": "5db4df33b079bfc5c85eae5e5c63210eee84a478e49968354e78faae426ed0bd"
+        }
+      ]
+    },
+    "ISSTA2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ISSTA2022.json",
+          "sha256": "723bbedf5be8b318ae8c5d957655f4c2bacbdb72eeb8c5cbaec28f9b73d4adf6"
+        }
+      ]
+    },
+    "ISSTA2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/ISSTA2023.json",
+          "sha256": "0181b9b14f62ac22fad6f60b4d4378af3e3ea3fed161d648d70a61e0fe56fec6"
+        }
+      ]
+    },
+    "ISSTA2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/ISSTA2024.json",
+          "sha256": "1b1ee7832c6bf09173f882d610f28ae217b62ae8a0cede0f1d7f49500ce13c4f"
+        }
+      ]
+    },
+    "ISSTA2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/ISSTA2025-accepted.json",
+          "sha256": "8e8780aa56025ebe18244d0c0bb390d3d81ad38ae5b251be254073be07d7c6e0"
+        }
+      ]
+    },
+    "KDD2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/KDD2020.json",
+          "sha256": "92954413550c8622da07c0afcf21b97594d35bc46831dd8a9e831b9da6c8022c"
+        }
+      ]
+    },
+    "KDD2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/KDD2021.json",
+          "sha256": "4154c6b17e226fe26bb2facfeabc735824cd931aa6653db707d62e74d5ba672d"
+        }
+      ]
+    },
+    "KDD2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/KDD2022.json",
+          "sha256": "d7cccc95138832ce5ecb7cec8099da458cdb6ae6357eb45461057b953abd3262"
+        }
+      ]
+    },
+    "KDD2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/KDD2023.json",
+          "sha256": "2b078f23c17528112d94e11a203335b455972e93488926cc6bc3492d4395fc9b"
+        }
+      ]
+    },
+    "KDD2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/KDD2024-accepted.json",
+          "sha256": "bfe42c271c43d589256c078dda3c66cfba72567d2f7b01ff92181b089c2fe82e"
+        },
+        {
+          "path": "data/rawdata/2024/KDD2024.json",
+          "sha256": "156f2f51b953ee52bf0b89b3a20eea29d37ed8577307b78fab05cb0bea61dba1"
+        }
+      ]
+    },
+    "KDD2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/KDD2025-accepted.json",
+          "sha256": "b80431ccabb88f96a7b254ad8198269ff826695546ce467d0245e75e782308c5"
+        },
+        {
+          "path": "data/rawdata/2025/KDD2025.json",
+          "sha256": "75689cf4043b3ee2d3fa66ede36a96f00f1b3194e212d92ea6c05bba4ff2f247"
+        }
+      ]
+    },
+    "NeurIPS2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/NeurIPS2020-accepted.json",
+          "sha256": "46e880799505af743603f76c09b887840e8315e995394b9f938bf4fdb1aa60a0"
+        },
+        {
+          "path": "data/rawdata/2020/NeurIPS2020.json",
+          "sha256": "10a23650abe386d58672aa585778d55da22b100ff3c60661183b3de323a0602e"
+        }
+      ]
+    },
+    "NeurIPS2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/NeurIPS2021-accepted.json",
+          "sha256": "dd945de764e79d59dc8a973dac37fe4f8c0f7062a03f3b993b38905a016cfa78"
+        },
+        {
+          "path": "data/rawdata/2021/NeurIPS2021.json",
+          "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6"
+        }
+      ]
+    },
+    "NeurIPS2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/NeurIPS2022-accepted.json",
+          "sha256": "25c4fcaf5ce91487ce5d8063f527f09e555bcf3fb0c0cf5f58725ac3fa07dca5"
+        },
+        {
+          "path": "data/rawdata/2022/NeurIPS2022.json",
+          "sha256": "55ba3fccabbaab2653a9691389876df58fbc08b48e18cf94714aa06561f89cc8"
+        }
+      ]
+    },
+    "NeurIPS2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/NeurIPS2023-accepted.json",
+          "sha256": "3885a203c89521d9212b6e3b1849967030dee10426359dd39204fcd212d2c31b"
+        },
+        {
+          "path": "data/rawdata/2023/NeurIPS2023.json",
+          "sha256": "2258c446921b39b63b05c9e406f372a50edcf4d0030a3514f2ee03e3b85bad3a"
+        }
+      ]
+    },
+    "NeurIPS2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/NeurIPS2024-accepted.json",
+          "sha256": "3c994809db1e24f01d20a88e8152c882a8f9031a4a95f054946b4c54f21e2c2c"
+        },
+        {
+          "path": "data/rawdata/2024/NeurIPS2024.json",
+          "sha256": "d0096594ed1ab1b7e6fb70e63c25c1286a712c21eec99c2b61c0a843aa6d3e73"
+        }
+      ]
+    },
+    "NeurIPS2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/NeurIPS2025-accepted.json",
+          "sha256": "2fb5b788bddd4b8581c2bee87055f1761350d1f365a8e5cc71b833f130490365"
+        }
+      ]
+    },
+    "SIGIR2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/SIGIR2020.json",
+          "sha256": "2e6b34c8627845638c8d4f64681b0ac3904e6bebc41cd8df89610a22e6233eb4"
+        }
+      ]
+    },
+    "SIGIR2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/SIGIR2021.json",
+          "sha256": "d219a354ac1f9b2f20734adf1e30a7768a0b40e4b1238b5b2834a1bb318e95de"
+        }
+      ]
+    },
+    "SIGIR2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/SIGIR2022.json",
+          "sha256": "6033b859f2c79a10e4820dc1fcf425306c3395b909edd35835e24f75b4bb2ee8"
+        }
+      ]
+    },
+    "SIGIR2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/SIGIR2023.json",
+          "sha256": "32c59462380c124ee1d3356a945633d322c612158bfc778771b3a747897eba19"
+        }
+      ]
+    },
+    "SIGIR2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/SIGIR2024.json",
+          "sha256": "521ede0ff9e5b157cbdac6a4ce66a18ac733d0ee86811efd45a5f85a2cb42a7f"
+        }
+      ]
+    },
+    "SIGIR2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/SIGIR2025-accepted.json",
+          "sha256": "dcec24f014d10b13d86bbb50f2945de1aafdd1df3af3b2b513381626ea0822ae"
+        },
+        {
+          "path": "data/rawdata/2025/SIGIR2025.json",
+          "sha256": "342f4be0cbeac4ff6b9591111429375959170311086237c82c039d5b07c37f7a"
+        }
+      ]
+    },
+    "SIGMOD2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/SIGMOD2020-accepted.json",
+          "sha256": "c5585bb8241cf5ca671a2804d7e696dfdaa087252c4adcc97b0622c7d9dfd4ff"
+        },
+        {
+          "path": "data/rawdata/2020/SIGMOD2020.json",
+          "sha256": "fdd68abc83eaf1ddee442a49fe24125724f7c6ef33e6ab247ef4c19684fc51d8"
+        }
+      ]
+    },
+    "SIGMOD2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/SIGMOD2021-accepted.json",
+          "sha256": "273049845c6f4e1ba26c6896348eb542b8b76a5f44b65a5df23fab3abeac2786"
+        },
+        {
+          "path": "data/rawdata/2021/SIGMOD2021.json",
+          "sha256": "312c39093047dc2d5ac84596b127a7c401598b97e899b2afb731672d149b4658"
+        }
+      ]
+    },
+    "SIGMOD2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/SIGMOD2022-accepted.json",
+          "sha256": "47a9b03d578ad2d4c338cc4e10cd375de7423b34a5b410eb167394ad9ed50940"
+        },
+        {
+          "path": "data/rawdata/2022/SIGMOD2022.json",
+          "sha256": "30c9842e795334fb9ab494e8f339aef4b785098e7b9e13c786a7b9744eb476cb"
+        }
+      ]
+    },
+    "SIGMOD2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/SIGMOD2023-accepted.json",
+          "sha256": "d527480ee764eedc5137cb68f27f2476c134075d53592d9d09287384082533df"
+        },
+        {
+          "path": "data/rawdata/2023/SIGMOD2023.json",
+          "sha256": "710424cca08ffd689e03591aa1688a698bbfc9d7dbb6d7c2f6530218742111a0"
+        }
+      ]
+    },
+    "SIGMOD2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/SIGMOD2024-accepted.json",
+          "sha256": "2d654e3da26962d2f878145e9358235e365226d7231f34fdbb763aee25838b5b"
+        }
+      ]
+    },
+    "SIGMOD2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/SIGMOD2025-accepted.json",
+          "sha256": "8ad2f272344879dd74f01cefeae8d2ffbba863b89ed693127dfd572c638f3b47"
+        },
+        {
+          "path": "data/rawdata/2025/SIGMOD2025.json",
+          "sha256": "21a5216ffcf575815b12827ca9eb7ed6f60037e7be16ff90f6c87b9b3c23c4d0"
+        }
+      ]
+    },
+    "SIGMOD2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/SIGMOD2026-accepted.json",
+          "sha256": "7b3648d1b1fc029617b26032dec86514ef94e552afc93ae6886119474376e8a4"
+        }
+      ]
+    },
+    "VLDB2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/VLDB2021.json",
+          "sha256": "92c359fc431f586e34fb80e1206ab8cd3d3538a9b332b50664a6755d5cc6bfdb"
+        }
+      ]
+    },
+    "VLDB2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/VLDB2022.json",
+          "sha256": "9acbba371073ef5b1507e1f600701e3ee4eb141d3281a712411b18e9c505f4ff"
+        }
+      ]
+    },
+    "VLDB2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/VLDB2023.json",
+          "sha256": "e030c60fde929c5ab1e46e87f040f54ee617b7d126283ae00d328b7b266aa6e0"
+        }
+      ]
+    },
+    "其他": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/CCS2020.json",
+          "sha256": "9d6be0487983d716c4446cc25f2c365d8795a3b1c615e2118ab6f9d2f161d05a"
+        },
+        {
+          "path": "data/rawdata/2020/WWW2020.json",
+          "sha256": "d97963b9a786eed040d4bdd92f78bd7e28f660c1b63b0e590cceb4f5751fb884"
+        },
+        {
+          "path": "data/rawdata/2021/WWW2021.json",
+          "sha256": "4c18fefd416cce6bd679cf394e2158c494ebe110588f340c6899672ea25db143"
+        },
+        {
+          "path": "data/rawdata/2022/WWW2022.json",
+          "sha256": "3831d1cdfc6dd276beaddd0dc8def54b7e84ab59c5f595d2da77f18204b4cf68"
+        },
+        {
+          "path": "data/rawdata/2023/WWW2023.json",
+          "sha256": "3592aefdd3ea04c1a86942d179322241e24a430772b5949305246c9df61dc965"
+        },
+        {
+          "path": "data/rawdata/2024/CCS2024.json",
+          "sha256": "76ca6e1fe7e635ae5fa32ea9d1c6f3cc744217565ebe0ce99390dc0205deabc0"
+        },
+        {
+          "path": "data/rawdata/2024/WWW2024.json",
+          "sha256": "d0e26c7edbf403ac60d34e20b39b398295fcb7742fb66297f67c04baaa6e3d9d"
+        },
+        {
+          "path": "data/rawdata/2025/WWW2025.json",
+          "sha256": "cdad12959dfa439dff6c341f0264e93dee57a21f9dd8a3c7d1944fcb93047cf2"
+        },
+        {
+          "path": "data/rawdata/2026/WWW2026-accepted.json",
+          "sha256": "d98a149f654dd8591597e5c0506ec1be72f3a3a141f646977334db96a24b1543"
+        }
+      ]
+    }
+  }
+}

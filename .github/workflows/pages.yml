@@ -81,6 +81,19 @@ jobs:
           git diff --cached --quiet || git commit -m "Update crawled Text-to-SQL papers"
           git push
 
+      - name: Publish web directory to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/text2sql-gh-pages
+          git clone --depth 1 --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" /tmp/text2sql-gh-pages
+          rsync -a --delete web/ /tmp/text2sql-gh-pages/
+          touch /tmp/text2sql-gh-pages/.nojekyll
+          cd /tmp/text2sql-gh-pages
+          git add -A
+          git diff --cached --quiet || git commit -m "Deploy site"
+          git push origin gh-pages
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         continue-on-error: true

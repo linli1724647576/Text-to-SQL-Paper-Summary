@@ -1416,7 +1416,7 @@
     "keywords": "Computer science, SQL, Data definition language, Data control language, Natural language, Query language, Table (database), Programming language, Set (abstract data type), Data manipulation language, Artificial intelligence, Natural language processing, Benchmark (surveying), Natural language user interface, Query by Example, Stored procedure, Language model, Data modeling, Information retrieval, Semantics (computer science), RDF query language, Data mining, Query optimization, Relational database, Database, Semantic interpretation, Natural language understanding, Question answering",
     "url": "http://www.theseus.fi/handle/10024/917028",
     "doi": "",
-    "venue": "WWW",
+    "venue": "其他",
     "venue_track": "其他",
     "openalex_id": "https://openalex.org/W7160799630",
     "labels": [
@@ -1459,25 +1459,30 @@
     "relevance_level": "core"
   },
   "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models.": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/aaai/Li0LC025",
-    "author": "Deyin Li and Xiang Ling 0001 and Changjiang Li and Xiang Chen 0017 and Chunming Wu 0001",
-    "booktitle": "AAAI",
+    "type": "article",
+    "key": "https://openalex.org/W4409364161",
+    "author": "Dongbai Li and Ling Xiang and Chun-Li Li Chun-Li Li and Xiang Chen and C. F. Jeff Wu",
+    "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "title": "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models.",
     "year": "2025",
-    "abstract": "",
-    "keywords": "",
+    "abstract": "To facilitate understanding of users' diverse queries against the back-end databases in web applications, researchers have introduced Text-to-SQL (Text2SQL) models that can generate well-structured SQL queries from users' query texts in natural language. As the Text2SQL model decouples the user queries with the back-end databases, it inherently mitigates the SQL injection risk posed by inserting users' input into pre-written SQL queries. However, what security risks to web applications may be posed by Text2SQL models remains an open question. In this paper, we present a new attack framework, named Autoregression-based Injection Attacks (AIA), to evaluate the security risks of Text2SQL models. In particular, AIA makes target models generate attack payloads by constructing specific inputs and adjusting the input auto-regressively. Our evaluation demonstrates that AIA can cause Text2SQL models to generate target output by adversarial inputs with success rates of over 70% in most scenarios. The generated adversarial input has certain transferability in target Text2SQL models. Additionally, practice experiments show that AIA can make Text2SQL models extract user lists from databases and even delete data in databases directly.",
+    "keywords": "Vector autoregression, Autoregressive model, Computer science, Econometrics, Economics",
     "url": "https://doi.org/10.1609/aaai.v39i17.34009",
-    "doi": "",
+    "doi": "https://doi.org/10.1609/aaai.v39i17.34009",
     "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409364161",
     "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Agentic Feedback and Repair",
+      "Security and Access Control",
       "Planning and Generation",
       "Neural-symbolic Parsing"
     ],
     "pipeline_stages": [
       "SQL Generation"
     ],
-    "venue_track": "AI 领域",
     "relevance_level": "core"
   },
   "AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation.": {
@@ -7771,7 +7776,7 @@
     "keywords": "Knowledge graph, Knowledge sharing, Knowledge management, Computer science, Data science, Engineering, Artificial intelligence",
     "url": "http://www.theses.fr/2021IPPAS017/document",
     "doi": "",
-    "venue": "WWW",
+    "venue": "其他",
     "venue_track": "其他",
     "openalex_id": "https://openalex.org/W4392219190",
     "labels": [
@@ -10436,8 +10441,8 @@
     "keywords": "Computer science, Data definition language, SQL, SQL/PSM, Query by Example, Natural language processing, Stored procedure, Parsing, Programming language, Artificial intelligence, Information retrieval, Web search query, Search engine",
     "url": "https://doi.org/10.18653/v1/2022.findings-acl.236",
     "doi": "https://doi.org/10.18653/v1/2022.findings-acl.236",
-    "venue": "ACL",
-    "venue_track": "AI 领域",
+    "venue": "其他",
+    "venue_track": "其他",
     "openalex_id": "https://openalex.org/W4226490385",
     "labels": [
       "Task Setting",
@@ -12775,6 +12780,39 @@
     "pipeline_stages": [
       "Grounding",
       "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
+  "Logical and Physical Optimizations for SQL Query Execution over Large Language Models": {
+    "type": "article",
+    "key": "https://openalex.org/W4411403196",
+    "author": "Dario Satriani and Enzo Veltri and Donatello Santoro and Sara Rosato and Simone Varriale and Paolo Papotti",
+    "booktitle": "Proceedings of the ACM on Management of Data",
+    "title": "Logical and Physical Optimizations for SQL Query Execution over Large Language Models",
+    "year": "2025",
+    "abstract": "Interacting with Large Language Models (LLMs) via declarative queries is increasingly popular for tasks like question answering and data extraction, thanks to their ability to process vast unstructured data. However, LLMs often struggle with answering complex factual questions, exhibiting low precision and recall in the returned data. This challenge highlights that executing queries on LLMs remains a largely unexplored domain, where traditional data processing assumptions often fall short. Conventional query optimization, typically cost-driven, overlooks LLM-specific quality challenges such as contextual understanding. Just as new physical operators are designed to address the unique characteristics of LLMs, optimization must consider these quality challenges. Our results highlight that adhering strictly to conventional query optimization principles fails to generate the best plans in terms of result quality. To tackle this challenge, we present a novel approach to enhance SQL results by applying query optimization techniques specifically adapted for LLMs. We introduce a database system, GALOIS, that sits between the query and the LLM, effectively using the latter as a storage layer. We design alternative physical operators tailored for LLM-based query execution and adapt traditional optimization strategies to this novel context. For example, while pushing down operators in the query plan reduces execution cost (fewer calls to the model), it might complicate the call to the LLM and deteriorate result quality. Additionally, these models lack a traditional catalog for optimization, leading us to develop methods to dynamically gather such metadata during query execution. Our solution is compatible with any LLM and balances the trade-off between query result quality and execution cost. Experiments show up to 144% quality improvement over questions in Natural Language and 29% over direct SQL execution, highlighting the advantages of integrating database solutions with LLMs.",
+    "keywords": "Computer science, Query optimization, Sargable, SQL, Query language, Metadata, Query plan, Query by Example, Context (archaeology), Web search query, RDF query language, Query expansion, Database, Information retrieval, Web query classification, World Wide Web, Biology, Paleontology, Search engine",
+    "url": "https://doi.org/10.1145/3725411",
+    "doi": "https://doi.org/10.1145/3725411",
+    "venue": "SIGMOD",
+    "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W4411403196",
+    "labels": [
+      "Task Setting",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval"
     ],
     "relevance_level": "application",
     "quality_flags": [
@@ -19161,7 +19199,10 @@
       "SQL Generation",
       "Verification & Repair"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "STaR-SQL: Self-Taught Reasoner for Text-to-SQL.": {
     "type": "INPROCEEDINGS",
@@ -20552,7 +20593,10 @@
       "Prompt-based Generation",
       "Verification & Repair"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "THE TEMPLATE-BASED METHOD FOR DESIGNING A RELATIONAL DATABASE CONSTRUCTOR": {
     "type": "article",
@@ -22403,6 +22447,41 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "TrustUQA: A Trustful Framework for Unified Structured Data Question Answering": {
+    "type": "article",
+    "key": "https://openalex.org/W4409362587",
+    "author": "Wen Zhang and Long Jin and Yushan Zhu and Jiaoyan Chen and Zhiwei Huang and Junjie Wang and Hua Yin and Lei Liang and Huajun Chen",
+    "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "title": "TrustUQA: A Trustful Framework for Unified Structured Data Question Answering",
+    "year": "2025",
+    "abstract": "Natural language question answering (QA) over structured data sources such as tables and knowledge graphs have been widely investigated, especially with Large Language Models (LLMs) in recent years. The main solutions include question to formal query parsing and retrieval-based answer generation. However, current methods of the former often suffer from weak generalization, failing to dealing with multi-types of sources, while the later is limited in trustfulness. In this paper, we propose TrustUQA, a trustful QA framework that can simultaneously support multiple types of structured data in a unified way. To this end, it adopts an LLM-friendly and unified knowledge representation method called Condition Graph (CG), and uses an LLM and demonstration-based two-level method for CG querying. For enhancement, it is also equipped with dynamic demonstration retrieval. We have evaluated TrustUQA with 5 benchmarks covering 3 types of structured data. It outperforms 2 existing unified structured data QA methods. In comparison with the baselines that are specific to one data type, it achieves state-of-the-art on 2 of the datasets. Further more, we have demonstrated the potential of our method for more general QA tasks, QA over mixed structured data and QA across structured data.",
+    "keywords": "Question answering, Computer science, Information retrieval",
+    "url": "https://doi.org/10.1609/aaai.v39i24.34787",
+    "doi": "https://doi.org/10.1609/aaai.v39i24.34787",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409362587",
+    "labels": [
+      "Task Setting",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Knowledge Graph / External Knowledge",
+      "Benchmarks and Evaluation",
+      "Robustness and Generalization"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Turkish Natural Language Interface: Cevapver": {
     "type": "book-chapter",

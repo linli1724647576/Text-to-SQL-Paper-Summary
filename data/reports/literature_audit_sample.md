@@ -15,7 +15,7 @@
 | risk | false_positive_removed | ArXiv | 2025 | A New Paradigm of User-Centric Wireless Communication Driven by Large Language Models | removed by prune-irrelevant; risk-directed sample |
 | risk | true_positive_application | ArXiv | 2025 | Castle: Causal Cascade Updates in Relational Databases with Large Language Models | missing doi; risk-directed sample |
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
-| ccf_conference | true_positive_core | ACL | 2022 | HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing |  |
+| ccf_conference | true_positive_application | ACL | 2022 | HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation. | missing doi, abstract |
 | ccf_conference | true_positive_application | AAAI | 2022 | Generation-Focused Table-Based Intermediate Pre-training for Free-Form Question Answering. | missing doi, abstract |
 | ccf_conference | true_positive_application | AAAI | 2024 | Text2Analysis: A Benchmark of Table Question Answering with Advanced Data Analysis and Unclear Queries. | missing doi, abstract |
 | ccf_conference | true_positive_core | AAAI | 2020 | Tracking Interaction States for Multi-Turn Text-to-SQL Semantic Parsing. |  |
@@ -39,11 +39,11 @@
 | arxiv | true_positive_core | ArXiv | 2020 | A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing |  |
 | arxiv | true_positive_core | ArXiv | 2025 | Towards Probabilistic Question Answering Over Tabular Data |  |
 | arxiv | true_positive_core | ArXiv | 2026 | Anatomy of a Query: W5H Dimensions and FAR Patterns for Text-to-SQL Evaluation |  |
-| supplemental | true_positive_core | ArXiv | 2020 | Photon: A Robust Cross-Domain Text-to-SQL System |  |
-| supplemental | true_positive_core | 其他 | 2025 | Text-to-SQL Generation for Medical Databases via Large Language Models and SQL Decomposition |  |
-| supplemental | true_positive_core | 其他 | 2026 | The Rapid Evolution of AI: Transitioning from Big Data Tools to Autonomous Analytical Agents |  |
-| supplemental | true_positive_core | ArXiv | 2025 | Effectiveness of Prompt Optimization in NL2SQL Systems |  |
-| supplemental | true_positive_core | ArXiv | 2024 | Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL |  |
-| supplemental | true_positive_core | 其他 | 2024 | Research on Tobacco Data Query Application Based on NL2SQL |  |
-| supplemental | true_positive_core | ArXiv | 2025 | Think2SQL: Reinforce LLM Reasoning Capabilities for Text2SQL |  |
-| supplemental | true_positive_application | ArXiv | 2023 | Automatic Data Transformation Using Large Language Model: An Experimental Study on Building Energy Data |  |
+| supplemental | true_positive_core | ICDE | 2024 | PURPLE: Making a Large Language Model a Better SQL Writer |  |
+| supplemental | true_positive_core | 其他 | 2025 | Text to SQL AI Agentic Workflow Implementations: A Systematic Literature Review |  |
+| supplemental | true_positive_core | VLDB | 2024 | The Dawn of Natural Language to SQL: Are We Fully Ready? |  |
+| supplemental | true_positive_core | ArXiv | 2024 | ETM: Modern Insights into Perspective on Text-to-SQL Evaluation in the Age of Large Language Models |  |
+| supplemental | true_positive_core | 其他 | 2025 | Sinhala Text-to-SQL: A Hybrid Approach |  |
+| supplemental | true_positive_core | 其他 | 2024 | Research and Practice on Database Interaction Based on Natural Language Processing |  |
+| supplemental | true_positive_core | 其他 | 2021 | The history and recent advances of Natural Language Interfaces for Databases Querying |  |
+| supplemental | true_positive_core | VLDB | 2024 | AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models |  |

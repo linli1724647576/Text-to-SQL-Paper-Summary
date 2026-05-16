@@ -89,7 +89,7 @@
       "stratum": "risk",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "WWW",
+      "venue": "其他",
       "normalized_venue": "其他",
       "category": "其他",
       "year": "2026",
@@ -161,11 +161,11 @@
       "notes": "risk-directed sample"
     },
     {
-      "title": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+      "title": "HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation.",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ACL",
       "normalized_venue": "ACL",
       "category": "AI 领域",
@@ -174,10 +174,9 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.18653/v1/2022.findings-acl.236",
-        "https://openalex.org/W4226490385"
+        "https://doi.org/10.18653/v1/2022.acl-long.78"
       ],
-      "notes": ""
+      "notes": "missing doi, abstract"
     },
     {
       "title": "Generation-Focused Table-Based Intermediate Pre-training for Free-Form Question Answering.",
@@ -612,26 +611,26 @@
       "notes": ""
     },
     {
-      "title": "Photon: A Robust Cross-Domain Text-to-SQL System",
+      "title": "PURPLE: Making a Large Language Model a Better SQL Writer",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2020",
+      "venue": "ICDE",
+      "normalized_venue": "ICDE",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.48550/arxiv.2007.15280",
-        "https://openalex.org/W3045954184"
+        "https://doi.org/10.1109/icde60146.2024.00009",
+        "https://openalex.org/W4400909566"
       ],
       "notes": ""
     },
     {
-      "title": "Text-to-SQL Generation for Medical Databases via Large Language Models and SQL Decomposition",
+      "title": "Text to SQL AI Agentic Workflow Implementations: A Systematic Literature Review",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -644,51 +643,32 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.1109/spct68223.2025.11406783",
-        "https://openalex.org/W7131625700"
+        "https://doi.org/10.1109/icatc68823.2025.11407744",
+        "https://openalex.org/W7131398377"
       ],
       "notes": ""
     },
     {
-      "title": "The Rapid Evolution of AI: Transitioning from Big Data Tools to Autonomous Analytical Agents",
+      "title": "The Dawn of Natural Language to SQL: Are We Fully Ready?",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "其他",
-      "normalized_venue": "其他",
-      "category": "其他",
-      "year": "2026",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.59256/indjcst.20260501042",
-        "https://openalex.org/W7154484224"
+        "https://doi.org/10.14778/3681954.3682003",
+        "https://openalex.org/W4402042542"
       ],
       "notes": ""
     },
     {
-      "title": "Effectiveness of Prompt Optimization in NL2SQL Systems",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://doi.org/10.1145/3735079.3735325",
-        "https://openalex.org/W4415036001"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL",
+      "title": "ETM: Modern Insights into Perspective on Text-to-SQL Evaluation in the Age of Large Language Models",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -701,13 +681,32 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.48550/arxiv.2412.12522",
-        "https://openalex.org/W4405562301"
+        "https://doi.org/10.48550/arxiv.2407.07313",
+        "https://openalex.org/W4400600720"
       ],
       "notes": ""
     },
     {
-      "title": "Research on Tobacco Data Query Application Based on NL2SQL",
+      "title": "Sinhala Text-to-SQL: A Hybrid Approach",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "其他",
+      "normalized_venue": "其他",
+      "category": "其他",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://doi.org/10.1109/cicn67655.2025.11367980",
+        "https://openalex.org/W7127657142"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Research and Practice on Database Interaction Based on Natural Language Processing",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -720,46 +719,46 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.1145/3689236.3695386",
-        "https://openalex.org/W4405011785"
+        "https://doi.org/10.1109/aiac63745.2024.10899660",
+        "https://openalex.org/W4408018537"
       ],
       "notes": ""
     },
     {
-      "title": "Think2SQL: Reinforce LLM Reasoning Capabilities for Text2SQL",
+      "title": "The history and recent advances of Natural Language Interfaces for Databases Querying",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
+      "venue": "其他",
+      "normalized_venue": "其他",
+      "category": "其他",
+      "year": "2021",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.48550/arxiv.2504.15077",
-        "https://openalex.org/W4416872441"
+        "https://doi.org/10.1051/e3sconf/202122901039",
+        "https://openalex.org/W3123886793"
       ],
       "notes": ""
     },
     {
-      "title": "Automatic Data Transformation Using Large Language Model: An Experimental Study on Building Energy Data",
+      "title": "AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models",
       "present_in_labeldata": true,
       "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2023",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.48550/arxiv.2309.01957",
-        "https://openalex.org/W4386555649"
+        "https://doi.org/10.14778/3685800.3685816",
+        "https://openalex.org/W4404181300"
       ],
       "notes": ""
     }

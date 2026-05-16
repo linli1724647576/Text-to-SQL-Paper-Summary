@@ -55,7 +55,7 @@ jobs:
         if: github.event_name == 'schedule' || inputs.full_crawl
         env:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-        run: python scripts/crawl_papers.py --output data/autocrawl/openalex.json --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --source supplemental --max-results 60 --sleep 0.5
+        run: python scripts/crawl_papers.py --output data/autocrawl/openalex.json --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --source ccf-supplemental --quick --max-results 60 --max-venue-results 25 --sleep 0.5
 
       - name: Fetch official accepted papers
         if: github.event_name == 'schedule' || inputs.full_crawl

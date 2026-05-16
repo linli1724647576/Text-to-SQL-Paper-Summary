@@ -136,13 +136,7 @@ def choose_title(first, second):
 def normalize_paper_metadata(entry):
     out = dict(entry)
     venue = normalize_entry_venue(out)
-    existing_base = venue_base_name(out.get("venue", ""))
-    if venue == OTHER_VENUE and existing_base != OTHER_VENUE:
-        venue = existing_base
-    if venue == ARXIV_VENUE:
-        out["venue"] = ARXIV_VENUE
-    elif venue != OTHER_VENUE or not known_venue(out.get("venue", "")):
-        out["venue"] = venue
+    out["venue"] = ARXIV_VENUE if venue == ARXIV_VENUE else venue
     out["venue_track"] = publication_category(out)
     return out
 

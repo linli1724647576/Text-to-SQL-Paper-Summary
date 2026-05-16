@@ -18,7 +18,15 @@ from pathlib import Path
 
 from http_utils import get_json
 from paper_utils import normalize_title_key
-from venues import iter_tracked_venues, normalize_entry_venue, normalize_venue_name, publication_category
+from venues import (
+    iter_ccf_a_venues,
+    iter_readme_journals,
+    iter_tracked_venues,
+    normalize_entry_venue,
+    normalize_venue_name,
+    publication_category,
+    venue_base_name,
+)
 
 
 DEFAULT_SEARCH_QUERIES = [
@@ -42,6 +50,44 @@ VENUE_SEARCH_TERMS = [
     "large language model sql",
     "llm sql generation",
 ]
+
+CCF_VENUE_SEARCH_TERMS = [
+    "text-to-sql",
+    "text to sql",
+    "text2sql",
+    "nl2sql",
+    "natural language to sql",
+    "natural language interface to database",
+    "semantic parsing sql",
+    "database question answering",
+    "sql generation",
+    "llm sql generation",
+]
+
+CCF_VENUE_QUERIES = {
+    "AAAI": ["AAAI Conference on Artificial Intelligence", "AAAI"],
+    "ACL": ["Annual Meeting of the Association for Computational Linguistics", "ACL"],
+    "AIJ": ["Artificial Intelligence", "Artificial Intelligence Journal"],
+    "ASE": ["Automated Software Engineering", "IEEE/ACM International Conference on Automated Software Engineering"],
+    "CVPR": ["Computer Vision and Pattern Recognition", "CVPR"],
+    "FSE": ["Foundations of Software Engineering", "ESEC/FSE"],
+    "ICCV": ["International Conference on Computer Vision", "ICCV"],
+    "ICDE": ["International Conference on Data Engineering", "ICDE"],
+    "ICML": ["International Conference on Machine Learning", "ICML"],
+    "ICSE": ["International Conference on Software Engineering", "ICSE"],
+    "IJCAI": ["International Joint Conference on Artificial Intelligence", "IJCAI"],
+    "ISSTA": ["International Symposium on Software Testing and Analysis", "ISSTA"],
+    "KDD": ["Knowledge Discovery and Data Mining", "KDD"],
+    "NeurIPS": ["Neural Information Processing Systems", "NeurIPS"],
+    "SIGIR": ["Research and Development in Information Retrieval", "SIGIR"],
+    "SIGMOD": ["ACM SIGMOD", "Proceedings of the ACM on Management of Data"],
+    "TKDE": ["IEEE Transactions on Knowledge and Data Engineering", "TKDE"],
+    "TOSEM": ["ACM Transactions on Software Engineering and Methodology", "TOSEM"],
+    "TSE": ["IEEE Transactions on Software Engineering", "TSE"],
+    "VLDB": ["Proceedings of the VLDB Endowment", "PVLDB", "Very Large Data Bases"],
+    "VLDBJ": ["VLDB Journal", "The VLDB Journal"],
+    "WWW": ["The Web Conference", "World Wide Web Conference"],
+}
 
 
 def abstract_from_inverted_index(index):
@@ -70,6 +116,10 @@ def json_get(url, timeout=20):
     return get_json(url, timeout=timeout, headers=headers)
 
 
+def semantic_scholar_available():
+    return bool(os.environ.get("SEMANTIC_SCHOLAR_API_KEY"))
+
+
 def source_name(work):
     primary = work.get("primary_location") or {}
     source = primary.get("source") or {}
@@ -96,7 +146,8 @@ def normalize_s2_paper(paper, venue_override=None, venue_track=None):
     if not title or not abstract:
         return None
     year = str(paper.get("year") or "")
-    venue = paper.get("venue") or paper.get("publicationVenue", {}).get("name") or "Unknown"
+    publication_venue = paper.get("publicationVenue") or {}
+    venue = paper.get("venue") or publication_venue.get("name") or "Unknown"
     venue_label = normalize_venue_name(venue_override or venue, title, year)
     authors = [author.get("name", "") for author in paper.get("authors") or [] if author.get("name")]
     url = paper.get("url") or ""
@@ -164,6 +215,44 @@ def normalize_work(work, venue_override=None, venue_track=None):
     return entry
 
 
+def high_confidence_venue_source(text, target_venue):
+    source = clean_text(text).lower()
+    if not source:
+        return False
+    target = venue_base_name(target_venue)
+    if target == "ACL" and "findings" in source:
+        return False
+    normalized = venue_base_name(normalize_venue_name(source))
+    if normalized == target:
+        return True
+    # OpenAlex often represents PVLDB as a journal-like source rather than the
+    # conference name. Treat PVLDB as VLDB only for the explicit VLDB target.
+    if target == "VLDB" and ("vldb endowment" in source or "pvldb" in source):
+        return True
+    return False
+
+
+def openalex_source_matches(work, target_venue):
+    source = source_name(work)
+    primary = work.get("primary_location") or {}
+    source_obj = primary.get("source") or {}
+    candidates = [
+        source,
+        source_obj.get("display_name") or "",
+        work.get("type_crossref") or "",
+    ]
+    return any(high_confidence_venue_source(candidate, target_venue) for candidate in candidates)
+
+
+def s2_source_matches(paper, target_venue):
+    publication_venue = paper.get("publicationVenue") or {}
+    candidates = [
+        paper.get("venue") or "",
+        publication_venue.get("name") or "",
+    ]
+    return any(high_confidence_venue_source(candidate, target_venue) for candidate in candidates)
+
+
 def crawl_query(query, from_year, to_year, max_results, sleep):
     per_page = min(200, max_results)
     cursor = "*"
@@ -196,7 +285,9 @@ def crawl_venue_query(venue_query, term, year, max_results, sleep):
     return crawl_query(f"{term} {venue_query}", year, year, max_results, sleep)
 
 
-def add_work(by_title, work, venue_override=None, venue_track=None):
+def add_work(by_title, work, venue_override=None, venue_track=None, require_venue_match=False):
+    if venue_override and require_venue_match and not openalex_source_matches(work, venue_override):
+        return False
     entry = normalize_work(work, venue_override=venue_override, venue_track=venue_track)
     if not entry or not entry["abstract"]:
         return False
@@ -205,7 +296,9 @@ def add_work(by_title, work, venue_override=None, venue_track=None):
     return True
 
 
-def add_s2_paper(by_title, paper, venue_override=None, venue_track=None):
+def add_s2_paper(by_title, paper, venue_override=None, venue_track=None, require_venue_match=False):
+    if venue_override and require_venue_match and not s2_source_matches(paper, venue_override):
+        return False
     entry = normalize_s2_paper(paper, venue_override=venue_override, venue_track=venue_track)
     if not entry:
         return False
@@ -227,6 +320,69 @@ def crawl_s2(query, year, limit):
     return payload.get("data") or []
 
 
+def ccf_venue_queries(abbr):
+    return CCF_VENUE_QUERIES.get(abbr, [abbr])
+
+
+def iter_ccf_search_venues(from_year, to_year, allowed_venues=None):
+    for track, abbr, _dblp_key, year in iter_ccf_a_venues(from_year, to_year, tracks=["AI", "DB", "SE"]):
+        if allowed_venues and abbr.lower() not in allowed_venues:
+            continue
+        yield track, abbr, year, ccf_venue_queries(abbr)
+    for track, abbr, _dblp_key, year in iter_readme_journals(from_year, to_year, tracks=["AI", "DB", "SE"]):
+        if allowed_venues and abbr.lower() not in allowed_venues:
+            continue
+        yield track, abbr, year, ccf_venue_queries(abbr)
+
+
+def crawl_ccf_venues(by_title, args, include_s2=True):
+    if include_s2 and not semantic_scholar_available():
+        print("Skipping CCF-A Semantic Scholar venue crawl because SEMANTIC_SCHOLAR_API_KEY is not set.", file=sys.stderr)
+        include_s2 = False
+    terms = CCF_VENUE_SEARCH_TERMS[:4] if args.quick else CCF_VENUE_SEARCH_TERMS
+    allowed_venues = None
+    if args.limit_venues:
+        allowed_venues = {item.strip().lower() for item in args.limit_venues.split(",") if item.strip()}
+    for track, abbr, year, venue_queries in iter_ccf_search_venues(args.from_year, args.to_year, allowed_venues):
+        venue_query = venue_queries[0]
+        print(f"Crawling CCF-A venue: {abbr}{year} ({track})", file=sys.stderr)
+        before = len(by_title)
+        for term in terms:
+            try:
+                works = crawl_venue_query(venue_query, term, year, args.max_venue_results, args.sleep)
+            except Exception as exc:
+                print(f"  WARN: OpenAlex {abbr}{year} / {term}: {exc}", file=sys.stderr)
+                continue
+            for work in works:
+                add_work(
+                    by_title,
+                    work,
+                    venue_override=f"{abbr}{year}",
+                    venue_track=track,
+                    require_venue_match=True,
+                )
+        if include_s2:
+            for term in terms:
+                try:
+                    papers = crawl_s2(f"{term} {venue_query}", year, args.max_venue_results)
+                except Exception as exc:
+                    print(f"  WARN: S2 {abbr}{year} / {term}: {exc}", file=sys.stderr)
+                    if args.sleep:
+                        time.sleep(args.sleep)
+                    continue
+                for paper in papers:
+                    add_s2_paper(
+                        by_title,
+                        paper,
+                        venue_override=f"{abbr}{year}",
+                        venue_track=track,
+                        require_venue_match=True,
+                    )
+                if args.sleep:
+                    time.sleep(args.sleep)
+        print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Crawl Text-to-SQL metadata from OpenAlex")
     parser.add_argument("--output", "-o", default="data/autocrawl/openalex.json")
@@ -246,9 +402,9 @@ def main():
     )
     parser.add_argument(
         "--source",
-        choices=["supplemental", "venues", "global", "both", "s2", "all"],
+        choices=["supplemental", "venues", "global", "both", "s2", "all", "ccf", "ccf-supplemental"],
         default="supplemental",
-        help="supplemental runs broad OpenAlex and Semantic Scholar search.",
+        help="supplemental runs broad search; ccf-supplemental adds high-confidence CCF-A venue-year search.",
     )
     parser.add_argument(
         "--max-venue-results",
@@ -263,6 +419,9 @@ def main():
     args = parser.parse_args()
 
     by_title = {}
+    if args.source in ("ccf", "ccf-supplemental"):
+        crawl_ccf_venues(by_title, args, include_s2=True)
+
     if args.source in ("venues", "both", "all"):
         terms = VENUE_SEARCH_TERMS[:4] if args.quick else VENUE_SEARCH_TERMS
         allowed_venues = None
@@ -291,6 +450,7 @@ def main():
             print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
     if args.source in ("all",):
+        crawl_ccf_venues(by_title, args, include_s2=True)
         terms = VENUE_SEARCH_TERMS[:4] if args.quick else VENUE_SEARCH_TERMS
         allowed_venues = None
         if args.limit_venues:
@@ -313,7 +473,7 @@ def main():
                     time.sleep(args.sleep)
             print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
-    if args.source in ("global", "both", "all", "supplemental"):
+    if args.source in ("global", "both", "all", "supplemental", "ccf-supplemental"):
         queries = DEFAULT_SEARCH_QUERIES
         if args.quick:
             queries = [
@@ -336,7 +496,10 @@ def main():
                     add_work(by_title, work)
                 print(f"    accumulated candidates: {len(by_title)}", file=sys.stderr)
 
-    if args.source in ("s2", "all", "supplemental"):
+    if args.source in ("s2", "all", "supplemental", "ccf-supplemental") and not semantic_scholar_available():
+        print("Skipping global Semantic Scholar crawl because SEMANTIC_SCHOLAR_API_KEY is not set.", file=sys.stderr)
+
+    if args.source in ("s2", "all", "supplemental", "ccf-supplemental") and semantic_scholar_available():
         queries = DEFAULT_SEARCH_QUERIES
         if args.quick:
             queries = [

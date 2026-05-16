@@ -361,6 +361,10 @@ def normalize_venue_name(raw_venue, title="", year=""):
     haystack = (raw_venue or "").lower()
     if "arxiv" in haystack:
         return f"{ARXIV_VENUE}{year}" if year else ARXIV_VENUE
+    if "findings" in haystack and (
+        "association for computational linguistics" in haystack or re.search(r"(?<![a-z0-9])acl(?![a-z0-9])", haystack)
+    ):
+        return OTHER_VENUE
     for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
         if _contains_alias(haystack, alias):
             return f"{abbr}{year}" if year else abbr
@@ -417,7 +421,10 @@ def normalize_entry_venue(entry):
     """Return a strict CCF-A venue bucket, ArXiv, or Other."""
     source_text = _venue_source_text(entry)
     link_text = _venue_link_text(entry)
+    existing_text = str(entry.get("venue", "")).lower()
     matched = _matched_venue_from_text(source_text, VENUE_ALIASES)
+    if matched == "ACL" and "findings" in source_text:
+        return OTHER_VENUE
     if matched:
         return matched
     if "arxiv" in source_text or _matched_venue_from_text(link_text, LINK_VENUE_ALIASES) == ARXIV_VENUE:
@@ -425,6 +432,11 @@ def normalize_entry_venue(entry):
     matched = _matched_venue_from_text(link_text, LINK_VENUE_ALIASES)
     if matched:
         return matched
+    if "findings" in existing_text and (
+        "association for computational linguistics" in existing_text
+        or re.search(r"(?<![a-z0-9])acl(?![a-z0-9])", existing_text)
+    ):
+        return OTHER_VENUE
     existing = venue_base_name(entry.get("venue", ""))
     if existing == "WWW" and not www_supported_by_source(entry):
         return OTHER_VENUE

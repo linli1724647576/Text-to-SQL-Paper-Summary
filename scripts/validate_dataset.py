@@ -31,6 +31,34 @@ BALANCED_OTHER_RATIO_WARNING = 0.30
 BALANCED_DROP_LIMIT = 0.05
 BALANCED_DBLP_FAILURE_LIMIT = 0.30
 
+CCF_RECALL_CANARIES = [
+    {
+        "title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information",
+        "venue": "ICDE",
+        "year": "2021",
+    },
+    {
+        "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+        "venue": "NeurIPS",
+        "year": "2023",
+    },
+    {
+        "title": "The Dawn of Natural Language to SQL: Are We Fully Ready?",
+        "venue": "VLDB",
+        "year": "2024",
+    },
+    {
+        "title": "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
+        "venue": "VLDB",
+        "year": "2024",
+    },
+    {
+        "title": "Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL",
+        "venue": "VLDB",
+        "year": "2024",
+    },
+]
+
 
 def load_json(path, default):
     path = Path(path)
@@ -165,6 +193,47 @@ def expected_dblp_conference_count(from_year, to_year):
     return sum(1 for _ in iter_ccf_a_venues(from_year, to_year, tracks=["AI", "DB", "SE"]))
 
 
+def recall_canary_status(papers):
+    index = {
+        normalize_title_key(entry.get("title") or title): (title, entry)
+        for title, entry in papers.items()
+        if normalize_title_key(entry.get("title") or title)
+    }
+    results = []
+    for canary in CCF_RECALL_CANARIES:
+        key = normalize_title_key(canary["title"])
+        title, entry = index.get(key, ("", {}))
+        venue = normalize_entry_venue(entry) if entry else ""
+        year = str(entry.get("year") or "") if entry else ""
+        level = relevance_level(title, entry.get("abstract", ""), entry.get("keywords", "")) if entry else ""
+        ok = bool(entry) and venue == canary["venue"] and year == canary["year"] and level != "irrelevant"
+        results.append(
+            {
+                "title": canary["title"],
+                "expected_venue": canary["venue"],
+                "expected_year": canary["year"],
+                "found": bool(entry),
+                "actual_title": title,
+                "actual_venue": venue,
+                "actual_year": year,
+                "relevance_level": level,
+                "ok": ok,
+            }
+        )
+    return results
+
+
+def acl_findings_tagged_as_acl(papers):
+    findings = []
+    for title, entry in papers.items():
+        if normalize_entry_venue(entry) != "ACL":
+            continue
+        source = " ".join(str(entry.get(field, "")) for field in ("booktitle", "journal", "container", "source"))
+        if "findings" in source.lower():
+            findings.append(entry.get("title") or title)
+    return findings
+
+
 def validate(args):
     fatal_errors = []
     warnings = []
@@ -238,6 +307,17 @@ def validate(args):
         fatal_errors.append(f"WWW papers lack high-confidence WWW source: {unsupported_www[:10]}")
     if irrelevant_records:
         fatal_errors.append(f"irrelevant records under current relevance rules: {len(irrelevant_records)}; sample={irrelevant_records[:10]}")
+
+    canaries = recall_canary_status(papers)
+    missing_canaries = [item for item in canaries if not item["ok"]]
+    metrics["ccf_recall_canaries"] = canaries
+    if missing_canaries:
+        fatal_errors.append(f"CCF-A recall canaries failed: {missing_canaries[:5]}")
+
+    acl_findings = acl_findings_tagged_as_acl(papers)
+    metrics["acl_findings_tagged_as_acl"] = len(acl_findings)
+    if acl_findings:
+        fatal_errors.append(f"ACL Findings records tagged as ACL CCF-A: {acl_findings[:10]}")
 
     coverage = journal_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)
     metrics["readme_journal_rawdata_files"] = coverage

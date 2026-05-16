@@ -513,7 +513,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.36",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.36",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -1157,7 +1157,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.82",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.82",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -1759,7 +1759,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.125",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.125",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -2319,7 +2319,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.165",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.165",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -2599,7 +2599,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.185",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.185",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -3170,10 +3170,10 @@
     "booktitle": "ACL (1)",
     "title": "ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Deep neural networks have achieved remarkable performance in various text-based tasks but often lack interpretability, making them less suitable for applications where transparency is critical. To address this, we propose ProtoLens, a novel prototype-based model that provides fine-grained, sub-sentence level interpretability for text classification. ProtoLens uses a Prototype-aware Span Extraction module to identify relevant text spans associated with learned prototypes and a Prototype Alignment mechanism to ensure prototypes are semantically meaningful throughout training. By aligning the prototype embeddings with human-understandable examples, ProtoLens provides interpretable predictions while maintaining competitive accuracy. Extensive experiments demonstrate that ProtoLens outperforms both prototype-based and non-interpretable baselines on multiple text classification benchmarks. Code and data are available at https://anonymous.4open.science/r/ProtoLens-CE0B/ .",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.226",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.226",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -4041,7 +4041,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.288",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.288",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -4318,10 +4318,10 @@
     "booktitle": "ACL (1)",
     "title": "Beyond Sequences: Two-dimensional Representation and Dependency Encoding for Code Generation.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "The advent of large language models has significantly advanced automatic code generation, transforming the way programmers writing code. Inspired by natural language processing, mainstream code generation approaches represent code as a linear sequence of tokens. In this paper, we propose to represent code snip-pets as two-dimensional entities, where both code lines and tokens within lines are explicitly modeled. This representation allows us to capture the hierarchical and spatial structure of code, especially the dependencies between code lines. Our method CoDE introduces a dependency encoding approach that leverages dictionary learning to perform semantic matching between code lines. As such, it avoids the reliance on strict position indices, leading to better generalization to code with diverse context and lengths. We thoroughly evaluate CoDE based on four categories of tasks. The experimental results showcase its generalizability, context understanding and retrieval, as well as interpretability in code generation.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.308",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.308",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -4626,10 +4626,10 @@
     "booktitle": "ACL (1)",
     "title": "That is Unacceptable: the Moral Foundations of Canceling.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Canceling is a morally-driven phenomenon that hinders the development of safe social media platforms and contributes to ideological polarization. To address this issue we present the Canceling Attitudes Detection (CADE) dataset, an annotated corpus of canceling incidents aimed at exploring the factors of disagreements in evaluating people canceling attitudes on social media. Specifically, we study the impact of annotators'morality in their perception of canceling, showing that morality is an independent axis for the explanation of disagreement on this phenomenon. Annotator's judgments heavily depend on the type of controversial events and involved celebrities. This shows the need to develop more event-centric datasets to better understand how harms are perpetrated in social media and to develop more aware technologies for their detection.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.330",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.330",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -4993,7 +4993,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.356",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.356",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -5091,7 +5091,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.363",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.363",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -5903,7 +5903,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.421",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.421",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -6026,10 +6026,10 @@
     "booktitle": "ACL (1)",
     "title": "CKnowEdit: A New Chinese Knowledge Editing Dataset for Linguistics, Facts, and Logic Error Correction in LLMs.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Chinese, as a linguistic system rich in depth and complexity, is characterized by distinctive elements such as ancient poetry, proverbs, idioms, and other cultural constructs. However, current Large Language Models (LLMs) face limitations in these specialized domains, highlighting the need for the development of comprehensive datasets that can assess, continuously update, and progressively improve these culturally-grounded linguistic competencies through targeted training optimizations. To address this gap, we introduce CKnowEdit, the first-ever Chinese knowledge editing dataset designed to correct linguistic, factual, and logical errors in LLMs. We collect seven types of knowledge from a wide range of sources, including classical texts, idioms, and content from Baidu Tieba Ruozhiba, taking into account the unique polyphony, antithesis, and logical structures inherent in the Chinese language. By analyzing this dataset, we highlight the challenges current LLMs face in mastering Chinese. Furthermore, our evaluation of state-of-the-art knowledge editing techniques reveals opportunities to advance the correction of Chinese knowledge. Code and dataset are available at https://github.com/zjunlp/EasyEdit.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.430",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.430",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -6488,10 +6488,10 @@
     "booktitle": "ACL (1)",
     "title": "IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Causal discovery is fundamental to scientific research, yet traditional statistical algorithms face significant challenges, including expensive data collection, redundant computation for known relations, and unrealistic assumptions. While recent LLM-based methods excel at identifying commonly known causal relations, they fail to uncover novel relations. We introduce IRIS (Iterative Retrieval and Integrated System for Real-Time Causal Discovery), a novel framework that addresses these limitations. Starting with a set of initial variables, IRIS automatically collects relevant documents, extracts variables, and uncovers causal relations. Our hybrid causal discovery method combines statistical algorithms and LLM-based methods to discover known and novel causal relations. In addition to causal discovery on initial variables, the missing variable proposal component of IRIS identifies and incorporates missing variables to expand the causal graphs. Our approach enables real-time causal discovery from only a set of initial variables without requiring pre-existing datasets.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.463",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.463",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -6729,7 +6729,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.480",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.480",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -7247,7 +7247,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.517",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.517",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -7975,7 +7975,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.569",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.569",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -7989,7 +7989,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.570",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.570",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -8353,7 +8353,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.596",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.596",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -8423,7 +8423,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.601",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.601",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -9106,10 +9106,10 @@
     "booktitle": "ACL (1)",
     "title": "Inducing lexicons of in-group language with socio-temporal context.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "In-group language is an important signifier of group dynamics. This paper proposes a novel method for inducing lexicons of in-group language, which incorporates its socio-temporal context. Existing methods for lexicon induction do not capture the evolving nature of in-group language, nor the social structure of the community. Using dynamic word and user embeddings trained on conversations from online anti-women communities, our approach outperforms prior methods for lexicon induction. We develop a test set for the task of lexicon induction and a new lexicon of manosphere language, validated by human experts, which quantifies the relevance of each term to a specific sub-community at a given point in time. Finally, we present novel insights on in-group language which illustrate the utility of this approach.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.650",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.650",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -9389,7 +9389,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.670",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.670",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -9568,10 +9568,10 @@
     "booktitle": "ACL (1)",
     "title": "LexCLiPR: Cross-Lingual Paragraph Retrieval from Legal Judgments.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Efficient retrieval of pinpointed information from case law is crucial for legal professionals but challenging due to the length and complexity of legal judgments. Existing works mostly often focus on retrieving entire cases rather than precise, paragraph-level information. Moreover, multilingual legal practice necessitates cross-lingual retrieval, most works have been limited to monolingual settings. To address these gaps, we introduce LexCLiPR, a cross-lingual dataset for paragraph-level retrieval from European Court of Human Rights (ECtHR) judgments, leveraging multilingual case law guides and distant supervision to cu-rate our dataset. We evaluate retrieval models in a zero-shot setting, revealing the limitations of pre-trained multilingual models for cross-lingual tasks in low-resource languages and the importance of retrieval based post-training strategies. In fine-tuning settings, we observe that two-tower models excel in cross-lingual retrieval, while siamese architectures are better suited for monolingual tasks. Fine-tuning multilingual models on native language queries improves performance but struggles to generalize to unseen legal concepts, highlighting the need for robust strategies to address topical distribution shifts in the legal queries. 1 .",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.683",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.683",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -10159,7 +10159,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.725",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.725",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -10873,7 +10873,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.776",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.776",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -11041,7 +11041,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.788",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.788",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -12035,7 +12035,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.859",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.859",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -12413,7 +12413,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.886",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.886",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -12819,7 +12819,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.915",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.915",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -13645,7 +13645,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.974",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.974",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -13743,7 +13743,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.981",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.981",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -14370,10 +14370,10 @@
     "booktitle": "ACL (1)",
     "title": "Targeted Syntactic Evaluation for Grammatical Error Correction.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Language learners encounter a wide range of grammar items across the beginner, intermediate, and advanced levels. To develop grammatical error correction (GEC) models effectively, it is crucial to identify which grammar items are easier or more challenging for models to correct. However, conventional benchmarks based on learner-produced texts are insufficient for conducting detailed evaluations of GEC model performance across a wide range of grammar items due to biases in their distribution. To address this issue, we propose a new evaluation paradigm that assesses GEC models using minimal pairs of ungrammatical and grammatical sentences for each grammar item. As the first benchmark within this paradigm, we introduce the C EFR-based T argeted S yntactic E valuation Dataset for G rammatical Error Correction ( CTSEG ), which complements existing English benchmarks by enabling fine-grained analyses previously unattainable with conventional datasets. Using CTSEG , we evaluate three mainstream types of English GEC models: sequence-to-sequence models, sequence tagging models, and prompt-based models. The results indicate that while current models perform well on beginner-level grammar items, their performance deteriorates substantially for intermediate and",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1026",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1026",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -14720,10 +14720,10 @@
     "booktitle": "ACL (1)",
     "title": "Exclusion of Thought: Mitigating Cognitive Load in Large Language Models for Enhanced Reasoning in Multiple-Choice Tasks.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Multiple-choice questions (MCQs) are a widely used and vital assessment format for evaluating large language models (LLMs). This study reveals that LLMs are susceptible to \"cognitive load\" caused by distractor options in MCQs, leading to excessive attention to distractors and consequent vacillation between correct and incorrect options. To mitigate this cognitive burden, we introduce a novel reasoning prompt strategy, called EoT , which effectively reduces cognitive load by steering the model’s attention away from erroneous options. This enables the model to focus more effectively on reasonable answers. Additionally, by documenting the elimination process, EoT enhances the transparency and interpretability of the model’s reasoning. Experimental results demonstrate that EoT, as a plug-and-play approach, significantly reduces cognitive load and improves performance, showcasing its potential to enhance both the accuracy and interpretability of LLMs 1 .",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1051",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1051",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -15017,7 +15017,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1072",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1072",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -15325,7 +15325,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1094",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1094",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -15409,7 +15409,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1100",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1100",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -17299,7 +17299,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1235",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1235",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -17467,7 +17467,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1247",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1247",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -19634,10 +19634,10 @@
     "booktitle": "ACL (1)",
     "title": "Reviving Cultural Heritage: A Novel Approach for Comprehensive Historical Document Restoration.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Historical documents represent an invaluable cultural heritage, yet have undergone significant degradation over time through tears, water erosion, and oxidation. Existing Historical Document Restoration (HDR) methods primarily focus on single modality or limited-size restoration, failing to meet practical needs. To fill this gap, we present a full-page HDR dataset (FPHDR) and a novel automated HDR solution (AutoHDR). Specifically, FPHDR comprises 1,633 real and 6,543 synthetic images with character-level and line-level locations, as well as character annotations in different damage grades. AutoHDR mimics historians'restoration workflows through a three-stage approach: OCR-assisted damage localization, vision-language context text prediction, and patch autoregressive appearance restoration. The modular architecture of AutoHDR enables seamless human-machine collaboration, allowing for flexible intervention and optimization at each restoration stage. Experiments demonstrate AutoHDR's remarkable performance in HDR. When processing severely damaged documents, our method improves OCR accuracy from 46.83% to 84.05%, with further enhancement to 94.25% through human-machine collaboration. We believe this work represents a significant advancement in automated historical document restoration and contributes substantially to cultural heritage preservation. The model and dataset are available at https://github.com/SCUT-DLVCLab/AutoHDR.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1402",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1402",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -20348,10 +20348,10 @@
     "booktitle": "ACL (1)",
     "title": "ConLoan: A Contrastive Multilingual Dataset for Evaluating Loanwords.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Lexical borrowing, the adoption of words from one language into another, is a ubiquitous linguistic phenomenon influenced by geopolitical, societal, and technological factors. This paper introduces ConLoan–a novel contrastive dataset comprising sentences with and without loanwords across 10 languages. Through systematic evaluation using this dataset, we investigate how state-of-the-art machine translation and language models process loanwords compared to their native alternatives. Our experiments reveal that these systems show systematic preferences for loanwords over native terms and exhibit varying performance across languages. These findings provide valuable insights for developing more linguistically robust NLP systems.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1453",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1453",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -20785,7 +20785,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1484",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1484",
     "venue": "ACL2025",
     "venue_track": "AI"
   },
@@ -21331,7 +21331,7 @@
     "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1523",
-    "doi": "",
+    "doi": "10.18653/v1/2025.acl-long.1523",
     "venue": "ACL2025",
     "venue_track": "AI"
   },

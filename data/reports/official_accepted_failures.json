@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "fetched_entries": 43891,
+    "failure_count": 1,
+    "warning_count": 2
+  },
+  "failures": [
+    {
+      "venue": "SIGIR",
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "failed",
+      "url": "https://sigir2025.dei.unipd.it/accepted-papers.html",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    }
+  ],
+  "warnings": [
+    {
+      "venue": "ISSTA",
+      "year": 2024,
+      "source": "official-accepted",
+      "status": "parse_skipped",
+      "url": "https://conf.researchr.org/track/issta-2024/issta-2024-papers",
+      "parsed_entries": 0
+    },
+    {
+      "venue": "WWW",
+      "year": 2024,
+      "source": "official-accepted",
+      "status": "parse_skipped",
+      "url": "https://www2024.thewebconf.org/accepted/research-tracks/",
+      "parsed_entries": 1
+    }
+  ]
+}

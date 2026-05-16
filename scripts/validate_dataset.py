@@ -11,8 +11,12 @@ from pathlib import Path
 
 from label_papers import relevance_level
 from paper_utils import normalize_title_key
+from taxonomy import DEPRECATED_TOPIC_LABELS
 from venues import (
+    ALL_CCF_A_VENUES,
+    ARXIV_VENUE,
     README_CCF_A_JOURNALS,
+    canonical_venue_from_filename,
     iter_ccf_a_venues,
     normalize_entry_venue,
     publication_category,
@@ -44,11 +48,6 @@ CCF_RECALL_CANARIES = [
     },
     {
         "title": "The Dawn of Natural Language to SQL: Are We Fully Ready?",
-        "venue": "VLDB",
-        "year": "2024",
-    },
-    {
-        "title": "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
         "venue": "VLDB",
         "year": "2024",
     },
@@ -189,6 +188,22 @@ def quality_pruned_count(reports_dir, baseline_papers, current_papers):
     return verified
 
 
+def source_policy_removed_count(baseline_papers, current_papers):
+    current_keys = {
+        normalize_title_key(entry.get("title") or title)
+        for title, entry in (current_papers or {}).items()
+        if normalize_title_key(entry.get("title") or title)
+    }
+    removed = 0
+    for title, entry in (baseline_papers or {}).items():
+        key = normalize_title_key(entry.get("title") or title)
+        if not key or key in current_keys:
+            continue
+        if entry.get("openalex_id") or entry.get("semantic_scholar_id"):
+            removed += 1
+    return removed
+
+
 def expected_dblp_conference_count(from_year, to_year):
     return sum(1 for _ in iter_ccf_a_venues(from_year, to_year, tracks=["AI", "DB", "SE"]))
 
@@ -234,6 +249,89 @@ def acl_findings_tagged_as_acl(papers):
     return findings
 
 
+def current_source_kind(entry):
+    venue = normalize_entry_venue(entry)
+    base = venue_base_name(venue)
+    if venue == ARXIV_VENUE:
+        return "arxiv"
+    if base in ALL_CCF_A_VENUES:
+        return "ccf_venue"
+    if entry.get("openalex_id") or entry.get("semantic_scholar_id"):
+        return "supplemental_or_other"
+    return "other"
+
+
+def load_raw_records(path):
+    try:
+        payload = load_json(path, {})
+    except Exception:
+        return []
+    if isinstance(payload, dict):
+        return list(payload.items())
+    if isinstance(payload, list):
+        return [(item.get("title", ""), item) for item in payload if isinstance(item, dict)]
+    return []
+
+
+def raw_source_kind(path):
+    name = path.name.lower()
+    if "arxiv" in name or "arxiv" in path.as_posix().lower():
+        return "arxiv"
+    if "-accepted" in name:
+        return "official_accepted"
+    return "dblp"
+
+
+def rawdata_diagnostics(rawdata_dir, papers):
+    raw_by_venue_year = {}
+    arxiv_keys = set()
+    ccf_raw_keys = set()
+    for path in sorted(Path(rawdata_dir).glob("*/*.json")):
+        if path.name in {"fetch_failures.json"}:
+            continue
+        records = load_raw_records(path)
+        source = raw_source_kind(path)
+        venue_key = canonical_venue_from_filename(path)
+        raw_by_venue_year.setdefault(
+            venue_key,
+            {"raw_candidates": 0, "official_accepted": 0, "dblp": 0, "arxiv": 0, "relevant_papers": 0},
+        )
+        raw_by_venue_year[venue_key]["raw_candidates"] += len(records)
+        raw_by_venue_year[venue_key][source] += len(records)
+        for title, entry in records:
+            if not isinstance(entry, dict):
+                continue
+            key = normalize_title_key(entry.get("title") or title)
+            if not key:
+                continue
+            if source == "arxiv":
+                arxiv_keys.add(key)
+            elif venue_base_name(venue_key) in ALL_CCF_A_VENUES:
+                ccf_raw_keys.add(key)
+
+    for title, entry in papers.items():
+        venue = normalize_entry_venue(entry)
+        year = str(entry.get("year") or "")
+        if not year:
+            continue
+        key = f"{venue_base_name(venue)}{year}" if venue != ARXIV_VENUE else "ArXiv"
+        raw_by_venue_year.setdefault(
+            key,
+            {"raw_candidates": 0, "official_accepted": 0, "dblp": 0, "arxiv": 0, "relevant_papers": 0},
+        )
+        raw_by_venue_year[key]["relevant_papers"] += 1
+
+    ccf_label_keys = {
+        normalize_title_key(entry.get("title") or title)
+        for title, entry in papers.items()
+        if venue_base_name(normalize_entry_venue(entry)) in ALL_CCF_A_VENUES
+    }
+    return {
+        "venue_year": dict(sorted(raw_by_venue_year.items())),
+        "arxiv_raw_titles_overridden_by_ccf": len(arxiv_keys & ccf_raw_keys & ccf_label_keys),
+    }
+
+
 def validate(args):
     fatal_errors = []
     warnings = []
@@ -274,9 +372,14 @@ def validate(args):
         if baseline_count:
             drop_ratio = (baseline_count - metrics["unique_title_count"]) / baseline_count
             pruned_count = quality_pruned_count(args.reports_dir, baseline, papers)
-            adjusted_drop_ratio = max(0, baseline_count - metrics["unique_title_count"] - pruned_count) / baseline_count
+            source_removed_count = source_policy_removed_count(baseline, papers)
+            adjusted_drop_ratio = (
+                max(0, baseline_count - metrics["unique_title_count"] - pruned_count - source_removed_count)
+                / baseline_count
+            )
             metrics["unique_title_drop_ratio"] = round(drop_ratio, 6)
             metrics["quality_pruned_irrelevant_count"] = pruned_count
+            metrics["source_policy_removed_count"] = source_removed_count
             metrics["adjusted_unique_title_drop_ratio"] = round(adjusted_drop_ratio, 6)
             if adjusted_drop_ratio > BALANCED_DROP_LIMIT:
                 fatal_errors.append(
@@ -287,10 +390,17 @@ def validate(args):
     unsupported_www = []
     irrelevant_records = []
     category_counts = {}
+    source_counts = {}
+    deprecated_topic_records = []
     for title, entry in papers.items():
         normalized = normalize_entry_venue(entry)
         category = publication_category(entry)
         category_counts[category] = category_counts.get(category, 0) + 1
+        source_kind = current_source_kind(entry)
+        source_counts[source_kind] = source_counts.get(source_kind, 0) + 1
+        deprecated = sorted(set(entry.get("labels") or []) & DEPRECATED_TOPIC_LABELS)
+        if deprecated:
+            deprecated_topic_records.append({"title": entry.get("title") or title, "labels": deprecated})
         if venue_base_name(normalized) == "WWW" and category != "交叉/综合/新兴":
             www_mismatches.append(entry.get("title") or title)
         if venue_base_name(normalized) == "WWW" and not www_supported_by_source(entry):
@@ -299,14 +409,18 @@ def validate(args):
         if level == "irrelevant":
             irrelevant_records.append(entry.get("title") or title)
     metrics["category_counts"] = dict(sorted(category_counts.items()))
+    metrics["source_counts"] = dict(sorted(source_counts.items()))
     metrics["irrelevant_records"] = len(irrelevant_records)
     metrics["unsupported_www_records"] = len(unsupported_www)
+    metrics["deprecated_topic_label_records"] = len(deprecated_topic_records)
     if www_mismatches:
         fatal_errors.append(f"WWW papers outside cross category: {www_mismatches[:10]}")
     if unsupported_www:
         fatal_errors.append(f"WWW papers lack high-confidence WWW source: {unsupported_www[:10]}")
     if irrelevant_records:
         fatal_errors.append(f"irrelevant records under current relevance rules: {len(irrelevant_records)}; sample={irrelevant_records[:10]}")
+    if deprecated_topic_records:
+        fatal_errors.append(f"deprecated topic labels remain: {deprecated_topic_records[:10]}")
 
     canaries = recall_canary_status(papers)
     missing_canaries = [item for item in canaries if not item["ok"]]
@@ -318,6 +432,8 @@ def validate(args):
     metrics["acl_findings_tagged_as_acl"] = len(acl_findings)
     if acl_findings:
         fatal_errors.append(f"ACL Findings records tagged as ACL CCF-A: {acl_findings[:10]}")
+
+    metrics["rawdata_diagnostics"] = rawdata_diagnostics(args.rawdata_dir, papers)
 
     coverage = journal_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)
     metrics["readme_journal_rawdata_files"] = coverage

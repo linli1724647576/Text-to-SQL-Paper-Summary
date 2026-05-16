@@ -9,7 +9,10 @@ import urllib.request
 from http.client import RemoteDisconnected
 
 
-DEFAULT_USER_AGENT = "Text2SQL-Paper-Summary/1.0 (mailto:example@example.com)"
+DEFAULT_USER_AGENT = (
+    "Mozilla/5.0 (compatible; Text2SQL-Paper-Summary/1.0; "
+    "+https://github.com/linli1724647576/Text-to-SQL-Paper-Summary)"
+)
 RETRY_STATUS_CODES = {429, 500, 502, 503, 504}
 
 

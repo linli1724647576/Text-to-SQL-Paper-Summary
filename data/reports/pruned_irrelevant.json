@@ -1,7 +1,7 @@
 {
   "summary": {
-    "removed_count": 119,
-    "newly_removed_count": 0
+    "removed_count": 120,
+    "newly_removed_count": 1
   },
   "removed": [
     {
@@ -5282,6 +5282,38 @@
           "Intermediate Representation",
           "SQL Generation",
           "Fine-tuned Generation"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+      "venue": "NeurIPS",
+      "year": "2023",
+      "doi": "",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/83fc8fab1710363050bbd1d4b8cc0021-Abstract-Datasets_and_Benchmarks.html",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "neurips-official-2023-can-llm-already-serve-as-a-database-interface-a-big-bench-for-large-scale-databa",
+        "author": "Jinyang Li and Binyuan Hui and Ge Qu and Jiaxi Yang and Binhua Li and Bowen Li and Bailin Wang and Bowen Qin and Ruiying Geng and Nan Huo and Xuanhe Zhou and Ma Chenhao and Guoliang Li and Kevin Chang and Fei Huang and Reynold Cheng and Yongbin Li Datasets and Benchmarks Track",
+        "booktitle": "NeurIPS Conference",
+        "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+        "year": "2023",
+        "abstract": "Text-to-SQL parsing, which aims at converting natural language instructions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database contents leaving the gap between academic study and real-world applications. To mitigate this gap, we present BIRD, a BIg benchmark for laRge-scale Database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domains. Our emphasis on database values highlights the new challenges of dirty database contents, external knowledge between NL questions and database contents, and SQL efficiency, particularly in the context of massive databases. To solve these problems, text-to-SQL models must feature database value comprehension in addition to semantic parsing. The experimental results demonstrate the significance of database values in generating accurate text-to-SQLs for big databases. Furthermore, even the most popular and effective text-to-SQL models, i.e. GPT-4, only achieve 54.89% in execution accuracy, which is still far from the human result of 92.96%, proving that challenges still stand. We also provide an efficiency analysis to offer insights into generating text-to-efficient-SQLs that are beneficial to industries. We believe that BIRD will contribute to advancing real-world applications of text-to-SQL research.The leaderboard and source code are available: https://bird-bench.github.io/.",
+        "keywords": "",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/83fc8fab1710363050bbd1d4b8cc0021-Abstract-Datasets_and_Benchmarks.html",
+        "doi": "",
+        "venue": "NeurIPS",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Single-turn Text-to-SQL",
+          "Prompting and ICL",
+          "Prompt Engineering"
+        ],
+        "pipeline_stages": [
+          "SQL Generation"
         ],
         "relevance_level": "irrelevant"
       }

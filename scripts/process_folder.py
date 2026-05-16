@@ -17,6 +17,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
 AUTODATA_DIR = REPO_ROOT / "data" / "autocrawl"
 VENUES_PATH = REPO_ROOT / "data" / "venues.json"
+LABELDATA_PATH = REPO_ROOT / "data" / "labeldata" / "labeldata.json"
 SCRIPT_DIR = Path(__file__).resolve().parent
 SENTINEL_VERSION = 2
 PROCESSING_FINGERPRINT_FILES = (
@@ -24,6 +25,7 @@ PROCESSING_FINGERPRINT_FILES = (
     "label_papers.py",
     "merge_labeldata.py",
     "paper_utils.py",
+    "taxonomy.py",
     "venues.py",
 )
 
@@ -137,11 +139,19 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--filter-only", action="store_true")
     parser.add_argument("--no-rebuild", action="store_true")
-    parser.add_argument("--no-autocrawl", action="store_true")
+    parser.add_argument("--include-autocrawl", action="store_true")
+    parser.add_argument("--no-autocrawl", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument(
+        "--rebuild-labeldata",
+        action="store_true",
+        help="Rebuild labeldata from the selected raw sources into a temp file before replacing the canonical dataset.",
+    )
     args = parser.parse_args()
+    if args.rebuild_labeldata and args.filter_only:
+        parser.error("--rebuild-labeldata cannot be combined with --filter-only")
 
     files = raw_files(args.directory)
-    if Path(args.directory).resolve() == RAWDATA_DIR.resolve() and not args.no_autocrawl:
+    if Path(args.directory).resolve() == RAWDATA_DIR.resolve() and args.include_autocrawl and not args.no_autocrawl:
         files.extend(supplemental_files(AUTODATA_DIR))
     processed = load_processed()
     grouped = {}
@@ -150,11 +160,14 @@ def main():
 
     processing = processing_fingerprint()
     fingerprints = {venue: fingerprint_group(paths, processing) for venue, paths in grouped.items()}
-    changed_groups = {
-        venue: paths
-        for venue, paths in grouped.items()
-        if processed["venues"].get(venue) != fingerprints[venue]
-    }
+    if args.rebuild_labeldata:
+        changed_groups = dict(grouped)
+    else:
+        changed_groups = {
+            venue: paths
+            for venue, paths in grouped.items()
+            if processed["venues"].get(venue) != fingerprints[venue]
+        }
     stale_groups = sorted(set(processed["venues"]) - set(grouped))
     print(f"Found {len(grouped)} venues; {len(changed_groups)} changed; {len(stale_groups)} stale", file=sys.stderr)
     for venue, paths in sorted(changed_groups.items()):
@@ -167,38 +180,69 @@ def main():
 
     for venue in stale_groups:
         processed["venues"].pop(venue, None)
-    if stale_groups and not changed_groups:
+    if stale_groups and not changed_groups and not args.rebuild_labeldata:
         save_processed(processed)
 
-    for venue, paths in sorted(changed_groups.items()):
-        with tempfile.TemporaryDirectory(prefix=f"text2sql_{venue}_") as tmp:
-            extracted = {}
-            extract_failed = False
-            for path in paths:
-                extracted_path = Path(tmp) / f"{path.stem}.json"
-                if not run("extract_papers.py", [path], extracted_path):
-                    extract_failed = True
+    failed_groups = []
+    rebuild_context = None
+    labeldata_path = LABELDATA_PATH
+    if args.rebuild_labeldata and not args.filter_only:
+        rebuild_context = tempfile.TemporaryDirectory(prefix="text2sql_labeldata_")
+        labeldata_path = Path(rebuild_context.name) / "labeldata.json"
+        json.dump({}, open(labeldata_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+
+    try:
+        for venue, paths in sorted(changed_groups.items()):
+            with tempfile.TemporaryDirectory(prefix=f"text2sql_{venue}_") as tmp:
+                extracted = {}
+                extract_failed = False
+                for path in paths:
+                    extracted_path = Path(tmp) / f"{path.stem}.json"
+                    if not run("extract_papers.py", [path], extracted_path):
+                        extract_failed = True
+                        continue
+                    extracted.update(json.load(open(extracted_path, encoding="utf-8")))
+                if extract_failed:
+                    print(f"WARN: extraction failed for at least one file in {venue}; keeping old fingerprint", file=sys.stderr)
+                    failed_groups.append(venue)
                     continue
-                extracted.update(json.load(open(extracted_path, encoding="utf-8")))
-            if extract_failed:
-                print(f"WARN: extraction failed for at least one file in {venue}; keeping old fingerprint", file=sys.stderr)
-                continue
 
-            all_path = Path(tmp) / "extracted.json"
-            ndss_path = Path(tmp) / "ndss.json"
-            labeled_path = Path(tmp) / "labeled.json"
-            json.dump(extracted, open(all_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-            if "ndss" in venue.lower() and any(not item.get("abstract") for item in extracted.values()):
-                if run("fetch_ndss_abstracts.py", [all_path, "-o", ndss_path]):
-                    all_path = ndss_path
-            phase = "filter" if args.filter_only else "all"
-            if not run("label_papers.py", [all_path, "--phase", phase, "-o", labeled_path]):
-                continue
-            if not args.filter_only and run("merge_labeldata.py", [labeled_path]):
-                processed["venues"][venue] = fingerprints[venue]
-                save_processed(processed)
+                all_path = Path(tmp) / "extracted.json"
+                ndss_path = Path(tmp) / "ndss.json"
+                labeled_path = Path(tmp) / "labeled.json"
+                json.dump(extracted, open(all_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+                if "ndss" in venue.lower() and any(not item.get("abstract") for item in extracted.values()):
+                    if run("fetch_ndss_abstracts.py", [all_path, "-o", ndss_path]):
+                        all_path = ndss_path
+                phase = "filter" if args.filter_only else "all"
+                if not run("label_papers.py", [all_path, "--phase", phase, "-o", labeled_path]):
+                    failed_groups.append(venue)
+                    continue
+                merge_args = [labeled_path]
+                if labeldata_path != LABELDATA_PATH:
+                    merge_args.extend(["--labeldata", labeldata_path])
+                if not args.filter_only and run("merge_labeldata.py", merge_args):
+                    processed["venues"][venue] = fingerprints[venue]
+                    if not args.rebuild_labeldata:
+                        save_processed(processed)
+                elif not args.filter_only:
+                    failed_groups.append(venue)
+    finally:
+        if rebuild_context and failed_groups:
+            rebuild_context.cleanup()
 
-    if stale_groups:
+    if failed_groups:
+        print(f"ERROR: failed groups: {failed_groups}", file=sys.stderr)
+        raise SystemExit(1)
+
+    if args.rebuild_labeldata and not args.filter_only:
+        LABELDATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+        os.replace(labeldata_path, LABELDATA_PATH)
+        save_processed(processed)
+        if rebuild_context:
+            rebuild_context.cleanup()
+
+    if stale_groups and not args.rebuild_labeldata:
         save_processed(processed)
 
     if not args.filter_only and not args.no_rebuild:

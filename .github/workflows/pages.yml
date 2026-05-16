@@ -51,12 +51,6 @@ jobs:
         if: github.event_name == 'schedule' || inputs.full_crawl
         run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --tracks AI,DB,SE --arxiv-max-results 1000 --sleep 0.5
 
-      - name: Crawl supplemental metadata
-        if: github.event_name == 'schedule' || inputs.full_crawl
-        env:
-          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-        run: python scripts/crawl_papers.py --output data/autocrawl/openalex.json --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --source ccf-supplemental --quick --max-results 60 --max-venue-results 25 --sleep 0.5
-
       - name: Fetch official accepted papers
         if: github.event_name == 'schedule' || inputs.full_crawl
         run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
@@ -65,11 +59,15 @@ jobs:
         if: github.event_name == 'schedule' || inputs.full_crawl
         env:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-        run: python scripts/enrich_abstracts.py data/rawdata --delay 1.0
+        run: python scripts/enrich_abstracts.py data/rawdata --limit-per-file 0 --delay 1.0
 
       - name: Process rawdata
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/process_folder.py
+
+      - name: Enrich selected label abstracts
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/enrich_abstracts.py data/labeldata/labeldata.json --limit-per-file 200 --delay 2.0 --skip-doi-batch --skip-title-search
 
       - name: Reconcile CCF-A venues
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
@@ -95,7 +93,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/rawdata data/autocrawl/openalex.json data/labeldata/labeldata.json data/venues.json data/reports web/index.html
+          git add data/rawdata data/labeldata/labeldata.json data/venues.json data/reports web/index.html
           git diff --cached --quiet || git commit -m "Update crawled Text-to-SQL papers"
           git push
 

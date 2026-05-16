@@ -51,6 +51,8 @@ OPENALEX_CONFERENCE_SOURCES = {
     "VLDB": "S4210226185",
 }
 
+PVLDB_VOLUME_YEAR_OFFSET = -2007
+
 
 def clean(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
@@ -62,6 +64,11 @@ def dblp_url(dblp_key, year):
 
 def dblp_journal_index_url(dblp_key):
     return f"https://dblp.org/db/journals/{dblp_key}/index.html"
+
+
+def pvldb_url(year):
+    volume = year + PVLDB_VOLUME_YEAR_OFFSET
+    return f"https://dblp.org/db/journals/pvldb/pvldb{volume}.xml"
 
 
 def hinted_journal_urls(dblp_key, year):
@@ -248,15 +255,28 @@ def fetch_openalex_journal(source_id, venue, year, track):
 
 def fetch_dblp_venue(dblp_key, venue, year, track):
     errors = []
+    combined = {}
+    if venue == "VLDB":
+        try:
+            xml_text = get_text(pvldb_url(year), timeout=10, attempts=2)
+            combined.update(parse_dblp_publications(xml_text, venue, year, track))
+        except Exception as exc:
+            errors.append(f"{pvldb_url(year)}: {exc}")
+        time.sleep(0.2)
+
     for url in discover_dblp_urls(dblp_key, year):
         try:
             xml_text = get_text(url)
             papers = parse_dblp_publications(xml_text, venue, year, track)
-            if papers:
+            if venue == "VLDB":
+                combined.update(papers)
+            elif papers:
                 return papers
             errors.append(f"{url}: empty")
         except Exception as exc:
             errors.append(f"{url}: {exc}")
+    if combined:
+        return combined
     raise RuntimeError("; ".join(errors[-3:]))
 
 

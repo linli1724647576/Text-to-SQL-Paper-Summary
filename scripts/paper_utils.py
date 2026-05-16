@@ -5,8 +5,10 @@ import html
 import re
 import unicodedata
 
+from taxonomy import normalize_topic_labels
 from venues import (
     ARXIV_VENUE,
+    ALL_CCF_A_VENUES,
     OTHER_VENUE,
     normalize_entry_venue,
     publication_category,
@@ -41,8 +43,19 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def clean_title(text):
+    text = clean_text(text)
+    text = re.sub(
+        r"\s*\[[^\]]*(experiment|analysis|benchmark|vision|systems)[^\]]*\]\s*\.?$",
+        "",
+        text,
+        flags=re.I,
+    )
+    return text.strip(" .")
+
+
 def normalize_title_key(title):
-    text = clean_text(title).casefold()
+    text = clean_title(title).casefold()
     text = re.sub(r"\btext\s*[- ]?\s*to\s*[- ]?\s*sql\b", "texttosql", text)
     text = re.sub(r"\btext\s*2\s*sql\b", "texttosql", text)
     text = re.sub(r"\bnl\s*[- ]?\s*2\s*sql\b", "nl2sql", text)
@@ -85,6 +98,16 @@ def known_category(value):
     return bool(value and value != OTHER_VENUE)
 
 
+def venue_precedence(entry):
+    venue = normalize_entry_venue(entry)
+    base = venue_base_name(venue)
+    if base in ALL_CCF_A_VENUES:
+        return 3
+    if venue == ARXIV_VENUE:
+        return 2
+    return 1
+
+
 def record_score(entry):
     score = 0
     abstract = clean_text(entry.get("abstract", ""))
@@ -116,7 +139,7 @@ def record_score(entry):
 
 
 def title_score(title):
-    text = clean_text(title)
+    text = clean_title(title)
     score = min(len(text), 140)
     if any(bad in (title or "") for bad in MOJIBAKE_REPLACEMENTS):
         score -= 80
@@ -124,8 +147,8 @@ def title_score(title):
 
 
 def choose_title(first, second):
-    first_title = clean_text(first)
-    second_title = clean_text(second)
+    first_title = clean_title(first)
+    second_title = clean_title(second)
     if not first_title:
         return second_title
     if not second_title:
@@ -135,10 +158,41 @@ def choose_title(first, second):
 
 def normalize_paper_metadata(entry):
     out = dict(entry)
+    if out.get("title"):
+        out["title"] = clean_title(out.get("title", ""))
     venue = normalize_entry_venue(out)
     out["venue"] = ARXIV_VENUE if venue == ARXIV_VENUE else venue
     out["venue_track"] = publication_category(out)
+    out["labels"] = normalize_topic_labels(out.get("labels", []))
     return out
+
+
+SOURCE_VENUE_FIELDS = {"booktitle", "journal", "container", "source", "publisher"}
+
+
+def choose_venue_entry(first, second, primary):
+    first_priority = venue_precedence(first)
+    second_priority = venue_precedence(second)
+    if first_priority > second_priority:
+        return first
+    if second_priority > first_priority:
+        return second
+    return primary
+
+
+def apply_venue_metadata(merged, venue_entry):
+    normalized = normalize_paper_metadata(venue_entry)
+    for field in SOURCE_VENUE_FIELDS:
+        value = normalized.get(field, "")
+        if value:
+            merged[field] = value
+        else:
+            merged.pop(field, None)
+    if normalized.get("year"):
+        merged["year"] = normalized["year"]
+    merged["venue"] = normalized.get("venue", OTHER_VENUE)
+    merged["venue_track"] = normalized.get("venue_track", publication_category(normalized))
+    return merged
 
 
 def merge_entries(existing, incoming, prefer_existing=False):
@@ -151,6 +205,7 @@ def merge_entries(existing, incoming, prefer_existing=False):
     else:
         primary, secondary = existing, incoming
 
+    venue_entry = choose_venue_entry(existing, incoming, primary)
     merged = dict(primary)
     merged["title"] = choose_title(primary.get("title", ""), secondary.get("title", ""))
 
@@ -158,7 +213,7 @@ def merge_entries(existing, incoming, prefer_existing=False):
         if field in {"labels", "pipeline_stages"}:
             merged[field] = merge_lists(merged.get(field), value)
             continue
-        if field == "title":
+        if field == "title" or field in SOURCE_VENUE_FIELDS:
             continue
         if field == "abstract":
             current = clean_text(merged.get(field, ""))
@@ -167,16 +222,14 @@ def merge_entries(existing, incoming, prefer_existing=False):
                 merged[field] = candidate
             continue
         if field == "venue":
-            if not known_venue(merged.get(field, "")) and known_venue(value):
-                merged[field] = value
             continue
         if field == "venue_track":
-            if not known_category(merged.get(field, "")) and known_category(value):
-                merged[field] = value
             continue
         if is_empty(merged.get(field)) and not is_empty(value):
             merged[field] = value
 
+    merged["labels"] = normalize_topic_labels(merged.get("labels", []))
+    merged = apply_venue_metadata(merged, venue_entry)
     return normalize_paper_metadata(merged)
 
 

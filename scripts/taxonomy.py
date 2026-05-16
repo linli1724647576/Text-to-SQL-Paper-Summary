@@ -48,14 +48,21 @@ TOPIC_TAXONOMY = {
     ],
     "Benchmarks and Evaluation": [
         "Benchmark",
-        "Dataset Construction",
-        "Synthetic Data Generation",
-        "Evaluation Metric",
-        "Robustness and Generalization",
-        "Contamination / Data Leakage",
-        "Industrial Evaluation",
+        "Empirical Study",
+        "Survey",
     ],
 }
+
+DEPRECATED_TOPIC_LABEL_MAP = {
+    "Dataset Construction": "Benchmark",
+    "Synthetic Data Generation": "Benchmark",
+    "Evaluation Metric": "Empirical Study",
+    "Robustness and Generalization": "Empirical Study",
+    "Contamination / Data Leakage": "Empirical Study",
+    "Industrial Evaluation": "Empirical Study",
+}
+
+DEPRECATED_TOPIC_LABELS = set(DEPRECATED_TOPIC_LABEL_MAP)
 
 PIPELINE_TAXONOMY = {
     "Task Understanding": [
@@ -138,6 +145,26 @@ def all_topic_labels():
         labels.append(top)
         labels.extend(subs)
     return labels
+
+
+def normalize_topic_label(label):
+    return DEPRECATED_TOPIC_LABEL_MAP.get(label, label)
+
+
+def normalize_topic_labels(labels):
+    selected = {normalize_topic_label(label) for label in labels or []}
+    normalized = []
+    seen = set()
+    for parent, children in TOPIC_TAXONOMY.items():
+        if parent in selected or any(child in selected for child in children):
+            if parent not in seen:
+                normalized.append(parent)
+                seen.add(parent)
+            for child in children:
+                if child in selected and child not in seen:
+                    normalized.append(child)
+                    seen.add(child)
+    return normalized
 
 
 def all_pipeline_labels():

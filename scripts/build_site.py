@@ -5,7 +5,7 @@ import html
 import json
 from pathlib import Path
 
-from taxonomy import PIPELINE_TAXONOMY, TOPIC_TAXONOMY
+from taxonomy import PIPELINE_TAXONOMY, TOPIC_TAXONOMY, normalize_topic_labels
 from venues import PUBLICATION_CATEGORIES, normalize_entry_venue, publication_category, venue_base_name
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -28,7 +28,7 @@ def compact_papers(data):
                 "vb": venue_base_name(venue),
                 "c": category,
                 "u": entry.get("url", ""),
-                "l": entry.get("labels", []),
+                "l": normalize_topic_labels(entry.get("labels", [])),
                 "s": entry.get("pipeline_stages", []),
             }
         )

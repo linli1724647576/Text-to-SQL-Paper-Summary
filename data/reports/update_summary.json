@@ -3,38 +3,43 @@
   "status": "ok",
   "fatal_errors": [],
   "warnings": [
-    "high Other category ratio: 36.24%",
-    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
+    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower",
+    "partial source failures or rate-limit events: 1"
   ],
   "metrics": {
     "venues_sentinel_version": 2,
-    "venues_sentinel_count": 108,
-    "paper_count": 607,
-    "unique_title_count": 607,
+    "venues_sentinel_count": 138,
+    "paper_count": 463,
+    "unique_title_count": 463,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 605,
-    "unique_title_drop_ratio": -0.003306,
-    "quality_pruned_irrelevant_count": 0,
+    "baseline_unique_title_count": 607,
+    "unique_title_drop_ratio": 0.237232,
+    "quality_pruned_irrelevant_count": 2,
+    "source_policy_removed_count": 321,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
-      "AI 领域": 64,
-      "ArXiv": 246,
+      "AI 领域": 69,
+      "ArXiv": 295,
       "交叉/综合/新兴": 2,
-      "其他": 220,
-      "数据库领域": 72,
-      "软件工程": 3
+      "数据库领域": 90,
+      "软件工程": 7
+    },
+    "source_counts": {
+      "arxiv": 295,
+      "ccf_venue": 168
     },
     "irrelevant_records": 0,
     "unsupported_www_records": 0,
+    "deprecated_topic_label_records": 0,
     "ccf_recall_canaries": [
       {
         "title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information",
         "expected_venue": "ICDE",
         "expected_year": "2021",
         "found": true,
-        "actual_title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information.",
+        "actual_title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information",
         "actual_venue": "ICDE",
         "actual_year": "2021",
         "relevance_level": "core",
@@ -45,7 +50,7 @@
         "expected_venue": "NeurIPS",
         "expected_year": "2023",
         "found": true,
-        "actual_title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction.",
+        "actual_title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
         "actual_venue": "NeurIPS",
         "actual_year": "2023",
         "relevance_level": "core",
@@ -57,17 +62,6 @@
         "expected_year": "2024",
         "found": true,
         "actual_title": "The Dawn of Natural Language to SQL: Are We Fully Ready?",
-        "actual_venue": "VLDB",
-        "actual_year": "2024",
-        "relevance_level": "core",
-        "ok": true
-      },
-      {
-        "title": "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
-        "expected_venue": "VLDB",
-        "expected_year": "2024",
-        "found": true,
-        "actual_title": "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
         "actual_venue": "VLDB",
         "actual_year": "2024",
         "relevance_level": "core",
@@ -86,29 +80,1030 @@
       }
     ],
     "acl_findings_tagged_as_acl": 0,
+    "rawdata_diagnostics": {
+      "venue_year": {
+        "AAAI2020": {
+          "raw_candidates": 1864,
+          "official_accepted": 0,
+          "dblp": 1864,
+          "arxiv": 0,
+          "relevant_papers": 6
+        },
+        "AAAI2021": {
+          "raw_candidates": 1961,
+          "official_accepted": 0,
+          "dblp": 1961,
+          "arxiv": 0,
+          "relevant_papers": 5
+        },
+        "AAAI2022": {
+          "raw_candidates": 1624,
+          "official_accepted": 0,
+          "dblp": 1624,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "AAAI2023": {
+          "raw_candidates": 2021,
+          "official_accepted": 0,
+          "dblp": 2021,
+          "arxiv": 0,
+          "relevant_papers": 5
+        },
+        "AAAI2024": {
+          "raw_candidates": 2865,
+          "official_accepted": 0,
+          "dblp": 2865,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AAAI2025": {
+          "raw_candidates": 3486,
+          "official_accepted": 0,
+          "dblp": 3486,
+          "arxiv": 0,
+          "relevant_papers": 8
+        },
+        "ACL2020": {
+          "raw_candidates": 778,
+          "official_accepted": 0,
+          "dblp": 778,
+          "arxiv": 0,
+          "relevant_papers": 6
+        },
+        "ACL2021": {
+          "raw_candidates": 572,
+          "official_accepted": 0,
+          "dblp": 572,
+          "arxiv": 0,
+          "relevant_papers": 6
+        },
+        "ACL2022": {
+          "raw_candidates": 604,
+          "official_accepted": 0,
+          "dblp": 604,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "ACL2023": {
+          "raw_candidates": 910,
+          "official_accepted": 0,
+          "dblp": 910,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "ACL2024": {
+          "raw_candidates": 865,
+          "official_accepted": 0,
+          "dblp": 865,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "ACL2025": {
+          "raw_candidates": 3303,
+          "official_accepted": 1700,
+          "dblp": 1603,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "AIJ2020": {
+          "raw_candidates": 96,
+          "official_accepted": 0,
+          "dblp": 96,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2021": {
+          "raw_candidates": 112,
+          "official_accepted": 0,
+          "dblp": 112,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2022": {
+          "raw_candidates": 104,
+          "official_accepted": 0,
+          "dblp": 104,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2023": {
+          "raw_candidates": 22,
+          "official_accepted": 0,
+          "dblp": 22,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2024": {
+          "raw_candidates": 121,
+          "official_accepted": 0,
+          "dblp": 121,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2025": {
+          "raw_candidates": 98,
+          "official_accepted": 0,
+          "dblp": 98,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "AIJ2026": {
+          "raw_candidates": 42,
+          "official_accepted": 0,
+          "dblp": 42,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2020": {
+          "raw_candidates": 158,
+          "official_accepted": 0,
+          "dblp": 158,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2021": {
+          "raw_candidates": 166,
+          "official_accepted": 0,
+          "dblp": 166,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2022": {
+          "raw_candidates": 228,
+          "official_accepted": 0,
+          "dblp": 228,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2023": {
+          "raw_candidates": 209,
+          "official_accepted": 0,
+          "dblp": 209,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2024": {
+          "raw_candidates": 421,
+          "official_accepted": 155,
+          "dblp": 266,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ASE2025": {
+          "raw_candidates": 635,
+          "official_accepted": 246,
+          "dblp": 389,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "ArXiv": {
+          "raw_candidates": 473,
+          "official_accepted": 0,
+          "dblp": 0,
+          "arxiv": 473,
+          "relevant_papers": 295
+        },
+        "CVPR2020": {
+          "raw_candidates": 1465,
+          "official_accepted": 0,
+          "dblp": 1465,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "CVPR2021": {
+          "raw_candidates": 1660,
+          "official_accepted": 0,
+          "dblp": 1660,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "CVPR2022": {
+          "raw_candidates": 2072,
+          "official_accepted": 0,
+          "dblp": 2072,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "CVPR2023": {
+          "raw_candidates": 2356,
+          "official_accepted": 0,
+          "dblp": 2356,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "CVPR2024": {
+          "raw_candidates": 2715,
+          "official_accepted": 0,
+          "dblp": 2715,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "CVPR2025": {
+          "raw_candidates": 2871,
+          "official_accepted": 0,
+          "dblp": 2871,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2020": {
+          "raw_candidates": 169,
+          "official_accepted": 0,
+          "dblp": 169,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2021": {
+          "raw_candidates": 188,
+          "official_accepted": 0,
+          "dblp": 188,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2022": {
+          "raw_candidates": 186,
+          "official_accepted": 0,
+          "dblp": 186,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2023": {
+          "raw_candidates": 205,
+          "official_accepted": 0,
+          "dblp": 205,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2024": {
+          "raw_candidates": 211,
+          "official_accepted": 103,
+          "dblp": 108,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "FSE2025": {
+          "raw_candidates": 387,
+          "official_accepted": 128,
+          "dblp": 259,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICCV2021": {
+          "raw_candidates": 1611,
+          "official_accepted": 0,
+          "dblp": 1611,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICCV2023": {
+          "raw_candidates": 2156,
+          "official_accepted": 0,
+          "dblp": 2156,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICCV2025": {
+          "raw_candidates": 2701,
+          "official_accepted": 0,
+          "dblp": 2701,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "ICDE2020": {
+          "raw_candidates": 241,
+          "official_accepted": 0,
+          "dblp": 241,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "ICDE2021": {
+          "raw_candidates": 313,
+          "official_accepted": 0,
+          "dblp": 313,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "ICDE2022": {
+          "raw_candidates": 319,
+          "official_accepted": 0,
+          "dblp": 319,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICDE2023": {
+          "raw_candidates": 385,
+          "official_accepted": 0,
+          "dblp": 385,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "ICDE2024": {
+          "raw_candidates": 501,
+          "official_accepted": 0,
+          "dblp": 501,
+          "arxiv": 0,
+          "relevant_papers": 5
+        },
+        "ICDE2025": {
+          "raw_candidates": 698,
+          "official_accepted": 300,
+          "dblp": 398,
+          "arxiv": 0,
+          "relevant_papers": 10
+        },
+        "ICML2020": {
+          "raw_candidates": 2169,
+          "official_accepted": 1084,
+          "dblp": 1085,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICML2021": {
+          "raw_candidates": 2366,
+          "official_accepted": 1183,
+          "dblp": 1183,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICML2022": {
+          "raw_candidates": 2467,
+          "official_accepted": 1233,
+          "dblp": 1234,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICML2023": {
+          "raw_candidates": 3656,
+          "official_accepted": 1828,
+          "dblp": 1828,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICML2024": {
+          "raw_candidates": 5220,
+          "official_accepted": 2610,
+          "dblp": 2610,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICML2025": {
+          "raw_candidates": 6587,
+          "official_accepted": 3330,
+          "dblp": 3257,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "ICSE2020": {
+          "raw_candidates": 129,
+          "official_accepted": 0,
+          "dblp": 129,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "ICSE2021": {
+          "raw_candidates": 138,
+          "official_accepted": 0,
+          "dblp": 138,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICSE2022": {
+          "raw_candidates": 199,
+          "official_accepted": 0,
+          "dblp": 199,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICSE2023": {
+          "raw_candidates": 211,
+          "official_accepted": 0,
+          "dblp": 211,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICSE2024": {
+          "raw_candidates": 471,
+          "official_accepted": 234,
+          "dblp": 237,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ICSE2025": {
+          "raw_candidates": 490,
+          "official_accepted": 245,
+          "dblp": 245,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "IJCAI2020": {
+          "raw_candidates": 1555,
+          "official_accepted": 778,
+          "dblp": 777,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "IJCAI2021": {
+          "raw_candidates": 1443,
+          "official_accepted": 722,
+          "dblp": 721,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "IJCAI2022": {
+          "raw_candidates": 1725,
+          "official_accepted": 862,
+          "dblp": 863,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "IJCAI2023": {
+          "raw_candidates": 1697,
+          "official_accepted": 851,
+          "dblp": 846,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "IJCAI2024": {
+          "raw_candidates": 2096,
+          "official_accepted": 1048,
+          "dblp": 1048,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "IJCAI2025": {
+          "raw_candidates": 2558,
+          "official_accepted": 1279,
+          "dblp": 1279,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ISSTA2020": {
+          "raw_candidates": 55,
+          "official_accepted": 0,
+          "dblp": 55,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "ISSTA2021": {
+          "raw_candidates": 59,
+          "official_accepted": 0,
+          "dblp": 59,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ISSTA2022": {
+          "raw_candidates": 72,
+          "official_accepted": 0,
+          "dblp": 72,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ISSTA2023": {
+          "raw_candidates": 138,
+          "official_accepted": 0,
+          "dblp": 138,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ISSTA2024": {
+          "raw_candidates": 170,
+          "official_accepted": 0,
+          "dblp": 170,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "ISSTA2025": {
+          "raw_candidates": 130,
+          "official_accepted": 95,
+          "dblp": 35,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "KDD2020": {
+          "raw_candidates": 421,
+          "official_accepted": 0,
+          "dblp": 421,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "KDD2021": {
+          "raw_candidates": 482,
+          "official_accepted": 0,
+          "dblp": 482,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "KDD2022": {
+          "raw_candidates": 534,
+          "official_accepted": 0,
+          "dblp": 534,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "KDD2023": {
+          "raw_candidates": 564,
+          "official_accepted": 0,
+          "dblp": 564,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "KDD2024": {
+          "raw_candidates": 1053,
+          "official_accepted": 411,
+          "dblp": 642,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "KDD2025": {
+          "raw_candidates": 802,
+          "official_accepted": 552,
+          "dblp": 250,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "NeurIPS2020": {
+          "raw_candidates": 3772,
+          "official_accepted": 1874,
+          "dblp": 1898,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "NeurIPS2021": {
+          "raw_candidates": 4643,
+          "official_accepted": 2309,
+          "dblp": 2334,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "NeurIPS2022": {
+          "raw_candidates": 5642,
+          "official_accepted": 2808,
+          "dblp": 2834,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "NeurIPS2023": {
+          "raw_candidates": 7063,
+          "official_accepted": 3523,
+          "dblp": 3540,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "NeurIPS2024": {
+          "raw_candidates": 8955,
+          "official_accepted": 4461,
+          "dblp": 4494,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "NeurIPS2025": {
+          "raw_candidates": 5782,
+          "official_accepted": 5782,
+          "dblp": 0,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "SIGIR2020": {
+          "raw_candidates": 382,
+          "official_accepted": 0,
+          "dblp": 382,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "SIGIR2021": {
+          "raw_candidates": 382,
+          "official_accepted": 0,
+          "dblp": 382,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "SIGIR2022": {
+          "raw_candidates": 444,
+          "official_accepted": 0,
+          "dblp": 444,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "SIGIR2023": {
+          "raw_candidates": 469,
+          "official_accepted": 0,
+          "dblp": 469,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "SIGIR2024": {
+          "raw_candidates": 389,
+          "official_accepted": 0,
+          "dblp": 389,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "SIGIR2025": {
+          "raw_candidates": 779,
+          "official_accepted": 239,
+          "dblp": 540,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "SIGMOD2020": {
+          "raw_candidates": 378,
+          "official_accepted": 144,
+          "dblp": 234,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "SIGMOD2021": {
+          "raw_candidates": 458,
+          "official_accepted": 188,
+          "dblp": 270,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "SIGMOD2022": {
+          "raw_candidates": 372,
+          "official_accepted": 150,
+          "dblp": 222,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "SIGMOD2023": {
+          "raw_candidates": 254,
+          "official_accepted": 186,
+          "dblp": 68,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "SIGMOD2024": {
+          "raw_candidates": 304,
+          "official_accepted": 214,
+          "dblp": 90,
+          "arxiv": 0,
+          "relevant_papers": 4
+        },
+        "SIGMOD2025": {
+          "raw_candidates": 383,
+          "official_accepted": 250,
+          "dblp": 133,
+          "arxiv": 0,
+          "relevant_papers": 9
+        },
+        "SIGMOD2026": {
+          "raw_candidates": 349,
+          "official_accepted": 349,
+          "dblp": 0,
+          "arxiv": 0,
+          "relevant_papers": 8
+        },
+        "TKDE2020": {
+          "raw_candidates": 402,
+          "official_accepted": 0,
+          "dblp": 402,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TKDE2021": {
+          "raw_candidates": 269,
+          "official_accepted": 0,
+          "dblp": 269,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TKDE2022": {
+          "raw_candidates": 430,
+          "official_accepted": 0,
+          "dblp": 430,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TKDE2023": {
+          "raw_candidates": 927,
+          "official_accepted": 0,
+          "dblp": 927,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TKDE2024": {
+          "raw_candidates": 666,
+          "official_accepted": 0,
+          "dblp": 666,
+          "arxiv": 0,
+          "relevant_papers": 2
+        },
+        "TKDE2025": {
+          "raw_candidates": 512,
+          "official_accepted": 0,
+          "dblp": 512,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "TKDE2026": {
+          "raw_candidates": 277,
+          "official_accepted": 0,
+          "dblp": 277,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2020": {
+          "raw_candidates": 32,
+          "official_accepted": 0,
+          "dblp": 32,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2021": {
+          "raw_candidates": 57,
+          "official_accepted": 0,
+          "dblp": 57,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2022": {
+          "raw_candidates": 86,
+          "official_accepted": 0,
+          "dblp": 86,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2023": {
+          "raw_candidates": 161,
+          "official_accepted": 0,
+          "dblp": 161,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "TOSEM2024": {
+          "raw_candidates": 223,
+          "official_accepted": 0,
+          "dblp": 223,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2025": {
+          "raw_candidates": 242,
+          "official_accepted": 0,
+          "dblp": 242,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TOSEM2026": {
+          "raw_candidates": 115,
+          "official_accepted": 0,
+          "dblp": 115,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "TSE2020": {
+          "raw_candidates": 63,
+          "official_accepted": 0,
+          "dblp": 63,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TSE2021": {
+          "raw_candidates": 159,
+          "official_accepted": 0,
+          "dblp": 159,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TSE2022": {
+          "raw_candidates": 284,
+          "official_accepted": 0,
+          "dblp": 284,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TSE2023": {
+          "raw_candidates": 278,
+          "official_accepted": 0,
+          "dblp": 278,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TSE2024": {
+          "raw_candidates": 182,
+          "official_accepted": 0,
+          "dblp": 182,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "TSE2025": {
+          "raw_candidates": 228,
+          "official_accepted": 0,
+          "dblp": 228,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "TSE2026": {
+          "raw_candidates": 89,
+          "official_accepted": 0,
+          "dblp": 89,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDB2020": {
+          "raw_candidates": 276,
+          "official_accepted": 0,
+          "dblp": 276,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "VLDB2021": {
+          "raw_candidates": 293,
+          "official_accepted": 0,
+          "dblp": 293,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "VLDB2022": {
+          "raw_candidates": 307,
+          "official_accepted": 0,
+          "dblp": 307,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDB2023": {
+          "raw_candidates": 385,
+          "official_accepted": 0,
+          "dblp": 385,
+          "arxiv": 0,
+          "relevant_papers": 3
+        },
+        "VLDB2024": {
+          "raw_candidates": 428,
+          "official_accepted": 0,
+          "dblp": 428,
+          "arxiv": 0,
+          "relevant_papers": 5
+        },
+        "VLDB2025": {
+          "raw_candidates": 389,
+          "official_accepted": 0,
+          "dblp": 389,
+          "arxiv": 0,
+          "relevant_papers": 6
+        },
+        "VLDBJ2020": {
+          "raw_candidates": 64,
+          "official_accepted": 0,
+          "dblp": 64,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2021": {
+          "raw_candidates": 46,
+          "official_accepted": 0,
+          "dblp": 46,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2022": {
+          "raw_candidates": 59,
+          "official_accepted": 0,
+          "dblp": 59,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2023": {
+          "raw_candidates": 59,
+          "official_accepted": 0,
+          "dblp": 59,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2024": {
+          "raw_candidates": 81,
+          "official_accepted": 0,
+          "dblp": 81,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2025": {
+          "raw_candidates": 72,
+          "official_accepted": 0,
+          "dblp": 72,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "VLDBJ2026": {
+          "raw_candidates": 23,
+          "official_accepted": 0,
+          "dblp": 23,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2020": {
+          "raw_candidates": 320,
+          "official_accepted": 0,
+          "dblp": 320,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "WWW2021": {
+          "raw_candidates": 355,
+          "official_accepted": 0,
+          "dblp": 355,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2022": {
+          "raw_candidates": 367,
+          "official_accepted": 0,
+          "dblp": 367,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2023": {
+          "raw_candidates": 407,
+          "official_accepted": 0,
+          "dblp": 407,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2024": {
+          "raw_candidates": 432,
+          "official_accepted": 0,
+          "dblp": 432,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2025": {
+          "raw_candidates": 447,
+          "official_accepted": 0,
+          "dblp": 447,
+          "arxiv": 0,
+          "relevant_papers": 0
+        },
+        "WWW2026": {
+          "raw_candidates": 676,
+          "official_accepted": 676,
+          "dblp": 0,
+          "arxiv": 0,
+          "relevant_papers": 1
+        },
+        "其他": {
+          "raw_candidates": 566,
+          "official_accepted": 0,
+          "dblp": 566,
+          "arxiv": 0,
+          "relevant_papers": 0
+        }
+      },
+      "arxiv_raw_titles_overridden_by_ccf": 17
+    },
     "readme_journal_rawdata_files": {
       "AIJ": [
-        "data/rawdata/2025/AIJ2025.json"
+        "data/rawdata/2020/AIJ2020.json",
+        "data/rawdata/2021/AIJ2021.json",
+        "data/rawdata/2022/AIJ2022.json",
+        "data/rawdata/2023/AIJ2023.json",
+        "data/rawdata/2024/AIJ2024.json",
+        "data/rawdata/2025/AIJ2025.json",
+        "data/rawdata/2026/AIJ2026.json"
       ],
       "TKDE": [
-        "data/rawdata/2025/TKDE2025.json"
+        "data/rawdata/2020/TKDE2020.json",
+        "data/rawdata/2021/TKDE2021.json",
+        "data/rawdata/2022/TKDE2022.json",
+        "data/rawdata/2023/TKDE2023.json",
+        "data/rawdata/2024/TKDE2024.json",
+        "data/rawdata/2025/TKDE2025.json",
+        "data/rawdata/2026/TKDE2026.json"
       ],
       "TOSEM": [
-        "data/rawdata/2025/TOSEM2025.json"
+        "data/rawdata/2020/TOSEM2020.json",
+        "data/rawdata/2021/TOSEM2021.json",
+        "data/rawdata/2022/TOSEM2022.json",
+        "data/rawdata/2023/TOSEM2023.json",
+        "data/rawdata/2024/TOSEM2024.json",
+        "data/rawdata/2025/TOSEM2025.json",
+        "data/rawdata/2026/TOSEM2026.json"
       ],
       "TSE": [
-        "data/rawdata/2025/TSE2025.json"
+        "data/rawdata/2020/TSE2020.json",
+        "data/rawdata/2021/TSE2021.json",
+        "data/rawdata/2022/TSE2022.json",
+        "data/rawdata/2023/TSE2023.json",
+        "data/rawdata/2024/TSE2024.json",
+        "data/rawdata/2025/TSE2025.json",
+        "data/rawdata/2026/TSE2026.json"
       ],
       "VLDBJ": [
-        "data/rawdata/2025/VLDBJ2025.json"
+        "data/rawdata/2020/VLDBJ2020.json",
+        "data/rawdata/2021/VLDBJ2021.json",
+        "data/rawdata/2022/VLDBJ2022.json",
+        "data/rawdata/2023/VLDBJ2023.json",
+        "data/rawdata/2024/VLDBJ2024.json",
+        "data/rawdata/2025/VLDBJ2025.json",
+        "data/rawdata/2026/VLDBJ2026.json"
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 0,
-    "fetch_warning_count": 3,
-    "dblp_conference_failures": 0,
+    "fetch_failure_count": 2,
+    "fetch_warning_count": 15,
+    "dblp_conference_failures": 1,
     "expected_dblp_conferences": 99,
-    "dblp_conference_failure_ratio": 0.0,
-    "other_ratio": 0.362438
+    "dblp_conference_failure_ratio": 0.010101,
+    "other_ratio": 0.0
   }
 }

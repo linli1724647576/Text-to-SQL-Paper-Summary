@@ -15,12 +15,12 @@ import re
 import sys
 from pathlib import Path
 
-from taxonomy import LLM_TERMS, PIPELINE_TAXONOMY, TOPIC_TAXONOMY
+from taxonomy import LLM_TERMS, PIPELINE_TAXONOMY, TOPIC_TAXONOMY, normalize_topic_labels
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-RELEVANCE_POLICY_VERSION = "2026-05-16-p0-ccf-recall-v3"
+RELEVANCE_POLICY_VERSION = "2026-05-16-topic-source-v4"
 
 
 def norm(text):
@@ -94,6 +94,16 @@ SQL_DATABASE_TERMS = [
     "schemas",
     "table",
     "tables",
+]
+
+STRONG_SQL_DATABASE_TERMS = [
+    "sql",
+    "database",
+    "databases",
+    "relational database",
+    "relational databases",
+    "schema",
+    "schemas",
 ]
 
 NATURAL_LANGUAGE_SQL_TERMS = [
@@ -184,6 +194,7 @@ def relevance_level(title, abstract, keywords=""):
     direct_in_primary = contains_any(primary_text, DIRECT_TEXT2SQL_TERMS)
     sql_generation = contains_any(primary_text, SQL_GENERATION_TERMS)
     structured_database = contains_any(primary_text, SQL_DATABASE_TERMS)
+    strong_database = contains_any(primary_text, STRONG_SQL_DATABASE_TERMS)
     natural_language = contains_any(primary_text, NATURAL_LANGUAGE_SQL_TERMS)
     semantic_sql = "semantic parsing" in primary_text and "sql" in primary_text
     boundary_application = contains_any(primary_text, APPLICATION_BOUNDARY_TERMS)
@@ -206,14 +217,13 @@ def relevance_level(title, abstract, keywords=""):
         return "application"
     if sql_generation and natural_language:
         return "application"
-    if structured_database and natural_language and contains_any(primary_text, ["generate", "generation", "translate", "translation", "synthesis"]):
+    if strong_database and natural_language and contains_any(primary_text, ["generate", "generation", "translate", "translation", "synthesis"]):
         return "application"
-    if structured_database and contains_any(primary_text, ["transformar", "traducción", "traduccion"]):
+    if strong_database and contains_any(primary_text, ["transformar", "traducción", "traduccion"]):
         return "application"
-    if contains_any(primary_text, ["natural language interface", "natural language query", "question answering"]) and contains_any(
-        primary_text,
-        ["database", "databases", "relational database", "relational databases", "sql", "schema", "schemas", "table", "tables"],
-    ):
+    if contains_any(primary_text, ["natural language interface", "natural language query"]) and strong_database:
+        return "application"
+    if "question answering" in primary_text and contains_any(primary_text, ["sql", "database", "databases", "relational database", "relational databases", "schema", "schemas"]):
         return "application"
     if contains_any(primary_text, ["data-to-insight", "business intelligence", "semantic layer"]) and contains_any(primary_text, LLM_TERMS):
         return "application"
@@ -277,13 +287,57 @@ TOPIC_RULES = {
     "Verification and Guardrails": ["verification", "validate", "guardrail", "static analysis", "checker"],
     "Security and Access Control": ["privacy", "access control", "permission", "security", "rbac", "policy", "prompt injection"],
     "Human Feedback": ["human feedback", "user feedback", "interactive", "clarification"],
-    "Benchmark": ["benchmark", "bird", "spider", "wikisql", "cosql", "sparc"],
-    "Dataset Construction": ["dataset", "corpus", "annotation", "data collection"],
-    "Synthetic Data Generation": ["synthetic", "data generation", "augmentation", "generate data"],
-    "Evaluation Metric": ["metric", "execution accuracy", "exact match", "soft f1", "leaderboard"],
-    "Robustness and Generalization": ["robustness", "generalization", "out-of-domain", "distribution shift", "ambiguity"],
-    "Contamination / Data Leakage": ["contamination", "data leakage", "leakage", "training leakage"],
-    "Industrial Evaluation": ["industrial", "production", "deployment", "enterprise", "case study"],
+    "Benchmark": [
+        "benchmark",
+        "bird",
+        "spider",
+        "wikisql",
+        "cosql",
+        "sparc",
+        "dataset",
+        "corpus",
+        "annotation",
+        "data collection",
+        "synthetic",
+        "data generation",
+        "augmentation",
+        "generate data",
+    ],
+    "Empirical Study": [
+        "empirical",
+        "evaluation",
+        "evaluate",
+        "metric",
+        "execution accuracy",
+        "exact match",
+        "soft f1",
+        "leaderboard",
+        "robustness",
+        "generalization",
+        "out-of-domain",
+        "distribution shift",
+        "ambiguity",
+        "contamination",
+        "data leakage",
+        "leakage",
+        "training leakage",
+        "industrial",
+        "production",
+        "deployment",
+        "enterprise",
+        "case study",
+    ],
+    "Survey": [
+        "survey",
+        "review",
+        "literature review",
+        "systematic literature review",
+        "systematic review",
+        "slr",
+        "comprehensive review",
+        "state-of-the-art review",
+        "state of the art review",
+    ],
 }
 
 STAGE_RULES = {
@@ -377,7 +431,7 @@ def classify_entry(title, entry):
         selected_topics.add("Single-turn Text-to-SQL")
         selected_stages.add("SQL Generation")
 
-    labels = add_parent_labels(selected_topics, TOPIC_TAXONOMY)
+    labels = normalize_topic_labels(add_parent_labels(selected_topics, TOPIC_TAXONOMY))
     stages = add_parent_labels(selected_stages, PIPELINE_TAXONOMY)
 
     if not labels:
@@ -440,7 +494,7 @@ def classify_with_bedrock(papers, model, region, delay):
         selected_topics = {part for pair in topic_pairs for part in pair.split(", ", 1)}
         selected_stages = {part for pair in stage_pairs for part in pair.split(", ", 1)}
         entry_copy = dict(entry)
-        entry_copy["labels"] = add_parent_labels(selected_topics, TOPIC_TAXONOMY)
+        entry_copy["labels"] = normalize_topic_labels(add_parent_labels(selected_topics, TOPIC_TAXONOMY))
         entry_copy["pipeline_stages"] = add_parent_labels(selected_stages, PIPELINE_TAXONOMY)
         if entry_copy["labels"] and entry_copy["pipeline_stages"]:
             classified[title] = with_relevance_metadata(title, entry_copy)

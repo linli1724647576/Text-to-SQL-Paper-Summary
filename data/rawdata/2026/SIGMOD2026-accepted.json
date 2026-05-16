@@ -1,10 +1,10 @@
 {
-  "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models:": {
+  "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-100x-cost-latency-reduction-performance-analysis-of-ai-query-approximation-using",
     "author": "Yeounoh Chung and Thibaud Hottelier and Fatma Ozcan and Sam Idicula and Yu Xiao and Rushabh Desai and Jian He and Yannis Papakonstantinou and Alon Halevy and Yves-Laurent Kom Samo and Pushkar Khadilkar and Xianshun Chen",
     "booktitle": "SIGMOD Conference",
-    "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models:",
+    "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -125,12 +125,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System:": {
+  "An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-an-in-depth-study-of-filter-agnostic-vector-search-on-a-postgresql-database-syst",
     "author": "Duo Lu and Helena Caminal and Manos Chatzakis and Yannis Papakonstantinou and Yannis Chronis and Vaibhav Jain and Fatma Ozcan",
     "booktitle": "SIGMOD Conference",
-    "title": "An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System:",
+    "title": "An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -142,7 +142,7 @@
   "ANTEATER: A Filter-then-Scrutinize Architecture for End-to-End Attack Investigation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-anteater-a-filter-then-scrutinize-architecture-for-end-to-end-attack-investigati",
-    "author": "Yiming Ren (Institute of Information Engineering，Chinese Academy of Sciences and School of Cyber Security, University of Chinese Academy of Sciences) and Haoqiang Wang (Institute of Information Engineering，Chinese Academy of Sciences and School of Cyber Security, University of Chinese Academy of Sciences) and Linghao Li (Institute of Information Engineering，Chinese Academy of Sciences and School of Cyber Security, University of Chinese Academy of Sciences) and Haoyang Chen (Institute of Information Engineering，Chinese Academy of Sciences and School of Cyber Security, University of Chinese Academy of Sciences) and Chengxiang Si and Zhou Zhou and Qingyun Liu",
+    "author": "Yiming Ren and Haoqiang Wang and Linghao Li and Haoyang Chen and Chengxiang Si and Zhou Zhou and Qingyun Liu",
     "booktitle": "SIGMOD Conference",
     "title": "ANTEATER: A Filter-then-Scrutinize Architecture for End-to-End Attack Investigation",
     "year": "2026",
@@ -167,12 +167,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Are Learned DBMS Components Robust to Workload Drift?:": {
+  "Are Learned DBMS Components Robust to Workload Drift?": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-are-learned-dbms-components-robust-to-workload-drift",
     "author": "Zizhong Meng and Gao Cong and Siqiang Luo",
     "booktitle": "SIGMOD Conference",
-    "title": "Are Learned DBMS Components Robust to Workload Drift?:",
+    "title": "Are Learned DBMS Components Robust to Workload Drift?",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -240,7 +240,7 @@
   "Balancing Global and Local: Representative Sampling for Large‑Scale Vector Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-balancing-global-and-local-representative-sampling-for-large-scale-vector-data",
-    "author": "Zheng WU and Yitong SONG and Xuliang ZHU (Antai College of Economics and Management, Shanghai Jiao Tong University) and Huiling Li and Jianliang XU and Xin HUANG",
+    "author": "Zheng WU and Yitong SONG and Xuliang ZHU and Huiling Li and Jianliang XU and Xin HUANG",
     "booktitle": "SIGMOD Conference",
     "title": "Balancing Global and Local: Representative Sampling for Large‑Scale Vector Data",
     "year": "2026",
@@ -377,12 +377,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Comparison and Analysis of Value Linking in Text-to-SQL systems:": {
+  "Comparison and Analysis of Value Linking in Text-to-SQL systems": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-comparison-and-analysis-of-value-linking-in-text-to-sql-systems",
     "author": "Apostolos Koukouvinis and George Katsogiannis-Meimarakis and Georgia Koutrika",
     "booktitle": "SIGMOD Conference",
-    "title": "Comparison and Analysis of Value Linking in Text-to-SQL systems:",
+    "title": "Comparison and Analysis of Value Linking in Text-to-SQL systems",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -394,7 +394,7 @@
   "Concurrent Path-Copying Update to Tree Structures": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-concurrent-path-copying-update-to-tree-structures",
-    "author": "Guanhao Hou and Dechuang Chen and Qintian Guo (The Hong Kong University of Science and Technology) and Fangyuan Zhang and Sibo Wang",
+    "author": "Guanhao Hou and Dechuang Chen and Qintian Guo and Fangyuan Zhang and Sibo Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Concurrent Path-Copying Update to Tree Structures",
     "year": "2026",
@@ -408,7 +408,7 @@
   "Constrained Shortest Path Finding on Terrain Surfaces": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-constrained-shortest-path-finding-on-terrain-surfaces",
-    "author": "Victor Junqiu Wei (Macau University of Science and Technology) and Min Xie and Weicheng Wang",
+    "author": "Victor Junqiu Wei and Min Xie and Weicheng Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Constrained Shortest Path Finding on Terrain Surfaces",
     "year": "2026",
@@ -464,7 +464,7 @@
   "DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-deepeye-sql-a-software-engineering-inspired-text-to-sql-framework",
-    "author": "Boyan Li (The Hong Kong University of Science and Technology ) and Chong Chen and Zhujun Xue and Yinan Mei and Yuyu Luo (The Hong Kong University of Science and Technology )",
+    "author": "Boyan Li ) and Chong Chen and Zhujun Xue and Yinan Mei and Yuyu Luo )",
     "booktitle": "SIGMOD Conference",
     "title": "DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework",
     "year": "2026",
@@ -534,7 +534,7 @@
   "DimWeaver: Dimensional Weaved Trajectory Compression": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-dimweaver-dimensional-weaved-trajectory-compression",
-    "author": "Xenophon Kitsios (Athens University of Economics and Business) and Panagiotis Liakos (Athens University of Economics and Business) and Katia Papakonstantinopoulou (Athens University of Economics and Business) and Nikos Giatrakos and Yannis Kotidis (Athens University of Economics and Business)",
+    "author": "Xenophon Kitsios and Panagiotis Liakos and Katia Papakonstantinopoulou and Nikos Giatrakos and Yannis Kotidis",
     "booktitle": "SIGMOD Conference",
     "title": "DimWeaver: Dimensional Weaved Trajectory Compression",
     "year": "2026",
@@ -604,7 +604,7 @@
   "Efficient Index Layout and Search Strategy for Large-scale High-dimensional Vector Similarity Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-efficient-index-layout-and-search-strategy-for-large-scale-high-dimensional-vect",
-    "author": "Weijian Chen (Southern University of Science and Technology) and Haotian Liu (Southern University of Science and Technology) and Yangshen Deng and Long Xiang (Southern University of Science and Technology) and Liang Huang (Southern University of Science and Technology) and Gezi Li and Bo Tang (Southern University of Science and Technology)",
+    "author": "Weijian Chen and Haotian Liu and Yangshen Deng and Long Xiang and Liang Huang and Gezi Li and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Index Layout and Search Strategy for Large-scale High-dimensional Vector Similarity Search",
     "year": "2026",
@@ -688,7 +688,7 @@
   "Enhancing Graph-based Approximate Maximum Inner Product Search via Norm-Adaptive Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-enhancing-graph-based-approximate-maximum-inner-product-search-via-norm-adaptive",
-    "author": "Xi Zhao and Zhoujin Tian (The Hong Kong University of Science and Technology) and Kai Huang and Yao Tian (The Hong Kong University of Science and Technology) and Xiaokui Xiao and Bolong Zheng and Xiaofang Zhou (The Hong Kong University of Science and Technology)",
+    "author": "Xi Zhao and Zhoujin Tian and Kai Huang and Yao Tian and Xiaokui Xiao and Bolong Zheng and Xiaofang Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Enhancing Graph-based Approximate Maximum Inner Product Search via Norm-Adaptive Partitioning",
     "year": "2026",
@@ -814,7 +814,7 @@
   "FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-favor-efficient-filter-agnostic-vector-anns-based-on-selectivity-aware-exclusion",
-    "author": "Junjie Song (Huazhong University of Science and Technology) and Yu Liu (Huazhong University of Science and Technology) and Guoyu Hu and Zhongle Xie and Ming Yang and Beng Chin Ooi and Ke Zhou (Huazhong University of Science and Technology)",
+    "author": "Junjie Song and Yu Liu and Guoyu Hu and Zhongle Xie and Ming Yang and Beng Chin Ooi and Ke Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances",
     "year": "2026",
@@ -884,7 +884,7 @@
   "GEM: A Native Graph-based Index for Multi-Vector Retrieval": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-gem-a-native-graph-based-index-for-multi-vector-retrieval",
-    "author": "Yao Tian (The Hong Kong University of Science and Technology) and Zhoujin Tian (The Hong Kong University of Science and Technology) and Xi Zhao ( The Hong Kong University of Science and Technology) and Ruiyuan Zhang and Xiaofang Zhou (The Hong Kong University of Science and Technology)",
+    "author": "Yao Tian and Zhoujin Tian and Xi Zhao and Ruiyuan Zhang and Xiaofang Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "GEM: A Native Graph-based Index for Multi-Vector Retrieval",
     "year": "2026",
@@ -940,7 +940,7 @@
   "GPS: Revisiting the Data Layout for Disk-based High-Dimensional Vector Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-gps-revisiting-the-data-layout-for-disk-based-high-dimensional-vector-search",
-    "author": "Peiqi Yin and Xiao Yan and Qihui Zhou and Hui Li and Xiaolu Li (Huazhong University of Science and Technology) and Meiling Wang and Lin Zhang and Xin Yao and James Cheng",
+    "author": "Peiqi Yin and Xiao Yan and Qihui Zhou and Hui Li and Xiaolu Li and Meiling Wang and Lin Zhang and Xin Yao and James Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "GPS: Revisiting the Data Layout for Disk-based High-Dimensional Vector Search",
     "year": "2026",
@@ -1080,7 +1080,7 @@
   "LICO: An SIMD-Aware High-Performance Learned Inverted Index Compression Framework": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-lico-an-simd-aware-high-performance-learned-inverted-index-compression-framework",
-    "author": "Xianyu Zhu and Qiyu LIU and guangyi Zhang and Zhibing Sha and Jianwei Liao and Sha Hu and Lei Chen , China)",
+    "author": "Xianyu Zhu and Qiyu LIU and guangyi Zhang and Zhibing Sha and Jianwei Liao and Sha Hu and Lei Chen and China)",
     "booktitle": "SIGMOD Conference",
     "title": "LICO: An SIMD-Aware High-Performance Learned Inverted Index Compression Framework",
     "year": "2026",
@@ -1122,7 +1122,7 @@
   "Loom: Weaving PCS-Preserving and Searchable Cloud Backups for Secure Messaging": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-loom-weaving-pcs-preserving-and-searchable-cloud-backups-for-secure-messaging",
-    "author": "Tiancheng Zhu (Nanjing University of Science and Technology) and Jiabei Wang (Nanjing University of Science and Technology) and Yongbin Zhou (Nanjing University of Science and Technology)",
+    "author": "Tiancheng Zhu and Jiabei Wang and Yongbin Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Loom: Weaving PCS-Preserving and Searchable Cloud Backups for Secure Messaging",
     "year": "2026",
@@ -1206,7 +1206,7 @@
   "Modeling Concurrency Control as a Learnable Function": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-modeling-concurrency-control-as-a-learnable-function",
-    "author": "Hexiang Pan and Shaofeng Cai and Anh Dinh and Yuncheng Wu and Yeow Meng Chee (Singapore University of Technology and Design) and Gang Chen and Beng Chin Ooi",
+    "author": "Hexiang Pan and Shaofeng Cai and Anh Dinh and Yuncheng Wu and Yeow Meng Chee and Gang Chen and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "Modeling Concurrency Control as a Learnable Function",
     "year": "2026",
@@ -1245,12 +1245,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "NeurBench: A Benchmark Suite for Learned Database Components with Drift Modeling:": {
+  "NeurBench: A Benchmark Suite for Learned Database Components with Drift Modeling": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-neurbench-a-benchmark-suite-for-learned-database-components-with-drift-modeling",
     "author": "Zhanhao Zhao and Haotian Gao and Naili Xing and Lingze Zeng and Meihui Zhang and Gang Chen and Manuel Rigger and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
-    "title": "NeurBench: A Benchmark Suite for Learned Database Components with Drift Modeling:",
+    "title": "NeurBench: A Benchmark Suite for Learned Database Components with Drift Modeling",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1290,7 +1290,7 @@
   "Octopus: Efficient Hypergraph Pattern Mining with Practical Processing-in-Memory Architecture": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-octopus-efficient-hypergraph-pattern-mining-with-practical-processing-in-memory-",
-    "author": "Yi Zhang (Huazhong University of Science and Technology) and Deting Chen (Huazhong University of Science and Technology) and Yu Huang (Huazhong University of Science and Technology) and Chaoqiang Liu (Huazhong University of Science and Technology) and Haifeng Liu (Huazhong University of Science and Technology) and Jianhui Yue and Xiaofei Liao (Huazhong University of Science and Technology) and Hai Jin (Huazhong University of Science and Technology)",
+    "author": "Yi Zhang and Deting Chen and Yu Huang and Chaoqiang Liu and Haifeng Liu and Jianhui Yue and Xiaofei Liao and Hai Jin",
     "booktitle": "SIGMOD Conference",
     "title": "Octopus: Efficient Hypergraph Pattern Mining with Practical Processing-in-Memory Architecture",
     "year": "2026",
@@ -1514,7 +1514,7 @@
   "Sketch-based Secure Query Processing for Streaming Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-sketch-based-secure-query-processing-for-streaming-data",
-    "author": "Jianzhe Yu (Hong Kong University of Science and Technology) and Feng Han and Qi Dong (Hong Kong University of Science and Technology) and Qiyao Luo (Hong Kong University of Science and Technology) and Weiran Liu and Lin Qu and Ke Yi (Hong Kong University of Science and Technology )",
+    "author": "Jianzhe Yu and Feng Han and Qi Dong and Qiyao Luo and Weiran Liu and Lin Qu and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Sketch-based Secure Query Processing for Streaming Data",
     "year": "2026",
@@ -1626,7 +1626,7 @@
   "TaCo: Data-adaptive and Query-aware Subspace Collision for High-dimensional Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-taco-data-adaptive-and-query-aware-subspace-collision-for-high-dimensional-appro",
-    "author": "Jiuqi Wei and Zhenyu Liao (Huazhong University of Science and Technology) and Ruoyu Han and Quanqing Xu and Chuanhui Yang and Themis Palpanas",
+    "author": "Jiuqi Wei and Zhenyu Liao and Ruoyu Han and Quanqing Xu and Chuanhui Yang and Themis Palpanas",
     "booktitle": "SIGMOD Conference",
     "title": "TaCo: Data-adaptive and Query-aware Subspace Collision for High-dimensional Approximate Nearest Neighbor Search",
     "year": "2026",
@@ -1637,12 +1637,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "The Power of Anomaly Detection in Predictive Maintenance:": {
+  "The Power of Anomaly Detection in Predictive Maintenance": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-the-power-of-anomaly-detection-in-predictive-maintenance",
-    "author": "Anastasios Papadopoulos and Apostolos Giannoulidis and Anastasios Gounaris and John Paparrizos (The Ohio State University and Aristotle University of Thessaloniki)",
+    "author": "Anastasios Papadopoulos and Apostolos Giannoulidis and Anastasios Gounaris and John Paparrizos",
     "booktitle": "SIGMOD Conference",
-    "title": "The Power of Anomaly Detection in Predictive Maintenance:",
+    "title": "The Power of Anomaly Detection in Predictive Maintenance",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1651,12 +1651,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Through the Lens of Hubness: A Revisit on Graph-Based Approximate Nearest Neighbor Search:": {
+  "Through the Lens of Hubness: A Revisit on Graph-Based Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-through-the-lens-of-hubness-a-revisit-on-graph-based-approximate-nearest-neighbo",
     "author": "Xiaoliang Xu and Haonan Dai and Can Li and Mengzhao Wang and Qiang Yue",
     "booktitle": "SIGMOD Conference",
-    "title": "Through the Lens of Hubness: A Revisit on Graph-Based Approximate Nearest Neighbor Search:",
+    "title": "Through the Lens of Hubness: A Revisit on Graph-Based Approximate Nearest Neighbor Search",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1707,12 +1707,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Understanding the Impact of Data Noise in Federated Learning:": {
+  "Understanding the Impact of Data Noise in Federated Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-understanding-the-impact-of-data-noise-in-federated-learning",
     "author": "Jinming Hu and Jiahao Gu and Kenta Ploch and Hao Wang and Jingxian Wang and Wentao Wu and Qizhen Zhang",
     "booktitle": "SIGMOD Conference",
-    "title": "Understanding the Impact of Data Noise in Federated Learning:",
+    "title": "Understanding the Impact of Data Noise in Federated Learning",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1721,12 +1721,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "VecBench: A Controllable Benchmark for Filtered Vector Search:": {
+  "VecBench: A Controllable Benchmark for Filtered Vector Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-vecbench-a-controllable-benchmark-for-filtered-vector-search",
     "author": "Xiang Zhang and Chao Zhang and Ju Fan and Guoliang Li and Xiaoyong Du",
     "booktitle": "SIGMOD Conference",
-    "title": "VecBench: A Controllable Benchmark for Filtered Vector Search:",
+    "title": "VecBench: A Controllable Benchmark for Filtered Vector Search",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1889,12 +1889,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "An Extensive Experimental Study of Indexes in Continuous Subgraph Matching:": {
+  "An Extensive Experimental Study of Indexes in Continuous Subgraph Matching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-an-extensive-experimental-study-of-indexes-in-continuous-subgraph-matching",
     "author": "Xiangyang Gou and Lei Zou and Jeffrey Xu Yu and Wenjie Zhang",
     "booktitle": "SIGMOD Conference",
-    "title": "An Extensive Experimental Study of Indexes in Continuous Subgraph Matching:",
+    "title": "An Extensive Experimental Study of Indexes in Continuous Subgraph Matching",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -1990,7 +1990,7 @@
   "CANDOR-Bench: Benchmarking In-Memory Continuous ANNS under Dynamic Open-World Streams": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-candor-bench-benchmarking-in-memory-continuous-anns-under-dynamic-open-world-str",
-    "author": "MIngqi Wang (Huazhong University of Science and Technology) and Junyao Dong and Zhuoyan Wu and Jun Liu (Huazhong University of Science and Technology) and Ruicheng Zhang (Huazhong University of Science and Technology) and Jianjun Zhao (Huazhong University of Science and Technology) and Ruipeng Wan (Huazhong University of Science and Technology) and Xinyan Lei (Huazhong University of Science and Technology) and Shuhao Zhang (Huazhong University of Science and Technology) and Bolong Zheng (Huazhong University of Science and Technology) and Haikun Liu (Huazhong University of Science and Technology) and Xiaofei Liao (Huazhong University of Science and Technology) and Hai Jin (Huazhong University of Science and Technology)",
+    "author": "MIngqi Wang and Junyao Dong and Zhuoyan Wu and Jun Liu and Ruicheng Zhang and Jianjun Zhao and Ruipeng Wan and Xinyan Lei and Shuhao Zhang and Bolong Zheng and Haikun Liu and Xiaofei Liao and Hai Jin",
     "booktitle": "SIGMOD Conference",
     "title": "CANDOR-Bench: Benchmarking In-Memory Continuous ANNS under Dynamic Open-World Streams",
     "year": "2026",
@@ -2130,7 +2130,7 @@
   "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-diver-a-robust-text-to-sql-system-with-dynamic-interactive-value-linking-and-evi",
-    "author": "Yafeng Nan (Beijing University of Posts and Telecommunications) and Haifeng Sun (Beijing University of Posts and Telecommunications) and Zirui Zhuang (Beijing University of Posts and Telecommunications) and Qi Qi (Beijing University of Posts and Telecommunications) and Guojun Chu (Beijing University of Posts and Telecommunications) and Jianxin Liao (Beijing University of Posts and Telecommunications) and Dan Pei and Jingyu Wang (Beijing University of Posts and Telecommunications)",
+    "author": "Yafeng Nan and Haifeng Sun and Zirui Zhuang and Qi Qi and Guojun Chu and Jianxin Liao and Dan Pei and Jingyu Wang",
     "booktitle": "SIGMOD Conference",
     "title": "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning",
     "year": "2026",
@@ -2270,7 +2270,7 @@
   "Fast-Convergent Proximity Graphs for Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-fast-convergent-proximity-graphs-for-approximate-nearest-neighbor-search",
-    "author": "Binhong Li (Hong Kong University of Science and Technology ) and Xiao Yan and Shangqi Lu (Hong Kong University of Science and Technology )",
+    "author": "Binhong Li ) and Xiao Yan and Shangqi Lu )",
     "booktitle": "SIGMOD Conference",
     "title": "Fast-Convergent Proximity Graphs for Approximate Nearest Neighbor Search",
     "year": "2026",
@@ -2298,7 +2298,7 @@
   "FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-flashanns-gpu-driven-asynchronous-i-o-pipelining-for-eliminating-storage-compute",
-    "author": "Yang Xiao and Mo Sun and Ziyu Song and Bing Tian (Huazhong University of Science and Technology) and Jie Sun and Jie Zhang and Zeke Wang and Zonghui Wang and Wenzhi Chen and Fei Wu",
+    "author": "Yang Xiao and Mo Sun and Ziyu Song and Bing Tian and Jie Sun and Jie Zhang and Zeke Wang and Zonghui Wang and Wenzhi Chen and Fei Wu",
     "booktitle": "SIGMOD Conference",
     "title": "FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search",
     "year": "2026",
@@ -2494,7 +2494,7 @@
   "LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-lmsc-local-sketch-modularity-optimisation-for-size-constrained-community-search-",
-    "author": "Dahee Kim and Taejoon Han and Kaiyu Feng (Beijing Institute of Science and Technology) and Junghoon Kim and Susik Yoon",
+    "author": "Dahee Kim and Taejoon Han and Kaiyu Feng and Junghoon Kim and Susik Yoon",
     "booktitle": "SIGMOD Conference",
     "title": "LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks",
     "year": "2026",
@@ -2550,7 +2550,7 @@
   "MultiVis-Agent: A Multi-Agent Framework with Logic Rules for Reliable and Comprehensive Cross-Modal Data Visualization": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-multivis-agent-a-multi-agent-framework-with-logic-rules-for-reliable-and-compreh",
-    "author": "Jinwei Lu and Yuanfeng Song and Chen Zhang and Raymond Chi-Wing Wong (The Hong Kong University of Science and Technology)",
+    "author": "Jinwei Lu and Yuanfeng Song and Chen Zhang and Raymond Chi-Wing Wong",
     "booktitle": "SIGMOD Conference",
     "title": "MultiVis-Agent: A Multi-Agent Framework with Logic Rules for Reliable and Comprehensive Cross-Modal Data Visualization",
     "year": "2026",
@@ -2788,7 +2788,7 @@
   "RAIRS: Optimizing Redundant Assignment and List Layout for IVF-Based ANN Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-rairs-optimizing-redundant-assignment-and-list-layout-for-ivf-based-ann-search",
-    "author": "Zehai Yang (SKLP and Center for Advanced Computer Systems, ICT, CAS & University of Chinese Academy of Sciences) and Shimin Chen (SKLP and Center for Advanced Computer Systems, ICT, CAS & University of Chinese Academy of Sciences)",
+    "author": "Zehai Yang and Shimin Chen",
     "booktitle": "SIGMOD Conference",
     "title": "RAIRS: Optimizing Redundant Assignment and List Layout for IVF-Based ANN Search",
     "year": "2026",
@@ -2827,12 +2827,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views:": {
+  "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-reveal-hidden-pitfalls-and-navigate-next-generation-of-vector-similarity-search-",
     "author": "Tingyang Chen and Cong Fu and Jiahua Wu and Haotian Wu and Hua Fan and Xiangyu Ke and Yunjun Gao and Yabo Ni and Anxiang Zeng",
     "booktitle": "SIGMOD Conference",
-    "title": "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views:",
+    "title": "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -2984,7 +2984,7 @@
   "SWMT: A Sliding Window Merkle Tree with Delayed Writes for Scalable Blockchain State Management": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-swmt-a-sliding-window-merkle-tree-with-delayed-writes-for-scalable-blockchain-st",
-    "author": "Nianzu Sheng (Hefei Institutes of Physical Science, Chinese Academy of Sciences and University of Science and Technology of China) and Tong Zhou (Hefei Institutes of Physical Science, Chinese Academy of Sciences and Anhui Zhongke Jingge Technologies Co., Ltd) and He Zhao (Hefei Institutes of Physical Science, Chinese Academy of Sciences and University of Science and Technology of China) and Xiaofeng Li (Hefei Institutes of Physical Science, Chinese Academy of Sciences and University of Science and Technology of China) and Jinlin Xu (Hefei Institutes of Physical Science, Chinese Academy of Sciences and University of Science and Technology of China)",
+    "author": "Nianzu Sheng and Tong Zhou and He Zhao and Xiaofeng Li and Jinlin Xu",
     "booktitle": "SIGMOD Conference",
     "title": "SWMT: A Sliding Window Merkle Tree with Delayed Writes for Scalable Blockchain State Management",
     "year": "2026",
@@ -3082,7 +3082,7 @@
   "LLM-Powered Interactive Graph Search: A Scalable and Practical Approach": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-llm-powered-interactive-graph-search-a-scalable-and-practical-approach",
-    "author": "Han Linghu (The Hong Kong University of Science and Technology ) and Qianhao Cong and Yuming Huang and Shangqi Lu (The Hong Kong University of Science and Technology ) and Liang Feng and Jing Tang (The Hong Kong University of Science and Technology)",
+    "author": "Han Linghu ) and Qianhao Cong and Yuming Huang and Shangqi Lu ) and Liang Feng and Jing Tang",
     "booktitle": "SIGMOD Conference",
     "title": "LLM-Powered Interactive Graph Search: A Scalable and Practical Approach",
     "year": "2026",
@@ -3177,12 +3177,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores:": {
+  "Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-analysis-and-evaluation-of-using-microsecond-latency-memory-for-in-memory-indice",
     "author": "Yosuke Bando and Akinobu Mita and Kazuhiro Hiwada and Shintaro Sano and Tomoya Suzuki and Yu Nakanishi and Kazutaka Tomida and Hirotsugu Kajihara and Akiyuki Kaneko and Daisuke Taki and Yukimasa Miyamoto and Tomokazu Yoshida and Tatsuo Shiozawa",
     "booktitle": "SIGMOD Conference",
-    "title": "Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores:",
+    "title": "Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3194,7 +3194,7 @@
   "BPI: A Novel Efficient and Reliable Search Structure for Hybrid Storage Blockchain": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-bpi-a-novel-efficient-and-reliable-search-structure-for-hybrid-storage-blockchai",
-    "author": "Xinkui Zhao and Rengrong Xiong and Guanjie Cheng and Xinhao Jin and Shawn Shi and Xiubo Liang and Gongsheng Yuan and Xiaoye Miao and Jianwei Yin (School of Computer Science and Technology, Zhejiang University, Hangzhou, China) and Shuiguang Deng (School of Computer Science and Technology, Zhejiang University, Hangzhou, China)",
+    "author": "Xinkui Zhao and Rengrong Xiong and Guanjie Cheng and Xinhao Jin and Shawn Shi and Xiubo Liang and Gongsheng Yuan and Xiaoye Miao and Jianwei Yin and Shuiguang Deng",
     "booktitle": "SIGMOD Conference",
     "title": "BPI: A Novel Efficient and Reliable Search Structure for Hybrid Storage Blockchain",
     "year": "2026",
@@ -3303,12 +3303,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Building Stateless Serverless Vector DBs via Block-based Data Partitioning:": {
+  "Building Stateless Serverless Vector DBs via Block-based Data Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-building-stateless-serverless-vector-dbs-via-block-based-data-partitioning",
     "author": "Daniel Barcelona-Pons and Raul Gracia-Tinedo and Albert Cañadilla-Domingo and Xavier Roca-Canals and Pedro García-López",
     "booktitle": "SIGMOD Conference",
-    "title": "Building Stateless Serverless Vector DBs via Block-based Data Partitioning:",
+    "title": "Building Stateless Serverless Vector DBs via Block-based Data Partitioning",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3334,7 +3334,7 @@
   "GeoKGM: A Multimodal Large Language Model for Zero-Shot Knowledge Graph Completion in Geospatial Databases": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-geokgm-a-multimodal-large-language-model-for-zero-shot-knowledge-graph-completio",
-    "author": "Zhihan Zheng (Beijing University of Posts and Telecommunications) and Haitao Yuan and Minxiao Chen (Beijing University of Posts and Telecommunications) and Nan Jiang (Beijing University of Posts and Telecommunications) and Haoning Wang and Shangguang Wang (Beijing University of Posts and Telecommunications)",
+    "author": "Zhihan Zheng and Haitao Yuan and Minxiao Chen and Nan Jiang and Haoning Wang and Shangguang Wang",
     "booktitle": "SIGMOD Conference",
     "title": "GeoKGM: A Multimodal Large Language Model for Zero-Shot Knowledge Graph Completion in Geospatial Databases",
     "year": "2026",
@@ -3345,12 +3345,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "A Comprehensive Survey of Subgraph Matching:": {
+  "A Comprehensive Survey of Subgraph Matching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-a-comprehensive-survey-of-subgraph-matching",
     "author": "Haolin Jiang and Santosh Pandey and Hang Liu",
     "booktitle": "SIGMOD Conference",
-    "title": "A Comprehensive Survey of Subgraph Matching:",
+    "title": "A Comprehensive Survey of Subgraph Matching",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3390,7 +3390,7 @@
   "Efficient Approximate Nearest Neighbor Search via Hemi-Sphere Centroids Graph": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-efficient-approximate-nearest-neighbor-search-via-hemi-sphere-centroids-graph",
-    "author": "Runwen QIU (The Hong Kong University of Science and Technology ) and Jing TANG (The Hong Kong University of Science and Technology)",
+    "author": "Runwen QIU ) and Jing TANG",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Approximate Nearest Neighbor Search via Hemi-Sphere Centroids Graph",
     "year": "2026",
@@ -3502,7 +3502,7 @@
   "RABIT: Efficient Range Queries with Bitmap Indexing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-rabit-efficient-range-queries-with-bitmap-indexing",
-    "author": "Junchang Wang (Nanjing University of Posts and Telecommunications) and Fu Xiao (Nanjing University of Posts and Telecommunications) and Manos Athanassoulis",
+    "author": "Junchang Wang and Fu Xiao and Manos Athanassoulis",
     "booktitle": "SIGMOD Conference",
     "title": "RABIT: Efficient Range Queries with Bitmap Indexing",
     "year": "2026",
@@ -3527,12 +3527,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Understanding and Detecting Query Performance Regression in Practical Index Tuning:": {
+  "Understanding and Detecting Query Performance Regression in Practical Index Tuning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-understanding-and-detecting-query-performance-regression-in-practical-index-tuni",
     "author": "Wentao Wu and Anshuman Dutt and Gaoxiang Xu and Vivek Narasayya and Surajit Chaudhuri",
     "booktitle": "SIGMOD Conference",
-    "title": "Understanding and Detecting Query Performance Regression in Practical Index Tuning:",
+    "title": "Understanding and Detecting Query Performance Regression in Practical Index Tuning",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3541,12 +3541,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Benchmarking Differentially Private Tabular Data Synthesis:": {
+  "Benchmarking Differentially Private Tabular Data Synthesis": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-benchmarking-differentially-private-tabular-data-synthesis",
     "author": "Kai Chen and Xiaochen Li and Chen Gong and Ryan Mckenna and Tianhao Wang",
     "booktitle": "SIGMOD Conference",
-    "title": "Benchmarking Differentially Private Tabular Data Synthesis:",
+    "title": "Benchmarking Differentially Private Tabular Data Synthesis",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3572,7 +3572,7 @@
   "A General Framework for Per-record Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-a-general-framework-for-per-record-differential-privacy",
-    "author": "Xinghe Chen and Wei Dong and Dajun Sun (Hong Kong University of Science and Technology) and Quanqing Xu",
+    "author": "Xinghe Chen and Wei Dong and Dajun Sun and Quanqing Xu",
     "booktitle": "SIGMOD Conference",
     "title": "A General Framework for Per-record Differential Privacy",
     "year": "2026",
@@ -3670,7 +3670,7 @@
   "MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-mctuner-spatial-decomposition-enhanced-database-tuning-via-llm-guided-exploratio",
-    "author": "Zihan Yan (University of Electronic Science and Technology of China) and Rui Xi (University of Electronic Science and Technology of China) and Mengshu Hou ( University of Electronic Science and Technology of China)",
+    "author": "Zihan Yan and Rui Xi and Mengshu Hou",
     "booktitle": "SIGMOD Conference",
     "title": "MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration",
     "year": "2026",
@@ -3712,7 +3712,7 @@
   "Approximate Query Processing under Updates": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-approximate-query-processing-under-updates",
-    "author": "Binyang DAI (Hong Kong University of Science and Technology) and Ke Yi (Hong Kong University of Science and Technology)",
+    "author": "Binyang DAI and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Approximate Query Processing under Updates",
     "year": "2026",
@@ -3849,12 +3849,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Attribute Filtering in Approximate Nearest Neighbor Search: An In-depth Experimental Study:": {
+  "Attribute Filtering in Approximate Nearest Neighbor Search: An In-depth Experimental Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-attribute-filtering-in-approximate-nearest-neighbor-search-an-in-depth-experimen",
     "author": "Mocheng Li and Xiao Yan and Baotong Lu and Yue Zhang and James Cheng and Chenhao Ma",
     "booktitle": "SIGMOD Conference",
-    "title": "Attribute Filtering in Approximate Nearest Neighbor Search: An In-depth Experimental Study:",
+    "title": "Attribute Filtering in Approximate Nearest Neighbor Search: An In-depth Experimental Study",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -3922,7 +3922,7 @@
   "DiskJoin: Large-scale Vector Similarity Join with SSD": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-diskjoin-large-scale-vector-similarity-join-with-ssd",
-    "author": "Yanqi Chen and Xiao Yan (Centre for Perceptual and Interactive Intelligence) and Alexandra Meliou and Eric Lo",
+    "author": "Yanqi Chen and Xiao Yan and Alexandra Meliou and Eric Lo",
     "booktitle": "SIGMOD Conference",
     "title": "DiskJoin: Large-scale Vector Similarity Join with SSD",
     "year": "2026",
@@ -4202,7 +4202,7 @@
   "Visualization-Oriented Progressive Time Series Transformation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-visualization-oriented-progressive-time-series-transformation",
-    "author": "Xin Chen and Lingyu Zhang (Southern University of Science and Technology) and Huaiwei Bao and Wei Lu and Eugene Wu and Xiaohui Yu and Yunhai Wang",
+    "author": "Xin Chen and Lingyu Zhang and Huaiwei Bao and Wei Lu and Eugene Wu and Xiaohui Yu and Yunhai Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Visualization-Oriented Progressive Time Series Transformation",
     "year": "2026",
@@ -4342,7 +4342,7 @@
   "ACGraph: An Efficient Asynchronous Out-of-Core Graph Processing Framework": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-acgraph-an-efficient-asynchronous-out-of-core-graph-processing-framework",
-    "author": "Dechuang CHEN and Sibo WANG and Qintian GUO (The Hong Kong University of Science and Technology)",
+    "author": "Dechuang CHEN and Sibo WANG and Qintian GUO",
     "booktitle": "SIGMOD Conference",
     "title": "ACGraph: An Efficient Asynchronous Out-of-Core Graph Processing Framework",
     "year": "2026",
@@ -4370,7 +4370,7 @@
   "P$^2$FedRec: Towards Privacy-Preserving and Personalized Federated Recommendation via Relationship Awareness": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-p-2-fedrec-towards-privacy-preserving-and-personalized-federated-recommendation-",
-    "author": "Chenfei Hu and Zihao Xu and Tong Wu (University of Science and Technology Beijing) and You Li and Chuan Zhang and Liehuang Zhu",
+    "author": "Chenfei Hu and Zihao Xu and Tong Wu and You Li and Chuan Zhang and Liehuang Zhu",
     "booktitle": "SIGMOD Conference",
     "title": "P$^2$FedRec: Towards Privacy-Preserving and Personalized Federated Recommendation via Relationship Awareness",
     "year": "2026",
@@ -4412,7 +4412,7 @@
   "SWIFT: Enabling Large-Scale Temporal Graph Learning on a Single Machine": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-swift-enabling-large-scale-temporal-graph-learning-on-a-single-machine",
-    "author": "Rui Guo (University of Science and Technology of China) and Zezhong Ding (University of Science and Technology of China) and Xike Xie (University of Science and Technology of China) and Jianliang Xu",
+    "author": "Rui Guo and Zezhong Ding and Xike Xie and Jianliang Xu",
     "booktitle": "SIGMOD Conference",
     "title": "SWIFT: Enabling Large-Scale Temporal Graph Learning on a Single Machine",
     "year": "2026",
@@ -4524,7 +4524,7 @@
   "Perseus: Achieving Strong Consistency and High Data Freshness for Scalable Geo-distributed HTAP": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-perseus-achieving-strong-consistency-and-high-data-freshness-for-scalable-geo-di",
-    "author": "Haoze Song and Xusheng Chen and Ruijie Gong and Zekai Sun and Tianxiang Shen and Cheng Li (University of Science and Technology of China) and Hao Feng and Sen Wang and Heming Cui",
+    "author": "Haoze Song and Xusheng Chen and Ruijie Gong and Zekai Sun and Tianxiang Shen and Cheng Li and Hao Feng and Sen Wang and Heming Cui",
     "booktitle": "SIGMOD Conference",
     "title": "Perseus: Achieving Strong Consistency and High Data Freshness for Scalable Geo-distributed HTAP",
     "year": "2026",
@@ -4538,7 +4538,7 @@
   "Efficient Proximity Queries on Simplified Height Maps": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-efficient-proximity-queries-on-simplified-height-maps",
-    "author": "Yinzhao YAN (Hong Kong University of Science and Technology) and Raymond Chi-Wing WONG (Hong Kong University of Science and Technology)",
+    "author": "Yinzhao YAN and Raymond Chi-Wing WONG",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Proximity Queries on Simplified Height Maps",
     "year": "2026",
@@ -4734,7 +4734,7 @@
   "VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-vecflow-a-high-performance-vector-data-management-system-for-filtered-search-on-",
-    "author": "Jingyi Xi and Chenghao Mo and Ben Karsin and Artem Chirkin and Mingqin Li and Minjia Zhang (Microsoft AI and Research)",
+    "author": "Jingyi Xi and Chenghao Mo and Ben Karsin and Artem Chirkin and Mingqin Li and Minjia Zhang",
     "booktitle": "SIGMOD Conference",
     "title": "VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs",
     "year": "2026",
@@ -4745,12 +4745,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness:": {
+  "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-a-comprehensive-benchmark-on-spectral-gnns-the-impact-on-efficiency-memory-and-e",
     "author": "Ningyi Liao and Haoyu Liu and Zulun Zhu and Siqiang Luo and Laks Lakshmanan",
     "booktitle": "SIGMOD Conference",
-    "title": "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness:",
+    "title": "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness",
     "year": "2026",
     "abstract": "",
     "keywords": "",
@@ -4829,12 +4829,12 @@
     "venue": "SIGMOD",
     "venue_track": "数据库领域"
   },
-  "Understanding Robustness Issues of Updatable Learned Indexes:": {
+  "Understanding Robustness Issues of Updatable Learned Indexes": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-understanding-robustness-issues-of-updatable-learned-indexes",
     "author": "Yuanhui Luo and Minhui Xie and Yiheng Tong and Shichao Jiang and Yunpeng Chai",
     "booktitle": "SIGMOD Conference",
-    "title": "Understanding Robustness Issues of Updatable Learned Indexes:",
+    "title": "Understanding Robustness Issues of Updatable Learned Indexes",
     "year": "2026",
     "abstract": "",
     "keywords": "",

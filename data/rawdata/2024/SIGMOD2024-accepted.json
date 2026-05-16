@@ -30,7 +30,7 @@
   "A Learned Cuckoo Filter for Approximate Membership Queries over Variable-sized Sliding Windows on Data Streams": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-a-learned-cuckoo-filter-for-approximate-membership-queries-over-variable-sized-s",
-    "author": "Yao Tian (The Hong Kong University of Science and Technology) and yan tingyun and Ruiyuan Zhang (The Hong Kong university of Science and Technology) and Kai Huang ( Macau University of Science and Technology) and Bolong Zheng (Huazhong University of Science and Technology) and Xiaofang Zhou (The Hong Kong University of Science and Technology)",
+    "author": "Yao Tian and yan tingyun and Ruiyuan Zhang and Kai Huang and Bolong Zheng and Xiaofang Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "A Learned Cuckoo Filter for Approximate Membership Queries over Variable-sized Sliding Windows on Data Streams",
     "year": "2024",
@@ -58,7 +58,7 @@
   "ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Structured Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-acorn-performant-and-predicate-agnostic-search-over-vector-embeddings-and-struct",
-    "author": "Liana Patel and Matei Zaharia (Berkeley and Databricks) and Peter Kraft and Carlos Guestrin",
+    "author": "Liana Patel and Matei Zaharia and Peter Kraft and Carlos Guestrin",
     "booktitle": "SIGMOD Conference",
     "title": "ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Structured Data",
     "year": "2024",
@@ -212,7 +212,7 @@
   "Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-automated-data-visualization-from-natural-language-via-large-language-models-an-",
-    "author": "Yang Wu (Huazhong University of Science and Technology) and Yao Wan (Huazhong University of Science and Technology) and Hongyu Zhang and Yulei Sui and wucai wei and Wei Zhao and Guandong Xu and Hai Jin (Huazhong University of Science and Technology)",
+    "author": "Yang Wu and Yao Wan and Hongyu Zhang and Yulei Sui and wucai wei and Wei Zhao and Guandong Xu and Hai Jin",
     "booktitle": "SIGMOD Conference",
     "title": "Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study",
     "year": "2024",
@@ -408,7 +408,7 @@
   "Continual Observation of Joins under Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-continual-observation-of-joins-under-differential-privacy",
-    "author": "Wei Dong and Zijun CHEN and Qiyao Luo (Hong Kong University of Science and Technology) and Elaine Shi and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Wei Dong and Zijun CHEN and Qiyao Luo and Elaine Shi and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Continual Observation of Joins under Differential Privacy",
     "year": "2024",
@@ -506,7 +506,7 @@
   "Demystifying the QoS and QoE of Edge-hosted Video Streaming Applications in the Wild with SNESet (Data-intensive Applications (DIA) Special Track)": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-demystifying-the-qos-and-qoe-of-edge-hosted-video-streaming-applications-in-the-",
-    "author": "Yanan Li (State Key Laboratory of Networking and Switching Technology) and Guangqing Deng and Changming Bai and Jingyu Yang and Gang Wang and Hao Zhang and Jin Bai and Haitao Yuan and Mengwei Xu (State Key Laboratory of Networking and Switching Technology) and Shangguang Wang (State Key Laboratory of Networking and Switching Technology)",
+    "author": "Yanan Li and Guangqing Deng and Changming Bai and Jingyu Yang and Gang Wang and Hao Zhang and Jin Bai and Haitao Yuan and Mengwei Xu and Shangguang Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Demystifying the QoS and QoE of Edge-hosted Video Streaming Applications in the Wild with SNESet (Data-intensive Applications (DIA) Special Track)",
     "year": "2024",
@@ -534,7 +534,7 @@
   "Determining the Largest Overlap between Tables": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-determining-the-largest-overlap-between-tables",
-    "author": "Luca Zecchini and Tobias Bleifuß and Giovanni Simonini (University of Modena and Reggio Emilia) and Sonia Bergamaschi and Felix Naumann",
+    "author": "Luca Zecchini and Tobias Bleifuß and Giovanni Simonini and Sonia Bergamaschi and Felix Naumann",
     "booktitle": "SIGMOD Conference",
     "title": "Determining the Largest Overlap between Tables",
     "year": "2024",
@@ -660,7 +660,7 @@
   "Efficient Algorithm for K-Multiple-Means": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-efficient-algorithm-for-k-multiple-means",
-    "author": "Yasuhiro Fujiwara and Atsutoshi Kumagai (NTT Computer and Data Science Laboratories) and Yasutoshi Ida and Masahiro Nakano and Makoto Nakatsuji and Akisato Kimura",
+    "author": "Yasuhiro Fujiwara and Atsutoshi Kumagai and Yasutoshi Ida and Masahiro Nakano and Makoto Nakatsuji and Akisato Kimura",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Algorithm for K-Multiple-Means",
     "year": "2024",
@@ -968,7 +968,7 @@
   "FineMon: An Innovative Adaptive Network Telemetry Scheme for Fine-Grained, Multi-Metric Data Monitoring with Dynamic Frequency Adjustment and Enhanced Data Recovery": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-finemon-an-innovative-adaptive-network-telemetry-scheme-for-fine-grained-multi-m",
-    "author": "Haojie Ji and Kun Xie and Jigang Wen (Hunan University of Science and Technology) and Qingyi Zhang and Gaogang Xie and Wei Liang (Hunan University of science and technology)",
+    "author": "Haojie Ji and Kun Xie and Jigang Wen and Qingyi Zhang and Gaogang Xie and Wei Liang",
     "booktitle": "SIGMOD Conference",
     "title": "FineMon: An Innovative Adaptive Network Telemetry Scheme for Fine-Grained, Multi-Metric Data Monitoring with Dynamic Frequency Adjustment and Enhanced Data Recovery",
     "year": "2024",
@@ -982,7 +982,7 @@
   "GE^2: A General and Efficient Graph Embedding Learning System": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-ge-2-a-general-and-efficient-graph-embedding-learning-system",
-    "author": "Chenguang Zheng and Guanxian Jiang and Xiao Yan (Southern University of Science and Technology) and Peiqi Yin and qihui zhou and James Cheng",
+    "author": "Chenguang Zheng and Guanxian Jiang and Xiao Yan and Peiqi Yin and qihui zhou and James Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "GE^2: A General and Efficient Graph Embedding Learning System",
     "year": "2024",
@@ -1304,7 +1304,7 @@
   "Learning-based Property Estimation with Polynomials": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-learning-based-property-estimation-with-polynomials",
-    "author": "Jiajun Li and Runlin Lei and Sibo Wang and Zhewei Wei and Bolin Ding (\"Data Analytics and Intelligence Lab, Alibaba Group\")",
+    "author": "Jiajun Li and Runlin Lei and Sibo Wang and Zhewei Wei and Bolin Ding",
     "booktitle": "SIGMOD Conference",
     "title": "Learning-based Property Estimation with Polynomials",
     "year": "2024",
@@ -1878,7 +1878,7 @@
   "PECJ: Stream Window Join on Disorder Data Streams with Proactive Error Compensation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-pecj-stream-window-join-on-disorder-data-streams-with-proactive-error-compensati",
-    "author": "Xianzhi Zeng (Singapore University of Technology and Design) and Shuhao Zhang and Hongbin HB Zhong and Hao Zhang and mian lu and zhao zheng and Yuqiang Chen",
+    "author": "Xianzhi Zeng and Shuhao Zhang and Hongbin HB Zhong and Hao Zhang and mian lu and zhao zheng and Yuqiang Chen",
     "booktitle": "SIGMOD Conference",
     "title": "PECJ: Stream Window Join on Disorder Data Streams with Proactive Error Compensation",
     "year": "2024",
@@ -1934,7 +1934,7 @@
   "Play like a Vertex: A Stackelberg Game Approach for Streaming Graph Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-play-like-a-vertex-a-stackelberg-game-approach-for-streaming-graph-partitioning",
-    "author": "Zezhong Ding (University of Science and Technology of China) and Yongan Xiang (University of Science and Technology of China ) and Shangyou Wang (University of Science and Technology of China) and Xike Xie (University of Science and Technology of China) and S. Kevin Zhou",
+    "author": "Zezhong Ding and Yongan Xiang and Shangyou Wang and Xike Xie and S. Kevin Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Play like a Vertex: A Stackelberg Game Approach for Streaming Graph Partitioning",
     "year": "2024",
@@ -2004,7 +2004,7 @@
   "Privacy Amplification by Sampling under User-level Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-privacy-amplification-by-sampling-under-user-level-differential-privacy",
-    "author": "Juanru FANG and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Juanru FANG and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Privacy Amplification by Sampling under User-level Differential Privacy",
     "year": "2024",
@@ -2032,7 +2032,7 @@
   "Proximity Queries on Point Clouds using Rapid Construction Path Oracle": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-proximity-queries-on-point-clouds-using-rapid-construction-path-oracle",
-    "author": "Yinzhao YAN (Hong Kong University of Science and Technology) and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)",
+    "author": "Yinzhao YAN and Raymond Chi-Wing Wong",
     "booktitle": "SIGMOD Conference",
     "title": "Proximity Queries on Point Clouds using Rapid Construction Path Oracle",
     "year": "2024",
@@ -2130,7 +2130,7 @@
   "Relational Algorithms for Top-k Query Evaluation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-relational-algorithms-for-top-k-query-evaluation",
-    "author": "Qichen Wang and Qiyao Luo (Hong Kong University of Science and Technology) and Yilei Wang",
+    "author": "Qichen Wang and Qiyao Luo and Yilei Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Relational Algorithms for Top-k Query Evaluation",
     "year": "2024",
@@ -2158,7 +2158,7 @@
   "Reservoir Sampling over Joins": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-reservoir-sampling-over-joins",
-    "author": "Binyang DAI (Hong Kong University of Science and Technology) and Xiao Hu and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Binyang DAI and Xiao Hu and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Reservoir Sampling over Joins",
     "year": "2024",
@@ -2340,7 +2340,7 @@
   "Secure Sampling for Approximate Multi-party Query Processing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-secure-sampling-for-approximate-multi-party-query-processing",
-    "author": "Qiyao Luo (Hong Kong University of Science and Technology) and Yilei Wang and Ke Yi (Hong Kong Univ. of Science and Technology) and Sheng Wang and Feifei Li",
+    "author": "Qiyao Luo and Yilei Wang and Ke Yi and Sheng Wang and Feifei Li",
     "booktitle": "SIGMOD Conference",
     "title": "Secure Sampling for Approximate Multi-party Query Processing",
     "year": "2024",
@@ -2424,7 +2424,7 @@
   "SIMPLE: Efficient Temporal Graph Neural Network Training at Scale with Dynamic Data Placement": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-simple-efficient-temporal-graph-neural-network-training-at-scale-with-dynamic-da",
-    "author": "Shihong Gao (The Hong Kong University of Science and Technology) and Yiming Li (Hong Kong University of Science and Technology) and Xin Zhang (Hong Kong University of Science and Technology) and Yanyan Shen and Yingxia Shao and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Shihong Gao and Yiming Li and Xin Zhang and Yanyan Shen and Yingxia Shao and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "SIMPLE: Efficient Temporal Graph Neural Network Training at Scale with Dynamic Data Placement",
     "year": "2024",
@@ -2480,7 +2480,7 @@
   "Spruce: a Fast yet Space-saving Structure for Dynamic Graph Storage": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-spruce-a-fast-yet-space-saving-structure-for-dynamic-graph-storage",
-    "author": "Jifan Shi (University of Science and Technology of China) and Biao Wang (University of Science and Technology of China) and Yun Xu (University of Science and Technology of China)",
+    "author": "Jifan Shi and Biao Wang and Yun Xu",
     "booktitle": "SIGMOD Conference",
     "title": "Spruce: a Fast yet Space-saving Structure for Dynamic Graph Storage",
     "year": "2024",
@@ -2522,7 +2522,7 @@
   "STile: Searching Hybrid Sparse Formats for Sparse Deep Learning Operators Automatically": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-stile-searching-hybrid-sparse-formats-for-sparse-deep-learning-operators-automat",
-    "author": "Jingzhi Fang and Yanyan Shen and Yue Wang and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Jingzhi Fang and Yanyan Shen and Yue Wang and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "STile: Searching Hybrid Sparse Formats for Sparse Deep Learning Operators Automatically",
     "year": "2024",
@@ -2662,7 +2662,7 @@
   "TeraHAC: Hierarchical Agglomerative Clustering of Trillion-Edge Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-terahac-hierarchical-agglomerative-clustering-of-trillion-edge-graphs",
-    "author": "Laxman Dhulipala (UMD and Google Research) and Jason Lee and Jakub Łącki and Vahab Mirrokni",
+    "author": "Laxman Dhulipala and Jason Lee and Jakub Łącki and Vahab Mirrokni",
     "booktitle": "SIGMOD Conference",
     "title": "TeraHAC: Hierarchical Agglomerative Clustering of Trillion-Edge Graphs",
     "year": "2024",
@@ -2760,7 +2760,7 @@
   "Towards Metric DBSCAN: Exact, approximate, and Streaming Algorithms": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-towards-metric-dbscan-exact-approximate-and-streaming-algorithms",
-    "author": "Mo Guanlin (University of Science and Technology of China) and Shihong Song (University of Science and Technology of China) and Hu Ding (University of Science and Technology of China)",
+    "author": "Mo Guanlin and Shihong Song and Hu Ding",
     "booktitle": "SIGMOD Conference",
     "title": "Towards Metric DBSCAN: Exact, approximate, and Streaming Algorithms",
     "year": "2024",
@@ -2858,7 +2858,7 @@
   "Vexless: A Serverless Vector Data Management System Using Cloud Functions": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2024-vexless-a-serverless-vector-data-management-system-using-cloud-functions",
-    "author": "Yongye Su and Yinqi Sun and Minjia Zhang (Microsoft AI and Research) and Jianguo Wang",
+    "author": "Yongye Su and Yinqi Sun and Minjia Zhang and Jianguo Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Vexless: A Serverless Vector Data Management System Using Cloud Functions",
     "year": "2024",

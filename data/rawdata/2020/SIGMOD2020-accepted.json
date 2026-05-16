@@ -2,7 +2,7 @@
   "QUAD: Quadratic-Bound-based Kernel Density Visualization": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-quad-quadratic-bound-based-kernel-density-visualization",
-    "author": "Tsz Nam Chan , Reynold Cheng , Man Lung Yiu",
+    "author": "Tsz Nam Chan and Reynold Cheng and Man Lung Yiu",
     "booktitle": "SIGMOD Conference",
     "title": "QUAD: Quadratic-Bound-based Kernel Density Visualization",
     "year": "2020",
@@ -16,7 +16,7 @@
   "Densely Connected User Community and Location Cluster Search in Location-Based Social Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-densely-connected-user-community-and-location-cluster-search-in-location-based-s",
-    "author": "Junghoon Kim , Tao Guo , Kaiyu Feng , Gao Cong , Arijit Khan , Farhana Choudhury",
+    "author": "Junghoon Kim and Tao Guo and Kaiyu Feng and Gao Cong and Arijit Khan and Farhana Choudhury",
     "booktitle": "SIGMOD Conference",
     "title": "Densely Connected User Community and Location Cluster Search in Location-Based Social Networks",
     "year": "2020",
@@ -30,7 +30,7 @@
   "Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-memory-aware-framework-for-efficient-second-order-random-walk-on-large-graphs",
-    "author": "Yingxia Shao (Beijing Univeristy of Posts and Telecommunications), Shiyue Huang , Xupeng Miao , Bin Cui , Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Yingxia Shao and Shiyue Huang and Xupeng Miao and Bin Cui and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs",
     "year": "2020",
@@ -44,7 +44,7 @@
   "BinDex: A Two-Layered Index for Fast and Robust Scans": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-bindex-a-two-layered-index-for-fast-and-robust-scans",
-    "author": "Linwei Li , Kai Zhang , Jiading Guo , Wen He , Zhenying He , Yinan Jing , Weili Han , X. Wang",
+    "author": "Linwei Li and Kai Zhang and Jiading Guo and Wen He and Zhenying He and Yinan Jing and Weili Han and X. Wang",
     "booktitle": "SIGMOD Conference",
     "title": "BinDex: A Two-Layered Index for Fast and Robust Scans",
     "year": "2020",
@@ -72,7 +72,7 @@
   "SPRINTER: A Fast n-ary Join Query Processing Method for Complex OLAP Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-sprinter-a-fast-n-ary-join-query-processing-method-for-complex-olap-queries",
-    "author": "Yoon-Min Nam (Daegu Gyeongbuk Institute of Science and Technology), Donghyoung Han (Daegu Gyeongbuk Institute of Science and Technology), Min-Soo Kim (Korea Advanced Institute of Science and Technology)",
+    "author": "Yoon-Min Nam and Donghyoung Han and Min-Soo Kim",
     "booktitle": "SIGMOD Conference",
     "title": "SPRINTER: A Fast n-ary Join Query Processing Method for Complex OLAP Queries",
     "year": "2020",
@@ -86,7 +86,7 @@
   "Approximate Pattern Matching in Massive Graphs with Precision and Recall Guarantees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-approximate-pattern-matching-in-massive-graphs-with-precision-and-recall-guarant",
-    "author": "Tashin Reza , Matei Ripeanu , Geoffrey Sanders , Roger Pearce",
+    "author": "Tashin Reza and Matei Ripeanu and Geoffrey Sanders and Roger Pearce",
     "booktitle": "SIGMOD Conference",
     "title": "Approximate Pattern Matching in Massive Graphs with Precision and Recall Guarantees",
     "year": "2020",
@@ -100,7 +100,7 @@
   "Analysis of Indexing Structures for Immutable Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-analysis-of-indexing-structures-for-immutable-data",
-    "author": "Cong Yue , Zhongle Xie , Meihui Zhang , Gang Chen , Beng Chin Ooi , Sheng Wang , Xiaokui Xiao",
+    "author": "Cong Yue and Zhongle Xie and Meihui Zhang and Gang Chen and Beng Chin Ooi and Sheng Wang and Xiaokui Xiao",
     "booktitle": "SIGMOD Conference",
     "title": "Analysis of Indexing Structures for Immutable Data",
     "year": "2020",
@@ -114,7 +114,7 @@
   "On the Optimization of Recursive Relational Queries: Application to Graph Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-on-the-optimization-of-recursive-relational-queries-application-to-graph-queries",
-    "author": "Louis Jachiet , Pierre Genevès , Nils Gesbert , Nabil Layaida",
+    "author": "Louis Jachiet and Pierre Genevès and Nils Gesbert and Nabil Layaida",
     "booktitle": "SIGMOD Conference",
     "title": "On the Optimization of Recursive Relational Queries: Application to Graph Queries",
     "year": "2020",
@@ -128,7 +128,7 @@
   "SCODED: Statistical Constraint Oriented Data Error Detection": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-scoded-statistical-constraint-oriented-data-error-detection",
-    "author": "Jing Nathan Yan , Oliver Schulte , MoHan Zhang , Jiannan Wang , Reynold Cheng",
+    "author": "Jing Nathan Yan and Oliver Schulte and MoHan Zhang and Jiannan Wang and Reynold Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "SCODED: Statistical Constraint Oriented Data Error Detection",
     "year": "2020",
@@ -142,7 +142,7 @@
   "SAGMA: Secure Aggregation Grouped by Multiple Attributes": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-sagma-secure-aggregation-grouped-by-multiple-attributes",
-    "author": "Timon Hackenjos , Florian Hahn , Florian Kerschbaum",
+    "author": "Timon Hackenjos and Florian Hahn and Florian Kerschbaum",
     "booktitle": "SIGMOD Conference",
     "title": "SAGMA: Secure Aggregation Grouped by Multiple Attributes",
     "year": "2020",
@@ -156,7 +156,7 @@
   "Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-monotonic-cardinality-estimation-of-similarity-selection-a-deep-learning-approac",
-    "author": "Yaoshu Wang , Chuan Xiao , Jianbin Qin , Xin Cao , Yifang Sun , Wei Wang , Makoto Onizuka",
+    "author": "Yaoshu Wang and Chuan Xiao and Jianbin Qin and Xin Cao and Yifang Sun and Wei Wang and Makoto Onizuka",
     "booktitle": "SIGMOD Conference",
     "title": "Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach",
     "year": "2020",
@@ -170,7 +170,7 @@
   "PrIU: A Provenance-Based Approach for Incrementally Updating Regression Models": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-priu-a-provenance-based-approach-for-incrementally-updating-regression-models",
-    "author": "Yinjun Wu , Val Tannen , Susan Davidson",
+    "author": "Yinjun Wu and Val Tannen and Susan Davidson",
     "booktitle": "SIGMOD Conference",
     "title": "PrIU: A Provenance-Based Approach for Incrementally Updating Regression Models",
     "year": "2020",
@@ -184,7 +184,7 @@
   "Learning to Validate the Predictions of Black Box Classifiers on Unseen Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-learning-to-validate-the-predictions-of-black-box-classifiers-on-unseen-data",
-    "author": "Sebastian Schelter , Tammo Rukat , Felix Biessmann",
+    "author": "Sebastian Schelter and Tammo Rukat and Felix Biessmann",
     "booktitle": "SIGMOD Conference",
     "title": "Learning to Validate the Predictions of Black Box Classifiers on Unseen Data",
     "year": "2020",
@@ -198,7 +198,7 @@
   "Towards Interpretable and Learnable Risk Analysis for Entity Resolution": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-towards-interpretable-and-learnable-risk-analysis-for-entity-resolution",
-    "author": "Zhaoqiang Chen , Qun Chen , Boyi Hou , Zhanhuai Li , Guoliang Li",
+    "author": "Zhaoqiang Chen and Qun Chen and Boyi Hou and Zhanhuai Li and Guoliang Li",
     "booktitle": "SIGMOD Conference",
     "title": "Towards Interpretable and Learnable Risk Analysis for Entity Resolution",
     "year": "2020",
@@ -212,7 +212,7 @@
   "Organizing Data Lakes for Navigation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-organizing-data-lakes-for-navigation",
-    "author": "Fatemeh Nargesian , Ken Pu , Erkang Zhu , Bahar Ghadiri Bashardoost , Renée Miller",
+    "author": "Fatemeh Nargesian and Ken Pu and Erkang Zhu and Bahar Ghadiri Bashardoost and Renée Miller",
     "booktitle": "SIGMOD Conference",
     "title": "Organizing Data Lakes for Navigation",
     "year": "2020",
@@ -226,7 +226,7 @@
   "Sample Debiasing in the Themis Open World Database System": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-sample-debiasing-in-the-themis-open-world-database-system",
-    "author": "Laurel Orr , Magda Balazinska , Dan Suciu",
+    "author": "Laurel Orr and Magda Balazinska and Dan Suciu",
     "booktitle": "SIGMOD Conference",
     "title": "Sample Debiasing in the Themis Open World Database System",
     "year": "2020",
@@ -240,7 +240,7 @@
   "Mining Approximate Acyclic Schemes from Relations": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-mining-approximate-acyclic-schemes-from-relations",
-    "author": "Batya Kenig , Pranay Mundra , Guna Prasad , Babak Salimi , Dan Suciu",
+    "author": "Batya Kenig and Pranay Mundra and Guna Prasad and Babak Salimi and Dan Suciu",
     "booktitle": "SIGMOD Conference",
     "title": "Mining Approximate Acyclic Schemes from Relations",
     "year": "2020",
@@ -254,7 +254,7 @@
   "IDEBench: A Benchmark for Interactive Data Exploration": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-idebench-a-benchmark-for-interactive-data-exploration",
-    "author": "Philipp Eichmann , Emanuel Zgraggen , Carsten Binnig , Tim Kraska",
+    "author": "Philipp Eichmann and Emanuel Zgraggen and Carsten Binnig and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "IDEBench: A Benchmark for Interactive Data Exploration",
     "year": "2020",
@@ -268,7 +268,7 @@
   "DB4ML - An In-Memory Database Kernel with Machine Learning Support": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-db4ml-an-in-memory-database-kernel-with-machine-learning-support",
-    "author": "Matthias Jasny , Tobias Ziegler , Tim Kraska , Uwe Roehm , Carsten Binnig",
+    "author": "Matthias Jasny and Tobias Ziegler and Tim Kraska and Uwe Roehm and Carsten Binnig",
     "booktitle": "SIGMOD Conference",
     "title": "DB4ML - An In-Memory Database Kernel with Machine Learning Support",
     "year": "2020",
@@ -282,7 +282,7 @@
   "Parallel Index-based Stream Join on a Multicore CPU": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-parallel-index-based-stream-join-on-a-multicore-cpu",
-    "author": "Amirhesam Shahvarani , Hans-Arno Jacobsen",
+    "author": "Amirhesam Shahvarani and Hans-Arno Jacobsen",
     "booktitle": "SIGMOD Conference",
     "title": "Parallel Index-based Stream Join on a Multicore CPU",
     "year": "2020",
@@ -296,7 +296,7 @@
   "Fast Join Project Query Evaluation using Matrix Multiplication": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-fast-join-project-query-evaluation-using-matrix-multiplication",
-    "author": "Shaleen Deep , Xiao Hu , Paraschos Koutris",
+    "author": "Shaleen Deep and Xiao Hu and Paraschos Koutris",
     "booktitle": "SIGMOD Conference",
     "title": "Fast Join Project Query Evaluation using Matrix Multiplication",
     "year": "2020",
@@ -310,7 +310,7 @@
   "Factorized Graph Representations for Semi-Supervised Learning from Sparse Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-factorized-graph-representations-for-semi-supervised-learning-from-sparse-data",
-    "author": "Krishna Kumar P. , Paul Langton , Wolfgang Gatterbauer",
+    "author": "Krishna Kumar P. and Paul Langton and Wolfgang Gatterbauer",
     "booktitle": "SIGMOD Conference",
     "title": "Factorized Graph Representations for Semi-Supervised Learning from Sparse Data",
     "year": "2020",
@@ -324,7 +324,7 @@
   "Equivalence-Invariant Algebraic Provenance for Hyperplane Update Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-equivalence-invariant-algebraic-provenance-for-hyperplane-update-queries",
-    "author": "Pierre Bourhis , Daniel Deutch , Yuval Moskovitch",
+    "author": "Pierre Bourhis and Daniel Deutch and Yuval Moskovitch",
     "booktitle": "SIGMOD Conference",
     "title": "Equivalence-Invariant Algebraic Provenance for Hyperplane Update Queries",
     "year": "2020",
@@ -338,7 +338,7 @@
   "Learning Multi-Dimensional Indexes": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-learning-multi-dimensional-indexes",
-    "author": "Vikram Nathan , Jialin Ding , Mohammad Alizadeh , Tim Kraska",
+    "author": "Vikram Nathan and Jialin Ding and Mohammad Alizadeh and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "Learning Multi-Dimensional Indexes",
     "year": "2020",
@@ -352,7 +352,7 @@
   "RID: Deduplicating Snapshot Computations": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-rid-deduplicating-snapshot-computations",
-    "author": "Nikos Tsikoudis , Liuba Shrira",
+    "author": "Nikos Tsikoudis and Liuba Shrira",
     "booktitle": "SIGMOD Conference",
     "title": "RID: Deduplicating Snapshot Computations",
     "year": "2020",
@@ -366,7 +366,7 @@
   "Web Data Extraction using Hybrid Program Synthesis: A Combination of Top-down and Bottom-up Inference": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-web-data-extraction-using-hybrid-program-synthesis-a-combination-of-top-down-and",
-    "author": "Mohammad Raza , Sumit Gulwani",
+    "author": "Mohammad Raza and Sumit Gulwani",
     "booktitle": "SIGMOD Conference",
     "title": "Web Data Extraction using Hybrid Program Synthesis: A Combination of Top-down and Bottom-up Inference",
     "year": "2020",
@@ -380,7 +380,7 @@
   "In-Memory Subgraph Matching: An In-depth Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-in-memory-subgraph-matching-an-in-depth-study",
-    "author": "Shixuan Sun (Hong Kong University of Science and Technology), Qiong Luo (Hong Kong University of Science and Technology)",
+    "author": "Shixuan Sun and Qiong Luo",
     "booktitle": "SIGMOD Conference",
     "title": "In-Memory Subgraph Matching: An In-depth Study",
     "year": "2020",
@@ -394,7 +394,7 @@
   "Theoretically-Efficient and Practical Parallel DBSCAN": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-theoretically-efficient-and-practical-parallel-dbscan",
-    "author": "Yiqiu Wang , Yan Gu , Julian Shun",
+    "author": "Yiqiu Wang and Yan Gu and Julian Shun",
     "booktitle": "SIGMOD Conference",
     "title": "Theoretically-Efficient and Practical Parallel DBSCAN",
     "year": "2020",
@@ -408,7 +408,7 @@
   "Order-Preserving Key Compression for In-Memory Search Trees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-order-preserving-key-compression-for-in-memory-search-trees",
-    "author": "Huanchen Zhang , Xiaoxuan Liu , David Andersen , Michael Kaminsky , Kimberly Keeton , Andrew Pavlo",
+    "author": "Huanchen Zhang and Xiaoxuan Liu and David Andersen and Michael Kaminsky and Kimberly Keeton and Andrew Pavlo",
     "booktitle": "SIGMOD Conference",
     "title": "Order-Preserving Key Compression for In-Memory Search Trees",
     "year": "2020",
@@ -422,7 +422,7 @@
   "Cost Models for Big Data Query Processing: Learning, Retrofitting, and Our Findings": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-cost-models-for-big-data-query-processing-learning-retrofitting-and-our-findings",
-    "author": "Tarique Siddiqui , Alekh Jindal , Shi Qiao , Hiren Patel , Wangchao Le",
+    "author": "Tarique Siddiqui and Alekh Jindal and Shi Qiao and Hiren Patel and Wangchao Le",
     "booktitle": "SIGMOD Conference",
     "title": "Cost Models for Big Data Query Processing: Learning, Retrofitting, and Our Findings",
     "year": "2020",
@@ -436,7 +436,7 @@
   "A GPU-friendly Geometric Data Model and Algebra for Spatial Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-gpu-friendly-geometric-data-model-and-algebra-for-spatial-queries",
-    "author": "Harish Doraiswamy , Juliana Freire",
+    "author": "Harish Doraiswamy and Juliana Freire",
     "booktitle": "SIGMOD Conference",
     "title": "A GPU-friendly Geometric Data Model and Algebra for Spatial Queries",
     "year": "2020",
@@ -450,7 +450,7 @@
   "Extending Graph Patterns with Conditions": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-extending-graph-patterns-with-conditions",
-    "author": "Grace Fan , Wenfei Fan , Yuanhao Li , Ping Lu , Chao Tian , Jingren Zhou",
+    "author": "Grace Fan and Wenfei Fan and Yuanhao Li and Ping Lu and Chao Tian and Jingren Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Extending Graph Patterns with Conditions",
     "year": "2020",
@@ -464,7 +464,7 @@
   "Cleaning Denial Constraint Violations through Relaxation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-cleaning-denial-constraint-violations-through-relaxation",
-    "author": "Stella Giannakopoulou , Manos Karpathiotakis , Anastasia Ailamaki",
+    "author": "Stella Giannakopoulou and Manos Karpathiotakis and Anastasia Ailamaki",
     "booktitle": "SIGMOD Conference",
     "title": "Cleaning Denial Constraint Violations through Relaxation",
     "year": "2020",
@@ -478,7 +478,7 @@
   "Maintaining Acyclic Foreign-Key Joins under Updates": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-maintaining-acyclic-foreign-key-joins-under-updates",
-    "author": "Qichen Wang (Hong Kong University of Science and Technology), Ke Yi (Hong Kong University of Science and Technology)",
+    "author": "Qichen Wang and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Maintaining Acyclic Foreign-Key Joins under Updates",
     "year": "2020",
@@ -492,7 +492,7 @@
   "Truss-based Community Search over Large Directed Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-truss-based-community-search-over-large-directed-graphs",
-    "author": "Qing Liu , Minjun Zhao , Xin Huang , Jianliang Xu , Yunjun Gao",
+    "author": "Qing Liu and Minjun Zhao and Xin Huang and Jianliang Xu and Yunjun Gao",
     "booktitle": "SIGMOD Conference",
     "title": "Truss-based Community Search over Large Directed Graphs",
     "year": "2020",
@@ -506,7 +506,7 @@
   "Tree-Encoded Bitmaps": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-tree-encoded-bitmaps",
-    "author": "Harald Lang , Alexander Beischl , Viktor Leis , Peter Boncz , Thomas Neumann , Alfons Kemper",
+    "author": "Harald Lang and Alexander Beischl and Viktor Leis and Peter Boncz and Thomas Neumann and Alfons Kemper",
     "booktitle": "SIGMOD Conference",
     "title": "Tree-Encoded Bitmaps",
     "year": "2020",
@@ -520,7 +520,7 @@
   "DBPal: A Fully Pluggable NL2SQL Training Pipeline": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-dbpal-a-fully-pluggable-nl2sql-training-pipeline",
-    "author": "Nathaniel Weir , Prasetya Utama , Alex Galakatos , Andrew Crotty , Amir Ilkhechi , Shekar Ramaswamy , Rohin Bhushan , Nadja Geisler , Benjamin Hättasch , Steffen Eger , Ugur Cetintemel , Carsten Binnig",
+    "author": "Nathaniel Weir and Prasetya Utama and Alex Galakatos and Andrew Crotty and Amir Ilkhechi and Shekar Ramaswamy and Rohin Bhushan and Nadja Geisler and Benjamin Hättasch and Steffen Eger and Ugur Cetintemel and Carsten Binnig",
     "booktitle": "SIGMOD Conference",
     "title": "DBPal: A Fully Pluggable NL2SQL Training Pipeline",
     "year": "2020",
@@ -534,7 +534,7 @@
   "Pensieve: Skewness-Aware Version Switching for Efficient Graph Processing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-pensieve-skewness-aware-version-switching-for-efficient-graph-processing",
-    "author": "Tangwei Ying (Huazhong University of Science and Technology), Hanhua Chen (Huazhong University of Science and Technology), Hai Jin (Huazhong University of Science and Technology)",
+    "author": "Tangwei Ying and Hanhua Chen and Hai Jin",
     "booktitle": "SIGMOD Conference",
     "title": "Pensieve: Skewness-Aware Version Switching for Efficient Graph Processing",
     "year": "2020",
@@ -548,7 +548,7 @@
   "Black or White: How to Develop an AutoTuner for Memory-based Analytics": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-black-or-white-how-to-develop-an-autotuner-for-memory-based-analytics",
-    "author": "Mayuresh Kunjir , Shivnath Babu",
+    "author": "Mayuresh Kunjir and Shivnath Babu",
     "booktitle": "SIGMOD Conference",
     "title": "Black or White: How to Develop an AutoTuner for Memory-based Analytics",
     "year": "2020",
@@ -562,7 +562,7 @@
   "GOGGLES: Automatic Image Labeling with Affinity Coding": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-goggles-automatic-image-labeling-with-affinity-coding",
-    "author": "Nilaksh Das , Sanya Chaba , Renzhi Wu , Sakshi Gandhi , Duen Horng Chau , Xu Chu",
+    "author": "Nilaksh Das and Sanya Chaba and Renzhi Wu and Sakshi Gandhi and Duen Horng Chau and Xu Chu",
     "booktitle": "SIGMOD Conference",
     "title": "GOGGLES: Automatic Image Labeling with Affinity Coding",
     "year": "2020",
@@ -576,7 +576,7 @@
   "ChronoCache: Predictive and Adaptive Mid-Tier Query Result Caching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-chronocache-predictive-and-adaptive-mid-tier-query-result-caching",
-    "author": "Bradley Glasbergen , Kyle Langendoen , Michael Abebe , Khuzaima Daudjee",
+    "author": "Bradley Glasbergen and Kyle Langendoen and Michael Abebe and Khuzaima Daudjee",
     "booktitle": "SIGMOD Conference",
     "title": "ChronoCache: Predictive and Adaptive Mid-Tier Query Result Caching",
     "year": "2020",
@@ -590,7 +590,7 @@
   "FalconDB: Blockchain-based Collaborative Database": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-falcondb-blockchain-based-collaborative-database",
-    "author": "Yanqing Peng , Min Du , Feifei Li , Raymond Cheng , Dawn Song",
+    "author": "Yanqing Peng and Min Du and Feifei Li and Raymond Cheng and Dawn Song",
     "booktitle": "SIGMOD Conference",
     "title": "FalconDB: Blockchain-based Collaborative Database",
     "year": "2020",
@@ -604,7 +604,7 @@
   "A Study of the Fundamental Performance Characteristics of GPUs and CPUs for Database Analytics": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-study-of-the-fundamental-performance-characteristics-of-gpus-and-cpus-for-data",
-    "author": "Anil Shanbhag , Samuel Madden , Xiangyao Yu",
+    "author": "Anil Shanbhag and Samuel Madden and Xiangyao Yu",
     "booktitle": "SIGMOD Conference",
     "title": "A Study of the Fundamental Performance Characteristics of GPUs and CPUs for Database Analytics",
     "year": "2020",
@@ -618,7 +618,7 @@
   "Starling: A Scalable Query Engine on Cloud Functions": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-starling-a-scalable-query-engine-on-cloud-functions",
-    "author": "Matthew Perron , Raul Castro Fernandez , David DeWitt , Samuel Madden",
+    "author": "Matthew Perron and Raul Castro Fernandez and David DeWitt and Samuel Madden",
     "booktitle": "SIGMOD Conference",
     "title": "Starling: A Scalable Query Engine on Cloud Functions",
     "year": "2020",
@@ -632,7 +632,7 @@
   "Crypt: Crypto-Assisted Differential Privacy on Untrusted Servers": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-crypt-crypto-assisted-differential-privacy-on-untrusted-servers",
-    "author": "Amrita Roy Chowdhury , Chenghong Wang , Xi He , Ashwin Machanavajjhala , Somesh Jha",
+    "author": "Amrita Roy Chowdhury and Chenghong Wang and Xi He and Ashwin Machanavajjhala and Somesh Jha",
     "booktitle": "SIGMOD Conference",
     "title": "Crypt: Crypto-Assisted Differential Privacy on Untrusted Servers",
     "year": "2020",
@@ -646,7 +646,7 @@
   "A Comprehensive Benchmark Framework for Active Learning Methods in Entity Matching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-comprehensive-benchmark-framework-for-active-learning-methods-in-entity-matchi",
-    "author": "Venkata Vamsikrishna Meduri , Lucian Popa , Prithviraj Sen , Mohamed Sarwat",
+    "author": "Venkata Vamsikrishna Meduri and Lucian Popa and Prithviraj Sen and Mohamed Sarwat",
     "booktitle": "SIGMOD Conference",
     "title": "A Comprehensive Benchmark Framework for Active Learning Methods in Entity Matching",
     "year": "2020",
@@ -660,7 +660,7 @@
   "Timely Reporting of Heavy Hitters using External Memory": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-timely-reporting-of-heavy-hitters-using-external-memory",
-    "author": "Prashant Pandey , Shikha Singh , Michael Bender , Jonathan Berry , Martín Farach-Colton , Rob Johnson , Thomas Kroeger , Cynthia Phillips",
+    "author": "Prashant Pandey and Shikha Singh and Michael Bender and Jonathan Berry and Martín Farach-Colton and Rob Johnson and Thomas Kroeger and Cynthia Phillips",
     "booktitle": "SIGMOD Conference",
     "title": "Timely Reporting of Heavy Hitters using External Memory",
     "year": "2020",
@@ -674,7 +674,7 @@
   "Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-realistic-re-evaluation-of-knowledge-graph-completion-methods-an-experimental-st",
-    "author": "Farahnaz Akrami , Mohammed Samiul Saeef , Qingheng Zhang , Wei Hu , Chengkai Li",
+    "author": "Farahnaz Akrami and Mohammed Samiul Saeef and Qingheng Zhang and Wei Hu and Chengkai Li",
     "booktitle": "SIGMOD Conference",
     "title": "Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study",
     "year": "2020",
@@ -688,7 +688,7 @@
   "Improving Approximate Nearest Neighbor Search through Learned Adaptive Early Termination": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-improving-approximate-nearest-neighbor-search-through-learned-adaptive-early-ter",
-    "author": "Conglong Li , Minjia Zhang (Microsoft AI and Research), David Andersen , Yuxiong He (Microsoft AI and Research)",
+    "author": "Conglong Li and Minjia Zhang and David Andersen and Yuxiong He",
     "booktitle": "SIGMOD Conference",
     "title": "Improving Approximate Nearest Neighbor Search through Learned Adaptive Early Termination",
     "year": "2020",
@@ -702,7 +702,7 @@
   "Continuously Adaptive Similarity Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-continuously-adaptive-similarity-search",
-    "author": "Huayi Zhang , Lei Cao , Yizhou Yan , Samuel Madden , Elke Rundensteiner",
+    "author": "Huayi Zhang and Lei Cao and Yizhou Yan and Samuel Madden and Elke Rundensteiner",
     "booktitle": "SIGMOD Conference",
     "title": "Continuously Adaptive Similarity Search",
     "year": "2020",
@@ -716,7 +716,7 @@
   "Facilitating SQL Query Composition and Analysis": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-facilitating-sql-query-composition-and-analysis",
-    "author": "Zainab Zolaktaf , Mostafa Milani , Rachel Pottinger",
+    "author": "Zainab Zolaktaf and Mostafa Milani and Rachel Pottinger",
     "booktitle": "SIGMOD Conference",
     "title": "Facilitating SQL Query Composition and Analysis",
     "year": "2020",
@@ -730,7 +730,7 @@
   "MIRIS: Fast Object Track Queries in Video": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-miris-fast-object-track-queries-in-video",
-    "author": "Favyen Bastani , Songtao He , Arjun Balasingam , Karthik Gopalakrishnan , Mohammad Alizadeh , Hari Balakrishnan , Michael Cafarella , Tim Kraska , Sam Madden",
+    "author": "Favyen Bastani and Songtao He and Arjun Balasingam and Karthik Gopalakrishnan and Mohammad Alizadeh and Hari Balakrishnan and Michael Cafarella and Tim Kraska and Sam Madden",
     "booktitle": "SIGMOD Conference",
     "title": "MIRIS: Fast Object Track Queries in Video",
     "year": "2020",
@@ -744,7 +744,7 @@
   "A Transactional Perspective on Execute-order-validate Blockchains": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-transactional-perspective-on-execute-order-validate-blockchains",
-    "author": "Pingcheng Ruan , Dumitrel Loghin , Quang-Trung Ta , Meihui Zhang , Gang Chen , Beng Chin Ooi",
+    "author": "Pingcheng Ruan and Dumitrel Loghin and Quang-Trung Ta and Meihui Zhang and Gang Chen and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "A Transactional Perspective on Execute-order-validate Blockchains",
     "year": "2020",
@@ -758,7 +758,7 @@
   "Causality-Guided Adaptive Interventional Debugging": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-causality-guided-adaptive-interventional-debugging",
-    "author": "Anna Fariha , Suman Nath , Alexandra Meliou",
+    "author": "Anna Fariha and Suman Nath and Alexandra Meliou",
     "booktitle": "SIGMOD Conference",
     "title": "Causality-Guided Adaptive Interventional Debugging",
     "year": "2020",
@@ -772,7 +772,7 @@
   "Duoquest: A Dual-Specification System for Expressive SQL Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-duoquest-a-dual-specification-system-for-expressive-sql-queries",
-    "author": "Christopher Baik , Zhongjun Jin , Michael Cafarella , H. Jagadish",
+    "author": "Christopher Baik and Zhongjun Jin and Michael Cafarella and H. Jagadish",
     "booktitle": "SIGMOD Conference",
     "title": "Duoquest: A Dual-Specification System for Expressive SQL Queries",
     "year": "2020",
@@ -786,7 +786,7 @@
   "SPARQL Rewriting: Towards Desired Results": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-sparql-rewriting-towards-desired-results",
-    "author": "Xun Jian (The Hong Kong University of Science and Technology), Yue Wang , Xiayu Lei (The Hong Kong University of Science and Technology), Libin Zheng (The Hong Kong University of Science and Technology), Lei Chen (The Hong Kong University of Science and Technology)",
+    "author": "Xun Jian and Yue Wang and Xiayu Lei and Libin Zheng and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "SPARQL Rewriting: Towards Desired Results",
     "year": "2020",
@@ -800,7 +800,7 @@
   "Complaint-driven Training Data Debugging for Query 2.0": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-complaint-driven-training-data-debugging-for-query-2-0",
-    "author": "Weiyuan Wu , Lampros Flokas , Eugene Wu , Jiannan Wang",
+    "author": "Weiyuan Wu and Lampros Flokas and Eugene Wu and Jiannan Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Complaint-driven Training Data Debugging for Query 2.0",
     "year": "2020",
@@ -814,7 +814,7 @@
   "Efficient Algorithms for Densest Subgraph Discovery on Large Directed Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-efficient-algorithms-for-densest-subgraph-discovery-on-large-directed-graphs",
-    "author": "Chenhao Ma , Yixiang Fang , Reynold Cheng , Laks Lakshmanan , Wenjie Zhang , Xuemin Lin",
+    "author": "Chenhao Ma and Yixiang Fang and Reynold Cheng and Laks Lakshmanan and Wenjie Zhang and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Algorithms for Densest Subgraph Discovery on Large Directed Graphs",
     "year": "2020",
@@ -828,7 +828,7 @@
   "Cheetah: Accelerating Database Queries with Switch Pruning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-cheetah-accelerating-database-queries-with-switch-pruning",
-    "author": "Muhammad Tirmazi , Ran Ben Basat , Jiaqi Gao , Minlan Yu",
+    "author": "Muhammad Tirmazi and Ran Ben Basat and Jiaqi Gao and Minlan Yu",
     "booktitle": "SIGMOD Conference",
     "title": "Cheetah: Accelerating Database Queries with Switch Pruning",
     "year": "2020",
@@ -842,7 +842,7 @@
   "GPU-Accelerated Subgraph Enumeration on Partitioned Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-gpu-accelerated-subgraph-enumeration-on-partitioned-graphs",
-    "author": "Wentian Guo , Yuchen Li , Mo Sha , Bingsheng He , Xiaokui Xiao , Kian-Lee Tan",
+    "author": "Wentian Guo and Yuchen Li and Mo Sha and Bingsheng He and Xiaokui Xiao and Kian-Lee Tan",
     "booktitle": "SIGMOD Conference",
     "title": "GPU-Accelerated Subgraph Enumeration on Partitioned Graphs",
     "year": "2020",
@@ -856,7 +856,7 @@
   "Estimating Numerical Distributions under Local Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-estimating-numerical-distributions-under-local-differential-privacy",
-    "author": "Zitao Li , Tianhao Wang , Milan Lopuhaä-Zwakenberg , Ninghui Li , Boris Škorić",
+    "author": "Zitao Li and Tianhao Wang and Milan Lopuhaä-Zwakenberg and Ninghui Li and Boris Škorić",
     "booktitle": "SIGMOD Conference",
     "title": "Estimating Numerical Distributions under Local Differential Privacy",
     "year": "2020",
@@ -870,7 +870,7 @@
   "Architecting a Query Compiler for Spatial Workloads": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-architecting-a-query-compiler-for-spatial-workloads",
-    "author": "Ruby Tahboub , Tiark Rompf",
+    "author": "Ruby Tahboub and Tiark Rompf",
     "booktitle": "SIGMOD Conference",
     "title": "Architecting a Query Compiler for Spatial Workloads",
     "year": "2020",
@@ -884,7 +884,7 @@
   "G-CARE: A Framework for Performance Benchmarking of Cardinality Estimation Techniques for Subgraph Matching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-g-care-a-framework-for-performance-benchmarking-of-cardinality-estimation-techni",
-    "author": "Yeonsu Park , Seongyun Ko , Sourav Bhowmick , Kyoungmin Kim , Kijae Hong , Wook-Shin Han",
+    "author": "Yeonsu Park and Seongyun Ko and Sourav Bhowmick and Kyoungmin Kim and Kijae Hong and Wook-Shin Han",
     "booktitle": "SIGMOD Conference",
     "title": "G-CARE: A Framework for Performance Benchmarking of Cardinality Estimation Techniques for Subgraph Matching",
     "year": "2020",
@@ -898,7 +898,7 @@
   "LISA: A Learned Index Structure for Spatial Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-lisa-a-learned-index-structure-for-spatial-data",
-    "author": "Pengfei Li , Hua Lu , Qian Zheng , Long Yang , Gang Pan",
+    "author": "Pengfei Li and Hua Lu and Qian Zheng and Long Yang and Gang Pan",
     "booktitle": "SIGMOD Conference",
     "title": "LISA: A Learned Index Structure for Spatial Data",
     "year": "2020",
@@ -912,7 +912,7 @@
   "Learning a Partitioning Advisor for Cloud Databases": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-learning-a-partitioning-advisor-for-cloud-databases",
-    "author": "Benjamin Hilprecht , Carsten Binnig , Uwe Röhm",
+    "author": "Benjamin Hilprecht and Carsten Binnig and Uwe Röhm",
     "booktitle": "SIGMOD Conference",
     "title": "Learning a Partitioning Advisor for Cloud Databases",
     "year": "2020",
@@ -926,7 +926,7 @@
   "Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-pump-up-the-volume-processing-large-data-on-gpus-with-fast-interconnects",
-    "author": "Clemens Lutz , Sebastian Breß , Steffen Zeuch , Tilmann Rabl , Volker Markl",
+    "author": "Clemens Lutz and Sebastian Breß and Steffen Zeuch and Tilmann Rabl and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects",
     "year": "2020",
@@ -940,7 +940,7 @@
   "Reliable Data Distillation on Graph Convolutional Network": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-reliable-data-distillation-on-graph-convolutional-network",
-    "author": "Wentao Zhang (Peking University and National Engineering Laboratory for Big Data Analysis and Applications), Xupeng Miao , Yingxia Shao (Beijing University of Posts and Telecommunications, BUPT), Jiawei Jiang , Lei Chen (Hong Kong University of Science and Technology), Olivier Ruas , Bin Cui (Peking University and National Engineering Laboratory for Big Data Analysis and Applications)",
+    "author": "Wentao Zhang and Xupeng Miao and Yingxia Shao and Jiawei Jiang and Lei Chen and Olivier Ruas and Bin Cui",
     "booktitle": "SIGMOD Conference",
     "title": "Reliable Data Distillation on Graph Convolutional Network",
     "year": "2020",
@@ -954,7 +954,7 @@
   "Functional-Style SQL UDFs With a Capital 'F'": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-functional-style-sql-udfs-with-a-capital-f",
-    "author": "Christian Duta , Torsten Grust",
+    "author": "Christian Duta and Torsten Grust",
     "booktitle": "SIGMOD Conference",
     "title": "Functional-Style SQL UDFs With a Capital 'F'",
     "year": "2020",
@@ -968,7 +968,7 @@
   "SpeakQL: Towards Speech-driven Multimodal Querying of Structured Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-speakql-towards-speech-driven-multimodal-querying-of-structured-data",
-    "author": "Vraj Shah , Side Li , Arun Kumar , Lawrence Saul",
+    "author": "Vraj Shah and Side Li and Arun Kumar and Lawrence Saul",
     "booktitle": "SIGMOD Conference",
     "title": "SpeakQL: Towards Speech-driven Multimodal Querying of Structured Data",
     "year": "2020",
@@ -982,7 +982,7 @@
   "Learning Over Dirty Data Without Cleaning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-learning-over-dirty-data-without-cleaning",
-    "author": "Jose Picado , John Davis , Arash Termehchy , Ga Young Lee",
+    "author": "Jose Picado and John Davis and Arash Termehchy and Ga Young Lee",
     "booktitle": "SIGMOD Conference",
     "title": "Learning Over Dirty Data Without Cleaning",
     "year": "2020",
@@ -996,7 +996,7 @@
   "Locality-Sensitive Hashing Scheme based on Longest Circular Co-Substring": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-locality-sensitive-hashing-scheme-based-on-longest-circular-co-substring",
-    "author": "Yifan Lei , Qiang Huang , Mohan Kankanhalli , Anthony Tung",
+    "author": "Yifan Lei and Qiang Huang and Mohan Kankanhalli and Anthony Tung",
     "booktitle": "SIGMOD Conference",
     "title": "Locality-Sensitive Hashing Scheme based on Longest Circular Co-Substring",
     "year": "2020",
@@ -1010,7 +1010,7 @@
   "Vista: Optimized System for Declarative Feature Transfer from Deep CNNs at Scale": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-vista-optimized-system-for-declarative-feature-transfer-from-deep-cnns-at-scale",
-    "author": "Supun Nakandala , Arun Kumar",
+    "author": "Supun Nakandala and Arun Kumar",
     "booktitle": "SIGMOD Conference",
     "title": "Vista: Optimized System for Declarative Feature Transfer from Deep CNNs at Scale",
     "year": "2020",
@@ -1024,7 +1024,7 @@
   "Transactional Causal Consistency for Serverless Computing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-transactional-causal-consistency-for-serverless-computing",
-    "author": "Chenggang Wu , Vikram Sreekanti , Joseph Hellerstein",
+    "author": "Chenggang Wu and Vikram Sreekanti and Joseph Hellerstein",
     "booktitle": "SIGMOD Conference",
     "title": "Transactional Causal Consistency for Serverless Computing",
     "year": "2020",
@@ -1038,7 +1038,7 @@
   "ALEX: An Updatable Adaptive Learned Index": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-alex-an-updatable-adaptive-learned-index",
-    "author": "Jialin Ding , Umar Farooq Minhas , Jia Yu , Chi Wang , Jaeyoung Do , Yinan Li , Hantian Zhang , Badrish Chandramouli , Johannes Gehrke , Donald Kossmann , David Lomet , Tim Kraska",
+    "author": "Jialin Ding and Umar Farooq Minhas and Jia Yu and Chi Wang and Jaeyoung Do and Yinan Li and Hantian Zhang and Badrish Chandramouli and Johannes Gehrke and Donald Kossmann and David Lomet and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "ALEX: An Updatable Adaptive Learned Index",
     "year": "2020",
@@ -1052,7 +1052,7 @@
   "Automating Incremental and Asynchronous Evaluation for Recursive Aggregate Data Processing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-automating-incremental-and-asynchronous-evaluation-for-recursive-aggregate-data-",
-    "author": "Qiange Wang , Yanfeng Zhang , Hao Wang , Liang Geng , Rubao Lee , Xiaodong Zhang , Ge Yu",
+    "author": "Qiange Wang and Yanfeng Zhang and Hao Wang and Liang Geng and Rubao Lee and Xiaodong Zhang and Ge Yu",
     "booktitle": "SIGMOD Conference",
     "title": "Automating Incremental and Asynchronous Evaluation for Recursive Aggregate Data Processing",
     "year": "2020",
@@ -1066,7 +1066,7 @@
   "Prompt: Dynamic Data-Partitioning for Distributed Micro-batch Stream Processing Systems": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-prompt-dynamic-data-partitioning-for-distributed-micro-batch-stream-processing-s",
-    "author": "Ahmed Abdelhamid , Ahmed Mahmood , Anas Daghistani , Walid Aref",
+    "author": "Ahmed Abdelhamid and Ahmed Mahmood and Anas Daghistani and Walid Aref",
     "booktitle": "SIGMOD Conference",
     "title": "Prompt: Dynamic Data-Partitioning for Distributed Micro-batch Stream Processing Systems",
     "year": "2020",
@@ -1080,7 +1080,7 @@
   "Long-lived Transactions Made Less Harmful": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-long-lived-transactions-made-less-harmful",
-    "author": "Jongbin Kim , Hyunsoo Cho , Kihwang Kim , Jaeseon Yu , Sooyong Kang , Hyungsoo Jung",
+    "author": "Jongbin Kim and Hyunsoo Cho and Kihwang Kim and Jaeseon Yu and Sooyong Kang and Hyungsoo Jung",
     "booktitle": "SIGMOD Conference",
     "title": "Long-lived Transactions Made Less Harmful",
     "year": "2020",
@@ -1094,7 +1094,7 @@
   "Optimizing Machine Learning Workloads in Collaborative Environments": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-optimizing-machine-learning-workloads-in-collaborative-environments",
-    "author": "Behrouz Derakhshan , Alireza Rezaei Mahdiraji , Ziawasch Abedjan , Tilmann Rabl , Volker Markl",
+    "author": "Behrouz Derakhshan and Alireza Rezaei Mahdiraji and Ziawasch Abedjan and Tilmann Rabl and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "Optimizing Machine Learning Workloads in Collaborative Environments",
     "year": "2020",
@@ -1108,7 +1108,7 @@
   "Rethinking Logging, Checkpoints, and Recovery for High-Performance Storage Engines": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-rethinking-logging-checkpoints-and-recovery-for-high-performance-storage-engines",
-    "author": "Michael Haubenschild , Caetano Sauer , Thomas Neumann , Viktor Leis",
+    "author": "Michael Haubenschild and Caetano Sauer and Thomas Neumann and Viktor Leis",
     "booktitle": "SIGMOD Conference",
     "title": "Rethinking Logging, Checkpoints, and Recovery for High-Performance Storage Engines",
     "year": "2020",
@@ -1122,7 +1122,7 @@
   "Automatically Generating Data Exploration Sessions Using Deep Reinforcement Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-automatically-generating-data-exploration-sessions-using-deep-reinforcement-lear",
-    "author": "Ori Bar El , Tova Milo , Amit Somech",
+    "author": "Ori Bar El and Tova Milo and Amit Somech",
     "booktitle": "SIGMOD Conference",
     "title": "Automatically Generating Data Exploration Sessions Using Deep Reinforcement Learning",
     "year": "2020",
@@ -1136,7 +1136,7 @@
   "Efficient Join Synopsis Maintenance for Data Warehouse": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-efficient-join-synopsis-maintenance-for-data-warehouse",
-    "author": "Zhuoyue Zhao , Feifei Li , Yuxi Liu",
+    "author": "Zhuoyue Zhao and Feifei Li and Yuxi Liu",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Join Synopsis Maintenance for Data Warehouse",
     "year": "2020",
@@ -1150,7 +1150,7 @@
   "Architecture-Intact Oracle for Fastest Path and Time Queries on Dynamic Spatial Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-architecture-intact-oracle-for-fastest-path-and-time-queries-on-dynamic-spatial-",
-    "author": "Victor Junqiu Wei , Raymond Chi-Wing Wong (The Hong Kong University of Science and Technology), Cheng Long",
+    "author": "Victor Junqiu Wei and Raymond Chi-Wing Wong and Cheng Long",
     "booktitle": "SIGMOD Conference",
     "title": "Architecture-Intact Oracle for Fastest Path and Time Queries on Dynamic Spatial Networks",
     "year": "2020",
@@ -1164,7 +1164,7 @@
   "Recommending Deployment Strategies for Collaborative Tasks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-recommending-deployment-strategies-for-collaborative-tasks",
-    "author": "Dong Wei , Senjuti Basu Roy , Sihem Amer-Yahia",
+    "author": "Dong Wei and Senjuti Basu Roy and Sihem Amer-Yahia",
     "booktitle": "SIGMOD Conference",
     "title": "Recommending Deployment Strategies for Collaborative Tasks",
     "year": "2020",
@@ -1178,7 +1178,7 @@
   "TRACER: A Framework for Facilitating Accurate and Interpretable Analytics for High Stakes Applications": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-tracer-a-framework-for-facilitating-accurate-and-interpretable-analytics-for-hig",
-    "author": "Kaiping Zheng , Shaofeng Cai , Horng Ruey Chua , Wei Wang , Kee Yuan Ngiam , Beng Chin Ooi",
+    "author": "Kaiping Zheng and Shaofeng Cai and Horng Ruey Chua and Wei Wang and Kee Yuan Ngiam and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "TRACER: A Framework for Facilitating Accurate and Interpretable Analytics for High Stakes Applications",
     "year": "2020",
@@ -1192,7 +1192,7 @@
   "On Multiple Semantics for Declarative Database Repairs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-on-multiple-semantics-for-declarative-database-repairs",
-    "author": "Amir Gilad , Daniel Deutch , Sudeepa Roy",
+    "author": "Amir Gilad and Daniel Deutch and Sudeepa Roy",
     "booktitle": "SIGMOD Conference",
     "title": "On Multiple Semantics for Declarative Database Repairs",
     "year": "2020",
@@ -1206,7 +1206,7 @@
   "ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-shapesearch-a-flexible-and-efficient-system-for-shape-based-exploration-of-trend",
-    "author": "Tarique Siddiqui ), Paul Luh ), Zesheng Wang ), Karrie Karahalios ), Aditya Parameswaran",
+    "author": "Tarique Siddiqui ) and Paul Luh ) and Zesheng Wang ) and Karrie Karahalios ) and Aditya Parameswaran",
     "booktitle": "SIGMOD Conference",
     "title": "ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines",
     "year": "2020",
@@ -1220,7 +1220,7 @@
   "Rhino: Efficient Management of Very Large Distributed State for Stream Processing Engines": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-rhino-efficient-management-of-very-large-distributed-state-for-stream-processing",
-    "author": "Bonaventura Del Monte , Steffen Zeuch , Tilmann Rabl , Volker Markl",
+    "author": "Bonaventura Del Monte and Steffen Zeuch and Tilmann Rabl and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "Rhino: Efficient Management of Very Large Distributed State for Stream Processing Engines",
     "year": "2020",
@@ -1234,7 +1234,7 @@
   "Chiller: Contention-centric Transaction Execution and Data Partitioning for Modern Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-chiller-contention-centric-transaction-execution-and-data-partitioning-for-moder",
-    "author": "Erfan Zamanian , Julian Shun , Carsten Binnig , Tim Kraska",
+    "author": "Erfan Zamanian and Julian Shun and Carsten Binnig and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "Chiller: Contention-centric Transaction Execution and Data Partitioning for Modern Networks",
     "year": "2020",
@@ -1248,7 +1248,7 @@
   "Robust Performance of Main Memory Data Structures by Configuration": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-robust-performance-of-main-memory-data-structures-by-configuration",
-    "author": "Tiemo Bang (Technical University of Darmstadt and SAP SE), Ismail Oukid , Norman May , Ilia Petrov , Carsten Binnig",
+    "author": "Tiemo Bang and Ismail Oukid and Norman May and Ilia Petrov and Carsten Binnig",
     "booktitle": "SIGMOD Conference",
     "title": "Robust Performance of Main Memory Data Structures by Configuration",
     "year": "2020",
@@ -1262,7 +1262,7 @@
   "Finding Related Tables in Data Lakes for Interactive Data Science": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-finding-related-tables-in-data-lakes-for-interactive-data-science",
-    "author": "Yi Zhang , Zachary Ives",
+    "author": "Yi Zhang and Zachary Ives",
     "booktitle": "SIGMOD Conference",
     "title": "Finding Related Tables in Data Lakes for Interactive Data Science",
     "year": "2020",
@@ -1276,7 +1276,7 @@
   "QuickSel: Quick Selectivity Learning with Mixture Models": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-quicksel-quick-selectivity-learning-with-mixture-models",
-    "author": "Yongjoo Park , Shucheng Zhong , Barzan Mozafari",
+    "author": "Yongjoo Park and Shucheng Zhong and Barzan Mozafari",
     "booktitle": "SIGMOD Conference",
     "title": "QuickSel: Quick Selectivity Learning with Mixture Models",
     "year": "2020",
@@ -1290,7 +1290,7 @@
   "MONSOON: Multi-Step Optimization and Execution of Queries with Partially Obscured Predicates": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-monsoon-multi-step-optimization-and-execution-of-queries-with-partially-obscured",
-    "author": "Sourav Sikdar , Chris Jermaine",
+    "author": "Sourav Sikdar and Chris Jermaine",
     "booktitle": "SIGMOD Conference",
     "title": "MONSOON: Multi-Step Optimization and Execution of Queries with Partially Obscured Predicates",
     "year": "2020",
@@ -1304,7 +1304,7 @@
   "External Merge Sort for Top-K Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-external-merge-sort-for-top-k-queries",
-    "author": "Yannis Chronis , Thanh Do , Goetz Graefe , Keith Peters",
+    "author": "Yannis Chronis and Thanh Do and Goetz Graefe and Keith Peters",
     "booktitle": "SIGMOD Conference",
     "title": "External Merge Sort for Top-K Queries",
     "year": "2020",
@@ -1318,7 +1318,7 @@
   "Marviq: Quality-Aware Geospatial Visualization of Range-Selection Queries Using Materialization": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-marviq-quality-aware-geospatial-visualization-of-range-selection-queries-using-m",
-    "author": "Liming Dong , Qiushi Bai , Taewoo Kim , Taiji Chen , Weidong Liu , Chen Li",
+    "author": "Liming Dong and Qiushi Bai and Taewoo Kim and Taiji Chen and Weidong Liu and Chen Li",
     "booktitle": "SIGMOD Conference",
     "title": "Marviq: Quality-Aware Geospatial Visualization of Range-Selection Queries Using Materialization",
     "year": "2020",
@@ -1332,7 +1332,7 @@
   "Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-rosetta-a-robust-space-time-optimized-range-filter-for-key-value-stores",
-    "author": "Siqiang Luo , Subarna Chatterjee , Rafael Ketsetsidis , Niv Dayan , Wilson Qin , Stratos Idreos",
+    "author": "Siqiang Luo and Subarna Chatterjee and Rafael Ketsetsidis and Niv Dayan and Wilson Qin and Stratos Idreos",
     "booktitle": "SIGMOD Conference",
     "title": "Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores",
     "year": "2020",
@@ -1346,7 +1346,7 @@
   "CHASSIS: Conformity Meets Online Information Diffusion": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-chassis-conformity-meets-online-information-diffusion",
-    "author": "Hui Li , Hui Li , Sourav Bhowmick",
+    "author": "Hui Li and Hui Li and Sourav Bhowmick",
     "booktitle": "SIGMOD Conference",
     "title": "CHASSIS: Conformity Meets Online Information Diffusion",
     "year": "2020",
@@ -1360,7 +1360,7 @@
   "Database Benchmarking for Supporting Real-Time Interactive Querying of Large Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-database-benchmarking-for-supporting-real-time-interactive-querying-of-large-dat",
-    "author": "Leilani Battle , Philipp Eichmann , Marco Angelini , Tiziana Catarci , Giuseppe Santucci , Yukun Zheng , Carsten Binnig , Jean-Daniel Fekete , Dominik Moritz",
+    "author": "Leilani Battle and Philipp Eichmann and Marco Angelini and Tiziana Catarci and Giuseppe Santucci and Yukun Zheng and Carsten Binnig and Jean-Daniel Fekete and Dominik Moritz",
     "booktitle": "SIGMOD Conference",
     "title": "Database Benchmarking for Supporting Real-Time Interactive Querying of Large Data",
     "year": "2020",
@@ -1374,7 +1374,7 @@
   "Regular Path Query Evaluation on Streaming Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-regular-path-query-evaluation-on-streaming-graphs",
-    "author": "Anil Pacaci , Angela Bonifati , Tamer M. Özsu",
+    "author": "Anil Pacaci and Angela Bonifati and Tamer M. Özsu",
     "booktitle": "SIGMOD Conference",
     "title": "Regular Path Query Evaluation on Streaming Graphs",
     "year": "2020",
@@ -1388,7 +1388,7 @@
   "Exact Single-Source SimRank Computation on Large Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-exact-single-source-simrank-computation-on-large-graphs",
-    "author": "Hanzhi Wang , Zhewei Wei , Ye Yuan , Xiaoyong Du , Ji-Rong Wen",
+    "author": "Hanzhi Wang and Zhewei Wei and Ye Yuan and Xiaoyong Du and Ji-Rong Wen",
     "booktitle": "SIGMOD Conference",
     "title": "Exact Single-Source SimRank Computation on Large Graphs",
     "year": "2020",
@@ -1402,7 +1402,7 @@
   "DeepSqueeze: Deep Semantic Compression for Tabular Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-deepsqueeze-deep-semantic-compression-for-tabular-data",
-    "author": "Amir Ilkhechi , Andrew Crotty , Alex Galakatos , Yicong Mao , Grace Fan , Xiran Shi , Ugur Cetintemel",
+    "author": "Amir Ilkhechi and Andrew Crotty and Alex Galakatos and Yicong Mao and Grace Fan and Xiran Shi and Ugur Cetintemel",
     "booktitle": "SIGMOD Conference",
     "title": "DeepSqueeze: Deep Semantic Compression for Tabular Data",
     "year": "2020",
@@ -1416,7 +1416,7 @@
   "Distributed Processing of k Shortest Path Queries over Dynamic Road Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-distributed-processing-of-k-shortest-path-queries-over-dynamic-road-networks",
-    "author": "Ziqiang Yu , Xiaohui Yu , Nick Koudas , Yang Liu , Yifan Li (York University and Key Laboratory of Urban Land Resources Monitoring and Simulation, MNR), Yueting Chen , Dingyu Yang",
+    "author": "Ziqiang Yu and Xiaohui Yu and Nick Koudas and Yang Liu and Yifan Li and Yueting Chen and Dingyu Yang",
     "booktitle": "SIGMOD Conference",
     "title": "Distributed Processing of k Shortest Path Queries over Dynamic Road Networks",
     "year": "2020",
@@ -1430,7 +1430,7 @@
   "Benchmarking Spreadsheet Systems": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-benchmarking-spreadsheet-systems",
-    "author": "Sajjadur Rahman , Kelly Mack , Mangesh Bendre , Ruilin Zhang , Karrie Karahalios , Aditya Parameswaran",
+    "author": "Sajjadur Rahman and Kelly Mack and Mangesh Bendre and Ruilin Zhang and Karrie Karahalios and Aditya Parameswaran",
     "booktitle": "SIGMOD Conference",
     "title": "Benchmarking Spreadsheet Systems",
     "year": "2020",
@@ -1444,7 +1444,7 @@
   "Aggify: Lifting the Curse of Cursor Loops using Custom Aggregates": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-aggify-lifting-the-curse-of-cursor-loops-using-custom-aggregates",
-    "author": "Surabhi Gupta , Sanket Purandare , Karthik Ramachandra",
+    "author": "Surabhi Gupta and Sanket Purandare and Karthik Ramachandra",
     "booktitle": "SIGMOD Conference",
     "title": "Aggify: Lifting the Curse of Cursor Loops using Custom Aggregates",
     "year": "2020",
@@ -1458,7 +1458,7 @@
   "Hub Labeling for Shortest Path Counting": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-hub-labeling-for-shortest-path-counting",
-    "author": "Yikai Zhang , Jeffrey Xu Yu",
+    "author": "Yikai Zhang and Jeffrey Xu Yu",
     "booktitle": "SIGMOD Conference",
     "title": "Hub Labeling for Shortest Path Counting",
     "year": "2020",
@@ -1472,7 +1472,7 @@
   "Auto-Suggest: Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-auto-suggest-learning-to-recommend-data-preparation-steps-using-data-science-not",
-    "author": "Cong Yan , Yeye He",
+    "author": "Cong Yan and Yeye He",
     "booktitle": "SIGMOD Conference",
     "title": "Auto-Suggest: Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks",
     "year": "2020",
@@ -1486,7 +1486,7 @@
   "Grizzly: Efficient Stream Processing Through Adaptive Query Compilation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-grizzly-efficient-stream-processing-through-adaptive-query-compilation",
-    "author": "Philipp Grulich , Breß Sebastian , Steffen Zeuch , Jonas Traub , Janis von Bleichert , Zongxiong Chen , Tilmann Rabl , Volker Markl",
+    "author": "Philipp Grulich and Breß Sebastian and Steffen Zeuch and Jonas Traub and Janis von Bleichert and Zongxiong Chen and Tilmann Rabl and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "Grizzly: Efficient Stream Processing Through Adaptive Query Compilation",
     "year": "2020",
@@ -1500,7 +1500,7 @@
   "Influence Maximization Revisited: Efficient Reverse Reachable Set Generation with Bound Tightened": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-influence-maximization-revisited-efficient-reverse-reachable-set-generation-with",
-    "author": "Qintian Guo , Sibo Wang , Zhewei Wei , Ming Chen",
+    "author": "Qintian Guo and Sibo Wang and Zhewei Wei and Ming Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Influence Maximization Revisited: Efficient Reverse Reachable Set Generation with Bound Tightened",
     "year": "2020",
@@ -1514,7 +1514,7 @@
   "Deep Learning Models for Selectivity Estimation of Multi-Attribute Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-deep-learning-models-for-selectivity-estimation-of-multi-attribute-queries",
-    "author": "Shohedul Hasan , Saravanan Thirumuruganathan , Jees Augustine , Nick Koudas , Gautam Das",
+    "author": "Shohedul Hasan and Saravanan Thirumuruganathan and Jees Augustine and Nick Koudas and Gautam Das",
     "booktitle": "SIGMOD Conference",
     "title": "Deep Learning Models for Selectivity Estimation of Multi-Attribute Queries",
     "year": "2020",
@@ -1528,7 +1528,7 @@
   "Creating Embeddings of Heterogeneous Relational Datasets for Data Integration Tasks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-creating-embeddings-of-heterogeneous-relational-datasets-for-data-integration-ta",
-    "author": "Riccardo Cappuzzo , Paolo Papotti , Saravanan Thirumuruganathan",
+    "author": "Riccardo Cappuzzo and Paolo Papotti and Saravanan Thirumuruganathan",
     "booktitle": "SIGMOD Conference",
     "title": "Creating Embeddings of Heterogeneous Relational Datasets for Data Integration Tasks",
     "year": "2020",
@@ -1542,7 +1542,7 @@
   "ZeroER: Entity Resolution using Zero Labeled Examples": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-zeroer-entity-resolution-using-zero-labeled-examples",
-    "author": "Renzhi Wu , Sanya Chaba , Saurabh Sawlani , Xu Chu , Saravanan Thirumuruganathan",
+    "author": "Renzhi Wu and Sanya Chaba and Saurabh Sawlani and Xu Chu and Saravanan Thirumuruganathan",
     "booktitle": "SIGMOD Conference",
     "title": "ZeroER: Entity Resolution using Zero Labeled Examples",
     "year": "2020",
@@ -1556,7 +1556,7 @@
   "Global Reinforcement of Social Networks: The Anchored Coreness Problem": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-global-reinforcement-of-social-networks-the-anchored-coreness-problem",
-    "author": "Qingyuan Linghu , Fan Zhang , Xuemin Lin , Wenjie Zhang , Ying Zhang",
+    "author": "Qingyuan Linghu and Fan Zhang and Xuemin Lin and Wenjie Zhang and Ying Zhang",
     "booktitle": "SIGMOD Conference",
     "title": "Global Reinforcement of Social Networks: The Anchored Coreness Problem",
     "year": "2020",
@@ -1570,7 +1570,7 @@
   "Application Driven Graph Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-application-driven-graph-partitioning",
-    "author": "Wenfei Fan , Ruochun Jin , Muyang Liu , Ping Lu , Xiaojian Luo , Ruiqi Xu , Qiang Yin , Wenyuan Yu , Jingren Zhou",
+    "author": "Wenfei Fan and Ruochun Jin and Muyang Liu and Ping Lu and Xiaojian Luo and Ruiqi Xu and Qiang Yin and Wenyuan Yu and Jingren Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Application Driven Graph Partitioning",
     "year": "2020",
@@ -1584,7 +1584,7 @@
   "Progressive Top-K Nearest Neighbors Search in Large Road Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-progressive-top-k-nearest-neighbors-search-in-large-road-networks",
-    "author": "Dian Ouyang , Dong Wen , Lu Qin , Lijun Chang , Ying Zhang , Xuemin Lin",
+    "author": "Dian Ouyang and Dong Wen and Lu Qin and Lijun Chang and Ying Zhang and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Progressive Top-K Nearest Neighbors Search in Large Road Networks",
     "year": "2020",
@@ -1598,7 +1598,7 @@
   "A Relational Matrix Algebra and its Implementation in a Column Store": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-relational-matrix-algebra-and-its-implementation-in-a-column-store",
-    "author": "Oksana Dolmatova , Nikolaus Augsten , Michael Böhlen",
+    "author": "Oksana Dolmatova and Nikolaus Augsten and Michael Böhlen",
     "booktitle": "SIGMOD Conference",
     "title": "A Relational Matrix Algebra and its Implementation in a Column Store",
     "year": "2020",
@@ -1612,7 +1612,7 @@
   "Scaling Up Distance Labeling on Graphs with Core-Periphery Properties": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-scaling-up-distance-labeling-on-graphs-with-core-periphery-properties",
-    "author": "Wentao Li , Miao Qiao , Lu Qin , Ying Zhang , Lijun Chang , Xuemin Lin",
+    "author": "Wentao Li and Miao Qiao and Lu Qin and Ying Zhang and Lijun Chang and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Scaling Up Distance Labeling on Graphs with Core-Periphery Properties",
     "year": "2020",
@@ -1626,7 +1626,7 @@
   "A Statistical Perspective on Discovering Functional Dependencies in Noisy Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-statistical-perspective-on-discovering-functional-dependencies-in-noisy-data",
-    "author": "Yunjia Zhang , Zhihan Guo , Theodoros Rekatsinas",
+    "author": "Yunjia Zhang and Zhihan Guo and Theodoros Rekatsinas",
     "booktitle": "SIGMOD Conference",
     "title": "A Statistical Perspective on Discovering Functional Dependencies in Noisy Data",
     "year": "2020",
@@ -1640,7 +1640,7 @@
   "Adaptive HTAP through Elastic Resource Scheduling": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-adaptive-htap-through-elastic-resource-scheduling",
-    "author": "Aunn Raza , Periklis Chrysogelos , Angelos Christos Anadiotis , Anastasia Ailamaki",
+    "author": "Aunn Raza and Periklis Chrysogelos and Angelos Christos Anadiotis and Anastasia Ailamaki",
     "booktitle": "SIGMOD Conference",
     "title": "Adaptive HTAP through Elastic Resource Scheduling",
     "year": "2020",
@@ -1654,7 +1654,7 @@
   "Querying Shared Data with Security Heterogeneity": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-querying-shared-data-with-security-heterogeneity",
-    "author": "Yang Cao , Wenfei Fan , Yanghao Wang , Ke Yi",
+    "author": "Yang Cao and Wenfei Fan and Yanghao Wang and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Querying Shared Data with Security Heterogeneity",
     "year": "2020",
@@ -1668,7 +1668,7 @@
   "Near-Optimal Distributed Band-Joins through Recursive Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-near-optimal-distributed-band-joins-through-recursive-partitioning",
-    "author": "Rundong Li , Wolfgang Gatterbauer , Mirek Riedewald",
+    "author": "Rundong Li and Wolfgang Gatterbauer and Mirek Riedewald",
     "booktitle": "SIGMOD Conference",
     "title": "Near-Optimal Distributed Band-Joins through Recursive Partitioning",
     "year": "2020",
@@ -1682,7 +1682,7 @@
   "Data Series Progressive Similarity Search with Probabilistic Quality Guarantees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-data-series-progressive-similarity-search-with-probabilistic-quality-guarantees",
-    "author": "Anna Gogolou , Theophanis Tsandilas , Karima Echihabi , Anastasia Bezerianos , Themis Palpanas )",
+    "author": "Anna Gogolou and Theophanis Tsandilas and Karima Echihabi and Anastasia Bezerianos and Themis Palpanas )",
     "booktitle": "SIGMOD Conference",
     "title": "Data Series Progressive Similarity Search with Probabilistic Quality Guarantees",
     "year": "2020",
@@ -1696,7 +1696,7 @@
   "The Case for a Learned Sorting Algorithm": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-the-case-for-a-learned-sorting-algorithm",
-    "author": "Ani Kristo , Kapil Vaidya , Ugur Çetintemel , Sanchit Misra , Tim Kraska",
+    "author": "Ani Kristo and Kapil Vaidya and Ugur Çetintemel and Sanchit Misra and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "The Case for a Learned Sorting Algorithm",
     "year": "2020",
@@ -1710,7 +1710,7 @@
   "LightSaber: Efficient Window Aggregation on Multi-core Processors": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-lightsaber-efficient-window-aggregation-on-multi-core-processors",
-    "author": "Georgios Theodorakis , Alexandros Koliousis , Peter Pietzuch , Holger Pirk",
+    "author": "Georgios Theodorakis and Alexandros Koliousis and Peter Pietzuch and Holger Pirk",
     "booktitle": "SIGMOD Conference",
     "title": "LightSaber: Efficient Window Aggregation on Multi-core Processors",
     "year": "2020",
@@ -1724,7 +1724,7 @@
   "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-sqlcheck-automated-detection-and-diagnosis-of-sql-anti-patterns",
-    "author": "Prashanth Dintyala , Arpit Narechania , Joy Arulraj",
+    "author": "Prashanth Dintyala and Arpit Narechania and Joy Arulraj",
     "booktitle": "SIGMOD Conference",
     "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",
     "year": "2020",
@@ -1738,7 +1738,7 @@
   "Minimization of Classifier Construction Cost for Search Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-minimization-of-classifier-construction-cost-for-search-queries",
-    "author": "Shay Gershtein , Tova Milo , Gefen Morami , Slava Novgorodov",
+    "author": "Shay Gershtein and Tova Milo and Gefen Morami and Slava Novgorodov",
     "booktitle": "SIGMOD Conference",
     "title": "Minimization of Classifier Construction Cost for Search Queries",
     "year": "2020",
@@ -1752,7 +1752,7 @@
   "Fast and Reliable Missing Data Contingency Analysis with Predicate-Constraints": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-fast-and-reliable-missing-data-contingency-analysis-with-predicate-constraints",
-    "author": "Xi Liang , Zechao Shang , Sanjay Krishnan , Aaron Elmore , Michael Franklin",
+    "author": "Xi Liang and Zechao Shang and Sanjay Krishnan and Aaron Elmore and Michael Franklin",
     "booktitle": "SIGMOD Conference",
     "title": "Fast and Reliable Missing Data Contingency Analysis with Predicate-Constraints",
     "year": "2020",
@@ -1766,7 +1766,7 @@
   "Thrifty Query Execution via Incrementability": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-thrifty-query-execution-via-incrementability",
-    "author": "Dixin Tang , Zechao Shang , Aaron Elmore , Sanjay Krishnan , Michael Franklin",
+    "author": "Dixin Tang and Zechao Shang and Aaron Elmore and Sanjay Krishnan and Michael Franklin",
     "booktitle": "SIGMOD Conference",
     "title": "Thrifty Query Execution via Incrementability",
     "year": "2020",
@@ -1780,7 +1780,7 @@
   "Lethe: A Tunable Delete-Aware LSM Engine": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-lethe-a-tunable-delete-aware-lsm-engine",
-    "author": "Subhadeep Sarkar , Tarikul Papon , Dimitris Staratzis , Manos Athanassoulis",
+    "author": "Subhadeep Sarkar and Tarikul Papon and Dimitris Staratzis and Manos Athanassoulis",
     "booktitle": "SIGMOD Conference",
     "title": "Lethe: A Tunable Delete-Aware LSM Engine",
     "year": "2020",
@@ -1794,7 +1794,7 @@
   "Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-lambada-interactive-data-analytics-on-cold-data-using-serverless-cloud-infrastru",
-    "author": "Ingo Müller , Renato Marroquín , Gustavo Alonso",
+    "author": "Ingo Müller and Renato Marroquín and Gustavo Alonso",
     "booktitle": "SIGMOD Conference",
     "title": "Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure",
     "year": "2020",
@@ -1808,7 +1808,7 @@
   "Causal Relational Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-causal-relational-learning",
-    "author": "Babak Salimi , Harsh Parikh , Moe Kayali , Lise Getoor , Sudeepa Roy , Dan Suciu",
+    "author": "Babak Salimi and Harsh Parikh and Moe Kayali and Lise Getoor and Sudeepa Roy and Dan Suciu",
     "booktitle": "SIGMOD Conference",
     "title": "Causal Relational Learning",
     "year": "2020",
@@ -1822,7 +1822,7 @@
   "Debunking Four Long-Standing Misconceptions of Time-Series Distance Measures": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-debunking-four-long-standing-misconceptions-of-time-series-distance-measures",
-    "author": "John Paparrizos , Chunwei Liu , Aaron Elmore , Michael Franklin",
+    "author": "John Paparrizos and Chunwei Liu and Aaron Elmore and Michael Franklin",
     "booktitle": "SIGMOD Conference",
     "title": "Debunking Four Long-Standing Misconceptions of Time-Series Distance Measures",
     "year": "2020",
@@ -1836,7 +1836,7 @@
   "SLIM: Scalable Linkage of Mobility Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-slim-scalable-linkage-of-mobility-data",
-    "author": "Fuat Basik , Hakan Ferhatosmanoglu , Bugra Gedik",
+    "author": "Fuat Basik and Hakan Ferhatosmanoglu and Bugra Gedik",
     "booktitle": "SIGMOD Conference",
     "title": "SLIM: Scalable Linkage of Mobility Data",
     "year": "2020",
@@ -1850,7 +1850,7 @@
   "Computing Local Sensitivities of Counting Queries with Joins": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-computing-local-sensitivities-of-counting-queries-with-joins",
-    "author": "Yuchao Tao , Xi He , Ashwin Machanavajjhala , Sudeepa Roy",
+    "author": "Yuchao Tao and Xi He and Ashwin Machanavajjhala and Sudeepa Roy",
     "booktitle": "SIGMOD Conference",
     "title": "Computing Local Sensitivities of Counting Queries with Joins",
     "year": "2020",
@@ -1864,7 +1864,7 @@
   "BugDoc: Algorithms to Debug Computational Processes": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-bugdoc-algorithms-to-debug-computational-processes",
-    "author": "Raoni Lourenço , Juliana Freire , Dennis Shasha",
+    "author": "Raoni Lourenço and Juliana Freire and Dennis Shasha",
     "booktitle": "SIGMOD Conference",
     "title": "BugDoc: Algorithms to Debug Computational Processes",
     "year": "2020",
@@ -1878,7 +1878,7 @@
   "Handling Highly Contended OLTP Workloads Using Fast Dynamic Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-handling-highly-contended-oltp-workloads-using-fast-dynamic-partitioning",
-    "author": "Guna Prasaad , Alvin Cheung , Dan Suciu",
+    "author": "Guna Prasaad and Alvin Cheung and Dan Suciu",
     "booktitle": "SIGMOD Conference",
     "title": "Handling Highly Contended OLTP Workloads Using Fast Dynamic Partitioning",
     "year": "2020",
@@ -1892,7 +1892,7 @@
   "Stochastic Package Queries in Probabilistic Databases": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-stochastic-package-queries-in-probabilistic-databases",
-    "author": "Matteo Brucato , Nishant Yadav , Azza Abouzied , Peter Haas , Alexandra Meliou",
+    "author": "Matteo Brucato and Nishant Yadav and Azza Abouzied and Peter Haas and Alexandra Meliou",
     "booktitle": "SIGMOD Conference",
     "title": "Stochastic Package Queries in Probabilistic Databases",
     "year": "2020",
@@ -1906,7 +1906,7 @@
   "A Method for Optimizing Opaque Filter Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-a-method-for-optimizing-opaque-filter-queries",
-    "author": "Wenjia He , Michael Anderson , Maxwell Strome , Michael Cafarella",
+    "author": "Wenjia He and Michael Anderson and Maxwell Strome and Michael Cafarella",
     "booktitle": "SIGMOD Conference",
     "title": "A Method for Optimizing Opaque Filter Queries",
     "year": "2020",
@@ -1920,7 +1920,7 @@
   "QueryVis: Logic-based Diagrams help Users Understand Complicated SQL Queries Faster": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-queryvis-logic-based-diagrams-help-users-understand-complicated-sql-queries-fast",
-    "author": "Aristotelis Leventidis , Jiahui Zhang , Cody Dunne , Wolfgang Gatterbauer , H.V. Jagadish , Mirek Riedewald",
+    "author": "Aristotelis Leventidis and Jiahui Zhang and Cody Dunne and Wolfgang Gatterbauer and H.V. Jagadish and Mirek Riedewald",
     "booktitle": "SIGMOD Conference",
     "title": "QueryVis: Logic-based Diagrams help Users Understand Complicated SQL Queries Faster",
     "year": "2020",
@@ -1934,7 +1934,7 @@
   "Discovery Algorithms for Embedded Functional Dependencies": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-discovery-algorithms-for-embedded-functional-dependencies",
-    "author": "Ziheng Wei , Sven Hartmann , Sebastian Link",
+    "author": "Ziheng Wei and Sven Hartmann and Sebastian Link",
     "booktitle": "SIGMOD Conference",
     "title": "Discovery Algorithms for Embedded Functional Dependencies",
     "year": "2020",
@@ -1948,7 +1948,7 @@
   "Active Learning for ML Enhanced Database Systems": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-active-learning-for-ml-enhanced-database-systems",
-    "author": "Lin Ma , Bailu Ding , Sudipto Das , Adith Swaminathan",
+    "author": "Lin Ma and Bailu Ding and Sudipto Das and Adith Swaminathan",
     "booktitle": "SIGMOD Conference",
     "title": "Active Learning for ML Enhanced Database Systems",
     "year": "2020",
@@ -1962,7 +1962,7 @@
   "Bitvector-aware Query Optimization for Decision Support Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-bitvector-aware-query-optimization-for-decision-support-queries",
-    "author": "Bailu Ding , Surajit Chaudhuri , Vivek Narasayya",
+    "author": "Bailu Ding and Surajit Chaudhuri and Vivek Narasayya",
     "booktitle": "SIGMOD Conference",
     "title": "Bitvector-aware Query Optimization for Decision Support Queries",
     "year": "2020",
@@ -1976,7 +1976,7 @@
   "Qd-tree: Learning Data Layouts for Big Data Analytics": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-qd-tree-learning-data-layouts-for-big-data-analytics",
-    "author": "Zongheng Yang , Badrish Chandramouli , Chi Wang , Johannes Gehrke , Yinan Li , Umar Farooq Minhas , Per-Åke Larson , Donald Kossmann , Rajeev Acharya",
+    "author": "Zongheng Yang and Badrish Chandramouli and Chi Wang and Johannes Gehrke and Yinan Li and Umar Farooq Minhas and Per-Åke Larson and Donald Kossmann and Rajeev Acharya",
     "booktitle": "SIGMOD Conference",
     "title": "Qd-tree: Learning Data Layouts for Big Data Analytics",
     "year": "2020",
@@ -1990,7 +1990,7 @@
   "Effective Travel Time Estimation: When Historical Trajectories over Road Networks Matter": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-effective-travel-time-estimation-when-historical-trajectories-over-road-networks",
-    "author": "Haitao Yuan , Guoliang Li , Zhifeng Bao , Ling Feng",
+    "author": "Haitao Yuan and Guoliang Li and Zhifeng Bao and Ling Feng",
     "booktitle": "SIGMOD Conference",
     "title": "Effective Travel Time Estimation: When Historical Trajectories over Road Networks Matter",
     "year": "2020",
@@ -2004,7 +2004,7 @@
   "Human-in-the-loop Outlier Detection": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2020-human-in-the-loop-outlier-detection",
-    "author": "Chengliang Chai , Lei Cao , Guoliang Li , Jian Li , Yuyu Luo, Samuel Madden",
+    "author": "Chengliang Chai and Lei Cao and Guoliang Li and Jian Li and Yuyu Luo and Samuel Madden",
     "booktitle": "SIGMOD Conference",
     "title": "Human-in-the-loop Outlier Detection",
     "year": "2020",

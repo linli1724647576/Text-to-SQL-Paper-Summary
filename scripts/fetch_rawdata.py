@@ -16,7 +16,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from venues import iter_ccf_a_venues
+from venues import iter_ccf_a_venues, iter_readme_journals
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
@@ -29,6 +29,14 @@ ARXIV_QUERIES = [
     '"natural language to sql"',
     '"semantic parsing" sql database',
 ]
+
+JOURNAL_URL_CACHE = {}
+JOURNAL_VOLUME_HINTS = {
+    "tse": ("tse", -1974),
+    "tosem": ("tosem", -1991),
+    "tkde": ("tkde", -1988),
+    "vldb": ("vldb", -1991),
+}
 
 
 def get_text(url, timeout=20):
@@ -43,6 +51,18 @@ def clean(text):
 
 def dblp_url(dblp_key, year):
     return f"https://dblp.org/db/conf/{dblp_key}/{dblp_key}{year}.xml"
+
+
+def dblp_journal_index_url(dblp_key):
+    return f"https://dblp.org/db/journals/{dblp_key}/index.html"
+
+
+def hinted_journal_urls(dblp_key, year):
+    if dblp_key not in JOURNAL_VOLUME_HINTS or year < 2020 or year > 2026:
+        return []
+    prefix, offset = JOURNAL_VOLUME_HINTS[dblp_key]
+    volume = year + offset
+    return [f"https://dblp.org/db/journals/{dblp_key}/{prefix}{volume}.xml"]
 
 
 def discover_dblp_urls(dblp_key, year):
@@ -81,6 +101,9 @@ def parse_dblp_publications(xml_text, venue, year, track):
     for node in root.iter():
         if node.tag not in {"inproceedings", "article"}:
             continue
+        node_year = clean(node.findtext("year", default="")) or str(year)
+        if str(node_year) != str(year):
+            continue
         title = clean(" ".join("".join(title_node.itertext()) for title_node in node.findall("title")))
         if not title:
             continue
@@ -88,13 +111,19 @@ def parse_dblp_publications(xml_text, venue, year, track):
         url_node = node.find("ee")
         doi_node = node.find("doi")
         booktitle_node = node.find("booktitle")
+        journal_node = node.find("journal")
+        source_title = clean(
+            booktitle_node.text
+            if booktitle_node is not None
+            else journal_node.text if journal_node is not None else venue
+        )
         entry = {
             "type": node.tag.upper(),
             "key": node.attrib.get("key", ""),
             "author": " and ".join(authors),
-            "booktitle": clean(booktitle_node.text if booktitle_node is not None else venue),
+            "booktitle": source_title,
             "title": title,
-            "year": str(year),
+            "year": str(node_year),
             "abstract": "",
             "keywords": "",
             "url": clean(url_node.text if url_node is not None else ""),
@@ -102,6 +131,9 @@ def parse_dblp_publications(xml_text, venue, year, track):
             "venue": f"{venue}{year}",
             "venue_track": track,
         }
+        journal = clean(journal_node.text if journal_node is not None else "")
+        if journal:
+            entry["journal"] = journal
         if entry["doi"] and not entry["url"]:
             entry["url"] = "https://doi.org/" + entry["doi"]
         papers[title] = entry
@@ -120,6 +152,54 @@ def fetch_dblp_venue(dblp_key, venue, year, track):
         except Exception as exc:
             errors.append(f"{url}: {exc}")
     raise RuntimeError("; ".join(errors[-3:]))
+
+
+def discover_journal_urls(dblp_key, year):
+    hinted = hinted_journal_urls(dblp_key, year)
+    if hinted:
+        return hinted
+    if dblp_key in JOURNAL_URL_CACHE:
+        return JOURNAL_URL_CACHE[dblp_key].get(year, [])
+    index_url = dblp_journal_index_url(dblp_key)
+    html = get_text(index_url)
+    pattern = re.compile(
+        rf'href="([^"]*/db/journals/{re.escape(dblp_key)}/[^"]+\.html)"',
+        re.I,
+    )
+    by_year = {}
+    for match in pattern.finditer(html):
+        href = match.group(1)
+        context = html[max(0, match.start() - 500): match.end() + 500]
+        context_text = re.sub(r"<[^>]+>", " ", context)
+        years = set(int(item) for item in re.findall(r"\b(20\d{2})\b", context_text))
+        for item_year in years:
+            by_year.setdefault(item_year, []).append(href[:-5] + ".xml")
+    for item_year, urls in list(by_year.items()):
+        seen = set()
+        unique = []
+        for url in urls:
+            if url in seen:
+                continue
+            seen.add(url)
+            unique.append(url)
+        by_year[item_year] = unique
+    JOURNAL_URL_CACHE[dblp_key] = by_year
+    return by_year.get(year, [])
+
+
+def fetch_dblp_journal(dblp_key, venue, year, track):
+    errors = []
+    combined = {}
+    for url in discover_journal_urls(dblp_key, year):
+        try:
+            xml_text = get_text(url)
+            combined.update(parse_dblp_publications(xml_text, venue, year, track))
+        except Exception as exc:
+            errors.append(f"{url}: {exc}")
+        time.sleep(0.2)
+    if combined:
+        return combined
+    raise RuntimeError("; ".join(errors[-3:]) if errors else "empty")
 
 
 def fetch_arxiv_query(query, start, max_results):
@@ -180,8 +260,8 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch CCF-A DBLP and arXiv rawdata")
     parser.add_argument("--from-year", type=int, default=2020)
     parser.add_argument("--to-year", type=int, default=2026)
-    parser.add_argument("--tracks", default="AI,DB,SE,Security",
-                        help="Comma-separated CCF-A tracks: AI,DB,SE,Security")
+    parser.add_argument("--tracks", default="AI,DB,SE",
+                        help="Comma-separated CCF-A tracks: AI,DB,SE")
     parser.add_argument("--venues", help="Comma-separated venue abbreviations for debugging")
     parser.add_argument("--include-arxiv", action="store_true", default=True)
     parser.add_argument("--no-arxiv", dest="include_arxiv", action="store_false")
@@ -210,6 +290,23 @@ def main():
         write_json(out_path, papers)
         total += len(papers)
         print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)
+        if args.sleep:
+            time.sleep(args.sleep)
+
+    for track, venue, dblp_key, year in iter_readme_journals(args.from_year, args.to_year, tracks=tracks):
+        if allowed_venues and venue.lower() not in allowed_venues:
+            continue
+        out_path = RAWDATA_DIR / str(year) / f"{venue}{year}.json"
+        print(f"Fetching DBLP journal {venue}{year}", file=sys.stderr)
+        try:
+            papers = fetch_dblp_journal(dblp_key, venue, year, track)
+        except Exception as exc:
+            print(f"  WARN: failed journal {venue}{year}: {exc}", file=sys.stderr)
+            failures.append({"venue": venue, "year": year, "track": track, "source": "dblp-journal", "error": str(exc)})
+            continue
+        write_json(out_path, papers)
+        total += len(papers)
+        print(f"  wrote {len(papers)} journal papers -> {out_path}", file=sys.stderr)
         if args.sleep:
             time.sleep(args.sleep)
 

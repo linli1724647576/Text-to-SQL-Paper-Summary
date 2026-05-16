@@ -136,6 +136,35 @@ CCF_A_VENUES = {
     },
 }
 
+README_CCF_A_JOURNALS = {
+    "AI": {
+        "AIJ": {
+            "dblp": "ai",
+            "queries": ["Artificial Intelligence", "Artificial Intelligence Journal"],
+        },
+    },
+    "DB": {
+        "TKDE": {
+            "dblp": "tkde",
+            "queries": ["IEEE Transactions on Knowledge and Data Engineering", "TKDE"],
+        },
+        "VLDBJ": {
+            "dblp": "vldb",
+            "queries": ["VLDB Journal", "The VLDB Journal"],
+        },
+    },
+    "SE": {
+        "TSE": {
+            "dblp": "tse",
+            "queries": ["IEEE Transactions on Software Engineering", "TSE"],
+        },
+        "TOSEM": {
+            "dblp": "tosem",
+            "queries": ["ACM Transactions on Software Engineering and Methodology", "TOSEM"],
+        },
+    },
+}
+
 
 AI_CCF_A_VENUES = {
     "AAAI",
@@ -162,7 +191,6 @@ DATABASE_CCF_A_VENUES = {
     "TOIS",
     "VLDB",
     "VLDBJ",
-    "WWW",
 }
 
 SE_CCF_A_VENUES = {
@@ -174,18 +202,23 @@ SE_CCF_A_VENUES = {
     "TSE",
 }
 
+CROSS_CCF_A_VENUES = {
+    "WWW",
+}
+
 PUBLICATION_CATEGORIES = [
     "软件工程",
     "数据库领域",
     "AI 领域",
     "ArXiv",
+    "交叉/综合/新兴",
     "其他",
 ]
 
 OTHER_VENUE = "其他"
 ARXIV_VENUE = "ArXiv"
 
-ALL_CCF_A_VENUES = AI_CCF_A_VENUES | DATABASE_CCF_A_VENUES | SE_CCF_A_VENUES
+ALL_CCF_A_VENUES = AI_CCF_A_VENUES | DATABASE_CCF_A_VENUES | SE_CCF_A_VENUES | CROSS_CCF_A_VENUES
 
 VENUE_ALIASES = {
     "aaai": "AAAI",
@@ -230,6 +263,7 @@ VENUE_ALIASES = {
     "research and development in information retrieval": "SIGIR",
     "the web conference": "WWW",
     "web conference": "WWW",
+    "www": "WWW",
     "www conference": "WWW",
     "world wide web conference": "WWW",
     "thewebconf": "WWW",
@@ -304,8 +338,22 @@ def iter_ccf_a_venues(from_year=None, to_year=None, tracks=None):
                 yield track, abbr, spec["dblp"], year
 
 
+def iter_readme_journals(from_year=None, to_year=None, tracks=None):
+    allowed_tracks = {track.lower() for track in tracks} if tracks else None
+    start = from_year if from_year is not None else 2020
+    end = to_year if to_year is not None else start
+    for track, venues in README_CCF_A_JOURNALS.items():
+        if allowed_tracks and track.lower() not in allowed_tracks:
+            continue
+        for abbr, spec in venues.items():
+            for year in range(start, end + 1):
+                yield track, abbr, spec["dblp"], year
+
+
 def normalize_venue_name(raw_venue, title="", year=""):
     haystack = (raw_venue or "").lower()
+    if "arxiv" in haystack:
+        return f"{ARXIV_VENUE}{year}" if year else ARXIV_VENUE
     for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
         if _contains_alias(haystack, alias):
             return f"{abbr}{year}" if year else abbr
@@ -313,7 +361,7 @@ def normalize_venue_name(raw_venue, title="", year=""):
 
 
 def publication_category(entry):
-    """Classify papers into the five publication buckets used by the website."""
+    """Classify papers into the publication buckets used by the website."""
     venue = normalize_entry_venue(entry)
     if venue == ARXIV_VENUE:
         return "ArXiv"
@@ -324,6 +372,8 @@ def publication_category(entry):
         return "数据库领域"
     if base in AI_CCF_A_VENUES:
         return "AI 领域"
+    if base in CROSS_CCF_A_VENUES:
+        return "交叉/综合/新兴"
     return "其他"
 
 
@@ -344,6 +394,9 @@ def normalize_entry_venue(entry):
     for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
         if _contains_alias(source_text, alias):
             return abbr
+    existing = venue_base_name(entry.get("venue", ""))
+    if existing != OTHER_VENUE:
+        return existing
     return OTHER_VENUE
 
 

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Crawl Text-to-SQL paper metadata from OpenAlex.
+"""Crawl Text-to-SQL paper metadata from OpenAlex and Semantic Scholar.
 
-OpenAlex is used because it is public, keyless, and exposes abstracts for many
-works through an inverted-index field. The script is intentionally conservative:
-it gathers candidates by multiple Text-to-SQL queries, normalizes metadata, and
-leaves relevance filtering/classification to label_papers.py.
+OpenAlex and Semantic Scholar provide reproducible API-backed supplemental
+searches. The script gathers candidates by multiple Text-to-SQL queries,
+normalizes metadata, and leaves relevance filtering/classification to
+label_papers.py.
 """
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -16,6 +17,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from paper_utils import normalize_title_key
 from venues import iter_tracked_venues, normalize_entry_venue, normalize_venue_name, publication_category
 
 
@@ -68,12 +70,11 @@ def openalex_get(url, timeout=12):
 
 
 def json_get(url, timeout=20):
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Text2SQL-Paper-Summary/1.0 (mailto:example@example.com)"
-        },
-    )
+    headers = {"User-Agent": "Text2SQL-Paper-Summary/1.0 (mailto:example@example.com)"}
+    api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+    if api_key:
+        headers["x-api-key"] = api_key
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
@@ -105,6 +106,7 @@ def normalize_s2_paper(paper, venue_override=None, venue_track=None):
         return None
     year = str(paper.get("year") or "")
     venue = paper.get("venue") or paper.get("publicationVenue", {}).get("name") or "Unknown"
+    venue_label = normalize_venue_name(venue_override or venue, title, year)
     authors = [author.get("name", "") for author in paper.get("authors") or [] if author.get("name")]
     url = paper.get("url") or ""
     if paper.get("externalIds", {}).get("DOI"):
@@ -120,7 +122,7 @@ def normalize_s2_paper(paper, venue_override=None, venue_track=None):
         "keywords": ", ".join(paper.get("fieldsOfStudy") or []),
         "url": url,
         "doi": paper.get("externalIds", {}).get("DOI", ""),
-        "venue": normalize_venue_name(venue, title, year),
+        "venue": venue_label,
         "venue_track": venue_track or "",
         "semantic_scholar_id": paper.get("paperId") or "",
     }
@@ -149,7 +151,7 @@ def normalize_work(work, venue_override=None, venue_track=None):
 
     year = str(work.get("publication_year") or "")
     venue = source_name(work)
-    venue_label = normalize_venue_name(venue, title, year)
+    venue_label = normalize_venue_name(venue_override or venue, title, year)
 
     entry = {
         "type": work.get("type") or "",
@@ -207,7 +209,7 @@ def add_work(by_title, work, venue_override=None, venue_track=None):
     entry = normalize_work(work, venue_override=venue_override, venue_track=venue_track)
     if not entry or not entry["abstract"]:
         return False
-    title_key = entry["title"].lower()
+    title_key = normalize_title_key(entry["title"])
     by_title.setdefault(title_key, entry)
     return True
 
@@ -216,7 +218,7 @@ def add_s2_paper(by_title, paper, venue_override=None, venue_track=None):
     entry = normalize_s2_paper(paper, venue_override=venue_override, venue_track=venue_track)
     if not entry:
         return False
-    title_key = entry["title"].lower()
+    title_key = normalize_title_key(entry["title"])
     by_title.setdefault(title_key, entry)
     return True
 
@@ -253,9 +255,9 @@ def main():
     )
     parser.add_argument(
         "--source",
-        choices=["venues", "global", "both", "s2", "all"],
-        default="all",
-        help="venues scans ASE-style OpenAlex venues; s2 uses Semantic Scholar; global runs broad OpenAlex keyword search.",
+        choices=["supplemental", "venues", "global", "both", "s2", "all"],
+        default="supplemental",
+        help="supplemental runs broad OpenAlex and Semantic Scholar search.",
     )
     parser.add_argument(
         "--max-venue-results",
@@ -297,7 +299,7 @@ def main():
                     add_work(by_title, work, venue_override=f"{abbr}{year}", venue_track=track)
             print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
-    if args.source in ("s2", "all"):
+    if args.source in ("all",):
         terms = VENUE_SEARCH_TERMS[:4] if args.quick else VENUE_SEARCH_TERMS
         allowed_venues = None
         if args.limit_venues:
@@ -320,7 +322,7 @@ def main():
                     time.sleep(args.sleep)
             print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
-    if args.source in ("global", "both", "all"):
+    if args.source in ("global", "both", "all", "supplemental"):
         queries = DEFAULT_SEARCH_QUERIES
         if args.quick:
             queries = [
@@ -342,6 +344,32 @@ def main():
                 for work in works:
                     add_work(by_title, work)
                 print(f"    accumulated candidates: {len(by_title)}", file=sys.stderr)
+
+    if args.source in ("s2", "all", "supplemental"):
+        queries = DEFAULT_SEARCH_QUERIES
+        if args.quick:
+            queries = [
+                "text-to-SQL",
+                "NL2SQL",
+                "natural language to SQL",
+                "semantic parsing SQL database",
+            ]
+        for year in range(args.from_year, args.to_year + 1):
+            print(f"Crawling global Semantic Scholar year: {year}", file=sys.stderr)
+            for query in queries:
+                print(f"  query: {query}", file=sys.stderr)
+                try:
+                    papers = crawl_s2(query, year, args.max_results)
+                except Exception as exc:
+                    print(f"    WARN: S2 query failed: {exc}", file=sys.stderr)
+                    if args.sleep:
+                        time.sleep(args.sleep)
+                    continue
+                for paper in papers:
+                    add_s2_paper(by_title, paper)
+                print(f"    accumulated candidates: {len(by_title)}", file=sys.stderr)
+                if args.sleep:
+                    time.sleep(args.sleep)
 
     papers = {entry["title"]: entry for entry in by_title.values()}
     if not papers:

@@ -5826,7 +5826,7 @@
   "Hybrid-Grained Feature Aggregation with Coarse-to-Fine Language Guidance for Self-Supervised Monocular Depth Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangLLHQWZYZJ25",
-    "author": "Wenyao Zhang and Hongsi Liu and Bohan Li 0015 and Jiawei He and Zekun Qi and Yunnan Wang and Shengyang Zhao and Xinqiang Yu and Wenjun Zeng 0001 and Xin Jin 0014",
+    "author": "Wenyao Zhang and Hongsi Liu and Bohan Li 0015 and Jiawei He 0002 and Zekun Qi and Yunnan Wang and Shengyang Zhao and Xinqiang Yu and Wenjun Zeng 0001 and Xin Jin 0014",
     "booktitle": "ICCV",
     "title": "Hybrid-Grained Feature Aggregation with Coarse-to-Fine Language Guidance for Self-Supervised Monocular Depth Estimation.",
     "year": "2025",

@@ -11580,7 +11580,7 @@
   "A Multi-Mode Modulator for Multi-Domain Few-Shot Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuLZCS021",
-    "author": "Yanbin Liu and Juho Lee 0001 and Linchao Zhu and Ling Chen 0006 and Humphrey Shi and Yi Yang 0001",
+    "author": "Yanbin Liu 0003 and Juho Lee 0001 and Linchao Zhu and Ling Chen 0006 and Humphrey Shi and Yi Yang 0001",
     "booktitle": "ICCV",
     "title": "A Multi-Mode Modulator for Multi-Domain Few-Shot Classification.",
     "year": "2021",

@@ -100,7 +100,7 @@ VENUE_CATEGORIES = {
     "KDD": "数据库领域",
     "SIGIR": "数据库领域",
     "SIGMOD": "数据库领域",
-    "WWW": "数据库领域",
+    "WWW": "交叉/综合/新兴",
 }
 
 STOP_HEADINGS = (

@@ -9816,7 +9816,7 @@
   "Loss-Based Attention for Deep Multiple Instance Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShiXXZCY20",
-    "author": "Xiaoshuang Shi and Fuyong Xing and Yuanpu Xie and Zizhao Zhang and Lei Cui 0004 and Lin Yang 0002",
+    "author": "Xiaoshuang Shi and Fuyong Xing and Yuanpu Xie and Zizhao Zhang 0002 and Lei Cui 0004 and Lin Yang 0002",
     "booktitle": "AAAI",
     "title": "Loss-Based Attention for Deep Multiple Instance Learning.",
     "year": "2020",

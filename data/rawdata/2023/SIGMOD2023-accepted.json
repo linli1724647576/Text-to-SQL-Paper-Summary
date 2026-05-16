@@ -44,7 +44,7 @@
   "Incremental Tabular Learning on Heterogeneous Feature Space": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-incremental-tabular-learning-on-heterogeneous-feature-space",
-    "author": "Hanmo Liu (Hong Kong University of Science and Technology ) and Shimin Di (The Hong Kong University of Science and Technology) and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Hanmo Liu ) and Shimin Di and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Incremental Tabular Learning on Heterogeneous Feature Space",
     "year": "2023",
@@ -156,7 +156,7 @@
   "FEC: Efficient Deep Recommendation Model Training with Flexible Embedding Communication": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-fec-efficient-deep-recommendation-model-training-with-flexible-embedding-communi",
-    "author": "Kaihao Ma and Xiao Yan (Southern University of Science and Technology) and Zhenkun Cai and Yuzhen Huang and Yidi Wu and James Cheng",
+    "author": "Kaihao Ma and Xiao Yan and Zhenkun Cai and Yuzhen Huang and Yidi Wu and James Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "FEC: Efficient Deep Recommendation Model Training with Flexible Embedding Communication",
     "year": "2023",
@@ -170,7 +170,7 @@
   "SSIN: Self-Supervised Learning for Rainfall Spatial Interpolation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-ssin-self-supervised-learning-for-rainfall-spatial-interpolation",
-    "author": "Jia Li (Hong Kong University of Science and Technology) and Yanyan Shen and Lei Chen (Hong Kong University of Science and Technology) and Charles Wang Wai Ng (Hong Kong University of Science and Technology)",
+    "author": "Jia Li and Yanyan Shen and Lei Chen and Charles Wang Wai Ng",
     "booktitle": "SIGMOD Conference",
     "title": "SSIN: Self-Supervised Learning for Rainfall Spatial Interpolation",
     "year": "2023",
@@ -212,7 +212,7 @@
   "Unsupervised Hashing with Semantic Concept Mining": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-unsupervised-hashing-with-semantic-concept-mining",
-    "author": "Rong-Cheng Tu and Xian-Ling Mao and Qinghong Lin and chengfei cai and Weize Qin and Wei Wei (Huazhong University of Science and Technology) and Hongfa Wang and Heyan Huang",
+    "author": "Rong-Cheng Tu and Xian-Ling Mao and Qinghong Lin and chengfei cai and Weize Qin and Wei Wei and Hongfa Wang and Heyan Huang",
     "booktitle": "SIGMOD Conference",
     "title": "Unsupervised Hashing with Semantic Concept Mining",
     "year": "2023",
@@ -338,7 +338,7 @@
   "EAR-Oracle: On Efficient Indexing for Distance Queries between Arbitrary Points on Terrain Surface": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-ear-oracle-on-efficient-indexing-for-distance-queries-between-arbitrary-points-o",
-    "author": "Bo Huang (Southern University of Science and Technology) and Victor Junqiu Wei and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology) and Bo Tang (Southern University of Science and Technology)",
+    "author": "Bo Huang and Victor Junqiu Wei and Raymond Chi-Wing Wong and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "EAR-Oracle: On Efficient Indexing for Distance Queries between Arbitrary Points on Terrain Surface",
     "year": "2023",
@@ -366,7 +366,7 @@
   "Efficient Estimation of Pairwise Effective Resistance": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-efficient-estimation-of-pairwise-effective-resistance",
-    "author": "Renchi Yang and Jing Tang (The Hong Kong University of Science and Technology)",
+    "author": "Renchi Yang and Jing Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Estimation of Pairwise Effective Resistance",
     "year": "2023",
@@ -394,7 +394,7 @@
   "AutoOD: Automatic Outlier Detection": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-autood-automatic-outlier-detection",
-    "author": "Lei Cao and Yizhou Yan and Yu Wang (University of Science and Technology of China) and Samuel Madden and Elke A Rundensteiner",
+    "author": "Lei Cao and Yizhou Yan and Yu Wang and Samuel Madden and Elke A Rundensteiner",
     "booktitle": "SIGMOD Conference",
     "title": "AutoOD: Automatic Outlier Detection",
     "year": "2023",
@@ -506,7 +506,7 @@
   "Speeding Up End-to-end Query Execution via Learning-based Progressive Cardinality Estimation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-speeding-up-end-to-end-query-execution-via-learning-based-progressive-cardinalit",
-    "author": "Fang Wang and Xiao Yan (Southern University of Science and Technology) and Man Lung Yiu and Shuai LI and Zunyao Mao (Southern University of Science and Technology) and Bo Tang (Southern University of Science and Technology)",
+    "author": "Fang Wang and Xiao Yan and Man Lung Yiu and Shuai LI and Zunyao Mao and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Speeding Up End-to-end Query Execution via Learning-based Progressive Cardinality Estimation",
     "year": "2023",
@@ -590,7 +590,7 @@
   "LiteHST: A Tree Embedding based Method for Similarity Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-litehst-a-tree-embedding-based-method-for-similarity-search",
-    "author": "Yuxiang Zeng (Hong Kong University of Science and Technology) and Yongxin Tong and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Yuxiang Zeng and Yongxin Tong and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "LiteHST: A Tree Embedding based Method for Similarity Search",
     "year": "2023",
@@ -646,7 +646,7 @@
   "Foreign Keys Open the Door for Faster Incremental View Maintenance": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-foreign-keys-open-the-door-for-faster-incremental-view-maintenance",
-    "author": "Christoforos Svingos (National and Kapodistrian University of Athens) and Andre Hernich and Hinnerk Gildhoff and Yannis Papakonstantinou and Yannis Ioannidis",
+    "author": "Christoforos Svingos and Andre Hernich and Hinnerk Gildhoff and Yannis Papakonstantinou and Yannis Ioannidis",
     "booktitle": "SIGMOD Conference",
     "title": "Foreign Keys Open the Door for Faster Incremental View Maintenance",
     "year": "2023",
@@ -786,7 +786,7 @@
   "TED: Towards Discovering Top-𝑘 Edge-Diversified Patterns in a Graph Database": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-ted-towards-discovering-top-edge-diversified-patterns-in-a-graph-database",
-    "author": "Kai Huang and Haibo Hu and Qingqing Ye and Kai Tian and Bolong Zheng (Huazhong University of Science and Technology) and Xiaofang Zhou (Hong Kong University of Sci and Tech)",
+    "author": "Kai Huang and Haibo Hu and Qingqing Ye and Kai Tian and Bolong Zheng and Xiaofang Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "TED: Towards Discovering Top-𝑘 Edge-Diversified Patterns in a Graph Database",
     "year": "2023",
@@ -800,7 +800,7 @@
   "Caerus: A Caching-based Framework for Scalable Temporal Graph Neural Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-caerus-a-caching-based-framework-for-scalable-temporal-graph-neural-networks",
-    "author": "Yiming Li (Hong Kong University of Science and Technology) and Yanyan Shen and Lei Chen (Hong Kong University of Science and Technology) and Mingxuan Yuan",
+    "author": "Yiming Li and Yanyan Shen and Lei Chen and Mingxuan Yuan",
     "booktitle": "SIGMOD Conference",
     "title": "Caerus: A Caching-based Framework for Scalable Temporal Graph Neural Networks",
     "year": "2023",
@@ -870,7 +870,7 @@
   "A Universal Question-Answering Platform for Knowledge Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-a-universal-question-answering-platform-for-knowledge-graphs",
-    "author": "Reham Omar and Ishika Dhall and Panos Kalnis (King Abdullah University of Science and Technology) and Essam Mansour",
+    "author": "Reham Omar and Ishika Dhall and Panos Kalnis and Essam Mansour",
     "booktitle": "SIGMOD Conference",
     "title": "A Universal Question-Answering Platform for Knowledge Graphs",
     "year": "2023",
@@ -884,7 +884,7 @@
   "Fast Density-Based Clustering: Geometric Approach": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-fast-density-based-clustering-geometric-approach",
-    "author": "Xiaogang Huang (Southwestern University of Finance and Economics) and Tiefeng Ma (Southwestern University of Finance and Economics)",
+    "author": "Xiaogang Huang and Tiefeng Ma",
     "booktitle": "SIGMOD Conference",
     "title": "Fast Density-Based Clustering: Geometric Approach",
     "year": "2023",
@@ -898,7 +898,7 @@
   "MorphStream: Adaptive Scheduling for Scalable Transactional Stream Processing on Multicores": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-morphstream-adaptive-scheduling-for-scalable-transactional-stream-processing-on-",
-    "author": "Yancan Mao and Jianjun Zhao (huazhong university of science and technology) and Haikun Liu (Huazhong University of Science and Technology) and Shuhao Zhang (Singapore University of Technology and Design) and Volker Markl",
+    "author": "Yancan Mao and Jianjun Zhao and Haikun Liu and Shuhao Zhang and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "MorphStream: Adaptive Scheduling for Scalable Transactional Stream Processing on Multicores",
     "year": "2023",
@@ -1122,7 +1122,7 @@
   "Effective and Efficient PageRank-based Positioning for Graph Visualization": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-effective-and-efficient-pagerank-based-positioning-for-graph-visualization",
-    "author": "Shiqi Zhang and Renchi Yang and Xiaokui Xiao and Xiao Yan (Southern University of Science and Technology) and Bo Tang (Southern University of Science and Technology)",
+    "author": "Shiqi Zhang and Renchi Yang and Xiaokui Xiao and Xiao Yan and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Effective and Efficient PageRank-based Positioning for Graph Visualization",
     "year": "2023",
@@ -1206,7 +1206,7 @@
   "Regularized Pairwise Relationship based Analytics for Structured Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-regularized-pairwise-relationship-based-analytics-for-structured-data",
-    "author": "Zhaojing Luo and Shaofeng Cai and Yatong Wang (University of Electronic Science and Technology of China) and Beng Chin Ooi",
+    "author": "Zhaojing Luo and Shaofeng Cai and Yatong Wang and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "Regularized Pairwise Relationship based Analytics for Structured Data",
     "year": "2023",
@@ -1360,7 +1360,7 @@
   "Mining Geospatial Relationships from Text": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-mining-geospatial-relationships-from-text",
-    "author": "Pasquale Balsebre and Dezhong Yao (Huazhong University of Science and Technology) and Gao Cong and Weiming Huang and Zhen Hai",
+    "author": "Pasquale Balsebre and Dezhong Yao and Gao Cong and Weiming Huang and Zhen Hai",
     "booktitle": "SIGMOD Conference",
     "title": "Mining Geospatial Relationships from Text",
     "year": "2023",
@@ -1682,7 +1682,7 @@
   "Practical Differentially Private and Byzantine-resilient Federated Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-practical-differentially-private-and-byzantine-resilient-federated-learning",
-    "author": "Zihang Xiang (King Abdullah University of Science and Technology) and Tianhao Wang and Wanyu Lin and Di Wang",
+    "author": "Zihang Xiang and Tianhao Wang and Wanyu Lin and Di Wang",
     "booktitle": "SIGMOD Conference",
     "title": "Practical Differentially Private and Byzantine-resilient Federated Learning",
     "year": "2023",
@@ -1724,7 +1724,7 @@
   "Better than Composition: How to Answer Multiple Relational Queries under Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-better-than-composition-how-to-answer-multiple-relational-queries-under-differen",
-    "author": "Wei DONG (Hong Kong University of Science and Technology, Hong Kong) and Dajun Sun and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Wei DONG and Dajun Sun and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Better than Composition: How to Answer Multiple Relational Queries under Differential Privacy",
     "year": "2023",
@@ -2004,7 +2004,7 @@
   "Scalable and Efficient Full-Graph GNN Training for Large Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-scalable-and-efficient-full-graph-gnn-training-for-large-graphs",
-    "author": "Xinchen Wan and Kaiqiang Xu and Xudong Liao and Yilun Jin (The Hong Kong University of Science and Technology) and Kai Chen and Xin Jin",
+    "author": "Xinchen Wan and Kaiqiang Xu and Xudong Liao and Yilun Jin and Kai Chen and Xin Jin",
     "booktitle": "SIGMOD Conference",
     "title": "Scalable and Efficient Full-Graph GNN Training for Large Graphs",
     "year": "2023",
@@ -2032,7 +2032,7 @@
   "OM^3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-om-3-an-ordered-multi-level-min-max-representation-for-interactive-progressive-v",
-    "author": "Yunhai Wang and Yuchun Wang and Xin Chen and Yue Zhao and Fan Zhang (Shandong Technology and Business University) and Eugene Wu and Chi-Wing Fu and Xiaohui Yu",
+    "author": "Yunhai Wang and Yuchun Wang and Xin Chen and Yue Zhao and Fan Zhang and Eugene Wu and Chi-Wing Fu and Xiaohui Yu",
     "booktitle": "SIGMOD Conference",
     "title": "OM^3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series",
     "year": "2023",
@@ -2172,7 +2172,7 @@
   "QHL: A Fast Algorithm for Exact Constrained Shortest Path Search on Road Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-qhl-a-fast-algorithm-for-exact-constrained-shortest-path-search-on-road-networks",
-    "author": "Libin Wang (Hong Kong University of Science and Technology) and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)",
+    "author": "Libin Wang and Raymond Chi-Wing Wong",
     "booktitle": "SIGMOD Conference",
     "title": "QHL: A Fast Algorithm for Exact Constrained Shortest Path Search on Road Networks",
     "year": "2023",
@@ -2214,7 +2214,7 @@
   "Incentive-Aware Decentralized Data Collaboration": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-incentive-aware-decentralized-data-collaboration",
-    "author": "Yatong Wang (University of Electronic Science and Technology of China) and Yuncheng Wu and Xincheng Chen and Gang Feng (University of Electronic Science and Technology of China) and Beng Chin Ooi",
+    "author": "Yatong Wang and Yuncheng Wu and Xincheng Chen and Gang Feng and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "Incentive-Aware Decentralized Data Collaboration",
     "year": "2023",
@@ -2270,7 +2270,7 @@
   "Data Stream Clustering: An In-depth Empirical Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-data-stream-clustering-an-in-depth-empirical-study",
-    "author": "Xin Wang and Zhengru Wang and Zhenyu Wu and Shuhao Zhang (Singapore University of Technology and Design) and Xianzhi Zeng (Singapore University of Technology and Design) and Zhonghao Yang (Singapore University of Technology and Design) and Haolan He (Singapore University of Technology and Design) and wu yuhao and Xuanhua Shi (Huazhong University of Science and Technology) and Li Lu",
+    "author": "Xin Wang and Zhengru Wang and Zhenyu Wu and Shuhao Zhang and Xianzhi Zeng and Zhonghao Yang and Haolan He and wu yuhao and Xuanhua Shi and Li Lu",
     "booktitle": "SIGMOD Conference",
     "title": "Data Stream Clustering: An In-depth Empirical Study",
     "year": "2023",
@@ -2284,7 +2284,7 @@
   "EARLY: Efficient and Reliable Graph Neural Network for Dynamic Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-early-efficient-and-reliable-graph-neural-network-for-dynamic-graphs",
-    "author": "Haoyang Li (The Hong Kong University of Science and Technology) and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Haoyang Li and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "EARLY: Efficient and Reliable Graph Neural Network for Dynamic Graphs",
     "year": "2023",
@@ -2312,7 +2312,7 @@
   "DUCATI: A Dual-Cache Training System for Graph Neural Networks on Giant Graphs with GPU": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-ducati-a-dual-cache-training-system-for-graph-neural-networks-on-giant-graphs-wi",
-    "author": "Xin Zhang (Hong Kong University of Science and Technology) and Yanyan Shen and Yingxia Shao and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Xin Zhang and Yanyan Shen and Yingxia Shao and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "DUCATI: A Dual-Cache Training System for Graph Neural Networks on Giant Graphs with GPU",
     "year": "2023",
@@ -2326,7 +2326,7 @@
   "GuP: Fast Subgraph Matching by Guard-based Pruning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-gup-fast-subgraph-matching-by-guard-based-pruning",
-    "author": "Junya Arai (Nippon Telegraph and Telephone Corporation) and Yasuhiro Fujiwara and Makoto Onizuka",
+    "author": "Junya Arai and Yasuhiro Fujiwara and Makoto Onizuka",
     "booktitle": "SIGMOD Conference",
     "title": "GuP: Fast Subgraph Matching by Guard-based Pruning",
     "year": "2023",
@@ -2494,7 +2494,7 @@
   "Efficient GPU-Accelerated Subgraph Matching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-efficient-gpu-accelerated-subgraph-matching",
-    "author": "Xibo Sun (Hong Kong University of Science and Technology) and Qiong Luo (Hong Kong University of Science and Technology)",
+    "author": "Xibo Sun and Qiong Luo",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient GPU-Accelerated Subgraph Matching",
     "year": "2023",

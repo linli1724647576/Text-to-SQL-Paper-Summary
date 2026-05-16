@@ -5,7 +5,7 @@
       "files": [
         {
           "path": "data/rawdata/2020/AAAI2020.json",
-          "sha256": "6c1a17bba23508ff5705b1c0740c7a8df853539f68497208a39e5579074aaf35"
+          "sha256": "c966fb0bc31fb1e1968ab9c2b656df06ce06d556a87cf8d8d877bee6a5b7907a"
         }
       ]
     },
@@ -37,7 +37,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/AAAI2024.json",
-          "sha256": "c00b1311fc47d2463421e15d1ae74170fc8566d4eae5bf9341a0cae169dbf96c"
+          "sha256": "00e5ecfe2469fcaabb25aae291f9cd2fdc68190f5f6e897fbd28554308d9e702"
         }
       ]
     },
@@ -65,6 +65,14 @@
         }
       ]
     },
+    "ACL2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/ACL2022.json",
+          "sha256": "317ae1425c6261cfc14cdfb30f7901956bbb4b22b17259fbec40698a1ad62e56"
+        }
+      ]
+    },
     "ACL2023": {
       "files": [
         {
@@ -89,7 +97,7 @@
         },
         {
           "path": "data/rawdata/2025/ACL2025.json",
-          "sha256": "f336e77b0b33e47488bbf5ba2e0a053bef19c01147b813cfb3b350944ef14697"
+          "sha256": "e74df6d18242d558575dbd68d7313c6bdb00936e84389f3bad8b5b57d9b3e80c"
         }
       ]
     },
@@ -145,11 +153,19 @@
         }
       ]
     },
+    "ArXiv": {
+      "files": [
+        {
+          "path": "data/rawdata/arxiv/arXiv-text2sql.json",
+          "sha256": "40a64bcac6ac30926fbb77ef366ebf41c0d422552dfd3641a85de850af24f7a8"
+        }
+      ]
+    },
     "CVPR2020": {
       "files": [
         {
           "path": "data/rawdata/2020/CVPR2020.json",
-          "sha256": "806f57e9f0c5bee0bef18a88db928e0e08f6b89169212120a264565d9e12dc2c"
+          "sha256": "01a9815bf5b7003d1a391401c241eef211649783bc40aaebde7267c79dda8200"
         }
       ]
     },
@@ -217,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2021/ICCV2021.json",
-          "sha256": "5302d14734fd1b9cb2651dbe275a19e554b2021396054c9711d9c4f9a412f3de"
+          "sha256": "df11952bab0159fdeb072064c3d42e26b491ef0faa07dd15e8ba9ef4a7be20a8"
         }
       ]
     },
@@ -233,7 +249,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/ICCV2025.json",
-          "sha256": "a8f78e49bfdf152df2538d69f38c02cde68c98e2c68e034dd4308c9a49766358"
+          "sha256": "df2e142cc03799f0d397332f0ad1bcf954bb510c3899b8f12a2f63f4fc7e4a3e"
         }
       ]
     },
@@ -281,7 +297,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/ICDE2025-accepted.json",
-          "sha256": "236fce80e2d0ea47190abf4ec50da72a5514975cd68313be7399a45a0106d694"
+          "sha256": "eb77bddc1338177451c957fa8517fd9c79ca1329e9a18e811e9f31c50725d5a3"
         },
         {
           "path": "data/rawdata/2025/ICDE2025.json",
@@ -292,6 +308,10 @@
     "ICML2020": {
       "files": [
         {
+          "path": "data/rawdata/2020/ICML2020-accepted.json",
+          "sha256": "35ea4e91ba4748d0773c3403b12b2e660ee1e9e06e82ab7c61b759a929b63da4"
+        },
+        {
           "path": "data/rawdata/2020/ICML2020.json",
           "sha256": "f48acaf0a0861d45bca93df72ec9f56ff9c053a546dc5eec7b0f490904e9d7f8"
         }
@@ -299,6 +319,10 @@
     },
     "ICML2021": {
       "files": [
+        {
+          "path": "data/rawdata/2021/ICML2021-accepted.json",
+          "sha256": "09d6419a8c69b0c9d0e89ee0a6ab0941aef02333de694b8c8d835872cfb18d3f"
+        },
         {
           "path": "data/rawdata/2021/ICML2021.json",
           "sha256": "eae56ddf41db8fed241e99735e856a9e02e0fb548337def34187d257de9c1979"
@@ -641,7 +665,7 @@
         },
         {
           "path": "data/rawdata/2024/NeurIPS2024.json",
-          "sha256": "d0096594ed1ab1b7e6fb70e63c25c1286a712c21eec99c2b61c0a843aa6d3e73"
+          "sha256": "3096f271a49fb85a56256c325bc5810f64033d757cf08fcc5dacf799c2481fae"
         }
       ]
     },
@@ -709,7 +733,7 @@
       "files": [
         {
           "path": "data/rawdata/2020/SIGMOD2020-accepted.json",
-          "sha256": "c5585bb8241cf5ca671a2804d7e696dfdaa087252c4adcc97b0622c7d9dfd4ff"
+          "sha256": "39e0ecc62a2f81604d4f57bc547b62fdfcf575ccf7013967bf4f963e96605f2d"
         },
         {
           "path": "data/rawdata/2020/SIGMOD2020.json",
@@ -721,7 +745,7 @@
       "files": [
         {
           "path": "data/rawdata/2021/SIGMOD2021-accepted.json",
-          "sha256": "273049845c6f4e1ba26c6896348eb542b8b76a5f44b65a5df23fab3abeac2786"
+          "sha256": "4bfa6a564f9c372d198d6c1a49c2a1a819bf904b3385994badb9a3b713f40f0b"
         },
         {
           "path": "data/rawdata/2021/SIGMOD2021.json",
@@ -733,7 +757,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/SIGMOD2022-accepted.json",
-          "sha256": "47a9b03d578ad2d4c338cc4e10cd375de7423b34a5b410eb167394ad9ed50940"
+          "sha256": "a8003995402328a3aed7c6d88eb34c72323966096ffbe582c97d0745a333aae0"
         },
         {
           "path": "data/rawdata/2022/SIGMOD2022.json",
@@ -745,7 +769,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/SIGMOD2023-accepted.json",
-          "sha256": "d527480ee764eedc5137cb68f27f2476c134075d53592d9d09287384082533df"
+          "sha256": "a559d41e8692a946ffcc5e5877e4ac50a675c00fdaba0a833eef024f9f10e462"
         },
         {
           "path": "data/rawdata/2023/SIGMOD2023.json",
@@ -757,7 +781,11 @@
       "files": [
         {
           "path": "data/rawdata/2024/SIGMOD2024-accepted.json",
-          "sha256": "2d654e3da26962d2f878145e9358235e365226d7231f34fdbb763aee25838b5b"
+          "sha256": "4ee8aabddebb3f0f657488653c999cf6e75f873d1323406f407a39bd2b3825ef"
+        },
+        {
+          "path": "data/rawdata/2024/SIGMOD2024.json",
+          "sha256": "d57d75f25b209994749103f83c2e51311576309a0507440f3403b39c539874d2"
         }
       ]
     },
@@ -765,7 +793,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/SIGMOD2025-accepted.json",
-          "sha256": "8ad2f272344879dd74f01cefeae8d2ffbba863b89ed693127dfd572c638f3b47"
+          "sha256": "160a1cdaa1ae24d6747994f65613c201a87916a427f714387f71171b69d6b0e6"
         },
         {
           "path": "data/rawdata/2025/SIGMOD2025.json",
@@ -777,7 +805,23 @@
       "files": [
         {
           "path": "data/rawdata/2026/SIGMOD2026-accepted.json",
-          "sha256": "7b3648d1b1fc029617b26032dec86514ef94e552afc93ae6886119474376e8a4"
+          "sha256": "f03d35043a9b63494fc3d845b30a9770c6ece7a1eb060bbf2d2d48e88573b2cf"
+        }
+      ]
+    },
+    "TSE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/TSE2025.json",
+          "sha256": "31f84b1838bfc12b88d58dc1b40fce7f54e2faf2fcbff539914fc88a667bde7a"
+        }
+      ]
+    },
+    "VLDB2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/VLDB2020.json",
+          "sha256": "d4035f83b9d08470687e875a5ab5c6ed4e2d5a877f08a2180355dd3fdd5c16bf"
         }
       ]
     },
@@ -805,43 +849,75 @@
         }
       ]
     },
+    "WWW2020": {
+      "files": [
+        {
+          "path": "data/rawdata/2020/WWW2020.json",
+          "sha256": "d97963b9a786eed040d4bdd92f78bd7e28f660c1b63b0e590cceb4f5751fb884"
+        }
+      ]
+    },
+    "WWW2021": {
+      "files": [
+        {
+          "path": "data/rawdata/2021/WWW2021.json",
+          "sha256": "4c18fefd416cce6bd679cf394e2158c494ebe110588f340c6899672ea25db143"
+        }
+      ]
+    },
+    "WWW2022": {
+      "files": [
+        {
+          "path": "data/rawdata/2022/WWW2022.json",
+          "sha256": "3831d1cdfc6dd276beaddd0dc8def54b7e84ab59c5f595d2da77f18204b4cf68"
+        }
+      ]
+    },
+    "WWW2023": {
+      "files": [
+        {
+          "path": "data/rawdata/2023/WWW2023.json",
+          "sha256": "3592aefdd3ea04c1a86942d179322241e24a430772b5949305246c9df61dc965"
+        }
+      ]
+    },
+    "WWW2024": {
+      "files": [
+        {
+          "path": "data/rawdata/2024/WWW2024.json",
+          "sha256": "d0e26c7edbf403ac60d34e20b39b398295fcb7742fb66297f67c04baaa6e3d9d"
+        }
+      ]
+    },
+    "WWW2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/WWW2025.json",
+          "sha256": "cdad12959dfa439dff6c341f0264e93dee57a21f9dd8a3c7d1944fcb93047cf2"
+        }
+      ]
+    },
+    "WWW2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/WWW2026-accepted.json",
+          "sha256": "c88b49841a3ce5dc6e9b50fe6bb6dce311d096d7131e932073e7d5b218508440"
+        }
+      ]
+    },
     "其他": {
       "files": [
+        {
+          "path": "data/autocrawl/openalex.json",
+          "sha256": "9836a64598b1bd87a09a22a54aec13757d4b65cb20bf97e0e4f712be41a35137"
+        },
         {
           "path": "data/rawdata/2020/CCS2020.json",
           "sha256": "9d6be0487983d716c4446cc25f2c365d8795a3b1c615e2118ab6f9d2f161d05a"
         },
         {
-          "path": "data/rawdata/2020/WWW2020.json",
-          "sha256": "d97963b9a786eed040d4bdd92f78bd7e28f660c1b63b0e590cceb4f5751fb884"
-        },
-        {
-          "path": "data/rawdata/2021/WWW2021.json",
-          "sha256": "4c18fefd416cce6bd679cf394e2158c494ebe110588f340c6899672ea25db143"
-        },
-        {
-          "path": "data/rawdata/2022/WWW2022.json",
-          "sha256": "3831d1cdfc6dd276beaddd0dc8def54b7e84ab59c5f595d2da77f18204b4cf68"
-        },
-        {
-          "path": "data/rawdata/2023/WWW2023.json",
-          "sha256": "3592aefdd3ea04c1a86942d179322241e24a430772b5949305246c9df61dc965"
-        },
-        {
           "path": "data/rawdata/2024/CCS2024.json",
           "sha256": "76ca6e1fe7e635ae5fa32ea9d1c6f3cc744217565ebe0ce99390dc0205deabc0"
-        },
-        {
-          "path": "data/rawdata/2024/WWW2024.json",
-          "sha256": "d0e26c7edbf403ac60d34e20b39b398295fcb7742fb66297f67c04baaa6e3d9d"
-        },
-        {
-          "path": "data/rawdata/2025/WWW2025.json",
-          "sha256": "cdad12959dfa439dff6c341f0264e93dee57a21f9dd8a3c7d1944fcb93047cf2"
-        },
-        {
-          "path": "data/rawdata/2026/WWW2026-accepted.json",
-          "sha256": "d98a149f654dd8591597e5c0506ec1be72f3a3a141f646977334db96a24b1543"
         }
       ]
     }

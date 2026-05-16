@@ -254,7 +254,7 @@
   "Blockchains vs. Distributed Databases: Dichotomy and Fusion": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-blockchains-vs-distributed-databases-dichotomy-and-fusion",
-    "author": "Pingcheng Ruan and Tien Tuan Anh Dinh (Singapore University of Technology and Design) and Dumitrel Loghin and Meihui Zhang and Gang Chen and Qian Lin and Beng Chin Ooi",
+    "author": "Pingcheng Ruan and Tien Tuan Anh Dinh and Dumitrel Loghin and Meihui Zhang and Gang Chen and Qian Lin and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "Blockchains vs. Distributed Databases: Dichotomy and Fusion",
     "year": "2021",
@@ -352,7 +352,7 @@
   "Parallelizing Intra-Window Join on Multicores: An Experimental Study": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-parallelizing-intra-window-join-on-multicores-an-experimental-study",
-    "author": "Shuhao Zhang (Singapore University of Technology and Design) and Yancan Mao and Jiong He and Philipp Marian Grulich and Steffen Zeuch and Bingsheng He and Richard T.B. Ma and Volker Markl",
+    "author": "Shuhao Zhang and Yancan Mao and Jiong He and Philipp Marian Grulich and Steffen Zeuch and Bingsheng He and Richard T.B. Ma and Volker Markl",
     "booktitle": "SIGMOD Conference",
     "title": "Parallelizing Intra-Window Join on Multicores: An Experimental Study",
     "year": "2021",
@@ -478,7 +478,7 @@
   "TENET: Joint Entity and Relation Linking with Coherence Relaxation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-tenet-joint-entity-and-relation-linking-with-coherence-relaxation",
-    "author": "Xueling Lin (Hong Kong University of Science and Technology) and Lei Chen (Hong Kong University of Science and Technology) and Chaorui Zhang",
+    "author": "Xueling Lin and Lei Chen and Chaorui Zhang",
     "booktitle": "SIGMOD Conference",
     "title": "TENET: Joint Entity and Relation Linking with Coherence Relaxation",
     "year": "2021",
@@ -730,7 +730,7 @@
   "Bao: Making Learned Query Optimization Practical": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-bao-making-learned-query-optimization-practical",
-    "author": "Ryan C Marcus and Parimarjan Negi and Hongzi Mao and Nesime Tatbul (Intel Labs and MIT) and Mohammad Alizadeh and Tim Kraska",
+    "author": "Ryan C Marcus and Parimarjan Negi and Hongzi Mao and Nesime Tatbul and Mohammad Alizadeh and Tim Kraska",
     "booktitle": "SIGMOD Conference",
     "title": "Bao: Making Learned Query Optimization Practical",
     "year": "2021",
@@ -898,7 +898,7 @@
   "Marrying Top-k with Skyline Queries: Relaxing the Preference Input while Producing Output of Controllable Size": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-marrying-top-k-with-skyline-queries-relaxing-the-preference-input-while-producin",
-    "author": "Kyriakos Mouratidis and Keming Li (Southern University of Science and Technology) and Bo Tang (Southern University of Science and Technology)",
+    "author": "Kyriakos Mouratidis and Keming Li and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Marrying Top-k with Skyline Queries: Relaxing the Preference Input while Producing Output of Controllable Size",
     "year": "2021",
@@ -1080,7 +1080,7 @@
   "Efficient and Effective Algorithms for Revenue Maximization in Social Advertising": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-efficient-and-effective-algorithms-for-revenue-maximization-in-social-advertisin",
-    "author": "Kai Han (University of Science and Technology of China) and Benwei Wu (University of Science and Technology of China) and Jing Tang and Shuang Cui (University of Science and Technology of China) and Cigdem Aslay and Laks V.S. Lakshmanan",
+    "author": "Kai Han and Benwei Wu and Jing Tang and Shuang Cui and Cigdem Aslay and Laks V.S. Lakshmanan",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient and Effective Algorithms for Revenue Maximization in Social Advertising",
     "year": "2021",
@@ -1192,7 +1192,7 @@
   "ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-alg-fast-and-accurate-active-learning-framework-for-graph-convolutional-networks",
-    "author": "Wentao Zhang and Yu Shen and Yang Li and Lei Chen (Hong Kong University of Science and Technology) and Zhi Yang and Bin Cui",
+    "author": "Wentao Zhang and Yu Shen and Yang Li and Lei Chen and Zhi Yang and Bin Cui",
     "booktitle": "SIGMOD Conference",
     "title": "ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks",
     "year": "2021",
@@ -1318,7 +1318,7 @@
   "VSS: A Storage System for Video Analytics": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-vss-a-storage-system-for-video-analytics",
-    "author": "Brandon Haynes and Maureen Daum and Dong He and Amrita Mazumdar and Magdalena Balazinska and Alvin Cheung and Luis Ceze (University of Washington and OctoML)",
+    "author": "Brandon Haynes and Maureen Daum and Dong He and Amrita Mazumdar and Magdalena Balazinska and Alvin Cheung and Luis Ceze",
     "booktitle": "SIGMOD Conference",
     "title": "VSS: A Storage System for Video Analytics",
     "year": "2021",
@@ -1542,7 +1542,7 @@
   "Adaptive Compression for Fast Scans on String Columns": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-adaptive-compression-for-fast-scans-on-string-columns",
-    "author": "Yannis E Foufoulas and Lefteris Sidirourgos (National and Kapodistrian University of Athens) and Eleftherios Stamatogiannakis and Yannis Ioannidis",
+    "author": "Yannis E Foufoulas and Lefteris Sidirourgos and Eleftherios Stamatogiannakis and Yannis Ioannidis",
     "booktitle": "SIGMOD Conference",
     "title": "Adaptive Compression for Fast Scans on String Columns",
     "year": "2021",
@@ -1682,7 +1682,7 @@
   "Weighted Distinct Sampling: Cardinality Estimation for SPJ Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-weighted-distinct-sampling-cardinality-estimation-for-spj-queries",
-    "author": "Yuan Qiu (Hong Kong Univ. of Science and Technology ) and Yilei Wang and Ke Yi (Hong Kong Univ. of Science and Technology) and Feifei Li and Bin Wu and Chaoqun Zhan",
+    "author": "Yuan Qiu and Yilei Wang and Ke Yi and Feifei Li and Bin Wu and Chaoqun Zhan",
     "booktitle": "SIGMOD Conference",
     "title": "Weighted Distinct Sampling: Cardinality Estimation for SPJ Queries",
     "year": "2021",
@@ -1836,7 +1836,7 @@
   "HADAD: A Lightweight Approach for Optimizing Hybrid Complex Analytics Queries": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-hadad-a-lightweight-approach-for-optimizing-hybrid-complex-analytics-queries",
-    "author": "Rana Alotaibi and Bogdan Cautis and Alin Deutsch and Ioana Manolescu (INRIA and Institut Polytechnique de Paris)",
+    "author": "Rana Alotaibi and Bogdan Cautis and Alin Deutsch and Ioana Manolescu",
     "booktitle": "SIGMOD Conference",
     "title": "HADAD: A Lightweight Approach for Optimizing Hybrid Complex Analytics Queries",
     "year": "2021",
@@ -1878,7 +1878,7 @@
   "Secure Yannakakis: Join-Aggregate Queries over Private Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-secure-yannakakis-join-aggregate-queries-over-private-data",
-    "author": "Yilei Wang and Ke Yi (\" Hong Kong University of Science and Technology, Hong Kong\")",
+    "author": "Yilei Wang and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Secure Yannakakis: Join-Aggregate Queries over Private Data",
     "year": "2021",
@@ -1906,7 +1906,7 @@
   "Residual Sensitivity for Differentially Private Multi-Way Joins": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-residual-sensitivity-for-differentially-private-multi-way-joins",
-    "author": "Wei DONG (Hong Kong University of Science and Technology, Hong Kong) and Ke Yi (\" Hong Kong University of Science and Technology, Hong Kong\")",
+    "author": "Wei DONG and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Residual Sensitivity for Differentially Private Multi-Way Joins",
     "year": "2021",
@@ -1920,7 +1920,7 @@
   "When the Recursive Diversity Anonymity Meets the Ring Signature": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-when-the-recursive-diversity-anonymity-meets-the-ring-signature",
-    "author": "Wangze Ni (Hong Kong University of Science and Technology) and Peng CHENG and Lei Chen (Hong Kong University of Science and Technology) and Xuemin Lin",
+    "author": "Wangze Ni and Peng CHENG and Lei Chen and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "When the Recursive Diversity Anonymity Meets the Ring Signature",
     "year": "2021",
@@ -1962,7 +1962,7 @@
   "DIV: Resolving the Dynamic Issues of Zero-knowledge Set Membership Proof in the Blockchain": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-div-resolving-the-dynamic-issues-of-zero-knowledge-set-membership-proof-in-the-b",
-    "author": "Zihuan XU (Hong Kong University of Science and Technology) and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Zihuan XU and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "DIV: Resolving the Dynamic Issues of Zero-knowledge Set Membership Proof in the Blockchain",
     "year": "2021",
@@ -2074,7 +2074,7 @@
   "Interactive Search for One of the Top-k": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-interactive-search-for-one-of-the-top-k",
-    "author": "Weicheng Wang (Hong Kong University of Science and Technology) and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology) and Min Xie",
+    "author": "Weicheng Wang and Raymond Chi-Wing Wong and Min Xie",
     "booktitle": "SIGMOD Conference",
     "title": "Interactive Search for One of the Top-k",
     "year": "2021",
@@ -2326,7 +2326,7 @@
   "Efficient Exploration of Interesting Aggregates in RDF Graphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-efficient-exploration-of-interesting-aggregates-in-rdf-graphs",
-    "author": "Yanlei Diao and Pawel Guzewicz and Ioana Manolescu (INRIA and Institut Polytechnique de Paris) and Mirjana Mazuran",
+    "author": "Yanlei Diao and Pawel Guzewicz and Ioana Manolescu and Mirjana Mazuran",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Exploration of Interesting Aggregates in RDF Graphs",
     "year": "2021",
@@ -2536,7 +2536,7 @@
   "On m-Impact Regions and Standing Top-k Influence Problems": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2021-on-m-impact-regions-and-standing-top-k-influence-problems",
-    "author": "Bo Tang (Southern University of Science and Technology) and Kyriakos Mouratidis and Mingji Han (Southern University of Science and Technology)",
+    "author": "Bo Tang and Kyriakos Mouratidis and Mingji Han",
     "booktitle": "SIGMOD Conference",
     "title": "On m-Impact Regions and Standing Top-k Influence Problems",
     "year": "2021",

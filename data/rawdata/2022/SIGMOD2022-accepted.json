@@ -142,7 +142,7 @@
   "Conjunctive Queries with Comparisons": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-conjunctive-queries-with-comparisons",
-    "author": "Qichen Wang (Hong Kong University of Science and Technology) and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Qichen Wang and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Conjunctive Queries with Comparisons",
     "year": "2022",
@@ -156,7 +156,7 @@
   "Faster and Better Solution to Embed Lp Metrics by Tree Metrics": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-faster-and-better-solution-to-embed-lp-metrics-by-tree-metrics",
-    "author": "Yuxiang Zeng (Hong Kong University of Science and Technology) and Yongxin Tong and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Yuxiang Zeng and Yongxin Tong and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Faster and Better Solution to Embed Lp Metrics by Tree Metrics",
     "year": "2022",
@@ -226,7 +226,7 @@
   "Camel: Managing Data for Efficient Stream Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-camel-managing-data-for-efficient-stream-learning",
-    "author": "Yiming Li (Hong Kong University of Science and Technology) and Yanyan Shen and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Yiming Li and Yanyan Shen and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Camel: Managing Data for Efficient Stream Learning",
     "year": "2022",
@@ -338,7 +338,7 @@
   "R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-r2t-instance-optimal-truncation-for-differentially-private-query-evaluation-with",
-    "author": "Wei DONG (Hong Kong University of Science and Technology, Hong Kong) and Juanru FANG and Ke Yi (Hong Kong Univ. of Science and Technology) and Yuchao Tao and Ashwin Machanavajjhala",
+    "author": "Wei DONG and Juanru FANG and Ke Yi and Yuchao Tao and Ashwin Machanavajjhala",
     "booktitle": "SIGMOD Conference",
     "title": "R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys",
     "year": "2022",
@@ -520,7 +520,7 @@
   "Serverless Data Science - Are We There Yet? A Case Study of Model Serving": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-serverless-data-science-are-we-there-yet-a-case-study-of-model-serving",
-    "author": "Yuncheng Wu and Tien Tuan Anh Dinh (Singapore University of Technology and Design) and Guoyu Hu and Meihui Zhang and Yeow Meng Chee and Beng Chin Ooi",
+    "author": "Yuncheng Wu and Tien Tuan Anh Dinh and Guoyu Hu and Meihui Zhang and Yeow Meng Chee and Beng Chin Ooi",
     "booktitle": "SIGMOD Conference",
     "title": "Serverless Data Science - Are We There Yet? A Case Study of Model Serving",
     "year": "2022",
@@ -688,7 +688,7 @@
   "Finding Label and Model Errors in Perception Data With Learned Observation Assertions": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-finding-label-and-model-errors-in-perception-data-with-learned-observation-asser",
-    "author": "Daniel Kang and Nikos Arechiga and Sudeep Pillai and Peter D Bailis and Matei Zaharia (Stanford and Databricks)",
+    "author": "Daniel Kang and Nikos Arechiga and Sudeep Pillai and Peter D Bailis and Matei Zaharia",
     "booktitle": "SIGMOD Conference",
     "title": "Finding Label and Model Errors in Perception Data With Learned Observation Assertions",
     "year": "2022",
@@ -814,7 +814,7 @@
   "Entity Resolution with Hierarchical Graph Attention Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-entity-resolution-with-hierarchical-graph-attention-networks",
-    "author": "Dezhong Yao (Huazhong University of Science and Technology) and Yuhong Gu (Huazhong University of Science and Technology) and Gao Cong and Hai Jin (Huazhong University of Science and Technology) and Xinqiao Lv (Huazhong University of Science and Technology)",
+    "author": "Dezhong Yao and Yuhong Gu and Gao Cong and Hai Jin and Xinqiao Lv",
     "booktitle": "SIGMOD Conference",
     "title": "Entity Resolution with Hierarchical Graph Attention Networks",
     "year": "2022",
@@ -926,7 +926,7 @@
   "An Efficient Hamming Space Index Based on Augmented Pigeonhole Principle": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-an-efficient-hamming-space-index-based-on-augmented-pigeonhole-principle",
-    "author": "Qiyu LIU (Hong Kong University of Science and Technology) and Yanyan Shen and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Qiyu LIU and Yanyan Shen and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "An Efficient Hamming Space Index Based on Augmented Pigeonhole Principle",
     "year": "2022",
@@ -954,7 +954,7 @@
   "HUNTER: An Online Cloud Database Hybrid Tuning System for Personalized Requirements": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-hunter-an-online-cloud-database-hybrid-tuning-system-for-personalized-requiremen",
-    "author": "Baoqing Cai (Huazhong University of Science and Technology) and Yu Liu (Huazhong University of Science and Technology) and Ce Zhang and Guangyu Zhang (Huazhong University of Science and Technology) and Ke Zhou (Huazhong University of Science and Technology) and Li Liu (Huazhong University of Science and Technology) and Chunhua Li (Huazhong University of Science and Technology) and Bin Cheng and Jie Yang and Jiashu Xing",
+    "author": "Baoqing Cai and Yu Liu and Ce Zhang and Guangyu Zhang and Ke Zhou and Li Liu and Chunhua Li and Bin Cheng and Jie Yang and Jiashu Xing",
     "booktitle": "SIGMOD Conference",
     "title": "HUNTER: An Online Cloud Database Hybrid Tuning System for Personalized Requirements",
     "year": "2022",
@@ -982,7 +982,7 @@
   "Halo: A Hybrid PMem-DRAM Persistent Hash Index with Fast Recovery": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-halo-a-hybrid-pmem-dram-persistent-hash-index-with-fast-recovery",
-    "author": "Daokun Hu (College of Computer Science and Electronic Engineering, Hunan University, China) and Zhiwen Chen and cw k and Jianhua Sun (College of Computer Science and Electronic Engineering, Hunan University, China) and Hao Chen (College of Computer Science and Electronic Engineering, Hunan University, China)",
+    "author": "Daokun Hu and Zhiwen Chen and cw k and Jianhua Sun and Hao Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Halo: A Hybrid PMem-DRAM Persistent Hash Index with Fast Recovery",
     "year": "2022",
@@ -1178,7 +1178,7 @@
   "TASTI: Semantic Indexes for Machine Learning-based Queries over Unstructured Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-tasti-semantic-indexes-for-machine-learning-based-queries-over-unstructured-data",
-    "author": "Daniel Kang and John Guibas and Peter D Bailis and Tatsunori Hashimoto and Matei Zaharia (Stanford and Databricks)",
+    "author": "Daniel Kang and John Guibas and Peter D Bailis and Tatsunori Hashimoto and Matei Zaharia",
     "booktitle": "SIGMOD Conference",
     "title": "TASTI: Semantic Indexes for Machine Learning-based Queries over Unstructured Data",
     "year": "2022",
@@ -1220,7 +1220,7 @@
   "One Size Does Not Fit All: A Bandit-Based Sampler Combination Framework with Theoretical Guarantees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-one-size-does-not-fit-all-a-bandit-based-sampler-combination-framework-with-theo",
-    "author": "Jinglin Peng and Bolin Ding (\"Data Analytics and Intelligence Lab, Alibaba Group\") and Jiannan Wang and Kai Zeng and Jingren Zhou",
+    "author": "Jinglin Peng and Bolin Ding and Jiannan Wang and Kai Zeng and Jingren Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "One Size Does Not Fit All: A Bandit-Based Sampler Combination Framework with Theoretical Guarantees",
     "year": "2022",
@@ -1234,7 +1234,7 @@
   "Neural Subgraph Counting with Wasserstein Estimator": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-neural-subgraph-counting-with-wasserstein-estimator",
-    "author": "Hanchen Wang and Rong Hu and Ying Zhang and Lu Qin and Wei Wang (Hong Kong University of Science and Technology ) and Wenjie Zhang",
+    "author": "Hanchen Wang and Rong Hu and Ying Zhang and Lu Qin and Wei Wang ) and Wenjie Zhang",
     "booktitle": "SIGMOD Conference",
     "title": "Neural Subgraph Counting with Wasserstein Estimator",
     "year": "2022",
@@ -1542,7 +1542,7 @@
   "𝜏-LevelIndex: Towards Efficient Query Processing in Continuous Preference Space": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2022-levelindex-towards-efficient-query-processing-in-continuous-preference-space",
-    "author": "JIAHAO ZHANG and Bo Tang (Southern University of Science and Technology) and Man Lung Yiu and Xiao Yan (Southern University of Science and Technology) and Keming Li (Southern University of Science and Technology)",
+    "author": "JIAHAO ZHANG and Bo Tang and Man Lung Yiu and Xiao Yan and Keming Li",
     "booktitle": "SIGMOD Conference",
     "title": "𝜏-LevelIndex: Towards Efficient Query Processing in Continuous Preference Space",
     "year": "2022",

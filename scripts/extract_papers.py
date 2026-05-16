@@ -56,7 +56,11 @@ def normalize_entry(entry, title, venue, year):
         "url": entry.get("url", entry.get("doi", "")),
         "doi": entry.get("doi", ""),
         "venue": entry.get("venue", venue),
+        "venue_track": entry.get("venue_track", ""),
     }
+    for optional in ("journal", "container", "source", "publisher", "openalex_id", "semantic_scholar_id"):
+        if entry.get(optional):
+            out[optional] = entry.get(optional)
     if out["doi"] and out["url"] == out["doi"] and not out["url"].startswith("http"):
         out["url"] = "https://doi.org/" + out["doi"]
     return out

@@ -14,6 +14,7 @@ from venues import canonical_venue_from_filename
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
+AUTODATA_DIR = REPO_ROOT / "data" / "autocrawl"
 VENUES_PATH = REPO_ROOT / "data" / "venues.json"
 SCRIPT_DIR = Path(__file__).resolve().parent
 SENTINEL_VERSION = 2
@@ -76,7 +77,16 @@ def save_processed(processed):
 
 def raw_files(directory):
     exts = {".bib", ".json", ".csv", ".html", ".htm"}
-    return sorted(p for p in Path(directory).rglob("*") if p.suffix.lower() in exts)
+    ignored = {"fetch_failures.json"}
+    return sorted(p for p in Path(directory).rglob("*") if p.suffix.lower() in exts and p.name not in ignored)
+
+
+def supplemental_files(directory):
+    path = Path(directory)
+    if not path.exists():
+        return []
+    allowed = {"openalex.json"}
+    return sorted(p for p in path.glob("*.json") if p.name in allowed or p.name.startswith("openalex-"))
 
 
 def run(script, args, stdout_path=None):
@@ -98,9 +108,12 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--filter-only", action="store_true")
     parser.add_argument("--no-rebuild", action="store_true")
+    parser.add_argument("--no-autocrawl", action="store_true")
     args = parser.parse_args()
 
     files = raw_files(args.directory)
+    if Path(args.directory).resolve() == RAWDATA_DIR.resolve() and not args.no_autocrawl:
+        files.extend(supplemental_files(AUTODATA_DIR))
     processed = load_processed()
     grouped = {}
     for path in files:
@@ -112,12 +125,20 @@ def main():
         for venue, paths in grouped.items()
         if processed["venues"].get(venue) != fingerprints[venue]
     }
-    print(f"Found {len(grouped)} venues; {len(changed_groups)} changed", file=sys.stderr)
+    stale_groups = sorted(set(processed["venues"]) - set(grouped))
+    print(f"Found {len(grouped)} venues; {len(changed_groups)} changed; {len(stale_groups)} stale", file=sys.stderr)
     for venue, paths in sorted(changed_groups.items()):
         print(f"  {venue}: {[p.name for p in paths]}", file=sys.stderr)
+    for venue in stale_groups:
+        print(f"  stale {venue}", file=sys.stderr)
 
     if args.dry_run:
         return
+
+    for venue in stale_groups:
+        processed["venues"].pop(venue, None)
+    if stale_groups and not changed_groups:
+        save_processed(processed)
 
     for venue, paths in sorted(changed_groups.items()):
         with tempfile.TemporaryDirectory(prefix=f"text2sql_{venue}_") as tmp:
@@ -143,6 +164,9 @@ def main():
             if not args.filter_only and run("merge_labeldata.py", [labeled_path]):
                 processed["venues"][venue] = fingerprints[venue]
                 save_processed(processed)
+
+    if stale_groups:
+        save_processed(processed)
 
     if not args.filter_only and not args.no_rebuild:
         run("build_site.py", [])

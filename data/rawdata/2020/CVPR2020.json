@@ -6218,7 +6218,7 @@
   "Semantic Correspondence as an Optimal Transport Problem.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiuZYY20",
-    "author": "Yanbin Liu and Linchao Zhu and Makoto Yamada and Yi Yang 0001",
+    "author": "Yanbin Liu 0003 and Linchao Zhu and Makoto Yamada and Yi Yang 0001",
     "booktitle": "CVPR",
     "title": "Semantic Correspondence as an Optimal Transport Problem.",
     "year": "2020",

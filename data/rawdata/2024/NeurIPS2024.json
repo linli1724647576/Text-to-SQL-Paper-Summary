@@ -45432,7 +45432,7 @@
   "TPR: Topology-Preserving Reservoirs for Generalized Zero-Shot Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/ChenLM0024",
-    "author": "Hui Chen and Yanbin Liu and Yongqiang Ma and Nanning Zheng 0001 and Xin Yu 0002",
+    "author": "Hui Chen and Yanbin Liu 0003 and Yongqiang Ma and Nanning Zheng 0001 and Xin Yu 0002",
     "booktitle": "NeurIPS",
     "title": "TPR: Topology-Preserving Reservoirs for Generalized Zero-Shot Learning.",
     "year": "2024",

@@ -44,7 +44,7 @@
   "RM^2: Answer Counting Queries Efficiently under Shuffle Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-rm-2-answer-counting-queries-efficiently-under-shuffle-differential-privacy",
-    "author": "Qiyao Luo and Jianzhe Yu (Hong Kong University of Science and Technology) and Wei Dong and Quanqing Xu and Chuanhui Yang and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Qiyao Luo and Jianzhe Yu and Wei Dong and Quanqing Xu and Chuanhui Yang and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "RM^2: Answer Counting Queries Efficiently under Shuffle Differential Privacy",
     "year": "2025",
@@ -156,7 +156,7 @@
   "SBSC: A fast Self-tuned Bipartite proximity graph-based Spectral Clustering": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-sbsc-a-fast-self-tuned-bipartite-proximity-graph-based-spectral-clustering",
-    "author": "Abdul Khan (PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur) and Rashmi Maheshwari and Mohammad Maksood Akhter (PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur) and Dr.Sraban Kumar Mohanty",
+    "author": "Abdul Khan and Rashmi Maheshwari and Mohammad Maksood Akhter and Dr.Sraban Kumar Mohanty",
     "booktitle": "SIGMOD Conference",
     "title": "SBSC: A fast Self-tuned Bipartite proximity graph-based Spectral Clustering",
     "year": "2025",
@@ -254,7 +254,7 @@
   "Revisiting Graph Analytics Benchmarks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-revisiting-graph-analytics-benchmarks",
-    "author": "Yu Shao and Lingkai Meng and Long Yuan (Nanjing University of Science and Technology) and Longbin Lai and Peng Cheng and Xue Li and Wenyuan Yu and Wenjie Zhang and Jingren Zhou and Xuemin Lin",
+    "author": "Yu Shao and Lingkai Meng and Long Yuan and Longbin Lai and Peng Cheng and Xue Li and Wenyuan Yu and Wenjie Zhang and Jingren Zhou and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Revisiting Graph Analytics Benchmarks",
     "year": "2025",
@@ -366,7 +366,7 @@
   "Practical and Asymptotically Optimal Quantization of High-Dimensional Vectors in Euclidean Space for Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-practical-and-asymptotically-optimal-quantization-of-high-dimensional-vectors-in",
-    "author": "Jianyang Gao and Yutong Gou and Yuexuan Xu and Yongyi Yang and Cheng Long and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)",
+    "author": "Jianyang Gao and Yutong Gou and Yuexuan Xu and Yongyi Yang and Cheng Long and Raymond Chi-Wing Wong",
     "booktitle": "SIGMOD Conference",
     "title": "Practical and Asymptotically Optimal Quantization of High-Dimensional Vectors in Euclidean Space for Approximate Nearest Neighbor Search",
     "year": "2025",
@@ -394,7 +394,7 @@
   "Scalable Complex Event Processing on Video Streams": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-scalable-complex-event-processing-on-video-streams",
-    "author": "Chenxia Han and Chaokun Chang and Srijan Srivastava (Hong Kong Centre For Perceptual and Interactive Intelligence) and YAO LU and Eric Lo",
+    "author": "Chenxia Han and Chaokun Chang and Srijan Srivastava and YAO LU and Eric Lo",
     "booktitle": "SIGMOD Conference",
     "title": "Scalable Complex Event Processing on Video Streams",
     "year": "2025",
@@ -408,7 +408,7 @@
   "How Good are Learned Cost Models, Really? Insights from Query Optimization Tasks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-how-good-are-learned-cost-models-really-insights-from-query-optimization-tasks",
-    "author": "Roman Heinrich and Manisha Luthra (TU Darmstadt and DFKI) and Johannes Wehrstein and Harald Kornmayer and Carsten Binnig",
+    "author": "Roman Heinrich and Manisha Luthra and Johannes Wehrstein and Harald Kornmayer and Carsten Binnig",
     "booktitle": "SIGMOD Conference",
     "title": "How Good are Learned Cost Models, Really? Insights from Query Optimization Tasks",
     "year": "2025",
@@ -450,7 +450,7 @@
   "Yannakakis+: Practical Acyclic Query Evaluation with Theoretical Guarantees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-yannakakis-practical-acyclic-query-evaluation-with-theoretical-guarantees",
-    "author": "Qichen Wang and Bingnan Chen and Binyang DAI (Hong Kong University of Science and Technology) and Ke Yi (Hong Kong Univ. of Science and Technology) and Feifei Li and Liang Lin",
+    "author": "Qichen Wang and Bingnan Chen and Binyang DAI and Ke Yi and Feifei Li and Liang Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Yannakakis+: Practical Acyclic Query Evaluation with Theoretical Guarantees",
     "year": "2025",
@@ -562,7 +562,7 @@
   "Table Overlap Estimation through Graph Embeddings": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-table-overlap-estimation-through-graph-embeddings",
-    "author": "Francesco Pugnaloni and Luca Zecchini (University of Modena and Reggio Emilia) and Matteo Paganelli (University of Modena and Reggio Emilia) and Matteo Lissandrini and Felix Naumann and Giovanni Simonini (University of Modena and Reggio Emilia)",
+    "author": "Francesco Pugnaloni and Luca Zecchini and Matteo Paganelli and Matteo Lissandrini and Felix Naumann and Giovanni Simonini",
     "booktitle": "SIGMOD Conference",
     "title": "Table Overlap Estimation through Graph Embeddings",
     "year": "2025",
@@ -646,7 +646,7 @@
   "CARINA: An Efficient CXL-Oriented Embedding Serving System for Recommendation Models": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-carina-an-efficient-cxl-oriented-embedding-serving-system-for-recommendation-mod",
-    "author": "Peiqi Yin and Qihui Zhou and Xiao Yan (Centre for Perceptual and Interactive Intelligence  ) and Chao Wang and Eric Lo and Changji Li and Lan Lu and Hua Fan and Wenchao Zhou and Ming-Chang YANG and James Cheng",
+    "author": "Peiqi Yin and Qihui Zhou and Xiao Yan  ) and Chao Wang and Eric Lo and Changji Li and Lan Lu and Hua Fan and Wenchao Zhou and Ming-Chang YANG and James Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "CARINA: An Efficient CXL-Oriented Embedding Serving System for Recommendation Models",
     "year": "2025",
@@ -786,7 +786,7 @@
   "Approximate DBSCAN under Differential Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-approximate-dbscan-under-differential-privacy",
-    "author": "Yuan Qiu and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Yuan Qiu and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Approximate DBSCAN under Differential Privacy",
     "year": "2025",
@@ -800,7 +800,7 @@
   "Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-auto-test-learning-semantic-domain-constraints-for-unsupervised-error-detection-",
-    "author": "Qixu Chen and Yeye He and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology) and Weiwei Cui and Song Ge and Haidong Zhang and Dongmei Zhang and Surajit Chaudhuri",
+    "author": "Qixu Chen and Yeye He and Raymond Chi-Wing Wong and Weiwei Cui and Song Ge and Haidong Zhang and Dongmei Zhang and Surajit Chaudhuri",
     "booktitle": "SIGMOD Conference",
     "title": "Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables",
     "year": "2025",
@@ -856,7 +856,7 @@
   "Clementi: Efficient Load Balancing and Communication Overlap for Multi-FPGA Graph Processing": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-clementi-efficient-load-balancing-and-communication-overlap-for-multi-fpga-graph",
-    "author": "Feng Yu and Hongshi Tan and Xinyu Chen (Hong Kong University of Science and Technology ) and Yao Chen and Bingsheng He and Weng-Fai Wong",
+    "author": "Feng Yu and Hongshi Tan and Xinyu Chen ) and Yao Chen and Bingsheng He and Weng-Fai Wong",
     "booktitle": "SIGMOD Conference",
     "title": "Clementi: Efficient Load Balancing and Communication Overlap for Multi-FPGA Graph Processing",
     "year": "2025",
@@ -982,7 +982,7 @@
   "HotStuff-1: Linear Consensus with One-Phase Speculation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-hotstuff-1-linear-consensus-with-one-phase-speculation",
-    "author": "Dakai Kang and Suyash Gupta and Dahlia Malkhi (UC Santa Barbara and Chainlink Labs) and Mohammad Sadoghi",
+    "author": "Dakai Kang and Suyash Gupta and Dahlia Malkhi and Mohammad Sadoghi",
     "booktitle": "SIGMOD Conference",
     "title": "HotStuff-1: Linear Consensus with One-Phase Speculation",
     "year": "2025",
@@ -1066,7 +1066,7 @@
   "Interactive Graph Search Made Simple": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-interactive-graph-search-made-simple",
-    "author": "Shangqi Lu (Hong Kong University of Science and Technology ) and Ru Wang and Yufei Tao",
+    "author": "Shangqi Lu ) and Ru Wang and Yufei Tao",
     "booktitle": "SIGMOD Conference",
     "title": "Interactive Graph Search Made Simple",
     "year": "2025",
@@ -1136,7 +1136,7 @@
   "RLOMM: An Efficient and Robust Online Map Matching Framework with Reinforcement Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-rlomm-an-efficient-and-robust-online-map-matching-framework-with-reinforcement-l",
-    "author": "Minxiao Chen (Beijing University of Posts and Telecommunications) and Haitao Yuan and Nan Jiang (Beijing University of Posts and Telecommunications) and Zhihan Zheng (Beijing University of Posts and Telecommunications) and Sai Wu and Ao Zhou (Beijing University of Posts and Telecommunications) and Shangguang Wang (State Key Laboratory of Networking and Switching Technology)",
+    "author": "Minxiao Chen and Haitao Yuan and Nan Jiang and Zhihan Zheng and Sai Wu and Ao Zhou and Shangguang Wang",
     "booktitle": "SIGMOD Conference",
     "title": "RLOMM: An Efficient and Robust Online Map Matching Framework with Reinforcement Learning",
     "year": "2025",
@@ -1178,7 +1178,7 @@
   "Athena: An Effective Learning-based Framework for Query Optimizer Performance Improvement": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-athena-an-effective-learning-based-framework-for-query-optimizer-performance-imp",
-    "author": "Runzhong LI (Southern University of Science and Technology) and Qilong Li (Southern University of Science and Technology) and Haotian Liu (Southern University of Science and Technology) and Rui Mao and Qing Li and Bo Tang (Southern University of Science and Technology)",
+    "author": "Runzhong LI and Qilong Li and Haotian Liu and Rui Mao and Qing Li and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Athena: An Effective Learning-based Framework for Query Optimizer Performance Improvement",
     "year": "2025",
@@ -1192,7 +1192,7 @@
   "Efficient Indexing for Flexible Label-Constrained Shortest Path Queries in Road Networks": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-efficient-indexing-for-flexible-label-constrained-shortest-path-queries-in-road-",
-    "author": "Libin Wang (Hong Kong University of Science and Technology) and Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)",
+    "author": "Libin Wang and Raymond Chi-Wing Wong",
     "booktitle": "SIGMOD Conference",
     "title": "Efficient Indexing for Flexible Label-Constrained Shortest Path Queries in Road Networks",
     "year": "2025",
@@ -1220,7 +1220,7 @@
   "GPH: An Efficient and Effective Perfect Hashing Scheme for GPU Architectures": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-gph-an-efficient-and-effective-perfect-hashing-scheme-for-gpu-architectures",
-    "author": "Jiaping Cao and Le XU ) and Man Lung Yiu and Jianbin Qin and Bo Tang (Southern University of Science and Technology)",
+    "author": "Jiaping Cao and Le XU ) and Man Lung Yiu and Jianbin Qin and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "GPH: An Efficient and Effective Perfect Hashing Scheme for GPU Architectures",
     "year": "2025",
@@ -1262,7 +1262,7 @@
   "DFlush: DPU-Offloaded Flush for Disaggregated LSM-based Key-Value Stores": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-dflush-dpu-offloaded-flush-for-disaggregated-lsm-based-key-value-stores",
-    "author": "Chen Ding (Huazhong University of Science and Technology) and Kai Lu (Huazhong University of Science and Technology) and QuanYi Zhang (Huazhong University of Science and Technology) and zekun ye and Ting Yao and Daohui Wang and huatao wu and Jiguang Wan (Huazhong University of Science and Technology)",
+    "author": "Chen Ding and Kai Lu and QuanYi Zhang and zekun ye and Ting Yao and Daohui Wang and huatao wu and Jiguang Wan",
     "booktitle": "SIGMOD Conference",
     "title": "DFlush: DPU-Offloaded Flush for Disaggregated LSM-based Key-Value Stores",
     "year": "2025",
@@ -1318,7 +1318,7 @@
   "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-apt-serve-adaptive-request-scheduling-on-hybrid-cache-for-scalable-llm-inference",
-    "author": "Shihong Gao (The Hong Kong University of Science and Technology) and Xin Zhang (Hong Kong University of Science and Technology) and Yanyan Shen and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Shihong Gao and Xin Zhang and Yanyan Shen and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
     "year": "2025",
@@ -1486,7 +1486,7 @@
   "Low Rank Learning for Offline Query Optimization": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-low-rank-learning-for-offline-query-optimization",
-    "author": "Zixuan Yi and Yao Tian (The Hong Kong University of Science and Technology) and Zack Ives and Ryan Marcus",
+    "author": "Zixuan Yi and Yao Tian and Zack Ives and Ryan Marcus",
     "booktitle": "SIGMOD Conference",
     "title": "Low Rank Learning for Offline Query Optimization",
     "year": "2025",
@@ -1528,7 +1528,7 @@
   "DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-digra-a-dynamic-graph-indexing-for-approximate-nearest-neighbor-search-with-rang",
-    "author": "Mengxu Jiang and Zhi Yang (Huazhong University of Science and Technology) and Fangyuan Zhang and Guanhao Hou and Jieming Shi and Wenchao Zhou and Feifei Li and Sibo Wang",
+    "author": "Mengxu Jiang and Zhi Yang and Fangyuan Zhang and Guanhao Hou and Jieming Shi and Wenchao Zhou and Feifei Li and Sibo Wang",
     "booktitle": "SIGMOD Conference",
     "title": "DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter",
     "year": "2025",
@@ -1696,7 +1696,7 @@
   "Accelerating Core Decomposition in Billion-Scale Hypergraphs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-accelerating-core-decomposition-in-billion-scale-hypergraphs",
-    "author": "Wenqian Zhang and Zhengyi Yang and Dong Wen and Wentao Li (The Hong Kong University of Science and Technology ) and Wenjie Zhang and Xuemin Lin",
+    "author": "Wenqian Zhang and Zhengyi Yang and Dong Wen and Wentao Li ) and Wenjie Zhang and Xuemin Lin",
     "booktitle": "SIGMOD Conference",
     "title": "Accelerating Core Decomposition in Billion-Scale Hypergraphs",
     "year": "2025",
@@ -1710,7 +1710,7 @@
   "MAST: Towards Efficient Analytical Query Processing on Point Cloud Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-mast-towards-efficient-analytical-query-processing-on-point-cloud-data",
-    "author": "Jiangneng Li and Haitao Yuan and Gao Cong and Han Mao Kiah and Shuhao Zhang (Huazhong University of Science and Technology)",
+    "author": "Jiangneng Li and Haitao Yuan and Gao Cong and Han Mao Kiah and Shuhao Zhang",
     "booktitle": "SIGMOD Conference",
     "title": "MAST: Towards Efficient Analytical Query Processing on Point Cloud Data",
     "year": "2025",
@@ -1752,7 +1752,7 @@
   "U-DPAP: Utility-aware Efficient Range Counting on Privacy-preserving Spatial Data Federation": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-u-dpap-utility-aware-efficient-range-counting-on-privacy-preserving-spatial-data",
-    "author": "yahong chen and Xiaoyi Pang and Xiaoguang Li and Hanyi Wang  Software Technology Co., Ltd.) and Ben Niu and Shengnan Hu",
+    "author": "yahong chen and Xiaoyi Pang and Xiaoguang Li and Hanyi Wang  Software Technology Co. and Ltd.) and Ben Niu and Shengnan Hu",
     "booktitle": "SIGMOD Conference",
     "title": "U-DPAP: Utility-aware Efficient Range Counting on Privacy-preserving Spatial Data Federation",
     "year": "2025",
@@ -1766,7 +1766,7 @@
   "Capsule: an Out-of-Core Training Mechanism for Colossal GNNs": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-capsule-an-out-of-core-training-mechanism-for-colossal-gnns",
-    "author": "Yongan Xiang (University of Science and Technology of China ) and Zezhong Ding (University of Science and Technology of China) and Rui Guo (University of Science and Technology of China) and Shangyou Wang (University of Science and Technology of China) and Xike Xie (University of Science and Technology of China) and S. Kevin Zhou",
+    "author": "Yongan Xiang and Zezhong Ding and Rui Guo and Shangyou Wang and Xike Xie and S. Kevin Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Capsule: an Out-of-Core Training Mechanism for Colossal GNNs",
     "year": "2025",
@@ -1822,7 +1822,7 @@
   "Sequoia: An Accessible and Extensible Framework for Privacy-Preserving Machine Learning over Distributed Data": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-sequoia-an-accessible-and-extensible-framework-for-privacy-preserving-machine-le",
-    "author": "Kaiqiang Xu and Di Chai and Junxue ZHANG (Hong Kong University of Science and Technology) and Fan Lai and Kai Chen",
+    "author": "Kaiqiang Xu and Di Chai and Junxue ZHANG and Fan Lai and Kai Chen",
     "booktitle": "SIGMOD Conference",
     "title": "Sequoia: An Accessible and Extensible Framework for Privacy-Preserving Machine Learning over Distributed Data",
     "year": "2025",
@@ -1892,7 +1892,7 @@
   "Disco: A Compact Index for LSM-trees": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-disco-a-compact-index-for-lsm-trees",
-    "author": "Wenshao Zhong (University of Illinois at Chicago and TikTok Inc.) and Chen Chen and Xingbo Wu and Jakob Eriksson",
+    "author": "Wenshao Zhong and Chen Chen and Xingbo Wu and Jakob Eriksson",
     "booktitle": "SIGMOD Conference",
     "title": "Disco: A Compact Index for LSM-trees",
     "year": "2025",
@@ -1934,7 +1934,7 @@
   "InTime: Towards Performance Predictability In Byzantine Fault Tolerant Proof-of-Stake Consensus": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-intime-towards-performance-predictability-in-byzantine-fault-tolerant-proof-of-s",
-    "author": "Weijie Sun (The Hong Kong University of Science and Technology) and Zihuan XU and Wangze Ni (Hong Kong University of Science and Technology) and Lei Chen (Hong Kong University of Science and Technology)",
+    "author": "Weijie Sun and Zihuan XU and Wangze Ni and Lei Chen",
     "booktitle": "SIGMOD Conference",
     "title": "InTime: Towards Performance Predictability In Byzantine Fault Tolerant Proof-of-Stake Consensus",
     "year": "2025",
@@ -2102,7 +2102,7 @@
   "DiskGNN: Bridging I/O Efficiency and Model Accuracy for Out-of-Core GNN Training": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-diskgnn-bridging-i-o-efficiency-and-model-accuracy-for-out-of-core-gnn-training",
-    "author": "Renjie Liu (Southern University of Science and Technology) and Yichuan Wang and Xiao Yan (Centre for Perceptual and Interactive Intelligence  ) and Zhenkun Cai and Minjie Wang and Haitian Jiang and Bo Tang (Southern University of Science and Technology) and Jinyang Li",
+    "author": "Renjie Liu and Yichuan Wang and Xiao Yan  ) and Zhenkun Cai and Minjie Wang and Haitian Jiang and Bo Tang and Jinyang Li",
     "booktitle": "SIGMOD Conference",
     "title": "DiskGNN: Bridging I/O Efficiency and Model Accuracy for Out-of-Core GNN Training",
     "year": "2025",
@@ -2214,7 +2214,7 @@
   "RLER-TTE: An Efficient and Effective Framework for En Route Travel Time Estimation with Reinforcement Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-rler-tte-an-efficient-and-effective-framework-for-en-route-travel-time-estimatio",
-    "author": "Zhihan Zheng (Beijing University of Posts and Telecommunications) and Haitao Yuan and Minxiao Chen (Beijing University of Posts and Telecommunications) and Shangguang Wang (State Key Laboratory of Networking and Switching Technology)",
+    "author": "Zhihan Zheng and Haitao Yuan and Minxiao Chen and Shangguang Wang",
     "booktitle": "SIGMOD Conference",
     "title": "RLER-TTE: An Efficient and Effective Framework for En Route Travel Time Estimation with Reinforcement Learning",
     "year": "2025",
@@ -2312,7 +2312,7 @@
   "Progressive entity resolution: a design space exploration": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-progressive-entity-resolution-a-design-space-exploration",
-    "author": "Jakub Maciejewski (National and Kapodistrian University of Athens) and Konstantinos Nikoletos (National and Kapodistrian University of Athens) and George Papadakis and Yannis Velegrakis (Utrecht University and University of Trento)",
+    "author": "Jakub Maciejewski and Konstantinos Nikoletos and George Papadakis and Yannis Velegrakis",
     "booktitle": "SIGMOD Conference",
     "title": "Progressive entity resolution: a design space exploration",
     "year": "2025",
@@ -2396,7 +2396,7 @@
   "SecureXGB: A Secure and Efficient Multi-party Protocol for Vertical Federated XGBoost": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-securexgb-a-secure-and-efficient-multi-party-protocol-for-vertical-federated-xgb",
-    "author": "Zongda Han (State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications) and Xiang Cheng (Beijing University of Posts and Telecommunications) and Wenhong Zhao (Beijing University of Posts and Telecommunications) and Jiaxin Fu (Beijing University of Posts and Telecommunications) and Zhaofeng He (Beijing University of Posts and Telecommunications) and Sen Su (Beijing University of Posts and Telecommunications)",
+    "author": "Zongda Han and Xiang Cheng and Wenhong Zhao and Jiaxin Fu and Zhaofeng He and Sen Su",
     "booktitle": "SIGMOD Conference",
     "title": "SecureXGB: A Secure and Efficient Multi-party Protocol for Vertical Federated XGBoost",
     "year": "2025",
@@ -2424,7 +2424,7 @@
   "Nezha: An Efficient Distributed Graph Processing System on Heterogeneous Hardware": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-nezha-an-efficient-distributed-graph-processing-system-on-heterogeneous-hardware",
-    "author": "pengjie cui and Haotian Liu (Southern University of Science and Technology) and Dong Jiang and Bo Tang (Southern University of Science and Technology) and Ye Yuan",
+    "author": "pengjie cui and Haotian Liu and Dong Jiang and Bo Tang and Ye Yuan",
     "booktitle": "SIGMOD Conference",
     "title": "Nezha: An Efficient Distributed Graph Processing System on Heterogeneous Hardware",
     "year": "2025",
@@ -2494,7 +2494,7 @@
   "AquaPipe: A Quality-Aware Pipeline for Knowledge Retrieval and Large Language Models": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-aquapipe-a-quality-aware-pipeline-for-knowledge-retrieval-and-large-language-mod",
-    "author": "runjie yu (Huazhong University of Science and Technology) and Weizhou Huang (Huazhong University of Science and Technology) and shuhan bai (Huazhong University of Science and Technology) and Jian Zhou (Huazhong University of Science and Technology) and Fei Wu (Huazhong University of Science and Technology)",
+    "author": "runjie yu and Weizhou Huang and shuhan bai and Jian Zhou and Fei Wu",
     "booktitle": "SIGMOD Conference",
     "title": "AquaPipe: A Quality-Aware Pipeline for Knowledge Retrieval and Large Language Models",
     "year": "2025",
@@ -2536,7 +2536,7 @@
   "Multi-Level Graph Representation Learning Through Predictive Community-based Partitioning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-multi-level-graph-representation-learning-through-predictive-community-based-par",
-    "author": "Bo-Young Lim (Seoul National University of Science and Technology) and Jeong-Ha Park (Seoul National University of Science and Technology) and Kisung Lee and Hyuk-Yoon Kwon (Seoul National University of Science and Technology)",
+    "author": "Bo-Young Lim and Jeong-Ha Park and Kisung Lee and Hyuk-Yoon Kwon",
     "booktitle": "SIGMOD Conference",
     "title": "Multi-Level Graph Representation Learning Through Predictive Community-based Partitioning",
     "year": "2025",
@@ -2774,7 +2774,7 @@
   "Subspace Collision: An Efficient and Accurate Framework for High-dimensional Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-subspace-collision-an-efficient-and-accurate-framework-for-high-dimensional-appr",
-    "author": "Jiuqi Wei and Xiaodong Lee and Zhenyu Liao (Huazhong University of Science and Technology) and Themis Palpanas and Botao Peng",
+    "author": "Jiuqi Wei and Xiaodong Lee and Zhenyu Liao and Themis Palpanas and Botao Peng",
     "booktitle": "SIGMOD Conference",
     "title": "Subspace Collision: An Efficient and Accurate Framework for High-dimensional Approximate Nearest Neighbor Search",
     "year": "2025",
@@ -2788,7 +2788,7 @@
   "Ultraverse: A System-Centric Framework for Efficient What-If Analysis for Database-Intensive Web Applications": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-ultraverse-a-system-centric-framework-for-efficient-what-if-analysis-for-databas",
-    "author": "Ronny Ko (Ohio State University and Osaka University) and Chuan Xiao and Makoto Onizuka and Zhiqiang Lin and Yihe Huang",
+    "author": "Ronny Ko and Chuan Xiao and Makoto Onizuka and Zhiqiang Lin and Yihe Huang",
     "booktitle": "SIGMOD Conference",
     "title": "Ultraverse: A System-Centric Framework for Efficient What-If Analysis for Database-Intensive Web Applications",
     "year": "2025",
@@ -2830,7 +2830,7 @@
   "Optimizing Block Skipping for High-Dimensional Data with Learned Adaptive Curve": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-optimizing-block-skipping-for-high-dimensional-data-with-learned-adaptive-curve",
-    "author": "Xu Chen (University of Electronic Science and Technology of China) and Shuncheng Liu (University of Electronic Science and Technology of China) and Tong Yuan and tao ye and Kai Zeng and Han Su (University of Electronic Science and Technology of China) and Kai Zheng (University of Electronic Science and Technology of China)",
+    "author": "Xu Chen and Shuncheng Liu and Tong Yuan and tao ye and Kai Zeng and Han Su and Kai Zheng",
     "booktitle": "SIGMOD Conference",
     "title": "Optimizing Block Skipping for High-Dimensional Data with Learned Adaptive Curve",
     "year": "2025",
@@ -2844,7 +2844,7 @@
   "Online Detection of Anomalies in Temporal Knowledge Graphs with Interpretability": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-online-detection-of-anomalies-in-temporal-knowledge-graphs-with-interpretability",
-    "author": "Jiasheng Zhang (University of Electronic Science and Technology of China) and Rex Ying and Jie Shao (University of Electronic Science and Technology of China)",
+    "author": "Jiasheng Zhang and Rex Ying and Jie Shao",
     "booktitle": "SIGMOD Conference",
     "title": "Online Detection of Anomalies in Temporal Knowledge Graphs with Interpretability",
     "year": "2025",
@@ -3166,7 +3166,7 @@
   "Personalized Truncation for Personalized Privacy": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-personalized-truncation-for-personalized-privacy",
-    "author": "Dajun Sun (Hong Kong University of Science and Technology) and Wei Dong and Yuan Qiu (Hong Kong Univ. of Science and Technology ) and Ke Yi (Hong Kong Univ. of Science and Technology)",
+    "author": "Dajun Sun and Wei Dong and Yuan Qiu and Ke Yi",
     "booktitle": "SIGMOD Conference",
     "title": "Personalized Truncation for Personalized Privacy",
     "year": "2025",
@@ -3292,7 +3292,7 @@
   "GABoost: Graph Alignment Boosting via Local Optimum Escape": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-gaboost-graph-alignment-boosting-via-local-optimum-escape",
-    "author": "Wei Liu and Wei Zhang and Haiyan Zhao and Zhi Jin , Ministry o)",
+    "author": "Wei Liu and Wei Zhang and Haiyan Zhao and Zhi Jin and Ministry o)",
     "booktitle": "SIGMOD Conference",
     "title": "GABoost: Graph Alignment Boosting via Local Optimum Escape",
     "year": "2025",
@@ -3348,7 +3348,7 @@
   "Atom: An Efficient Query Serving System for Embedding-based Knowledge Graph Reasoning with Operator-level Batching": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-atom-an-efficient-query-serving-system-for-embedding-based-knowledge-graph-reaso",
-    "author": "qihui zhou and Peiqi Yin and Xiao Yan (Centre for Perceptual and Interactive Intelligence  ) and Changji Li and Guanxian Jiang and James Cheng",
+    "author": "qihui zhou and Peiqi Yin and Xiao Yan  ) and Changji Li and Guanxian Jiang and James Cheng",
     "booktitle": "SIGMOD Conference",
     "title": "Atom: An Efficient Query Serving System for Embedding-based Knowledge Graph Reasoning with Operator-level Batching",
     "year": "2025",
@@ -3446,7 +3446,7 @@
   "Tao: Improving Resource Utilization while Guaranteeing SLO in Multi-tenant Relational Database-as-a-Service": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-tao-improving-resource-utilization-while-guaranteeing-slo-in-multi-tenant-relati",
-    "author": "Haotian Liu (Southern University of Science and Technology) and Runzhong LI (Southern University of Science and Technology) and Ziyang Zhang (Southern University of Science and Technology) and Bo Tang (Southern University of Science and Technology)",
+    "author": "Haotian Liu and Runzhong LI and Ziyang Zhang and Bo Tang",
     "booktitle": "SIGMOD Conference",
     "title": "Tao: Improving Resource Utilization while Guaranteeing SLO in Multi-tenant Relational Database-as-a-Service",
     "year": "2025",

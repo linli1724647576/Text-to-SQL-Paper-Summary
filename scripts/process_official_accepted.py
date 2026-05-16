@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 from label_papers import filter_papers, label_papers
+from paper_utils import dedupe_papers, normalize_title_key, upsert_paper
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
@@ -34,23 +35,28 @@ def combine_accepted(rawdata_dir):
 
 def merge_labeled(labeled, labeldata_path, no_overwrite=True):
     existing = load_json(labeldata_path) if labeldata_path.exists() else {}
+    existing, existing_duplicates = dedupe_papers(existing)
+    index = {
+        normalize_title_key(entry.get("title") or title): title
+        for title, entry in existing.items()
+        if normalize_title_key(entry.get("title") or title)
+    }
     added = updated = skipped = invalid = 0
     for title, entry in labeled.items():
         if not entry.get("labels") or not entry.get("pipeline_stages"):
             invalid += 1
             continue
-        key = entry.get("title") or title
-        if key in existing:
-            if no_overwrite:
-                skipped += 1
-            else:
-                existing[key] = entry
-                updated += 1
-        else:
-            existing[key] = entry
+        status = upsert_paper(existing, index, title, entry, no_overwrite=no_overwrite)
+        if status == "added":
             added += 1
+        elif status == "updated":
+            updated += 1
+        elif status == "skipped":
+            skipped += 1
+        else:
+            invalid += 1
     write_json(labeldata_path, dict(sorted(existing.items())))
-    return added, updated, skipped, invalid, len(existing)
+    return added, updated, skipped, invalid, len(existing), existing_duplicates
 
 
 def main():
@@ -75,7 +81,8 @@ def main():
     print(f"Filtered and labeled {len(labeled)} relevant papers")
 
     stats = merge_labeled(labeled, Path(args.labeldata), no_overwrite=not args.overwrite)
-    added, updated, skipped, invalid, total = stats
+    added, updated, skipped, invalid, total, existing_duplicates = stats
+    print(f"Deduped existing duplicates: {existing_duplicates}")
     print(f"Added: {added}")
     print(f"Updated: {updated}")
     print(f"Skipped: {skipped}")

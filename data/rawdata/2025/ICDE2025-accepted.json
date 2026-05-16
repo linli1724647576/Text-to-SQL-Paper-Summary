@@ -11,7 +11,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Meta-learning Based CTR Algorithm Selection and Hyperparameter Optimization": {
     "type": "INPROCEEDINGS",
@@ -25,7 +25,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Automatic and Efficient Prediction Query Processing in Analytical Database": {
     "type": "INPROCEEDINGS",
@@ -39,7 +39,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "GRACEFUL: A Learned Cost Estimator For UDFs": {
     "type": "INPROCEEDINGS",
@@ -53,7 +53,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MemQ: A Graph-Based Query Memory Prediction Framework for Effective Workload Scheduling": {
     "type": "INPROCEEDINGS",
@@ -67,7 +67,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Learning-based Graph Simulation for Temporal Graphs": {
     "type": "INPROCEEDINGS",
@@ -81,7 +81,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DataVisT5: A Pre-trained Language Model for Jointly Understanding Text and Data Visualization": {
     "type": "INPROCEEDINGS",
@@ -95,7 +95,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "pFedAFM: Adaptive Feature Mixture for Data-Level Personalization in Heterogeneous Federated Learning on Mobile Edge Devices": {
     "type": "INPROCEEDINGS",
@@ -109,7 +109,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "On Simplifying Large-Scale Spatial Vectors: Fast, Memory-Efficient, and Cost-Predictable k-means": {
     "type": "INPROCEEDINGS",
@@ -123,7 +123,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Defending against Attribute Inference Attacks in Post-Training of Recommendation Systems via Unlearning": {
     "type": "INPROCEEDINGS",
@@ -137,7 +137,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Intervention-Driven Correlation Reduction: A Data Generation Approach for Achieving Counterfactually Fair Predictors": {
     "type": "INPROCEEDINGS",
@@ -151,7 +151,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "SeSeMI: Secure Serverless Model Inference on Sensitive Data": {
     "type": "INPROCEEDINGS",
@@ -165,7 +165,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Fairness-Aware Active Online Learning with Changing Environments": {
     "type": "INPROCEEDINGS",
@@ -179,7 +179,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Explaining Expert Search and Team Formation Systems with ExES": {
     "type": "INPROCEEDINGS",
@@ -193,7 +193,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Fair Graph Neural Networks via Graph Counterfactual without sensitive attributes": {
     "type": "INPROCEEDINGS",
@@ -207,7 +207,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "E 3 FS: Efficient, Secure, and Verifiable Fuzzy Search with Data Updates in Hybrid-Storage Blockchains": {
     "type": "INPROCEEDINGS",
@@ -221,7 +221,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "VGQ: Enabling Verifiable Graph Queries on Blockchain Systems": {
     "type": "INPROCEEDINGS",
@@ -235,7 +235,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Loom: A Deterministic Execution Framework Towards Nested Contract Transactions": {
     "type": "INPROCEEDINGS",
@@ -249,7 +249,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MassBFT: Fast and Scalable Geo-Distributed Byzantine Fault-Tolerant Consensus": {
     "type": "INPROCEEDINGS",
@@ -263,7 +263,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MEST: An Efficient Authenticated Secondary Index in Blockchain Systems": {
     "type": "INPROCEEDINGS",
@@ -277,7 +277,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Proving Cypher Query Equivalence": {
     "type": "INPROCEEDINGS",
@@ -291,7 +291,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Accelerating Shortest Path Counting on Road Networks": {
     "type": "INPROCEEDINGS",
@@ -305,7 +305,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Searching Society over Large Heterogeneous Information Networks": {
     "type": "INPROCEEDINGS",
@@ -319,7 +319,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "LORE: Learning-based Resource Recommendation for Big Data Queries": {
     "type": "INPROCEEDINGS",
@@ -333,7 +333,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "WAF: An Efficient WebAssembly-based Execution Environment for User-defined Functions": {
     "type": "INPROCEEDINGS",
@@ -347,7 +347,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Machine Learning Inference Pipeline Execution Using Pure SQL Based on Operator Fusion": {
     "type": "INPROCEEDINGS",
@@ -361,7 +361,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hyper: Hybrid Physical Design Advisor with Multi-agent Reinforcement Learning": {
     "type": "INPROCEEDINGS",
@@ -375,7 +375,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TopTune: Tailored Optimization for Categorical and Continuous Knobs Towards Accelerated and Improved Database Performance Tuning": {
     "type": "INPROCEEDINGS",
@@ -389,7 +389,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Rabbit: Retrieval-Augmented Generation Enables Better Automatic Database Knob Tuning": {
     "type": "INPROCEEDINGS",
@@ -403,7 +403,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MaskSearch: Querying Image Masks at Scale": {
     "type": "INPROCEEDINGS",
@@ -417,7 +417,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Catch Me If You Can: A Multi-Agent Synthetic Fraud Detection Framework for Complex Networks": {
     "type": "INPROCEEDINGS",
@@ -431,7 +431,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "An Adaptive Sampling Algorithm for the Top-K Group Betweenness Centrality": {
     "type": "INPROCEEDINGS",
@@ -445,7 +445,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BSG4Bot:Efficient Bot Detection based on Biased Heterogeneous Subgraphs": {
     "type": "INPROCEEDINGS",
@@ -459,7 +459,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Backdoor Graph Condensation": {
     "type": "INPROCEEDINGS",
@@ -473,7 +473,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FastFT: Accelerating Reinforced Feature Transformation via Advanced Exploration Strategies": {
     "type": "INPROCEEDINGS",
@@ -487,7 +487,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Revelio: Revealing Important Message Flows in Graph Neural Networks": {
     "type": "INPROCEEDINGS",
@@ -501,7 +501,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Path-based summary explanations for graph recommenders": {
     "type": "INPROCEEDINGS",
@@ -515,7 +515,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Interpretable Video based Stress Detection with Self-Refine Chain Reasoning": {
     "type": "INPROCEEDINGS",
@@ -529,7 +529,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Synthesizing Scoring Functions for Rankings Using Symbolic Gradient Descent": {
     "type": "INPROCEEDINGS",
@@ -543,7 +543,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Facility Location for Fair and Equitable Query Results": {
     "type": "INPROCEEDINGS",
@@ -557,7 +557,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Deep Dive into Protocol Design: How to Improve IPFS Performance Without Sacrificing Decentralization": {
     "type": "INPROCEEDINGS",
@@ -571,7 +571,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hamava: Fault-tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters": {
     "type": "INPROCEEDINGS",
@@ -585,7 +585,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Promi: Progressive Live Migration in Distributed Database Systems": {
     "type": "INPROCEEDINGS",
@@ -599,7 +599,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "GeoTP: Latency-aware Geo-Distributed Transaction Processing in Database Middlewares": {
     "type": "INPROCEEDINGS",
@@ -613,7 +613,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Scaling Asynchronous Graph Query Processing via Partitioned Stateful Traversal Machines": {
     "type": "INPROCEEDINGS",
@@ -627,7 +627,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Indexing for Label-constrained Cohesive Subgraph Queries over Large Graphs": {
     "type": "INPROCEEDINGS",
@@ -641,7 +641,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TopK-BC: Efficient Maintenance of Top k (p,q)-bicliques over Streaming Bipartite Graphs": {
     "type": "INPROCEEDINGS",
@@ -655,7 +655,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "HIGGS: Hierarchy-Guided Graph Stream Summarization": {
     "type": "INPROCEEDINGS",
@@ -669,7 +669,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Distributed Evaluation of Graph Queries using Recursive Relational Algebra": {
     "type": "INPROCEEDINGS",
@@ -683,7 +683,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Route and Area Matching Query in Dynamic Road Networks": {
     "type": "INPROCEEDINGS",
@@ -697,7 +697,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BQSched: A Non-intrusive Scheduler for Batch Concurrent Queries via Reinforcement Learning": {
     "type": "INPROCEEDINGS",
@@ -711,7 +711,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A-Tune-Online: Efficient and QoS-aware Online Configuration Tuning for Dynamic Workloads": {
     "type": "INPROCEEDINGS",
@@ -725,7 +725,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "HAIDES: Adaptive Approximation of Inference Queries over Unstructured Data": {
     "type": "INPROCEEDINGS",
@@ -739,7 +739,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Vista: Vector Indexing and Search for Large-scale Imbalanced Datasets": {
     "type": "INPROCEEDINGS",
@@ -753,7 +753,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Boosting Accuracy and Efficiency for Vector Retrieval with Local Scaling Graph": {
     "type": "INPROCEEDINGS",
@@ -767,7 +767,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hounding Data Diversity: Towards Participant Selection in Vertical Federated Learning": {
     "type": "INPROCEEDINGS",
@@ -781,7 +781,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Approximate Vector Set Search: A Bio-Inspired Approach for High-Dimensional Spaces": {
     "type": "INPROCEEDINGS",
@@ -795,7 +795,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "PFCA: Efficient Path Filtering with Causal Analysis for Healthcare Risk Prediction": {
     "type": "INPROCEEDINGS",
@@ -809,7 +809,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users": {
     "type": "INPROCEEDINGS",
@@ -823,7 +823,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Pseudo-label-Based Unsupervised Granular-ball Division and Fast Spectral Clustering for High-dimensional Data": {
     "type": "INPROCEEDINGS",
@@ -837,7 +837,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MARIOH: Multiplicity-Aware Hypergraph Reconstruction": {
     "type": "INPROCEEDINGS",
@@ -851,7 +851,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "OptMatch: an Efficient and Generic Neural Network-assisted Subgraph Matching Approch": {
     "type": "INPROCEEDINGS",
@@ -865,7 +865,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Dynamic Attributed Graph Generation": {
     "type": "INPROCEEDINGS",
@@ -879,7 +879,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FrontOrder: Frontier-Guided Graph Reordering": {
     "type": "INPROCEEDINGS",
@@ -893,7 +893,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Training-free Heterogeneous Graph Condensation via Data Selection": {
     "type": "INPROCEEDINGS",
@@ -907,7 +907,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Bargaining-based Data Markets": {
     "type": "INPROCEEDINGS",
@@ -921,7 +921,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Computing Shapley Values in Preference Queries": {
     "type": "INPROCEEDINGS",
@@ -935,7 +935,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BLEND: A Unified Data Discovery System": {
     "type": "INPROCEEDINGS",
@@ -949,7 +949,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Zero-Training Error Correction System with Large Language Models": {
     "type": "INPROCEEDINGS",
@@ -963,7 +963,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "On Scalable Query Pricing in Data Marketplaces": {
     "type": "INPROCEEDINGS",
@@ -977,7 +977,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DEPA: Delta Shifting and Distribution Shaping for Efficient Adaptive Indexing": {
     "type": "INPROCEEDINGS",
@@ -991,7 +991,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "twCache: Thread-Wise Cache Management with High Concurrency Performance": {
     "type": "INPROCEEDINGS",
@@ -1005,7 +1005,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Storage Model with Fine-Grained In-Storage Query Processing for Spatio-Temporal Data": {
     "type": "INPROCEEDINGS",
@@ -1019,7 +1019,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Fast and Exact Similarity Search in less than a Blink of an Eye": {
     "type": "INPROCEEDINGS",
@@ -1033,7 +1033,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Random Sampling over Spatial Range Joins": {
     "type": "INPROCEEDINGS",
@@ -1047,7 +1047,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Rottnest: Indexing Data Lakes for Search": {
     "type": "INPROCEEDINGS",
@@ -1061,7 +1061,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TierBase: A Workload-Driven Cost-Optimized Key-Value Store": {
     "type": "INPROCEEDINGS",
@@ -1075,7 +1075,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Local-to-cloud Database Synchronization via Fine-grained Hybrid Compression": {
     "type": "INPROCEEDINGS",
@@ -1089,7 +1089,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Anomaly Diagnosis with Siamese Discrepancy Networks in Distributed Cloud Databases": {
     "type": "INPROCEEDINGS",
@@ -1103,7 +1103,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TabSketchFM: Sketch-based Tabular Representation Learning for Data Discovery over Data Lakes": {
     "type": "INPROCEEDINGS",
@@ -1117,7 +1117,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "ChainsFormer: Numerical Reasoning on Knowledge Graphs from a Chain Perspective": {
     "type": "INPROCEEDINGS",
@@ -1131,7 +1131,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "No Rule is Forever: Datalog Reasoning with Rule Amendments": {
     "type": "INPROCEEDINGS",
@@ -1145,7 +1145,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Leveraging Heterogeneous Experts with Advantageous Pattern Memory Learning for Traffic Prediction": {
     "type": "INPROCEEDINGS",
@@ -1159,7 +1159,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CLEAR: A Parser-Independent Disambiguation Framework for NL2SQL": {
     "type": "INPROCEEDINGS",
@@ -1173,7 +1173,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Robustness of Text-to-Visualization Translation against Lexical and Phrasal Variability": {
     "type": "INPROCEEDINGS",
@@ -1187,7 +1187,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Approximate Borderline Sampling using Granular-Ball for Classification Tasks": {
     "type": "INPROCEEDINGS",
@@ -1201,7 +1201,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DiffODE: Neural ODE with Differentiable Hidden State for Irregular Time Series Analysis": {
     "type": "INPROCEEDINGS",
@@ -1215,7 +1215,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Data Valuation Approximation in Federated Learning: A Sampling-based Approach": {
     "type": "INPROCEEDINGS",
@@ -1229,7 +1229,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CrossST: An Efficient Pre-Training Framework for Cross-District Pattern Generalization in Urban Spatio-Temporal Forecasting": {
     "type": "INPROCEEDINGS",
@@ -1243,7 +1243,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Adaptive Data and Task Joint Scheduling for Multi-Task Learning": {
     "type": "INPROCEEDINGS",
@@ -1257,7 +1257,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CommunityDF: A Guided Denoising Diffusion Approach for Community Search": {
     "type": "INPROCEEDINGS",
@@ -1271,7 +1271,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "GraphPrompter: Multi-stage Adaptive Prompt Optimization for Graph In-Context Learning": {
     "type": "INPROCEEDINGS",
@@ -1285,7 +1285,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Mixed Precision Quantization in Graph Neural Networks": {
     "type": "INPROCEEDINGS",
@@ -1299,7 +1299,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Imputing Sparse and Noisy Labels for GNNs": {
     "type": "INPROCEEDINGS",
@@ -1313,7 +1313,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Scalable and Efficient Graph Structure Learning": {
     "type": "INPROCEEDINGS",
@@ -1327,7 +1327,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "ZeroED: Hybrid Zero-Shot Error Detection with Large Language Model Reasoning": {
     "type": "INPROCEEDINGS",
@@ -1341,7 +1341,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Think Twice Before Imputation: Optimizing Data Imputation Order for Machine Learning": {
     "type": "INPROCEEDINGS",
@@ -1355,7 +1355,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MISS: An Incomplete Tabular Data Representation System with Missing Mechanism Learning": {
     "type": "INPROCEEDINGS",
@@ -1369,7 +1369,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Real-time Single-Source Personalized PageRank over Evolving Social Networks": {
     "type": "INPROCEEDINGS",
@@ -1383,7 +1383,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Length Enhanced B+ tree based index for Efficient Set Similarity Query": {
     "type": "INPROCEEDINGS",
@@ -1397,7 +1397,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Optimizing Queries with Many-to-Many Joins": {
     "type": "INPROCEEDINGS",
@@ -1411,7 +1411,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Indexing Strings with Utilities": {
     "type": "INPROCEEDINGS",
@@ -1425,7 +1425,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Interactive Learning for Diverse Top-k Set": {
     "type": "INPROCEEDINGS",
@@ -1439,7 +1439,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Query Weak Equivalence and Its Verification in Analytical Databases": {
     "type": "INPROCEEDINGS",
@@ -1453,7 +1453,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FedEcover: Fast and Stable Converging Model-Heterogeneous Federated Learning with Efficient-Coverage Submodel Extraction": {
     "type": "INPROCEEDINGS",
@@ -1467,7 +1467,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FedSDP: Federated Self-Derived Prototypes for Personalized Federated Learning": {
     "type": "INPROCEEDINGS",
@@ -1481,7 +1481,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FeVisQA: Free-form Question Answering over Data Visualizations": {
     "type": "INPROCEEDINGS",
@@ -1495,7 +1495,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "OMeGa: Boosting Large-scale Graph Embeddings with Heterogeneous Memory Processing": {
     "type": "INPROCEEDINGS",
@@ -1509,7 +1509,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CDA: Cost-Sensitive Data Acquisition for Incomplete Datasets": {
     "type": "INPROCEEDINGS",
@@ -1523,7 +1523,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "All-in-One: Heterogeneous Interaction Modeling for Cold-Start Rating Prediction": {
     "type": "INPROCEEDINGS",
@@ -1537,7 +1537,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "OneRoundSTL: In-Database Seasonal-Trend Decomposition": {
     "type": "INPROCEEDINGS",
@@ -1551,7 +1551,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Scalable Tabular Hierarchical Metadata Classification in Heterogeneous Structured": {
     "type": "INPROCEEDINGS",
@@ -1565,7 +1565,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "LETFramework: Let the Universal Sketch be Accurate": {
     "type": "INPROCEEDINGS",
@@ -1579,7 +1579,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Fast Maximization of Current Flow Group Closeness Centrality": {
     "type": "INPROCEEDINGS",
@@ -1593,7 +1593,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "SIGMA: An Efficient Heterophilous Graph Neural Network With Similarity-based Efficient Global Aggregation": {
     "type": "INPROCEEDINGS",
@@ -1607,7 +1607,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "IsGCL: Informative Sample-Aware Progressive Graph Contrastive Learning": {
     "type": "INPROCEEDINGS",
@@ -1621,7 +1621,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "With Anchors or Not: Fairness-aware Truss-based Community Search on Attributed Graphs": {
     "type": "INPROCEEDINGS",
@@ -1635,7 +1635,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Enhance Stability of Network by Edge Anchor": {
     "type": "INPROCEEDINGS",
@@ -1649,7 +1649,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "UMGAD: Unsupervised Multiplex Graph Anomaly Detection": {
     "type": "INPROCEEDINGS",
@@ -1663,7 +1663,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "SAGE: A Framework of Precise Retrieval for RAG": {
     "type": "INPROCEEDINGS",
@@ -1677,7 +1677,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "LOVO: Efficient Complex Object Query in Large-Scale Video Datasets": {
     "type": "INPROCEEDINGS",
@@ -1691,7 +1691,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases": {
     "type": "INPROCEEDINGS",
@@ -1705,7 +1705,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MultiRAG: A Knowledge-guided Framework for Mitigating Hallucination in Multi-source Retrieval Augmented Generation": {
     "type": "INPROCEEDINGS",
@@ -1719,7 +1719,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "White Box Micro-Adaptive Query Processing": {
     "type": "INPROCEEDINGS",
@@ -1733,7 +1733,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "ALT-index: A Hybrid Learned Index for Concurrent Memory Database Systems": {
     "type": "INPROCEEDINGS",
@@ -1747,7 +1747,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Interactive Search with Reinforcement Learning": {
     "type": "INPROCEEDINGS",
@@ -1761,7 +1761,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Learned Compression of Nonlinear Time Series With Random Access": {
     "type": "INPROCEEDINGS",
@@ -1775,7 +1775,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Tag-Filtered Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
@@ -1789,7 +1789,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Auto-TSF: Towards Proxy-Model-based Meta-learning for Automatic Time Series Forecasting Algorithm Selection": {
     "type": "INPROCEEDINGS",
@@ -1803,7 +1803,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation": {
     "type": "INPROCEEDINGS",
@@ -1817,7 +1817,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Grounding Natural Language to SQL Translation with Data-Based Self-Explanations": {
     "type": "INPROCEEDINGS",
@@ -1831,7 +1831,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Boosting with Fewer Tokens: Multi-Query Optimization for LLMs Using Node Text and Neighbor Cues": {
     "type": "INPROCEEDINGS",
@@ -1845,7 +1845,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Tailoring the Shapley Value for In-context Example Selection towards Data Wrangling": {
     "type": "INPROCEEDINGS",
@@ -1859,7 +1859,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Bargaining-based Approach for Feature Trading in Vertical Federated Learning": {
     "type": "INPROCEEDINGS",
@@ -1873,7 +1873,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A-DARTS: Stable Model Selection for Data Repair in Time Series": {
     "type": "INPROCEEDINGS",
@@ -1887,7 +1887,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommendation": {
     "type": "INPROCEEDINGS",
@@ -1901,7 +1901,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Birds of a Feather: Enhancing Multimodal Fake News Detection via Multi-Element Retrieval": {
     "type": "INPROCEEDINGS",
@@ -1915,7 +1915,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Adaptive Local Clustering over Attributed Graphs": {
     "type": "INPROCEEDINGS",
@@ -1929,7 +1929,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CaliEX: A Disk-based Large-Scale GNN Training System with Joint Design of Caching and Execution": {
     "type": "INPROCEEDINGS",
@@ -1943,7 +1943,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Integration of Multi-View Attributed Graphs for Clustering and Embedding": {
     "type": "INPROCEEDINGS",
@@ -1957,7 +1957,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "The Most Influenced Community Search on Social Networks": {
     "type": "INPROCEEDINGS",
@@ -1971,7 +1971,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Clique Comparator: A Fundamental Operator for Finding a Concise Clique Summary": {
     "type": "INPROCEEDINGS",
@@ -1985,7 +1985,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DaRec: A Disentangled Alignment Framework for Large Language Model and Recommender System": {
     "type": "INPROCEEDINGS",
@@ -1999,7 +1999,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Reads": {
     "type": "INPROCEEDINGS",
@@ -2013,7 +2013,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Joinable Search over Multi-source Spatial Datasets: Overlap, Coverage, and Efficiency": {
     "type": "INPROCEEDINGS",
@@ -2027,7 +2027,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Indexing Labeled Property Multidigraphs in Entropy Space, With Applications": {
     "type": "INPROCEEDINGS",
@@ -2041,7 +2041,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Columnar Formatted Inverted Index for Highly-paralleled, Vectorized Query Processing": {
     "type": "INPROCEEDINGS",
@@ -2055,7 +2055,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Sustainability-Oriented Task Recommendation in Spatial Crowdsourcing": {
     "type": "INPROCEEDINGS",
@@ -2069,7 +2069,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "PBSM: Predictive Bi-preference Stable Matching in Spatial Crowdsourcing": {
     "type": "INPROCEEDINGS",
@@ -2083,7 +2083,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Lightweight Time Series Forecasting: a Patch-wise Transformer with Weak Data Enriching": {
     "type": "INPROCEEDINGS",
@@ -2097,7 +2097,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FedRoad: Secure and Efficient Road Network Queries over Traffic Data Federation": {
     "type": "INPROCEEDINGS",
@@ -2111,7 +2111,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Federated Trajectory Similarity Learning with Privacy-Preserving Clustering": {
     "type": "INPROCEEDINGS",
@@ -2125,7 +2125,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Effective Task Assignment in Mobility Prediction-Aware Spatial Crowdsourcing": {
     "type": "INPROCEEDINGS",
@@ -2139,7 +2139,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Online Federated Learning on Distributed \\\\Unknown Data Using UAVs": {
     "type": "INPROCEEDINGS",
@@ -2153,7 +2153,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Joint Dependency and Conflicting Task Allocation in Collaboration-aware Spatial Crowdsourcing": {
     "type": "INPROCEEDINGS",
@@ -2167,7 +2167,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DATA-WA: Demand-based Adaptive Task Assignment with Dynamic Worker Availability Windows": {
     "type": "INPROCEEDINGS",
@@ -2181,7 +2181,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Optimizing Multi-Center Collaboration for Task Assignment in Spatial Crowdsourcing": {
     "type": "INPROCEEDINGS",
@@ -2195,7 +2195,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Learning from the Past: Adaptive Parallelism Tuning for Stream Processing Systems": {
     "type": "INPROCEEDINGS",
@@ -2209,7 +2209,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BFES: Towards Optimal Bayesian Frequency Estimation Sketches in Data-Streams": {
     "type": "INPROCEEDINGS",
@@ -2223,7 +2223,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Fine-Grained Scalability for Stateful Stream Processing Systems": {
     "type": "INPROCEEDINGS",
@@ -2237,7 +2237,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FreewayML: An Adaptive and Stable Streaming Learning Framework for Dynamic Data Streams": {
     "type": "INPROCEEDINGS",
@@ -2251,7 +2251,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Chameleon: Adaptive and Scalable Stream Processing Over Sensor Sources": {
     "type": "INPROCEEDINGS",
@@ -2265,7 +2265,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "An Efficient Memoization Engine for Concurrent Graph Query Processing": {
     "type": "INPROCEEDINGS",
@@ -2279,7 +2279,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Effective and Scalable Heterogeneous Graph Neural Network Framework with Convolution-oriented Attention": {
     "type": "INPROCEEDINGS",
@@ -2293,7 +2293,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "HINSCAN: Efficient Structural Graph Clustering over Heterogeneous Information Networks": {
     "type": "INPROCEEDINGS",
@@ -2307,7 +2307,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Time-aware Influence Minimization via Blocking Social Networks": {
     "type": "INPROCEEDINGS",
@@ -2321,7 +2321,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Most Probable Maximum Weighted Butterfly Search": {
     "type": "INPROCEEDINGS",
@@ -2335,7 +2335,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TempSched: A Temperature-Aware Storage Scheduler for Time Series Across Cloud-Edge-Device": {
     "type": "INPROCEEDINGS",
@@ -2349,7 +2349,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Many Hands Make Light Work: Accelerating Edge Inference via Multi-Client Collaborative Caching": {
     "type": "INPROCEEDINGS",
@@ -2363,7 +2363,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "tDCDiscover: Mining Threshold Denial Constraints from Time Series Data": {
     "type": "INPROCEEDINGS",
@@ -2377,7 +2377,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Collaborative Imputation for Multivariate Time Series with Convergence Guarantee": {
     "type": "INPROCEEDINGS",
@@ -2391,7 +2391,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Incremental Stream Query Placement in Massively Distributed and Volatile Infrastructures": {
     "type": "INPROCEEDINGS",
@@ -2405,7 +2405,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Accurate and Efficient Multivariate Time Series Forecasting via Offline Clustering": {
     "type": "INPROCEEDINGS",
@@ -2419,7 +2419,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Just-In-Time Framework for Routing-Oriented Traffic Prediction": {
     "type": "INPROCEEDINGS",
@@ -2433,7 +2433,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Ultra-Flexible, Explainable, and Scalable Traffic Prediction with Dynamic Future Routes": {
     "type": "INPROCEEDINGS",
@@ -2447,7 +2447,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "AdaMove: Efficient Test-Time Adaptation for Human Mobility Prediction": {
     "type": "INPROCEEDINGS",
@@ -2461,7 +2461,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Exact and Efficient Similar Subtrajectory Search: Integrating Constraints and Simplification": {
     "type": "INPROCEEDINGS",
@@ -2475,7 +2475,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "The SpaceSaving ± Family of Algorithms for Data Streams with Bounded Deletions": {
     "type": "INPROCEEDINGS",
@@ -2489,7 +2489,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "HourglassSketch: An Efficient and Scalable Framework for Graph Stream Summarization": {
     "type": "INPROCEEDINGS",
@@ -2503,7 +2503,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Effective and General Distance Computation for Approximate Nearest Neighbor Search": {
     "type": "INPROCEEDINGS",
@@ -2517,7 +2517,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TardySketch: A Framework for Cardinality Estimation Adaptable to Sliding Windows": {
     "type": "INPROCEEDINGS",
@@ -2531,7 +2531,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hypersistent Sketch: Enhanced Persistence Estimation via Fast Item Separation": {
     "type": "INPROCEEDINGS",
@@ -2545,7 +2545,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DAG*: A Novel A*-alike Algorithm for Optimal Workflow Execution across IoT Platforms": {
     "type": "INPROCEEDINGS",
@@ -2559,7 +2559,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Learnable Sparse Customization in Heterogeneous Edge Computing": {
     "type": "INPROCEEDINGS",
@@ -2573,7 +2573,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Simple yet Effective Node Property Prediction on Edge Streams under Distribution Shifts": {
     "type": "INPROCEEDINGS",
@@ -2587,7 +2587,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "LSM-Community: A Graph Storage System Exploiting Community Structure in Social Networks": {
     "type": "INPROCEEDINGS",
@@ -2601,7 +2601,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DaVinci Sketch: A Versatile Sketch for Efficient and Comprehensive Set Measurements": {
     "type": "INPROCEEDINGS",
@@ -2615,7 +2615,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "DyFMVP: Say Goodbye to Staleness! Fresh Memory Vigorous Preserver for Continuous-Time Dynamic Graph": {
     "type": "INPROCEEDINGS",
@@ -2629,7 +2629,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "GFlux: A fast GPU-based out-of-memory multi-hop query processing framework for trillion-edge graphs": {
     "type": "INPROCEEDINGS",
@@ -2643,7 +2643,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Sketch Propagation Framework for Hub Queries on Unmaterialized Relational Graphs": {
     "type": "INPROCEEDINGS",
@@ -2657,7 +2657,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Identifying Maximum Defective Bicliques in Large Bipartite Graphs": {
     "type": "INPROCEEDINGS",
@@ -2671,7 +2671,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Core Propagation based Hierarchical Graph Clustering": {
     "type": "INPROCEEDINGS",
@@ -2685,7 +2685,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "A Translation-based Heterogeneous Graph Neural Network for Multiple Knowledge Graphs Alignment": {
     "type": "INPROCEEDINGS",
@@ -2699,7 +2699,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Historically Relevant Event Structuring for Temporal Knowledge Graph Reasoning": {
     "type": "INPROCEEDINGS",
@@ -2713,7 +2713,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "SIT: Selective Incremental Training for Dynamic Knowledge Graph Embedding": {
     "type": "INPROCEEDINGS",
@@ -2727,7 +2727,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Enhancing Large-scale Entity Alignment with Critical Structure and High-quality Context": {
     "type": "INPROCEEDINGS",
@@ -2741,7 +2741,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CADRL: Category-aware Dual-agent Reinforcement Learning for Explainable Recommendations over Knowledge Graphs": {
     "type": "INPROCEEDINGS",
@@ -2755,7 +2755,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Multivariate Time Series Forecasting via Calibrated Language Models with Privileged Knowledge Distillation": {
     "type": "INPROCEEDINGS",
@@ -2769,7 +2769,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Consistency-Aware Scalable and Authenticated Learned Index for Range Query": {
     "type": "INPROCEEDINGS",
@@ -2783,7 +2783,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Dynamic Boolean Range Query over Hybrid-Storage Blockchains: A Secure and Reliably Verifiable Framework": {
     "type": "INPROCEEDINGS",
@@ -2797,7 +2797,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "High Throughput Shortest Distance Query Processing on Large Dynamic Road Networks": {
     "type": "INPROCEEDINGS",
@@ -2811,7 +2811,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Timestamp Approximate Nearest Neighbor Search over High-Dimensional Vector Data": {
     "type": "INPROCEEDINGS",
@@ -2825,7 +2825,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Updating an Adaptive Spatial Index": {
     "type": "INPROCEEDINGS",
@@ -2839,7 +2839,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Dataset Discovery via Line Charts": {
     "type": "INPROCEEDINGS",
@@ -2853,7 +2853,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "OSTOR: Online Scheduling Framework for Trading Continuous Queries": {
     "type": "INPROCEEDINGS",
@@ -2867,7 +2867,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TspSZ: An Efficient Parallel Error-Bounded Lossy Compressor for Topological Skeleton Preservation": {
     "type": "INPROCEEDINGS",
@@ -2881,7 +2881,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "SOUND: Sanity Checking of Pipelines for Uncertain and Sparse Data Series": {
     "type": "INPROCEEDINGS",
@@ -2895,7 +2895,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Differentially Private Triangle Counting Assisted by k-Anonymity in Two-Party Models": {
     "type": "INPROCEEDINGS",
@@ -2909,7 +2909,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Data Poisoning Attacks to Local Differential Privacy Protocols for Graphs": {
     "type": "INPROCEEDINGS",
@@ -2923,7 +2923,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Learning on Vertically Partitioned Data with Distributed Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -2937,7 +2937,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Dual Utilization of Perturbation for Stream Data Publication under Local Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -2951,7 +2951,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Multi-class Item Mining under Local Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -2965,7 +2965,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Finding Near-Optimal Maximum Set of Disjoint $k$-Cliques in Real-World Social Networks": {
     "type": "INPROCEEDINGS",
@@ -2979,7 +2979,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Maximal Similar-weight Biclique Enumeration for Large Bipartite Graphs": {
     "type": "INPROCEEDINGS",
@@ -2993,7 +2993,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Frequency-Aware k-Core Query on Temporal Graphs": {
     "type": "INPROCEEDINGS",
@@ -3007,7 +3007,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CuckooGraph: A Scalable and Space-Time Efficient Data Structure for Large-Scale Dynamic Graphs": {
     "type": "INPROCEEDINGS",
@@ -3021,7 +3021,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TeMatch: A Fast Temporal Subgraph Matching Framework with Temporal-Aware Subgraph Matching Algorithms": {
     "type": "INPROCEEDINGS",
@@ -3035,7 +3035,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Are We Wasting Time? A Fast, Accurate Performance Evaluation Framework for Knowledge Graph Link Predictors": {
     "type": "INPROCEEDINGS",
@@ -3049,7 +3049,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "LIFTus: An Adaptive Multi-aspect Column Representation Learning for Table Union Search": {
     "type": "INPROCEEDINGS",
@@ -3063,7 +3063,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CrossEM: A Prompt Tuning Framework for Cross-modal Entity Matching": {
     "type": "INPROCEEDINGS",
@@ -3077,7 +3077,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Pruning via Entailment Cardinality Estimation for Fast Top-down Logic Rule Mining": {
     "type": "INPROCEEDINGS",
@@ -3091,7 +3091,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CrossETR: A Semantic-driven Framework for Entity Matching across Images and Graph": {
     "type": "INPROCEEDINGS",
@@ -3105,7 +3105,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TrajEdge: An Efficient and Lightweight Trajectory Data Analysis Framework in Edge Environments": {
     "type": "INPROCEEDINGS",
@@ -3119,7 +3119,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BOS: Bit-packing with Outlier Separation": {
     "type": "INPROCEEDINGS",
@@ -3133,7 +3133,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Accurate Distance Estimation for Distribution-Aware c-ANN Search": {
     "type": "INPROCEEDINGS",
@@ -3147,7 +3147,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Online Spatio-Temporal Prediction: A Knowledge Distillation Driven Continual Learning Approach": {
     "type": "INPROCEEDINGS",
@@ -3161,7 +3161,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Robust Trajectory Embedding for Similarity Computation: When Triangle Inequality Violations in Distance Metrics Matter": {
     "type": "INPROCEEDINGS",
@@ -3175,7 +3175,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FEATPILOT: Automatic Feature Augmentation on Tabular Data": {
     "type": "INPROCEEDINGS",
@@ -3189,7 +3189,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "KnowTrans: Boosting Transferability of Data Preparation LLMs via Knowledge Augmentation": {
     "type": "INPROCEEDINGS",
@@ -3203,7 +3203,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Federated Data Analytics with Differentially Private Density Estimation Model": {
     "type": "INPROCEEDINGS",
@@ -3217,7 +3217,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "leSAX Index: A Learned SAX Representation Index for Time Series Similarity Search": {
     "type": "INPROCEEDINGS",
@@ -3231,7 +3231,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Structure and Position-aware Graph Modeling for Trajectory Similarity Computation over Road Networks": {
     "type": "INPROCEEDINGS",
@@ -3245,7 +3245,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Privacy-Preserving Screening for Record Linkage": {
     "type": "INPROCEEDINGS",
@@ -3259,7 +3259,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "GCON: Differentially Private Graph Convolutional Network via Objective Perturbation": {
     "type": "INPROCEEDINGS",
@@ -3273,7 +3273,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Analyzing and Optimizing Perturbation of DP-SGD Geometrically": {
     "type": "INPROCEEDINGS",
@@ -3287,7 +3287,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Spatial Numerical Distribution Estimation under Local Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -3301,7 +3301,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "PrivIM: Differentially Private Graph Neural Networks for Influence Maximization": {
     "type": "INPROCEEDINGS",
@@ -3315,7 +3315,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "PILOS: Scalable Subgraph Matching by Online Spectral Filtering": {
     "type": "INPROCEEDINGS",
@@ -3329,7 +3329,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Temporal Simple Path Graph Generation": {
     "type": "INPROCEEDINGS",
@@ -3343,7 +3343,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient k-Truss Breaking and Minimization": {
     "type": "INPROCEEDINGS",
@@ -3357,7 +3357,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Accelerating D-core Maintenance over Dynamic Directed Graphs": {
     "type": "INPROCEEDINGS",
@@ -3371,7 +3371,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Maximum Balanced k-biplex Search over Bipartite Graphs": {
     "type": "INPROCEEDINGS",
@@ -3385,7 +3385,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards Unsupervised Entity Alignment for Highly Heterogeneous Knowledge Graphs": {
     "type": "INPROCEEDINGS",
@@ -3399,7 +3399,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Execution of SPARQL Queries with OPTIONAL and UNION Expressions": {
     "type": "INPROCEEDINGS",
@@ -3413,7 +3413,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Description-Similarity Rules: Flexible Feature Engineering for Entity Matching": {
     "type": "INPROCEEDINGS",
@@ -3427,7 +3427,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Trail: A Knowledge Graph-based Approach for Attributing Advanced Persistent Threats": {
     "type": "INPROCEEDINGS",
@@ -3441,7 +3441,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Compatible Unsupervised Anomaly Detection with Multi-Perspective Spatio-Temporal Learning": {
     "type": "INPROCEEDINGS",
@@ -3455,7 +3455,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Self-supervised Trajectory Representation Learning with Multi-scale Spatio-temporal Feature Exploration": {
     "type": "INPROCEEDINGS",
@@ -3469,7 +3469,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "NRP: An Efficient Index for Stochastic Routing in Road Networks": {
     "type": "INPROCEEDINGS",
@@ -3483,7 +3483,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Having It Both Ways: Single Trajectory Embedding for Similarity Computation with Pairwise Learning": {
     "type": "INPROCEEDINGS",
@@ -3497,7 +3497,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "AimTS: Augmented Series and Image Contrastive Learning for Time Series Classification": {
     "type": "INPROCEEDINGS",
@@ -3511,7 +3511,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "KARMAD: KAN-based Adversarial Robust Model for Anomaly Detection": {
     "type": "INPROCEEDINGS",
@@ -3525,7 +3525,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Towards a Unified Query Plan Representation": {
     "type": "INPROCEEDINGS",
@@ -3539,7 +3539,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Online Timestamp-based Transactional Isolation Checking of Database Systems": {
     "type": "INPROCEEDINGS",
@@ -3553,7 +3553,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Boosting End-to-End Database Isolation Checking via Mini-Transactions": {
     "type": "INPROCEEDINGS",
@@ -3567,7 +3567,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CloudyBench: A Testbed for A Comprehensive Evaluation of Cloud-Native Databases": {
     "type": "INPROCEEDINGS",
@@ -3581,7 +3581,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "AdvSGM: Differentially Private Graph Learning via Adversarial Skip-gram Model": {
     "type": "INPROCEEDINGS",
@@ -3595,7 +3595,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Fast Private Retrieval on Key-Value Store with Multiple Values per Key": {
     "type": "INPROCEEDINGS",
@@ -3609,7 +3609,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Structure-Preference Enabled Graph Embedding Generation under Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -3623,7 +3623,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Know Your Account: Double graph inference-based Account De-anonymization on Ethereum": {
     "type": "INPROCEEDINGS",
@@ -3637,7 +3637,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions": {
     "type": "INPROCEEDINGS",
@@ -3651,7 +3651,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Structural Clustering over Hypergraphs": {
     "type": "INPROCEEDINGS",
@@ -3665,7 +3665,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "On Temporal-Constraint Subgraph Matching": {
     "type": "INPROCEEDINGS",
@@ -3679,7 +3679,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Preserving K-Connectivity in Dynamic Graphs": {
     "type": "INPROCEEDINGS",
@@ -3693,7 +3693,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "TDT: Tensor based Directed Truss Decomposition": {
     "type": "INPROCEEDINGS",
@@ -3707,7 +3707,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Space-Efficient Compact Representations for Graph Analytics": {
     "type": "INPROCEEDINGS",
@@ -3721,7 +3721,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Ratel: Optimizing Holistic Data Movement to Fine-tune 100B Model on a Consumer GPU": {
     "type": "INPROCEEDINGS",
@@ -3735,7 +3735,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hyperion: Co-optimizing SSD Access and GPU Computation for Cost-efficient GNN Training": {
     "type": "INPROCEEDINGS",
@@ -3749,7 +3749,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "HC-SpMM: Accelerating Sparse Matrix-Matrix Multiplication for Graphs with Hybrid GPU Cores": {
     "type": "INPROCEEDINGS",
@@ -3763,7 +3763,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "BL-Tree: The Best of Both Worlds by Combining B+-Tree on Top and LSM-Tree on Bottom": {
     "type": "INPROCEEDINGS",
@@ -3777,7 +3777,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "More Bang For Your Buck(et): Fast and Space-efficient Hardware-accelerated Coarse-granular Indexing on GPUs": {
     "type": "INPROCEEDINGS",
@@ -3791,7 +3791,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching": {
     "type": "INPROCEEDINGS",
@@ -3805,7 +3805,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "StructRide: A Framework to Exploit the Structure Information of Shareability Graph in Ridesharing": {
     "type": "INPROCEEDINGS",
@@ -3819,7 +3819,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "FAHL: An Efficient Labeling Index for Flow-Aware Shortest Path Querying in Road Networks": {
     "type": "INPROCEEDINGS",
@@ -3833,7 +3833,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Large-scale Spatiotemporal Kernel Density Visualization": {
     "type": "INPROCEEDINGS",
@@ -3847,7 +3847,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Understanding and Estimating Error Propagation in Neural Networks for Scientific Data Analysis": {
     "type": "INPROCEEDINGS",
@@ -3861,7 +3861,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "UltraWiki: Ultra-fine-grained Entity Set Expansion with Negative Seed Entities": {
     "type": "INPROCEEDINGS",
@@ -3875,7 +3875,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "PGB: Benchmarking Differentially Private Synthetic Graph Generation Algorithms": {
     "type": "INPROCEEDINGS",
@@ -3889,7 +3889,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Experimental analysis of multi-step pipelines for fair classifications – More than the sum of their parts?": {
     "type": "INPROCEEDINGS",
@@ -3903,7 +3903,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "pFSSL-D: Generalization Meets Personalization in Dual-Phase Federated Semi-Supervised Learning": {
     "type": "INPROCEEDINGS",
@@ -3917,7 +3917,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Triangle Counting over Signed Graphs with Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -3931,7 +3931,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Privacy-preserving Triangle Counting in Directed Graphs": {
     "type": "INPROCEEDINGS",
@@ -3945,7 +3945,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Truss Decomposition under Edge Local Differential Privacy": {
     "type": "INPROCEEDINGS",
@@ -3959,7 +3959,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Privacy-Preserving Approximate Nearest Neighbor Search on High-Dimensional Data": {
     "type": "INPROCEEDINGS",
@@ -3973,7 +3973,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Heterogeneous-Aware Traffic Prediction: A Privacy-Preserving Federated Learning Framework": {
     "type": "INPROCEEDINGS",
@@ -3987,7 +3987,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient A-threshold Maintenance in Dynamic Uncertain Graphs": {
     "type": "INPROCEEDINGS",
@@ -4001,7 +4001,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Finding a Summary for All Maximal Bicliques": {
     "type": "INPROCEEDINGS",
@@ -4015,7 +4015,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "MuSha: Subgraph Matching by Multilevel Sharing": {
     "type": "INPROCEEDINGS",
@@ -4029,7 +4029,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Maximal Clique Enumeration with Hybrid Branching and Early Termination": {
     "type": "INPROCEEDINGS",
@@ -4043,7 +4043,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Efficient Maximum Fair Clique Search over Large Networks": {
     "type": "INPROCEEDINGS",
@@ -4057,7 +4057,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CAM: Asynchronous GPU-Initiated, CPU-Managed SSD Management for Batching Storage Access": {
     "type": "INPROCEEDINGS",
@@ -4071,7 +4071,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Hybrid DRAM-NVM R-Trees with Consistency Guarantee": {
     "type": "INPROCEEDINGS",
@@ -4085,7 +4085,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Exploring SIMD Vectorization in Aggregation Pipelines for Encoded IoT Data": {
     "type": "INPROCEEDINGS",
@@ -4099,7 +4099,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "CuckooDuo: Extensible Dynamic Perfect Hashing for RDMA-based Remote Memory KV Store": {
     "type": "INPROCEEDINGS",
@@ -4113,7 +4113,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "OOCC: One-round Optimistic Concurrency Control for Read-Only Disaggregated Transactions": {
     "type": "INPROCEEDINGS",
@@ -4127,7 +4127,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Universal Set Similarity Search via Multi-Task Representation Learning": {
     "type": "INPROCEEDINGS",
@@ -4141,7 +4141,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "EPAS: Efficient Online Log Parsing via Asynchronous Scheduling of LLM Queries": {
     "type": "INPROCEEDINGS",
@@ -4155,7 +4155,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "AllHands: Ask Me Anything on Large-scale Verbatim Feedback via Large Language Models": {
     "type": "INPROCEEDINGS",
@@ -4169,7 +4169,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "Querying Templatized Document Collections with Large Language Models": {
     "type": "INPROCEEDINGS",
@@ -4183,7 +4183,7 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   },
   "QaVA: Query-aware Video Analysis Framework Based on Data Access Pattern": {
     "type": "INPROCEEDINGS",
@@ -4197,6 +4197,6 @@
     "url": "https://ieee-icde.org/2025/research-papers/",
     "doi": "",
     "venue": "ICDE",
-    "venue_track": ""
+    "venue_track": "数据库领域"
   }
 }

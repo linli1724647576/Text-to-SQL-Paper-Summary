@@ -71,6 +71,10 @@ jobs:
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/process_folder.py
 
+      - name: Reconcile CCF-A venues
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/reconcile_ccf_venues.py
+
       - name: Validate dataset
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json

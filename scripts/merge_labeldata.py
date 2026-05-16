@@ -41,11 +41,31 @@ def prune_irrelevant_papers(papers):
 def write_prune_report(path, removed):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
+    combined = []
+    seen = set()
+    if path.exists():
+        try:
+            with open(path, encoding="utf-8") as f:
+                existing_payload = json.load(f)
+            combined.extend(existing_payload.get("removed") or [])
+        except Exception:
+            combined = []
+    combined.extend(removed)
+    deduped = []
+    for item in combined:
+        entry = item.get("entry") or item
+        title = entry.get("title") or item.get("title") or ""
+        key = normalize_title_key(title)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
     payload = {
         "summary": {
-            "removed_count": len(removed),
+            "removed_count": len(deduped),
+            "newly_removed_count": len(removed),
         },
-        "removed": removed,
+        "removed": deduped,
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)

@@ -65,17 +65,16 @@ SQL_GENERATION_TERMS = [
     "automated sql generation",
 ]
 
-DATABASE_TERMS = [
+SQL_DATABASE_TERMS = [
     "sql",
     "database",
     "databases",
     "relational database",
+    "relational databases",
     "schema",
     "schemas",
     "table",
     "tables",
-    "query",
-    "queries",
 ]
 
 NATURAL_LANGUAGE_SQL_TERMS = [
@@ -114,6 +113,19 @@ NON_TEXT2SQL_DOMAIN_TERMS = [
     "wireless communications",
 ]
 
+BACKGROUND_MENTION_PATTERNS = [
+    r"\bincluding\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text\s*[- ]?\s*to\s*[- ]?\s*sql",
+    r"\bincluding\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text2sql",
+    r"\bsuch as\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text\s*[- ]?\s*to\s*[- ]?\s*sql",
+    r"\btasks\s+like\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text2sql",
+    r"\bmostly\s+focuses\s+on\s+(?:[a-z0-9,;:/()\\$\\.\-\s]{0,120})text2sql",
+    r"\bperformance\s+on\s+(?:[a-z0-9,;:/()\\$\\.\-\+\s]{0,120})nl2sql\s+tasks?",
+]
+
+
+def background_only_text2sql_mention(text):
+    return any(re.search(pattern, text) for pattern in BACKGROUND_MENTION_PATTERNS)
+
 
 def relevance_level(title, abstract, keywords=""):
     primary_text = norm(" ".join([title, abstract]))
@@ -123,12 +135,14 @@ def relevance_level(title, abstract, keywords=""):
     direct_in_title = contains_any(title_text, DIRECT_TEXT2SQL_TERMS)
     direct_in_primary = contains_any(primary_text, DIRECT_TEXT2SQL_TERMS)
     sql_generation = contains_any(primary_text, SQL_GENERATION_TERMS)
-    sql_or_database = contains_any(primary_text, DATABASE_TERMS)
+    structured_database = contains_any(primary_text, SQL_DATABASE_TERMS)
     natural_language = contains_any(primary_text, NATURAL_LANGUAGE_SQL_TERMS)
     semantic_sql = "semantic parsing" in primary_text and "sql" in primary_text
     boundary_application = contains_any(primary_text, APPLICATION_BOUNDARY_TERMS)
 
     if not direct_in_title and contains_any(primary_text, NON_TEXT2SQL_DOMAIN_TERMS):
+        return "irrelevant"
+    if not direct_in_title and background_only_text2sql_mention(primary_text):
         return "irrelevant"
     if direct_in_title and not boundary_application:
         return "core"
@@ -140,13 +154,13 @@ def relevance_level(title, abstract, keywords=""):
         return "application"
     if sql_generation and natural_language:
         return "application"
-    if sql_or_database and natural_language and contains_any(primary_text, ["generate", "generation", "translate", "translation", "synthesis"]):
+    if structured_database and natural_language and contains_any(primary_text, ["generate", "generation", "translate", "translation", "synthesis"]):
         return "application"
-    if sql_or_database and contains_any(primary_text, ["transformar", "traducción", "traduccion"]):
+    if structured_database and contains_any(primary_text, ["transformar", "traducción", "traduccion"]):
         return "application"
     if contains_any(primary_text, ["natural language interface", "natural language query", "question answering"]) and contains_any(
         primary_text,
-        ["database", "databases", "knowledge graph", "structured data", "data analytics", "business intelligence"],
+        ["database", "databases", "relational database", "relational databases", "sql", "schema", "schemas", "table", "tables"],
     ):
         return "application"
     if contains_any(primary_text, ["data-to-insight", "business intelligence", "semantic layer"]) and contains_any(primary_text, LLM_TERMS):
@@ -154,7 +168,7 @@ def relevance_level(title, abstract, keywords=""):
 
     # Keywords can support an already SQL/database-grounded abstract, but should
     # never be the only reason a paper is considered Text-to-SQL.
-    if sql_or_database and natural_language and contains_any(keyword_text, DIRECT_TEXT2SQL_TERMS + SQL_GENERATION_TERMS):
+    if structured_database and natural_language and contains_any(keyword_text, DIRECT_TEXT2SQL_TERMS + SQL_GENERATION_TERMS):
         return "application"
     return "irrelevant"
 

@@ -417,11 +417,11 @@ def normalize_entry_venue(entry):
     """Return a strict CCF-A venue bucket, ArXiv, or Other."""
     source_text = _venue_source_text(entry)
     link_text = _venue_link_text(entry)
-    if "arxiv" in source_text or _matched_venue_from_text(link_text, LINK_VENUE_ALIASES) == ARXIV_VENUE:
-        return ARXIV_VENUE
     matched = _matched_venue_from_text(source_text, VENUE_ALIASES)
     if matched:
         return matched
+    if "arxiv" in source_text or _matched_venue_from_text(link_text, LINK_VENUE_ALIASES) == ARXIV_VENUE:
+        return ARXIV_VENUE
     matched = _matched_venue_from_text(link_text, LINK_VENUE_ALIASES)
     if matched:
         return matched

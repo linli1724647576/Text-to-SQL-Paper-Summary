@@ -15,35 +15,35 @@
 | risk | false_positive_removed | ArXiv | 2025 | A New Paradigm of User-Centric Wireless Communication Driven by Large Language Models | removed by prune-irrelevant; risk-directed sample |
 | risk | true_positive_application | ArXiv | 2025 | Castle: Causal Cascade Updates in Relational Databases with Large Language Models | missing doi; risk-directed sample |
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
-| ccf_conference | true_positive_core | ICDE | 2023 | GenSql: A Generative Natural Language Interface to Database Systems. |  |
-| ccf_conference | true_positive_core | SIGMOD | 2024 | FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. | missing doi, abstract |
-| ccf_conference | true_positive_core | SIGMOD | 2025 | ST-Raptor: LLM-Powered Semi-Structured Table Question Answering |  |
-| ccf_conference | true_positive_core | ACL | 2025 | Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL. | missing doi, abstract |
-| ccf_conference | true_positive_core | KDD | 2022 | Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph. |  |
-| ccf_conference | true_positive_core | ACL | 2020 | RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers. | missing doi, abstract |
+| ccf_conference | true_positive_core | SIGMOD | 2025 | DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework |  |
+| ccf_conference | true_positive_core | SIGMOD | 2026 | DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning |  |
+| ccf_conference | true_positive_core | IJCAI | 2020 | RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task. | missing doi, abstract |
+| ccf_conference | true_positive_core | SIGMOD | 2025 | Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding |  |
+| ccf_conference | true_positive_core | AAAI | 2022 | MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL. |  |
+| ccf_conference | true_positive_core | ACL | 2020 | Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback. | missing doi, abstract |
 | ccf_conference | true_positive_core | SIGMOD | 2021 | A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems. | missing doi, abstract |
-| ccf_conference | true_positive_core | ACL | 2022 | Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion. | missing doi, abstract |
+| ccf_conference | true_positive_core | SIGMOD | 2025 | Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency | missing doi, abstract |
 | readme_journal | true_positive_core | AIJ | 2026 | A Comprehensive Review of LLM-based Text-to-SQL Systems: Methods, Datasets, and Trends |  |
+| readme_journal | true_positive_core | TKDE | 2024 | A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going? |  |
 | readme_journal | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | readme_journal | true_positive_core | TKDE | 2026 | XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2020 | Optimizing Deeper Transformers on Small Datasets |  |
-| arxiv | true_positive_core | ArXiv | 2026 | AV-SQL: Decomposing Complex Text-to-SQL Queries with Agentic Views | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Cost Trade-offs of Reasoning and Non-Reasoning Large Language Models in Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2026 | SynSQL: Synthesizing Relational Databases for Robust Evaluation of Text-to-SQL Systems | missing doi |
-| arxiv | true_positive_core | ArXiv | 2024 | DAC: Decomposed Automation Correction for Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | Agentic NL2SQL to Reduce Computational Costs | missing doi |
-| arxiv | true_positive_core | ArXiv | 2023 | CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL |  |
-| arxiv | true_positive_core | ArXiv | 2023 | MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL |  |
-| supplemental | true_positive_core | ArXiv | 2024 | Towards Optimizing SQL Generation via LLM Routing |  |
-| supplemental | true_positive_core | 其他 | 2025 | Self-Contrastive Loop of Thought Method for Text-to-SQL Based on Large Language Model |  |
-| supplemental | true_positive_application | 其他 | 2026 | Automation of SQL Query Processing and Generation Using a RAG Model in a Cloud Environment |  |
-| supplemental | true_positive_core | 其他 | 2025 | A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models |  |
-| supplemental | true_positive_application | 其他 | 2025 | Lightweight Table Retrieval Via Vector Matching for Table Question Answering |  |
-| supplemental | true_positive_core | 其他 | 2026 | CIR-SQL: A Dual-Model Intent Recognition Framework for Chinese Text-to-SQL |  |
-| supplemental | true_positive_core | ArXiv | 2023 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
-| supplemental | true_positive_core | 其他 | 2022 | Wizard for creating semantic views in a natural language interface to databases |  |
-| fill | true_positive_core | 其他 | 2025 | A Survey on Employing Large Language Models for Text-to-SQL Tasks |  |
-| fill | true_positive_core | 其他 | 2026 | AriaSQL: Production SQL Agent for 100+ Table Databases with SQLAS Evaluation |  |
-| fill | true_positive_core | 其他 | 2022 | SpCQL: A Semantic Parsing Dataset for Converting Natural Language into Cypher |  |
-| fill | true_positive_core | 其他 | 2021 | Columns Occurrences Graph to Improve Column Prediction in Deep Learning Nlidb |  |
-| fill | true_positive_core | 其他 | 2026 | Dynamic-SQL: an adaptive NL2SQL framework with multi-path fusion reasoning and execution feedback correction |  |
+| arxiv | true_positive_application | ArXiv | 2026 | Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges |  |
+| arxiv | true_positive_core | ArXiv | 2025 | Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers | missing doi |
+| arxiv | true_positive_application | ArXiv | 2023 | Automatic Data Transformation Using Large Language Model: An Experimental Study on Building Energy Data |  |
+| arxiv | true_positive_core | ArXiv | 2025 | HEXGEN-FLOW: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL |  |
+| arxiv | true_positive_core | ArXiv | 2025 | Automatic Metadata Extraction for Text-to-SQL |  |
+| arxiv | true_positive_core | ArXiv | 2023 | ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought |  |
+| arxiv | true_positive_core | ArXiv | 2024 | AraSpider: Democratizing Arabic-to-SQL |  |
+| supplemental | true_positive_core | 其他 | 2020 | SEQ2SEQ VS SKETCH FILLING STRUCTURE FOR NATURAL LANGUAGE TO SQL TRANSLATION |  |
+| supplemental | true_positive_core | 其他 | 2025 | FGCSQL: A Three-Stage Pipeline for Large Language Model-driven Chinese Text-to-SQL |  |
+| supplemental | true_positive_core | ArXiv | 2021 | Weakly Supervised Text-to-SQL Parsing through Question Decomposition |  |
+| supplemental | true_positive_core | ArXiv | 2024 | Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL |  |
+| supplemental | true_positive_application | 其他 | 2024 | Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query |  |
+| supplemental | true_positive_core | 其他 | 2026 | A systematic review of natural language interfaces for databases |  |
+| supplemental | true_positive_core | ArXiv | 2023 | MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL |  |
+| supplemental | true_positive_application | ArXiv | 2024 | ChatBI: Towards Natural Language to Complex Business Intelligence SQL |  |
+| fill | true_positive_core | AAAI | 2020 | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training |  |
+| fill | true_positive_core | SIGMOD | 2025 | ST-Raptor: LLM-Powered Semi-Structured Table Question Answering |  |
+| fill | true_positive_core | ArXiv | 2020 | A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing |  |
+| fill | true_positive_core | 其他 | 2023 | Assessing the utility of text-to-SQL approaches for satisfying software developer information needs |  |

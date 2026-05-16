@@ -3,27 +3,27 @@
   "status": "ok",
   "fatal_errors": [],
   "warnings": [
-    "high Other category ratio: 36.48%",
+    "high Other category ratio: 36.67%",
     "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
   ],
   "metrics": {
     "venues_sentinel_version": 2,
     "venues_sentinel_count": 102,
-    "paper_count": 540,
-    "unique_title_count": 540,
+    "paper_count": 529,
+    "unique_title_count": 529,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 574,
-    "unique_title_drop_ratio": 0.059233,
-    "quality_pruned_irrelevant_count": 34,
+    "baseline_unique_title_count": 540,
+    "unique_title_drop_ratio": 0.02037,
+    "quality_pruned_irrelevant_count": 11,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
-      "AI 领域": 39,
-      "ArXiv": 262,
+      "AI 领域": 48,
+      "ArXiv": 238,
       "交叉/综合/新兴": 2,
-      "其他": 197,
-      "数据库领域": 39,
+      "其他": 194,
+      "数据库领域": 46,
       "软件工程": 1
     },
     "irrelevant_records": 0,
@@ -50,6 +50,6 @@
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.0,
-    "other_ratio": 0.364815
+    "other_ratio": 0.36673
   }
 }

@@ -14,9 +14,9 @@ import re
 import sys
 import time
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
+from http_utils import get_json
 from paper_utils import normalize_title_key
 from venues import iter_tracked_venues, normalize_entry_venue, normalize_venue_name, publication_category
 
@@ -59,24 +59,15 @@ def clean_text(text):
 
 
 def openalex_get(url, timeout=12):
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Text2SQL-Paper-Summary/1.0 (mailto:example@example.com)"
-        },
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    return get_json(url, timeout=timeout)
 
 
 def json_get(url, timeout=20):
-    headers = {"User-Agent": "Text2SQL-Paper-Summary/1.0 (mailto:example@example.com)"}
+    headers = {}
     api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
     if api_key:
         headers["x-api-key"] = api_key
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    return get_json(url, timeout=timeout, headers=headers)
 
 
 def source_name(work):

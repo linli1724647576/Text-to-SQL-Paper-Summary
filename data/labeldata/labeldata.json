@@ -765,14 +765,18 @@
       "Benchmarks and Evaluation",
       "Benchmark",
       "Evaluation Metric",
-      "Robustness and Generalization"
+      "Robustness and Generalization",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval"
     ],
     "pipeline_stages": [
       "Grounding",
       "Query Planning",
       "Intermediate Representation",
-      "SQL Generation"
-    ]
+      "SQL Generation",
+      "Context Retrieval"
+    ],
+    "journal": "IEEE Transactions on Knowledge and Data Engineering"
   },
   "A Survey on Employing Large Language Models for Text-to-SQL Tasks": {
     "type": "preprint",
@@ -4551,6 +4555,47 @@
       "Context Retrieval",
       "SQL Generation",
       "Constrained Decoding"
+    ]
+  },
+  "CoSQA <sup>+</sup> : Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7105070060",
+    "author": "Jing Gong and Yanghui Wu and Linxi Liang and Yanlin Wang and Jiachi Chen and Mingwei Liu and Zibin Zheng",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "title": "CoSQA <sup>+</sup> : Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents",
+    "year": "2025",
+    "abstract": "Semantic code search, retrieving code that matches a given natural language query, is an important task to improve productivity in software engineering. Existing code search datasets face limitations: they rely on human annotators who assess code primarily through semantic understanding rather than functional verification, leading to potential inaccuracies and scalability issues. Additionally, current evaluation metrics often overlook the multichoice nature of code search. This paper introduces CoSQA+, pairing high-quality queries from CoSQA with multiple suitable codes. We develop an automated pipeline featuring multiple model-based candidate selections and the novel test-driven agent annotation system. Among a single Large Language Model (LLM) annotator and Python expert annotators (without test-based verification), agents leverage test-based verification and achieve the highest accuracy of 93.9%. Through extensive experiments, CoSQA+ has demonstrated superior quality over CoSQA. Models trained on CoSQA+ exhibit improved performance. We publicly release both CoSQA+-all, which contains 412,080 agent-annotated pairs, and CoSQA+-verified, which contains 1,000 human-verified pairs.",
+    "keywords": "Computer science, Leverage (statistics), Python (programming language), Scalability, Programming language, Code review, Source code, Software quality assurance, Code (set theory), Natural language, Software, Artificial intelligence, Annotation, Data mining, Machine learning, Information retrieval, Benchmark (surveying), Software engineering, Pipeline (software), Software quality, Task (project management), Static program analysis, Natural language processing, Semantic similarity, Face (sociological concept), Software development, Coding (social sciences), Correctness, Codebase, Semantic search, Forward chaining",
+    "url": "https://doi.org/10.1109/tse.2025.3631886",
+    "doi": "https://doi.org/10.1109/tse.2025.3631886",
+    "venue": "TSE",
+    "venue_track": "软件工程",
+    "journal": "IEEE Transactions on Software Engineering",
+    "openalex_id": "https://openalex.org/W7105070060",
+    "labels": [
+      "Task Setting",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Self-consistency / Voting",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Intermediate Representation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Dataset Construction",
+      "Evaluation Metric"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Intermediate Representation",
+      "Verification & Repair"
     ]
   },
   "Code-Centric Detection of Vulnerability-Fixing Commits: A Unified Benchmark and Empirical Study": {
@@ -20460,6 +20505,47 @@
       "SQL Generation",
       "Prompt-based Generation",
       "Verification & Repair"
+    ]
+  },
+  "Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4411673827",
+    "author": "Salmane Chafik and Saad Ezzini and Ismaïl Berrada",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach",
+    "year": "2025",
+    "abstract": "As software systems increasingly rely on natural language interfaces, ensuring the reliability of these systems is crucial. One critical component is the ability to accurately translate natural language queries into corresponding SQL queries, a field known as Text-to-SQL. However, the scarcity of high-quality, large-scale, and domain-specific Text-to-SQL datasets hinders the development of reliable and robust models. To tackle these challenges, we propose SelectCraft , a novel automatic generation approach designed to create realistic Text-to-SQL datasets tailored to specific domains. Our method leverages existing databases and their structures to generate complex text-SQL pairs that mirror real-world usage scenarios. As a proof of concept, we have successfully generated a substantial financial Text-to-SQL dataset, denominated as BanQies , encompassing over 1 million samples utilizing our proposed approach. Moreover, we introduce BanQL , a new large language model (LLM) based on StarCoder2 , a state-of-the-art code-based LLM, and fine-tuned on our newly created dataset. We evaluate BanQL performance against several state-of-the-art models, demonstrating significant enhancements in accuracy and generalizability, highlighting the advantages of incorporating domain-specific data in Text-to-SQL tasks. We firmly believe that our contributions have the potential to improve the overall reliability of Text-to-SQL software systems. CCS Concepts: • Software and its engineering; • Computing methodologies → Natural languageprocessing; • Information systems → Structured Query Language;",
+    "keywords": "Computer science, SQL, Programming language, Domain (mathematical analysis), Software engineering, Database, Information retrieval, Mathematical analysis, Mathematics",
+    "url": "https://doi.org/10.1145/3746226",
+    "doi": "https://doi.org/10.1145/3746226",
+    "venue": "TOSEM",
+    "venue_track": "软件工程",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "openalex_id": "https://openalex.org/W4411673827",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Intermediate Representation",
+      "Benchmarks and Evaluation",
+      "Dataset Construction",
+      "Synthetic Data Generation"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Intermediate Representation",
+      "SQL Generation",
+      "Fine-tuned Generation"
     ]
   },
   "Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent": {

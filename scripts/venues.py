@@ -225,6 +225,7 @@ VENUE_ALIASES = {
     "aaai conference on artificial intelligence": "AAAI",
     "acl": "ACL",
     "annual meeting of the association for computational linguistics": "ACL",
+    "aij": "AIJ",
     "artificial intelligence": "AIJ",
     "artificial intelligence journal": "AIJ",
     "computer vision and pattern recognition": "CVPR",

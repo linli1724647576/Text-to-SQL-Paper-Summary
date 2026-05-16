@@ -8,8 +8,9 @@ import re
 import sys
 import time
 import urllib.parse
-import urllib.request
 from pathlib import Path
+
+from http_utils import get_json as http_get_json, post_json as http_post_json
 
 
 def clean(text):
@@ -17,32 +18,21 @@ def clean(text):
 
 
 def get_json(url, timeout=20):
-    headers = {"User-Agent": "Text2SQL-Paper-Summary/1.0"}
+    headers = {}
     api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
     if api_key:
         headers["x-api-key"] = api_key
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8", errors="ignore"))
+    return http_get_json(url, timeout=timeout, headers=headers)
 
 
 def post_json(url, payload, timeout=30):
-    body = json.dumps(payload).encode("utf-8")
     headers = {
-        "User-Agent": "Text2SQL-Paper-Summary/1.0",
         "Content-Type": "application/json",
     }
     api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
     if api_key:
         headers["x-api-key"] = api_key
-    req = urllib.request.Request(
-        url,
-        data=body,
-        headers=headers,
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8", errors="ignore"))
+    return http_post_json(url, payload, timeout=timeout, headers=headers)
 
 
 def search_title(title):

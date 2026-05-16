@@ -12,11 +12,13 @@ import json
 import re
 import sys
 import time
-import urllib.request
 from pathlib import Path
+
+from http_utils import get_text
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
+REPORT_DIR = REPO_ROOT / "data" / "reports"
 
 OFFICIAL_ACCEPTED_URLS = {
     "ACL": {
@@ -132,12 +134,6 @@ def text_lines(content):
     content = html.unescape(content)
     lines = [re.sub(r"\s+", " ", line).strip() for line in content.splitlines()]
     return [line for line in lines if line]
-
-
-def get_text(url, timeout=60):
-    req = urllib.request.Request(url, headers={"User-Agent": "Text2SQL-Paper-Summary/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
 
 
 def normalize_title(title):
@@ -522,16 +518,38 @@ def main():
     args = parser.parse_args()
 
     total = 0
+    failures = []
+    warnings = []
     for venue, year, url in selected_configs(args.venues, args.from_year, args.to_year):
         print(f"Fetching {venue} {year}: {url}", file=sys.stderr)
         try:
-            content = get_text(url)
+            content = get_text(url, timeout=60)
         except Exception as exc:
             print(f"  WARN: fetch failed: {exc}", file=sys.stderr)
+            failures.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "source": "official-accepted",
+                    "status": "failed",
+                    "url": url,
+                    "error": str(exc),
+                }
+            )
             continue
         entries = parse_accepted(content)
         if len(entries) < args.min_entries:
             print(f"  WARN: parsed only {len(entries)} entries; skipped", file=sys.stderr)
+            warnings.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "source": "official-accepted",
+                    "status": "parse_skipped",
+                    "url": url,
+                    "parsed_entries": len(entries),
+                }
+            )
             continue
         papers = {title: make_paper(venue, year, url, title, authors) for title, authors in entries}
         out_path = Path(args.output_dir) / str(year) / f"{venue}{year}-accepted.json"
@@ -544,6 +562,24 @@ def main():
             time.sleep(args.sleep)
 
     print(f"Fetched official accepted entries: {total}", file=sys.stderr)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = REPORT_DIR / "official_accepted_failures.json"
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "summary": {
+                    "fetched_entries": total,
+                    "failure_count": len(failures),
+                    "warning_count": len(warnings),
+                },
+                "failures": failures,
+                "warnings": warnings,
+            },
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+    print(f"Wrote official accepted report: {report_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":

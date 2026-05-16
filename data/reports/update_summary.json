@@ -1,0 +1,51 @@
+{
+  "mode": "balanced",
+  "status": "ok",
+  "fatal_errors": [],
+  "warnings": [
+    "high Other category ratio: 34.32%",
+    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
+  ],
+  "metrics": {
+    "venues_sentinel_version": 2,
+    "venues_sentinel_count": 102,
+    "paper_count": 574,
+    "unique_title_count": 574,
+    "normalized_duplicate_groups": 0,
+    "process_folder_changed": 0,
+    "process_folder_stale": 0,
+    "baseline_unique_title_count": 572,
+    "unique_title_drop_ratio": -0.003497,
+    "category_counts": {
+      "AI 领域": 39,
+      "ArXiv": 294,
+      "交叉/综合/新兴": 3,
+      "其他": 197,
+      "数据库领域": 39,
+      "软件工程": 2
+    },
+    "readme_journal_rawdata_files": {
+      "AIJ": [
+        "data/rawdata/2025/AIJ2025.json"
+      ],
+      "TKDE": [
+        "data/rawdata/2025/TKDE2025.json"
+      ],
+      "TOSEM": [
+        "data/rawdata/2025/TOSEM2025.json"
+      ],
+      "TSE": [
+        "data/rawdata/2025/TSE2025.json"
+      ],
+      "VLDBJ": [
+        "data/rawdata/2025/VLDBJ2025.json"
+      ]
+    },
+    "fetch_failure_count": 0,
+    "fetch_warning_count": 5,
+    "dblp_conference_failures": 0,
+    "expected_dblp_conferences": 99,
+    "dblp_conference_failure_ratio": 0.0,
+    "other_ratio": 0.343206
+  }
+}

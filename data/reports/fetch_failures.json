@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "fetched_entries": 1252,
+    "failure_count": 0,
+    "warning_count": 5
+  },
+  "failures": [],
+  "warnings": [
+    {
+      "venue": "AIJ",
+      "year": 2025,
+      "track": "AI",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: Remote end closed connection without response"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2025,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde37.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2025,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb34.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TSE",
+      "year": 2025,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse51.xml: Remote end closed connection without response"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2025,
+      "track": "SE",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem34.xml: Remote end closed connection without response"
+    }
+  ]
+}

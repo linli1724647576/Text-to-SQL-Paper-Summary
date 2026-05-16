@@ -101,6 +101,14 @@
         }
       ]
     },
+    "AIJ2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/AIJ2025.json",
+          "sha256": "a0f9a43ba436abb4bdd7134f13475595416c9612d0f0cd6f910daef7e0479f09"
+        }
+      ]
+    },
     "ASE2020": {
       "files": [
         {
@@ -809,11 +817,27 @@
         }
       ]
     },
+    "TKDE2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/TKDE2025.json",
+          "sha256": "53fbcd92ba6cf8c583759cf593ce5a23f8f6805ddbffef0833f1d38f4f99bdae"
+        }
+      ]
+    },
+    "TOSEM2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/TOSEM2025.json",
+          "sha256": "be580070e74646980604320b3a76ed473b9c9fbc0b54d5e91e1ccf7d98a7084a"
+        }
+      ]
+    },
     "TSE2025": {
       "files": [
         {
           "path": "data/rawdata/2025/TSE2025.json",
-          "sha256": "31f84b1838bfc12b88d58dc1b40fce7f54e2faf2fcbff539914fc88a667bde7a"
+          "sha256": "0eb3dc9f50dabfa9e1e14d46caa98393efe8d5120062958a4f9f7bb0c08dc358"
         }
       ]
     },
@@ -846,6 +870,14 @@
         {
           "path": "data/rawdata/2023/VLDB2023.json",
           "sha256": "e030c60fde929c5ab1e46e87f040f54ee617b7d126283ae00d328b7b266aa6e0"
+        }
+      ]
+    },
+    "VLDBJ2025": {
+      "files": [
+        {
+          "path": "data/rawdata/2025/VLDBJ2025.json",
+          "sha256": "913bac4f0c2b18758345c2d7e6a33262c1b2b814bd608035eac573e817c813c4"
         }
       ]
     },

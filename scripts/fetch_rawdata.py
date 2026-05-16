@@ -12,14 +12,15 @@ import re
 import sys
 import time
 import urllib.parse
-import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from http_utils import get_json, get_text
 from venues import iter_ccf_a_venues, iter_readme_journals
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
+REPORT_DIR = REPO_ROOT / "data" / "reports"
 
 ARXIV_QUERIES = [
     '"text-to-sql"',
@@ -38,11 +39,13 @@ JOURNAL_VOLUME_HINTS = {
     "vldb": ("vldb", -1991),
 }
 
-
-def get_text(url, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": "Text2SQL-Paper-Summary/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
+OPENALEX_JOURNAL_SOURCES = {
+    "AIJ": "S196139623",
+    "TKDE": "S30698027",
+    "VLDBJ": "S78926909",
+    "TSE": "S8351582",
+    "TOSEM": "S142627899",
+}
 
 
 def clean(text):
@@ -140,6 +143,101 @@ def parse_dblp_publications(xml_text, venue, year, track):
     return papers
 
 
+def abstract_from_inverted_index(index):
+    if not index:
+        return ""
+    positions = []
+    for word, offsets in index.items():
+        for offset in offsets:
+            positions.append((offset, word))
+    return clean(" ".join(word for _, word in sorted(positions)))
+
+
+def openalex_source_name(work):
+    primary = work.get("primary_location") or {}
+    source = primary.get("source") or {}
+    if source.get("display_name"):
+        return clean(source["display_name"])
+    host_venue = work.get("host_venue") or {}
+    return clean(host_venue.get("display_name") or "Unknown")
+
+
+def openalex_work_url(work):
+    doi = clean(work.get("doi") or "")
+    if doi:
+        return doi
+    primary = work.get("primary_location") or {}
+    if primary.get("landing_page_url"):
+        return clean(primary["landing_page_url"])
+    return clean(work.get("id") or "")
+
+
+def normalize_openalex_work(work, venue, year, track):
+    title = clean(work.get("title") or work.get("display_name") or "")
+    if not title:
+        return None
+    authors = []
+    for authorship in work.get("authorships") or []:
+        author = authorship.get("author") or {}
+        name = clean(author.get("display_name") or "")
+        if name:
+            authors.append(name)
+    concepts = [
+        clean(concept.get("display_name") or "")
+        for concept in work.get("concepts") or []
+        if clean(concept.get("display_name") or "")
+    ]
+    source_title = openalex_source_name(work)
+    entry = {
+        "type": clean(work.get("type") or "ARTICLE").upper(),
+        "key": clean(work.get("id") or ""),
+        "author": " and ".join(authors),
+        "booktitle": source_title or venue,
+        "journal": source_title or venue,
+        "title": title,
+        "year": str(work.get("publication_year") or year),
+        "abstract": abstract_from_inverted_index(work.get("abstract_inverted_index")),
+        "keywords": ", ".join(concepts),
+        "url": openalex_work_url(work),
+        "doi": clean(work.get("doi") or ""),
+        "venue": f"{venue}{year}",
+        "venue_track": track,
+        "openalex_id": clean(work.get("id") or ""),
+    }
+    return entry
+
+
+def fetch_openalex_journal(source_id, venue, year, track):
+    cursor = "*"
+    combined = {}
+    while True:
+        params = {
+            "filter": (
+                f"primary_location.source.id:{source_id},"
+                f"from_publication_date:{year}-01-01,"
+                f"to_publication_date:{year}-12-31"
+            ),
+            "per-page": "200",
+            "cursor": cursor,
+            "sort": "publication_date:desc",
+        }
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
+        payload = get_json(url, timeout=30)
+        results = payload.get("results") or []
+        for work in results:
+            entry = normalize_openalex_work(work, venue, year, track)
+            if entry:
+                combined[entry["title"]] = entry
+        next_cursor = (payload.get("meta") or {}).get("next_cursor")
+        if not results or not next_cursor:
+            break
+        cursor = next_cursor
+        time.sleep(0.2)
+    if not combined:
+        raise RuntimeError("empty")
+    return combined
+
+
 def fetch_dblp_venue(dblp_key, venue, year, track):
     errors = []
     for url in discover_dblp_urls(dblp_key, year):
@@ -161,7 +259,7 @@ def discover_journal_urls(dblp_key, year):
     if dblp_key in JOURNAL_URL_CACHE:
         return JOURNAL_URL_CACHE[dblp_key].get(year, [])
     index_url = dblp_journal_index_url(dblp_key)
-    html = get_text(index_url)
+    html = get_text(index_url, timeout=10, attempts=2)
     pattern = re.compile(
         rf'href="([^"]*/db/journals/{re.escape(dblp_key)}/[^"]+\.html)"',
         re.I,
@@ -192,7 +290,7 @@ def fetch_dblp_journal(dblp_key, venue, year, track):
     combined = {}
     for url in discover_journal_urls(dblp_key, year):
         try:
-            xml_text = get_text(url)
+            xml_text = get_text(url, timeout=10, attempts=2)
             combined.update(parse_dblp_publications(xml_text, venue, year, track))
         except Exception as exc:
             errors.append(f"{url}: {exc}")
@@ -256,6 +354,20 @@ def write_json(path, papers):
         json.dump(papers, f, indent=2, ensure_ascii=False)
 
 
+def write_fetch_report(failures, warnings, total):
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "summary": {
+            "fetched_entries": total,
+            "failure_count": len(failures),
+            "warning_count": len(warnings),
+        },
+        "failures": failures,
+        "warnings": warnings,
+    }
+    write_json(REPORT_DIR / "fetch_failures.json", payload)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch CCF-A DBLP and arXiv rawdata")
     parser.add_argument("--from-year", type=int, default=2020)
@@ -276,6 +388,7 @@ def main():
 
     total = 0
     failures = []
+    warnings = []
     for track, venue, dblp_key, year in iter_ccf_a_venues(args.from_year, args.to_year, tracks=tracks):
         if allowed_venues and venue.lower() not in allowed_venues:
             continue
@@ -285,7 +398,17 @@ def main():
             papers = fetch_dblp_venue(dblp_key, venue, year, track)
         except Exception as exc:
             print(f"  WARN: failed {venue}{year}: {exc}", file=sys.stderr)
-            failures.append({"venue": venue, "year": year, "track": track, "source": "dblp", "error": str(exc)})
+            failures.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "track": track,
+                    "source": "dblp",
+                    "source_type": "dblp-conference",
+                    "status": "failed",
+                    "error": str(exc),
+                }
+            )
             continue
         write_json(out_path, papers)
         total += len(papers)
@@ -301,9 +424,48 @@ def main():
         try:
             papers = fetch_dblp_journal(dblp_key, venue, year, track)
         except Exception as exc:
-            print(f"  WARN: failed journal {venue}{year}: {exc}", file=sys.stderr)
-            failures.append({"venue": venue, "year": year, "track": track, "source": "dblp-journal", "error": str(exc)})
-            continue
+            print(f"  WARN: DBLP journal failed {venue}{year}: {exc}", file=sys.stderr)
+            source_id = OPENALEX_JOURNAL_SOURCES.get(venue)
+            if not source_id:
+                failures.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "dblp-journal",
+                        "source_type": "journal",
+                        "status": "failed",
+                        "error": str(exc),
+                    }
+                )
+                continue
+            try:
+                print(f"  trying OpenAlex fallback {venue}{year}", file=sys.stderr)
+                papers = fetch_openalex_journal(source_id, venue, year, track)
+                warnings.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "openalex-journal-fallback",
+                        "status": "fallback_used",
+                        "reason": f"DBLP journal failed or empty: {exc}",
+                    }
+                )
+            except Exception as fallback_exc:
+                print(f"  WARN: OpenAlex fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
+                failures.append(
+                    {
+                        "venue": venue,
+                        "year": year,
+                        "track": track,
+                        "source": "journal",
+                        "source_type": "journal",
+                        "status": "failed",
+                        "error": f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                    }
+                )
+                continue
         write_json(out_path, papers)
         total += len(papers)
         print(f"  wrote {len(papers)} journal papers -> {out_path}", file=sys.stderr)
@@ -323,17 +485,40 @@ def main():
                     arxiv_papers[entry["title"]] = entry
             except Exception as exc:
                 print(f"  WARN: arXiv query failed {query}: {exc}", file=sys.stderr)
-                failures.append({"venue": "arXiv", "year": "", "track": "arXiv", "source": query, "error": str(exc)})
+                warnings.append(
+                    {
+                        "venue": "arXiv",
+                        "year": "",
+                        "track": "arXiv",
+                        "source": query,
+                        "source_type": "arxiv",
+                        "status": "partial_failed",
+                        "error": str(exc),
+                    }
+                )
             if args.sleep:
                 time.sleep(max(args.sleep, 3.0))
-        write_json(RAWDATA_DIR / "arxiv" / "arXiv-text2sql.json", arxiv_papers)
-        total += len(arxiv_papers)
-        print(f"  wrote {len(arxiv_papers)} arXiv papers", file=sys.stderr)
+        if arxiv_papers:
+            write_json(RAWDATA_DIR / "arxiv" / "arXiv-text2sql.json", arxiv_papers)
+            total += len(arxiv_papers)
+            print(f"  wrote {len(arxiv_papers)} arXiv papers", file=sys.stderr)
+        else:
+            warnings.append(
+                {
+                    "venue": "arXiv",
+                    "year": "",
+                    "track": "arXiv",
+                    "source": "arxiv",
+                    "source_type": "arxiv",
+                    "status": "empty_skipped",
+                    "error": "no arXiv candidates collected; existing output kept unchanged",
+                }
+            )
+            print("  WARN: no arXiv candidates collected; existing output kept unchanged", file=sys.stderr)
 
     print(f"Fetched rawdata entries: {total}", file=sys.stderr)
-    if failures:
-        write_json(RAWDATA_DIR / "fetch_failures.json", {f"{item['venue']}{item['year']}:{i}": item for i, item in enumerate(failures)})
-        print(f"Wrote failure report: {RAWDATA_DIR / 'fetch_failures.json'}", file=sys.stderr)
+    write_fetch_report(failures, warnings, total)
+    print(f"Wrote fetch report: {REPORT_DIR / 'fetch_failures.json'}", file=sys.stderr)
 
 
 if __name__ == "__main__":

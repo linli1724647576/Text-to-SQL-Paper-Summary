@@ -143,12 +143,15 @@ def main():
     for venue, paths in sorted(changed_groups.items()):
         with tempfile.TemporaryDirectory(prefix=f"text2sql_{venue}_") as tmp:
             extracted = {}
+            extract_failed = False
             for path in paths:
                 extracted_path = Path(tmp) / f"{path.stem}.json"
                 if not run("extract_papers.py", [path], extracted_path):
+                    extract_failed = True
                     continue
                 extracted.update(json.load(open(extracted_path, encoding="utf-8")))
-            if not extracted:
+            if extract_failed:
+                print(f"WARN: extraction failed for at least one file in {venue}; keeping old fingerprint", file=sys.stderr)
                 continue
 
             all_path = Path(tmp) / "extracted.json"

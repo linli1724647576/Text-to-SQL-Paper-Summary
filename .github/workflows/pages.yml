@@ -57,6 +57,10 @@ jobs:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: python scripts/crawl_papers.py --output data/autocrawl/openalex.json --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --source supplemental --max-results 60 --sleep 0.5
 
+      - name: Fetch official accepted papers
+        if: github.event_name == 'schedule' || inputs.full_crawl
+        run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
+
       - name: Enrich abstracts
         if: github.event_name == 'schedule' || inputs.full_crawl
         env:
@@ -67,13 +71,9 @@ jobs:
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/process_folder.py
 
-      - name: Fetch official accepted papers
-        if: github.event_name == 'schedule' || inputs.full_crawl
-        run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
-
-      - name: Merge official accepted papers
-        if: github.event_name == 'schedule' || inputs.full_crawl
-        run: python scripts/process_official_accepted.py
+      - name: Validate dataset
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json
 
       - name: Build site
         run: python scripts/build_site.py
@@ -83,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/rawdata data/autocrawl/openalex.json data/labeldata/labeldata.json data/venues.json web/index.html
+          git add data/rawdata data/autocrawl/openalex.json data/labeldata/labeldata.json data/venues.json data/reports web/index.html
           git diff --cached --quiet || git commit -m "Update crawled Text-to-SQL papers"
           git push
 

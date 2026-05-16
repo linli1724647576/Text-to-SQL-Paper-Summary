@@ -75,6 +75,10 @@ jobs:
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json
 
+      - name: Audit literature sample
+        if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
+        run: python scripts/audit_literature_sample.py
+
       - name: Build site
         run: python scripts/build_site.py
 

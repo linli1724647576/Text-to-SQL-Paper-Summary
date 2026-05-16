@@ -9,6 +9,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+from label_papers import relevance_level
 from paper_utils import normalize_title_key
 from venues import (
     README_CCF_A_JOURNALS,
@@ -16,6 +17,7 @@ from venues import (
     normalize_entry_venue,
     publication_category,
     venue_base_name,
+    www_supported_by_source,
 )
 
 
@@ -120,6 +122,31 @@ def report_failures(reports_dir):
     return failures, warnings
 
 
+def quality_pruned_count(reports_dir, baseline_papers, current_papers):
+    payload = load_json(Path(reports_dir) / "pruned_irrelevant.json", {})
+    removed = payload.get("removed") or []
+    baseline_keys = {
+        normalize_title_key(entry.get("title") or title)
+        for title, entry in (baseline_papers or {}).items()
+        if normalize_title_key(entry.get("title") or title)
+    }
+    current_keys = {
+        normalize_title_key(entry.get("title") or title)
+        for title, entry in (current_papers or {}).items()
+        if normalize_title_key(entry.get("title") or title)
+    }
+    verified = 0
+    for item in removed:
+        entry = item.get("entry") or item
+        title = entry.get("title") or item.get("title") or ""
+        key = normalize_title_key(title)
+        if not key or key not in baseline_keys or key in current_keys:
+            continue
+        if relevance_level(title, entry.get("abstract", ""), entry.get("keywords", "")) == "irrelevant":
+            verified += 1
+    return verified
+
+
 def expected_dblp_conference_count(from_year, to_year):
     return sum(1 for _ in iter_ccf_a_venues(from_year, to_year, tracks=["AI", "DB", "SE"]))
 
@@ -163,13 +190,19 @@ def validate(args):
         metrics["baseline_unique_title_count"] = baseline_count
         if baseline_count:
             drop_ratio = (baseline_count - metrics["unique_title_count"]) / baseline_count
+            pruned_count = quality_pruned_count(args.reports_dir, baseline, papers)
+            adjusted_drop_ratio = max(0, baseline_count - metrics["unique_title_count"] - pruned_count) / baseline_count
             metrics["unique_title_drop_ratio"] = round(drop_ratio, 6)
-            if drop_ratio > BALANCED_DROP_LIMIT:
+            metrics["quality_pruned_irrelevant_count"] = pruned_count
+            metrics["adjusted_unique_title_drop_ratio"] = round(adjusted_drop_ratio, 6)
+            if adjusted_drop_ratio > BALANCED_DROP_LIMIT:
                 fatal_errors.append(
-                    f"unique paper count dropped by {drop_ratio:.2%}; limit is {BALANCED_DROP_LIMIT:.0%}"
+                    f"unexplained unique paper count dropped by {adjusted_drop_ratio:.2%}; limit is {BALANCED_DROP_LIMIT:.0%}"
                 )
 
     www_mismatches = []
+    unsupported_www = []
+    irrelevant_records = []
     category_counts = {}
     for title, entry in papers.items():
         normalized = normalize_entry_venue(entry)
@@ -177,9 +210,20 @@ def validate(args):
         category_counts[category] = category_counts.get(category, 0) + 1
         if venue_base_name(normalized) == "WWW" and category != "交叉/综合/新兴":
             www_mismatches.append(entry.get("title") or title)
+        if venue_base_name(normalized) == "WWW" and not www_supported_by_source(entry):
+            unsupported_www.append(entry.get("title") or title)
+        level = relevance_level(title, entry.get("abstract", ""), entry.get("keywords", ""))
+        if level == "irrelevant":
+            irrelevant_records.append(entry.get("title") or title)
     metrics["category_counts"] = dict(sorted(category_counts.items()))
+    metrics["irrelevant_records"] = len(irrelevant_records)
+    metrics["unsupported_www_records"] = len(unsupported_www)
     if www_mismatches:
         fatal_errors.append(f"WWW papers outside cross category: {www_mismatches[:10]}")
+    if unsupported_www:
+        fatal_errors.append(f"WWW papers lack high-confidence WWW source: {unsupported_www[:10]}")
+    if irrelevant_records:
+        fatal_errors.append(f"irrelevant records under current relevance rules: {len(irrelevant_records)}; sample={irrelevant_records[:10]}")
 
     coverage = journal_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)
     metrics["readme_journal_rawdata_files"] = coverage

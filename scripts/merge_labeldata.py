@@ -7,10 +7,48 @@ import os
 import sys
 from pathlib import Path
 
-from paper_utils import dedupe_papers, normalize_title_key, upsert_paper
+from label_papers import relevance_level, with_relevance_metadata
+from paper_utils import dedupe_papers, normalize_paper_metadata, normalize_title_key, upsert_paper
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_LABELDATA = REPO_ROOT / "data" / "labeldata" / "labeldata.json"
+DEFAULT_PRUNE_REPORT = REPO_ROOT / "data" / "reports" / "pruned_irrelevant.json"
+
+
+def prune_irrelevant_papers(papers):
+    kept = {}
+    removed = []
+    for title, entry in papers.items():
+        level = relevance_level(title, entry.get("abstract", ""), entry.get("keywords", ""))
+        normalized = normalize_paper_metadata(with_relevance_metadata(title, entry))
+        if level == "irrelevant":
+            removed.append(
+                {
+                    "title": normalized.get("title") or title,
+                    "venue": normalized.get("venue", ""),
+                    "year": normalized.get("year", ""),
+                    "doi": normalized.get("doi", ""),
+                    "url": normalized.get("url", ""),
+                    "reason": "relevance_level=irrelevant",
+                    "entry": normalized,
+                }
+            )
+            continue
+        kept[normalized.get("title") or title] = normalized
+    return kept, removed
+
+
+def write_prune_report(path, removed):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "summary": {
+            "removed_count": len(removed),
+        },
+        "removed": removed,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
 
 def main():
@@ -20,6 +58,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--no-overwrite", action="store_true")
     parser.add_argument("--dedupe-only", action="store_true")
+    parser.add_argument("--prune-irrelevant", action="store_true")
+    parser.add_argument("--prune-report", default=str(DEFAULT_PRUNE_REPORT))
     args = parser.parse_args()
 
     if not args.input and not args.dedupe_only:
@@ -31,14 +71,23 @@ def main():
     else:
         existing = {}
     existing, existing_duplicates = dedupe_papers(existing)
+    removed = []
+    if args.prune_irrelevant:
+        existing, removed = prune_irrelevant_papers(existing)
+        existing, prune_duplicates = dedupe_papers(existing)
+        existing_duplicates += prune_duplicates
 
     if args.dedupe_only:
         print(f"Deduped existing duplicates: {existing_duplicates}", file=sys.stderr)
+        if args.prune_irrelevant:
+            print(f"Pruned irrelevant: {len(removed)}", file=sys.stderr)
         print(f"Total: {len(existing)}", file=sys.stderr)
         if not args.dry_run:
             Path(args.labeldata).parent.mkdir(parents=True, exist_ok=True)
             with open(args.labeldata, "w", encoding="utf-8") as f:
                 json.dump(dict(sorted(existing.items())), f, indent=2, ensure_ascii=False)
+            if args.prune_irrelevant:
+                write_prune_report(args.prune_report, removed)
         return
 
     with open(args.input, encoding="utf-8") as f:
@@ -54,6 +103,10 @@ def main():
         if not entry.get("labels") or not entry.get("pipeline_stages"):
             invalid += 1
             continue
+        if relevance_level(title, entry.get("abstract", ""), entry.get("keywords", "")) == "irrelevant":
+            invalid += 1
+            continue
+        entry = with_relevance_metadata(title, entry)
         status = upsert_paper(existing, index, title, entry, no_overwrite=args.no_overwrite)
         if status == "added":
             added += 1
@@ -65,6 +118,8 @@ def main():
             invalid += 1
 
     print(f"Deduped existing duplicates: {existing_duplicates}", file=sys.stderr)
+    if args.prune_irrelevant:
+        print(f"Pruned irrelevant: {len(removed)}", file=sys.stderr)
     print(f"Added: {added}", file=sys.stderr)
     print(f"Updated: {updated}", file=sys.stderr)
     print(f"Skipped: {skipped}", file=sys.stderr)
@@ -77,6 +132,8 @@ def main():
     Path(args.labeldata).parent.mkdir(parents=True, exist_ok=True)
     with open(args.labeldata, "w", encoding="utf-8") as f:
         json.dump(dict(sorted(existing.items())), f, indent=2, ensure_ascii=False)
+    if args.prune_irrelevant:
+        write_prune_report(args.prune_report, removed)
 
 
 if __name__ == "__main__":

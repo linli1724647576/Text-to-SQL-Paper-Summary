@@ -291,6 +291,12 @@ VENUE_ALIASES = {
     "tse": "TSE",
 }
 
+LINK_VENUE_ALIASES = {
+    "arxiv.org": ARXIV_VENUE,
+    "export.arxiv.org": ARXIV_VENUE,
+    "thewebconf.org": "WWW",
+}
+
 
 def _contains_alias(haystack, alias):
     if len(alias) <= 4 and re.fullmatch(r"[a-z&]+", alias):
@@ -383,19 +389,45 @@ def _venue_source_text(entry):
     # written a wrong bucket such as ASE. Use source-like fields instead.
     return " ".join(
         str(entry.get(key, ""))
-        for key in ("booktitle", "journal", "container", "source", "publisher", "url", "doi")
+        for key in ("booktitle", "journal", "container", "source", "publisher")
     ).lower()
+
+
+def _venue_link_text(entry):
+    return " ".join(str(entry.get(key, "")) for key in ("url", "doi")).lower()
+
+
+def _matched_venue_from_text(text, aliases):
+    for alias, abbr in sorted(aliases.items(), key=lambda item: len(item[0]), reverse=True):
+        if _contains_alias(text, alias):
+            return abbr
+    return ""
+
+
+def www_supported_by_source(entry):
+    source_text = _venue_source_text(entry)
+    link_text = _venue_link_text(entry)
+    return (
+        _matched_venue_from_text(source_text, VENUE_ALIASES) == "WWW"
+        or _matched_venue_from_text(link_text, LINK_VENUE_ALIASES) == "WWW"
+    )
 
 
 def normalize_entry_venue(entry):
     """Return a strict CCF-A venue bucket, ArXiv, or Other."""
     source_text = _venue_source_text(entry)
-    if "arxiv" in source_text:
+    link_text = _venue_link_text(entry)
+    if "arxiv" in source_text or _matched_venue_from_text(link_text, LINK_VENUE_ALIASES) == ARXIV_VENUE:
         return ARXIV_VENUE
-    for alias, abbr in sorted(VENUE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
-        if _contains_alias(source_text, alias):
-            return abbr
+    matched = _matched_venue_from_text(source_text, VENUE_ALIASES)
+    if matched:
+        return matched
+    matched = _matched_venue_from_text(link_text, LINK_VENUE_ALIASES)
+    if matched:
+        return matched
     existing = venue_base_name(entry.get("venue", ""))
+    if existing == "WWW" and not www_supported_by_source(entry):
+        return OTHER_VENUE
     if existing != OTHER_VENUE:
         return existing
     return OTHER_VENUE

@@ -29,46 +29,152 @@ def contains_any(text, terms):
     return any(term in text for term in terms)
 
 
+DIRECT_TEXT2SQL_TERMS = [
+    "text-to-sql",
+    "text to sql",
+    "text2sql",
+    "nl2sql",
+    "natural language to sql",
+    "natural-language-to-sql",
+    "semantic parsing to sql",
+    "semantic parsing into sql",
+    "question-to-sql",
+    "natural language query to sql",
+    "natural language queries to sql",
+    "nlq to sql",
+    "nlqs to sql",
+    "natural language interface to database",
+    "natural language interfaces to databases",
+    "nlidb",
+    "consultas en lenguaje natural",
+    "natural language query (nlq)",
+]
+
+SQL_GENERATION_TERMS = [
+    "sql generation",
+    "generate sql",
+    "generating sql",
+    "sql query generation",
+    "sql translation",
+    "translate to sql",
+    "translation to sql",
+    "sql parser",
+    "sql synthesis",
+    "sql update generation",
+    "sql generation task",
+    "automated sql generation",
+]
+
+DATABASE_TERMS = [
+    "sql",
+    "database",
+    "databases",
+    "relational database",
+    "schema",
+    "schemas",
+    "table",
+    "tables",
+    "query",
+    "queries",
+]
+
+NATURAL_LANGUAGE_SQL_TERMS = [
+    "natural language",
+    "user question",
+    "user query",
+    "question answering",
+    "database question answering",
+    "natural language interface",
+    "natural language query",
+    "natural language queries",
+    "plain english",
+    "instruction",
+    "instructions",
+    "non-professional",
+    "non-professionals",
+    "non-expert",
+    "non-experts",
+    "nlp",
+    "lenguaje natural",
+    "consultas en lenguaje natural",
+]
+
+APPLICATION_BOUNDARY_TERMS = [
+    "cascade update",
+    "update statements",
+    "update operations",
+    "sql update",
+    "data-to-insight",
+    "business intelligence",
+    "threat hunting",
+]
+
+NON_TEXT2SQL_DOMAIN_TERMS = [
+    "wireless communication",
+    "wireless communications",
+]
+
+
+def relevance_level(title, abstract, keywords=""):
+    primary_text = norm(" ".join([title, abstract]))
+    keyword_text = norm(keywords)
+    title_text = norm(title)
+
+    direct_in_title = contains_any(title_text, DIRECT_TEXT2SQL_TERMS)
+    direct_in_primary = contains_any(primary_text, DIRECT_TEXT2SQL_TERMS)
+    sql_generation = contains_any(primary_text, SQL_GENERATION_TERMS)
+    sql_or_database = contains_any(primary_text, DATABASE_TERMS)
+    natural_language = contains_any(primary_text, NATURAL_LANGUAGE_SQL_TERMS)
+    semantic_sql = "semantic parsing" in primary_text and "sql" in primary_text
+    boundary_application = contains_any(primary_text, APPLICATION_BOUNDARY_TERMS)
+
+    if not direct_in_title and contains_any(primary_text, NON_TEXT2SQL_DOMAIN_TERMS):
+        return "irrelevant"
+    if direct_in_title and not boundary_application:
+        return "core"
+    if (direct_in_primary or semantic_sql) and not boundary_application:
+        return "core"
+    if direct_in_primary or semantic_sql:
+        return "application"
+    if sql_generation and contains_any(primary_text, LLM_TERMS + ["nlp", "non-professional", "non-professionals", "non-expert", "non-experts"]):
+        return "application"
+    if sql_generation and natural_language:
+        return "application"
+    if sql_or_database and natural_language and contains_any(primary_text, ["generate", "generation", "translate", "translation", "synthesis"]):
+        return "application"
+    if sql_or_database and contains_any(primary_text, ["transformar", "traducción", "traduccion"]):
+        return "application"
+    if contains_any(primary_text, ["natural language interface", "natural language query", "question answering"]) and contains_any(
+        primary_text,
+        ["database", "databases", "knowledge graph", "structured data", "data analytics", "business intelligence"],
+    ):
+        return "application"
+    if contains_any(primary_text, ["data-to-insight", "business intelligence", "semantic layer"]) and contains_any(primary_text, LLM_TERMS):
+        return "application"
+
+    # Keywords can support an already SQL/database-grounded abstract, but should
+    # never be the only reason a paper is considered Text-to-SQL.
+    if sql_or_database and natural_language and contains_any(keyword_text, DIRECT_TEXT2SQL_TERMS + SQL_GENERATION_TERMS):
+        return "application"
+    return "irrelevant"
+
+
+def with_relevance_metadata(title, entry):
+    copied = dict(entry)
+    level = relevance_level(title, copied.get("abstract", ""), copied.get("keywords", ""))
+    copied["relevance_level"] = level
+    flags = [flag for flag in copied.get("quality_flags", []) if flag != "application_related"]
+    if level == "application":
+        flags.append("application_related")
+    if flags:
+        copied["quality_flags"] = sorted(set(flags))
+    elif "quality_flags" in copied:
+        copied.pop("quality_flags", None)
+    return copied
+
+
 def is_relevant(title, abstract, keywords=""):
-    text = norm(" ".join([title, abstract, keywords]))
-    direct = contains_any(
-        text,
-        [
-            "text-to-sql",
-            "text to sql",
-            "text2sql",
-            "nl2sql",
-            "natural language to sql",
-            "natural-language-to-sql",
-        ],
-    )
-    semantic_sql = "semantic parsing" in text and "sql" in text
-    nl_db = (
-        contains_any(
-            text,
-            [
-                "natural language interface to database",
-                "natural language interfaces to databases",
-                "natural language query",
-                "database question answering",
-                "question answering over databases",
-            ],
-        )
-        and "sql" in text
-        and contains_any(text, ["query", "queries", "interface", "question answering"])
-    )
-    llm_sql = contains_any(text, LLM_TERMS) and contains_any(
-        text,
-        [
-            "sql generation",
-            "generate sql",
-            "sql query generation",
-            "natural language query",
-            "database question answering",
-            "question answering over databases",
-        ],
-    )
-    return direct or semantic_sql or nl_db or llm_sql
+    return relevance_level(title, abstract, keywords) != "irrelevant"
 
 
 TOPIC_RULES = {
@@ -216,7 +322,7 @@ def classify_entry(title, entry):
     copied = dict(entry)
     copied["labels"] = labels
     copied["pipeline_stages"] = stages
-    return copied
+    return with_relevance_metadata(title, copied)
 
 
 def classify_with_bedrock(papers, model, region, delay):
@@ -271,7 +377,7 @@ def classify_with_bedrock(papers, model, region, delay):
         entry_copy["labels"] = add_parent_labels(selected_topics, TOPIC_TAXONOMY)
         entry_copy["pipeline_stages"] = add_parent_labels(selected_stages, PIPELINE_TAXONOMY)
         if entry_copy["labels"] and entry_copy["pipeline_stages"]:
-            classified[title] = entry_copy
+            classified[title] = with_relevance_metadata(title, entry_copy)
         print(f"[{i}/{len(papers)}] OK: {title[:70]}", file=sys.stderr)
         if delay:
             import time

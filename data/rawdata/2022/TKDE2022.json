@@ -3935,6 +3935,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4226166862"
   },
+  "Regulating systemic crises: Stemming the contagion risk in networked-loans through deep graph learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4220759569",
+    "author": "Dawei Cheng and Zhibin Niu and Jie Li and Changjun Jiang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Regulating systemic crises: Stemming the contagion risk in networked-loans through deep graph learning",
+    "year": "2022",
+    "abstract": "In networked-loans, guarantor enterprises have a legal duty to repay debt to the commercial bank when the guaranteed borrower enterprise defaults (fail to repay). During an economic recession, the risk of defaults may spread like wildfire -- the loan network structure could amplify both reach and impact; thus leading to a large-scale corporation defaults even systemic financial crises. The Central Bank urges advanced regulation technology to recognize and act on the contagion risk in order to avoid the ‘`gray rhino’'. Therefore, we present a novel approach to help the regulators quantify the systemic risk and provide stemming clues. In particular, we report a state-of-the-art graph neural network architecture (iConReg) for detecting and isolating of contagion risk in China's national-wide networked-loans. The overall accuracy of our model reaches over 91% of AUC, which considerably outperforms the compared benchmark methods. By isolating the top 1% of predicted high-risky nodes in the contagion chains, iConReg reports a significant shrink (averaged 25.8%) of loan default rates. Our presented approach opens up a new direction of using deep graph learning techniques to regulate the contagion risk of networked-loans, which enables the authorities to design more prompt prevention measures against systemic financial crises",
+    "keywords": "Computer science, Systemic risk, Artificial intelligence, Financial crisis, Economics, Macroeconomics",
+    "url": "https://doi.org/10.1109/tkde.2022.3162339",
+    "doi": "https://doi.org/10.1109/tkde.2022.3162339",
+    "venue": "TKDE2022",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4220759569"
+  },
   "Concept Drift Detection Delay Index": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4226017146",
@@ -4014,22 +4030,6 @@
     "venue": "TKDE2022",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4213170134"
-  },
-  "Regulating systemic crises: Stemming the contagion risk in networked-loans through deep graph learning": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4220759569",
-    "author": "Dawei Cheng and Zhibin Niu and Jie Li and Changjun Jiang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Regulating systemic crises: Stemming the contagion risk in networked-loans through deep graph learning",
-    "year": "2022",
-    "abstract": "In networked-loans, guarantor enterprises have a legal duty to repay debt to the commercial bank when the guaranteed borrower enterprise defaults (fail to repay). During an economic recession, the risk of defaults may spread like wildfire -- the loan network structure could amplify both reach and impact; thus leading to a large-scale corporation defaults even systemic financial crises. The Central Bank urges advanced regulation technology to recognize and act on the contagion risk in order to avoid the ‘`gray rhino’'. Therefore, we present a novel approach to help the regulators quantify the systemic risk and provide stemming clues. In particular, we report a state-of-the-art graph neural network architecture (iConReg) for detecting and isolating of contagion risk in China's national-wide networked-loans. The overall accuracy of our model reaches over 91% of AUC, which considerably outperforms the compared benchmark methods. By isolating the top 1% of predicted high-risky nodes in the contagion chains, iConReg reports a significant shrink (averaged 25.8%) of loan default rates. Our presented approach opens up a new direction of using deep graph learning techniques to regulate the contagion risk of networked-loans, which enables the authorities to design more prompt prevention measures against systemic financial crises",
-    "keywords": "Computer science, Systemic risk, Artificial intelligence, Financial crisis, Economics, Macroeconomics",
-    "url": "https://doi.org/10.1109/tkde.2022.3162339",
-    "doi": "https://doi.org/10.1109/tkde.2022.3162339",
-    "venue": "TKDE2022",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W4220759569"
   },
   "Adversarial Attack Framework on Graph Embedding Models with Limited Knowledge": {
     "type": "ARTICLE",

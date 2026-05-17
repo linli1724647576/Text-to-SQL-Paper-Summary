@@ -3583,22 +3583,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4410263438"
   },
-  "Runtime Verification via Rational Monitor with Imperfect Information": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4410263610",
-    "author": "Angelo Ferrando and Vadim Malvone",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "Runtime Verification via Rational Monitor with Imperfect Information",
-    "year": "2025",
-    "abstract": "Trusting software systems, particularly autonomous ones, is challenging. To address this, formal verification techniques can ensure these systems behave as expected. Runtime Verification (RV) is a leading, lightweight method for verifying system behaviour during execution. However, traditional RV assumes perfect information, meaning the monitoring component perceives everything accurately. This assumption often fails, especially with autonomous systems operating in real-world environments where sensors might be faulty. Additionally, traditional RV considers the monitor to be passive, lacking the capability to interpret the system’s information and thus unable to address incomplete data. In this work, we extend standard RV of Linear Temporal Logic properties to accommodate scenarios where the monitor has imperfect information and behaves rationally. We outline the necessary engineering steps to update the verification pipeline and demonstrate our implementation in a case study involving robotic systems.",
-    "keywords": "Computer science, Imperfect, Runtime verification, Programming language, Software engineering, Formal verification, Philosophy, Linguistics",
-    "url": "https://doi.org/10.1145/3735130",
-    "doi": "https://doi.org/10.1145/3735130",
-    "venue": "TOSEM2025",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4410263610"
-  },
   "AutoAdapt: On the Application of AutoML for Parameter-Efficient Fine-Tuning of Pre-Trained Code Models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4410263855",
@@ -3614,6 +3598,22 @@
     "venue": "TOSEM2025",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4410263855"
+  },
+  "Runtime Verification via Rational Monitor with Imperfect Information": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4410263610",
+    "author": "Angelo Ferrando and Vadim Malvone",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Runtime Verification via Rational Monitor with Imperfect Information",
+    "year": "2025",
+    "abstract": "Trusting software systems, particularly autonomous ones, is challenging. To address this, formal verification techniques can ensure these systems behave as expected. Runtime Verification (RV) is a leading, lightweight method for verifying system behaviour during execution. However, traditional RV assumes perfect information, meaning the monitoring component perceives everything accurately. This assumption often fails, especially with autonomous systems operating in real-world environments where sensors might be faulty. Additionally, traditional RV considers the monitor to be passive, lacking the capability to interpret the system’s information and thus unable to address incomplete data. In this work, we extend standard RV of Linear Temporal Logic properties to accommodate scenarios where the monitor has imperfect information and behaves rationally. We outline the necessary engineering steps to update the verification pipeline and demonstrate our implementation in a case study involving robotic systems.",
+    "keywords": "Computer science, Imperfect, Runtime verification, Programming language, Software engineering, Formal verification, Philosophy, Linguistics",
+    "url": "https://doi.org/10.1145/3735130",
+    "doi": "https://doi.org/10.1145/3735130",
+    "venue": "TOSEM2025",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4410263610"
   },
   "TVDiag: A Task-oriented and View-invariant Failure Diagnosis Framework for Microservice-based Systems with Multimodal Data": {
     "type": "ARTICLE",

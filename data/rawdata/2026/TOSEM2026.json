@@ -1,4 +1,20 @@
 {
+  "A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7161417267",
+    "author": "Sabrina Kaniewski and Fabian Schmidt and Markus Enzweiler and Michael Menth and Tobias Heer",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models",
+    "year": "2026",
+    "abstract": "The increasing adoption of Large Language Models (LLMs) in software engineering has sparked interest in their use for software vulnerability detection. However, the rapid development of this field has resulted in a fragmented research landscape, with diverse studies that are difficult to compare due to differences in, e.g., system designs and dataset usage. This fragmentation makes it difficult to obtain a clear overview of the state-of-the-art or compare and categorize studies meaningfully. In this work, we present a comprehensive systematic literature review (SLR) of LLM-based software vulnerability detection. We analyze 263 studies published between January 2020 and November 2025, categorizing them by task formulation, input representation, system architecture, and techniques. Further, we analyze the datasets used, including their characteristics, vulnerability coverage, and diversity. We present a fine-grained taxonomy of vulnerability detection approaches, identify key limitations, and outline actionable future research opportunities. By providing a structured overview of the field, this review improves transparency and serves as a practical guide for researchers and practitioners aiming to conduct more comparable and reproducible research. We publicly release all artifacts and maintain a living repository of LLM-based software vulnerability detection studies at https://github.com/hs-esslingen-it-security/Awesome-LLM4SVD .",
+    "keywords": "Computer science, Systematic review, Vulnerability management, Vulnerability (computing), Categorization, Data science, Software, Software engineering, Field (mathematics), Vulnerability assessment, Taxonomy (biology), Fragmentation (computing), Transparency (behavior), Task (project management), Software peer review, Key (lock), Secure coding, Software development, Documentation, Risk analysis (engineering), Software security assurance, Software system, Software technical review",
+    "url": "https://doi.org/10.1145/3815425",
+    "doi": "https://doi.org/10.1145/3815425",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7161417267"
+  },
   "SpeSC <sup>+</sup> : An End-User Readable Domain-Specific Language for Smart Legal Contracts": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7161248330",

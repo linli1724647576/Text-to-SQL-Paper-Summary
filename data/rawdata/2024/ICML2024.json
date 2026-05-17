@@ -33350,7 +33350,7 @@
   "Revisiting Context Aggregation for Image Matting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/icml/LiuLMLLYZN24",
-    "author": "Qinglin Liu and Xiaoqian Lv and Quanling Meng and Zonglin Li and Xiangyuan Lan and Shuo Yang 0006 and Shengping Zhang and Liqiang Nie",
+    "author": "Qinglin Liu and Xiaoqian Lv and Quanling Meng and Zonglin Li 0004 and Xiangyuan Lan and Shuo Yang 0006 and Shengping Zhang and Liqiang Nie",
     "booktitle": "ICML",
     "title": "Revisiting Context Aggregation for Image Matting.",
     "year": "2024",
@@ -35226,7 +35226,7 @@
   "Learning Pseudo-Contractive Denoisers for Inverse Problems.": {
     "type": "INPROCEEDINGS",
     "key": "conf/icml/WeiC024a",
-    "author": "Deliang Wei and Peng Chen and Fang Li 0004",
+    "author": "Deliang Wei and Peng Chen 0045 and Fang Li 0004",
     "booktitle": "ICML",
     "title": "Learning Pseudo-Contractive Denoisers for Inverse Problems.",
     "year": "2024",

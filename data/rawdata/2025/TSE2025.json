@@ -655,22 +655,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4415481152"
   },
-  "EffiReasonTrans: RL-Optimized Reasoning for Code Translation": {
-    "type": "PREPRINT",
-    "key": "https://openalex.org/W4416057665",
-    "author": "Yanlin Wang and R. Ou and Yanli Wang and Mingwei Liu and Jiachi Chen and Ensheng Shi and Xilin Liu and Yuchi Ma and Zibin Zheng",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "EffiReasonTrans: RL-Optimized Reasoning for Code Translation",
-    "year": "2025",
-    "abstract": "Code translation is a crucial task in software development and maintenance. While recent advancements in large language models (LLMs) have improved automated code translation accuracy, these gains often come at the cost of increased inference latency, hindering real-world development workflows that involve human-in-the-loop inspection. To address this trade-off, we propose EffiReasonTrans, a training framework designed to improve translation accuracy while balancing inference latency. We first construct a high-quality reasoning-augmented dataset by prompting a stronger language model, DeepSeek-R1, to generate intermediate reasoning and target translations. Each (source code, reasoning, target code) triplet undergoes automated syntax and functionality checks to ensure reliability. Based on this dataset, we employ a two-stage training strategy: supervised fine-tuning on reasoning-augmented samples, followed by reinforcement learning to further enhance accuracy and balance inference latency. We evaluate EffiReasonTrans on six translation pairs. Experimental results show that it consistently improves translation accuracy (up to +49.2% CA and +27.8% CodeBLEU compared to the base model) while reducing the number of generated tokens (up to -19.3%) and lowering inference latency in most cases (up to -29.0%). Ablation studies further confirm the complementary benefits of the two-stage training framework. Additionally, EffiReasonTrans demonstrates improved translation accuracy when integrated into agent-based frameworks. Our code and data are available at https://github.com/DeepSoftwareAnalytics/EffiReasonTrans.",
-    "keywords": "Computer science, Inference, Translation (biology), Artificial intelligence, Natural language processing, Workflow, Programming language, Machine learning, Code (set theory), Syntax, Source code, Task (project management), Machine translation, Automated reasoning, Software, Knowledge base, Latency (audio), Code generation, Training set, Construct (python library), Language translation, Boosting (machine learning), Reinforcement learning, Dynamic and formal equivalence",
-    "url": "https://doi.org/10.1109/tse.2026.3693795",
-    "doi": "https://doi.org/10.1109/tse.2026.3693795",
-    "venue": "TSE2025",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4416057665"
-  },
   "Augmenting Smart Contract Decompiler Output Through Fine-Grained Dependency Analysis and LLM-Facilitated Semantic Recovery": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4415367559",
@@ -1279,6 +1263,22 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4413925964"
   },
+  "Enhancing Fine-Grained Vulnerability Detection With Reinforcement Learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4413822380",
+    "author": "Yuan Jiang and Zhichen Qu and Christoph Treude and Xiaohong Su and Tiantian Wang",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Enhancing Fine-Grained Vulnerability Detection With Reinforcement Learning",
+    "year": "2025",
+    "abstract": "The rapid growth of vulnerabilities has significantly accelerated the development of automated vulnerability detection methods, especially those based on data-driven models. However, most of them primarily focus on extracting accurate code representations while overlooking the complex vulnerability patterns among vulnerable statements, thereby leaving room for improvement. To overcome this limitation, we present a novel reinforcement learning framework (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i>) for detecting vulnerabilities at a fine-grained level. <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i> redefines the detection task as a sequential decision-making process and then employs reinforcement learning to automatically learn vulnerability-relevant structures from code snippets. Moreover, by designing reward functions aligned with fine-grained evaluation metrics, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i> focuses on the co-existence relations among statements from a global perspective, enabling the model to capture complex interactions that lead to vulnerabilities. Additionally, the framework utilizes CodeBERT-HLS for code representation, ensuring consistency with the state-of-the-art method while highlighting the improvements brought by the proposed reinforcement learning-based approach. Comprehensive experiments show that our method achieves a locating precision (IoU) of 69.7% and a Top-5% Acc of 67.7% on the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">big_vul</i> dataset, outperforming the state-of-the-art method by an overall 3.4% improvement in IoU. Notably, our method achieves up to a 19.7% increase in IoU for specific categories, e.g., CWE-416 (use-after-free).",
+    "keywords": "Computer science, Reinforcement learning, Vulnerability (computing), Artificial intelligence, Machine learning, Human–computer interaction, Computer security",
+    "url": "https://doi.org/10.1109/tse.2025.3603400",
+    "doi": "https://doi.org/10.1109/tse.2025.3603400",
+    "venue": "TSE2025",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4413822380"
+  },
   "A Systematic Literature Review of Machine Learning Approaches for Migrating Monolithic Systems to Microservices": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4413822387",
@@ -1310,22 +1310,6 @@
     "venue": "TSE2025",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4413822407"
-  },
-  "Enhancing Fine-Grained Vulnerability Detection With Reinforcement Learning": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4413822380",
-    "author": "Yuan Jiang and Zhichen Qu and Christoph Treude and Xiaohong Su and Tiantian Wang",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Enhancing Fine-Grained Vulnerability Detection With Reinforcement Learning",
-    "year": "2025",
-    "abstract": "The rapid growth of vulnerabilities has significantly accelerated the development of automated vulnerability detection methods, especially those based on data-driven models. However, most of them primarily focus on extracting accurate code representations while overlooking the complex vulnerability patterns among vulnerable statements, thereby leaving room for improvement. To overcome this limitation, we present a novel reinforcement learning framework (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i>) for detecting vulnerabilities at a fine-grained level. <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i> redefines the detection task as a sequential decision-making process and then employs reinforcement learning to automatically learn vulnerability-relevant structures from code snippets. Moreover, by designing reward functions aligned with fine-grained evaluation metrics, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">RLFD</i> focuses on the co-existence relations among statements from a global perspective, enabling the model to capture complex interactions that lead to vulnerabilities. Additionally, the framework utilizes CodeBERT-HLS for code representation, ensuring consistency with the state-of-the-art method while highlighting the improvements brought by the proposed reinforcement learning-based approach. Comprehensive experiments show that our method achieves a locating precision (IoU) of 69.7% and a Top-5% Acc of 67.7% on the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">big_vul</i> dataset, outperforming the state-of-the-art method by an overall 3.4% improvement in IoU. Notably, our method achieves up to a 19.7% increase in IoU for specific categories, e.g., CWE-416 (use-after-free).",
-    "keywords": "Computer science, Reinforcement learning, Vulnerability (computing), Artificial intelligence, Machine learning, Human–computer interaction, Computer security",
-    "url": "https://doi.org/10.1109/tse.2025.3603400",
-    "doi": "https://doi.org/10.1109/tse.2025.3603400",
-    "venue": "TSE2025",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4413822380"
   },
   "From Tea Leaves to System Maps: A Survey and Framework on Context-Aware Machine Learning Monitoring": {
     "type": "ARTICLE",

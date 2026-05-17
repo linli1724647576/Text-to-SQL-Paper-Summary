@@ -6162,7 +6162,7 @@
   "High-Resolution Image Harmonization with Adaptive-Interval Color Transformation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/MengLLLZN24",
-    "author": "Quanling Meng and Qinglin Liu and Zonglin Li and Xiangyuan Lan and Shengping Zhang and Liqiang Nie",
+    "author": "Quanling Meng and Qinglin Liu and Zonglin Li 0004 and Xiangyuan Lan and Shengping Zhang and Liqiang Nie",
     "booktitle": "NeurIPS",
     "title": "High-Resolution Image Harmonization with Adaptive-Interval Color Transformation.",
     "year": "2024",

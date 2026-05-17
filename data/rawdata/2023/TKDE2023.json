@@ -4367,22 +4367,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4368232805"
   },
-  "Matching Knowledge Graphs in Entity Embedding Spaces: An Experimental Study": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4368283499",
-    "author": "Weixin Zeng and Xiang Zhao and Zhen Tan and Jiuyang Tang and Xueqi Cheng",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Matching Knowledge Graphs in Entity Embedding Spaces: An Experimental Study",
-    "year": "2023",
-    "abstract": "Entity alignment (EA) identifies equivalent entities that locate in different knowledge graphs (KGs), and has attracted growing research interests over the last few years with the advancement of KG embedding techniques. Although a pile of embedding-based EA frameworks have been developed, they mainly focus on improving the performance of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">entity representation learning</i> , while largely overlook the subsequent stage that <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">matches KGs in entity embedding spaces</i> . Nevertheless, accurately matching entities based on learned entity representations is crucial to the overall alignment performance, as it coordinates individual alignment decisions and determines the global matching result. Hence, it is essential to understand how well existing solutions for matching KGs in entity embedding spaces perform on present benchmarks, as well as their strengths and weaknesses. To this end, in this article we provide a comprehensive survey and evaluation of matching algorithms for KGs in entity embedding spaces in terms of effectiveness and efficiency on both classic settings and new scenarios that better mirror real-life challenges. Based on in-depth analysis, we provide useful insights into the design trade-offs and good paradigms of existing works, and suggest promising directions for future development.",
-    "keywords": "Embedding, Computer science, Matching (statistics), Focus (optics), Information retrieval, Strengths and weaknesses, Theoretical computer science, Representation (politics), Artificial intelligence, Mathematics, Epistemology, Optics, Politics, Statistics, Philosophy, Political science, Physics, Law",
-    "url": "https://doi.org/10.1109/tkde.2023.3272584",
-    "doi": "https://doi.org/10.1109/tkde.2023.3272584",
-    "venue": "TKDE2023",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W4368283499"
-  },
   "TDN: Triplet Distributor Network for Knowledge Graph Completion": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4368232601",
@@ -4398,6 +4382,22 @@
     "venue": "TKDE2023",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4368232601"
+  },
+  "Matching Knowledge Graphs in Entity Embedding Spaces: An Experimental Study": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4368283499",
+    "author": "Weixin Zeng and Xiang Zhao and Zhen Tan and Jiuyang Tang and Xueqi Cheng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Matching Knowledge Graphs in Entity Embedding Spaces: An Experimental Study",
+    "year": "2023",
+    "abstract": "Entity alignment (EA) identifies equivalent entities that locate in different knowledge graphs (KGs), and has attracted growing research interests over the last few years with the advancement of KG embedding techniques. Although a pile of embedding-based EA frameworks have been developed, they mainly focus on improving the performance of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">entity representation learning</i> , while largely overlook the subsequent stage that <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">matches KGs in entity embedding spaces</i> . Nevertheless, accurately matching entities based on learned entity representations is crucial to the overall alignment performance, as it coordinates individual alignment decisions and determines the global matching result. Hence, it is essential to understand how well existing solutions for matching KGs in entity embedding spaces perform on present benchmarks, as well as their strengths and weaknesses. To this end, in this article we provide a comprehensive survey and evaluation of matching algorithms for KGs in entity embedding spaces in terms of effectiveness and efficiency on both classic settings and new scenarios that better mirror real-life challenges. Based on in-depth analysis, we provide useful insights into the design trade-offs and good paradigms of existing works, and suggest promising directions for future development.",
+    "keywords": "Embedding, Computer science, Matching (statistics), Focus (optics), Information retrieval, Strengths and weaknesses, Theoretical computer science, Representation (politics), Artificial intelligence, Mathematics, Epistemology, Optics, Politics, Statistics, Philosophy, Political science, Physics, Law",
+    "url": "https://doi.org/10.1109/tkde.2023.3272584",
+    "doi": "https://doi.org/10.1109/tkde.2023.3272584",
+    "venue": "TKDE2023",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4368283499"
   },
   "Balanced and Unbalanced Triangle Count in Signed Networks": {
     "type": "ARTICLE",

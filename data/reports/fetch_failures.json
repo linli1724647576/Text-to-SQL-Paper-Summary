@@ -1,40 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 0,
+    "fetched_entries": 22,
     "failure_count": 0,
-    "warning_count": 3,
+    "warning_count": 0,
     "skipped_count": 0
   },
   "failures": [],
-  "warnings": [
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"natural language to sql\"",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "HTTP Error 429: Unknown Error"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"semantic parsing\" sql database",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "The read operation timed out"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "arxiv",
-      "source_type": "arxiv",
-      "status": "partial_existing_kept",
-      "collected_entries": 280,
-      "error": "one or more arXiv queries failed; existing output kept unchanged"
-    }
-  ],
+  "warnings": [],
   "skipped": []
 }

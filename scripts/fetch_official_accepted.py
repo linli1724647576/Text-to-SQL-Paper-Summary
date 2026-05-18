@@ -32,6 +32,10 @@ OFFICIAL_ACCEPTED_URLS = {
         2023: "https://proceedings.mlr.press/v202/",
         2024: "https://proceedings.mlr.press/v235/",
         2025: "https://proceedings.mlr.press/v267/",
+        2026: "https://icml.cc/virtual/2026/papers.html",
+    },
+    "CVPR": {
+        2026: "https://cvpr.thecvf.com/virtual/2026/papers.html",
     },
     "ICDE": {
         2025: "https://ieee-icde.org/2025/research-papers/",
@@ -40,10 +44,12 @@ OFFICIAL_ACCEPTED_URLS = {
     "ICSE": {
         2024: "https://conf.researchr.org/track/icse-2024/icse-2024-research-track",
         2025: "https://conf.researchr.org/track/icse-2025/icse-2025-research-track",
+        2026: "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
     },
     "FSE": {
         2024: "https://conf.researchr.org/track/fse-2024/fse-2024-research-papers",
         2025: "https://conf.researchr.org/track/fse-2025/fse-2025-research-papers",
+        2026: "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
     },
     "ASE": {
         2024: "https://conf.researchr.org/track/ase-2024/ase-2024-research",
@@ -94,6 +100,7 @@ OFFICIAL_ACCEPTED_URLS = {
 VENUE_CATEGORIES = {
     "ACL": "AI 领域",
     "ICML": "AI 领域",
+    "CVPR": "AI 领域",
     "IJCAI": "AI 领域",
     "NeurIPS": "AI 领域",
     "ICSE": "软件工程",
@@ -396,11 +403,13 @@ def researchr_entries(content):
         "issta research papers",
     }
     entries = []
-    for row in re.findall(r"<tr[^>]+data-slot-id=[\"'][^\"']+[\"'][^>]*>(.*?)</tr>", content, flags=re.I | re.S):
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", content, flags=re.I | re.S):
         track_match = re.search(r'<div[^>]+class=["\']prog-track["\'][^>]*>(.*?)</div>', row, flags=re.I | re.S)
         if not track_match or clean(track_match.group(1)).lower() not in allowed_tracks:
             continue
         title_match = re.search(r"<strong>\s*<a[^>]*>(.*?)</a>\s*</strong>", row, flags=re.I | re.S)
+        if not title_match:
+            title_match = re.search(r'<a[^>]+data-event-modal=["\'][^"\']+["\'][^>]*>(.*?)</a>', row, flags=re.I | re.S)
         if not title_match:
             continue
         title_html = re.sub(r"<span[^>]*>.*?</span>", "", title_match.group(1), flags=re.I | re.S)
@@ -417,6 +426,21 @@ def researchr_entries(content):
             ]
             authors = " and ".join(names)
         entries.append((title, authors))
+    return entries
+
+
+def virtual_conference_entries(content):
+    match = re.search(r'<noscript[^>]*class=["\'][^"\']*noscript[^"\']*["\'][^>]*>(.*?)</noscript>', content, re.I | re.S)
+    if not match:
+        return []
+    entries = []
+    for item in re.findall(r"<li[^>]*>(.*?)</li>", match.group(1), flags=re.I | re.S):
+        title_match = re.search(r"<a[^>]+href=[\"'][^\"']*/virtual/20\d{2}/(?:poster|paper)/[^\"']+[\"'][^>]*>(.*?)</a>", item, flags=re.I | re.S)
+        if not title_match:
+            continue
+        title = normalize_title(title_match.group(1))
+        if title:
+            entries.append((title, ""))
     return entries
 
 
@@ -498,6 +522,7 @@ def parse_accepted(content):
         kdd_table_entries,
         kdd_schedule_entries,
         researchr_entries,
+        virtual_conference_entries,
         pmlr_entries,
     )
     for parser in exact_parsers:

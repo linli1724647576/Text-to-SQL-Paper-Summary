@@ -54,6 +54,11 @@ OPENALEX_CONFERENCE_SOURCES = {
 
 PVLDB_VOLUME_YEAR_OFFSET = -2007
 
+CURRENT_YEAR_DBLP_CONFERENCES = [
+    ("AI", "AAAI", "aaai", 2026),
+    ("DB", "VLDB", "vldb", 2026),
+]
+
 
 def clean(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
@@ -446,6 +451,92 @@ def prepare_incremental_fetch(args, state, skipped, source_type, venue, year, ou
     return False
 
 
+def fetch_conference_to_rawdata(args, state, skipped, failures, warnings, track, venue, dblp_key, year):
+    out_path = RAWDATA_DIR / str(year) / f"{venue}{year}.json"
+    if prepare_incremental_fetch(args, state, skipped, "dblp-conference", venue, year, out_path, track):
+        return 0
+    print(f"Fetching DBLP {venue}{year}", file=sys.stderr)
+    fetched_source = "dblp"
+    try:
+        papers = fetch_dblp_venue(dblp_key, venue, year, track)
+    except Exception as exc:
+        print(f"  WARN: failed {venue}{year}: {exc}", file=sys.stderr)
+        mark_failed(state, "dblp-conference", venue, year, out_path, exc, source="dblp", track=track)
+        if out_path.exists():
+            warnings.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "track": track,
+                    "source": "dblp",
+                    "source_type": "dblp-conference",
+                    "status": "existing_kept",
+                    "error": str(exc),
+                }
+            )
+            print(f"  keeping existing rawdata -> {out_path}", file=sys.stderr)
+            return 0
+        source_id = OPENALEX_CONFERENCE_SOURCES.get(venue)
+        if not source_id:
+            failures.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "track": track,
+                    "source": "dblp",
+                    "source_type": "dblp-conference",
+                    "status": "failed",
+                    "error": str(exc),
+                }
+            )
+            return 0
+        try:
+            print(f"  trying OpenAlex conference fallback {venue}{year}", file=sys.stderr)
+            papers = fetch_openalex_source(source_id, venue, year, track)
+            fetched_source = "openalex-conference-fallback"
+            warnings.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "track": track,
+                    "source": "openalex-conference-fallback",
+                    "source_type": "dblp-conference",
+                    "status": "fallback_used",
+                    "reason": f"DBLP conference failed or empty: {exc}",
+                }
+            )
+        except Exception as fallback_exc:
+            print(f"  WARN: OpenAlex conference fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
+            mark_failed(
+                state,
+                "dblp-conference",
+                venue,
+                year,
+                out_path,
+                f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                source="conference",
+                track=track,
+            )
+            failures.append(
+                {
+                    "venue": venue,
+                    "year": year,
+                    "track": track,
+                    "source": "conference",
+                    "source_type": "dblp-conference",
+                    "status": "failed",
+                    "error": f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                }
+            )
+            return 0
+    write_json(out_path, papers)
+    mark_complete(state, "dblp-conference", venue, year, out_path, source=fetched_source, track=track)
+    print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)
+    if args.sleep:
+        time.sleep(args.sleep)
+    return len(papers)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch CCF-A DBLP and arXiv rawdata")
     parser.add_argument("--from-year", type=int, default=2020)
@@ -473,92 +564,21 @@ def main():
     failures = []
     warnings = []
     skipped = []
+    fetched_keys = set()
     for track, venue, dblp_key, year in iter_ccf_a_venues(args.from_year, args.to_year, tracks=tracks):
         if allowed_venues and venue.lower() not in allowed_venues:
             continue
-        out_path = RAWDATA_DIR / str(year) / f"{venue}{year}.json"
-        if prepare_incremental_fetch(args, state, skipped, "dblp-conference", venue, year, out_path, track):
+        fetched_keys.add((venue, year))
+        total += fetch_conference_to_rawdata(args, state, skipped, failures, warnings, track, venue, dblp_key, year)
+
+    for track, venue, dblp_key, year in CURRENT_YEAR_DBLP_CONFERENCES:
+        if track not in tracks or year < args.from_year or year > args.to_year:
             continue
-        print(f"Fetching DBLP {venue}{year}", file=sys.stderr)
-        fetched_source = "dblp"
-        try:
-            papers = fetch_dblp_venue(dblp_key, venue, year, track)
-        except Exception as exc:
-            print(f"  WARN: failed {venue}{year}: {exc}", file=sys.stderr)
-            mark_failed(state, "dblp-conference", venue, year, out_path, exc, source="dblp", track=track)
-            if out_path.exists():
-                warnings.append(
-                    {
-                        "venue": venue,
-                        "year": year,
-                        "track": track,
-                        "source": "dblp",
-                        "source_type": "dblp-conference",
-                        "status": "existing_kept",
-                        "error": str(exc),
-                    }
-                )
-                print(f"  keeping existing rawdata -> {out_path}", file=sys.stderr)
-                continue
-            source_id = OPENALEX_CONFERENCE_SOURCES.get(venue)
-            if not source_id:
-                failures.append(
-                    {
-                        "venue": venue,
-                        "year": year,
-                        "track": track,
-                        "source": "dblp",
-                        "source_type": "dblp-conference",
-                        "status": "failed",
-                        "error": str(exc),
-                    }
-                )
-                continue
-            try:
-                print(f"  trying OpenAlex conference fallback {venue}{year}", file=sys.stderr)
-                papers = fetch_openalex_source(source_id, venue, year, track)
-                fetched_source = "openalex-conference-fallback"
-                warnings.append(
-                    {
-                        "venue": venue,
-                        "year": year,
-                        "track": track,
-                        "source": "openalex-conference-fallback",
-                        "source_type": "dblp-conference",
-                        "status": "fallback_used",
-                        "reason": f"DBLP conference failed or empty: {exc}",
-                    }
-                )
-            except Exception as fallback_exc:
-                print(f"  WARN: OpenAlex conference fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
-                mark_failed(
-                    state,
-                    "dblp-conference",
-                    venue,
-                    year,
-                    out_path,
-                    f"DBLP: {exc}; OpenAlex: {fallback_exc}",
-                    source="conference",
-                    track=track,
-                )
-                failures.append(
-                    {
-                        "venue": venue,
-                        "year": year,
-                        "track": track,
-                        "source": "conference",
-                        "source_type": "dblp-conference",
-                        "status": "failed",
-                        "error": f"DBLP: {exc}; OpenAlex: {fallback_exc}",
-                    }
-                )
-                continue
-        write_json(out_path, papers)
-        mark_complete(state, "dblp-conference", venue, year, out_path, source=fetched_source, track=track)
-        total += len(papers)
-        print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)
-        if args.sleep:
-            time.sleep(args.sleep)
+        if allowed_venues and venue.lower() not in allowed_venues:
+            continue
+        if (venue, year) in fetched_keys:
+            continue
+        total += fetch_conference_to_rawdata(args, state, skipped, failures, warnings, track, venue, dblp_key, year)
 
     for track, venue, dblp_key, year in iter_readme_journals(args.from_year, args.to_year, tracks=tracks):
         if allowed_venues and venue.lower() not in allowed_venues:

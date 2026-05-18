@@ -730,6 +730,28 @@
     ],
     "relevance_level": "core"
   },
+  "Addressing Semantic Blind Spots in Text-to-SQL via Component Pre-generation and AST Matching Rewards": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-addressing-semantic-blind-spots-in-text-to-sql-via-component-pre-generation-and-",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Addressing Semantic Blind Spots in Text-to-SQL via Component Pre-generation and AST Matching Rewards",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/papers.html",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Advancements in AI for Reasoning with Complex Data": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Gupta25a",
@@ -1465,15 +1487,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2511.17190v1",
     "author": "Ziyang Wang and Yuanlei Zheng and Zhenbiao Cao and Xiaojin Zhang and Zhongyu Wei and Pei Fu and Zhenbo Luo and Wei Chen and Xiang Bai",
-    "booktitle": "arXiv",
+    "booktitle": "AAAI",
     "title": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
-    "year": "2025",
+    "year": "2026",
     "abstract": "For industrial-scale text-to-SQL, supplying the entire database schema to Large Language Models (LLMs) is impractical due to context window limits and irrelevant noise. Schema linking, which filters the schema to a relevant subset, is therefore critical. However, existing methods incur prohibitive costs, struggle to trade off recall and noise, and scale poorly to large databases. We present \\textbf{AutoLink}, an autonomous agent framework that reformulates schema linking as an iterative, agent-driven process. Guided by an LLM, AutoLink dynamically explores and expands the linked schema subset, progressively identifying necessary schema components without inputting the full database schema. Our experiments demonstrate AutoLink's superior performance, achieving state-of-the-art strict schema linking recall of \\textbf{97.4\\%} on Bird-Dev and \\textbf{91.2\\%} on Spider-2.0-Lite, with competitive execution accuracy, i.e., \\textbf{68.7\\%} EX on Bird-Dev (better than CHESS) and \\textbf{34.9\\%} EX on Spider-2.0-Lite (ranking 2nd on the official leaderboard). Crucially, AutoLink exhibits \\textbf{exceptional scalability}, \\textbf{maintaining high recall}, \\textbf{efficient token consumption}, and \\textbf{robust execution accuracy} on large schemas (e.g., over 3,000 columns) where existing methods severely degrade-making it a highly scalable, high-recall schema-linking solution for industrial text-to-SQL systems.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2511.17190v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -1910,15 +1932,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.15564v1",
     "author": "Yihan Wang and Peiyu Liu and Runyu Chen and Wei Xu",
-    "booktitle": "arXiv",
+    "booktitle": "ICML Conference",
     "title": "Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL",
     "year": "2026",
     "abstract": "Text-to-SQL has recently achieved impressive progress, yet remains difficult to apply effectively in real-world scenarios. This gap stems from the reliance on single static workflows, fundamentally limiting scalability to out-of-distribution and long-tail scenarios. Instead of requiring users to select suitable methods through extensive experimentation, we attempt to enable systems to adaptively construct workflows at inference time. Through theoretical and empirical analysis, we demonstrate that optimal dynamic policies consistently outperform the best static workflow, with performance gains fundamentally driven by heterogeneity across candidate workflows. Motivated by this, we propose SquRL, a reinforcement learning framework that enhances LLMs' reasoning capability in adaptive workflow construction. We design a rule-based reward function and introduce two effective training mechanisms: dynamic actor masking to encourage broader exploration, and pseudo rewards to improve training efficiency. Experiments on widely-used Text-to-SQL benchmarks demonstrate that dynamic workflow construction consistently outperforms the best static workflow methods, with especially pronounced gains on complex and out-of-distribution queries. The codes are available at https://github.com/Satissss/SquRL",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2602.15564v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -1980,15 +2002,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2601.18119v1",
     "author": "Jing Ye and Yiwen Duan and Yonghong Yu and Victor Ma and Yang Gao and Xing Chen",
-    "booktitle": "arXiv",
+    "booktitle": "ICML Conference",
     "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
     "year": "2026",
     "abstract": "SQL is central to enterprise data engineering, yet generating fully correct SQL code in a single attempt remains difficult, even for experienced developers and advanced text-to-SQL LLMs, often requiring multiple debugging iterations. We introduce OurBench, the first benchmark for enterprise-level SQL reasoning and debugging. Our benchmark is built on two key innovations: (1) an automated construction workflow that uses reverse engineering to systematically inject realistic bugs into large-scale SQL code, enabling scalable and diverse benchmark generation; and (2) an execution-free evaluation framework tailored to enterprise settings, providing fast, accurate, and resource-efficient assessment. OurBench comprises 469 OurBenchSyn queries featuring syntax errors with explicit error messages, and 516 OurBenchSem queries targeting semantic errors in which the code fails to meet user intent. The queries are highly complex, averaging over 140 lines and featuring deep and wide abstract syntax trees. Evaluation of nearly 30 LLMs reveals a substantial performance gap: the best-performing model, Claude-4-Sonnet, achieves only 36.46 percent accuracy on OurBenchSyn and 32.17 percent on OurBenchSem, while most models score below 20 percent. We further explore four solution strategies, identify key challenges, and outline promising directions for enterprise SQL debugging with LLMs.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2601.18119v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -3357,15 +3379,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2508.14056v1",
     "author": "Sepideh Entezari Maleki and Mohammadreza Pourreza and Davood Rafiei",
-    "booktitle": "arXiv",
+    "booktitle": "AAAI",
     "title": "Confidence Estimation for Text-to-SQL in Large Language Models",
-    "year": "2025",
+    "year": "2026",
     "abstract": "Confidence estimation for text-to-SQL aims to assess the reliability of model-generated SQL queries without having access to gold answers. We study this problem in the context of large language models (LLMs), where access to model weights and gradients is often constrained. We explore both black-box and white-box confidence estimation strategies, evaluating their effectiveness on cross-domain text-to-SQL benchmarks. Our evaluation highlights the superior performance of consistency-based methods among black-box models and the advantage of SQL-syntax-aware approaches for interpreting LLM logits in white-box settings. Furthermore, we show that execution-based grounding of queries provides a valuable supplementary signal, improving the effectiveness of both approaches.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2508.14056v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -6716,6 +6738,28 @@
     ],
     "relevance_level": "core"
   },
+  "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-graph-link-bridging-the-semantic-structural-gap-in-text-to-sql-via-constrained-s",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/papers.html",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiHCQ0HHDSL23",
@@ -8235,6 +8279,35 @@
     ],
     "relevance_level": "core"
   },
+  "LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Complex Reasoning": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/LiutaoMZLLKHLLZ26",
+    "author": "Liutao and Xutao Mao and Dixuan Zhang and Yifan Li and Haixin Liu and Lulu Kong and Jiaming Hou and Rui Li and YunLong Li and Aoze Zheng and Zhiqiang Zhang and Zhewei Luo and Hongying Zan and Kunli Zhang and Min Peng",
+    "booktitle": "AAAI",
+    "title": "LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Complex Reasoning",
+    "year": "2026",
+    "abstract": "Text-to-SQL is a critical task in natural language processing that aims to transform natural language questions into accurate and executable SQL queries. In real-world scenarios, these reasoning tasks are often accompanied by complex mathematical computations, domain knowledge, and hypothetical reasoning scenarios. However, existing large-scale Text-to-SQL datasets typically focus on business logic and task logic, neglecting critical factors such as vertical domain knowledge, complex mathematical reasoning, and hypothetical reasoning, which are essential for realistically reflecting the reasoning demands in practical applications and completing data querying and analysis. To bridge this gap, we introduce LogicCat, the first Text-to-SQL benchmark dataset specifically designed for complex reasoning and chain-of-thought parsing, encompassing physics, arithmetic, commonsense, and hypothetical reasoning scenarios. LogicCat comprises 4,038 English questions paired 12,114 detailed chain-of-thought reasoning steps, spanning 45 databases across diverse domains, significantly surpassing existing datasets in complexity. Experimental results demonstrate that LogicCat substantially increases the task difficulty for current state-of-the-art models to at most 33.20% execution accuracy, indicating that this task remains exceptionally challenging. The advancement of LogicCat represents a crucial step toward developing systems suitable for real-world enterprise data analysis and autonomous query generation.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i36.40243",
+    "doi": "",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "LongAudio-RAG: Event-Grounded Question Answering over Multi-Hour Long Audio": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.14612v3",
@@ -8308,15 +8381,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2511.01008v2",
     "author": "Haolin Yang and Jipeng Zhang and Zhitao He and Alexander Zhou and Yi R. Fung",
-    "booktitle": "arXiv",
+    "booktitle": "ICML Conference",
     "title": "MARS-SQL: A multi-agent reinforcement learning framework for Text-to-SQL",
-    "year": "2025",
+    "year": "2026",
     "abstract": "Large Language Models (LLMs) often struggle with the precise logic and schema alignment required for complex Text-to-SQL tasks. While current methods rely heavily on static prompting, they lack the ability to dynamically adapt and self-correct through environmental interaction. To bridge this gap, we propose MARS-SQL, a trainable multi-agent framework for Text-to-SQL. Rather than introducing a new standalone SQL primitive, MARS-SQL makes an agentic workflow trainable by decomposing the problem into three specialized roles: schema grounding, query generation, and solution validation. Central to our approach is a generation agent trained via a multi-turn RL policy within a ReAct-style loop. The agent learns to iteratively reason, execute intermediate SQL actions on a live database, and refine its strategy based on execution feedback. To improve robustness, we further introduce a validation mechanism that treats solution selection as a generative modeling task, identifying the optimal interaction trajectory through next-token prediction probabilities. Empirical evaluations demonstrate the effectiveness of coupling interactive learning with trajectory ranking. MARS-SQL achieves state-of-the-art performance, recording an execution accuracy of 77.84% on the BIRD development dataset and 89.75% on the Spider test dataset, while also transferring strongly to out-of-domain benchmarks. Code is available at https://github.com/YangHaolin0526/MARS-SQL.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2511.01008v2",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -8380,6 +8453,28 @@
       "Context Retrieval",
       "Query Planning",
       "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "MCTS-SQL: Light-Weight LLMs Can Master the Text-to-SQL Through Monte Carlo Tree Search": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/YuanCYZ26",
+    "author": "Shuozhi Yuan and Liming Chen and Miaomiao Yuan and Jin Zhao",
+    "booktitle": "AAAI",
+    "title": "MCTS-SQL: Light-Weight LLMs Can Master the Text-to-SQL Through Monte Carlo Tree Search",
+    "year": "2026",
+    "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i41.40751",
+    "doi": "",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -8897,15 +8992,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2604.16493v1",
     "author": "Shizheng Hou and Wenqi Pei and Nuo Chen and Quang-Trung Ta and Peng Lu and Beng Chin Ooi",
-    "booktitle": "arXiv",
+    "booktitle": "Proc. VLDB Endow.",
     "title": "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions",
     "year": "2026",
     "abstract": "Natural Language to SQL (NL2SQL) technology empowers non-expert users to query relational databases without requiring SQL expertise. While large language models (LLMs) have greatly improved NL2SQL algorithms, their rapid development outpaces systematic evaluation, leaving a critical gap in understanding their effectiveness, efficiency, and limitations. To this end, we present NL2SQLBench, the first modular evaluation and benchmarking framework for LLM-enabled NL2SQL approaches. Specifically, we dissect NL2SQL systems into three core modules: Schema Selection, Candidate Generation, and Query Revision. For each module, we comprehensively review existing strategies and propose novel fine-grained metrics that systematically quantify module-level effectiveness and efficiency. We further implement these metrics in a flexible multi-agent framework, allowing configurable benchmarking across diverse NL2SQL approaches. Leveraging NL2SQLBench, we rigorously evaluate ten representative open-source methods on two datasets, the BIRD development set and the ScienceBenchmark development set, using two LLMs, DeepSeek-V3 and GPT-4o mini. We systematically assess each approach across the three core modules and evaluate multiple critical performance dimensions. Our evaluation reveals significant gaps in existing NL2SQL methods, highlighting not only substantial room for accuracy improvements but also the significant computational inefficiency, which severely hampers real-world adoption. Furthermore, our analysis identifies critical shortcomings in current benchmark datasets and evaluation rules, emphasizing issues such as inaccurate gold SQL annotations and limitations in existing evaluation rules. By synthesizing these insights into a unified benchmarking, our study establishes a clear reference point for fair comparison and serves as essential guidance for future targeted innovation in NL2SQL technology.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2604.16493v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -8924,7 +9019,8 @@
       "Grounding",
       "SQL Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "journal": "Proc. VLDB Endow."
   },
   "Natural Language Interfaces for Databases with Deep Learning": {
     "type": "ARTICLE",
@@ -10013,15 +10109,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2601.08778v3",
     "author": "Tengjun Jin and Yoojin Choi and Yuxuan Zhu and Daniel Kang",
-    "booktitle": "arXiv",
+    "booktitle": "Proc. VLDB Endow.",
     "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
     "year": "2026",
     "abstract": "Researchers have proposed numerous text-to-SQL techniques to streamline data analytics and accelerate the development of data-driven applications. To compare these techniques and select the best one for deployment, the community depends on public benchmarks and their leaderboards. Since these benchmarks heavily rely on human annotations during question construction and answer evaluation, the validity of the annotations is crucial. In this paper, we conduct an empirical study that (i) benchmarks annotation error rates for two widely used text-to-SQL benchmarks, BIRD and Spider 2.0-Snow, and (ii) corrects a subset of the BIRD development (Dev) set to measure the impact of annotation errors on text-to-SQL agent performance and leaderboard rankings. Through expert analysis, we show that BIRD Mini-Dev and Spider 2.0-Snow have error rates of 52.8% and 62.8%, respectively. We re-evaluate all 16 open-source agents from the BIRD leaderboard on both the original and the corrected BIRD Dev subsets. We show that performance changes range from -7% to 31% (in relative terms) and rank changes range from $-9$ to $+9$ positions. We further assess whether these impacts generalize to the full BIRD Dev set. We find that the rankings of agents on the uncorrected subset correlate strongly with those on the full Dev set (Spearman's $r_s$=0.85, $p$=3.26e-5), whereas they correlate weakly with those on the corrected subset (Spearman's $r_s$=0.32, $p$=0.23). These findings show that annotation errors can significantly distort reported performance and rankings, potentially misguiding research directions or deployment choices. Our code and data are available at https://github.com/uiuc-kang-lab/text_to_sql_benchmarks.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2601.08778v3",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -10038,7 +10134,8 @@
     "pipeline_stages": [
       "SQL Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "journal": "Proc. VLDB Endow."
   },
   "Photon: A Robust Cross-Domain Text-to-SQL System": {
     "type": "INPROCEEDINGS",
@@ -11285,6 +11382,30 @@
       "application_related"
     ]
   },
+  "RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/RaczkowskaBZBO26",
+    "author": "Alicja Raczkowska and Riccardo Belluzzo and Piotr Zielinski and Joanna Baran and Pawel Olszewski",
+    "booktitle": "AAAI",
+    "title": "RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation",
+    "year": "2026",
+    "abstract": "The text-to-SQL task is an active challenge in Natural Language Processing. Many existing solutions focus on using black-box language models extended with specialized components within customized end-to-end text-to-SQL pipelines. While these solutions use both closed-source proprietary language models and coding-oriented open-source models, there is a lack of research regarding SQL-specific small generative models. At the same time, recent advancements in self-correcting generation strategies show promise for improving the capabilities of existing architectures. The application of these concepts to the text-to-SQL task remains unexplored. In this paper, we introduce RetrySQL, a new approach to training text-to-SQL generation models. We prepare reasoning steps for reference SQL queries and then corrupt them to create retry data that contains both incorrect and corrected steps, divided with a special token. We continuously pre-train open-source coding models with this data and demonstrate that retry steps yield an improvements of up to 4 and 9 percentage points for overall and challenging execution metrics, respectively, as compared to pre-training without retry data. We showcase that the self-correcting behavior is learned by the model and the increase in downstream accuracy metrics is a result of this additional skill. Finally, we incorporate RetrySQL-trained models into the full text-to-SQL pipeline and showcase that they are competitive in terms of execution accuracy with proprietary models that contain orders of magnitude more parameters. RetrySQL demonstrates that self-correction can be learned in the text-to-SQL task and provides a novel way of improving generation accuracy for small SQL-oriented language models.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i39.40556",
+    "doi": "",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-reward-sql-boosting-text-to-sql-via-stepwise-execution-aware-reasoning-and-proce",
@@ -12467,6 +12588,30 @@
     ],
     "relevance_level": "core"
   },
+  "SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/LiuCZZZY26",
+    "author": "Ruiheng Liu and Xiaobing Chen and Jinyu Zhang and Qiongwen Zhang and Yu Zhang 0030 and Bailong Yang",
+    "booktitle": "AAAI",
+    "title": "SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces",
+    "year": "2026",
+    "abstract": "The rapid advancement of Large Language Models (LLMs) has driven significant progress in Natural Language Interface to Database (NLIDB). However, the widespread adoption of LLMs has raised critical privacy and security concerns. During interactions, LLMs may unintentionally expose confidential database contents or be manipulated by attackers to exfiltrate data through seemingly benign queries. While current efforts typically rely on rule-based heuristics or LLM agents to mitigate this leakage risk, these methods still struggle with complex inference-based attacks, suffer from high false positive rates, and often compromise the reliability of SQL queries. To address these challenges, we propose SafeNLIDB, a novel privacy-security alignment framework for LLM-based NLIDB. The framework features an automated pipeline that generates hybrid chain-of-thought interaction data from scratch, seamlessly combining explicit security reasoning with SQL generation. Additionally, we introduce reasoning warm-up and alternating preference optimization to overcome the multi-preference oscillations of Direct Preference Optimization (DPO), enabling LLMs to produce security-aware SQL through fine-grained reasoning without the need for human-annotated preference data. Extensive experiments demonstrate that our method outperforms both larger-scale LLMs and ideal-setting baselines, achieving significant security improvements while preserving high utility.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i38.40484",
+    "doi": "",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Security and Access Control"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2512.16083v1",
@@ -12537,15 +12682,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2603.24023v1",
     "author": "Chinmay Soni and Shivam Chourasia and Gaurav Kumar and Hitesh Kapoor",
-    "booktitle": "arXiv",
+    "booktitle": "AAAI",
     "title": "Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale",
     "year": "2026",
     "abstract": "Applying large, proprietary API-based language models to text-to-SQL tasks poses a significant industry challenge: reliance on massive, schema-heavy prompts results in prohibitive per-token API costs and high latency, hindering scalable production deployment. We present a specialized, self-hosted 8B-parameter model designed for a conversational bot in CriQ, a sister app to Dream11, India's largest fantasy sports platform with over 250 million users, that answers user queries about cricket statistics. Our novel two-phase supervised fine-tuning approach enables the model to internalize the entire database schema, eliminating the need for long-context prompts. This reduces input tokens by over 99%, from a 17k-token baseline to fewer than 100, and replaces costly external API calls with efficient local inference. The resulting system achieves 98.4% execution success and 92.5% semantic accuracy, substantially outperforming a prompt-engineered baseline using Google's Gemini Flash 2.0 (95.6% execution, 89.4% semantic accuracy). These results demonstrate a practical path toward high-precision, low-latency text-to-SQL applications using domain-specialized, self-hosted language models in large-scale production environments.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2603.24023v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -12902,15 +13047,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.17001v1",
     "author": "Zhao Tan and Yiji Zhao and Shiyu Wang and Chang Xu and Yuxuan Liang and Xiping Liu and Shirui Pan and Ming Jin",
-    "booktitle": "arXiv",
+    "booktitle": "ICML Conference",
     "title": "Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases",
     "year": "2026",
     "abstract": "Natural Language Querying for Time Series Databases (NLQ4TSDB) aims to assist non-expert users retrieve meaningful events, intervals, and summaries from massive temporal records. However, existing Text-to-SQL methods are not designed for continuous morphological intents such as shapes or anomalies, while time series models struggle to handle ultra-long histories. To address these challenges, we propose Sonar-TS, a neuro-symbolic framework that tackles NLQ4TSDB via a Search-Then-Verify pipeline. Analogous to active sonar, it utilizes a feature index to ping candidate windows via SQL, followed by generated Python programs to lock on and verify candidates against raw signals. To enable effective evaluation, we introduce NLQTSBench, the first large-scale benchmark designed for NLQ over TSDB-scale histories. Our experiments highlight the unique challenges within this domain and demonstrate that Sonar-TS effectively navigates complex temporal queries where traditional methods fail. This work presents the first systematic study of NLQ4TSDB, offering a general framework and evaluation standard to facilitate future research.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2602.17001v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -12927,7 +13072,10 @@
       "Context Retrieval",
       "SQL Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Sparks of Tabular Reasoning via Text2SQL Reinforcement Learning": {
     "type": "ARTICLE",
@@ -14861,6 +15009,35 @@
     ],
     "pipeline_stages": [
       "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Understanding, Detecting, and Repairing Real-World In-Context-Learning-Based Text-to-SQL Errors": {
+    "type": "INPROCEEDINGS",
+    "key": "fse-official-2026-understanding-detecting-and-repairing-real-world-in-context-learning-based-text-",
+    "author": "Jiawei Shen and Chengcheng Wan and Ruoyi Qiao and Jiazhen Zou and Hang Xu and Yuchen Shao and Yueling Zhang and Weikai Miao and Geguang Pu",
+    "booktitle": "FSE Conference",
+    "title": "Understanding, Detecting, and Repairing Real-World In-Context-Learning-Based Text-to-SQL Errors",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+    "doi": "",
+    "venue": "FSE",
+    "venue_track": "软件工程",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation"
     ],
     "relevance_level": "core"
   },

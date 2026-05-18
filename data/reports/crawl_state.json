@@ -98,6 +98,20 @@
       "venue": "AAAI",
       "year": "2025"
     },
+    "dblp-conference:AAAI:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:44:54Z",
+      "last_success_at": "2026-05-18T08:44:54Z",
+      "rawdata_path": "data/rawdata/2026/AAAI2026.json",
+      "record_count": 4920,
+      "sha256": "aef1da0fc5d7b7efcc6419ff4cd80e76cc9c623d2bb98e32d8dc7729646bfd90",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "AI",
+      "venue": "AAAI",
+      "year": "2026"
+    },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
       "last_attempt_at": "2026-05-16T15:28:44Z",
@@ -182,6 +196,48 @@
       "venue": "NEURIPS",
       "year": "2025"
     },
+    "dblp-conference:VLDB:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:47:17Z",
+      "last_success_at": "2026-05-18T08:47:17Z",
+      "rawdata_path": "data/rawdata/2026/VLDB2026.json",
+      "record_count": 22,
+      "sha256": "433d1de78aeb9284b56debef3efaa83732e21f1658d01108c28cd0c24e8c4344",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "DB",
+      "venue": "VLDB",
+      "year": "2026"
+    },
+    "official-accepted:CVPR:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:46:25Z",
+      "last_success_at": "2026-05-18T08:46:25Z",
+      "rawdata_path": "data/rawdata/2026/CVPR2026-accepted.json",
+      "record_count": 4071,
+      "sha256": "92b79e07c102efbf0bd76e60e9cd21af57d3db64f6fc4fe9b626dfbc24998830",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "CVPR",
+      "year": "2026"
+    },
+    "official-accepted:FSE:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:46:52Z",
+      "last_success_at": "2026-05-18T08:46:52Z",
+      "rawdata_path": "data/rawdata/2026/FSE2026-accepted.json",
+      "record_count": 211,
+      "sha256": "052686120bc1f114ddbaa9ecd64f007fc7466a6b7eedb1c61f31fcbe43620a1f",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "FSE",
+      "year": "2026"
+    },
     "official-accepted:ICDE:2026": {
       "error": "",
       "last_attempt_at": "2026-05-18T07:59:11Z",
@@ -194,6 +250,34 @@
       "status": "complete",
       "track": "",
       "venue": "ICDE",
+      "year": "2026"
+    },
+    "official-accepted:ICML:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:46:11Z",
+      "last_success_at": "2026-05-18T08:46:11Z",
+      "rawdata_path": "data/rawdata/2026/ICML2026-accepted.json",
+      "record_count": 6567,
+      "sha256": "6574720ad5d038c430ed484ce852d412f587aa657017e88f2b4a3b4bef79e00f",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "ICML",
+      "year": "2026"
+    },
+    "official-accepted:ICSE:2026": {
+      "error": "",
+      "last_attempt_at": "2026-05-18T08:46:39Z",
+      "last_success_at": "2026-05-18T08:46:39Z",
+      "rawdata_path": "data/rawdata/2026/ICSE2026-accepted.json",
+      "record_count": 322,
+      "sha256": "36155f3f18088601c65789466a55e72d319b9f8e4f6c85a590f244002d1aaac7",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
       "year": "2026"
     },
     "official-accepted:NEURIPS:2020": {

@@ -22,21 +22,45 @@ TRACK_ORDER = ("AI", "DB", "SE")
 
 CURRENT_YEAR_CONFERENCE_STATUS = {
     2026: {
-        "AAAI": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "AAAI": {
+            "status": "available",
+            "source_type": "dblp-conference",
+            "source_url": "https://dblp.org/db/conf/aaai/aaai2026.xml",
+        },
         "NeurIPS": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
         "ACL": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
-        "CVPR": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "CVPR": {
+            "status": "available",
+            "source_type": "official-accepted",
+            "source_url": "https://cvpr.thecvf.com/virtual/2026/papers.html",
+        },
         "ICCV": {"status": "not_applicable", "notes": "ICCV is odd-year only in the current project scope"},
-        "ICML": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "ICML": {
+            "status": "available",
+            "source_type": "official-accepted",
+            "source_url": "https://icml.cc/virtual/2026/papers.html",
+        },
         "IJCAI": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
         "SIGMOD": {"status": "available", "source_type": "official-accepted"},
-        "VLDB": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "VLDB": {
+            "status": "available",
+            "source_type": "dblp-conference",
+            "source_url": "https://dblp.org/db/journals/pvldb/pvldb19.xml",
+        },
         "ICDE": {"status": "available", "source_type": "official-accepted"},
         "KDD": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
         "WWW": {"status": "available", "source_type": "official-accepted"},
         "SIGIR": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
-        "ICSE": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
-        "FSE": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "ICSE": {
+            "status": "available",
+            "source_type": "official-accepted",
+            "source_url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
+        },
+        "FSE": {
+            "status": "available",
+            "source_type": "official-accepted",
+            "source_url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+        },
         "ASE": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
         "ISSTA": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
     }
@@ -143,6 +167,7 @@ def expected_current_year_conferences(to_year, tracks, rawdata_dir):
                     status,
                     rawdata_dir,
                     source_type=explicit.get("source_type") or "official-accepted",
+                    source_url=explicit.get("source_url", ""),
                     notes=explicit.get("notes", ""),
                 )
             )

@@ -229,6 +229,44 @@
         "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
       }
     },
+    "AAAI2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/AAAI2026.json",
+          "sha256": "aef1da0fc5d7b7efcc6419ff4cd80e76cc9c623d2bb98e32d8dc7729646bfd90"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
     "ACL2020": {
       "files": [
         {
@@ -1229,6 +1267,44 @@
         "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
       }
     },
+    "CVPR2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/CVPR2026-accepted.json",
+          "sha256": "92b79e07c102efbf0bd76e60e9cd21af57d3db64f6fc4fe9b626dfbc24998830"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
     "FSE2020": {
       "files": [
         {
@@ -1432,6 +1508,44 @@
         {
           "path": "data/rawdata/2025/FSE2025.json",
           "sha256": "bab7f4c76b81efbb0a8b5e7e7adc356566f935ef8a3b17444d6da6341e92ffd9"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
+    "FSE2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/FSE2026-accepted.json",
+          "sha256": "052686120bc1f114ddbaa9ecd64f007fc7466a6b7eedb1c61f31fcbe43620a1f"
         }
       ],
       "processing": {
@@ -2101,6 +2215,44 @@
         "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
       }
     },
+    "ICML2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/ICML2026-accepted.json",
+          "sha256": "6574720ad5d038c430ed484ce852d412f587aa657017e88f2b4a3b4bef79e00f"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
     "ICSE2020": {
       "files": [
         {
@@ -2304,6 +2456,44 @@
         {
           "path": "data/rawdata/2025/ICSE2025.json",
           "sha256": "18f51ef20d12f0369075e7ae38cd0722f05acf387bc82d70ffd1382582c73619"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
+    "ICSE2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/ICSE2026-accepted.json",
+          "sha256": "36155f3f18088601c65789466a55e72d319b9f8e4f6c85a590f244002d1aaac7"
         }
       ],
       "processing": {
@@ -4820,6 +5010,44 @@
         {
           "path": "data/rawdata/2025/VLDB2025.json",
           "sha256": "bda5e8d522ee337c8d05ff81a64abcecdbc28a0513cae1580a58608dd7ab5e37"
+        }
+      ],
+      "processing": {
+        "relevance_policy_version": "2026-05-16-topic-source-v4",
+        "files": [
+          {
+            "path": "scripts/extract_papers.py",
+            "sha256": "c589531e90111caaf95aaddf4536d646e1d2186d354738c9e71c9cfc84ba102f"
+          },
+          {
+            "path": "scripts/label_papers.py",
+            "sha256": "51b67b3c1a3179f710b2243c511b1eaa6a8c3fb8c88bc39bfc18aca1f8e76252"
+          },
+          {
+            "path": "scripts/merge_labeldata.py",
+            "sha256": "f7029a8dc2609b8be6d72659a8bc64435f6e7deb972935bf800ec48fd23835b8"
+          },
+          {
+            "path": "scripts/paper_utils.py",
+            "sha256": "f61cdbd7d59105f82a4077ee73b87f7ae33ddee2381525a052b0f2e38c8fe9b9"
+          },
+          {
+            "path": "scripts/taxonomy.py",
+            "sha256": "8cbe4ff271bfa59079e9bcbdff20b4a6dca19e6f289fb2678c51c8bf0bf656e6"
+          },
+          {
+            "path": "scripts/venues.py",
+            "sha256": "7423d438ed0a75ee153d32f4dd14868ab629cf773086acd3e4b26ad3c102b835"
+          }
+        ],
+        "sha256": "686e1a65593f053fb091f8fbe064eac5d149492e1c1f8dc2d4e53d883a3d9bda"
+      }
+    },
+    "VLDB2026": {
+      "files": [
+        {
+          "path": "data/rawdata/2026/VLDB2026.json",
+          "sha256": "433d1de78aeb9284b56debef3efaa83732e21f1658d01108c28cd0c24e8c4344"
         }
       ],
       "processing": {

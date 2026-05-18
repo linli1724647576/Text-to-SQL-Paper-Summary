@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-05-18T08:02:19Z",
+  "generated_at": "2026-05-18T08:54:02Z",
   "records": [
     {
       "kind": "conference",
@@ -1623,14 +1623,16 @@
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
-      "relevant_candidate_count": 0,
-      "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "notes": "",
+      "raw_candidate_count": 4920,
+      "rawdata_files": [
+        "data/rawdata/2026/AAAI2026.json"
+      ],
+      "rawdata_present": true,
+      "relevant_candidate_count": 7,
+      "source_type": "dblp-conference",
+      "source_url": "https://dblp.org/db/conf/aaai/aaai2026.xml",
+      "status": "available",
       "track": "AI",
       "venue": "AAAI",
       "year": 2026
@@ -1665,14 +1667,16 @@
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
+      "notes": "",
+      "raw_candidate_count": 4071,
+      "rawdata_files": [
+        "data/rawdata/2026/CVPR2026-accepted.json"
+      ],
+      "rawdata_present": true,
       "relevant_candidate_count": 0,
       "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "source_url": "https://cvpr.thecvf.com/virtual/2026/papers.html",
+      "status": "available",
       "track": "AI",
       "venue": "CVPR",
       "year": 2026
@@ -1693,14 +1697,16 @@
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
-      "relevant_candidate_count": 0,
+      "notes": "",
+      "raw_candidate_count": 6567,
+      "rawdata_files": [
+        "data/rawdata/2026/ICML2026-accepted.json"
+      ],
+      "rawdata_present": true,
+      "relevant_candidate_count": 6,
       "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "source_url": "https://icml.cc/virtual/2026/papers.html",
+      "status": "available",
       "track": "AI",
       "venue": "ICML",
       "year": 2026
@@ -1737,14 +1743,16 @@
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
-      "relevant_candidate_count": 0,
-      "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "notes": "",
+      "raw_candidate_count": 22,
+      "rawdata_files": [
+        "data/rawdata/2026/VLDB2026.json"
+      ],
+      "rawdata_present": true,
+      "relevant_candidate_count": 2,
+      "source_type": "dblp-conference",
+      "source_url": "https://dblp.org/db/journals/pvldb/pvldb19.xml",
+      "status": "available",
       "track": "DB",
       "venue": "VLDB",
       "year": 2026
@@ -1811,28 +1819,32 @@
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
+      "notes": "",
+      "raw_candidate_count": 322,
+      "rawdata_files": [
+        "data/rawdata/2026/ICSE2026-accepted.json"
+      ],
+      "rawdata_present": true,
       "relevant_candidate_count": 0,
       "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "source_url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
+      "status": "available",
       "track": "SE",
       "venue": "ICSE",
       "year": 2026
     },
     {
       "kind": "conference",
-      "notes": "official main accepted source not configured",
-      "raw_candidate_count": 0,
-      "rawdata_files": [],
-      "rawdata_present": false,
-      "relevant_candidate_count": 0,
+      "notes": "",
+      "raw_candidate_count": 211,
+      "rawdata_files": [
+        "data/rawdata/2026/FSE2026-accepted.json"
+      ],
+      "rawdata_present": true,
+      "relevant_candidate_count": 1,
       "source_type": "official-accepted",
-      "source_url": "",
-      "status": "not_published_yet",
+      "source_url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+      "status": "available",
       "track": "SE",
       "venue": "FSE",
       "year": 2026
@@ -2427,12 +2439,12 @@
     }
   ],
   "summary": {
-    "available": 3,
+    "available": 9,
     "available_without_rawdata": 0,
     "covered": 134,
     "missing_config": 0,
     "not_applicable": 1,
-    "not_published_yet": 13,
+    "not_published_yet": 7,
     "rawdata_missing": 0,
     "total": 151
   },

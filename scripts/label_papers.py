@@ -20,7 +20,7 @@ from taxonomy import LLM_TERMS, PIPELINE_TAXONOMY, TOPIC_TAXONOMY, normalize_top
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-RELEVANCE_POLICY_VERSION = "2026-05-18-ccf-source-v5"
+RELEVANCE_POLICY_VERSION = "2026-05-18-ccf-source-v6"
 
 
 def norm(text):
@@ -140,6 +140,8 @@ APPLICATION_BOUNDARY_TERMS = [
 NON_TEXT2SQL_DOMAIN_TERMS = [
     "wireless communication",
     "wireless communications",
+    "visual question answering",
+    "vqa",
 ]
 
 CODE_ONLY_TERMS = [

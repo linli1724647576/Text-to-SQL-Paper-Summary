@@ -1,7 +1,7 @@
 {
   "summary": {
-    "removed_count": 129,
-    "newly_removed_count": 0
+    "removed_count": 130,
+    "newly_removed_count": 1
   },
   "removed": [
     {
@@ -5672,6 +5672,42 @@
           "Grounding",
           "SQL Generation",
           "Prompt-based Generation"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Scallop: From Probabilistic Deductive Databases to Scalable Differentiable Reasoning",
+      "venue": "NeurIPS",
+      "year": "2021",
+      "doi": "",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/d367eef13f90793bd8121e2f675f0dc2-Abstract.html",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "neurips-official-2021-scallop-from-probabilistic-deductive-databases-to-scalable-differentiable-reason",
+        "author": "Jiani Huang and Ziyang Li and Binghong Chen and Karan Samel and Mayur Naik and Le Song and Xujie Si Learning to Synth",
+        "booktitle": "NeurIPS Conference",
+        "title": "Scallop: From Probabilistic Deductive Databases to Scalable Differentiable Reasoning",
+        "year": "2021",
+        "abstract": "Deep learning and symbolic reasoning are complementary techniques for an intelligent system. However, principled combinations of these techniques have limited scalability, rendering them ill-suited for real-world applications. We propose Scallop, a system that builds upon probabilistic deductive databases, to bridge this gap. The key insight underlying Scallop is a provenance framework that introduces a tunable parameter to specify the level of reasoning granularity. Scallop thereby i) generalizes exact probabilistic reasoning, ii) asymptotically reduces computational cost, and iii) provides relative accuracy guarantees. On a suite of tasks that involve mathematical and logical reasoning, Scallop scales significantly better without sacrificing accuracy compared to DeepProbLog, a principled neural logic programming approach. We also create and evaluate on a real-world Visual Question Answering (VQA) benchmark that requires multi-hop reasoning. Scallop outperforms two VQA-tailored models, a Neural Module Networks based and a transformer based model, by 12.42% and 21.66% respectively.",
+        "keywords": "",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/d367eef13f90793bd8121e2f675f0dc2-Abstract.html",
+        "doi": "",
+        "venue": "NeurIPS",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Prompting and ICL",
+          "Chain-of-Thought Reasoning",
+          "Planning and Generation",
+          "Neural-symbolic Parsing",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Query Planning",
+          "Step-by-step Reasoning"
         ],
         "relevance_level": "irrelevant"
       }

@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-05-18T12:45:25Z",
+  "generated_at": "2026-05-18T13:32:10Z",
   "records": [
     {
       "kind": "conference",
@@ -158,7 +158,7 @@
         "data/rawdata/2023/NeurIPS2023.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 4,
+      "relevant_candidate_count": 6,
       "source_type": "dblp-conference",
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023",
       "status": "covered",

@@ -181,21 +181,21 @@
       "notes": ""
     },
     {
-      "title": "RTS+: Reliable Text to SQL",
+      "title": "RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2025",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3722212.3725129",
-        "https://doi.org/10.1145/3722212.3725129"
+        "10.18653/v1/2022.acl-long.417",
+        "https://doi.org/10.18653/v1/2022.acl-long.417"
       ],
       "notes": ""
     },
@@ -218,21 +218,21 @@
       "notes": "missing doi"
     },
     {
-      "title": "Subgraph Search over Neural-Symbolic Graphs",
+      "title": "Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "SIGIR",
-      "normalized_venue": "SIGIR",
-      "category": "数据库领域",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
       "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3539618.3591773",
-        "https://doi.org/10.1145/3539618.3591773"
+        "10.1609/aaai.v37i11.26476",
+        "https://doi.org/10.1609/aaai.v37i11.26476"
       ],
       "notes": ""
     },
@@ -739,7 +739,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "ScenarioBench: Trace-Grounded Compliance Evaluation for Text-to-SQL and RAG",
+      "title": "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -752,7 +752,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.24212v1"
+        "https://arxiv.org/abs/2512.16083v1"
       ],
       "notes": "missing doi"
     }

@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-05-18T13:32:10Z",
+  "generated_at": "2026-05-18T21:19:45Z",
   "records": [
     {
       "kind": "conference",
@@ -255,7 +255,7 @@
         "data/rawdata/2023/ACL2023.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 3,
+      "relevant_candidate_count": 7,
       "source_type": "dblp-conference",
       "source_url": "",
       "status": "covered",

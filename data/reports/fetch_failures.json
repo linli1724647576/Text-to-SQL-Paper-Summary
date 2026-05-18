@@ -1,11 +1,110 @@
 {
   "summary": {
-    "fetched_entries": 22,
-    "failure_count": 0,
+    "fetched_entries": 474,
+    "failure_count": 1,
     "warning_count": 0,
-    "skipped_count": 0
+    "skipped_count": 11
   },
-  "failures": [],
+  "failures": [
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "failed",
+      "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
+    }
+  ],
   "warnings": [],
-  "skipped": []
+  "skipped": [
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2022,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2023,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2024,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2025,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    }
+  ]
 }

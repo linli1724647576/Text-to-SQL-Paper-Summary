@@ -15,10 +15,10 @@
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
 | ccf_conference | true_positive_application | SIGMOD | 2024 | Demonstrating CAESURA: Language Models as Multi-Modal Query Planners |  |
 | ccf_conference | true_positive_core | SIGMOD | 2025 | DataDazzle: Intelligent Data Exploration through Natural Language |  |
-| ccf_conference | true_positive_core | KDD | 2022 | Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing |  |
-| ccf_conference | true_positive_application | ACL | 2022 | RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering |  |
-| ccf_conference | true_positive_core | AAAI | 2026 | LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Complex Reasoning | missing doi |
-| ccf_conference | true_positive_core | AAAI | 2023 | Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers |  |
+| ccf_conference | true_positive_core | VLDB | 2026 | Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards | missing doi |
+| ccf_conference | true_positive_core | IJCAI | 2020 | RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task |  |
+| ccf_conference | true_positive_core | ACL | 2024 | Learning Relational Decomposition of Queries for Question Answering from Tables |  |
+| ccf_conference | true_positive_core | ACL | 2020 | Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback |  |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICDE | 2026 | Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards | missing doi, abstract |
 | readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
@@ -46,4 +46,4 @@
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | fill | true_positive_core | VLDB | 2025 | EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution | missing doi |
 | fill | true_positive_core | ArXiv | 2025 | Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models | missing doi |
-| fill | true_positive_core | ArXiv | 2025 | Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers | missing doi |
+| fill | true_positive_core | ACL | 2025 | STaR-SQL: Self-Taught Reasoner for Text-to-SQL | missing doi, abstract |

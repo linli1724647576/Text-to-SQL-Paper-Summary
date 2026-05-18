@@ -1465,7 +1465,7 @@
     "abstract": "For industrial-scale text-to-SQL, supplying the entire database schema to Large Language Models (LLMs) is impractical due to context window limits and irrelevant noise. Schema linking, which filters the schema to a relevant subset, is therefore critical. However, existing methods incur prohibitive costs, struggle to trade off recall and noise, and scale poorly to large databases. We present \\textbf{AutoLink}, an autonomous agent framework that reformulates schema linking as an iterative, agent-driven process. Guided by an LLM, AutoLink dynamically explores and expands the linked schema subset, progressively identifying necessary schema components without inputting the full database schema. Our experiments demonstrate AutoLink's superior performance, achieving state-of-the-art strict schema linking recall of \\textbf{97.4\\%} on Bird-Dev and \\textbf{91.2\\%} on Spider-2.0-Lite, with competitive execution accuracy, i.e., \\textbf{68.7\\%} EX on Bird-Dev (better than CHESS) and \\textbf{34.9\\%} EX on Spider-2.0-Lite (ranking 2nd on the official leaderboard). Crucially, AutoLink exhibits \\textbf{exceptional scalability}, \\textbf{maintaining high recall}, \\textbf{efficient token consumption}, and \\textbf{robust execution accuracy} on large schemas (e.g., over 3,000 columns) where existing methods severely degrade-making it a highly scalable, high-recall schema-linking solution for industrial text-to-SQL systems.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2511.17190v1",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i40.40672",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -3355,7 +3355,7 @@
     "abstract": "Confidence estimation for text-to-SQL aims to assess the reliability of model-generated SQL queries without having access to gold answers. We study this problem in the context of large language models (LLMs), where access to model weights and gradients is often constrained. We explore both black-box and white-box confidence estimation strategies, evaluating their effectiveness on cross-domain text-to-SQL benchmarks. Our evaluation highlights the superior performance of consistency-based methods among black-box models and the advantage of SQL-syntax-aware approaches for interpreting LLM logits in white-box settings. Furthermore, we show that execution-based grounding of queries provides a valuable supplementary signal, improving the effectiveness of both approaches.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2508.14056v1",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i38.40523",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -6008,6 +6008,34 @@
     ],
     "relevance_level": "core"
   },
+  "Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/ZhangLL0023",
+    "author": "Tianshu Zhang 0001 and Changchang Liu and Wei-Han Lee and Yu Su 0001 and Huan Sun 0001",
+    "booktitle": "ACL (1)",
+    "title": "Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms",
+    "year": "2023",
+    "abstract": "This paper studies a new task of federated learning (FL) for semantic parsing, where multiple clients collaboratively train one global model without sharing their semantic parsing data. By leveraging data from multiple clients, the FL paradigm can be especially beneficial for clients that have little training data to develop a data-hungry neural semantic parser on their own. We propose an evaluation setup to study this task, where we re-purpose widely-used single-domain text-to-SQL datasets as clients to form a realistic heterogeneous FL setting and collaboratively train a global model. As standard FL algorithms suffer from the high client heterogeneity in our realistic setup, we further propose a novel LOss Reduction Adjusted Re-weighting (Lorar) mechanism, which adjusts each client’s contribution to the global model update based on its training loss reduction during each round. Our intuition is that the larger the loss reduction, the further away the current global model is from the client’s local optimum, and the larger weight the client should get. By applying Lorar to three widely adopted FL algorithms (FedAvg, FedOPT and FedProx), we observe that their performance can be improved substantially on average (4%-20% absolute gain under MacroAvg) and that clients with smaller datasets enjoy larger performance gains. In addition, the global model converges faster for almost all the clients.",
+    "keywords": "",
+    "url": "https://aclanthology.org/2023.acl-long.678/",
+    "doi": "10.18653/v1/2023.acl-long.678",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Planning and Generation",
+      "Neural-symbolic Parsing",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-few-shot-text-to-sql-translation-using-structure-and-content-prompt-learning",
@@ -7960,6 +7988,34 @@
     ],
     "relevance_level": "core"
   },
+  "Laziness Is a Virtue When It Comes to Compositionality in Neural Semantic Parsing": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/CrouseKCNAFK23",
+    "author": "Maxwell Crouse and Pavan Kapanipathi and Subhajit Chaudhury and Tahira Naseem and Ramón Fernandez Astudillo and Achille Fokoue and Tim Klinger",
+    "booktitle": "ACL (1)",
+    "title": "Laziness Is a Virtue When It Comes to Compositionality in Neural Semantic Parsing",
+    "year": "2023",
+    "abstract": "Nearly all general-purpose neural semantic parsers generate logical forms in a strictly top-down autoregressive fashion. Though such systems have achieved impressive results across a variety of datasets and domains, recent works have called into question whether they are ultimately limited in their ability to compositionally generalize. In this work, we approach semantic parsing from, quite literally, the opposite direction; that is, we introduce a neural semantic parsing generation method that constructs logical forms from the bottom up, beginning from the logical form’s leaves. The system we introduce is lazy in that it incrementally builds up a set of potential semantic parses, but only expands and processes the most promising candidate parses at each generation step. Such a parsimonious expansion scheme allows the system to maintain an arbitrarily large set of parse hypotheses that are never realized and thus incur minimal computational overhead. We evaluate our approach on compositional generalization; specifically, on the challenging CFQ dataset and two other Text-to-SQL datasets where we show that our novel, bottom-up semantic parsing technique outperforms general-purpose semantic parsers while also being competitive with semantic parsers that have been tailored to each task.",
+    "keywords": "",
+    "url": "https://aclanthology.org/2023.acl-long.470/",
+    "doi": "10.18653/v1/2023.acl-long.470",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Planning and Generation",
+      "Neural-symbolic Parsing",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "LeGo-Code: Can Modular Curriculum Learning Advance Complex Code Generation? Insights from Text-to-SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2604.18254v1",
@@ -8201,6 +8257,34 @@
     ],
     "relevance_level": "core"
   },
+  "Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/YanSTWYY23",
+    "author": "Hao Yan and Saurabh Srivastava and Yintao Tai and Sida I. Wang and Wen-tau Yih and Ziyu Yao 0002",
+    "booktitle": "ACL (1)",
+    "title": "Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing",
+    "year": "2023",
+    "abstract": "Interactive semantic parsing based on natural language (NL) feedback, where users provide feedback to correct the parser mistakes, has emerged as a more practical scenario than the traditional one-shot semantic parsing. However, prior work has heavily relied on human-annotated feedback data to train the interactive semantic parser, which is prohibitively expensive and not scalable. In this work, we propose a new task of simulating NL feedback for interactive semantic parsing. We accompany the task with a novel feedback evaluator. The evaluator is specifically designed to assess the quality of the simulated feedback, based on which we decide the best feedback simulator from our proposed variants. On a text-to-SQL dataset, we show that our feedback simulator can generate high-quality NL feedback to boost the error correction ability of a specific parser. In low-data settings, our feedback simulator can help achieve comparable error correction performance as trained using the costly, full set of human annotations.",
+    "keywords": "",
+    "url": "https://aclanthology.org/2023.acl-long.177/",
+    "doi": "10.18653/v1/2023.acl-long.177",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Planning and Generation",
+      "Neural-symbolic Parsing",
+      "Agentic Feedback and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Leveraging Table Content for Zero-shot Text-to-SQL with Meta-Learning": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenG0QQWL21",
@@ -8369,7 +8453,7 @@
     "abstract": "Text-to-SQL is a critical task in natural language processing that aims to transform natural language questions into accurate and executable SQL queries. In real-world scenarios, these reasoning tasks are often accompanied by complex mathematical computations, domain knowledge, and hypothetical reasoning scenarios. However, existing large-scale Text-to-SQL datasets typically focus on business logic and task logic, neglecting critical factors such as vertical domain knowledge, complex mathematical reasoning, and hypothetical reasoning, which are essential for realistically reflecting the reasoning demands in practical applications and completing data querying and analysis. To bridge this gap, we introduce LogicCat, the first Text-to-SQL benchmark dataset specifically designed for complex reasoning and chain-of-thought parsing, encompassing physics, arithmetic, commonsense, and hypothetical reasoning scenarios. LogicCat comprises 4,038 English questions paired 12,114 detailed chain-of-thought reasoning steps, spanning 45 databases across diverse domains, significantly surpassing existing datasets in complexity. Experimental results demonstrate that LogicCat substantially increases the task difficulty for current state-of-the-art models to at most 33.20% execution accuracy, indicating that this task remains exceptionally challenging. The advancement of LogicCat represents a crucial step toward developing systems suitable for real-world enterprise data analysis and autonomous query generation.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i36.40243",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i36.40243",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -8550,7 +8634,7 @@
     "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i41.40751",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i41.40751",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -11464,7 +11548,7 @@
     "abstract": "The text-to-SQL task is an active challenge in Natural Language Processing. Many existing solutions focus on using black-box language models extended with specialized components within customized end-to-end text-to-SQL pipelines. While these solutions use both closed-source proprietary language models and coding-oriented open-source models, there is a lack of research regarding SQL-specific small generative models. At the same time, recent advancements in self-correcting generation strategies show promise for improving the capabilities of existing architectures. The application of these concepts to the text-to-SQL task remains unexplored. In this paper, we introduce RetrySQL, a new approach to training text-to-SQL generation models. We prepare reasoning steps for reference SQL queries and then corrupt them to create retry data that contains both incorrect and corrected steps, divided with a special token. We continuously pre-train open-source coding models with this data and demonstrate that retry steps yield an improvements of up to 4 and 9 percentage points for overall and challenging execution metrics, respectively, as compared to pre-training without retry data. We showcase that the self-correcting behavior is learned by the model and the increase in downstream accuracy metrics is a result of this additional skill. Finally, we incorporate RetrySQL-trained models into the full text-to-SQL pipeline and showcase that they are competitive in terms of execution accuracy with proprietary models that contain orders of magnitude more parameters. RetrySQL demonstrates that self-correction can be learned in the text-to-SQL task and provides a novel way of improving generation accuracy for small SQL-oriented language models.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i39.40556",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i39.40556",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -12763,7 +12847,7 @@
     "abstract": "The rapid advancement of Large Language Models (LLMs) has driven significant progress in Natural Language Interface to Database (NLIDB). However, the widespread adoption of LLMs has raised critical privacy and security concerns. During interactions, LLMs may unintentionally expose confidential database contents or be manipulated by attackers to exfiltrate data through seemingly benign queries. While current efforts typically rely on rule-based heuristics or LLM agents to mitigate this leakage risk, these methods still struggle with complex inference-based attacks, suffer from high false positive rates, and often compromise the reliability of SQL queries. To address these challenges, we propose SafeNLIDB, a novel privacy-security alignment framework for LLM-based NLIDB. The framework features an automated pipeline that generates hybrid chain-of-thought interaction data from scratch, seamlessly combining explicit security reasoning with SQL generation. Additionally, we introduce reasoning warm-up and alternating preference optimization to overcome the multi-preference oscillations of Direct Preference Optimization (DPO), enabling LLMs to produce security-aware SQL through fine-grained reasoning without the need for human-annotated preference data. Extensive experiments demonstrate that our method outperforms both larger-scale LLMs and ideal-setting baselines, achieving significant security improvements while preserving high utility.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i38.40484",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i38.40484",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -12853,7 +12937,7 @@
     "abstract": "Applying large, proprietary API-based language models to text-to-SQL tasks poses a significant industry challenge: reliance on massive, schema-heavy prompts results in prohibitive per-token API costs and high latency, hindering scalable production deployment. We present a specialized, self-hosted 8B-parameter model designed for a conversational bot in CriQ, a sister app to Dream11, India's largest fantasy sports platform with over 250 million users, that answers user queries about cricket statistics. Our novel two-phase supervised fine-tuning approach enables the model to internalize the entire database schema, eliminating the need for long-context prompts. This reduces input tokens by over 99%, from a 17k-token baseline to fewer than 100, and replaces costly external API calls with efficient local inference. The resulting system achieves 98.4% execution success and 92.5% semantic accuracy, substantially outperforming a prompt-engineered baseline using Google's Gemini Flash 2.0 (95.6% execution, 89.4% semantic accuracy). These results demonstrate a practical path toward high-precision, low-latency text-to-SQL applications using domain-specialized, self-hosted language models in large-scale production environments.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2603.24023v1",
-    "doi": "",
+    "doi": "10.1609/aaai.v40i47.41446",
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
@@ -15048,7 +15132,12 @@
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Pre-training",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
       "SQL Generation"
@@ -15101,11 +15190,20 @@
       "Task Setting",
       "Single-turn Text-to-SQL",
       "Cross-domain Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Value Linking",
       "Benchmarks and Evaluation",
       "Benchmark"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Grounding",
+      "Value Linking",
+      "Prompt-based Generation"
     ],
     "relevance_level": "core"
   },
@@ -15479,6 +15577,38 @@
       "Schema Linking",
       "SQL Generation",
       "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/00010W023",
+    "author": "Yusen Zhang 0001 and Jun Wang 0122 and Zhiguo Wang 0006 and Rui Zhang 0037",
+    "booktitle": "ACL (1)",
+    "title": "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations",
+    "year": "2023",
+    "abstract": "Cross-Lingual Semantic Parsing (CLSP) aims to translate queries in multiple natural languages (NLs) into meaning representations (MRs) such as SQL, lambda calculus, and logic forms. However, existing CLSP models are separately proposed and evaluated on datasets of limited tasks and applications, impeding a comprehensive and unified evaluation of CLSP on a diverse range of NLs and MRs. To this end, we present XSemPLR, a unified benchmark for cross-lingual semantic parsing featured with 22 natural languages and 8 meaning representations by examining and selecting 9 existing datasets to cover 5 tasks and 164 domains. We use XSemPLR to conduct a comprehensive benchmark study on a wide range of multilingual language models including encoder-based models (mBERT, XLM-R), encoder-decoder models (mBART, mT5), and decoder-based models (Codex, BLOOM). We design 6 experiment settings covering various lingual combinations (monolingual, multilingual, cross-lingual) and numbers of learning samples (full dataset, few-shot, and zero-shot). Our experiments show that encoder-decoder models (mT5) achieve the highest performance compared with other popular models, and multilingual training can further improve the average performance. Notably, multilingual large language models (e.g., BLOOM) are still inadequate to perform CLSP tasks. We also find that the performance gap between monolingual training and cross-lingual transfer learning is still significant for multilingual models, though it can be mitigated by cross-lingual few-shot training. Our dataset and code are available at https://github.com/psunlpgroup/XSemPLR .",
+    "keywords": "",
+    "url": "https://aclanthology.org/2023.acl-long.887/",
+    "doi": "10.18653/v1/2023.acl-long.887",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Constrained Decoding",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Constrained Decoding"
     ],
     "relevance_level": "core"
   },

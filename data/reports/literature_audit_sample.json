@@ -162,77 +162,77 @@
       "notes": ""
     },
     {
-      "title": "Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing",
+      "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "KDD",
-      "normalized_venue": "KDD",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
       "category": "数据库领域",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3534678.3539305",
-        "https://doi.org/10.1145/3534678.3539305"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.18653/v1/2022.acl-long.417",
-        "https://doi.org/10.18653/v1/2022.acl-long.417"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "LogicCat: A Chain-of-Thought Text-to-SQL Benchmark for Complex Reasoning",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
       "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://doi.org/10.1609/aaai.v40i36.40243"
+        "https://arxiv.org/abs/2601.08778v3"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers",
+      "title": "RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
+      "venue": "IJCAI",
+      "normalized_venue": "IJCAI",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v37i11.26476",
-        "https://doi.org/10.1609/aaai.v37i11.26476"
+        "10.24963/ijcai.2020/504",
+        "https://doi.org/10.24963/ijcai.2020/504"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Learning Relational Decomposition of Queries for Question Answering from Tables",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2024.acl-long.564",
+        "https://doi.org/10.18653/v1/2024.acl-long.564"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2020",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2020.acl-main.187",
+        "https://doi.org/10.18653/v1/2020.acl-main.187"
       ],
       "notes": ""
     },
@@ -739,22 +739,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers",
+      "title": "STaR-SQL: Self-Taught Reasoner for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.16083v1"
+        "https://2025.aclweb.org/program/main_papers/"
       ],
-      "notes": "missing doi"
+      "notes": "missing doi, abstract"
     }
   ]
 }

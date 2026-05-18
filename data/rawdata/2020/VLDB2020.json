@@ -188,7 +188,7 @@
     "booktitle": "SFDI/LSGDA@VLDB",
     "title": "NGNC: A Flexible and Efficient Framework for Error-Tolerant Query Autocompletion.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "Query autocompletion (QAC) is an important feature that automatically completes a query and saves users’ keystrokes. It has been widely adopted in Web search engines, desktop search, input method editors, etc. In some applications, especially for mobile...",
     "keywords": "",
     "url": "https://doi.org/10.1007/978-3-030-61133-0_8",
     "doi": "10.1007/978-3-030-61133-0_8",

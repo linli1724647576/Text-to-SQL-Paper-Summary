@@ -2904,7 +2904,7 @@
     "booktitle": "ICDE",
     "title": "DB-LSH: Locality-Sensitive Hashing with Query-based Dynamic Bucketing.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "Among many solutions to the high-dimensional approximate nearest neighbor (ANN) search problem, locality sensitive hashing (LSH) is known for its sub-linear que",
     "keywords": "",
     "url": "https://doi.org/10.1109/ICDE53745.2022.00214",
     "doi": "10.1109/ICDE53745.2022.00214",

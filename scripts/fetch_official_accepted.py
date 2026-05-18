@@ -14,6 +14,7 @@ import sys
 import time
 from pathlib import Path
 
+from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
 from http_utils import get_text
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +35,7 @@ OFFICIAL_ACCEPTED_URLS = {
     },
     "ICDE": {
         2025: "https://ieee-icde.org/2025/research-papers/",
+        2026: "https://icde2026.github.io/accepted-papers.html",
     },
     "ICSE": {
         2024: "https://conf.researchr.org/track/icse-2024/icse-2024-research-track",
@@ -294,6 +296,45 @@ def www_research_entries(content):
     return entries
 
 
+def icde_numbered_research_entries(content):
+    lines = text_lines(content)
+    start = None
+    for idx, line in enumerate(lines):
+        if re.search(r"\bAccepted Research Papers for ICDE\s+20\d{2}\b", line, flags=re.I):
+            start = idx + 1
+            break
+    if start is None:
+        return []
+
+    footer_re = re.compile(r"\bIEEE International Conference on Data Engineering\b|© IEEE", re.I)
+    paper_no_re = re.compile(r"^\d{1,3}$")
+    entries = []
+    idx = start
+    while idx < len(lines):
+        line = lines[idx]
+        if footer_re.search(line):
+            break
+        if not paper_no_re.match(line):
+            idx += 1
+            continue
+        if idx + 1 >= len(lines):
+            break
+        title = normalize_title(lines[idx + 1])
+        if not title:
+            idx += 1
+            continue
+        author_start = idx + 2
+        next_idx = author_start
+        while next_idx < len(lines) and not paper_no_re.match(lines[next_idx]):
+            if footer_re.search(lines[next_idx]):
+                break
+            next_idx += 1
+        author_lines = lines[author_start:next_idx]
+        entries.append((title, normalize_authors(" ".join(author_lines))))
+        idx = next_idx
+    return entries
+
+
 def kdd_table_entries(content):
     entries = []
     for table in re.findall(r"<table[^>]*>(.*?)</table>", content, flags=re.I | re.S):
@@ -449,6 +490,7 @@ def parse_accepted(content):
         content = content[h1.end():]
 
     exact_parsers = (
+        icde_numbered_research_entries,
         acl_anthology_entries,
         ijcai_entries,
         sigir_accepted_entries,
@@ -502,6 +544,74 @@ def selected_configs(venues, from_year, to_year):
             yield venue, year, url
 
 
+def write_report(failures, warnings, total, skipped):
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = REPORT_DIR / "official_accepted_failures.json"
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "summary": {
+                    "fetched_entries": total,
+                    "failure_count": len(failures),
+                    "warning_count": len(warnings),
+                    "skipped_count": len(skipped),
+                },
+                "failures": failures,
+                "warnings": warnings,
+                "skipped": skipped,
+            },
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+    print(f"Wrote official accepted report: {report_path}", file=sys.stderr)
+
+
+def prepare_incremental_fetch(args, state, skipped, venue, year, out_path):
+    source_type = "official-accepted"
+    if not args.incremental:
+        if args.dry_run:
+            print(f"Would fetch official accepted {venue}{year}", file=sys.stderr)
+            return True
+        return False
+    decision = should_skip_fetch(
+        state,
+        source_type,
+        venue,
+        year,
+        out_path,
+        active_year_refresh_days=args.active_year_refresh_days,
+        allow_bootstrap=not args.dry_run,
+    )
+    if decision.skip:
+        print(f"Skipping official accepted {venue}{year}: {decision.reason}", file=sys.stderr)
+        skipped.append(
+            {
+                "venue": venue,
+                "year": year,
+                "source": source_type,
+                "status": "skipped",
+                "reason": decision.reason,
+            }
+        )
+        return True
+    if decision.reason == "active_year_refresh_due" and not args.dry_run:
+        mark_stale(state, source_type, venue, year, out_path)
+    if args.dry_run:
+        print(f"Would fetch official accepted {venue}{year}: {decision.reason}", file=sys.stderr)
+        skipped.append(
+            {
+                "venue": venue,
+                "year": year,
+                "source": source_type,
+                "status": "would_fetch",
+                "reason": decision.reason,
+            }
+        )
+        return True
+    return False
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch official accepted-paper pages")
     parser.add_argument("--from-year", type=int, default=2020)
@@ -509,6 +619,10 @@ def main():
     parser.add_argument("--venues", help="Comma-separated venues, e.g. SIGMOD,ICDE,SIGIR")
     parser.add_argument("--output-dir", default=str(RAWDATA_DIR))
     parser.add_argument("--sleep", type=float, default=0.2)
+    parser.add_argument("--crawl-state", default=str(REPORT_DIR / "crawl_state.json"))
+    parser.add_argument("--incremental", action="store_true")
+    parser.add_argument("--active-year-refresh-days", type=int, default=7)
+    parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--min-entries",
         type=int,
@@ -517,15 +631,21 @@ def main():
     )
     args = parser.parse_args()
 
+    state = load_state(args.crawl_state)
     total = 0
     failures = []
     warnings = []
+    skipped = []
     for venue, year, url in selected_configs(args.venues, args.from_year, args.to_year):
+        out_path = Path(args.output_dir) / str(year) / f"{venue}{year}-accepted.json"
+        if prepare_incremental_fetch(args, state, skipped, venue, year, out_path):
+            continue
         print(f"Fetching {venue} {year}: {url}", file=sys.stderr)
         try:
             content = get_text(url, timeout=60)
         except Exception as exc:
             print(f"  WARN: fetch failed: {exc}", file=sys.stderr)
+            mark_failed(state, "official-accepted", venue, year, out_path, exc, source="official-accepted")
             failures.append(
                 {
                     "venue": venue,
@@ -540,6 +660,16 @@ def main():
         entries = parse_accepted(content)
         if len(entries) < args.min_entries:
             print(f"  WARN: parsed only {len(entries)} entries; skipped", file=sys.stderr)
+            mark_failed(
+                state,
+                "official-accepted",
+                venue,
+                year,
+                out_path,
+                f"parsed only {len(entries)} entries",
+                source="official-accepted",
+                status="empty",
+            )
             warnings.append(
                 {
                     "venue": venue,
@@ -552,34 +682,20 @@ def main():
             )
             continue
         papers = {title: make_paper(venue, year, url, title, authors) for title, authors in entries}
-        out_path = Path(args.output_dir) / str(year) / f"{venue}{year}-accepted.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(papers, f, indent=2, ensure_ascii=False)
+        mark_complete(state, "official-accepted", venue, year, out_path, source="official-accepted")
         total += len(papers)
         print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)
         if args.sleep:
             time.sleep(args.sleep)
 
     print(f"Fetched official accepted entries: {total}", file=sys.stderr)
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    report_path = REPORT_DIR / "official_accepted_failures.json"
-    with open(report_path, "w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "summary": {
-                    "fetched_entries": total,
-                    "failure_count": len(failures),
-                    "warning_count": len(warnings),
-                },
-                "failures": failures,
-                "warnings": warnings,
-            },
-            f,
-            indent=2,
-            ensure_ascii=False,
-        )
-    print(f"Wrote official accepted report: {report_path}", file=sys.stderr)
+    if args.dry_run:
+        return
+    write_report(failures, warnings, total, skipped)
+    save_state(args.crawl_state, state)
 
 
 if __name__ == "__main__":

@@ -271,6 +271,9 @@ def batch_by_doi(entries):
         try:
             return fetch_chunk(chunk)
         except Exception as exc:
+            if "429" in str(exc):
+                print(f"WARN: DOI batch rate-limited for {len(chunk)} ids: {exc}", file=sys.stderr)
+                return 0
             if len(chunk) <= 1:
                 print(f"WARN: DOI batch skipped {chunk[0][2]}: {exc}", file=sys.stderr)
                 return 0

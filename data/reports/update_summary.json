@@ -3,31 +3,33 @@
   "status": "ok",
   "fatal_errors": [],
   "warnings": [
-    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
+    "current-year official source not yet configured or published: AAAI2026, NeurIPS2026, ACL2026, CVPR2026, ICML2026, IJCAI2026, VLDB2026, KDD2026, SIGIR2026, ICSE2026, FSE2026, ASE2026, ISSTA2026",
+    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower",
+    "partial source failures or rate-limit events: 2"
   ],
   "metrics": {
     "venues_sentinel_version": 2,
-    "venues_sentinel_count": 138,
-    "paper_count": 468,
-    "unique_title_count": 468,
+    "venues_sentinel_count": 139,
+    "paper_count": 472,
+    "unique_title_count": 472,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
     "baseline_unique_title_count": 468,
-    "unique_title_drop_ratio": 0.0,
+    "unique_title_drop_ratio": -0.008547,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
       "AI 领域": 72,
-      "ArXiv": 293,
+      "ArXiv": 289,
       "交叉/综合/新兴": 2,
-      "数据库领域": 93,
+      "数据库领域": 101,
       "软件工程": 8
     },
     "source_counts": {
-      "arxiv": 293,
-      "ccf_venue": 175
+      "arxiv": 289,
+      "ccf_venue": 183
     },
     "irrelevant_records": 0,
     "unsupported_www_records": 0,
@@ -74,6 +76,50 @@
         "actual_title": "Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL",
         "actual_venue": "VLDB",
         "actual_year": "2024",
+        "relevance_level": "core",
+        "ok": true
+      },
+      {
+        "title": "CYANSQL: Unlock the Power of NL2SQL via Clustering-based Test-Time Scaling",
+        "expected_venue": "ICDE",
+        "expected_year": "2026",
+        "found": true,
+        "actual_title": "CYANSQL: Unlock the Power of NL2SQL via Clustering-based Test-Time Scaling",
+        "actual_venue": "ICDE",
+        "actual_year": "2026",
+        "relevance_level": "core",
+        "ok": true
+      },
+      {
+        "title": "LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction",
+        "expected_venue": "ICDE",
+        "expected_year": "2026",
+        "found": true,
+        "actual_title": "LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction",
+        "actual_venue": "ICDE",
+        "actual_year": "2026",
+        "relevance_level": "core",
+        "ok": true
+      },
+      {
+        "title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
+        "expected_venue": "ICDE",
+        "expected_year": "2026",
+        "found": true,
+        "actual_title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
+        "actual_venue": "ICDE",
+        "actual_year": "2026",
+        "relevance_level": "core",
+        "ok": true
+      },
+      {
+        "title": "Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL",
+        "expected_venue": "ICDE",
+        "expected_year": "2026",
+        "found": true,
+        "actual_title": "Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL",
+        "actual_venue": "ICDE",
+        "actual_year": "2026",
         "relevance_level": "core",
         "ok": true
       }
@@ -261,7 +307,7 @@
           "official_accepted": 0,
           "dblp": 0,
           "arxiv": 473,
-          "relevant_papers": 293
+          "relevant_papers": 289
         },
         "CVPR2020": {
           "raw_candidates": 1465,
@@ -409,6 +455,13 @@
           "dblp": 398,
           "arxiv": 0,
           "relevant_papers": 10
+        },
+        "ICDE2026": {
+          "raw_candidates": 261,
+          "official_accepted": 261,
+          "dblp": 0,
+          "arxiv": 0,
+          "relevant_papers": 8
         },
         "ICML2020": {
           "raw_candidates": 2169,
@@ -1048,8 +1101,19 @@
           "relevant_papers": 0
         }
       },
-      "arxiv_raw_titles_overridden_by_ccf": 16
+      "arxiv_raw_titles_overridden_by_ccf": 20
     },
+    "source_coverage": {
+      "total": 151,
+      "covered": 134,
+      "available": 3,
+      "not_published_yet": 13,
+      "not_applicable": 1,
+      "missing_config": 0,
+      "rawdata_missing": 0,
+      "available_without_rawdata": 0
+    },
+    "source_coverage_report": "data/reports/source_coverage.json",
     "readme_journal_rawdata_files": {
       "AIJ": [
         "data/rawdata/2020/AIJ2020.json",
@@ -1098,11 +1162,11 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 1,
-    "fetch_warning_count": 77,
-    "dblp_conference_failures": 1,
+    "fetch_failure_count": 0,
+    "fetch_warning_count": 3,
+    "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
-    "dblp_conference_failure_ratio": 0.010101,
+    "dblp_conference_failure_ratio": 0.0,
     "other_ratio": 0.0
   }
 }

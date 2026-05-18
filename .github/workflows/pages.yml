@@ -47,12 +47,25 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Select daily crawl venues
+        if: github.event_name == 'schedule'
+        id: rotation
+        run: python scripts/crawl_rotation.py select --from-year 2020 --to-year 2026 --tracks AI,DB,SE --batch-size 2
+
+      - name: Fetch rotated rawdata
+        if: github.event_name == 'schedule'
+        run: python scripts/fetch_rawdata.py --from-year 2020 --to-year 2026 --tracks AI,DB,SE --venues "${{ steps.rotation.outputs.venues }}" --arxiv-max-results 1000 --sleep 2.0 --incremental --active-year-refresh-days 7
+
       - name: Fetch full rawdata
-        if: github.event_name == 'schedule' || inputs.full_crawl
+        if: inputs.full_crawl
         run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --tracks AI,DB,SE --arxiv-max-results 1000 --sleep 0.5
 
+      - name: Fetch rotated official accepted papers
+        if: github.event_name == 'schedule'
+        run: python scripts/fetch_official_accepted.py --from-year 2020 --to-year 2026 --venues "${{ steps.rotation.outputs.venues }}" --sleep 2.0 --incremental --active-year-refresh-days 7
+
       - name: Fetch official accepted papers
-        if: github.event_name == 'schedule' || inputs.full_crawl
+        if: inputs.full_crawl
         run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
 
       - name: Enrich abstracts
@@ -84,6 +97,10 @@ jobs:
       - name: Audit literature sample
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
         run: python scripts/audit_literature_sample.py
+
+      - name: Finalize daily crawl rotation
+        if: github.event_name == 'schedule'
+        run: python scripts/crawl_rotation.py finalize
 
       - name: Build site
         run: python scripts/build_site.py

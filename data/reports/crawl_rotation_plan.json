@@ -1,0 +1,45 @@
+{
+  "batch_size": 2,
+  "cursor_after": 3,
+  "cursor_before": 2,
+  "from_year": 2020,
+  "manifest": [
+    "AAAI",
+    "NeurIPS",
+    "ACL",
+    "CVPR",
+    "ICCV",
+    "ICML",
+    "IJCAI",
+    "SIGMOD",
+    "VLDB",
+    "ICDE",
+    "KDD",
+    "WWW",
+    "SIGIR",
+    "ICSE",
+    "FSE",
+    "ASE",
+    "ISSTA",
+    "AIJ",
+    "TKDE",
+    "VLDBJ",
+    "TSE",
+    "TOSEM"
+  ],
+  "new_venues": [
+    "ACL"
+  ],
+  "retry_venues": [
+    "NeurIPS"
+  ],
+  "selected_at": "2026-05-18T08:03:51Z",
+  "to_year": 2026,
+  "tracks": "AI,DB,SE",
+  "venues": [
+    "NeurIPS",
+    "ACL"
+  ],
+  "venues_csv": "NeurIPS,ACL",
+  "version": 1
+}

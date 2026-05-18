@@ -15,6 +15,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
 from http_utils import get_json, get_text
 from venues import iter_ccf_a_venues, iter_readme_journals
 
@@ -382,18 +383,67 @@ def write_json(path, papers):
         json.dump(papers, f, indent=2, ensure_ascii=False)
 
 
-def write_fetch_report(failures, warnings, total):
+def write_fetch_report(failures, warnings, total, skipped=None):
+    skipped = skipped or []
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
         "summary": {
             "fetched_entries": total,
             "failure_count": len(failures),
             "warning_count": len(warnings),
+            "skipped_count": len(skipped),
         },
         "failures": failures,
         "warnings": warnings,
+        "skipped": skipped,
     }
     write_json(REPORT_DIR / "fetch_failures.json", payload)
+
+
+def prepare_incremental_fetch(args, state, skipped, source_type, venue, year, out_path, track):
+    if not args.incremental:
+        if args.dry_run:
+            print(f"Would fetch {source_type} {venue}{year}", file=sys.stderr)
+            return True
+        return False
+    decision = should_skip_fetch(
+        state,
+        source_type,
+        venue,
+        year,
+        out_path,
+        active_year_refresh_days=args.active_year_refresh_days,
+        allow_bootstrap=not args.dry_run,
+    )
+    if decision.skip:
+        print(f"Skipping {source_type} {venue}{year}: {decision.reason}", file=sys.stderr)
+        skipped.append(
+            {
+                "venue": venue,
+                "year": year,
+                "track": track,
+                "source_type": source_type,
+                "status": "skipped",
+                "reason": decision.reason,
+            }
+        )
+        return True
+    if decision.reason == "active_year_refresh_due" and not args.dry_run:
+        mark_stale(state, source_type, venue, year, out_path, track=track)
+    if args.dry_run:
+        print(f"Would fetch {source_type} {venue}{year}: {decision.reason}", file=sys.stderr)
+        skipped.append(
+            {
+                "venue": venue,
+                "year": year,
+                "track": track,
+                "source_type": source_type,
+                "status": "would_fetch",
+                "reason": decision.reason,
+            }
+        )
+        return True
+    return False
 
 
 def main():
@@ -407,6 +457,10 @@ def main():
     parser.add_argument("--no-arxiv", dest="include_arxiv", action="store_false")
     parser.add_argument("--arxiv-max-results", type=int, default=200)
     parser.add_argument("--sleep", type=float, default=0.3)
+    parser.add_argument("--crawl-state", default=str(REPORT_DIR / "crawl_state.json"))
+    parser.add_argument("--incremental", action="store_true")
+    parser.add_argument("--active-year-refresh-days", type=int, default=7)
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     tracks = [item.strip() for item in args.tracks.split(",") if item.strip()]
@@ -414,18 +468,24 @@ def main():
     if args.venues:
         allowed_venues = {item.strip().lower() for item in args.venues.split(",") if item.strip()}
 
+    state = load_state(args.crawl_state)
     total = 0
     failures = []
     warnings = []
+    skipped = []
     for track, venue, dblp_key, year in iter_ccf_a_venues(args.from_year, args.to_year, tracks=tracks):
         if allowed_venues and venue.lower() not in allowed_venues:
             continue
         out_path = RAWDATA_DIR / str(year) / f"{venue}{year}.json"
+        if prepare_incremental_fetch(args, state, skipped, "dblp-conference", venue, year, out_path, track):
+            continue
         print(f"Fetching DBLP {venue}{year}", file=sys.stderr)
+        fetched_source = "dblp"
         try:
             papers = fetch_dblp_venue(dblp_key, venue, year, track)
         except Exception as exc:
             print(f"  WARN: failed {venue}{year}: {exc}", file=sys.stderr)
+            mark_failed(state, "dblp-conference", venue, year, out_path, exc, source="dblp", track=track)
             if out_path.exists():
                 warnings.append(
                     {
@@ -457,6 +517,7 @@ def main():
             try:
                 print(f"  trying OpenAlex conference fallback {venue}{year}", file=sys.stderr)
                 papers = fetch_openalex_source(source_id, venue, year, track)
+                fetched_source = "openalex-conference-fallback"
                 warnings.append(
                     {
                         "venue": venue,
@@ -470,6 +531,16 @@ def main():
                 )
             except Exception as fallback_exc:
                 print(f"  WARN: OpenAlex conference fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
+                mark_failed(
+                    state,
+                    "dblp-conference",
+                    venue,
+                    year,
+                    out_path,
+                    f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                    source="conference",
+                    track=track,
+                )
                 failures.append(
                     {
                         "venue": venue,
@@ -483,6 +554,7 @@ def main():
                 )
                 continue
         write_json(out_path, papers)
+        mark_complete(state, "dblp-conference", venue, year, out_path, source=fetched_source, track=track)
         total += len(papers)
         print(f"  wrote {len(papers)} papers -> {out_path}", file=sys.stderr)
         if args.sleep:
@@ -492,11 +564,15 @@ def main():
         if allowed_venues and venue.lower() not in allowed_venues:
             continue
         out_path = RAWDATA_DIR / str(year) / f"{venue}{year}.json"
+        if prepare_incremental_fetch(args, state, skipped, "journal", venue, year, out_path, track):
+            continue
         print(f"Fetching DBLP journal {venue}{year}", file=sys.stderr)
+        fetched_source = "dblp-journal"
         try:
             papers = fetch_dblp_journal(dblp_key, venue, year, track)
         except Exception as exc:
             print(f"  WARN: DBLP journal failed {venue}{year}: {exc}", file=sys.stderr)
+            mark_failed(state, "journal", venue, year, out_path, exc, source="dblp-journal", track=track)
             source_id = OPENALEX_JOURNAL_SOURCES.get(venue)
             if not source_id:
                 failures.append(
@@ -514,6 +590,7 @@ def main():
             try:
                 print(f"  trying OpenAlex fallback {venue}{year}", file=sys.stderr)
                 papers = fetch_openalex_journal(source_id, venue, year, track)
+                fetched_source = "openalex-journal-fallback"
                 warnings.append(
                     {
                         "venue": venue,
@@ -526,6 +603,16 @@ def main():
                 )
             except Exception as fallback_exc:
                 print(f"  WARN: OpenAlex fallback failed {venue}{year}: {fallback_exc}", file=sys.stderr)
+                mark_failed(
+                    state,
+                    "journal",
+                    venue,
+                    year,
+                    out_path,
+                    f"DBLP: {exc}; OpenAlex: {fallback_exc}",
+                    source="journal",
+                    track=track,
+                )
                 failures.append(
                     {
                         "venue": venue,
@@ -539,13 +626,18 @@ def main():
                 )
                 continue
         write_json(out_path, papers)
+        mark_complete(state, "journal", venue, year, out_path, source=fetched_source, track=track)
         total += len(papers)
         print(f"  wrote {len(papers)} journal papers -> {out_path}", file=sys.stderr)
         if args.sleep:
             time.sleep(args.sleep)
 
     if args.include_arxiv:
+        if args.dry_run:
+            print("Would fetch arXiv text-to-sql queries", file=sys.stderr)
+            return
         arxiv_papers = {}
+        arxiv_had_failures = False
         per_query = max(1, args.arxiv_max_results // len(ARXIV_QUERIES))
         for query in ARXIV_QUERIES:
             print(f"Fetching arXiv query {query}", file=sys.stderr)
@@ -556,6 +648,7 @@ def main():
                         continue
                     arxiv_papers[entry["title"]] = entry
             except Exception as exc:
+                arxiv_had_failures = True
                 print(f"  WARN: arXiv query failed {query}: {exc}", file=sys.stderr)
                 warnings.append(
                     {
@@ -571,9 +664,30 @@ def main():
             if args.sleep:
                 time.sleep(max(args.sleep, 3.0))
         if arxiv_papers:
-            write_json(RAWDATA_DIR / "arxiv" / "arXiv-text2sql.json", arxiv_papers)
-            total += len(arxiv_papers)
-            print(f"  wrote {len(arxiv_papers)} arXiv papers", file=sys.stderr)
+            arxiv_path = RAWDATA_DIR / "arxiv" / "arXiv-text2sql.json"
+            if arxiv_had_failures and arxiv_path.exists():
+                warnings.append(
+                    {
+                        "venue": "arXiv",
+                        "year": "",
+                        "track": "arXiv",
+                        "source": "arxiv",
+                        "source_type": "arxiv",
+                        "status": "partial_existing_kept",
+                        "collected_entries": len(arxiv_papers),
+                        "error": "one or more arXiv queries failed; existing output kept unchanged",
+                    }
+                )
+                mark_complete(state, "arxiv", "arXiv", "all", arxiv_path, source="arxiv-existing-kept", track="arXiv")
+                print(
+                    f"  WARN: collected {len(arxiv_papers)} partial arXiv papers; keeping existing {arxiv_path}",
+                    file=sys.stderr,
+                )
+            else:
+                write_json(arxiv_path, arxiv_papers)
+                mark_complete(state, "arxiv", "arXiv", "all", arxiv_path, source="arxiv", track="arXiv")
+                total += len(arxiv_papers)
+                print(f"  wrote {len(arxiv_papers)} arXiv papers", file=sys.stderr)
         else:
             warnings.append(
                 {
@@ -589,7 +703,10 @@ def main():
             print("  WARN: no arXiv candidates collected; existing output kept unchanged", file=sys.stderr)
 
     print(f"Fetched rawdata entries: {total}", file=sys.stderr)
-    write_fetch_report(failures, warnings, total)
+    if args.dry_run:
+        return
+    write_fetch_report(failures, warnings, total, skipped)
+    save_state(args.crawl_state, state)
     print(f"Wrote fetch report: {REPORT_DIR / 'fetch_failures.json'}", file=sys.stderr)
 
 

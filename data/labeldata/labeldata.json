@@ -1142,15 +1142,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2603.07841v1",
     "author": "Trinh Pham and Thanh Tam Nguyen and Viet Huynh and Hongzhi Yin and Quoc Viet Hung Nguyen",
-    "booktitle": "arXiv",
+    "booktitle": "ICDE Conference",
     "title": "An Efficient and Effective Evaluator for Text2SQL Models on Unseen and Unlabeled Data",
     "year": "2026",
     "abstract": "Recent advances in large language models has strengthened Text2SQL systems that translate natural language questions into database queries. A persistent deployment challenge is to assess a newly trained Text2SQL system on an unseen and unlabeled dataset when no verified answers are available. This situation arises frequently because database content and structure evolve, privacy policies slow manual review, and carefully written SQL labels are costly and time-consuming. Without timely evaluation, organizations cannot approve releases or detect failures early. FusionSQL addresses this gap by working with any Text2SQL models and estimating accuracy without reference labels, allowing teams to measure quality on unseen and unlabeled datasets. It analyzes patterns in the system's own outputs to characterize how the target dataset differs from the material used during training. FusionSQL supports pre-release checks, continuous monitoring of new databases, and detection of quality decline. Experiments across diverse application settings and question types show that FusionSQL closely follows actual accuracy and reliably signals emerging issues. Our code is available at https://github.com/phkhanhtrinh23/FusionSQL.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2603.07841v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -2109,6 +2109,34 @@
     ],
     "relevance_level": "core"
   },
+  "Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards": {
+    "type": "INPROCEEDINGS",
+    "key": "icde-official-2026-boosting-small-language-models-for-text-to-sql-with-fine-grained-execution-feedb",
+    "author": "Thanh Dat Hoang and Thanh Trung Huynh and Matthias Weidlich and Thanh Tam Nguyen and Tong Chen and Hongzhi Yin and Quoc Viet Hung Nguyen",
+    "booktitle": "ICDE Conference",
+    "title": "Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icde2026.github.io/accepted-papers.html",
+    "doi": "",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Small Models and Distillation",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Verification & Repair",
+      "Execution Feedback"
+    ],
+    "relevance_level": "core"
+  },
   "Both Ends Count! Just How Good are LLM Agents at \"Text-to-Big SQL\"?": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.21480v4",
@@ -2655,6 +2683,28 @@
     "pipeline_stages": [
       "Grounding",
       "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "CYANSQL: Unlock the Power of NL2SQL via Clustering-based Test-Time Scaling": {
+    "type": "INPROCEEDINGS",
+    "key": "icde-official-2026-cyansql-unlock-the-power-of-nl2sql-via-clustering-based-test-time-scaling",
+    "author": "Haoyu Qin and Tonghui Ren and Zhenying He and X.Sean Wang and Jiashu Xing and Yanghuan Ye and Shifei Huang and Jinbao Li",
+    "booktitle": "ICDE Conference",
+    "title": "CYANSQL: Unlock the Power of NL2SQL via Clustering-based Test-Time Scaling",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icde2026.github.io/accepted-papers.html",
+    "doi": "",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -6862,6 +6912,30 @@
     ],
     "relevance_level": "core"
   },
+  "Hexgen-Flow: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL": {
+    "type": "INPROCEEDINGS",
+    "key": "icde-official-2026-hexgen-flow-optimizing-llm-inference-request-scheduling-for-agentic-text-to-sql",
+    "author": "You Peng ) and Youhe Jiang ) and Wenqi Jiang and Chen Wang and Binhang Yuan )",
+    "booktitle": "ICDE Conference",
+    "title": "Hexgen-Flow: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icde2026.github.io/accepted-papers.html",
+    "doi": "",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2604.09408v4",
@@ -7469,15 +7543,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2502.12911v3",
     "author": "Zheng Yuan and Hao Chen and Zijin Hong and Qinggang Zhang and Feiran Huang and Qing Li and Xiao Huang",
-    "booktitle": "arXiv",
+    "booktitle": "ICDE Conference",
     "title": "Knapsack Optimization-based Schema Linking for LLM-based Text-to-SQL Generation",
-    "year": "2025",
+    "year": "2026",
     "abstract": "Generating SQLs from user queries is a long-standing challenge, where the accuracy of initial schema linking significantly impacts subsequent SQL generation performance. However, current schema linking models still struggle with missing relevant schema elements or an excess of redundant ones. A crucial reason for this is that commonly used metrics, recall and precision, fail to capture relevant element missing and thus cannot reflect actual schema linking performance. Motivated by this, we propose enhanced schema linking metrics by introducing a \\textbf{restricted missing indicator}. Accordingly, we introduce \\textbf{\\underline{K}n\\underline{a}psack optimization-based \\underline{S}chema \\underline{L}inking \\underline{A}pproach (KaSLA)}, a plug-in schema linking method designed to prevent the missing of relevant schema elements while minimizing the inclusion of redundant ones. KaSLA employs a hierarchical linking strategy that first identifies the optimal table linking and subsequently links columns within the selected table to reduce linking candidate space. In each linking process, it utilizes a knapsack optimization approach to link potentially relevant elements while accounting for a limited tolerance of potentially redundant ones. With this optimization, KaSLA-1.6B achieves superior schema linking results compared to large-scale LLMs, including DeepSeek-V3 with the state-of-the-art (SOTA) schema linking method. Extensive experiments on Spider and BIRD benchmarks verify that KaSLA can significantly improve the SQL generation performance of SOTA Text2SQL models by substituting their schema linking processes. The code is available at https://github.com/DEEP-PolyU/KaSLA.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2502.12911v3",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -7561,15 +7635,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.09295v1",
     "author": "Zhao Tan and Xiping Liu and Qing Shu and Qizhi Wan and Dexi Liu and Changxuan Wan",
-    "booktitle": "arXiv",
+    "booktitle": "ICDE Conference",
     "title": "LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction",
     "year": "2026",
     "abstract": "Text-to-SQL translates natural language questions into executable SQL queries, enabling intuitive database access for non-experts. While large language models achieve strong performance on Text-to-SQL with prompting, they still struggle with complex queries that involve deeply nested logic or multiple clauses. A widely used approach employs SQL skeletons--intermediate representations of query logic--to streamline generation, but existing methods are limited by their reliance on a single structural hypothesis and lack of progressive reasoning. To overcome these limitations, we propose LEAF-SQL, a novel framework that reframes skeleton prediction as a coarse-to-fine tree search process. LEAF-SQL enables systematic exploration of diverse structural hypotheses with adaptive refinement. Several key techniques are employed in LEAF-SQL: (1) a three-level skeleton hierarchy to guide the search, (2) a Skeleton Formulation Agent to generate diverse candidates, and (3) a Skeleton Evaluation Agent to efficiently prune the search space. This integrated design yields skeleton candidates that are both structurally diverse and granularity-adaptive, providing a stronger foundation for the SQL generation. Extensive experiments show that LEAF-SQL consistently improves the performance of various LLM backbones. On the official hidden test set of the challenging BIRD benchmark, our method achieves 71.6 execution accuracy, which outperforms leading search-based and skeleton-based methods, affirming its effectiveness for complex queries.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2605.09295v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -12046,6 +12120,30 @@
     ],
     "relevance_level": "core"
   },
+  "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation": {
+    "type": "INPROCEEDINGS",
+    "key": "icde-official-2026-sqlmorph-query-mutation-and-fine-grained-metrics-for-text-to-sql-evaluation",
+    "author": "Mohammadhossein Malekpour and Mohamed Riahi and Maxime Lamothe and Amine Mhedhbi",
+    "booktitle": "ICDE Conference",
+    "title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icde2026.github.io/accepted-papers.html",
+    "doi": "",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "SQLSpace: A Representation Space for Text-to-SQL to Discover and Mitigate Robustness Gaps": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2510.27532v1",
@@ -13848,15 +13946,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2511.10192v4",
     "author": "Qifeng Cai and Hao Liang and Chang Xu and Tao Xie and Wentao Zhang and Bin Cui",
-    "booktitle": "arXiv",
+    "booktitle": "ICDE Conference",
     "title": "Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL",
-    "year": "2025",
+    "year": "2026",
     "abstract": "The data-centric paradigm has emerged as a pivotal direction in artificial intelligence (AI), emphasizing the role of high-quality training data. This shift is especially critical in the Text-to-SQL task, where the scarcity, limited diversity, and structural simplicity of existing datasets constrain model performance. To address these challenges, we propose Text2SQL-Flow, a SQL-aware data augmentation framework that systematically generates large-scale, semantically valid, and structurally diverse Text-to-SQL pairs from limited seed data. Our framework spans six augmentation dimensions and integrates an end-to-end pipeline with auxiliary database selection, SQL executability verification, natural language (NL) question generation, NL-SQL correspondence verification, and chain-of-thought (CoT) reasoning trace generation. Leveraging this framework, we construct SQLFlow, a high-quality dataset comprising 75,386 annotated examples. We demonstrate the utility of SQLFlow in both fine-tuning and prompt-based settings. (1) For open-source large language models (LLMs), fine-tuning with SQLFlow improves problem-solving ability, delivering competitive gains across multiple benchmarks under the same data budget. (2) For closed-source LLMs, we propose a masked alignment retrieval method that uses SQLFlow as both a knowledge base and training data for the retrieval model, enabling structure-aware example matching via fine-grained NL-SQL alignments. Experiments show that our retrieval strategy outperforms existing example retrieval methods, highlighting the combined value of SQLFlow's data quality and our retrieval technique. Overall, our work provides a scalable, data-centric foundation for advancing Text-to-SQL systems and underscores the importance of structured, high-fidelity data in modern AI development. Our code is available at https://github.com/TechNomad-ds/Text2SQL-Flow.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2511.10192v4",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "ICDE",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",

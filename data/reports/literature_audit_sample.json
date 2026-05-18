@@ -124,100 +124,7 @@
       "notes": "risk-directed sample"
     },
     {
-      "title": "EHRSQL: A Practical Text-to-SQL Benchmark for Electronic Health Records",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "NeurIPS",
-      "normalized_venue": "NeurIPS",
-      "category": "AI 领域",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/643e347250cf9289e5a2a6c1ed5ee42e-Abstract-Datasets_and_Benchmarks.html"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Demonstration of ThalamusDB: Answering Complex SQL Queries with Natural Language Predicates on Multi-Modal Data",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3555041.3589730",
-        "https://doi.org/10.1145/3555041.3589730"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "NeurIPS",
-      "normalized_venue": "NeurIPS",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2504.08600v5"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Sevi: Speech-to-Visualization through Neural Machine Translation",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3514221.3520150",
-        "https://doi.org/10.1145/3514221.3520150"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v34i05.6427",
-        "https://doi.org/10.1609/aaai.v34i05.6427"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL",
+      "title": "Dual Reader-Parser on Hybrid Textual and Tabular Evidence for Open Domain Question Answering",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
@@ -225,14 +132,110 @@
       "venue": "ACL",
       "normalized_venue": "ACL",
       "category": "AI 领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2021.acl-long.315",
+        "https://doi.org/10.18653/v1/2021.acl-long.315"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Demonstrating CAESURA: Language Models as Multi-Modal Query Planners",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3626246.3654732",
+        "https://doi.org/10.1145/3626246.3654732"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2024.acl-long.152",
+        "https://doi.org/10.18653/v1/2024.acl-long.152"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2025.aclweb.org/program/main_papers/"
+        "10.1609/aaai.v39i1.31979",
+        "https://doi.org/10.1609/aaai.v39i1.31979"
       ],
-      "notes": "missing doi, abstract"
+      "notes": ""
+    },
+    {
+      "title": "MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2023.acl-long.348",
+        "https://doi.org/10.18653/v1/2023.acl-long.348"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3448016.3452822",
+        "https://doi.org/10.1145/3448016.3452822"
+      ],
+      "notes": ""
     },
     {
       "title": "A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation",
@@ -254,22 +257,23 @@
       "notes": ""
     },
     {
-      "title": "CatSQL: Towards Real World Natural Language to SQL Applications",
+      "title": "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2023",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://www.vldb.org/pvldb/vol16/p1534-fu.pdf"
+        "10.1609/aaai.v36i10.21356",
+        "https://doi.org/10.1609/aaai.v36i10.21356"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
       "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
@@ -424,7 +428,25 @@
       "notes": ""
     },
     {
-      "title": "LLMSQL: Upgrading WikiSQL for the LLM Era of Text-to-SQL",
+      "title": "LeakDojo: Decoding the Leakage Threats of RAG Systems",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.05818v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -437,25 +459,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.02350v2"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "ChatBI: Towards Natural Language to Complex Business Intelligence SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2405.00527v1"
+        "https://arxiv.org/abs/2507.06013v1"
       ],
       "notes": "missing doi"
     },
@@ -478,25 +482,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2305.11061v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Datrics Text2SQL: A Framework for Natural Language to SQL Query Generation",
+      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -509,12 +495,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2506.12234v1"
+        "https://arxiv.org/abs/2508.07087v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
+      "title": "DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -522,12 +508,30 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2020",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2006.06434v1"
+        "https://arxiv.org/abs/2509.14507v2"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Text-to-SQL Oriented to the Process Mining Domain: A PT-EN Dataset for Query Translation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2509.09684v1"
       ],
       "notes": "missing doi"
     },
@@ -550,7 +554,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Exploring Database Normalization Effects on SQL Generation",
+      "title": "Exploring Multi-Table Retrieval Through Iterative Search",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -563,7 +567,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.01989v1"
+        "https://arxiv.org/abs/2511.13418v1"
       ],
       "notes": "missing doi"
     },
@@ -682,44 +686,43 @@
       "notes": ""
     },
     {
-      "title": "Explaining Natural Language query results",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-019-00584-7",
-        "https://doi.org/10.1007/s00778-019-00584-7"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Comparison and Analysis of Value Linking in Text-to-SQL systems",
+      "title": "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
       "category": "数据库领域",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2026.sigmod.org/sigmod_papers.shtml"
+        "https://arxiv.org/abs/2603.10697v1"
       ],
-      "notes": "missing doi, abstract"
+      "notes": "missing doi"
     },
     {
-      "title": "Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases",
+      "title": "Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://www.vldb.org/pvldb/vol17/p2750-fan.pdf"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "SemanticAgent: A Semantics-Aware Framework for Text-to-SQL Data Synthesis",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -732,7 +735,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.17001v1"
+        "https://arxiv.org/abs/2604.21414v1"
       ],
       "notes": "missing doi"
     },

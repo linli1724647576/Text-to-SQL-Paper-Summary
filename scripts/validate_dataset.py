@@ -11,6 +11,7 @@ from pathlib import Path
 
 from label_papers import relevance_level
 from paper_utils import normalize_title_key
+from source_coverage import expected_source_records, source_coverage_summary, write_source_coverage_report
 from taxonomy import DEPRECATED_TOPIC_LABELS
 from venues import (
     ALL_CCF_A_VENUES,
@@ -31,6 +32,7 @@ DEFAULT_VENUES = REPO_ROOT / "data" / "venues.json"
 DEFAULT_RAWDATA = REPO_ROOT / "data" / "rawdata"
 DEFAULT_REPORTS = REPO_ROOT / "data" / "reports"
 DEFAULT_REPORT = DEFAULT_REPORTS / "update_summary.json"
+DEFAULT_SOURCE_COVERAGE_REPORT = DEFAULT_REPORTS / "source_coverage.json"
 BALANCED_OTHER_RATIO_WARNING = 0.30
 BALANCED_DROP_LIMIT = 0.05
 BALANCED_DBLP_FAILURE_LIMIT = 0.30
@@ -55,6 +57,26 @@ CCF_RECALL_CANARIES = [
         "title": "Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL",
         "venue": "VLDB",
         "year": "2024",
+    },
+    {
+        "title": "CYANSQL: Unlock the Power of NL2SQL via Clustering-based Test-Time Scaling",
+        "venue": "ICDE",
+        "year": "2026",
+    },
+    {
+        "title": "LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction",
+        "venue": "ICDE",
+        "year": "2026",
+    },
+    {
+        "title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
+        "venue": "ICDE",
+        "year": "2026",
+    },
+    {
+        "title": "Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL",
+        "venue": "ICDE",
+        "year": "2026",
     },
 ]
 
@@ -435,6 +457,61 @@ def validate(args):
 
     metrics["rawdata_diagnostics"] = rawdata_diagnostics(args.rawdata_dir, papers)
 
+    source_records = expected_source_records(
+        args.from_year,
+        args.to_year,
+        tracks=["AI", "DB", "SE"],
+        rawdata_dir=args.rawdata_dir,
+    )
+    source_summary = source_coverage_summary(source_records)
+    metrics["source_coverage"] = source_summary
+    source_report_path = Path(args.source_coverage_report)
+    if not source_report_path.is_absolute():
+        source_report_path = REPO_ROOT / source_report_path
+    write_source_coverage_report(
+        source_report_path,
+        source_records,
+        from_year=args.from_year,
+        to_year=args.to_year,
+        tracks=["AI", "DB", "SE"],
+    )
+    metrics["source_coverage_report"] = source_report_path.relative_to(REPO_ROOT).as_posix()
+    missing_config = [
+        f"{record['venue']}{record['year']}"
+        for record in source_records
+        if record.get("status") == "missing_config"
+    ]
+    available_without_rawdata = [
+        f"{record['venue']}{record['year']}"
+        for record in source_records
+        if record.get("status") == "available" and not record.get("rawdata_present")
+    ]
+    missing_required_rawdata = [
+        f"{record['venue']}{record['year']}"
+        for record in source_records
+        if record.get("status") == "rawdata_missing"
+    ]
+    not_published_yet = [
+        f"{record['venue']}{record['year']}"
+        for record in source_records
+        if record.get("status") == "not_published_yet"
+    ]
+    if missing_config:
+        fatal_errors.append(f"source coverage missing current-year config: {', '.join(missing_config)}")
+    if available_without_rawdata:
+        fatal_errors.append(
+            f"available current-year official sources lack rawdata: {', '.join(available_without_rawdata)}"
+        )
+    if missing_required_rawdata:
+        fatal_errors.append(
+            f"expected source rawdata missing for {args.from_year}-{args.to_year}: "
+            + ", ".join(missing_required_rawdata)
+        )
+    if not_published_yet:
+        warnings.append(
+            f"current-year official source not yet configured or published: {', '.join(not_published_yet[:20])}"
+        )
+
     coverage = journal_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)
     metrics["readme_journal_rawdata_files"] = coverage
     missing_journals = [venue for venue, files in coverage.items() if not files]
@@ -515,6 +592,7 @@ def main():
     parser.add_argument("--rawdata-dir", default=str(DEFAULT_RAWDATA))
     parser.add_argument("--reports-dir", default=str(DEFAULT_REPORTS))
     parser.add_argument("--write-report", default=str(DEFAULT_REPORT))
+    parser.add_argument("--source-coverage-report", default=str(DEFAULT_SOURCE_COVERAGE_REPORT))
     parser.add_argument("--from-year", type=int, default=2020)
     parser.add_argument("--to-year", type=int, default=2026)
     args = parser.parse_args()

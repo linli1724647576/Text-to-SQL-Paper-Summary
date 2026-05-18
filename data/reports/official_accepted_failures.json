@@ -1,26 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 44130,
+    "fetched_entries": 261,
     "failure_count": 0,
-    "warning_count": 2
+    "warning_count": 0,
+    "skipped_count": 0
   },
   "failures": [],
-  "warnings": [
-    {
-      "venue": "ISSTA",
-      "year": 2024,
-      "source": "official-accepted",
-      "status": "parse_skipped",
-      "url": "https://conf.researchr.org/track/issta-2024/issta-2024-papers",
-      "parsed_entries": 0
-    },
-    {
-      "venue": "WWW",
-      "year": 2024,
-      "source": "official-accepted",
-      "status": "parse_skipped",
-      "url": "https://www2024.thewebconf.org/accepted/research-tracks/",
-      "parsed_entries": 1
-    }
-  ]
+  "warnings": [],
+  "skipped": []
 }

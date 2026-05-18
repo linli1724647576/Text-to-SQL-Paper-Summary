@@ -496,6 +496,19 @@ def validate(args):
         for record in source_records
         if record.get("status") == "not_published_yet"
     ]
+    available_low_recall = [
+        {
+            "venue_year": f"{record['venue']}{record['year']}",
+            "raw_candidate_count": record.get("raw_candidate_count", 0),
+            "relevant_candidate_count": record.get("relevant_candidate_count", 0),
+            "abstract_coverage_note": "accepted/DBLP source may lack abstracts",
+        }
+        for record in source_records
+        if record.get("status") == "available"
+        and record.get("raw_candidate_count", 0) >= 100
+        and record.get("relevant_candidate_count", 0) == 0
+    ]
+    metrics["available_sources_with_zero_relevant_candidates"] = available_low_recall
     if missing_config:
         fatal_errors.append(f"source coverage missing current-year config: {', '.join(missing_config)}")
     if available_without_rawdata:
@@ -510,6 +523,11 @@ def validate(args):
     if not_published_yet:
         warnings.append(
             f"current-year official source not yet configured or published: {', '.join(not_published_yet[:20])}"
+        )
+    if available_low_recall:
+        warnings.append(
+            "available current-year sources with many raw candidates but zero Text-to-SQL matches: "
+            + ", ".join(item["venue_year"] for item in available_low_recall[:20])
         )
 
     coverage = journal_rawdata_coverage(args.rawdata_dir, args.from_year, args.to_year)

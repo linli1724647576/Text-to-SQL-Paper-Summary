@@ -27,8 +27,18 @@ CURRENT_YEAR_CONFERENCE_STATUS = {
             "source_type": "dblp-conference",
             "source_url": "https://dblp.org/db/conf/aaai/aaai2026.xml",
         },
-        "NeurIPS": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
-        "ACL": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "NeurIPS": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://neurips.cc/virtual/2026/papers.html",
+            "notes": "virtual page exists but currently has no main-track paper topics/sessions",
+        },
+        "ACL": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://2026.aclweb.org/program/accepted_papers/",
+            "notes": "accepted papers landing page currently says Coming soon",
+        },
         "CVPR": {
             "status": "available",
             "source_type": "official-accepted",
@@ -40,7 +50,12 @@ CURRENT_YEAR_CONFERENCE_STATUS = {
             "source_type": "official-accepted",
             "source_url": "https://icml.cc/virtual/2026/papers.html",
         },
-        "IJCAI": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "IJCAI": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://2026.ijcai.org/program/",
+            "notes": "program page is public, but main technical-track accepted list is not yet published",
+        },
         "SIGMOD": {"status": "available", "source_type": "official-accepted"},
         "VLDB": {
             "status": "available",
@@ -48,9 +63,19 @@ CURRENT_YEAR_CONFERENCE_STATUS = {
             "source_url": "https://dblp.org/db/journals/pvldb/pvldb19.xml",
         },
         "ICDE": {"status": "available", "source_type": "official-accepted"},
-        "KDD": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "KDD": {
+            "status": "not_published_yet",
+            "source_type": "openreview-official",
+            "source_url": "https://openreview.net/group?id=KDD.org%2F2026",
+            "notes": "KDD uses OpenReview, but 2026 research-track public_submissions are currently false",
+        },
         "WWW": {"status": "available", "source_type": "official-accepted"},
-        "SIGIR": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "SIGIR": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://sigir2026.org/",
+            "notes": "official site is public, but a complete main full-paper accepted list is not yet published",
+        },
         "ICSE": {
             "status": "available",
             "source_type": "official-accepted",
@@ -61,8 +86,18 @@ CURRENT_YEAR_CONFERENCE_STATUS = {
             "source_type": "official-accepted",
             "source_url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
         },
-        "ASE": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
-        "ISSTA": {"status": "not_published_yet", "notes": "official main accepted source not configured"},
+        "ASE": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track",
+            "notes": "researchr page is currently a call-for-papers page, not an accepted-paper list",
+        },
+        "ISSTA": {
+            "status": "not_published_yet",
+            "source_type": "official-accepted",
+            "source_url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+            "notes": "researchr page is currently a call-for-papers page, not an accepted-paper list",
+        },
     }
 }
 

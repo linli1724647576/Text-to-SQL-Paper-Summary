@@ -72,7 +72,12 @@ jobs:
         if: github.event_name == 'schedule' || inputs.full_crawl
         env:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-        run: python scripts/enrich_abstracts.py data/rawdata --limit-per-file 0 --delay 1.0
+        run: >
+          python scripts/enrich_abstracts.py data/rawdata
+          --limit-per-file 80
+          --delay 1.0
+          --skip-title-search
+          --title-filter "(text[- ]?to[- ]?sql|text2sql|nl2sql|natural language|semantic parsing|sql|database|schema|query)"
 
       - name: Process rawdata
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl

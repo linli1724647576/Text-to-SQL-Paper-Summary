@@ -93,6 +93,7 @@ def abstract_from_html(html):
     if abstract:
         return abstract
     patterns = [
+        r"<div[^>]+id=[\"']abstractText[\"'][^>]*>.*?<div[^>]+class=[\"'][^\"']*abstract-text-inner[^\"']*[\"'][^>]*>(.*?)</div>\s*</div>",
         r"<div[^>]*class=[\"'][^\"']*acl-abstract[^\"']*[\"'][^>]*>.*?<span[^>]*>(.*?)</span>",
         r"<div[^>]*id=[\"']abstract[\"'][^>]*>(.*?)</div>",
         r"<p[^>]*class=[\"']paper-abstract[\"'][^>]*>(.*?)</section>",
@@ -104,6 +105,28 @@ def abstract_from_html(html):
             if abstract:
                 return abstract
     return ""
+
+
+def apply_jsonld_metadata(entry, html):
+    if entry.get("author"):
+        return
+    for match in re.finditer(
+        r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>",
+        html,
+        flags=re.I | re.S,
+    ):
+        try:
+            payload = json.loads(html_lib.unescape(match.group(1)))
+        except Exception:
+            continue
+        authors = payload.get("author") or []
+        if isinstance(authors, dict):
+            authors = [authors]
+        names = [clean(author.get("name", "")) for author in authors if isinstance(author, dict)]
+        names = [name for name in names if name]
+        if names:
+            entry["author"] = " and ".join(names)
+            return
 
 
 def abstract_from_pdf(url):
@@ -163,6 +186,14 @@ def find_neurips_paper_url(index_url, title):
 def source_abstract(entry, title):
     url = clean(entry.get("url", ""))
     doi = entry_doi(entry)
+    if "/virtual/" in url and re.search(r"/(?:poster|paper)/", url):
+        html = get_text(url, timeout=30)
+        apply_jsonld_metadata(entry, html)
+        return abstract_from_html(html)
+    if "conf.researchr.org/details/" in url:
+        html = get_text(url, timeout=30)
+        apply_jsonld_metadata(entry, html)
+        return abstract_from_html(html)
     if url.lower().endswith(".pdf"):
         return abstract_from_pdf(url)
     if "proceedings.mlr.press/" in url:
@@ -286,7 +317,14 @@ def batch_by_doi(entries):
     return updated
 
 
-def enrich_file(path, limit=None, delay=1.0, skip_title_search=False, skip_doi_batch=False):
+def enrich_file(
+    path,
+    limit=None,
+    delay=1.0,
+    skip_title_search=False,
+    skip_doi_batch=False,
+    title_filter=None,
+):
     with open(path, encoding="utf-8") as f:
         papers = json.load(f)
     items = list(papers.items())
@@ -302,11 +340,14 @@ def enrich_file(path, limit=None, delay=1.0, skip_title_search=False, skip_doi_b
     for title, entry in items:
         if entry.get("abstract"):
             continue
+        entry_title = entry.get("title") or title
+        if title_filter and not title_filter.search(entry_title):
+            continue
         if limit is not None and checked >= limit:
             break
         checked += 1
         try:
-            abstract = source_abstract(entry, entry.get("title") or title)
+            abstract = source_abstract(entry, entry_title)
             if abstract:
                 entry["abstract"] = abstract
                 updated += 1
@@ -316,7 +357,7 @@ def enrich_file(path, limit=None, delay=1.0, skip_title_search=False, skip_doi_b
         if skip_title_search:
             continue
         try:
-            abstract = search_title(entry.get("title") or title)
+            abstract = search_title(entry_title)
         except Exception as exc:
             print(f"WARN: {title[:80]}: {exc}", file=sys.stderr)
             if "429" in str(exc):
@@ -339,6 +380,10 @@ def main():
     parser.add_argument("--delay", type=float, default=1.0)
     parser.add_argument("--skip-doi-batch", action="store_true")
     parser.add_argument("--skip-title-search", action="store_true")
+    parser.add_argument(
+        "--title-filter",
+        help="Only run per-title enrichment for records whose title matches this regex.",
+    )
     args = parser.parse_args()
 
     files = []
@@ -350,6 +395,7 @@ def main():
             files.append(path)
 
     total_updated = 0
+    title_filter = re.compile(args.title_filter, re.I) if args.title_filter else None
     for path in files:
         if path.name == "fetch_failures.json":
             continue
@@ -360,6 +406,7 @@ def main():
             delay=args.delay,
             skip_doi_batch=args.skip_doi_batch,
             skip_title_search=args.skip_title_search,
+            title_filter=title_filter,
         )
         total_updated += updated
         print(f"  updated {updated}/{checked}", file=sys.stderr)

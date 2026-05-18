@@ -4,31 +4,32 @@
   "fatal_errors": [],
   "warnings": [
     "current-year official source not yet configured or published: NeurIPS2026, ACL2026, IJCAI2026, KDD2026, SIGIR2026, ASE2026, ISSTA2026",
+    "available current-year sources with many raw candidates but zero Text-to-SQL matches: CVPR2026, ICSE2026",
     "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
   ],
   "metrics": {
     "venues_sentinel_version": 2,
     "venues_sentinel_count": 145,
-    "paper_count": 479,
-    "unique_title_count": 479,
+    "paper_count": 482,
+    "unique_title_count": 482,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 472,
-    "unique_title_drop_ratio": -0.014831,
-    "quality_pruned_irrelevant_count": 0,
+    "baseline_unique_title_count": 479,
+    "unique_title_drop_ratio": -0.006263,
+    "quality_pruned_irrelevant_count": 9,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
-      "AI 领域": 85,
-      "ArXiv": 280,
+      "AI 领域": 83,
+      "ArXiv": 285,
       "交叉/综合/新兴": 2,
       "数据库领域": 103,
       "软件工程": 9
     },
     "source_counts": {
-      "arxiv": 280,
-      "ccf_venue": 199
+      "arxiv": 285,
+      "ccf_venue": 197
     },
     "irrelevant_records": 0,
     "unsupported_www_records": 0,
@@ -131,7 +132,7 @@
           "official_accepted": 0,
           "dblp": 1864,
           "arxiv": 0,
-          "relevant_papers": 6
+          "relevant_papers": 4
         },
         "AAAI2021": {
           "raw_candidates": 1961,
@@ -145,14 +146,14 @@
           "official_accepted": 0,
           "dblp": 1624,
           "arxiv": 0,
-          "relevant_papers": 3
+          "relevant_papers": 2
         },
         "AAAI2023": {
           "raw_candidates": 2021,
           "official_accepted": 0,
           "dblp": 2021,
           "arxiv": 0,
-          "relevant_papers": 5
+          "relevant_papers": 6
         },
         "AAAI2024": {
           "raw_candidates": 2865,
@@ -187,28 +188,28 @@
           "official_accepted": 0,
           "dblp": 140,
           "arxiv": 0,
-          "relevant_papers": 6
+          "relevant_papers": 5
         },
         "ACL2022": {
           "raw_candidates": 604,
           "official_accepted": 0,
           "dblp": 604,
           "arxiv": 0,
-          "relevant_papers": 4
+          "relevant_papers": 3
         },
         "ACL2023": {
           "raw_candidates": 910,
           "official_accepted": 0,
           "dblp": 910,
           "arxiv": 0,
-          "relevant_papers": 4
+          "relevant_papers": 3
         },
         "ACL2024": {
           "raw_candidates": 68,
           "official_accepted": 0,
           "dblp": 68,
           "arxiv": 0,
-          "relevant_papers": 5
+          "relevant_papers": 4
         },
         "ACL2025": {
           "raw_candidates": 1798,
@@ -313,7 +314,7 @@
           "official_accepted": 0,
           "dblp": 0,
           "arxiv": 473,
-          "relevant_papers": 280
+          "relevant_papers": 285
         },
         "CVPR2020": {
           "raw_candidates": 1465,
@@ -474,7 +475,7 @@
           "official_accepted": 300,
           "dblp": 398,
           "arxiv": 0,
-          "relevant_papers": 10
+          "relevant_papers": 9
         },
         "ICDE2026": {
           "raw_candidates": 261,
@@ -684,7 +685,7 @@
           "official_accepted": 0,
           "dblp": 534,
           "arxiv": 0,
-          "relevant_papers": 3
+          "relevant_papers": 2
         },
         "KDD2023": {
           "raw_candidates": 564,
@@ -705,7 +706,7 @@
           "official_accepted": 552,
           "dblp": 250,
           "arxiv": 0,
-          "relevant_papers": 0
+          "relevant_papers": 1
         },
         "NeurIPS2020": {
           "raw_candidates": 3772,
@@ -733,21 +734,21 @@
           "official_accepted": 3523,
           "dblp": 3540,
           "arxiv": 0,
-          "relevant_papers": 2
+          "relevant_papers": 3
         },
         "NeurIPS2024": {
           "raw_candidates": 8955,
           "official_accepted": 4461,
           "dblp": 4494,
           "arxiv": 0,
-          "relevant_papers": 0
+          "relevant_papers": 1
         },
         "NeurIPS2025": {
           "raw_candidates": 5782,
           "official_accepted": 5782,
           "dblp": 0,
           "arxiv": 0,
-          "relevant_papers": 2
+          "relevant_papers": 4
         },
         "SIGIR2020": {
           "raw_candidates": 382,
@@ -887,7 +888,7 @@
           "official_accepted": 0,
           "dblp": 243,
           "arxiv": 0,
-          "relevant_papers": 0
+          "relevant_papers": 1
         },
         "TOSEM2020": {
           "raw_candidates": 40,
@@ -1155,6 +1156,20 @@
       "available_without_rawdata": 0
     },
     "source_coverage_report": "data/reports/source_coverage.json",
+    "available_sources_with_zero_relevant_candidates": [
+      {
+        "venue_year": "CVPR2026",
+        "raw_candidate_count": 4071,
+        "relevant_candidate_count": 0,
+        "abstract_coverage_note": "accepted/DBLP source may lack abstracts"
+      },
+      {
+        "venue_year": "ICSE2026",
+        "raw_candidate_count": 322,
+        "relevant_candidate_count": 0,
+        "abstract_coverage_note": "accepted/DBLP source may lack abstracts"
+      }
+    ],
     "readme_journal_rawdata_files": {
       "AIJ": [
         "data/rawdata/2020/AIJ2020.json",

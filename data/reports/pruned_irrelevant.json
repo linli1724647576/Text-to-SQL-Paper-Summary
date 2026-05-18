@@ -1,6 +1,6 @@
 {
   "summary": {
-    "removed_count": 120,
+    "removed_count": 129,
     "newly_removed_count": 0
   },
   "removed": [
@@ -5314,6 +5314,364 @@
         ],
         "pipeline_stages": [
           "SQL Generation"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "A Sequence-to-Sequence Approach to Dialogue State Tracking",
+      "venue": "ACL",
+      "year": "2021",
+      "doi": "10.18653/v1/2021.acl-long.135",
+      "url": "https://doi.org/10.18653/v1/2021.acl-long.135",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/acl/FengWL20",
+        "author": "Yue Feng 0002 and Yang Wang and Hang Li",
+        "booktitle": "ACL/IJCNLP (1)",
+        "title": "A Sequence-to-Sequence Approach to Dialogue State Tracking",
+        "year": "2021",
+        "abstract": "This paper is concerned with dialogue state tracking (DST) in a task-oriented dialogue system. Building a DST module that is highly effective is still a challenging issue, although significant progresses have been made recently. This paper proposes a new approach to dialogue state tracking, referred to as Seq2Seq-DU, which formalizes DST as a sequence-to-sequence problem. Seq2Seq-DU employs two BERT-based encoders to respectively encode the utterances in the dialogue and the descriptions of schemas, an attender to calculate attentions between the utterance embeddings and the schema embeddings, and a decoder to generate pointers to represent the current state of dialogue. Seq2Seq-DU has the following advantages. It can jointly model intents, slots, and slot values; it can leverage the rich representations of utterances and schemas based on BERT; it can effectively deal with categorical and non-categorical slots, and unseen schemas. In addition, Seq2Seq-DU can also be used in the NLU (natural language understanding) module of a dialogue system. Experimental results on benchmark datasets in different settings (SGD, MultiWOZ2.2, MultiWOZ2.1, WOZ2.0, DSTC2, M2M, SNIPS, and ATIS) show that Seq2Seq-DU outperforms the existing methods.",
+        "keywords": "",
+        "url": "https://doi.org/10.18653/v1/2021.acl-long.135",
+        "doi": "10.18653/v1/2021.acl-long.135",
+        "venue": "ACL",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Pre-training and Fine-tuning",
+          "Pre-training",
+          "Planning and Generation",
+          "Constrained Decoding",
+          "Benchmarks and Evaluation",
+          "Benchmark"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Dialogue Context Tracking",
+          "Grounding",
+          "SQL Generation",
+          "Constrained Decoding"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "An Annotated Corpus of Reference Resolution for Interpreting Common Grounding",
+      "venue": "AAAI",
+      "year": "2020",
+      "doi": "10.1609/aaai.v34i05.6442",
+      "url": "https://doi.org/10.1609/aaai.v34i05.6442",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/aaai/UdagawaA20",
+        "author": "Takuma Udagawa and Akiko Aizawa",
+        "booktitle": "AAAI",
+        "title": "An Annotated Corpus of Reference Resolution for Interpreting Common Grounding",
+        "year": "2020",
+        "abstract": "Common grounding is the process of creating, repairing and updating mutual understandings, which is a fundamental aspect of natural language conversation. However, interpreting the process of common grounding is a challenging task, especially under continuous and partially-observable context where complex ambiguity, uncertainty, partial understandings and misunderstandings are introduced. Interpretation becomes even more challenging when we deal with dialogue systems which still have limited capability of natural language understanding and generation. To address this problem, we consider reference resolution as the central subtask of common grounding and propose a new resource to study its intermediate process. Based on a simple and general annotation schema, we collected a total of 40,172 referring expressions in 5,191 dialogues curated from an existing corpus, along with multiple judgements of referent interpretations. We show that our annotation is highly reliable, captures the complexity of common grounding through a natural degree of reasonable disagreements, and allows for more detailed and quantitative analyses of common grounding strategies. Finally, we demonstrate the advantages of our annotation for interpreting, analyzing and improving common grounding in baseline dialogue systems.",
+        "keywords": "",
+        "url": "https://doi.org/10.1609/aaai.v34i05.6442",
+        "doi": "10.1609/aaai.v34i05.6442",
+        "venue": "AAAI",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Dialogue Context Tracking",
+          "Grounding",
+          "Context Retrieval"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems",
+      "venue": "AAAI",
+      "year": "2022",
+      "doi": "10.1609/aaai.v36i10.21356",
+      "url": "https://doi.org/10.1609/aaai.v36i10.21356",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/aaai/MiWL22",
+        "author": "Fei Mi and Yasheng Wang and Yitong Li",
+        "booktitle": "AAAI",
+        "title": "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems",
+        "year": "2022",
+        "abstract": "As the labeling cost for different modules in task-oriented dialog (ToD) systems is high, a major challenge is to learn different tasks with the least amount of labeled data. Recently, pre-trained language models (PLMs) have shown promising results for few-shot learning in ToD. To better utilize the power of PLMs, this paper proposes Comprehensive Instruction (CINS) that exploits PLMs with extra task-specific instructions. We design a schema (definition, constraint, prompt) of instructions and their customized realizations for three important downstream tasks in ToD, ie. intent classification, dialog state tracking, and natural language generation. A sequence-to-sequence model (T5) is adopted to solve these three tasks in a unified framework. Extensive experiments are conducted on these ToD tasks in realistic few-shot learning scenarios with small validation data. Empirical results demonstrate that the proposed CINS approach consistently improves techniques that finetune PLMs with raw input or short prompt.",
+        "keywords": "",
+        "url": "https://doi.org/10.1609/aaai.v36i10.21356",
+        "doi": "10.1609/aaai.v36i10.21356",
+        "venue": "AAAI",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Pre-training and Fine-tuning",
+          "Pre-training",
+          "Supervised Fine-tuning",
+          "Prompting and ICL",
+          "Zero-shot / Few-shot ICL",
+          "Prompt Engineering",
+          "Benchmarks and Evaluation",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Intent Detection",
+          "Dialogue Context Tracking",
+          "Domain Constraint Understanding",
+          "Grounding",
+          "SQL Generation",
+          "Prompt-based Generation"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+      "venue": "ACL",
+      "year": "2022",
+      "doi": "10.18653/v1/2022.acl-long.244",
+      "url": "https://doi.org/10.18653/v1/2022.acl-long.244",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/acl/MishraKBH22",
+        "author": "Swaroop Mishra and Daniel Khashabi and Chitta Baral and Hannaneh Hajishirzi",
+        "booktitle": "ACL (1)",
+        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+        "year": "2022",
+        "abstract": "Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. Despite the success of the conventional supervised learning on individual datasets, such models often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions, and 193k task instances (input-output pairs). The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. Using this meta-dataset, we measure cross-task generalization by training models on seen tasks and measuring generalization to the remaining unseen ones. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks (19% better for models utilizing instructions). These models, however, are far behind an estimated performance upperbound indicating significant room for more progress in this direction.",
+        "keywords": "",
+        "url": "https://doi.org/10.18653/v1/2022.acl-long.244",
+        "doi": "10.18653/v1/2022.acl-long.244",
+        "venue": "ACL",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Cross-domain Text-to-SQL",
+          "Pre-training and Fine-tuning",
+          "Pre-training",
+          "Supervised Fine-tuning",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Grounding",
+          "SQL Generation",
+          "Fine-tuned Generation"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent",
+      "venue": "ACL",
+      "year": "2024",
+      "doi": "10.18653/v1/2024.acl-long.152",
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.152",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/acl/XuMYSH24",
+        "author": "Heng-Da Xu and Xian-Ling Mao and Puhai Yang and Fanshu Sun and Heyan Huang",
+        "booktitle": "ACL (1)",
+        "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent",
+        "year": "2024",
+        "abstract": "Task-oriented dialogue (TOD) systems are pre-001 dominantly designed to be composed of several 002 functional modules (e.g. dialogue state tracker, 003 dialogue policy, natural language generation) 004 whether they are pipeline or end-to-end archi-005 tectures. However, this modular design not 006 only heavily relies on massive fully-annotated 007 data, but also suffers from many intrinsic draw-008 backs, such as serious error accumulation, poor 009 generalization ability, high customization cost, 010 and low fault tolerance rate. In this paper, we 011 rethink the architecture of the task-oriented di-012 alogue systems and propose a novel fully zero-013 shot autonomous TOD agent, named AutoTOD, 014 where all the delicate modules in traditional 015 TOD systems are deprecated and all it needs 016 is a general-purpose instruction-following lan-017 guage model (e.g. GPT-4). AutoTOD only 018 leverages a simple instruction schema consist-019 ing of the description of tasks and external 020 APIs, and can autonomously decide to what to 021 do at each dialogue turn, including asking for 022 information, calling APIs, summarizing API re-023 sults, and correcting previous mistakes. More-024 over, we propose a simulation-based evalua-025 tion framework to better validate the abilities 026 of TOD models in real-life scenarios. Exten-027 sive experiments conducted on the MultiWOZ 028 and SGD datasets show the superior task com-029 pletion ability and flexible language skills of 030 AutoTOD. 1 031",
+        "keywords": "",
+        "url": "https://doi.org/10.18653/v1/2024.acl-long.152",
+        "doi": "10.18653/v1/2024.acl-long.152",
+        "venue": "ACL",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Cross-domain Text-to-SQL",
+          "Prompting and ICL",
+          "Zero-shot / Few-shot ICL",
+          "Prompt Engineering",
+          "Grounding and Retrieval",
+          "Semantic Layer / Metadata",
+          "Agentic Feedback and Repair",
+          "Agentic Workflow",
+          "Verification and Guardrails",
+          "Security and Access Control",
+          "Benchmarks and Evaluation",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Dialogue Context Tracking",
+          "Grounding",
+          "SQL Generation",
+          "Prompt-based Generation",
+          "Verification & Repair"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation",
+      "venue": "ACL",
+      "year": "2023",
+      "doi": "10.18653/v1/2023.acl-long.17",
+      "url": "https://doi.org/10.18653/v1/2023.acl-long.17",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/acl/RenCG0M023",
+        "author": "Yubing Ren and Yanan Cao 0001 and Ping Guo 0002 and Fang Fang 0009 and Wei Ma and Zheng Lin 0001",
+        "booktitle": "ACL (1)",
+        "title": "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation",
+        "year": "2023",
+        "abstract": "Recent studies have shown the effectiveness of retrieval augmentation in many generative NLP tasks. These retrieval-augmented methods allow models to explicitly acquire prior external knowledge in a non-parametric manner and regard the retrieved reference instances as cues to augment text generation. These methods use similarity-based retrieval, which is based on a simple hypothesis: the more the retrieved demonstration resembles the original input, the more likely the demonstration label resembles the input label. However, due to the complexity of event labels and sparsity of event arguments, this hypothesis does not always hold in document-level EAE. This raises an interesting question: How do we design the retrieval strategy for document-level EAE? We investigate various retrieval settings from the input and label distribution views in this paper. We further augment document-level EAE with pseudo demonstrations sampled from event semantic regions that can cover adequate alternatives in the same context and event schema. Through extensive experiments on RAMS and WikiEvents, we demonstrate the validity of our newly introduced retrieval-augmented methods and analyze why they work.",
+        "keywords": "",
+        "url": "https://doi.org/10.18653/v1/2023.acl-long.17",
+        "doi": "10.18653/v1/2023.acl-long.17",
+        "venue": "ACL",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Prompting and ICL",
+          "Zero-shot / Few-shot ICL",
+          "Grounding and Retrieval",
+          "Schema / Content Retrieval",
+          "Knowledge Graph / External Knowledge",
+          "Benchmarks and Evaluation",
+          "Benchmark"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Grounding",
+          "Context Retrieval"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances",
+      "venue": "KDD",
+      "year": "2022",
+      "doi": "10.1145/3534678.3539385",
+      "url": "https://doi.org/10.1145/3534678.3539385",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/kdd/YangH0M22",
+        "author": "Puhai Yang and Heyan Huang and Wei Wei 0002 and Xian-Ling Mao",
+        "booktitle": "KDD",
+        "title": "Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances",
+        "year": "2022",
+        "abstract": "Recently, the research of dialogue systems has been widely concerned, especially task-oriented dialogue systems, which have received increased attention due to their wide application prospect. As a core component, dialogue state tracking (DST) plays a key role in task-oriented dialogue systems, and its function is to parse natural language dialogues into dialogue state formed by slot-value pairs. It is well known that dialogue state tracking has been well studied and explored on current benchmark datasets such as the MultiWOZ. However, almost all current research completely ignores the user negative feedback utterances that exist in real-life conversations when a system error occurs, which often contains user-provided corrective information for the system error. Obviously, user negative feedback utterances can be used to correct the inevitable errors in automatic speech recognition and model generalization. Thus, in this paper, we will explore the role of negative feedback utterances in dialogue state tracking in detail through simulated negative feedback utterances. Specifically, due to the lack of dataset involving negative feedback utterances, first, we have to define the schema of user negative feedback utterances and propose a joint modeling method for feedback utterance generation and filtering. Then, we explore three aspects of interaction mechanism that should be considered in real-life conversations involving negative feedback utterances and propose evaluation metrics related to negative feedback utterances. Finally, on WOZ2.0 and MultiWOZ2.1 datasets, by constructing simulated negative feedback utterances in training and testing, we not only verify the important role of negative feedback utterances in dialogue state tracking, but also analyze the advantages and disadvantages of different interaction mechanisms involving negative feedback utterances, lighting future research on negative feedback utterances.",
+        "keywords": "",
+        "url": "https://doi.org/10.1145/3534678.3539385",
+        "doi": "10.1145/3534678.3539385",
+        "venue": "KDD",
+        "venue_track": "数据库领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Cross-domain Text-to-SQL",
+          "Pre-training and Fine-tuning",
+          "Supervised Fine-tuning",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Dialogue Context Tracking",
+          "Grounding"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability",
+      "venue": "ICDE",
+      "year": "2025",
+      "doi": "10.1109/ICDE65448.2025.00065",
+      "url": "https://doi.org/10.1109/ICDE65448.2025.00065",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/icde/LuSZZWW25",
+        "author": "Jinwei Lu and Yuanfeng Song and Haodi Zhang and Chen Jason Zhang and Kaishun Wu and Raymond Chi-Wing Wong",
+        "booktitle": "ICDE",
+        "title": "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability",
+        "year": "2025",
+        "abstract": "Text-to-Vis is an emerging task in the data engineering and mining area that aims to automatically generate data visualizations from natural language questions (NLQs). Despite their progress, existing text-to-vis models often heavily rely on lexical matching between words in the questions and tokens in data schemas. This overreliance on lexical matching may lead to a diminished level of model robustness against input variations. In this study, we thoroughly examine the robustness of current text-to-vis models, an area that has not previously been explored. In particular, we construct the first robustness dataset nvBench-Rob, which contains diverse lexical and phrasal variations based on the original text-to-vis benchmark nvBench. Then, we found that the performance of existing text-to-vis models on this new dataset dramatically drops, implying that these methods exhibit inadequate robustness overall. Finally, we propose a novel framework based on Retrieval-Augmented Generation (RAG) technique, named GRED, specifically designed to address input perturbations in these two variants. The framework consists of three parts: NLQ-Retrieval Generator, Visualization Query-Retrieval Retuner and Annotation-based Debugger, which are used to tackle the challenges posed by natural language variants, programming style differences and data schema variants, respectively. Extensive experimental evaluations show that, compared to the state-of-the-art model Prompt4Vis in the Text-to-Vis field, GRED performs better in terms of model robustness, with a 40% increase in accuracy on the proposed nvBench-Rob dataset.",
+        "keywords": "",
+        "url": "https://doi.org/10.1109/ICDE65448.2025.00065",
+        "doi": "10.1109/ICDE65448.2025.00065",
+        "venue": "ICDE",
+        "venue_track": "数据库领域",
+        "labels": [
+          "Grounding and Retrieval",
+          "Schema / Content Retrieval",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Grounding",
+          "Context Retrieval"
+        ],
+        "relevance_level": "irrelevant"
+      }
+    },
+    {
+      "title": "Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset",
+      "venue": "AAAI",
+      "year": "2020",
+      "doi": "10.1609/aaai.v34i05.6394",
+      "url": "https://doi.org/10.1609/aaai.v34i05.6394",
+      "reason": "relevance_level=irrelevant",
+      "entry": {
+        "type": "INPROCEEDINGS",
+        "key": "conf/aaai/RastogiZSGK20",
+        "author": "Abhinav Rastogi and Xiaoxue Zang and Srinivas Sunkara and Raghav Gupta and Pranav Khaitan",
+        "booktitle": "AAAI",
+        "title": "Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset",
+        "year": "2020",
+        "abstract": "Virtual assistants such as Google Assistant, Alexa and Siri provide a conversational interface to a large number of services and APIs spanning multiple domains. Such systems need to support an ever-increasing number of services with possibly overlapping functionality. Furthermore, some of these services have little to no training data available. Existing public datasets for task-oriented dialogue do not sufficiently capture these challenges since they cover few domains and assume a single static ontology per domain. In this work, we introduce the the Schema-Guided Dialogue (SGD) dataset, containing over 16k multi-domain conversations spanning 16 domains. Our dataset exceeds the existing task-oriented dialogue corpora in scale, while also highlighting the challenges associated with building large-scale virtual assistants. It provides a challenging testbed for a number of tasks including language understanding, slot filling, dialogue state tracking and response generation. Along the same lines, we present a schema-guided paradigm for task-oriented dialogue, in which predictions are made over a dynamic set of intents and slots, provided as input, using their natural language descriptions. This allows a single dialogue system to easily support a large number of services and facilitates simple integration of new services without requiring additional training data. Building upon the proposed paradigm, we release a model for dialogue state tracking capable of zero-shot generalization to new APIs, while remaining competitive in the regular setting.",
+        "keywords": "",
+        "url": "https://doi.org/10.1609/aaai.v34i05.6394",
+        "doi": "10.1609/aaai.v34i05.6394",
+        "venue": "AAAI",
+        "venue_track": "AI 领域",
+        "labels": [
+          "Task Setting",
+          "Multi-turn Text-to-SQL",
+          "Cross-domain Text-to-SQL",
+          "Pre-training and Fine-tuning",
+          "Supervised Fine-tuning",
+          "Prompting and ICL",
+          "Zero-shot / Few-shot ICL",
+          "Grounding and Retrieval",
+          "Knowledge Graph / External Knowledge",
+          "Benchmarks and Evaluation",
+          "Benchmark",
+          "Empirical Study"
+        ],
+        "pipeline_stages": [
+          "Task Understanding",
+          "Dialogue Context Tracking",
+          "Grounding",
+          "SQL Generation",
+          "Prompt-based Generation"
         ],
         "relevance_level": "irrelevant"
       }

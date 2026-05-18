@@ -12,6 +12,7 @@ import json
 import re
 import sys
 import time
+import urllib.parse
 from pathlib import Path
 
 from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
@@ -193,6 +194,19 @@ def row_entries(content):
     return entries
 
 
+DOI_RE = re.compile(r"(10\.\d{4,9}/[^\s\"<>]+)", re.I)
+
+
+def normalize_doi(value):
+    value = clean(value)
+    value = re.sub(r"^doi:\s*", "", value, flags=re.I)
+    value = re.sub(r"^https?://(dx\.)?doi\.org/", "", value, flags=re.I)
+    match = DOI_RE.search(value)
+    if not match:
+        return ""
+    return match.group(1).rstrip(".,;:)]}")
+
+
 def pmlr_entries(content):
     entries = []
     blocks = re.findall(r'<div[^>]+class=["\'][^"\']*paper[^"\']*["\'][^>]*>(.*?)</div>', content, flags=re.I | re.S)
@@ -213,20 +227,28 @@ def pmlr_entries(content):
         author_match = re.search(r'<p[^>]+class=["\']details["\'][^>]*>(.*?)</p>', body, flags=re.I | re.S)
         if author_match:
             authors = normalize_authors(author_match.group(1))
-        entries.append((title, authors))
+        href = ""
+        link_match = re.search(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>\s*abs\s*</a>', body, flags=re.I | re.S)
+        if link_match:
+            href = link_match.group(1)
+        entries.append((title, authors, href))
     return entries
 
 
 def link_entries(content):
     entries = []
-    for match in re.finditer(r'<a[^>]+href=["\'][^"\']*(?:paper|papers|proceedings)[^"\']*["\'][^>]*>(.*?)</a>', content, flags=re.I | re.S):
-        title = normalize_title(match.group(1))
+    for match in re.finditer(
+        r'<a[^>]+href=["\']([^"\']*(?:paper|papers|proceedings)[^"\']*)["\'][^>]*>(.*?)</a>',
+        content,
+        flags=re.I | re.S,
+    ):
+        title = normalize_title(match.group(2))
         if not title:
             continue
         if any(skip in title.lower() for skip in ("accepted", "proceedings", "schedule", "program")):
             continue
         tail = content[match.end(): match.end() + 500]
-        entries.append((title, normalize_authors(tail)))
+        entries.append((title, normalize_authors(tail), match.group(1)))
     return entries
 
 
@@ -354,8 +376,9 @@ def kdd_table_entries(content):
                 continue
             title = normalize_title(title_match.group(1))
             authors = normalize_authors(rows[idx + 1]) if idx + 1 < len(rows) else ""
+            doi = normalize_doi(rows[idx])
             if title:
-                entries.append((title, authors))
+                entries.append((title, authors, "", doi))
             idx += 2
     return entries
 
@@ -393,6 +416,14 @@ def kdd_schedule_entries(content):
     return entries
 
 
+def entry_parts(entry):
+    if len(entry) >= 4:
+        return entry[0], entry[1], entry[2], entry[3]
+    if len(entry) >= 3:
+        return entry[0], entry[1], entry[2], ""
+    return entry[0], entry[1], "", ""
+
+
 def researchr_entries(content):
     allowed_tracks = {
         "research track",
@@ -407,12 +438,18 @@ def researchr_entries(content):
         track_match = re.search(r'<div[^>]+class=["\']prog-track["\'][^>]*>(.*?)</div>', row, flags=re.I | re.S)
         if not track_match or clean(track_match.group(1)).lower() not in allowed_tracks:
             continue
-        title_match = re.search(r"<strong>\s*<a[^>]*>(.*?)</a>\s*</strong>", row, flags=re.I | re.S)
-        if not title_match:
-            title_match = re.search(r'<a[^>]+data-event-modal=["\'][^"\']+["\'][^>]*>(.*?)</a>', row, flags=re.I | re.S)
-        if not title_match:
+        link_match = re.search(r"<strong>\s*(<a[^>]*>.*?</a>)\s*</strong>", row, flags=re.I | re.S)
+        if not link_match:
+            link_match = re.search(
+                r'(<a[^>]+data-event-modal=["\'][^"\']+["\'][^>]*>.*?</a>)',
+                row,
+                flags=re.I | re.S,
+            )
+        if not link_match:
             continue
-        title_html = re.sub(r"<span[^>]*>.*?</span>", "", title_match.group(1), flags=re.I | re.S)
+        link_html = link_match.group(1)
+        href_match = re.search(r'href=["\']([^"\']+)["\']', link_html, flags=re.I)
+        title_html = re.sub(r"<span[^>]*>.*?</span>", "", link_html, flags=re.I | re.S)
         title = normalize_title(title_html)
         if not title:
             continue
@@ -425,7 +462,7 @@ def researchr_entries(content):
                 if clean(name)
             ]
             authors = " and ".join(names)
-        entries.append((title, authors))
+        entries.append((title, authors, href_match.group(1) if href_match else ""))
     return entries
 
 
@@ -435,12 +472,16 @@ def virtual_conference_entries(content):
         return []
     entries = []
     for item in re.findall(r"<li[^>]*>(.*?)</li>", match.group(1), flags=re.I | re.S):
-        title_match = re.search(r"<a[^>]+href=[\"'][^\"']*/virtual/20\d{2}/(?:poster|paper)/[^\"']+[\"'][^>]*>(.*?)</a>", item, flags=re.I | re.S)
+        title_match = re.search(
+            r"<a[^>]+href=[\"']([^\"']*/virtual/20\d{2}/(?:poster|paper)/[^\"']+)[\"'][^>]*>(.*?)</a>",
+            item,
+            flags=re.I | re.S,
+        )
         if not title_match:
             continue
-        title = normalize_title(title_match.group(1))
+        title = normalize_title(title_match.group(2))
         if title:
-            entries.append((title, ""))
+            entries.append((title, "", title_match.group(1)))
     return entries
 
 
@@ -496,12 +537,13 @@ def pipe_entries(content):
 def unique_entries(entries):
     seen = set()
     unique = []
-    for title, authors in entries:
+    for entry in entries:
+        title, authors, paper_url, doi = entry_parts(entry)
         key = title.lower()
         if key in seen:
             continue
         seen.add(key)
-        unique.append((title, authors))
+        unique.append((title, authors, paper_url, doi))
     return unique
 
 
@@ -541,7 +583,8 @@ def parse_accepted(content):
     return unique_entries(best)
 
 
-def make_paper(venue, year, url, title, authors):
+def make_paper(venue, year, url, title, authors, paper_url="", doi=""):
+    paper_url = urllib.parse.urljoin(url, paper_url) if paper_url else url
     return {
         "type": "INPROCEEDINGS",
         "key": f"{venue.lower()}-official-{year}-{re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:80]}",
@@ -551,8 +594,8 @@ def make_paper(venue, year, url, title, authors):
         "year": str(year),
         "abstract": "",
         "keywords": "",
-        "url": url,
-        "doi": "",
+        "url": paper_url,
+        "doi": doi,
         "venue": venue,
         "venue_track": VENUE_CATEGORIES.get(venue, ""),
     }
@@ -706,7 +749,10 @@ def main():
                 }
             )
             continue
-        papers = {title: make_paper(venue, year, url, title, authors) for title, authors in entries}
+        papers = {
+            title: make_paper(venue, year, url, title, authors, paper_url, doi)
+            for title, authors, paper_url, doi in entries
+        }
         out_path.parent.mkdir(parents=True, exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(papers, f, indent=2, ensure_ascii=False)

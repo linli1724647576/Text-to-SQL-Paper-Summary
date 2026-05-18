@@ -323,41 +323,6 @@
     ],
     "relevance_level": "core"
   },
-  "A Sequence-to-Sequence Approach to Dialogue State Tracking": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/acl/FengWL20",
-    "author": "Yue Feng 0002 and Yang Wang and Hang Li",
-    "booktitle": "ACL/IJCNLP (1)",
-    "title": "A Sequence-to-Sequence Approach to Dialogue State Tracking",
-    "year": "2021",
-    "abstract": "This paper is concerned with dialogue state tracking (DST) in a task-oriented dialogue system. Building a DST module that is highly effective is still a challenging issue, although significant progresses have been made recently. This paper proposes a new approach to dialogue state tracking, referred to as Seq2Seq-DU, which formalizes DST as a sequence-to-sequence problem. Seq2Seq-DU employs two BERT-based encoders to respectively encode the utterances in the dialogue and the descriptions of schemas, an attender to calculate attentions between the utterance embeddings and the schema embeddings, and a decoder to generate pointers to represent the current state of dialogue. Seq2Seq-DU has the following advantages. It can jointly model intents, slots, and slot values; it can leverage the rich representations of utterances and schemas based on BERT; it can effectively deal with categorical and non-categorical slots, and unseen schemas. In addition, Seq2Seq-DU can also be used in the NLU (natural language understanding) module of a dialogue system. Experimental results on benchmark datasets in different settings (SGD, MultiWOZ2.2, MultiWOZ2.1, WOZ2.0, DSTC2, M2M, SNIPS, and ATIS) show that Seq2Seq-DU outperforms the existing methods.",
-    "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2021.acl-long.135",
-    "doi": "10.18653/v1/2021.acl-long.135",
-    "venue": "ACL",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Pre-training and Fine-tuning",
-      "Pre-training",
-      "Planning and Generation",
-      "Constrained Decoding",
-      "Benchmarks and Evaluation",
-      "Benchmark"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Dialogue Context Tracking",
-      "Grounding",
-      "SQL Generation",
-      "Constrained Decoding"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
-  },
   "A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4412623423",
@@ -618,6 +583,36 @@
     ],
     "relevance_level": "core"
   },
+  "AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries": {
+    "type": "INPROCEEDINGS",
+    "key": "neurips-official-2024-ambrosia-a-benchmark-for-parsing-ambiguous-questions-into-database-queries",
+    "author": "Irina Saparina and Mirella Lapata Datasets and Benchmarks Track <a title=\"paper title\" href=\"/paper_file",
+    "booktitle": "NeurIPS Conference",
+    "title": "AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries",
+    "year": "2024",
+    "abstract": "Practical semantic parsers are expected to understand user utterances and map them to executable programs, even when these are ambiguous. We introduce a new benchmark, AMBROSIA, which we hope will inform and inspire the development of text-to-SQL parsers capable of recognizing and interpreting ambiguous requests. Our dataset contains questions showcasing three different types of ambiguity (scope ambiguity, attachment ambiguity, and vagueness), their interpretations, and corresponding SQL queries. In each case, the ambiguity persists even when the database context is provided. This is achieved through a novel approach that involves controlled generation of databases from scratch. We benchmark various LLMs on AMBROSIA, revealing that even the most advanced models struggle to identify and interpret ambiguity in questions.",
+    "keywords": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/a4c942a8405cc910f0a833d28d2573cc-Abstract-Datasets_and_Benchmarks_Track.html",
+    "doi": "",
+    "venue": "NeurIPS",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Planning and Generation",
+      "Neural-symbolic Parsing",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.16720v1",
@@ -733,19 +728,27 @@
   "Addressing Semantic Blind Spots in Text-to-SQL via Component Pre-generation and AST Matching Rewards": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-addressing-semantic-blind-spots-in-text-to-sql-via-component-pre-generation-and-",
-    "author": "",
+    "author": "Xingyu Ma and Xin Tian and Lingxiang Wu and Xuepeng Wang and Zhilin Zhang and Xueming Tang and Jinqiao Wang",
     "booktitle": "ICML Conference",
     "title": "Addressing Semantic Blind Spots in Text-to-SQL via Component Pre-generation and AST Matching Rewards",
     "year": "2026",
-    "abstract": "",
+    "abstract": "In recent years, significant advancements in large language models have greatly propelled the development of Text-to-SQL tasks. However, due to the token-by-token sequential generation mechanism employed by these models, they encounter a semantic blind spot problem with respect to pending SQL components—the parts of the SQL query yet to be generated. Specifically, language models are unable to effectively utilize the semantic information of these pending SQL components during the generation of the final SQL query, which poses considerable challenges for generating complex SQL statements. To address this issue, we propose a novel thought process based on SQL components pre-generation and design a maximum connected subtree matching reward mechanism leveraging the SQL abstract syntax tree to improve the accuracy of local component generation. Extensive experiments demonstrate that, under comparable model parameter scales, our training approach achieves significant advantages, effectively enhancing the generation of complex SQL queries. Our method attains an execution accuracy EX of 65.78% on the BIRD-dev dataset and achieves state-of-the-art performance on the Spider-syn datasets.",
     "keywords": "",
-    "url": "https://icml.cc/virtual/2026/papers.html",
+    "url": "https://icml.cc/virtual/2026/poster/63484",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "SQL Generation"
@@ -1128,37 +1131,6 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
-  },
-  "An Annotated Corpus of Reference Resolution for Interpreting Common Grounding": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/aaai/UdagawaA20",
-    "author": "Takuma Udagawa and Akiko Aizawa",
-    "booktitle": "AAAI",
-    "title": "An Annotated Corpus of Reference Resolution for Interpreting Common Grounding",
-    "year": "2020",
-    "abstract": "Common grounding is the process of creating, repairing and updating mutual understandings, which is a fundamental aspect of natural language conversation. However, interpreting the process of common grounding is a challenging task, especially under continuous and partially-observable context where complex ambiguity, uncertainty, partial understandings and misunderstandings are introduced. Interpretation becomes even more challenging when we deal with dialogue systems which still have limited capability of natural language understanding and generation. To address this problem, we consider reference resolution as the central subtask of common grounding and propose a new resource to study its intermediate process. Based on a simple and general annotation schema, we collected a total of 40,172 referring expressions in 5,191 dialogues curated from an existing corpus, along with multiple judgements of referent interpretations. We show that our annotation is highly reliable, captures the complexity of common grounding through a natural degree of reasonable disagreements, and allows for more detailed and quantitative analyses of common grounding strategies. Finally, we demonstrate the advantages of our annotation for interpreting, analyzing and improving common grounding in baseline dialogue systems.",
-    "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v34i05.6442",
-    "doi": "10.1609/aaai.v34i05.6442",
-    "venue": "AAAI",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Benchmarks and Evaluation",
-      "Benchmark",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Dialogue Context Tracking",
-      "Grounding",
-      "Context Retrieval"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
   },
   "An Efficient and Effective Evaluator for Text2SQL Models on Unseen and Unlabeled Data": {
     "type": "ARTICLE",
@@ -2005,7 +1977,7 @@
     "booktitle": "ICML Conference",
     "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
     "year": "2026",
-    "abstract": "SQL is central to enterprise data engineering, yet generating fully correct SQL code in a single attempt remains difficult, even for experienced developers and advanced text-to-SQL LLMs, often requiring multiple debugging iterations. We introduce OurBench, the first benchmark for enterprise-level SQL reasoning and debugging. Our benchmark is built on two key innovations: (1) an automated construction workflow that uses reverse engineering to systematically inject realistic bugs into large-scale SQL code, enabling scalable and diverse benchmark generation; and (2) an execution-free evaluation framework tailored to enterprise settings, providing fast, accurate, and resource-efficient assessment. OurBench comprises 469 OurBenchSyn queries featuring syntax errors with explicit error messages, and 516 OurBenchSem queries targeting semantic errors in which the code fails to meet user intent. The queries are highly complex, averaging over 140 lines and featuring deep and wide abstract syntax trees. Evaluation of nearly 30 LLMs reveals a substantial performance gap: the best-performing model, Claude-4-Sonnet, achieves only 36.46 percent accuracy on OurBenchSyn and 32.17 percent on OurBenchSem, while most models score below 20 percent. We further explore four solution strategies, identify key challenges, and outline promising directions for enterprise SQL debugging with LLMs.",
+    "abstract": "SQL is central to enterprise data engineering, yet generating fully correct SQL code in a single attempt remains difficult-even for experienced developers and advanced \\ttsql LLMs-often requiring multiple debugging iterations. We introduce \\textbf{\\ourbench}, the first benchmark for enterprise-level SQL reasoning and debugging. Our benchmark is built upon two key innovations: (1) an \\textbf{automated construction workflow} that employs reverse engineering to systematically inject realistic bugs into large-scale SQL code, enabling scalable and diverse benchmark generation; and (2) an \\textbf{execution-free evaluation framework} tailored for enterprise settings, providing fast, accurate, and resource-efficient assessment. \\ourbench comprises $469$ \\ourbenchsyn queries featuring syntax errors with explicit error messages, and $516$ \\ourbenchsem queries targeting semantic errors where codes fails to meet user intent. The queries are highly complex, averaging over $140$ lines, and featuring deep and wide abstract syntax trees (average width $>11$, depth $>8.7$). Evaluation of nearly $30$ LLMs reveals a substantial performance gap: the best-performing model, Claude-4-Sonnet, achieves only $36.46\\%$ accuracy on \\ourbenchsyn and $32.17\\%$ on \\ourbenchsem, while most models score below $20\\%$. We further explore four solution strategies, identify key challenges, and outline promising directions for enterprise SQL debugging with LLMs.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2601.18119v1",
     "doi": "",
@@ -2467,45 +2439,6 @@
       "application_related"
     ]
   },
-  "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/aaai/MiWL22",
-    "author": "Fei Mi and Yasheng Wang and Yitong Li",
-    "booktitle": "AAAI",
-    "title": "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems",
-    "year": "2022",
-    "abstract": "As the labeling cost for different modules in task-oriented dialog (ToD) systems is high, a major challenge is to learn different tasks with the least amount of labeled data. Recently, pre-trained language models (PLMs) have shown promising results for few-shot learning in ToD. To better utilize the power of PLMs, this paper proposes Comprehensive Instruction (CINS) that exploits PLMs with extra task-specific instructions. We design a schema (definition, constraint, prompt) of instructions and their customized realizations for three important downstream tasks in ToD, ie. intent classification, dialog state tracking, and natural language generation. A sequence-to-sequence model (T5) is adopted to solve these three tasks in a unified framework. Extensive experiments are conducted on these ToD tasks in realistic few-shot learning scenarios with small validation data. Empirical results demonstrate that the proposed CINS approach consistently improves techniques that finetune PLMs with raw input or short prompt.",
-    "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v36i10.21356",
-    "doi": "10.1609/aaai.v36i10.21356",
-    "venue": "AAAI",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Pre-training and Fine-tuning",
-      "Pre-training",
-      "Supervised Fine-tuning",
-      "Prompting and ICL",
-      "Zero-shot / Few-shot ICL",
-      "Prompt Engineering",
-      "Benchmarks and Evaluation",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Intent Detection",
-      "Dialogue Context Tracking",
-      "Domain Constraint Understanding",
-      "Grounding",
-      "SQL Generation",
-      "Prompt-based Generation"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
-  },
   "CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2604.22313v1",
@@ -2725,6 +2658,30 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs": {
+    "type": "INPROCEEDINGS",
+    "key": "neurips-official-2023-can-llm-already-serve-as-a-database-interface-a-big-bench-for-large-scale-databa",
+    "author": "Jinyang Li and Binyuan Hui and Ge Qu and Jiaxi Yang and Binhua Li and Bowen Li and Bailin Wang and Bowen Qin and Ruiying Geng and Nan Huo and Xuanhe Zhou and Ma Chenhao and Guoliang Li and Kevin Chang and Fei Huang and Reynold Cheng and Yongbin Li Datasets and Benchmarks Track",
+    "booktitle": "NeurIPS Conference",
+    "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+    "year": "2023",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023",
+    "doi": "",
+    "venue": "NeurIPS",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering"
     ],
     "pipeline_stages": [
       "SQL Generation"
@@ -3612,33 +3569,37 @@
     ],
     "relevance_level": "core"
   },
-  "Cross-Task Generalization via Natural Language Crowdsourcing Instructions": {
+  "Cypher-RI: Reinforcement Learning for Integrating Schema Selection into Cypher Generation": {
     "type": "INPROCEEDINGS",
-    "key": "conf/acl/MishraKBH22",
-    "author": "Swaroop Mishra and Daniel Khashabi and Chitta Baral and Hannaneh Hajishirzi",
-    "booktitle": "ACL (1)",
-    "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
-    "year": "2022",
-    "abstract": "Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. Despite the success of the conventional supervised learning on individual datasets, such models often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions, and 193k task instances (input-output pairs). The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. Using this meta-dataset, we measure cross-task generalization by training models on seen tasks and measuring generalization to the remaining unseen ones. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks (19% better for models utilizing instructions). These models, however, are far behind an estimated performance upperbound indicating significant room for more progress in this direction.",
+    "key": "neurips-official-2025-cypher-ri-reinforcement-learning-for-integrating-schema-selection-into-cypher-ge",
+    "author": "Hanchen Su and Xuyuan Li and Yan Zhou and zhuoyi lu and Ziwei Chai and Haozheng Wang and Chen Zhang and YANG YANG Main Conference Track",
+    "booktitle": "NeurIPS Conference",
+    "title": "Cypher-RI: Reinforcement Learning for Integrating Schema Selection into Cypher Generation",
+    "year": "2025",
+    "abstract": "The increasing utilization of graph databases across various fields stems from their capacity to represent intricate interconnections. Nonetheless, exploiting the full capabilities of graph databases continues to be a significant hurdle, largely because of the inherent difficulty in translating natural language into Cypher. Recognizing the critical role of schema selection in database query generation and drawing inspiration from recent progress in reasoning-augmented approaches trained through reinforcement learning to enhance inference capabilities and generalization, we introduce Cypher-RI, a specialized framework for the Text-to-Cypher task. Distinct from conventional approaches, our methodology seamlessly integrates schema selection within the Cypher generation pipeline, conceptualizing it as a critical element in the reasoning process. The schema selection mechanism is guided by textual context, with its outcomes recursively shaping subsequent inference processes. Impressively, our 7B-parameter model, trained through this RL paradigm, demonstrates superior performance compared to baselines, exhibiting a 9.41\\% accuracy improvement over GPT-4o on CypherBench. These results underscore the effectiveness of our proposed reinforcement learning framework, which integrates schema selection to enhance both the accuracy and reasoning capabilities in Text-to-Cypher tasks.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2022.acl-long.244",
-    "doi": "10.18653/v1/2022.acl-long.244",
-    "venue": "ACL",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/906727703322b2e33b37c855fc15e8b7-Abstract-Conference.html",
+    "doi": "",
+    "venue": "NeurIPS",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Cross-domain Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
       "Pre-training and Fine-tuning",
-      "Pre-training",
-      "Supervised Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
       "Benchmarks and Evaluation",
-      "Benchmark",
       "Empirical Study"
     ],
     "pipeline_stages": [
+      "Task Understanding",
       "Grounding",
-      "SQL Generation",
-      "Fine-tuned Generation"
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning"
     ],
     "relevance_level": "application",
     "quality_flags": [
@@ -5993,6 +5954,31 @@
     ],
     "relevance_level": "core"
   },
+  "Feature Representation Learning for NL2SQL Generation Based on Coupling and Decoupling": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2306.17646v1",
+    "author": "Chenduo Hao and Xu Zhang and Chuanbao Gao and Deyu Zhou",
+    "booktitle": "arXiv",
+    "title": "Feature Representation Learning for NL2SQL Generation Based on Coupling and Decoupling",
+    "year": "2023",
+    "abstract": "The NL2SQL task involves parsing natural language statements into SQL queries. While most state-of-the-art methods treat NL2SQL as a slot-filling task and use feature representation learning techniques, they overlook explicit correlation features between the SELECT and WHERE clauses and implicit correlation features between sub-tasks within a single clause. To address this issue, we propose the Clause Feature Correlation Decoupling and Coupling (CFCDC) model, which uses a feature representation decoupling method to separate the SELECT and WHERE clauses at the parameter level. Next, we introduce a multi-task learning architecture to decouple implicit correlation feature representation between different SQL tasks in a specific clause. Moreover, we present an improved feature representation coupling module to integrate the decoupled tasks in the SELECT and WHERE clauses and predict the final SQL query. Our proposed CFCDC model demonstrates excellent performance on the WikiSQL dataset, with significant improvements in logic precision and execution accuracy. The source code for the model will be publicly available on GitHub",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2306.17646v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2023-few-shot-text-to-sql-translation-using-structure-and-content-prompt-learning",
@@ -6741,21 +6727,30 @@
   "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-graph-link-bridging-the-semantic-structural-gap-in-text-to-sql-via-constrained-s",
-    "author": "",
+    "author": "Jianwei Zhong and Yijun Mo and Quanxin Liu and Ruida Xu and Yuxi Yang and Ming Chi",
     "booktitle": "ICML Conference",
     "title": "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Schema Linking serves as the foundational perception layer in Text-to-SQL, tasked with grounding natural language queries into relevant schema elements. However, existing retrieval-based approaches suffer from a critical structural blindness : by prioritizing elements with high textual similarity, they inadvertently prune semantically-thin but topologically-critical bridge tables, thereby severing relational pathways necessary for multi-hop joins. To bridge this gap, we propose Graph-Link, a novel framework that reformulates schema linking from an independent retrieval task into a constrained subgraph induction problem. We argue that generating executable SQL necessitates a connected subgraph that satisfies both semantic relevance and structural constraints. Accordingly, Graph-Link employs a hierarchical schema graph to model the search space across multiple granularities, and then applies a Steiner-tree-based optimization for subgraph induction that guarantees the topological connectivity while maximizing the signal-to-noise ratio for downstream LLMs. Extensive experiments on BIRD and Spider 2.0 demonstrate that Graph-Link achieves state-of-the-art schema linking performance, improving recall and hit rates by up to 7.0\\% over competitive baselines, and boosts downstream SQL generation accuracy on complex queries by 13.8\\%.",
     "keywords": "",
-    "url": "https://icml.cc/virtual/2026/papers.html",
+    "url": "https://icml.cc/virtual/2026/poster/62627",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -7936,6 +7931,37 @@
     ],
     "relevance_level": "core"
   },
+  "LeGo-Code: Can Modular Curriculum Learning Advance Complex Code Generation? Insights from Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2604.18254v1",
+    "author": "Salmane Chafik and Saad Ezzini and Ismail Berrada",
+    "booktitle": "arXiv",
+    "title": "LeGo-Code: Can Modular Curriculum Learning Advance Complex Code Generation? Insights from Text-to-SQL",
+    "year": "2026",
+    "abstract": "Recently, code-oriented large language models (LLMs) have demonstrated strong capabilities in translating natural language into executable code. Text-to-SQL is a significant application of this ability, enabling non-technical users to interact with relational databases using natural language. However, state-of-the-art models continue to struggle with highly complex logic, particularly deeply nested statements involving multiple joins and conditions, as well as with real-world database schemas that are noisy or poorly structured. In this paper, we investigate whether curriculum learning can improve the performance of code-based LLMs on Text-to-SQL tasks. Employing benchmarks including Spider and BIRD, we fine-tune models under different curriculum strategies. Our experiments show that naive curriculum, simply ordering training samples by complexity in a single epoch, fails to surpass standard fine-tuning due to catastrophic forgetting. To overcome this, we propose a Modular Adapter Composition (MAC) strategy. By sequentially training tier-specific adapters on incremental complexity levels (Easy to Extra-Hard), we create a scaffolded learning environment that improves performance on complex queries. Our approach not only produces measurable performance gains on the Spider and BIRD benchmarks but also provides a flexible, \"Lego-like\" architecture, allowing models to be composed and deployed based on specific schema difficulty requirements. These findings demonstrate that structured, modular learning is a superior alternative to monolithic fine-tuning for mastering the syntax and logic of complex code generation.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2604.18254v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
   "LeakDojo: Decoding the Leakage Threats of RAG Systems": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.05818v1",
@@ -8007,6 +8033,31 @@
       "Step-by-step Reasoning",
       "SQL Generation",
       "Prompt-based Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/0002GWQLD23",
+    "author": "Yongrui Chen 0002 and Xinnan Guo and Tongtong Wu and Guilin Qi and Yang Li and Yang Dong",
+    "booktitle": "AAAI",
+    "title": "Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams",
+    "year": "2023",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v37i11.26492",
+    "doi": "10.1609/aaai.v37i11.26492",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
       "Fine-tuned Generation"
     ],
     "relevance_level": "core"
@@ -8399,6 +8450,8 @@
       "Reinforcement Learning",
       "Prompting and ICL",
       "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
       "Agentic Feedback and Repair",
       "Agentic Workflow",
       "Tool Use and Execution Guidance",
@@ -8416,7 +8469,8 @@
       "SQL Generation",
       "Verification & Repair",
       "Execution Feedback",
-      "Self-correction"
+      "Self-correction",
+      "Schema Linking"
     ],
     "relevance_level": "core"
   },
@@ -8627,6 +8681,42 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2509.23459v2",
+    "author": "Sepideh Abedini and Shubhankar Mohapatra and D. B. Emerson and Masoumeh Shafieinejad and Jesse C. Cresswell and Xi He",
+    "booktitle": "arXiv",
+    "title": "MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction",
+    "year": "2025",
+    "abstract": "Large language models (LLMs) have shown promising performance on tasks that require reasoning, such as text-to-SQL, code generation, and debugging. However, regulatory frameworks with strict privacy requirements constrain their integration into sensitive systems. State-of-the-art LLMs are also proprietary, costly, and resource-intensive, making local deployment impractical. Consequently, utilizing such LLMs often requires sharing data with third-party providers, raising privacy concerns and risking noncompliance with regulations. Although fine-tuned small language models (SLMs) can outperform LLMs on certain tasks and be deployed locally to mitigate privacy concerns, they underperform on more complex tasks such as text-to-SQL translation. In this work, we introduce MaskSQL, a text-to-SQL framework that utilizes abstraction as a privacy protection mechanism to mask sensitive information in LLM prompts. Unlike redaction, which removes content entirely, or generalization, which broadens tokens, abstraction retains essential information while discarding unnecessary details, striking an effective privacy-utility balance for the text-to-SQL task. Moreover, by providing mechanisms to control the privacy-utility tradeoff, MaskSQL facilitates adoption across a broader range of use cases. Our experimental results show that MaskSQL outperforms leading SLM-based text-to-SQL models and achieves performance approaching state-of-the-art LLM-based models, while preserving privacy.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2509.23459v2",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
   },
   "Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL": {
     "type": "ARTICLE",
@@ -11173,48 +11263,6 @@
     ],
     "relevance_level": "core"
   },
-  "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/acl/XuMYSH24",
-    "author": "Heng-Da Xu and Xian-Ling Mao and Puhai Yang and Fanshu Sun and Heyan Huang",
-    "booktitle": "ACL (1)",
-    "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent",
-    "year": "2024",
-    "abstract": "Task-oriented dialogue (TOD) systems are pre-001 dominantly designed to be composed of several 002 functional modules (e.g. dialogue state tracker, 003 dialogue policy, natural language generation) 004 whether they are pipeline or end-to-end archi-005 tectures. However, this modular design not 006 only heavily relies on massive fully-annotated 007 data, but also suffers from many intrinsic draw-008 backs, such as serious error accumulation, poor 009 generalization ability, high customization cost, 010 and low fault tolerance rate. In this paper, we 011 rethink the architecture of the task-oriented di-012 alogue systems and propose a novel fully zero-013 shot autonomous TOD agent, named AutoTOD, 014 where all the delicate modules in traditional 015 TOD systems are deprecated and all it needs 016 is a general-purpose instruction-following lan-017 guage model (e.g. GPT-4). AutoTOD only 018 leverages a simple instruction schema consist-019 ing of the description of tasks and external 020 APIs, and can autonomously decide to what to 021 do at each dialogue turn, including asking for 022 information, calling APIs, summarizing API re-023 sults, and correcting previous mistakes. More-024 over, we propose a simulation-based evalua-025 tion framework to better validate the abilities 026 of TOD models in real-life scenarios. Exten-027 sive experiments conducted on the MultiWOZ 028 and SGD datasets show the superior task com-029 pletion ability and flexible language skills of 030 AutoTOD. 1 031",
-    "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2024.acl-long.152",
-    "doi": "10.18653/v1/2024.acl-long.152",
-    "venue": "ACL",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Cross-domain Text-to-SQL",
-      "Prompting and ICL",
-      "Zero-shot / Few-shot ICL",
-      "Prompt Engineering",
-      "Grounding and Retrieval",
-      "Semantic Layer / Metadata",
-      "Agentic Feedback and Repair",
-      "Agentic Workflow",
-      "Verification and Guardrails",
-      "Security and Access Control",
-      "Benchmarks and Evaluation",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Dialogue Context Tracking",
-      "Grounding",
-      "SQL Generation",
-      "Prompt-based Generation",
-      "Verification & Repair"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
-  },
   "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2510.26495v2",
@@ -11313,38 +11361,6 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
-  },
-  "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/acl/RenCG0M023",
-    "author": "Yubing Ren and Yanan Cao 0001 and Ping Guo 0002 and Fang Fang 0009 and Wei Ma and Zheng Lin 0001",
-    "booktitle": "ACL (1)",
-    "title": "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation",
-    "year": "2023",
-    "abstract": "Recent studies have shown the effectiveness of retrieval augmentation in many generative NLP tasks. These retrieval-augmented methods allow models to explicitly acquire prior external knowledge in a non-parametric manner and regard the retrieved reference instances as cues to augment text generation. These methods use similarity-based retrieval, which is based on a simple hypothesis: the more the retrieved demonstration resembles the original input, the more likely the demonstration label resembles the input label. However, due to the complexity of event labels and sparsity of event arguments, this hypothesis does not always hold in document-level EAE. This raises an interesting question: How do we design the retrieval strategy for document-level EAE? We investigate various retrieval settings from the input and label distribution views in this paper. We further augment document-level EAE with pseudo demonstrations sampled from event semantic regions that can cover adequate alternatives in the same context and event schema. Through extensive experiments on RAMS and WikiEvents, we demonstrate the validity of our newly introduced retrieval-augmented methods and analyze why they work.",
-    "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2023.acl-long.17",
-    "doi": "10.18653/v1/2023.acl-long.17",
-    "venue": "ACL",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Prompting and ICL",
-      "Zero-shot / Few-shot ICL",
-      "Grounding and Retrieval",
-      "Schema / Content Retrieval",
-      "Knowledge Graph / External Knowledge",
-      "Benchmarks and Evaluation",
-      "Benchmark"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Grounding",
-      "Context Retrieval"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
   },
   "Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News": {
     "type": "ARTICLE",
@@ -11538,6 +11554,48 @@
       "Prompt-based Generation",
       "Fine-tuned Generation",
       "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
+  "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.03720v1",
+    "author": "Le Zhou and Feng Yao and Fengcai Qiao and Bo Xu and Fangyuan Wang and Boyan Xu",
+    "booktitle": "arXiv",
+    "title": "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL",
+    "year": "2026",
+    "abstract": "Recent advances in Large Reasoning Models (LRMs) trained with Long Chain-of-Thought have demonstrated remarkable capabilities in code generation and mathematical reasoning. However, their potential in multi-turn Text-to-SQL tasks remains largely underexplored. Existing approaches typically rely on unstable API-based inference or require expensive fine-tuning on small-scale models. In this work, we present Rose-SQL, a training-free framework that leverages small-scale LRMs through in-context learning to enable accurate context-dependent parsing. We introduce the Role-State, a fine-grained representation that bridges the structural gap between schema linking and SQL generation by serving as a structural blueprint. To handle conversational dependencies, Rose-SQL traces the evolution of Role-State through historical context via structural isomorphism checks, guiding the model to infer the possible SQL composition for the current question through verified interaction trajectories. Experiments on the SParC and CoSQL benchmarks show that, within the Qwen3 series, Rose-SQL outperforms in-context learning baselines at the 4B scale and substantially surpasses state-of-the-art fine-tuned models at the 8B and 14B scales, while showing consistent gains on additional reasoning backbones.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.03720v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Dialogue Context Tracking",
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Fine-tuned Generation"
     ],
     "relevance_level": "core"
   },
@@ -12338,7 +12396,11 @@
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "SQL Generation"
@@ -12585,6 +12647,46 @@
     ],
     "pipeline_stages": [
       "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications": {
+    "type": "INPROCEEDINGS",
+    "key": "neurips-official-2025-swe-sql-illuminating-llm-pathways-to-solve-user-sql-issues-in-real-world-applica",
+    "author": "Jinyang Li and Xiaolong Li and Ge Qu and Per Jacobsson and Bowen Qin and Binyuan Hui and Shuzheng Si and Nan Huo and Xiaohan Xu and Yue Zhang and Ziwei Tang and Yuanshuai Li and Florensia Widjaja and Xintong Zhu and Feige Zhou and Yongfeng Huang and Yannis Papakonstantinou and Fatma Ozcan and Ma Chenhao and Reynold Cheng Main Conference Track",
+    "booktitle": "NeurIPS Conference",
+    "title": "SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications",
+    "year": "2025",
+    "abstract": "Resolution of complex SQL issues persists as a significant bottleneck in real-world database applications. Current Large Language Models (LLMs), while adept at text-to-SQL translation, have not been rigorously evaluated on the more challenging task of debugging on SQL issues. In order to address this gap, we introduce BIRD-CRITIC , a new SQL issue debugging benchmark comprising 530 carefully curated PostgreSQL tasks ( BIRD-CRITIC-PG ) and 570 multi-dialect tasks ( BIRD-CRITIC-Multi ), which are distilled from authentic user issues and replayed within new environments to facilitate rigorous and contamination-free evaluation. Baseline evaluations on BIRD-CRITIC underscore the task's complexity, with the leading reasoning model O3-Mini achieving only 38.87% success rate on BIRD-CRITIC-PG and 33.33% on BIRD-CRITIC-Multi . Meanwhile, realizing open-source models for database tasks is crucial which can empower local development while safeguarding data privacy. Therefore, we present Six-Gym ( S ql-f IX -Gym), a training environment for elevating the capabilities of open-source models specifically for SQL issue debugging. This environment leverages SQL-Rewind strategy, which automatically generates executable issue-solution datasets by reverse-engineering issues from verified SQLs. However, popular trajectory-based fine-tuning methods do not explore substantial supervisory signals. We further propose f -Plan Boosting, which extracts high-level debugging plans automatically from SQL solutions, enabling the teacher LLMs to harvest and produce 73.7% more successful trajectories for training. We integrate these components into an open-source agent, BIRD-Fixer . Based on Qwen-2.5-Coder-14B, BIRD-Fixer raises its success rate to 38.11% on BIRD-CRITIC-PG and 29.65% on BIRD-CRITIC-Multi , surpassing many leading proprietary models such as Claude-3.7-Sonnet and GPT-4.1, marking a significant step toward democratizing sophisticated SQL-debugging capabilities for both research and industry.",
+    "keywords": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8bfbf4ec87e1e331f0b1adc483b53b6b-Abstract-Conference.html",
+    "doi": "",
+    "venue": "NeurIPS",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Dialect Adaptation"
     ],
     "relevance_level": "core"
   },
@@ -13072,10 +13174,7 @@
       "Context Retrieval",
       "SQL Generation"
     ],
-    "relevance_level": "core",
-    "quality_flags": [
-      "application_related"
-    ]
+    "relevance_level": "core"
   },
   "Sparks of Tabular Reasoning via Text2SQL Reinforcement Learning": {
     "type": "ARTICLE",
@@ -14395,6 +14494,42 @@
     ],
     "relevance_level": "core"
   },
+  "ToolSQL: A Tool-Assisted Agent for SQL Verification and Refinement": {
+    "type": "INPROCEEDINGS",
+    "key": "kdd-official-2025-toolsql-a-tool-assisted-agent-for-sql-verification-and-refinement",
+    "author": "Zhongyuan Wang and Richong Zhang and Zhijie Nie and Jaein Kim",
+    "booktitle": "KDD Conference",
+    "title": "ToolSQL: A Tool-Assisted Agent for SQL Verification and Refinement",
+    "year": "2025",
+    "abstract": "Recent Text-to-SQL methods leverage large language models (LLMs) by incorporating feedback from the database management system. While these methods effectively address execution errors in SQL queries, they struggle with database mismatches--errors that do not trigger execution exceptions. Database mismatches include issues such as condition mismatches and stricter constraint mismatches, both of which are more prevalent in real-world scenarios. To address these challenges, we propose a tool-assisted agent framework for SQL verification and refinement, equipping the LLM-based agent with two specialized tools: a retriever and a detector, designed to diagnose and correct SQL queries with database mismatches. These tools enhance the capability of LLMs to handle real-world questions more effectively. We also introduce SpiderMismatch, a new dataset specifically constructed to reflect the condition mismatch problems encountered in real-world scenarios. Empirical studies demonstrate the effectiveness of our proposed model on Spider and Spider-Realistic datasets in few-shot settings and confirm that our model outperforms baseline methods on SpiderMismatch.",
+    "keywords": "",
+    "url": "https://kdd2025.kdd.org/research-track-papers/",
+    "doi": "10.1145/3711896.3737159",
+    "venue": "KDD",
+    "venue_track": "数据库领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Domain Constraint Understanding",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
   "Toward Multi-Database Query Reasoning for Text2Cypher": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.10373v1",
@@ -14428,39 +14563,6 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
-  },
-  "Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/kdd/YangH0M22",
-    "author": "Puhai Yang and Heyan Huang and Wei Wei 0002 and Xian-Ling Mao",
-    "booktitle": "KDD",
-    "title": "Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances",
-    "year": "2022",
-    "abstract": "Recently, the research of dialogue systems has been widely concerned, especially task-oriented dialogue systems, which have received increased attention due to their wide application prospect. As a core component, dialogue state tracking (DST) plays a key role in task-oriented dialogue systems, and its function is to parse natural language dialogues into dialogue state formed by slot-value pairs. It is well known that dialogue state tracking has been well studied and explored on current benchmark datasets such as the MultiWOZ. However, almost all current research completely ignores the user negative feedback utterances that exist in real-life conversations when a system error occurs, which often contains user-provided corrective information for the system error. Obviously, user negative feedback utterances can be used to correct the inevitable errors in automatic speech recognition and model generalization. Thus, in this paper, we will explore the role of negative feedback utterances in dialogue state tracking in detail through simulated negative feedback utterances. Specifically, due to the lack of dataset involving negative feedback utterances, first, we have to define the schema of user negative feedback utterances and propose a joint modeling method for feedback utterance generation and filtering. Then, we explore three aspects of interaction mechanism that should be considered in real-life conversations involving negative feedback utterances and propose evaluation metrics related to negative feedback utterances. Finally, on WOZ2.0 and MultiWOZ2.1 datasets, by constructing simulated negative feedback utterances in training and testing, we not only verify the important role of negative feedback utterances in dialogue state tracking, but also analyze the advantages and disadvantages of different interaction mechanisms involving negative feedback utterances, lighting future research on negative feedback utterances.",
-    "keywords": "",
-    "url": "https://doi.org/10.1145/3534678.3539385",
-    "doi": "10.1145/3534678.3539385",
-    "venue": "KDD",
-    "venue_track": "数据库领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Cross-domain Text-to-SQL",
-      "Pre-training and Fine-tuning",
-      "Supervised Fine-tuning",
-      "Benchmarks and Evaluation",
-      "Benchmark",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Dialogue Context Tracking",
-      "Grounding"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
   },
   "Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned": {
     "type": "ARTICLE",
@@ -14720,74 +14822,6 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
-  },
-  "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/icde/LuSZZWW25",
-    "author": "Jinwei Lu and Yuanfeng Song and Haodi Zhang and Chen Jason Zhang and Kaishun Wu and Raymond Chi-Wing Wong",
-    "booktitle": "ICDE",
-    "title": "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability",
-    "year": "2025",
-    "abstract": "Text-to-Vis is an emerging task in the data engineering and mining area that aims to automatically generate data visualizations from natural language questions (NLQs). Despite their progress, existing text-to-vis models often heavily rely on lexical matching between words in the questions and tokens in data schemas. This overreliance on lexical matching may lead to a diminished level of model robustness against input variations. In this study, we thoroughly examine the robustness of current text-to-vis models, an area that has not previously been explored. In particular, we construct the first robustness dataset nvBench-Rob, which contains diverse lexical and phrasal variations based on the original text-to-vis benchmark nvBench. Then, we found that the performance of existing text-to-vis models on this new dataset dramatically drops, implying that these methods exhibit inadequate robustness overall. Finally, we propose a novel framework based on Retrieval-Augmented Generation (RAG) technique, named GRED, specifically designed to address input perturbations in these two variants. The framework consists of three parts: NLQ-Retrieval Generator, Visualization Query-Retrieval Retuner and Annotation-based Debugger, which are used to tackle the challenges posed by natural language variants, programming style differences and data schema variants, respectively. Extensive experimental evaluations show that, compared to the state-of-the-art model Prompt4Vis in the Text-to-Vis field, GRED performs better in terms of model robustness, with a 40% increase in accuracy on the proposed nvBench-Rob dataset.",
-    "keywords": "",
-    "url": "https://doi.org/10.1109/ICDE65448.2025.00065",
-    "doi": "10.1109/ICDE65448.2025.00065",
-    "venue": "ICDE",
-    "venue_track": "数据库领域",
-    "labels": [
-      "Grounding and Retrieval",
-      "Schema / Content Retrieval",
-      "Benchmarks and Evaluation",
-      "Benchmark",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Grounding",
-      "Context Retrieval"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
-  },
-  "Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset": {
-    "type": "INPROCEEDINGS",
-    "key": "conf/aaai/RastogiZSGK20",
-    "author": "Abhinav Rastogi and Xiaoxue Zang and Srinivas Sunkara and Raghav Gupta and Pranav Khaitan",
-    "booktitle": "AAAI",
-    "title": "Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset",
-    "year": "2020",
-    "abstract": "Virtual assistants such as Google Assistant, Alexa and Siri provide a conversational interface to a large number of services and APIs spanning multiple domains. Such systems need to support an ever-increasing number of services with possibly overlapping functionality. Furthermore, some of these services have little to no training data available. Existing public datasets for task-oriented dialogue do not sufficiently capture these challenges since they cover few domains and assume a single static ontology per domain. In this work, we introduce the the Schema-Guided Dialogue (SGD) dataset, containing over 16k multi-domain conversations spanning 16 domains. Our dataset exceeds the existing task-oriented dialogue corpora in scale, while also highlighting the challenges associated with building large-scale virtual assistants. It provides a challenging testbed for a number of tasks including language understanding, slot filling, dialogue state tracking and response generation. Along the same lines, we present a schema-guided paradigm for task-oriented dialogue, in which predictions are made over a dynamic set of intents and slots, provided as input, using their natural language descriptions. This allows a single dialogue system to easily support a large number of services and facilitates simple integration of new services without requiring additional training data. Building upon the proposed paradigm, we release a model for dialogue state tracking capable of zero-shot generalization to new APIs, while remaining competitive in the regular setting.",
-    "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v34i05.6394",
-    "doi": "10.1609/aaai.v34i05.6394",
-    "venue": "AAAI",
-    "venue_track": "AI 领域",
-    "labels": [
-      "Task Setting",
-      "Multi-turn Text-to-SQL",
-      "Cross-domain Text-to-SQL",
-      "Pre-training and Fine-tuning",
-      "Supervised Fine-tuning",
-      "Prompting and ICL",
-      "Zero-shot / Few-shot ICL",
-      "Grounding and Retrieval",
-      "Knowledge Graph / External Knowledge",
-      "Benchmarks and Evaluation",
-      "Benchmark",
-      "Empirical Study"
-    ],
-    "pipeline_stages": [
-      "Task Understanding",
-      "Dialogue Context Tracking",
-      "Grounding",
-      "SQL Generation",
-      "Prompt-based Generation"
-    ],
-    "relevance_level": "application",
-    "quality_flags": [
-      "application_related"
-    ]
   },
   "Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL": {
     "type": "ARTICLE",
@@ -15350,6 +15384,74 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2509.05899v1",
+    "author": "Dazhi Peng",
+    "booktitle": "arXiv",
+    "title": "X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs",
+    "year": "2025",
+    "abstract": "With Large Language Models' (LLMs) emergent abilities on code generation tasks, Text-to-SQL has become one of the most popular downstream applications. Despite the strong results of multiple recent LLM-based Text-to-SQL frameworks, the research community often overlooks the importance of database schema information for generating high-quality SQL queries. We find that such schema information plays a significant or even dominant role in the Text-to-SQL task. To tackle this challenge, we propose a novel database schema expert with two components. We first introduce X-Linking, an LLM Supervised Finetuning (SFT)-based method that achieves superior Schema Linking results compared to existing open-source Text-to-SQL methods. In addition, we innovatively propose an X-Admin component that focuses on Schema Understanding by bridging the gap between abstract schema information and the user's natural language question. Aside from better learning with schema information, we experiment with Multi-LLMs for different components within the system to further boost its performance. By incorporating these techniques into our end-to-end framework, X-SQL, we have achieved Execution Accuracies of 84.9% on the Spider-Dev dataset and 82.5% on the Spider-Test dataset. This outstanding performance establishes X-SQL as the leading Text-to-SQL framework based on open-source models.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2509.05899v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Schema Linking",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125803306",
+    "author": "Yifu Liu and Yin Zhu and Yingqi Gao and Zhiling Luo and Xiaoxia Li and Xiaorong Shi and Yuntao Hong and Jinyang Gao and Yu Li and Bolin Ding and Jingren Zhou",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+    "year": "2026",
+    "abstract": "To leverage the advantages of LLM in addressing challenges in the Text-to-SQL task, we present XiYan-SQL, an innovative framework effectively generating and utilizing multiple SQL candidates. It consists of three components: 1) a Schema Filter module filtering and obtaining multiple relevant schemas; 2) a multi-generator ensemble approach generating multiple high-quality and diverse SQL queries; 3) a selection model with a candidate reorganization strategy implemented to obtain the optimal SQL query. Specifically, for the multi-generator ensemble, we employ a multi-task fine-tuning strategy to enhance the capabilities of SQL generation models for the intrinsic alignment between SQL and text, and construct multiple generation models with distinct generation styles by fine-tuning across different SQL formats. The experimental results and comprehensive analysis demonstrate the effectiveness and robustness of our framework. Overall, XiYan-SQL achieves a new SOTA performance of 75.63% on the notable BIRD benchmark, surpassing all previous methods. It also attains SOTA performance on the Spider test set with an accuracy of 89.65%.",
+    "keywords": "Computer science, SQL, Robustness (evolution), Leverage (statistics), Data mining, Data modeling, Schema (genetic algorithms), Filter (signal processing), Set (abstract data type), PL/SQL, Relational database, Language Integrated Query, Artificial intelligence, Construct (python library), Scalability, Stored procedure, Data manipulation language, Nested set model, Database, Data structure, Machine learning, SQL/PSM, Database schema, Boosting (machine learning)",
+    "url": "https://doi.org/10.1109/tkde.2026.3657851",
+    "doi": "https://doi.org/10.1109/tkde.2026.3657851",
+    "venue": "TKDE",
+    "venue_track": "数据库领域",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "openalex_id": "https://openalex.org/W7125803306",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
   },
   "Xinyu: An Efficient LLM-based System for Commentary Generation": {
     "type": "INPROCEEDINGS",

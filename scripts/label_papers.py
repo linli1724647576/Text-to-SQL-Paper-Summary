@@ -20,7 +20,7 @@ from taxonomy import LLM_TERMS, PIPELINE_TAXONOMY, TOPIC_TAXONOMY, normalize_top
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-RELEVANCE_POLICY_VERSION = "2026-05-16-topic-source-v4"
+RELEVANCE_POLICY_VERSION = "2026-05-18-ccf-source-v5"
 
 
 def norm(text):
@@ -193,15 +193,20 @@ def relevance_level(title, abstract, keywords=""):
     direct_in_title = contains_any(title_text, DIRECT_TEXT2SQL_TERMS)
     direct_in_primary = contains_any(primary_text, DIRECT_TEXT2SQL_TERMS)
     sql_generation = contains_any(primary_text, SQL_GENERATION_TERMS)
-    structured_database = contains_any(primary_text, SQL_DATABASE_TERMS)
-    strong_database = contains_any(primary_text, STRONG_SQL_DATABASE_TERMS)
+    sql_or_database = contains_any(
+        primary_text,
+        ["sql", "database", "databases", "relational database", "relational databases"],
+    )
+    schema_or_table = contains_any(primary_text, ["schema", "schemas", "table", "tables"])
+    structured_database = sql_or_database or (schema_or_table and contains_any(primary_text, ["query", "queries"]))
+    strong_database = sql_or_database or (contains_any(primary_text, ["schema", "schemas"]) and sql_or_database)
     natural_language = contains_any(primary_text, NATURAL_LANGUAGE_SQL_TERMS)
     semantic_sql = "semantic parsing" in primary_text and "sql" in primary_text
     boundary_application = contains_any(primary_text, APPLICATION_BOUNDARY_TERMS)
 
     if not direct_in_title and contains_any(primary_text, NON_TEXT2SQL_DOMAIN_TERMS):
         return "irrelevant"
-    if task_list_only_text2sql_mention(primary_text):
+    if not direct_in_title and task_list_only_text2sql_mention(primary_text):
         return "irrelevant"
     if not direct_in_title and contains_any(primary_text, CODE_ONLY_TERMS) and not contains_any(primary_text, SQL_GENERATION_TERMS):
         return "irrelevant"

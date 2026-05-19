@@ -426,11 +426,11 @@
       "notes": ""
     },
     {
-      "title": "Learning to Self-Evolve",
+      "title": "LeakDojo: Decoding the Leakage Threats of RAG Systems",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -439,12 +439,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.18620v1"
+        "https://arxiv.org/abs/2605.05818v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning",
+      "title": "Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -457,7 +457,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.09693v1"
+        "https://arxiv.org/abs/2601.08838v1"
       ],
       "notes": "missing doi"
     },
@@ -480,7 +480,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SQL-of-Thought: Multi-agentic Text-to-SQL with Guided Error Correction",
+      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -493,12 +493,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.00581v2"
+        "https://arxiv.org/abs/2508.07087v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System",
+      "title": "Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -506,17 +506,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.07449v1"
+        "https://arxiv.org/abs/2208.04415v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Text2SQL is Not Enough: Unifying AI and Databases with TAG",
+      "title": "Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -524,12 +524,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2024",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2408.14717v1"
+        "https://arxiv.org/abs/2511.21402v1"
       ],
       "notes": "missing doi"
     },
@@ -552,7 +552,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "FINER-SQL: Boosting Small Language Models for Text-to-SQL",
+      "title": "FINCH: Financial Intelligence using Natural language for Contextualized SQL Handling",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -560,12 +560,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.03465v1"
+        "https://arxiv.org/abs/2510.01887v1"
       ],
       "notes": "missing doi"
     },
@@ -703,25 +703,7 @@
       "notes": ""
     },
     {
-      "title": "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2603.10697v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models",
+      "title": "Every Step Counts: Step-Level Credit Assignment for Tool-Integrated Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -729,32 +711,51 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.09403v3"
+        "https://arxiv.org/abs/2605.04719v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "STaR-SQL: Self-Taught Reasoner for Text-to-SQL",
+      "title": "Collaborative bug finding for Android apps",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2025",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ICSE",
+      "normalized_venue": "ICSE",
+      "category": "软件工程",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2025.aclweb.org/program/main_papers/"
+        "10.1145/3377811.3380349",
+        "https://doi.org/10.1145/3377811.3380349"
       ],
-      "notes": "missing doi, abstract"
+      "notes": ""
+    },
+    {
+      "title": "ST-Raptor: An Agentic System for Semi-Structured Table QA",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2602.07034v1"
+      ],
+      "notes": "missing doi"
     }
   ]
 }

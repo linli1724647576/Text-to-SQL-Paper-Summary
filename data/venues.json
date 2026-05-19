@@ -81,7 +81,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/AAAI2022.json",
-          "sha256": "c58b7c02e98d99da31e5b3d95f8620cac220563a8db7381344525db0df147607"
+          "sha256": "04c71ca16bb3a1035ff9a0efa74b67de0b2d5dfc9c869d875098782b65d03f3e"
         }
       ],
       "processing": {
@@ -233,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AAAI2026.json",
-          "sha256": "c5dad91d25131642a11632b027a503546befcf1391c08683d341472dfa233845"
+          "sha256": "e52dfdd57418f97faeaf60d27c36d4ae777522c660da214a029ba69b0635ea43"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "c257521ea25cedefcb645166f45c5719c071da85d3b30cce659cc715e725f182"
+          "sha256": "772340463d1d1a6fd7382b36246f314f252f729837a227ad92cd284788d2506c"
         }
       ],
       "processing": {
@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "f3d35a578207bab3d5a5374db93c7a92214fd85f9c22a1aa26291c7a469dd6fd"
+          "sha256": "f50228a0e5dbf6815e48bb6cacb4ad0d9376cf8d3bb0357d32679d0bff8e3f4f"
         }
       ],
       "processing": {
@@ -1271,7 +1271,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/CVPR2026-accepted.json",
-          "sha256": "1c1e1e4ee1b77a303205bd745adcc7fa44ea5e3fe889715ed11a1763d0d11ce3"
+          "sha256": "dc608cb59425937091edaac384b5d483b2cfc236c1af4aaf8a480532e5e6a077"
         }
       ],
       "processing": {
@@ -3255,7 +3255,7 @@
         },
         {
           "path": "data/rawdata/2020/NeurIPS2020.json",
-          "sha256": "8203f7a9a182eff5be62c2fac492a0c8fded1c0a1a919d6f89b7d9d77b086d5c"
+          "sha256": "10a23650abe386d58672aa585778d55da22b100ff3c60661183b3de323a0602e"
         }
       ],
       "processing": {
@@ -3297,7 +3297,7 @@
         },
         {
           "path": "data/rawdata/2021/NeurIPS2021.json",
-          "sha256": "27055492c83fa1e979450ab2b77ea7ed2fb7c189b4e2520e3a8312f24d8fc613"
+          "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6"
         }
       ],
       "processing": {

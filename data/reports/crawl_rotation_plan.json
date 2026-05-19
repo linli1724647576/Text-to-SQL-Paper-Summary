@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 3,
-  "cursor_before": 2,
+  "cursor_after": 4,
+  "cursor_before": 3,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "ACL"
+    "CVPR"
   ],
   "retry_venues": [
     "NeurIPS"
   ],
-  "selected_at": "2026-05-18T18:53:52Z",
+  "selected_at": "2026-05-19T19:02:41Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "NeurIPS",
-    "ACL"
+    "CVPR"
   ],
-  "venues_csv": "NeurIPS,ACL",
+  "venues_csv": "NeurIPS,CVPR",
   "version": 1
 }

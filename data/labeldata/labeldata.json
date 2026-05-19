@@ -1698,6 +1698,41 @@
       "application_related"
     ]
   },
+  "BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.17937v1",
+    "author": "Zhensheng Wang and Wenmian Yang and Qingtai Wu and Lequan Ma and Yiquan Zhang and Weijia Jia",
+    "booktitle": "arXiv",
+    "title": "BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting",
+    "year": "2026",
+    "abstract": "Quantitative backtesting is essential for evaluating trading strategies but remains hampered by high technical barriers and limited scalability. While Large Language Models (LLMs) offer a transformative path to automate this complex, interdisciplinary workflow through advanced code generation, tool usage, and agentic planning, the practical realization is significantly challenged by the current lack of a large-scale benchmark dedicated to automated quantitative backtesting, which hinders progress in this field. To bridge this critical gap, we introduce BacktestBench, the first large-scale benchmark for automated quantitative backtesting. Built from over 6 million real market records, it comprises 18,246 meticulously annotated question-answering pairs across four task categories: metrics calculation, ticker selection, strategy selection, and parameter confirmation. We also propose AutoBacktest, a robust multi-agent baseline that translates natural language strategies into reproducible backtests by coordinating a Summarizer for semantic factor extraction, a Retriever for validated SQL generation, and a Coder for Python backtesting implementation. Our evaluation on 23 mainstream LLMs, complemented by targeted ablations, identifies key factors that influence end-to-end performance and highlights the importance of grounded verification and standardized indicator representations.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.17937v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "SQL Generation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Balancing Content Size in RAG-Text2SQL System": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2502.15723v3",
@@ -7727,6 +7762,40 @@
       "application_related"
     ]
   },
+  "LARGER: Lexically Anchored Repository Graph Exploration and Retrieval": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.16352v1",
+    "author": "Yuntong Hu and Tongli Su and Liang Zhao and Bowen Zhu and Hasibul Haque",
+    "booktitle": "arXiv",
+    "title": "LARGER: Lexically Anchored Repository Graph Exploration and Retrieval",
+    "year": "2026",
+    "abstract": "Repository-level coding agents must first localize the files and symbols relevant to a task; failures at this stage can cascade across downstream objectives ranging from patch generation to test writing and codebase question answering. Existing agents navigate repositories primarily through lexical search, often missing structural relations such as imports, call chains, type hierarchies, and code-test links. Graph-based retrieval can recover such dependencies, but existing approaches often require separate graph tools or traversal stages that fragment the agent's interaction loop. We formalize repository context localization as Lexically Anchored Structural Localization, where success depends on turning lexical matches into high-precision structural entry points and exposing the most useful confidence-filtered local neighborhoods within the agent's existing search loop. We introduce LARGER (Lexically Anchored Repository Graph Exploration and Retrieval), a lexically anchored active-set retrieval framework that starts from lexical matches, aligns them to graph anchors, and performs confidence-filtered local expansion within the agent's existing search loop. LARGER integrates directly into existing CLI coding agents without requiring external graph databases or specialized graph interfaces. Across four benchmarks spanning localization, test generation, and codebase understanding, LARGER improves file-level Acc@5 on LocBench by +13.9 points with tuned hyperparameters and still gains +11.8 points with fixed hyperparameters over the strongest baseline, while delivering consistent gains on MuLocBench, SWE-Atlas Test Writing, and SWE-Atlas Codebase QA.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.16352v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.09295v1",
@@ -8439,6 +8508,41 @@
     "pipeline_stages": [
       "Query Planning",
       "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "LogRouter: Adaptive Two-Level LLM Routing for Log Question Answering in Big Data Systems": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.18015v1",
+    "author": "Mert Coskuner and Merve Zeybel and Melik Mert Dolan",
+    "booktitle": "arXiv",
+    "title": "LogRouter: Adaptive Two-Level LLM Routing for Log Question Answering in Big Data Systems",
+    "year": "2026",
+    "abstract": "Production log analytics in self-hosted, resource-constrained environments requires natural-language access to massive log streams without the cost of routing every query through a large language model. We present LogRouter, an end-to-end log question-answering system deployed on TUBITAK BILGEM's national big data platform that combines a PySpark-based Drain3 ingestion pipeline, GPU-accelerated embeddings, and dual-index storage in Apache Druid and PostgreSQL with pgvector. A two-level cost-aware router dispatches each query along one of four execution paths: direct response, Druid keyword search, template lookup with SQL generation, and pgvector semantic retrieval, while a Level-2 router selects either a 14B-class or 32B-class generator for the semantic path. A dedicated coder LLM handles text-to-SQL generation. We evaluate the system on four LogHub datasets (Linux, Apache, Windows, and Mac; 70 questions in total) under both an online full-pipeline configuration and an offline configuration that isolates the generator. The router reaches 88.4% mean accuracy across datasets and 94.7% on Linux, while the full pipeline attains a mean ROUGE-1 of 0.373, BERTScore of 0.879, RAGAS Faithfulness of 0.779, and an end-to-end latency of 18.6 s. In an apples-to-apples offline comparison, the routed system reduces mean latency by 55% versus a Fixed-32B baseline (46.3 s vs. 102.1 s) while preserving Answer Correctness within 5.8 points and exceeding a Fixed-14B baseline on RAGAS Faithfulness across every dataset. Cost-aware dispatching is therefore a practical mechanism for production log QA: routing recovers most of the quality of an always-32B configuration at less than half the latency, and the L1 keyword vocabulary makes that routing decision with high precision without a learned classifier.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.18015v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -14053,6 +14157,37 @@
     ],
     "relevance_level": "core"
   },
+  "Talking Trails: LLM-Enhanced Spatiotemporal Trajectory Modeling for E-Bike Delivery Route Planning": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/LiLYDZJ26",
+    "author": "Zhao Li and Mingwu Liu and Xu-Hua Yang 0001 and Haipeng Dai 0001 and Ji Zhang and Yangbohan Jiao",
+    "booktitle": "AAAI",
+    "title": "Talking Trails: LLM-Enhanced Spatiotemporal Trajectory Modeling for E-Bike Delivery Route Planning",
+    "year": "2026",
+    "abstract": "Electric bicycles (e-bikes) have become the dominant mode of transportation in China’s urban instant delivery industry. However, many riders lack the experience to navigate complex traffic networks and diverse road conditions, leading to reduced delivery efficiency. To address this issue, we present Talking Trails, an e-bike delivery route planning system built upon an LLM-enhanced spatiotemporal trajectory model. Trained on millions of real-world delivery trajectories, fused with spatiotemporal and semantic data information, the model achieves a top-5 rider displacement prediction accuracy of 95% and a route optimization rate of 82.1%. In practice, we augment the core planner with an LLM-driven semantic layer that translates high-level user intent into executable tasks, then pair it with a battery-swap module that continuously validates route feasibility so the vehicle never runs out of charge mid-mission. Currently serving tens of thousands of riders, the system is projected to reduce average delivery mileage by 17% and lower annual carbon emissions by 3978 tons. Overall, Talking Trails significantly improves delivery efficiency, offering a scalable and sustainable solution for instant delivery operations.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i47.41440",
+    "doi": "10.1609/aaai.v40i47.41440",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Query Planning"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Taming SQL Complexity: LLM-Based Equivalence Evaluation for Text-to-SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2506.09359v1",
@@ -15287,6 +15422,52 @@
       "application_related"
     ]
   },
+  "Unlocking Biological Workflows for Robust Protein-Text Question Answering: A Dual-Dimensional RAG Framework": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.17261v1",
+    "author": "Li Ding and Duanyu Feng and Chen Huang and Yangshuai Wang and Yang Li and Wenqiang Lei and See-Kiong Ng",
+    "booktitle": "arXiv",
+    "title": "Unlocking Biological Workflows for Robust Protein-Text Question Answering: A Dual-Dimensional RAG Framework",
+    "year": "2026",
+    "abstract": "Protein-Text Question Answering (QA) is crucial for interpreting biological sequences through natural language. The integration of Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) that efficiently leverages biological databases and facilitates reasoning offers a potent approach for it. However, constrained by the standard RAG pipeline, these models often rely on curated, static datasets instead of expert-proven biological workflows, lacking the fine-grained information processing and struggling to generalize to novel (OOD) proteins. To bridge this gap, we propose 2D-ProteinRAG, a novel framework that empowers LLMs to operate within the gold-standard biological research workflow (BLAST). To further extract high-quality information from noisy retrieval contexts, we introduce a dual-dimensional (2D) filtering strategy following the expert analytical paradigms. Horizontal Fine-grained Attribute Alignment utilizes a lightweight, intent-aware discriminative filter to prune irrelevant metadata and align database entries with specific user queries. Vertical Homology-based Semantic Denoising resolves functional contradictions and redundancy across multiple homologs via hierarchical clustering. Extensive evaluations on both In-Distribution and diverse biological OOD benchmarks demonstrate that 2D-ProteinRAG consistently achieves state-of-the-art performance, outperforming fine-tuned baselines and other RAG methods. Our results validate the framework's robustness and scalability, providing a practical solution for interpreting protein functions in real-world scientific scenarios.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.17261v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.10125v2",
@@ -15540,6 +15721,33 @@
     "pipeline_stages": [
       "Grounding",
       "Context Retrieval"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
+  "Wikontic: A Tool for Building Knowledge Graphs from Text Aligned with the Wikidata Ontology": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/ChepurovaBBK26",
+    "author": "Alla Chepurova and Aydar Bulatov and Mikhail Burtsev 0001 and Yuri Kuratov",
+    "booktitle": "AAAI",
+    "title": "Wikontic: A Tool for Building Knowledge Graphs from Text Aligned with the Wikidata Ontology",
+    "year": "2026",
+    "abstract": "Knowledge Graphs (KGs) provide structured, verifiable representations that ground facts and supply large language models (LLMs) with reliable real-world information. Building high-quality KGs from open-domain text remains difficult due to redundancy, inconsistency, and lack of ontology grounding. We present Wikontic, a pipeline that extracts triples from text with LLMs and refines them through ontology-based typing, schema validation, and entity deduplication, yielding compact and coherent graphs. Unlike prior frameworks that lack ontology grounding or perform only partial deduplication, Wikontic uniquely integrates entity canonicalization, alias tracking, and automatic enforcement of Wikidata’s ontology, enabling robust schema-aware construction without manual schema design. Its web interface lets users upload text, visualize graphs, and perform multi-hop question answering. By combining LLM flexibility with Wikidata’s ontological rigor, Wikontic transforms ambiguous text into structured, interpretable, and actionable knowledge.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i48.42341",
+    "doi": "10.1609/aaai.v40i48.42341",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Knowledge Graph / External Knowledge"
+    ],
+    "pipeline_stages": [
+      "Grounding"
     ],
     "relevance_level": "application",
     "quality_flags": [

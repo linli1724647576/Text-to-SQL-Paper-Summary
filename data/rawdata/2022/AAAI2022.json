@@ -7580,7 +7580,7 @@
     "booktitle": "AAAI",
     "title": "A Calculus for Computing Structured Justifications for Election Outcomes.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "In the context of social choice theory, we develop a tableau-based calculus for reasoning about voting rules. This calculus can be used to obtain structured explanations for why a given set of axioms justifies a given election outcome for a given profile of voter preferences. We then show how to operationalise this calculus, using a combination of SAT solving and answer set programming, to arrive at a flexible framework for presenting human-readable justifications to users.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v36i5.20414",
     "doi": "10.1609/aaai.v36i5.20414",

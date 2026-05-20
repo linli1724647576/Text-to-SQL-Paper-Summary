@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-05-19T19:03:22Z",
-      "last_success_at": "2026-05-19T19:03:22Z",
+      "last_attempt_at": "2026-05-20T19:28:07Z",
+      "last_success_at": "2026-05-20T19:28:07Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 475,
-      "sha256": "772340463d1d1a6fd7382b36246f314f252f729837a227ad92cd284788d2506c",
+      "record_count": 477,
+      "sha256": "7ceca51aa7c1bdcc1b997e5256228c4f78aeaabac6f37b52c2bb375749d0a82c",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -280,6 +280,48 @@
       "venue": "CVPR",
       "year": "2025"
     },
+    "dblp-conference:ICCV:2021": {
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:27:39Z",
+      "last_success_at": "2026-05-20T19:27:39Z",
+      "rawdata_path": "data/rawdata/2021/ICCV2021.json",
+      "record_count": 1611,
+      "sha256": "a2b5ae5091c6d2a880b2def35aa0b882e0adbb86ed9115befa7c0f68437426ca",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICCV",
+      "year": "2021"
+    },
+    "dblp-conference:ICCV:2023": {
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:27:39Z",
+      "last_success_at": "2026-05-20T19:27:39Z",
+      "rawdata_path": "data/rawdata/2023/ICCV2023.json",
+      "record_count": 2156,
+      "sha256": "51fdfa0c65bcfad771c27bf5214851ff511a78a59e6f8464bf97bf4f7c6933c1",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICCV",
+      "year": "2023"
+    },
+    "dblp-conference:ICCV:2025": {
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:27:39Z",
+      "last_success_at": "2026-05-20T19:27:39Z",
+      "rawdata_path": "data/rawdata/2025/ICCV2025.json",
+      "record_count": 2701,
+      "sha256": "ba05bf5dc3650912a94d91e7f158429d9b3fbfd24d5251aeb1320cd354ec866a",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICCV",
+      "year": "2025"
+    },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
       "last_attempt_at": "2026-05-19T19:02:46Z",
@@ -352,7 +394,7 @@
     },
     "dblp-conference:NEURIPS:2025": {
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-05-19T19:02:55Z",
+      "last_attempt_at": "2026-05-20T19:27:42Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025.json",
       "record_count": 0,
@@ -575,92 +617,92 @@
       "year": "2025"
     },
     "official-accepted:NEURIPS:2020": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:03:33Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:10Z",
+      "last_success_at": "2026-05-20T19:28:10Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
-      "sha256": "b59d16668e402f3aefccd96fe2db972d9a5c3284392db10725a7f0599283bc5c",
+      "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2020"
     },
     "official-accepted:NEURIPS:2021": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:03:40Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:14Z",
+      "last_success_at": "2026-05-20T19:28:14Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
-      "sha256": "c8cd34b221ab464330689f8613453e0cfd111ff7e264b71fd4554f31782177a9",
+      "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2021"
     },
     "official-accepted:NEURIPS:2022": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:03:48Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:20Z",
+      "last_success_at": "2026-05-20T19:28:20Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
-      "sha256": "233762ebc20ec7d368e945e6b9c342543692d7190319a57e9fda98f36ce0e6ab",
+      "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2022"
     },
     "official-accepted:NEURIPS:2023": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:03:55Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:26Z",
+      "last_success_at": "2026-05-20T19:28:26Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
-      "sha256": "1a87a4e81f89868a60aff0fcd3f185deda027f592ba80220e99a48323074f410",
+      "sha256": "9dfcc668023c85da911e0d18c14601eb9ef5cc6c75db2877bc891689e3618949",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2023"
     },
     "official-accepted:NEURIPS:2024": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:04:03Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:33Z",
+      "last_success_at": "2026-05-20T19:28:33Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
-      "sha256": "66bca5619d5f7b98e5d3b1aae6879c4011562474fd9b111a63b6e1b0f88ac49b",
+      "sha256": "b60b3c80e797ef348c634316a42a31a9c7946a8145f6257d6f86bbb4214e442d",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2024"
     },
     "official-accepted:NEURIPS:2025": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-05-19T19:04:10Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-05-20T19:28:42Z",
+      "last_success_at": "2026-05-20T19:28:42Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025-accepted.json",
       "record_count": 5782,
-      "sha256": "bbc983f19cfb77e7403d23cc21c2c1b7eb0e01df2dfe7fc0d0f729cfb909a72e",
+      "sha256": "182da745acbc03b6e0d6cea3cdc9cf8b0d56fe20951585aa18576d68b43aeff2",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2025"
     }
   },
   "rotation": {
-    "cursor": 4,
+    "cursor": 5,
     "history": [
       {
         "cursor": 2,
@@ -703,12 +745,26 @@
           "NeurIPS",
           "CVPR"
         ]
+      },
+      {
+        "cursor": 5,
+        "failed": [
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-05-20T20:05:42Z",
+        "succeeded": [
+          "ICCV"
+        ],
+        "venues": [
+          "NeurIPS",
+          "ICCV"
+        ]
       }
     ],
-    "last_completed_at": "2026-05-19T21:25:11Z",
+    "last_completed_at": "2026-05-20T20:05:42Z",
     "last_selected": [
       "NeurIPS",
-      "CVPR"
+      "ICCV"
     ],
     "retry_queue": [
       "NeurIPS"

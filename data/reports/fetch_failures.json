@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 4707,
+    "fetched_entries": 477,
     "failure_count": 1,
     "warning_count": 0,
-    "skipped_count": 9
+    "skipped_count": 8
   },
   "failures": [
     {
@@ -20,30 +20,6 @@
   "skipped": [
     {
       "venue": "NeurIPS",
-      "year": 2022,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2023,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2024,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
       "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -51,7 +27,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "NeurIPS",
       "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -59,7 +35,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "NeurIPS",
       "year": 2022,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -67,7 +43,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "NeurIPS",
       "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -75,7 +51,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "NeurIPS",
       "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -83,7 +59,23 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "ICCV",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICCV",
       "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",

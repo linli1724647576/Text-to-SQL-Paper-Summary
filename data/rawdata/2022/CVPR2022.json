@@ -7524,7 +7524,7 @@
     "booktitle": "CVPR",
     "title": "Neural 3D Video Synthesis from Multi-view Video.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "We propose a novel approach for 3D video synthesis that is able to represent multi-view video recordings of a dynamic real-world scene in a compact, yet expressive representation that enables high-quality view synthesis and motion interpolation. Our approach takes the high quality and compactness of static neural radiance fields in a new direction: to a model-free, dynamic setting. At the core of our approach is a novel time-conditioned neural radiance field that represents scene dynamics using a set of compact latent codes. We are able to significantly boost the training speed and perceptual quality of the generated imagery by a novel hierarchical training scheme in combination with ray importance sampling. Our learned representation is highly compact and able to represent a 10 second 30 FPS multi-view video recording by 18 cameras with a model size of only 28MB. We demonstrate that our method can render high-fidelity wide-angle novel views at over 1K resolution, even for complex and dynamic scenes. We perform an extensive qualitative and quantitative evaluation that shows that our approach outperforms the state of the art. Project website: https://neural-3d-video.github.io/.",
     "keywords": "",
     "url": "https://doi.org/10.1109/CVPR52688.2022.00544",
     "doi": "10.1109/CVPR52688.2022.00544",

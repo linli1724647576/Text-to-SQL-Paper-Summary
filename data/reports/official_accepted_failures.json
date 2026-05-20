@@ -1,60 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 4071,
-    "failure_count": 6,
+    "fetched_entries": 20757,
+    "failure_count": 0,
     "warning_count": 0,
     "skipped_count": 0
   },
-  "failures": [
-    {
-      "venue": "NeurIPS",
-      "year": 2020,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper/2020",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2021,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper/2021",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2022,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper/2022",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2023,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2023",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2024,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2024",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper/2025",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    }
-  ],
+  "failures": [],
   "warnings": [],
   "skipped": []
 }

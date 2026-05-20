@@ -18,7 +18,7 @@
 | ccf_conference | true_positive_core | VLDB | 2026 | Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards | missing doi |
 | ccf_conference | true_positive_core | IJCAI | 2020 | RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task |  |
 | ccf_conference | true_positive_core | ACL | 2024 | Learning Relational Decomposition of Queries for Question Answering from Tables |  |
-| ccf_conference | true_positive_core | ACL | 2020 | Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback |  |
+| ccf_conference | true_positive_core | ICML | 2026 | Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases | missing doi |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICDE | 2026 | Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards | missing doi, abstract |
 | readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_application | ArXiv | 2026 | LeakDojo: Decoding the Leakage Threats of RAG Systems | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Agentic LLMs for Question Answering over Tabular Data | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | SQL-Exchange: Transforming SQL Queries Across Domains | missing doi |
-| arxiv | true_positive_core | ArXiv | 2022 | Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | LatentRefusal: Latent-Signal Refusal for Unanswerable Text-to-SQL Queries | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | FINCH: Financial Intelligence using Natural language for Contextualized SQL Handling | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | DeTriever: Decoder-representation-based Retriever for Improving NL2SQL In-Context Learning | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Taming SQL Complexity: LLM-Based Equivalence Evaluation for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | FD-NL2SQL: Feedback-Driven Clinical NL2SQL that Improves with Use | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2026 | Every Step Counts: Step-Level Credit Assignment for Tool-Integrated Text-to-SQL | missing doi |
-| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |
-| fill | true_positive_core | ArXiv | 2026 | ST-Raptor: An Agentic System for Semi-Structured Table QA | missing doi |
+| fill | true_positive_core | ICDE | 2024 | Evaluating Text-to-SQL Model Failures on Real-World Data |  |
+| fill | true_positive_core | ArXiv | 2025 | CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation | missing doi |
+| fill | true_positive_core | ArXiv | 2023 | SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation | missing doi |

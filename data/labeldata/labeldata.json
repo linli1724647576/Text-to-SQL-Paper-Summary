@@ -904,6 +904,41 @@
     ],
     "relevance_level": "core"
   },
+  "AgentNLQ: A General-Purpose Agent for Natural Language to SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.19010v1",
+    "author": "Olena Bogdanov and Yeunji Jung and Chandra Dhir and Pareekshitreddy Gaddam and Saurabh Jain and Lakshmi Tumati and Vijay Parthasarathy and Anup Shirgaonkar",
+    "booktitle": "arXiv",
+    "title": "AgentNLQ: A General-Purpose Agent for Natural Language to SQL",
+    "year": "2026",
+    "abstract": "Natural language to SQL (NL2SQL) conversion is an important problem for researchers and enterprises due to the ubiquitous importance of relational databases in broad-ranging practical problems. Despite the rapid advancements in the capabilities of LLMs, NL2SQL has not reached parity in accuracy with human expert SQL writers, hence needing additional improvements in NL2SQL algorithms. This study presents a new multi-agent method for NL2SQL that achieves 78.1% semantic accuracy on the BIg Bench for LaRge-scale Database (BIRD) benchmark. Our method leverages a semantically enriched representation of user-provided schema, adds user-provided business rules, and produces accurate SQL queries. The main contributions of this study are (a) We designed an optimized new orchestrator in a multi-agent solution that uses LLMs to plan, orchestrate, reflect, and self-correct to generate accurate SQL queries, (b) We developed an advanced schema enrichment method that creates context-aware metadata to improve accuracy, and (c) We demonstrated the accuracy and generalizability of the method across different domains and datasets by evaluating it on the BIRD-SQL benchmark.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.19010v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Domain Constraint Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "AgentSM: Semantic Memory for Agentic Text-to-SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2601.15709v1",
@@ -5980,6 +6015,35 @@
     ],
     "relevance_level": "core"
   },
+  "Feasible Plan Generation with Ambiguity-Boundedness in Cross-Model Query Processing": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.19197v1",
+    "author": "Subhasis Dasgupta and Amarnath Gupta",
+    "booktitle": "arXiv",
+    "title": "Feasible Plan Generation with Ambiguity-Boundedness in Cross-Model Query Processing",
+    "year": "2026",
+    "abstract": "Natural language (NL) interfaces to databases broaden access to heterogeneous data but often yield many ambiguous intermediate logical plans (ILPs) due to uncertain operator scope and predicate semantics. Many candidates are infeasible because of type mismatches, missing bindings, or engine-specific constraints. We address this challenge with \\emph{feasibility constraints} for detecting local inconsistencies and introduce the Packed Plan Forest (PPF) a polynomially bounded structure that compactly encodes all feasible ILPs while pruning infeasible ones early. Extending packed parse forest ideas to multi-model settings, PPF supports efficient feasibility analysis through annotated operators. Formal results show polynomial size under bounded arity and annotation vocabularies, and experiments confirm that PPFs capture exponentially many ILPs with minimal overhead, establishing a scalable foundation for NL-to-DB query planning across heterogeneous systems",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.19197v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Collaboration Paradigm for Small Language Models": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2503.17811v3",
@@ -6111,8 +6175,19 @@
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
+      "Task Setting",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
       "Planning and Generation",
-      "Neural-symbolic Parsing"
+      "Neural-symbolic Parsing",
+      "Agentic Feedback and Repair",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "SQL Generation"
@@ -6863,11 +6938,19 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
       "Pre-training and Fine-tuning",
-      "Pre-training"
+      "Pre-training",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Query Planning",
+      "Step-by-step Reasoning"
     ],
     "relevance_level": "core"
   },
@@ -8198,7 +8281,7 @@
     "booktitle": "AAAI",
     "title": "Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams",
     "year": "2023",
-    "abstract": "",
+    "abstract": "Conventional text-to-SQL studies are limited to a single task with a fixed-size training and test set. When confronted with a stream of tasks common in real-world applications, existing methods struggle with the problems of insufficient supervised data and high retraining costs. The former tends to cause overfitting on unseen databases for the new task, while the latter makes a full review of instances from past tasks impractical for the model, resulting in forgetting of learned SQL structures and database schemas. To address the problems, this paper proposes integrating semi-supervised learning (SSL) and continual learning (CL) in a stream of text-to-SQL tasks and offers two promising solutions in turn. The first solution Vanilla is to perform self-training, augmenting the supervised training data with predicted pseudo-labeled instances of the current task, while replacing the full volume retraining with episodic memory replay to balance the training efficiency with the performance of previous tasks. The improved solution SFNet takes advantage of the intrinsic connection between CL and SSL. It uses in-memory past information to help current SSL, while adding high-quality pseudo instances in memory to improve future replay. The experiments on two datasets shows that SFNet outperforms the widely-used SSL-only and CL-only baselines on multiple metrics.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v37i11.26492",
     "doi": "10.1609/aaai.v37i11.26492",
@@ -8208,7 +8291,9 @@
       "Task Setting",
       "Single-turn Text-to-SQL",
       "Pre-training and Fine-tuning",
-      "Supervised Fine-tuning"
+      "Supervised Fine-tuning",
+      "Benchmarks and Evaluation",
+      "Survey"
     ],
     "pipeline_stages": [
       "SQL Generation",
@@ -8563,11 +8648,16 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
       "Prompting and ICL",
       "Prompt Engineering",
       "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
       "Benchmarks and Evaluation",
-      "Benchmark"
+      "Benchmark",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "Query Planning",
@@ -8628,10 +8718,13 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
       "Prompting and ICL",
       "Zero-shot / Few-shot ICL",
       "Prompt Engineering",
       "Agentic Feedback and Repair",
+      "Agentic Workflow",
       "Self-correction and Repair"
     ],
     "pipeline_stages": [
@@ -8735,7 +8828,7 @@
     "booktitle": "AAAI",
     "title": "MCTS-SQL: Light-Weight LLMs Can Master the Text-to-SQL Through Monte Carlo Tree Search",
     "year": "2026",
-    "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models",
+    "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models' weak performance of single-shot prediction, we generate better results through several trials with feedback. However, directly applying MCTS-based methods inevitably leads to significant time and computational overhead. Driven by this issue, we propose a token-level prefix-cache mechanism that stores prior information during iterations, effectively improved the execution speed. Experiments results on the SPIDER and BIRD benchmarks demonstrate the effectiveness of our approach. Using a small open-source Qwen2.5-Coder-1.5B, our method outperforms ChatGPT-3.5. When leveraging a more powerful model Gemini 2.5 to explore the performance upper bound, we achieved results competitive with the SOTA. Our findings demonstrate that even small models can be effectively deployed in practical Text-to-SQL systems with the right strategy.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i41.40751",
     "doi": "10.1609/aaai.v40i41.40751",
@@ -8743,10 +8836,23 @@
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Grounding",
+      "Schema Linking"
     ],
     "relevance_level": "core"
   },
@@ -8766,10 +8872,18 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
-      "Multi-turn Text-to-SQL"
+      "Multi-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Pre-training",
+      "Supervised Fine-tuning",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Task Understanding",
+      "Dialogue Context Tracking",
+      "Fine-tuned Generation"
     ],
     "relevance_level": "core"
   },
@@ -9127,10 +9241,22 @@
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Grounding",
+      "Prompt-based Generation",
+      "Dialect Adaptation",
+      "Verification & Repair"
     ],
     "relevance_level": "core"
   },
@@ -10747,6 +10873,40 @@
     ],
     "relevance_level": "core"
   },
+  "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.18775v1",
+    "author": "Zhuoping Zhou and Davoud Ataee Tarzanagh and Sima Didari and Wenjun Hu and Baruch Gutow and Oxana Verkholyak and Masoud Faraki and Heng Hao and Hankyu Moon and Seungjai Min",
+    "booktitle": "arXiv",
+    "title": "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees",
+    "year": "2026",
+    "abstract": "Graph-based Retrieval-Augmented Generation (RAG) systems leverage interconnected knowledge structures to capture complex relationships that flat retrieval struggles with, enabling multi-hop reasoning. Yet most existing graph-based methods suffer from (i) heuristic designs lacking theoretical guarantees for subgraph quality or relevance and/or (ii) the use of static exploration strategies that ignore the query's holistic meaning, retrieving neighborhoods or communities regardless of intent. We propose Query-Aware Flow Diffusion RAG (QAFD-RAG), a training-free framework that dynamically adapts graph traversal to each query's holistic semantics. The central innovation is query-aware traversal: during graph exploration, edges are dynamically weighted by how well their endpoints align with the query's embedding, guiding flow along semantically relevant paths while avoiding structurally connected but irrelevant regions. These query-specific reasoning subgraphs enable the first statistical guarantees for query-aware graph retrieval, showing that QAFD-RAG recovers relevant subgraphs with high probability under mild signal-to-noise conditions. The algorithm converges exponentially fast, with complexity scaling with the retrieved subgraph size rather than the full graph. Experiments on question answering and text-to-SQL tasks demonstrate consistent improvements over state-of-the-art graph-based RAG methods.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.18775v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Quirx: A Mutation-Based Framework for Evaluating Prompt Robustness in LLM-based Software": {
     "type": "INPROCEEDINGS",
     "key": "conf/kbse/Serbout25",
@@ -10959,17 +11119,25 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Pre-training",
       "Grounding and Retrieval",
       "Schema Linking",
       "Planning and Generation",
-      "Intermediate Representation"
+      "Intermediate Representation",
+      "Constrained Decoding",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "Grounding",
       "Schema Linking",
       "Query Planning",
       "SQL Sketch / Skeleton",
-      "SQL Generation"
+      "SQL Generation",
+      "Constrained Decoding"
     ],
     "relevance_level": "core"
   },
@@ -11659,10 +11827,21 @@
       "Task Setting",
       "Single-turn Text-to-SQL",
       "Pre-training and Fine-tuning",
-      "Supervised Fine-tuning"
+      "Pre-training",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "Verification & Repair",
+      "Self-correction"
     ],
     "relevance_level": "core"
   },
@@ -11932,6 +12111,48 @@
       "Schema Linking"
     ],
     "relevance_level": "core"
+  },
+  "SAR: A Structure-Aligned Reasoning Framework for Temporal Knowledge Graph Question Answering": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/aaai/HuLTW26",
+    "author": "Qianyi Hu and Jiaxue Liu and Xinhui Tu and Shoujin Wang",
+    "booktitle": "AAAI",
+    "title": "SAR: A Structure-Aligned Reasoning Framework for Temporal Knowledge Graph Question Answering",
+    "year": "2026",
+    "abstract": "Large language models (LLMs) augmented with retrieval have shown impressive performance in open-domain question answering, yet struggle significantly with temporal knowledge graph question answering (TKGQA). The core issue lies in structural misalignment: treating structured, temporally sensitive graph queries as plain text often causes LLMs to retrieve or reason with semantically similar but structurally incorrect facts, resulting in critical inaccuracies. To address this, we introduce SAR (Structure-Aligned Reasoning), a novel TKGQA framework that integrates LLM reasoning tightly with the explicit subject–predicate–object–time schema inherent in knowledge graphs. SAR employs an LLM agent to first decompose natural language questions into structured queries, clearly delineating entities, relationships, and temporal constraints. It then conducts schema-consistent, time-aware retrieval from the knowledge graph to acquire candidate quadruples, which guide a subsequent iterative ReAct-style reasoning process by the LLM. A final verification stage ensures that proposed answers strictly adhere to temporal conditions, reinforcing accuracy and temporal coherence. Experiments on two benchmark datasets, MultiTQ and CronQuestions, demonstrate SAR’s effectiveness, achieving the best results. Specifically, with GPT-4.1, SAR achieves 78.2% Hits@1 on MultiTQ, significantly outperforming existing methods, and similarly establishes a new performance record on CronQuestions. Our results underscore the critical importance of structural alignment in temporal reasoning tasks, particularly in handling complex queries involving multiple temporal constraints and multi-hop reasoning.",
+    "keywords": "",
+    "url": "https://doi.org/10.1609/aaai.v40i37.40369",
+    "doi": "10.1609/aaai.v40i37.40369",
+    "venue": "AAAI",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Knowledge Graph / External Knowledge",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Question Decomposition",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "Verification & Repair"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "SCARE: A Benchmark for SQL Correction and Question Answerability Classification for Reliable EHR Question Answering": {
     "type": "ARTICLE",
@@ -12955,13 +13176,24 @@
     "venue": "AAAI",
     "venue_track": "AI 领域",
     "labels": [
+      "Pre-training and Fine-tuning",
+      "Reinforcement Learning",
       "Prompting and ICL",
       "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
       "Agentic Feedback and Repair",
-      "Security and Access Control"
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "SQL Generation",
+      "Grounding",
+      "Database Content Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning"
     ],
     "relevance_level": "core"
   },
@@ -13737,13 +13969,19 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
       "Prompting and ICL",
-      "Chain-of-Thought Reasoning"
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Constrained Decoding"
     ],
     "pipeline_stages": [
       "Query Planning",
       "Step-by-step Reasoning",
-      "SQL Generation"
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Constrained Decoding"
     ],
     "relevance_level": "core"
   },

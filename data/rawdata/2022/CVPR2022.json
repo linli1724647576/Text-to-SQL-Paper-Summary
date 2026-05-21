@@ -17520,7 +17520,7 @@
     "booktitle": "CVPR",
     "title": "Towards Multimodal Depth Estimation from Light Fields.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "Light field applications, especially light field rendering and depth estimation, developed rapidly in recent years. While state-of-the-art light field rendering methods handle semi-transparent and reflective objects well, depth estimation methods either ignore these cases altogether or only deliver a weak performance. We argue that this is due current methods only considering a single “true” depth, even when multiple objects at different depths contributed to the color of a single pixel. Based on the simple idea of outputting a posterior depth distribution instead of only a single estimate, we develop and explore several different deep-learning-based approaches to the problem. Additionally, we contribute the first “multimodal light field depth dataset” that contains the depths of all objects which contribute to the color of a pixel. This allows us to supervise the multimodal depth prediction and also validate all methods by measuring the KL divergence of the predicted posteriors. With our thorough analysis and novel dataset, we aim to start a new line of depth estimation research that overcomes some of the longstanding limitations of this field.",
     "keywords": "",
     "url": "https://doi.org/10.1109/CVPR52688.2022.01261",
     "doi": "10.1109/CVPR52688.2022.01261",

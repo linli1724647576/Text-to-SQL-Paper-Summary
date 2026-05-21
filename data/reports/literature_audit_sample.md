@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2026 | LatentRefusal: Latent-Signal Refusal for Unanswerable Text-to-SQL Queries | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2023 | SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation | missing doi |
-| arxiv | true_positive_core | ArXiv | 2024 | DeTriever: Decoder-representation-based Retriever for Improving NL2SQL In-Context Learning | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Taming SQL Complexity: LLM-Based Equivalence Evaluation for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | DePLOI: Applying NL2SQL to Synthesize and Audit Database Access Control | missing doi |
+| arxiv | true_positive_core | ArXiv | 2020 | TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | FD-NL2SQL: Feedback-Driven Clinical NL2SQL that Improves with Use | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Extending Confidence-Based Text2Cypher with Grammar and Schema Aware Filtering | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ICDE | 2024 | Evaluating Text-to-SQL Model Failures on Real-World Data |  |
-| fill | true_positive_core | ArXiv | 2025 | CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation | missing doi |
-| fill | true_positive_core | ArXiv | 2023 | SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation | missing doi |
+| fill | true_positive_application | ArXiv | 2026 | Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation | missing doi |
+| fill | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
+| fill | true_positive_core | ArXiv | 2026 | SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation | missing doi |

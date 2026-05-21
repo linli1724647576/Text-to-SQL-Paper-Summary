@@ -10,25 +10,25 @@
   "metrics": {
     "venues_sentinel_version": 2,
     "venues_sentinel_count": 145,
-    "paper_count": 497,
-    "unique_title_count": 497,
+    "paper_count": 499,
+    "unique_title_count": 499,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 493,
-    "unique_title_drop_ratio": -0.008114,
+    "baseline_unique_title_count": 497,
+    "unique_title_drop_ratio": -0.004024,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
       "AI 领域": 91,
-      "ArXiv": 292,
+      "ArXiv": 294,
       "交叉/综合/新兴": 2,
       "数据库领域": 103,
       "软件工程": 9
     },
     "source_counts": {
-      "arxiv": 292,
+      "arxiv": 294,
       "ccf_venue": 205
     },
     "irrelevant_records": 0,
@@ -310,11 +310,11 @@
           "relevant_papers": 2
         },
         "ArXiv": {
-          "raw_candidates": 477,
+          "raw_candidates": 478,
           "official_accepted": 0,
           "dblp": 0,
-          "arxiv": 477,
-          "relevant_papers": 292
+          "arxiv": 478,
+          "relevant_papers": 294
         },
         "CVPR2020": {
           "raw_candidates": 1465,

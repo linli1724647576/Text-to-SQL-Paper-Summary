@@ -2003,6 +2003,47 @@
     ],
     "relevance_level": "core"
   },
+  "Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.21027v1",
+    "author": "Gundeep Singh and Parsa Kavehzadeh and Jing Xia and Xue-Yong Fu and Julien Bouvier Tremblay and Md Tahmid Rahman Laskar and Vincent Lum and Shashi Bhushan TN",
+    "booktitle": "arXiv",
+    "title": "Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs",
+    "year": "2026",
+    "abstract": "Enterprise analytics aims to make organizational data accessible for decision-making, yet non-technical users still face barriers when using traditional business intelligence tools or Text-to-SQL systems. While recent Text-to-SQL approaches based on Large Language Models (LLMs) promise natural language access to structured data, they fall short in enterprise settings where analytics pipelines rely on governed APIs rather than raw databases. In practice, these APIs encapsulate complex business logic to ensure consistency, auditability, and security. However, delegating mathematical or aggregation logic to an LLM introduces reliability and compliance risks. To this end, we present Analytic Agent, an LLM-based agentic system that translates natural language intents into secure interactions with enterprise analytics APIs. Evaluated on 90 real enterprise use cases constructed by domain experts, it reliably interprets user goals, validates permissions, executes governed queries, and generates compliant visualizations through multi-step reasoning and policy-aware orchestration.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.21027v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2512.14622v2",
@@ -8701,6 +8742,51 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "M3: Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2507.01053v4",
+    "author": "Rafi Al Attrach and Pedro Moreira and Rajna Fani and Renato Umeton and Amelia Fiske and Leo Anthony Celi",
+    "booktitle": "arXiv",
+    "title": "M3: Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
+    "year": "2025",
+    "abstract": "Large-scale clinical databases offer opportunities for medical research, but their complexity creates barriers to effective use. The Medical Information Mart for Intensive Care (MIMIC-IV), one of the world's largest open-source electronic health record databases, traditionally requires both SQL proficiency and clinical domain expertise. We introduce M3, a system that enables natural language querying of MIMIC-IV data through the Model Context Protocol. With a single command, M3 retrieves MIMIC-IV from PhysioNet, launches a local SQLite instance or connects to hosted BigQuery, and allows researchers to pose clinical questions in plain English. We evaluated M3 using samples from the EHRSQL 2024 benchmark with two language models. On one hundred answerable questions, the proprietary Claude Sonnet 4 achieved 94% accuracy and the open-weights gpt-oss-20B (deployable locally on consumer hardware) achieved 93%; on a matched sample of one hundred unanswerable questions, where correct behavior is to abstain rather than produce SQL, gpt-oss-20B correctly abstained on 69%. Both models translate natural language into SQL, execute queries against MIMIC-IV, and return structured results alongside the underlying query for verification. Error analysis revealed that most failures stemmed from complex temporal reasoning or ambiguous question phrasing rather than fundamental architectural limitations. The comparable performance of a smaller open-weights model demonstrates that privacy-preserving local deployment is viable for sensitive clinical data analysis. M3 lowers technical barriers to critical care data analysis and is designed with security measures including OAuth2 authentication, query validation, and audit logging.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2507.01053v4",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Conversational Data Analysis",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Dialect Adaptation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL": {
     "type": "INPROCEEDINGS",

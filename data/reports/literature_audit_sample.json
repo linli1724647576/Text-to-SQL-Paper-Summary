@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "LatentRefusal: Latent-Signal Refusal for Unanswerable Text-to-SQL Queries",
+      "title": "LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,17 +433,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.10398v3"
+        "https://arxiv.org/abs/2410.11457v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models",
+      "title": "CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -456,7 +456,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.09403v3"
+        "https://arxiv.org/abs/2507.06013v1"
       ],
       "notes": "missing doi"
     },
@@ -479,7 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation",
+      "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -487,17 +487,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2305.11061v1"
+        "https://arxiv.org/abs/2604.17771v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "DeTriever: Decoder-representation-based Retriever for Improving NL2SQL In-Context Learning",
+      "title": "DePLOI: Applying NL2SQL to Synthesize and Audit Database Access Control",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -510,12 +510,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2406.07913v1"
+        "https://arxiv.org/abs/2402.07332v4"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Taming SQL Complexity: LLM-Based Equivalence Evaluation for Text-to-SQL",
+      "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +523,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2506.09359v1"
+        "https://arxiv.org/abs/2006.06434v1"
       ],
       "notes": "missing doi"
     },
@@ -551,7 +551,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "FD-NL2SQL: Feedback-Driven Clinical NL2SQL that Improves with Use",
+      "title": "Extending Confidence-Based Text2Cypher with Grammar and Schema Aware Filtering",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -564,7 +564,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.15646v1"
+        "https://arxiv.org/abs/2605.10318v1"
       ],
       "notes": "missing doi"
     },
@@ -702,44 +702,44 @@
       "notes": ""
     },
     {
-      "title": "Evaluating Text-to-SQL Model Failures on Real-World Data",
+      "title": "Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
-      "year": "2024",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE60146.2024.00456",
-        "https://doi.org/10.1109/ICDE60146.2024.00456"
+        "https://arxiv.org/abs/2602.07086v1"
       ],
-      "notes": ""
+      "notes": "missing doi"
     },
     {
-      "title": "CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation",
+      "title": "CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2507.06013v1"
+        "10.1609/aaai.v39i24.34770",
+        "https://doi.org/10.1609/aaai.v39i24.34770"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
-      "title": "SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation",
+      "title": "SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -747,12 +747,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2310.18376v4"
+        "https://arxiv.org/abs/2604.06736v1"
       ],
       "notes": "missing doi"
     }

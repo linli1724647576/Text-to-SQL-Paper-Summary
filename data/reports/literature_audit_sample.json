@@ -425,25 +425,7 @@
       "notes": ""
     },
     {
-      "title": "LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2410.11457v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation",
+      "title": "LLM/Agent-as-Data-Analyst: A Survey",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -456,7 +438,25 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2507.06013v1"
+        "https://arxiv.org/abs/2509.23988v3"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "ChatBI: Towards Natural Language to Complex Business Intelligence SQL",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2405.00527v1"
       ],
       "notes": "missing doi"
     },
@@ -479,11 +479,47 @@
       "notes": "missing doi"
     },
     {
-      "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
+      "title": "SIMBA UQ: Similarity-Based Aggregation for Uncertainty Quantification in Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2510.13836v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2509.14507v2"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -492,43 +528,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.17771v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "DePLOI: Applying NL2SQL to Synthesize and Audit Database Access Control",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2402.07332v4"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2006.06434v1"
+        "https://arxiv.org/abs/2605.07507v1"
       ],
       "notes": "missing doi"
     },
@@ -551,7 +551,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Extending Confidence-Based Text2Cypher with Grammar and Schema Aware Filtering",
+      "title": "Exploring Multi-Table Retrieval Through Iterative Search",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -559,12 +559,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.10318v1"
+        "https://arxiv.org/abs/2511.13418v1"
       ],
       "notes": "missing doi"
     },
@@ -702,20 +702,20 @@
       "notes": ""
     },
     {
-      "title": "Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation",
+      "title": "Evaluating NL2SQL via SQL2NL",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.07086v1"
+        "https://arxiv.org/abs/2509.04657v1"
       ],
       "notes": "missing doi"
     },
@@ -739,22 +739,23 @@
       "notes": ""
     },
     {
-      "title": "SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation",
+      "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.06736v1"
+        "10.1609/aaai.v39i1.31979",
+        "https://doi.org/10.1609/aaai.v39i1.31979"
       ],
-      "notes": "missing doi"
+      "notes": ""
     }
   ]
 }

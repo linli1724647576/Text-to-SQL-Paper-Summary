@@ -1,11 +1,54 @@
 {
   "summary": {
-    "fetched_entries": 38592,
+    "fetched_entries": 20757,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 0
+    "skipped_count": 6
   },
   "failures": [],
   "warnings": [],
-  "skipped": []
+  "skipped": [
+    {
+      "venue": "IJCAI",
+      "year": 2020,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2021,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2022,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2023,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2024,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    }
+  ]
 }

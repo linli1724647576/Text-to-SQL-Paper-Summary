@@ -5,7 +5,8 @@
   "warnings": [
     "current-year official source not yet configured or published: NeurIPS2026, ACL2026, IJCAI2026, KDD2026, SIGIR2026, ASE2026, ISSTA2026",
     "available current-year sources with many raw candidates but zero Text-to-SQL matches: CVPR2026, ICSE2026",
-    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower"
+    "SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower",
+    "partial source failures or rate-limit events: 5"
   ],
   "metrics": {
     "venues_sentinel_version": 2,
@@ -1219,7 +1220,7 @@
     },
     "ccf_conference_rawdata_missing": [],
     "fetch_failure_count": 1,
-    "fetch_warning_count": 0,
+    "fetch_warning_count": 6,
     "dblp_conference_failures": 1,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.010101,

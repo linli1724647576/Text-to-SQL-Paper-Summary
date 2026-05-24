@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 8,
-  "cursor_before": 7,
+  "cursor_after": 9,
+  "cursor_before": 8,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "SIGMOD"
+    "VLDB"
   ],
   "retry_venues": [
     "NeurIPS"
   ],
-  "selected_at": "2026-05-23T18:02:47Z",
+  "selected_at": "2026-05-24T17:59:34Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "NeurIPS",
-    "SIGMOD"
+    "VLDB"
   ],
-  "venues_csv": "NeurIPS,SIGMOD",
+  "venues_csv": "NeurIPS,VLDB",
   "version": 1
 }

@@ -17068,7 +17068,7 @@
   "Scalable Graph Neural Networks via Bidirectional Propagation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/ChenWDL00W20",
-    "author": "Ming Chen and Zhewei Wei and Bolin Ding and Yaliang Li and Ye Yuan 0001 and Xiaoyong Du 0001 and Ji-Rong Wen",
+    "author": "Ming Chen 0024 and Zhewei Wei and Bolin Ding and Yaliang Li and Ye Yuan 0001 and Xiaoyong Du 0001 and Ji-Rong Wen",
     "booktitle": "NeurIPS",
     "title": "Scalable Graph Neural Networks via Bidirectional Propagation.",
     "year": "2020",

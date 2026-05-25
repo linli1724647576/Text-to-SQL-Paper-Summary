@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "LLM/Agent-as-Data-Analyst: A Survey",
+      "title": "LLM NL2SQL Robustness: Surface Noise vs. Linguistic Variation in Traditional and Agentic Settings",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,12 +433,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.23988v3"
+        "https://arxiv.org/abs/2603.17017v1"
       ],
       "notes": "missing doi"
     },
@@ -479,7 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SIMBA UQ: Similarity-Based Aggregation for Uncertainty Quantification in Large Language Models",
+      "title": "SCARE: A Benchmark for SQL Correction and Question Answerability Classification for Reliable EHR Question Answering",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -492,7 +492,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.13836v1"
+        "https://arxiv.org/abs/2511.17559v2"
       ],
       "notes": "missing doi"
     },
@@ -515,20 +515,20 @@
       "notes": "missing doi"
     },
     {
-      "title": "TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature",
+      "title": "Structural Transfer Learning in NL-to-Bash Semantic Parsers",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.07507v1"
+        "https://arxiv.org/abs/2307.16795v1"
       ],
       "notes": "missing doi"
     },
@@ -551,7 +551,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Exploring Multi-Table Retrieval Through Iterative Search",
+      "title": "Exploring Database Normalization Effects on SQL Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -564,7 +564,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.13418v1"
+        "https://arxiv.org/abs/2510.01989v1"
       ],
       "notes": "missing doi"
     },
@@ -702,7 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Evaluating NL2SQL via SQL2NL",
+      "title": "Evaluating Autoformalization Robustness via Semantically Similar Paraphrasing",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -715,7 +715,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.04657v1"
+        "https://arxiv.org/abs/2511.12784v2"
       ],
       "notes": "missing doi"
     },
@@ -739,23 +739,22 @@
       "notes": ""
     },
     {
-      "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
+      "title": "SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v39i1.31979",
-        "https://doi.org/10.1609/aaai.v39i1.31979"
+        "https://arxiv.org/abs/2502.11741v3"
       ],
-      "notes": ""
+      "notes": "missing doi"
     }
   ]
 }

@@ -4709,6 +4709,37 @@
       "application_related"
     ]
   },
+  "Design and Report Benchmarks for Knowledge Work": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.23262v1",
+    "author": "Yining Hua and Hongbin Na and Cyrus Ayubcha and Levi Lian",
+    "booktitle": "arXiv",
+    "title": "Design and Report Benchmarks for Knowledge Work",
+    "year": "2026",
+    "abstract": "The development of LLM agents has led to a growing body of work on knowledge-work AI, including coding, research, and healthcare. However, current knowledge-work evaluation and benchmark design still largely follow the logic of traditional NLP tasks. As a result, higher benchmark performance does not reliably show that a system can carry out knowledge work in real-world deployment settings. This paper contributes a three-step approach for making explicit how benchmarked tasks represent the work claims attached to their scores: defining the work activity under evaluation, specifying the tested setting, and scoring the appropriate work product. We review work studies showing that knowledge work is organized through roles and responsibilities, local materials and tools, and artifacts that must remain usable in downstream workflows. We then translate these concerns into benchmark design and reporting guidance, covering how tasks should be mapped to work activities, how tested settings should specify materials, tools, roles, and constraints, and how scoring should focus on the work product left by the system. To name the work activity being evaluated and distinguish it from common benchmark tasks, we derive an inventory of 18 work activities from the O{*}NET occupational task database. We demonstrate the approach through three benchmark case analyses: GDPval, a non-code occupational deliverable benchmark; OfficeQA Pro, a grounded document-analysis benchmark scored by final answers; and APEX-SWE, a software-engineering benchmark with executable scored products. These cases show how benchmark design choices shape the strongest work claim a score can support, and where gaps arise between the benchmarked task, tested setting, scored product, and broader work claim.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.23262v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2603.07449v1",
@@ -7891,6 +7922,42 @@
     "pipeline_stages": [
       "Grounding",
       "Schema Linking",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Knowledge Distillation for Low-Resource Open-source Text-to-SQL Model": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.22843v1",
+    "author": "Tianhao Qiu and Xiaojun Chen",
+    "booktitle": "arXiv",
+    "title": "Knowledge Distillation for Low-Resource Open-source Text-to-SQL Model",
+    "year": "2026",
+    "abstract": "Text-to-SQL converts natural language questions into executable SQL queries, enabling non-technical users to access relational databases for analytics and intelligent data services. In real-world scenarios, performance is often constrained by low-resource settings, where high-quality annotated \\texttt{<question, SQL>} pairs are scarce, particularly for domain-specific databases. Additional challenges include opaque schema definitions, abbreviations, and implicit business logic that are not explicitly encoded in the schema. Existing data synthesis and prompting techniques improve coverage but often fail to produce task-specific, semantically grounded examples aligned with database constraints. To address these challenges, we propose a knowledge-aware Text-to-SQL framework that constructs task-specific knowledge base including schema semantics, abbreviations, business logic, and query patterns, and injects them into both training and inference. This framework generates diverse, contextually grounded synthetic training data and enhances inference through targeted knowledge retrieval. Experiments on seven benchmarks, covering both general and domain-specific datasets, demonstrate that our approach substantially improves the performance of open-source and closed-source large language models in Text-to-SQL tasks, especially in low-resource domain-specific settings, enhancing generalization, robustness, and adaptability.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.22843v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Conversational Data Analysis",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
       "SQL Generation"
     ],
     "relevance_level": "core"

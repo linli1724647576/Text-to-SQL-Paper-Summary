@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 4232,
+    "fetched_entries": 4710,
     "failure_count": 1,
-    "warning_count": 6,
-    "skipped_count": 10
+    "warning_count": 0,
+    "skipped_count": 9
   },
   "failures": [
     {
@@ -16,63 +16,7 @@
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
     }
   ],
-  "warnings": [
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"text-to-sql\"",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "HTTP Error 429: Unknown Error"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"text to sql\"",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "HTTP Error 429: Unknown Error"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "text2sql",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "HTTP Error 429: Unknown Error"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "nl2sql",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "HTTP Error 429: Unknown Error"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "\"natural language to sql\"",
-      "source_type": "arxiv",
-      "status": "partial_failed",
-      "error": "The read operation timed out"
-    },
-    {
-      "venue": "arXiv",
-      "year": "",
-      "track": "arXiv",
-      "source": "arxiv",
-      "source_type": "arxiv",
-      "status": "partial_existing_kept",
-      "collected_entries": 166,
-      "error": "one or more arXiv queries failed; existing output kept unchanged"
-    }
-  ],
+  "warnings": [],
   "skipped": [
     {
       "venue": "NeurIPS",
@@ -99,7 +43,7 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2020,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -107,7 +51,7 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -115,7 +59,7 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2022,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -123,7 +67,7 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -131,7 +75,7 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -139,16 +83,8 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDB",
+      "venue": "ICDE",
       "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "VLDB",
-      "year": 2026,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",

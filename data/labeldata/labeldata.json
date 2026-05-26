@@ -6509,6 +6509,39 @@
     ],
     "relevance_level": "core"
   },
+  "From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.25226v1",
+    "author": "Most. Sharmin Sultana Samu and MD. Tanvir Ahmed Seum and Md. Rakibul Islam",
+    "booktitle": "arXiv",
+    "title": "From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP",
+    "year": "2026",
+    "abstract": "Large language models are widely deployed in high-stakes NLP tasks, yet risks such as bias, hallucination, adversarial vulnerability and unreliable generalization remain. Probe-based auditing reveals inconsistencies in model behavior. Adversarial text generation uncovers robustness gaps, especially in lower-resourced languages with limited benchmarks. Enterprise text-to-SQL settings expose the difficulty of validating outputs over private and large-scale databases. Human supervision is essential for probe validation, adversarial verification and domain-specific annotation, but it is costly and hard to scale. This survey examines recent human-in-the-loop methods that shift NLP from automation toward collaboration for safety and trustworthiness. We review how human expertise supports auditing, robustness evaluation, data construction and model steering. Our findings highlight gaps in scalable probing, sustainable robustness benchmarks, low-resource settings and governance of private systems. We outline practical research directions for adaptive auditing, collaborative evaluation and accountable deployment.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.25226v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
   "From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2410.01066v2",
@@ -8188,6 +8221,47 @@
       "Result Validation"
     ],
     "relevance_level": "core"
+  },
+  "LLM-as-a-Judge in Healthcare: A Scoping Analysis of Applications, Methods, and Human Alignment": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.25273v1",
+    "author": "Lingyao Li and Deyi Li and Chen Chen and Renkai Ma and Runlong Yu and Mingquan Lin and Rui Yin and Lizhou Fan and Cathy Shyr and Siyuan Ma and Mei Liu and Steven Bethard",
+    "booktitle": "arXiv",
+    "title": "LLM-as-a-Judge in Healthcare: A Scoping Analysis of Applications, Methods, and Human Alignment",
+    "year": "2026",
+    "abstract": "Large language models (LLMs) are increasingly deployed across healthcare applications, including clinical documentation, diagnostic reasoning, medicine recommendation, and medical education. Their outputs are largely unstructured clinical text, which is difficult to reliably evaluate at scale. LLM-as-a-Judge, in which an LLM evaluates another system's output against task-specific criteria, offers a scalable alternative and is increasingly used in clinical evaluation, yet its validity in healthcare remains underexamined. Existing reviews focus on general-purpose LLM evaluation or on risk framework, rather than systematically characterizing how LLM-as-a-Judge is applied in healthcare and how well their judgments align with human experts. We therefore conduct a PRISMA-guided comprehensive review of LLM-as-a-Judge applications in healthcare, searching five databases for studies published between January 2023 and February 2026. After screening 541 records, 134 studies meet the eligibility and are coded by health scenario, judge configuration, technical approach, and validation design. LLM-as-a-Judge is concentrated in clinical decision support, clinical natural language processing (NLP), medical knowledge and question answering (QA), and medical communication. OpenAI models are the most frequently used judges, and prompt engineering appears in nearly all studies, with ensemble, multi-agent, and retrieval-augmented designs as common extensions. Among studies reporting human validation, LLM judges often show moderate to strong alignment with expert judgments, although reliability varies substantially across tasks. Overall, this review positions LLM-as-a-Judge as a promising framework for scalable healthcare AI evaluation, while emphasizing that its clinical value depends on model design and rigorous validation.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.25273v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "LLM/Agent-as-Data-Analyst: A Survey": {
     "type": "ARTICLE",
@@ -13455,6 +13529,38 @@
     ],
     "relevance_level": "core"
   },
+  "Same Data, Different Schemas: Robustness of LLM-based Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.25838v1",
+    "author": "Nitin Kanchinadam and Aditya Menachery and Amol Deshpande",
+    "booktitle": "arXiv",
+    "title": "Same Data, Different Schemas: Robustness of LLM-based Text-to-SQL",
+    "year": "2026",
+    "abstract": "Large language models (LLMs) consistently achieve strong results on text-to-SQL benchmarks, but their robustness to schema variations remains poorly understood. Recent work suggests that the schema structure matters, but does not provide a clear and systematic way to evaluate model behavior when different schemas represent the same underlying data. We address this problem by presenting a framework to evaluate and benchmark text-to-SQL techniques over equivalent relational schemas generated from a common E/R model. By varying the ``shredding'' choices used to translate the conceptual design into relations, we create multiple schema variants that differ structurally while preserving the same underlying semantics. This gives us a controlled setting in which the natural language questions and data remain fixed, and only the schema changes. We use this framework to evaluate four leading LLMs on the same questions across multiple schema variants (for two separate domains), and summarize consistency patterns using pairwise comparison heatmaps. Our results show that schema structure significantly affects LLM behavior: across conceptually equivalent schemas, models often produce SQL queries with very different answers. We also find that providing additional context (specifically, the original E/R specification) improves the performance, but does not fully ameliorate the inconsistencies. In addition to demonstrating that the current text-to-SQL evaluations miss an important notion of robustness, our framework provides a way to generate a large number of synthetic datasets that can be used to train new models, and suggests a mechanism to make text-to-SQL more robust by generating additional candidate plans for a given natural language query through systematic schema variations.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.25838v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "core"
+  },
   "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2512.16083v1",
@@ -16124,6 +16230,35 @@
       "SQL Generation",
       "Prompt-based Generation",
       "Dialect Adaptation"
+    ],
+    "relevance_level": "core"
+  },
+  "VineLM: Trie-Based Fine-Grained Control for Agentic Workflows": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.23914v1",
+    "author": "Nikos Pagonas and Matthew Lou and Tianyi Peng and Dan Rubenstein and Kostis Kaffes",
+    "booktitle": "arXiv",
+    "title": "VineLM: Trie-Based Fine-Grained Control for Agentic Workflows",
+    "year": "2026",
+    "abstract": "Agentic workflows interleave configurable LLM stages with tool stages and often include retries or refinement loops. Existing workflow managers profile full workflow configurations offline and assign each request a static workflow-level plan that binds each configurable LLM stage to a single model, reuses that model across repeated loop iterations, and does not revisit those choices at runtime. We present VineLM, a workflow manager that enables fine-grained control by choosing the model for each stage invocation as execution unfolds under request-level objectives such as maximizing accuracy under cost or latency budgets. VineLM represents feasible executions as an annotated trie of model-choice prefixes and uses checkpointing and cascade profiling to estimate path accuracy, cost, and latency without exhaustively profiling every request on every path. At runtime, VineLM re-roots the trie after each stage invocation and replans over the remaining subtrie using the realized execution prefix and remaining latency budget. On NL2SQL and math reasoning workflows, VineLM improves the cost-latency-accuracy frontier over coarse workflow-level baselines, achieving up to 18% higher accuracy at the same per-request budget with its sparse profiling reducing offline profiling cost by 98-99.8% when compared to exhaustive profiling.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.23914v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
     ],
     "relevance_level": "core"
   },

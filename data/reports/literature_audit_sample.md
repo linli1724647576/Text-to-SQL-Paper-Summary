@@ -29,12 +29,12 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2026 | LLM NL2SQL Robustness: Surface Noise vs. Linguistic Variation in Traditional and Agentic Settings | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | LARGER: Lexically Anchored Repository Graph Exploration and Retrieval | missing doi |
 | arxiv | true_positive_application | ArXiv | 2024 | ChatBI: Towards Natural Language to Complex Business Intelligence SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | SCARE: A Benchmark for SQL Correction and Question Answerability Classification for Reliable EHR Question Answering | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction | missing doi |
-| arxiv | true_positive_core | ArXiv | 2023 | Structural Transfer Learning in NL-to-Bash Semantic Parsers | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Exploring Database Normalization Effects on SQL Generation | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
@@ -46,4 +46,4 @@
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | fill | true_positive_core | ArXiv | 2025 | Evaluating Autoformalization Robustness via Semantically Similar Paraphrasing | missing doi |
 | fill | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| fill | true_positive_core | ArXiv | 2025 | SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL | missing doi |
+| fill | true_positive_core | NeurIPS | 2025 | SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning | missing doi |

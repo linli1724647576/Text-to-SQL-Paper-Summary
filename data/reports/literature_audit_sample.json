@@ -425,11 +425,11 @@
       "notes": ""
     },
     {
-      "title": "LLM NL2SQL Robustness: Surface Noise vs. Linguistic Variation in Traditional and Agentic Settings",
+      "title": "LARGER: Lexically Anchored Repository Graph Exploration and Retrieval",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -438,7 +438,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.17017v1"
+        "https://arxiv.org/abs/2605.16352v1"
       ],
       "notes": "missing doi"
     },
@@ -479,7 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SCARE: A Benchmark for SQL Correction and Question Answerability Classification for Reliable EHR Question Answering",
+      "title": "RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -492,7 +492,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.17559v2"
+        "https://arxiv.org/abs/2508.17590v1"
       ],
       "notes": "missing doi"
     },
@@ -515,7 +515,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Structural Transfer Learning in NL-to-Bash Semantic Parsers",
+      "title": "SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +523,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2307.16795v1"
+        "https://arxiv.org/abs/2510.26840v2"
       ],
       "notes": "missing doi"
     },
@@ -739,20 +739,20 @@
       "notes": ""
     },
     {
-      "title": "SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL",
+      "title": "SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "NeurIPS",
+      "normalized_venue": "NeurIPS",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2502.11741v3"
+        "https://arxiv.org/abs/2504.08600v5"
       ],
       "notes": "missing doi"
     }

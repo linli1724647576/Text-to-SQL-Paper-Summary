@@ -479,7 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System",
+      "title": "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -487,12 +487,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.17590v1"
+        "https://arxiv.org/abs/2605.03720v1"
       ],
       "notes": "missing doi"
     },
@@ -515,7 +515,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification",
+      "title": "SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +523,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.26840v2"
+        "https://arxiv.org/abs/2603.04334v3"
       ],
       "notes": "missing doi"
     },
@@ -739,20 +739,20 @@
       "notes": ""
     },
     {
-      "title": "SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning",
+      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "NeurIPS",
-      "normalized_venue": "NeurIPS",
-      "category": "AI 领域",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2504.08600v5"
+        "https://arxiv.org/abs/2508.07087v2"
       ],
       "notes": "missing doi"
     }

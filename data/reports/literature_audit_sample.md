@@ -32,9 +32,9 @@
 | arxiv | true_positive_application | ArXiv | 2026 | LARGER: Lexically Anchored Repository Graph Exploration and Retrieval | missing doi |
 | arxiv | true_positive_application | ArXiv | 2024 | ChatBI: Towards Natural Language to Complex Business Intelligence SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Exploring Database Normalization Effects on SQL Generation | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
@@ -46,4 +46,4 @@
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | fill | true_positive_core | ArXiv | 2025 | Evaluating Autoformalization Robustness via Semantically Similar Paraphrasing | missing doi |
 | fill | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| fill | true_positive_core | NeurIPS | 2025 | SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | SQL-Exchange: Transforming SQL Queries Across Domains | missing doi |

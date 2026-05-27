@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "f6bdd3456951da7e11bd94732b8e2ee9ade13c10e4eb470bba59365f9f483056"
+          "sha256": "d6390b3c4dd774997e6d2e149760aebe2f431bdf7ac9f20c54be6cc78621ca1e"
         }
       ],
       "processing": {
@@ -1659,7 +1659,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/ICCV2025.json",
-          "sha256": "73146d383ab1fb497a80c1c21e97c57d0730124ebb063a05224985406187428e"
+          "sha256": "cdc32b48a308a0b72cab36aeee67f6f3208fa35c56249732afa09d6a98e8c40d"
         }
       ],
       "processing": {
@@ -2745,7 +2745,7 @@
         },
         {
           "path": "data/rawdata/2025/IJCAI2025.json",
-          "sha256": "7198e2639fd8e66de4d8e3cb2afeeef855a5d59f6722d56e1b0149c5005987c7"
+          "sha256": "5cbc1fd02526ce4e9565f35a86281fedf92a78ca1589237bd91cde282cf3842f"
         }
       ],
       "processing": {

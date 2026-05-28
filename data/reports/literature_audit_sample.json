@@ -425,38 +425,38 @@
       "notes": ""
     },
     {
-      "title": "LARGER: Lexically Anchored Repository Graph Exploration and Retrieval",
+      "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.16352v1"
+        "https://arxiv.org/abs/2512.17053v3"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "ChatBI: Towards Natural Language to Complex Business Intelligence SQL",
+      "title": "CarbonChat: Large Language Model-Based Corporate Carbon Emission Analysis and Climate Knowledge Q&A System",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2024",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2405.00527v1"
+        "https://arxiv.org/abs/2501.02031v1"
       ],
       "notes": "missing doi"
     },
@@ -479,25 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2605.03720v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction",
+      "title": "Role-Conditioned Refusals: Evaluating Access Control Reasoning in Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -510,12 +492,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.14507v2"
+        "https://arxiv.org/abs/2510.07642v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints",
+      "title": "Datrics Text2SQL: A Framework for Natural Language to SQL Query Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +505,30 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.04334v3"
+        "https://arxiv.org/abs/2506.12234v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Sparks of Tabular Reasoning via Text2SQL Reinforcement Learning",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2505.00016v2"
       ],
       "notes": "missing doi"
     },
@@ -551,7 +551,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Exploring Database Normalization Effects on SQL Generation",
+      "title": "EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -559,12 +559,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.01989v1"
+        "https://arxiv.org/abs/2601.04875v1"
       ],
       "notes": "missing doi"
     },
@@ -702,7 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Evaluating Autoformalization Robustness via Semantically Similar Paraphrasing",
+      "title": "ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -710,36 +710,35 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.12784v2"
+        "https://arxiv.org/abs/2603.03742v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation",
+      "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2025",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v39i24.34770",
-        "https://doi.org/10.1609/aaai.v39i24.34770"
+        "https://2024.sigmod.org/sigmod-list.html"
       ],
-      "notes": ""
+      "notes": "missing doi, abstract"
     },
     {
-      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
+      "title": "SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -747,12 +746,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.07087v2"
+        "https://arxiv.org/abs/2403.16204v1"
       ],
       "notes": "missing doi"
     }

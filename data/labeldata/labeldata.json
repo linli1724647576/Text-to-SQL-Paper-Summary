@@ -1297,6 +1297,39 @@
     ],
     "relevance_level": "core"
   },
+  "Are Diffusion Language Models Good Database Analysts?": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.27791v1",
+    "author": "Peixian Ma and Xialie Zhuang and Jiantao Tan and Changlun Li and Ruirui Chen and Chengwei Qin",
+    "booktitle": "arXiv",
+    "title": "Are Diffusion Language Models Good Database Analysts?",
+    "year": "2026",
+    "abstract": "Recent advancements in large language models (LLMs) have significantly improved Natural Language to SQL (NL2SQL) tasks, yet most NL2SQL systems continue to rely on the autoregressive (AR) paradigm. The highly structured nature of SQL makes AR models susceptible to sequential error propagation due to their rigid left-to-right decoding process. Diffusion Language Models~(DLMs) have recently emerged as a promising alternative, replacing unidirectional decoding with iterative denoising to enable global sequence refinement. Nevertheless, the adoption of DLMs in NL2SQL is constrained by a fragmented ecosystem and the absence of a standardized evaluation framework, which obscures their true capabilities and impedes fair comparison with AR baselines. In this paper, we propose a unified evaluation framework that standardizes both generation and execution environments across various DLM architectures. To further improve the performance of DLMs-based NL2SQL systems, we propose \\texttt{SQL-D1}, a novel agentic framework that integrates database-aware context engineering, test-time scaling and interactive optimization. Through extensive empirical studies on scaling properties, post-training stability, and primary failure modes, we demonstrate that DLMs offer distinct advantages in structural robustness and facilitate flexible trade-offs between efficiency and accuracy. By distilling these insights into structured takeaways, our work provides a systematic understanding of DLMs-based NL2SQL and lays the foundation for future database analysis agents.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.27791v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Are LLMs Overkill for Databases?: A Study on the Finiteness of SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2603.25568v1",
@@ -15378,6 +15411,49 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "Token Optimization Strategies for LLM-Based Oracle-to-PostgreSQL Migration": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.28557v1",
+    "author": "Oleg Grynets and Dmytro Babarytskyi and Vasyl Lyashkevych",
+    "booktitle": "arXiv",
+    "title": "Token Optimization Strategies for LLM-Based Oracle-to-PostgreSQL Migration",
+    "year": "2026",
+    "abstract": "LLMs are increasingly used for software modernization, code translation, and database migration. However, LLM-based Oracle2PostgreSQL migration remains constrained by high token consumption, long-context degradation, dialect-specific semantic differences, and the risk of semantic drift during query transformation. Direct inclusion of large Oracle SQL/PL-SQL artefacts, schema definitions, procedural logic, and migration instructions into the model context increases cost and may reduce generation quality. This paper shows token optimization as a constrained transformation problem in LLM-based Oracle2PostgreSQL migration. The study formalizes and evaluates twelve token optimization strategies: baseline representation, context pruning, minification, DSL-based semantic compression, metadata augmentation, context refactoring, schema distillation, adaptive routing, AST-based minification, identifier masking, output constraint enforcement, and hybrid optimization. The strategies are evaluated on samples of 10 and 100 Oracle SQL queries using Valid Syntax Rate, Exact Match, Semantic Match, CodeBLEU, and Token Efficiency. The results show that mild context pruning preserves semantic quality almost at the baseline level, achieving 89.75% Semantic Match on the 100-query sample compared with 89.80% for the unoptimized baseline. Adaptive routing provides the best practical trade-off, reducing input tokens by 8.72% and output tokens by 5.49% while maintaining 88.40% Semantic Match and increasing Token Efficiency by 6.67%. Aggressive schema distillation increases Token Efficiency by 132.22% but results in a 44.50-percentage-point decrease in Semantic Match. The findings demonstrate that token optimization cannot be treated as simple prompt shortening; it must be evaluated as a multi-objective migration problem balancing cost, syntactic validity, semantic preservation, and structural fidelity.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.28557v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Pre-training and Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Semantic Layer / Metadata",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Domain Constraint Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Dialect Adaptation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Tool-Aware Planning in Contact Center AI: Evaluating LLMs through Lineage-Guided Query Decomposition": {
     "type": "ARTICLE",

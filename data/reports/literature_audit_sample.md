@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_application | ArXiv | 2026 | LARGER: Lexically Anchored Repository Graph Exploration and Retrieval | missing doi |
-| arxiv | true_positive_application | ArXiv | 2024 | ChatBI: Towards Natural Language to Complex Business Intelligence SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | CarbonChat: Large Language Model-Based Corporate Carbon Emission Analysis and Climate Knowledge Q&A System | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | DeKeyNLU: Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Role-Conditioned Refusals: Evaluating Access Control Reasoning in Large Language Models | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Datrics Text2SQL: A Framework for Natural Language to SQL Query Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Sparks of Tabular Reasoning via Text2SQL Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Exploring Database Normalization Effects on SQL Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2025 | Evaluating Autoformalization Robustness via Semantically Similar Paraphrasing | missing doi |
-| fill | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| fill | true_positive_core | ArXiv | 2025 | SQL-Exchange: Transforming SQL Queries Across Domains | missing doi |
+| fill | true_positive_core | ArXiv | 2026 | ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement | missing doi |
+| fill | true_positive_core | SIGMOD | 2024 | CodeS: Towards Building Open-source Language Models for Text-to-SQL | missing doi, abstract |
+| fill | true_positive_core | ArXiv | 2024 | SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder | missing doi |

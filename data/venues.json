@@ -157,7 +157,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/AAAI2024.json",
-          "sha256": "92e128c5710f8237c22e1a9314be862d3167d4ee2e9f8847823ce9496522ea7a"
+          "sha256": "5dfc3d1c54e6f469d6e3a8a0d362a91f21f67fb60d556f3e4ac1c560bd55975c"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "910da8021c03ee8e2b30c3db64feae8c2e3025f824397248adb5251c4b12c97c"
+          "sha256": "5d2e6b1286f4facc56947f09cf1d44fffd47e074bd79f202470101d5d5dfd65c"
         }
       ],
       "processing": {
@@ -1621,7 +1621,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ICCV2023.json",
-          "sha256": "51fdfa0c65bcfad771c27bf5214851ff511a78a59e6f8464bf97bf4f7c6933c1"
+          "sha256": "b98e5e33187ee83740cf9c190e7cf2186b7fd19253f918c9be5f42a11ceb1079"
         }
       ],
       "processing": {

@@ -1905,6 +1905,46 @@
     ],
     "relevance_level": "core"
   },
+  "Better Later Than Sooner: Neuro-Symbolic Knowledge Graph Construction via Ontology-grounded Post-extraction Correction": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.29168v1",
+    "author": "Lorenzo Loconte and Timothy Hospedales and Cristina Cornelio",
+    "booktitle": "arXiv",
+    "title": "Better Later Than Sooner: Neuro-Symbolic Knowledge Graph Construction via Ontology-grounded Post-extraction Correction",
+    "year": "2026",
+    "abstract": "Question answering (QA) is a core challenge in AI, particularly for complex queries requiring multi-hop reasoning across documents, or symbolic operations like aggregation or exhaustive listing. Retrieval-augmented generation has become the dominant approach to QA, with recent graph-based variants addressing part of these issues by organizing knowledge to better support compositional questions. However, most textual graph-based RAG methods still lack the structure needed for symbolic operations useful to answer complex questions reliably. This motivates symbolic graph-based approaches, which extract knowledge graphs (KGs) whose relations are logic predicates that enable SQL-like querying. Yet these pipelines typically use LLMs for KG extraction, which can introduce consistency issues, where extracted facts may violate commonsense ontology constraints. We propose a neuro-symbolic framework for ontology-grounded KG construction combining open-domain extraction, embedding-based canonicalization of types and predicates, and targeted LLM-based correction of ontology violations. By deferring corrections to a post-extraction stage, our method avoids repeated LLM calls, substantially reducing token usage while improving KG consistency and preserving downstream QA quality. Finally, we show that the extracted KGs are well suited for symbolic querying by measuring the occurrence of SPARQL graph patterns.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.29168v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Knowledge Graph / External Knowledge",
+      "Planning and Generation",
+      "Neural-symbolic Parsing"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Beyond Manual Curation: Augmenting Targeted Protein Degradation Databases via Agentic Literature Extraction Workflows": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.11221v1",
@@ -5691,6 +5731,37 @@
     "pipeline_stages": [
       "Query Planning",
       "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "EviLink: Multi-Path Schema Linking with Uncertainty-Guided Evidence Acquisition for Large-Scale Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.29670v1",
+    "author": "Huawei Zheng and Sen Yang and Zhaorui Yang and Yuhui Zhang and Haozhe Feng and Haoxuan Li and Xuan Yi and Chao Hu and Defeng Xie and Chen Hou and Danqing Huang and Wei Chen and Yingcai Wu and Peng Chen and Dazhen Deng",
+    "booktitle": "arXiv",
+    "title": "EviLink: Multi-Path Schema Linking with Uncertainty-Guided Evidence Acquisition for Large-Scale Text-to-SQL",
+    "year": "2026",
+    "abstract": "Schema linking is a difficult and important step in large-scale Text-to-SQL, where systems must identify a compact yet sufficient schema context from large and ambiguous databases. Existing methods often treat schema linking as deterministic selection around a single SQL path, but complex questions may admit multiple valid realizations with different schema needs. We reframe schema linking as uncertainty-aware schema-need inference over multiple plausible SQL paths, where the system distinguishes required schema items from path-dependent uncertain ones and acquires evidence only where needed. We instantiate this reframing with EviLink, which combines multi-hypothesis schema grounding with uncertainty-guided evidence acquisition. Experiments on BIRD-Dev and Spider2-Snow show that this perspective improves the balance among schema completeness, schema relevance, and token cost. On Spider2-Snow, EviLink achieves 90.15% field-level strict recall rate, uses 123.30K average tokens, and improves downstream SQL generation under a fixed generator.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.29670v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -11791,6 +11862,43 @@
       "Step-by-step Reasoning",
       "SQL Generation",
       "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
+  "Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2602.00994v2",
+    "author": "Yu Li and Mingyang Yi and Xiuyu Li and Ju Fan and Fuxin Jiang and Binbin Chen and Peng Li and Jie Song and Tieying Zhang",
+    "booktitle": "arXiv",
+    "title": "Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning",
+    "year": "2026",
+    "abstract": "Agentic Reinforcement Learning (ARL) trains large language models to interleave reasoning with external tool execution to solve complex tasks. Most existing ARL methods train a single set of parameters to support both reasoning and tool-use behaviors, implicitly assuming that joint training leads to improved overall agent performance. Despite its widespread adoption, this assumption has rarely been examined empirically. In this paper, we systematically examine this assumption by introducing Capability Effect Attribution (CEA), which provides quantitative evidence of interference between reasoning and tool-use behaviors. Through an in-depth analysis, we show that these two capabilities often induce misaligned gradient directions, leading to training interference that undermines the effectiveness of joint optimization and challenges the prevailing ARL paradigm. To address this issue, we propose Disentangled Action--Reasoning Tuning (DART), a simple and efficient framework that explicitly decouples parameter updates for reasoning and tool use via separate low-rank adaptation modules. With this simple change alone, DART outperforms all joint-optimization baselines and approaches the 2-Agent upper bound across thirteen benchmarks on retrieval-augmented QA and NL2SQL, further supporting our finding of capability interference under shared optimization.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2602.00994v2",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Tool Use and Execution Guidance"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
     ],
     "relevance_level": "core"
   },

@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
+      "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -438,25 +438,25 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.17053v3"
+        "https://arxiv.org/abs/2510.15560v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CarbonChat: Large Language Model-Based Corporate Carbon Emission Analysis and Climate Knowledge Q&A System",
+      "title": "Can Language Models Analyze Data? Evaluating Large Language Models for Question Answering over Datasets",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2501.02031v1"
+        "https://arxiv.org/abs/2605.10419v1"
       ],
       "notes": "missing doi"
     },
@@ -479,25 +479,25 @@
       "notes": "missing doi"
     },
     {
-      "title": "Role-Conditioned Refusals: Evaluating Access Control Reasoning in Large Language Models",
+      "title": "Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.07642v1"
+        "https://arxiv.org/abs/2605.03450v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Datrics Text2SQL: A Framework for Natural Language to SQL Query Generation",
+      "title": "Database Entity Recognition with Data Augmentation and Deep Learning",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -510,12 +510,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2506.12234v1"
+        "https://arxiv.org/abs/2508.19372v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Sparks of Tabular Reasoning via Text2SQL Reinforcement Learning",
+      "title": "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +523,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2505.00016v2"
+        "https://arxiv.org/abs/2604.25149v1"
       ],
       "notes": "missing doi"
     },
@@ -551,7 +551,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis",
+      "title": "Every Step Counts: Step-Level Credit Assignment for Tool-Integrated Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -564,7 +564,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.04875v1"
+        "https://arxiv.org/abs/2605.04719v2"
       ],
       "notes": "missing doi"
     },
@@ -702,7 +702,7 @@
       "notes": ""
     },
     {
-      "title": "ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement",
+      "title": "Error Detection for Text-to-SQL Semantic Parsing",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -710,35 +710,36 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.03742v1"
+        "https://arxiv.org/abs/2305.13683v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+      "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "CVPR",
+      "normalized_venue": "CVPR",
+      "category": "AI 领域",
       "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2024.sigmod.org/sigmod-list.html"
+        "10.1109/CVPR52733.2024.01464",
+        "https://doi.org/10.1109/CVPR52733.2024.01464"
       ],
-      "notes": "missing doi, abstract"
+      "notes": ""
     },
     {
-      "title": "SQL-Encoder: Improving NL2SQL In-Context Learning Through a Context-Aware Encoder",
+      "title": "SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -746,12 +747,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2024",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2403.16204v1"
+        "https://arxiv.org/abs/2509.03937v2"
       ],
       "notes": "missing doi"
     }

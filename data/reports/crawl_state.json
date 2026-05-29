@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:24Z",
-      "last_success_at": "2026-05-28T19:39:24Z",
+      "last_attempt_at": "2026-05-29T19:33:07Z",
+      "last_success_at": "2026-05-29T19:33:07Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 478,
-      "sha256": "910da8021c03ee8e2b30c3db64feae8c2e3025f824397248adb5251c4b12c97c",
+      "record_count": 479,
+      "sha256": "5d2e6b1286f4facc56947f09cf1d44fffd47e074bd79f202470101d5d5dfd65c",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -490,6 +490,90 @@
       "venue": "ICML",
       "year": "2025"
     },
+    "dblp-conference:ICSE:2020": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2020/ICSE2020.json",
+      "record_count": 129,
+      "sha256": "d3c4086a093443efc3a4f92a975d7b99fbf74247a6edac86c1b6952aad92f1ae",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2020"
+    },
+    "dblp-conference:ICSE:2021": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2021/ICSE2021.json",
+      "record_count": 138,
+      "sha256": "358e63cf019456602bedab1cf1c8b8ada87147e0743bdd7b5c1dde5e60aa1680",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2021"
+    },
+    "dblp-conference:ICSE:2022": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2022/ICSE2022.json",
+      "record_count": 199,
+      "sha256": "5a7164f3bf5b851390873e2ad9953eb49322534b7a9c20179eb227e7c752d06f",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2022"
+    },
+    "dblp-conference:ICSE:2023": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2023/ICSE2023.json",
+      "record_count": 211,
+      "sha256": "0ce0246583904e3a90d4c68ffa937dcb8d9a4056017ce53cd1d7d82f40d4a676",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2023"
+    },
+    "dblp-conference:ICSE:2024": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2024/ICSE2024.json",
+      "record_count": 237,
+      "sha256": "4a6d00687ae12a094a2764525e75cf7e00cf4d5d40687fb1a2459ca873a9fe87",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2024"
+    },
+    "dblp-conference:ICSE:2025": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2025/ICSE2025.json",
+      "record_count": 245,
+      "sha256": "18f51ef20d12f0369075e7ae38cd0722f05acf387bc82d70ffd1382582c73619",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2025"
+    },
     "dblp-conference:IJCAI:2020": {
       "error": "",
       "last_attempt_at": "2026-05-22T18:56:21Z",
@@ -660,8 +744,8 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:37:57Z",
-      "last_success_at": "2026-05-28T19:37:57Z",
+      "last_attempt_at": "2026-05-29T19:32:32Z",
+      "last_success_at": "2026-05-29T19:32:32Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
       "sha256": "8eb171a762122bdd9f9b571333ac7b425ad431c8937839c31d891c5fd1596c16",
@@ -674,8 +758,8 @@
     },
     "dblp-conference:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:38:55Z",
-      "last_success_at": "2026-05-28T19:38:55Z",
+      "last_attempt_at": "2026-05-29T19:32:38Z",
+      "last_success_at": "2026-05-29T19:32:38Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021.json",
       "record_count": 2334,
       "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6",
@@ -730,7 +814,7 @@
     },
     "dblp-conference:NEURIPS:2025": {
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-05-28T19:39:01Z",
+      "last_attempt_at": "2026-05-29T19:32:42Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025.json",
       "record_count": 0,
@@ -1260,10 +1344,38 @@
       "venue": "ICML",
       "year": "2026"
     },
+    "official-accepted:ICSE:2024": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2024/ICSE2024-accepted.json",
+      "record_count": 234,
+      "sha256": "9f5c78c12e01897fb6af8632026e41dc44a62b271afb1b01a4cbc2bf27005c24",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2024"
+    },
+    "official-accepted:ICSE:2025": {
+      "error": "",
+      "last_attempt_at": "2026-05-29T19:32:22Z",
+      "last_success_at": "2026-05-29T19:32:22Z",
+      "rawdata_path": "data/rawdata/2025/ICSE2025-accepted.json",
+      "record_count": 245,
+      "sha256": "b06797b5cfd5d8c916fc60773c7a8876b572133bcce9f20e560977219f06a2cc",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "ICSE",
+      "year": "2025"
+    },
     "official-accepted:ICSE:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-18T12:15:10Z",
-      "last_success_at": "2026-05-18T12:15:10Z",
+      "last_attempt_at": "2026-05-29T19:33:11Z",
+      "last_success_at": "2026-05-29T19:33:11Z",
       "rawdata_path": "data/rawdata/2026/ICSE2026-accepted.json",
       "record_count": 322,
       "sha256": "36155f3f18088601c65789466a55e72d319b9f8e4f6c85a590f244002d1aaac7",
@@ -1388,8 +1500,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:26Z",
-      "last_success_at": "2026-05-28T19:39:26Z",
+      "last_attempt_at": "2026-05-29T19:33:15Z",
+      "last_success_at": "2026-05-29T19:33:15Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -1402,8 +1514,8 @@
     },
     "official-accepted:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:30Z",
-      "last_success_at": "2026-05-28T19:39:30Z",
+      "last_attempt_at": "2026-05-29T19:33:20Z",
+      "last_success_at": "2026-05-29T19:33:20Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
       "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
@@ -1416,8 +1528,8 @@
     },
     "official-accepted:NEURIPS:2022": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:35Z",
-      "last_success_at": "2026-05-28T19:39:35Z",
+      "last_attempt_at": "2026-05-29T19:33:25Z",
+      "last_success_at": "2026-05-29T19:33:25Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
       "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
@@ -1430,8 +1542,8 @@
     },
     "official-accepted:NEURIPS:2023": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:40Z",
-      "last_success_at": "2026-05-28T19:39:40Z",
+      "last_attempt_at": "2026-05-29T19:33:31Z",
+      "last_success_at": "2026-05-29T19:33:31Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
       "sha256": "9dfcc668023c85da911e0d18c14601eb9ef5cc6c75db2877bc891689e3618949",
@@ -1444,8 +1556,8 @@
     },
     "official-accepted:NEURIPS:2024": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:47Z",
-      "last_success_at": "2026-05-28T19:39:47Z",
+      "last_attempt_at": "2026-05-29T19:33:38Z",
+      "last_success_at": "2026-05-29T19:33:38Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
       "sha256": "b60b3c80e797ef348c634316a42a31a9c7946a8145f6257d6f86bbb4214e442d",
@@ -1458,8 +1570,8 @@
     },
     "official-accepted:NEURIPS:2025": {
       "error": "",
-      "last_attempt_at": "2026-05-28T19:39:54Z",
-      "last_success_at": "2026-05-28T19:39:54Z",
+      "last_attempt_at": "2026-05-29T19:33:45Z",
+      "last_success_at": "2026-05-29T19:33:45Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025-accepted.json",
       "record_count": 5782,
       "sha256": "77b2cb8a9c91e1b7223b0a0324e5a6a52865413aca80265d0da198af5e10625a",
@@ -1612,7 +1724,7 @@
     }
   },
   "rotation": {
-    "cursor": 13,
+    "cursor": 14,
     "history": [
       {
         "cursor": 2,
@@ -1780,12 +1892,26 @@
           "NeurIPS",
           "SIGIR"
         ]
+      },
+      {
+        "cursor": 14,
+        "failed": [
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-05-29T20:03:58Z",
+        "succeeded": [
+          "ICSE"
+        ],
+        "venues": [
+          "NeurIPS",
+          "ICSE"
+        ]
       }
     ],
-    "last_completed_at": "2026-05-28T20:05:10Z",
+    "last_completed_at": "2026-05-29T20:03:58Z",
     "last_selected": [
       "NeurIPS",
-      "SIGIR"
+      "ICSE"
     ],
     "retry_queue": [
       "NeurIPS",

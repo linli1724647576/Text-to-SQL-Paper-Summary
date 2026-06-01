@@ -2,12 +2,12 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:22Z",
-      "last_success_at": "2026-05-31T18:16:22Z",
+      "last_attempt_at": "2026-06-01T20:56:52Z",
+      "last_success_at": "2026-06-01T20:56:52Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 479,
-      "sha256": "5d2e6b1286f4facc56947f09cf1d44fffd47e074bd79f202470101d5d5dfd65c",
-      "source": "arxiv-existing-kept",
+      "record_count": 478,
+      "sha256": "666ed271b11f89461c156c910cdc5dbd2dffd6245f476b62654746c485687098",
+      "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
       "track": "arXiv",
@@ -826,6 +826,90 @@
       "venue": "IJCAI",
       "year": "2025"
     },
+    "dblp-conference:ISSTA:2020": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2020/ISSTA2020.json",
+      "record_count": 55,
+      "sha256": "1a30bd55658e2d15155f07b1ea3e29f07fbde7e74dcf33209a73518550941509",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2020"
+    },
+    "dblp-conference:ISSTA:2021": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2021/ISSTA2021.json",
+      "record_count": 59,
+      "sha256": "e2a8dee76b08771cd986f2d572ea578fbb44945c0fb9dd4da5b96e307bded869",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2021"
+    },
+    "dblp-conference:ISSTA:2022": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2022/ISSTA2022.json",
+      "record_count": 72,
+      "sha256": "48b906b5aabf6ce2da49e73cea83d9212bbe39a9fe281f7d9797ac0a77b59a6b",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2022"
+    },
+    "dblp-conference:ISSTA:2023": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2023/ISSTA2023.json",
+      "record_count": 138,
+      "sha256": "32826fd8e16503a80434521c263c7c6aaf9eceb88f17c3010a0fe598e5c8da21",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2023"
+    },
+    "dblp-conference:ISSTA:2024": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2024/ISSTA2024.json",
+      "record_count": 170,
+      "sha256": "7247bf85c89438f5e3f114c9fb3ddf619884287d30e116daaf607706614531a4",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2024"
+    },
+    "dblp-conference:ISSTA:2025": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2025/ISSTA2025.json",
+      "record_count": 35,
+      "sha256": "817e3d0ee8e0f41f124cdb9b587a5545d84d620953a01699aa24731cf5ede8ae",
+      "source": "dblp-conference",
+      "source_type": "dblp-conference",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2025"
+    },
     "dblp-conference:KDD:2020": {
       "error": "",
       "last_attempt_at": "2026-05-26T19:22:01Z",
@@ -912,8 +996,8 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:06:50Z",
-      "last_success_at": "2026-05-31T18:06:50Z",
+      "last_attempt_at": "2026-06-01T20:56:18Z",
+      "last_success_at": "2026-06-01T20:56:18Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
       "sha256": "8eb171a762122bdd9f9b571333ac7b425ad431c8937839c31d891c5fd1596c16",
@@ -926,8 +1010,8 @@
     },
     "dblp-conference:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:07:26Z",
-      "last_success_at": "2026-05-31T18:07:26Z",
+      "last_attempt_at": "2026-06-01T20:56:24Z",
+      "last_success_at": "2026-06-01T20:56:24Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021.json",
       "record_count": 2334,
       "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6",
@@ -982,7 +1066,7 @@
     },
     "dblp-conference:NEURIPS:2025": {
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-05-31T18:07:33Z",
+      "last_attempt_at": "2026-06-01T20:56:29Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025.json",
       "record_count": 0,
@@ -1694,6 +1778,34 @@
       "venue": "IJCAI",
       "year": "2025"
     },
+    "official-accepted:ISSTA:2024": {
+      "error": "parsed only 0 entries",
+      "last_attempt_at": "2026-06-01T20:56:53Z",
+      "last_success_at": "",
+      "rawdata_path": "data/rawdata/2024/ISSTA2024-accepted.json",
+      "record_count": 0,
+      "sha256": "",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "empty",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2024"
+    },
+    "official-accepted:ISSTA:2025": {
+      "error": "",
+      "last_attempt_at": "2026-06-01T20:56:12Z",
+      "last_success_at": "2026-06-01T20:56:12Z",
+      "rawdata_path": "data/rawdata/2025/ISSTA2025-accepted.json",
+      "record_count": 95,
+      "sha256": "8e8780aa56025ebe18244d0c0bb390d3d81ad38ae5b251be254073be07d7c6e0",
+      "source": "official-accepted",
+      "source_type": "official-accepted",
+      "status": "complete",
+      "track": "",
+      "venue": "ISSTA",
+      "year": "2025"
+    },
     "official-accepted:KDD:2024": {
       "error": "",
       "last_attempt_at": "2026-05-18T12:41:54Z",
@@ -1724,8 +1836,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:25Z",
-      "last_success_at": "2026-05-31T18:16:25Z",
+      "last_attempt_at": "2026-06-01T20:57:09Z",
+      "last_success_at": "2026-06-01T20:57:09Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -1738,8 +1850,8 @@
     },
     "official-accepted:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:29Z",
-      "last_success_at": "2026-05-31T18:16:29Z",
+      "last_attempt_at": "2026-06-01T20:57:18Z",
+      "last_success_at": "2026-06-01T20:57:18Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
       "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
@@ -1752,8 +1864,8 @@
     },
     "official-accepted:NEURIPS:2022": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:35Z",
-      "last_success_at": "2026-05-31T18:16:35Z",
+      "last_attempt_at": "2026-06-01T20:57:37Z",
+      "last_success_at": "2026-06-01T20:57:37Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
       "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
@@ -1766,8 +1878,8 @@
     },
     "official-accepted:NEURIPS:2023": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:41Z",
-      "last_success_at": "2026-05-31T18:16:41Z",
+      "last_attempt_at": "2026-06-01T20:57:54Z",
+      "last_success_at": "2026-06-01T20:57:54Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
       "sha256": "9dfcc668023c85da911e0d18c14601eb9ef5cc6c75db2877bc891689e3618949",
@@ -1780,8 +1892,8 @@
     },
     "official-accepted:NEURIPS:2024": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:48Z",
-      "last_success_at": "2026-05-31T18:16:48Z",
+      "last_attempt_at": "2026-06-01T20:58:09Z",
+      "last_success_at": "2026-06-01T20:58:09Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
       "sha256": "b60b3c80e797ef348c634316a42a31a9c7946a8145f6257d6f86bbb4214e442d",
@@ -1794,8 +1906,8 @@
     },
     "official-accepted:NEURIPS:2025": {
       "error": "",
-      "last_attempt_at": "2026-05-31T18:16:56Z",
-      "last_success_at": "2026-05-31T18:16:56Z",
+      "last_attempt_at": "2026-06-01T20:58:18Z",
+      "last_success_at": "2026-06-01T20:58:18Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025-accepted.json",
       "record_count": 5782,
       "sha256": "77b2cb8a9c91e1b7223b0a0324e5a6a52865413aca80265d0da198af5e10625a",
@@ -1948,7 +2060,7 @@
     }
   },
   "rotation": {
-    "cursor": 16,
+    "cursor": 17,
     "history": [
       {
         "cursor": 2,
@@ -2158,16 +2270,30 @@
           "NeurIPS",
           "ASE"
         ]
+      },
+      {
+        "cursor": 17,
+        "failed": [
+          "ISSTA",
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-06-01T21:39:49Z",
+        "succeeded": [],
+        "venues": [
+          "NeurIPS",
+          "ISSTA"
+        ]
       }
     ],
-    "last_completed_at": "2026-05-31T19:00:07Z",
+    "last_completed_at": "2026-06-01T21:39:49Z",
     "last_selected": [
       "NeurIPS",
-      "ASE"
+      "ISSTA"
     ],
     "retry_queue": [
       "NeurIPS",
-      "WWW"
+      "WWW",
+      "ISSTA"
     ]
   },
   "version": 1

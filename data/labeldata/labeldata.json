@@ -4857,6 +4857,36 @@
     ],
     "relevance_level": "core"
   },
+  "DisasterLex: An Expert Concept-to-Schema Knowledge Graph for Geospatial Reasoning in Disaster Analytics": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.30538v1",
+    "author": "Yiming Xiao and Ankit Basu and Kai Yin and Sahil Vartak and Christian Swords and Ali Mostafavi",
+    "booktitle": "arXiv",
+    "title": "DisasterLex: An Expert Concept-to-Schema Knowledge Graph for Geospatial Reasoning in Disaster Analytics",
+    "year": "2026",
+    "abstract": "Disasters are inevitable and increasingly costly, and effective response depends on querying structured tabular data: precise, information-dense records of hazard, exposure, vulnerability, and lifeline infrastructure that underpin disaster management. Current text-to-SQL methods enable natural-language access to such tables but transfer poorly to the disaster domain, where queries span heterogeneous geospatial schemas and require reasoning over causal relations. We introduce DisasterLex, a knowledge-graph-mediated framework that inserts an Expert Knowledge Graph (EKG) of curated concepts and typed causal edges between the user query and the database, bridged to schema by concept-to-table links. The orchestration runs four stages (identifying query entities, routing to the operational domain, planning over causal edges, and grounding the SQL), restricting the schema passed to the model at each step. We instantiate it on a disaster-analytics database (36 geospatial tables, 150 columns) with an EKG of 107 concepts, 117 causal edges, and 52 concept-to-schema links, evaluated on a 75-query test set. On all seven base models spanning proprietary and open-weight families, DisasterLex beats four state-of-the-art baselines (LightRAG, HippoRAG 2, ReFoRCE, CHESS) by 1.4x to 2.75x, with absolute scores of 1.65 to 3.56 (of 5.0). Error analysis shows baseline failures cluster in routing and multi-table SQL composition, the operations our orchestration explicitly addresses. Code, data, and the EKG artifact are available at https://github.com/YimingXiao98/DisasterLex and on Zenodo at https://doi.org/10.5281/zenodo.20388029.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.30538v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Conversational Data Analysis",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Knowledge Graph / External Knowledge"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Disentangling Ambiguity from Instability in Large Language Models: A Clinical Text-to-SQL Case Study": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2602.12015v1",
@@ -9540,6 +9570,42 @@
     ],
     "relevance_level": "core"
   },
+  "Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.30365v1",
+    "author": "Yizhu Wen and Shuhao Zhang and Nan Zhang and Long Cheng and Hanqing Guo",
+    "booktitle": "arXiv",
+    "title": "Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation",
+    "year": "2026",
+    "abstract": "Retrieval-augmented text-to-music (TTM) systems augment underspecified user prompts using captions retrieved from a music caption dataset. This design introduces an integrity dependency on the music knowledge database. We show that an attacker can poison the database by injecting a small number of crafted music captions, causing the system to retrieve malicious captions that bias prompt augmentation and steer generation away from the user's intended function, without modifying the user prompt, retriever, or generator. To achieve the music caption poisoning attack, we propose a dual-layer caption poisoning strategy that preserves high-level retrieval anchors while injecting low-level acoustic descriptors to steer prompt augmentation and downstream music generation toward an attacker-chosen target intent. In a MusicCaps knowledge database, CLAP retriever, and MusicGen pipeline, poisoned generations move substantially closer to the attacker's target, while remaining comparably aligned with the original user query. These results expose a practical integrity risk for retrieval-augmented creative AI systems. Our demo can be found at: https://yizhu-wen.github.io/Mental-Damage/",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.30365v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Merging Weak and Active Supervision for Semantic Parsing": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/NiYN20",
@@ -14202,6 +14268,37 @@
     "pipeline_stages": [
       "Grounding",
       "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Sophrosyne: Agentic Exploration of Relational Data Systems Needs Moderation": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2605.30862v1",
+    "author": "Madhav Jivrajani and Ramnatthan Alagappan and Aishwarya Ganesan",
+    "booktitle": "arXiv",
+    "title": "Sophrosyne: Agentic Exploration of Relational Data Systems Needs Moderation",
+    "year": "2026",
+    "abstract": "Text2SQL agents powered by LLMs translate natural language intent into SQL by exploring the data system through tool calls before formulating the query. However, to ensure secure and scoped access, data systems construct environments with explicit API surfaces. We study and categorize these APIs exposed today as either coarse-grained or fine-grained and posit that choosing between them presents a fundamental tradeoff between cost-efficient exploration and accurate SQL generation. Most data systems expose fine-grained APIs, but this inadvertently disadvantages agents: they over-explore, incorporating irrelevant schema elements into their query formulation and produce inaccurate results. We argue that curbing over-exploration is key to the effective use of these API surfaces, and propose Sophrosyne, a data system environment that augments API responses with directives that guide the agent's exploration process. Initial results show that directives reduce over-exploration by 4.6x and boost accuracy by up to 12.4% (approx. 4 percentage points).",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2605.30862v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
       "SQL Generation"
     ],
     "relevance_level": "core"

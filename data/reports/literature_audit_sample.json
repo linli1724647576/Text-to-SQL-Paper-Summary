@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+      "title": "JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -438,7 +438,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.15560v1"
+        "https://arxiv.org/abs/2505.14305v3"
       ],
       "notes": "missing doi"
     },
@@ -479,20 +479,20 @@
       "notes": "missing doi"
     },
     {
-      "title": "Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News",
+      "title": "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.03450v1"
+        "https://arxiv.org/abs/2510.26495v2"
       ],
       "notes": "missing doi"
     },
@@ -515,7 +515,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
+      "title": "SecureLLM: Using Compositionality to Build Provably Secure Language Models for Private, Sensitive, and Secret Data",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -523,12 +523,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.25149v1"
+        "https://arxiv.org/abs/2405.09805v2"
       ],
       "notes": "missing doi"
     },
@@ -551,11 +551,11 @@
       "notes": "missing doi"
     },
     {
-      "title": "Every Step Counts: Step-Level Credit Assignment for Tool-Integrated Text-to-SQL",
+      "title": "Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -564,7 +564,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.04719v2"
+        "https://arxiv.org/abs/2602.07086v1"
       ],
       "notes": "missing doi"
     },
@@ -702,7 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Error Detection for Text-to-SQL Semantic Parsing",
+      "title": "Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -710,12 +710,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2305.13683v2"
+        "https://arxiv.org/abs/2510.17797v2"
       ],
       "notes": "missing doi"
     },
@@ -739,7 +739,7 @@
       "notes": ""
     },
     {
-      "title": "SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning",
+      "title": "SLM-SQL: An Exploration of Small Language Models for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -752,7 +752,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.03937v2"
+        "https://arxiv.org/abs/2507.22478v1"
       ],
       "notes": "missing doi"
     }

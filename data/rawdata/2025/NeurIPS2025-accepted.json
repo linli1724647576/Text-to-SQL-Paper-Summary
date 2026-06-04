@@ -17110,7 +17110,7 @@
   "PhysDrive: A Multimodal Remote Physiological Measurement Dataset for In-vehicle Driver Monitoring": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-physdrive-a-multimodal-remote-physiological-measurement-dataset-for-in-vehicle-d",
-    "author": "Wang and Xiao Yang and Qingyong Hu and Jack Tang and Can Liu and Dengbo He and Yuntao Wang and Yingcong Chen and Kaishun Wu Datasets and Benchmarks Track",
+    "author": "Jiyao Wang and Xiao Yang and Qingyong Hu and Jack Tang and Can Liu and Dengbo He and Yuntao Wang and Yingcong Chen and Kaishun Wu Datasets and Benchmarks Track <div class=\"paper-con",
     "booktitle": "NeurIPS Conference",
     "title": "PhysDrive: A Multimodal Remote Physiological Measurement Dataset for In-vehicle Driver Monitoring",
     "year": "2025",
@@ -26840,7 +26840,7 @@
   "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-does-reinforcement-learning-really-incentivize-reasoning-capacity-in-llms-beyond",
-    "author": "Zhiqi Chen and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang Main Conference Track",
+    "author": "Zhiqi Chen and Yang Yue and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
     "year": "2025",
@@ -50850,7 +50850,7 @@
   "IDOL: Meeting Diverse Distribution Shifts with Prior Physics for Tropical Cyclone Multi-Task Estimation": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-idol-meeting-diverse-distribution-shifts-with-prior-physics-for-tropical-cyclone",
-    "author": "HantingYan Yan and Pan Mu and Shiqi Zhang and Yuchao Zhu and jinglin zhang and Cong Bai Main Conference Track <div class=\"paper-conten",
+    "author": "HantingYan and Pan Mu and Shiqi Zhang and Yuchao Zhu and jinglin zhang and Cong Bai Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "IDOL: Meeting Diverse Distribution Shifts with Prior Physics for Tropical Cyclone Multi-Task Estimation",
     "year": "2025",
@@ -67398,7 +67398,7 @@
   "MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-medagentboard-benchmarking-multi-agent-collaboration-with-conventional-methods-f",
-    "author": "Yinghao Zhu and Ziyi He and Haoran Hu and Xiaochen Zheng and Xichen Zhang and Wang and Junyi Gao and Liantao Ma and Lequan Yu Datasets and Benchmarks Track <div class=\"paper-content",
+    "author": "Yinghao Zhu and Ziyi He and Haoran Hu and Xiaochen Zheng and Xichen Zhang and Jiyao Wang and Junyi Gao and Liantao Ma and Lequan Yu Datasets and Benchmarks Track <div class=\"paper-c",
     "booktitle": "NeurIPS Conference",
     "title": "MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks",
     "year": "2025",

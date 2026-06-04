@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 19,
-  "cursor_before": 18,
+  "cursor_after": 20,
+  "cursor_before": 19,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "TKDE"
+    "VLDBJ"
   ],
   "retry_venues": [
     "NeurIPS"
   ],
-  "selected_at": "2026-06-03T20:19:17Z",
+  "selected_at": "2026-06-04T19:23:47Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "NeurIPS",
-    "TKDE"
+    "VLDBJ"
   ],
-  "venues_csv": "NeurIPS,TKDE",
+  "venues_csv": "NeurIPS,VLDBJ",
   "version": 1
 }

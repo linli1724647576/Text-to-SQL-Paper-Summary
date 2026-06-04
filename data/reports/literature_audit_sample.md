@@ -15,10 +15,10 @@
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
 | ccf_conference | true_positive_application | SIGMOD | 2024 | Demonstrating CAESURA: Language Models as Multi-Modal Query Planners |  |
 | ccf_conference | true_positive_core | SIGMOD | 2025 | DataDazzle: Intelligent Data Exploration through Natural Language |  |
-| ccf_conference | true_positive_core | VLDB | 2026 | Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards | missing doi |
-| ccf_conference | true_positive_core | IJCAI | 2020 | RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task |  |
+| ccf_conference | true_positive_core | NeurIPS | 2023 | Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing | missing doi |
+| ccf_conference | true_positive_core | ACL | 2020 | RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers |  |
 | ccf_conference | true_positive_core | ACL | 2024 | Learning Relational Decomposition of Queries for Question Answering from Tables |  |
-| ccf_conference | true_positive_core | ICML | 2026 | Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases | missing doi |
+| ccf_conference | true_positive_application | VLDB | 2025 | SiriusBI: A Comprehensive LLM-powered Solution for Data Analytics in Business Intelligence | missing doi |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICDE | 2026 | Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards | missing doi, abstract |
 | readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling | missing doi |
-| arxiv | true_positive_application | ArXiv | 2026 | Can Language Models Analyze Data? Evaluating Large Language Models for Question Answering over Datasets | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | Improved NL2SQL based on Multi-layer Expert Network | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Database Entity Recognition with Data Augmentation and Deep Learning | missing doi |
-| arxiv | true_positive_core | ArXiv | 2024 | SecureLLM: Using Compositionality to Build Provably Secure Language Models for Private, Sensitive, and Secret Data | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2020 | Data Agnostic RoBERTa-based Natural Language to SQL Query Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
-| arxiv | true_positive_application | ArXiv | 2026 | Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2025 | Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics | missing doi |
-| fill | true_positive_application | CVPR | 2024 | ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles |  |
-| fill | true_positive_core | ArXiv | 2025 | SLM-SQL: An Exploration of Small Language Models for Text-to-SQL | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation | missing doi |
+| fill | true_positive_core | ICDE | 2025 | Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models |  |
+| fill | true_positive_core | ArXiv | 2026 | Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL | missing doi |

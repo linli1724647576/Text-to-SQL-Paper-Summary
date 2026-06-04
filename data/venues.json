@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "666ed271b11f89461c156c910cdc5dbd2dffd6245f476b62654746c485687098"
+          "sha256": "276aec96995f54a3ff0fb768daf9c65288c0fb333832003fbec09b67f0f601d5"
         }
       ],
       "processing": {
@@ -3461,7 +3461,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/NeurIPS2025-accepted.json",
-          "sha256": "24566bb923a3623aa36c993c0ce60b6f52286c9a3537fad7971f6bb33f13ab7f"
+          "sha256": "aa9aaaa10e3e47fe593dda584a36c7f0c1bf553410ad2718eb46cf323fc72733"
         }
       ],
       "processing": {

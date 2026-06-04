@@ -620,7 +620,7 @@
     "booktitle": "arXiv",
     "title": "APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL",
     "year": "2026",
-    "abstract": "Text-to-SQL systems powered by Large Language Models have excelled on academic benchmarks but struggle in complex enterprise environments. The primary limitation lies in their reliance on static schema representations, which fails to resolve semantic ambiguity and scale effectively to large, complex databases. To address this, we propose APEX-SQL, an Agentic Text-to-SQL Framework that shifts the paradigm from passive translation to agentic exploration. Our framework employs a hypothesis-verification loop to ground model reasoning in real data. In the schema linking phase, we use logical planning to verbalize hypotheses, dual-pathway pruning to reduce the search space, and parallel data profiling to validate column roles against real data, followed by global synthesis to ensure topological connectivity. For SQL generation, we introduce a deterministic mechanism to retrieve exploration directives, allowing the agent to effectively explore data distributions, refine hypotheses, and generate semantically accurate SQLs. Experiments on BIRD (70.65% execution accuracy) and Spider 2.0-Snow (51.01% execution accuracy) demonstrate that APEX-SQL outperforms competitive baselines with reduced token consumption. Further analysis reveals that agentic exploration acts as a performance multiplier, unlocking the latent reasoning potential of foundation models in enterprise settings. Ablation studies confirm the critical contributions of each component in ensuring robust and accurate data analysis.",
+    "abstract": "Text-to-SQL systems powered by Large Language Models have excelled on academic benchmarks but struggle in complex enterprise environments. The primary limitation lies in their reliance on static schema representations, which fails to resolve semantic ambiguity and scale effectively to large, complex databases. To address this, we propose APEX-SQL, an Agentic Text-to-SQL Framework that shifts the paradigm from passive translation to agentic exploration. Our framework employs a hypothesis-verification loop to ground model reasoning in real data. In the schema linking phase, we use logical planning to verbalize hypotheses, dual-pathway pruning to reduce the search space, and parallel data profiling to validate column roles against real data, followed by global synthesis to ensure topological connectivity. For SQL generation, we introduce a deterministic mechanism to retrieve exploration directives, allowing the agent to effectively explore data distributions, refine hypotheses, and generate semantically accurate SQLs. Experiments on BIRD (70.65% execution accuracy) and Spider 2.0-Snow (51.01% execution accuracy) demonstrate that APEX-SQL outperforms competitive baselines with reduced token consumption. Further analysis reveals that agentic exploration acts as a performance multiplier, unlocking the latent reasoning potential of foundation models in enterprise settings. Ablation studies confirm the critical contributions of each component in ensuring robust and accurate data analysis. Our code is released at https://github.com/Tencent/APEX-SQL-Project.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2602.16720v1",
     "doi": "",
@@ -1583,6 +1583,45 @@
     ],
     "relevance_level": "core"
   },
+  "BADGER: Bridging Agentic and Deterministic Evaluation for Generative Enterprise Reasoning": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.02109v1",
+    "author": "Shannon Serrao and Soumitra Chatterjee and Dorina Strori and Abhishek Sharma and Nathan Miller",
+    "booktitle": "arXiv",
+    "title": "BADGER: Bridging Agentic and Deterministic Evaluation for Generative Enterprise Reasoning",
+    "year": "2026",
+    "abstract": "Enterprise AI systems that translate natural language into SQL queries and orchestrate multi-step agentic reasoning pipelines require evaluation approaches fundamentally different from academic benchmarks. Spider and BIRD established execution-accuracy protocols; G-Eval and RAGAS advanced LLM-based assessment; and recent work such as Spider 2.0, BEAVER, and BIRD-Interact has begun to address enterprise and agentic dimensions. No single framework unifies text-to-SQL assessment with agentic behavior evaluation into a production-grade pipeline calibrated against human expert judgment. We present BADGER, developed at Merkle, a unified evaluation framework integrating text-to-SQL assessment with agentic behavior evaluation. BADGER offers three contributions. First, LLM-assisted SQL component extraction extending Spider methodology to handle CTE-heavy, dialect-specific SQL. Second, a hybrid execution accuracy metric (Hybrid-EX) resolving column-aliasing and numeric-tolerance brittleness by using an LLM to infer structural alignments before deterministic cell-level scoring. Validated on 150 human-annotated industry queries, Hybrid-EX achieves Cohen's kappa=0.717 [95% CI: 0.600-0.822] (Substantial agreement) and 87.3% balanced accuracy, outperforming all six competing frameworks (Delta-kappa: 0.322-0.502, all p<=0.001). Third, an enterprise agentic evaluation suite assembling RAGAS, G-Eval, and agent benchmark metrics into a unified pipeline; Excess Tool Usage is the sole novel element. BADGER runs entirely within the client's governed data environment, supports configurable LLM judge backends, and enables rapid prototyping of client-specific judges and metrics, serving as a continuous evaluation backbone rather than a one-time quality gate.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.02109v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Dialect Adaptation"
+    ],
+    "relevance_level": "core"
+  },
   "BAPPA: Benchmarking Agents, Plans, and Pipelines for Automated Text-to-SQL Generation": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2511.04153v1",
@@ -1869,6 +1908,40 @@
       "Context Retrieval",
       "SQL Generation",
       "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
+  "Benchmarking Local LLMs for Natural-Language-to-SQL Querying in Biopharmaceutical Manufacturing: An Empirical Benchmark on Consumer-Grade Hardware": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.01338v1",
+    "author": "Sagar Bhetwal and Rajan Bastakoti and Nirajan Acharya and Gaurav Kumar Gupta",
+    "booktitle": "arXiv",
+    "title": "Benchmarking Local LLMs for Natural-Language-to-SQL Querying in Biopharmaceutical Manufacturing: An Empirical Benchmark on Consumer-Grade Hardware",
+    "year": "2026",
+    "abstract": "Biopharmaceutical manufacturing organizations operate under regulatory frameworks such as FDA guidance, EU Good Manufacturing Practice (GMP), and the EU AI Act, which can restrict the use of cloud-based artificial intelligence systems. Locally deployed large language models (LLMs) offer a privacy-preserving alternative, but their suitability for pharmaceutical manufacturing tasks remains underexplored. This study evaluates four open-source LLMs (Qwen 2.5 Coder 7B, Llama 3.1 8B, Mistral 7B, and Meditron 7B) deployed locally via Ollama for natural-language-to-SQL generation over a pharmaceutical manufacturing database. A FastAPI-based evaluation platform, PharmaBatchDB AI, was developed using a synthetic Microsoft SQL Server database containing approximately 63,000 records across Batch, Manufacturing Execution System (MES), and Clean-In-Place (CIP) modules. Models were benchmarked on 60 domain-specific natural-language questions using metrics including SQL extraction rate, SQL compliance, factual consistency, ROUGE-L, hallucination rate, throughput, and latency. Qwen 2.5 Coder 7B, Llama 3.1 8B, and Mistral 7B generated SQL for all evaluation tasks, while Meditron 7B failed on nearly all tasks due to context-window limitations and poor SQL generation capability. Llama 3.1 8B achieved the highest SQL compliance, whereas Qwen 2.5 Coder 7B achieved the strongest overall text similarity and factual consistency. Performance differences between the two leading models were not statistically significant. The results show that code-tuned general-purpose LLMs outperform a domain-specific biomedical model on structured query generation for pharmaceutical manufacturing data. Although fully local, GxP-aligned NLQ systems are feasible on consumer hardware, current performance levels still require human oversight and downstream validation for regulated use.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.01338v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Verification & Repair",
+      "Result Validation"
     ],
     "relevance_level": "core"
   },
@@ -2589,6 +2662,40 @@
       "Step-by-step Reasoning",
       "SQL Generation",
       "Prompt-based Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "CAPER: Clause-Aligned Process Supervision for Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.03327v1",
+    "author": "Lujie Ban and Jiasheng Shi and Jinyang Li and Xiaolin Han and Tsz Nam Chan and Chenhao Ma",
+    "booktitle": "arXiv",
+    "title": "CAPER: Clause-Aligned Process Supervision for Text-to-SQL",
+    "year": "2026",
+    "abstract": "Text-to-SQL systems are typically evaluated by query-level execution correctness, but this terminal signal provides little guidance about which intermediate SQL decision caused success or failure. Token-level dense supervision is also ill-suited: SQL tokens do not align with complete semantic decisions, can penalize execution-equivalent queries, and are difficult to label reliably at scale. We therefore propose CAPER, which automatically derives clause-level supervision via counterfactual intervention on the SQL abstract syntax tree, enabling root-cause error localization for reward modeling; the resulting data is used to train CAPER-9B, a lightweight Clause-PRM that provides clause-boundary feedback for policy optimization and candidate verification. Experiments on BIRD and Spider show that clause-aligned supervision not only improves execution accuracy, achieving up to a 15.3% relative EX improvement over GPT-5.4, but also strengthens failure-localization capability, reaching 84.53% accuracy and 90.60% MRR on held-out failures. Our project page is at https://github.com/banrichard/RL-NL2SQL.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.03327v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Verification & Repair"
     ],
     "relevance_level": "core"
   },
@@ -5340,6 +5447,46 @@
     ],
     "relevance_level": "core"
   },
+  "Efficient RAG with Intent-Aware Retrieval and Semantics-Preserving Chunking": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.01240v1",
+    "author": "Fachrina Dewi Puspitasari and Chaoning Zhang and Jiaquan Zhang and Zhicheng Wang and Hafiz Shakeel Ahmad Awan and Rizwan Qureshi and Jewon Lee and Tae-Ho Kim and Yang Yang",
+    "booktitle": "arXiv",
+    "title": "Efficient RAG with Intent-Aware Retrieval and Semantics-Preserving Chunking",
+    "year": "2026",
+    "abstract": "The demand for powerful instruction following and reasoning capability of large language models (LLMs) has promoted rapid development of retrieval-augmented generation (RAG). The RAG system assists LLM generation by retrieving chunks of query-fit supplementary knowledge from an external database. Conventional RAG systems, however, suffer from information insufficiency due to two factors, which are intent-agnostic retrieval and information fragmentation. Our work proposes a RAG framework, termed InSemRAG, that addresses these challenges via an iterative retrieve-and-check mechanism with two supporting modules, an intention-aware retriever (IAR) and semantics-preserving chunking (SPC). IAR implements a dynamic hybrid retrieval method that adaptively weights the retrieval channels based on the query intent, while SPC performs detection and reparation to the damaged evidence chunks to preserve the semantic integrity. To alleviate the computational latency brought by our iterative mechanism, we leverage small language models (SLMs). Extensive experiments across several benchmark datasets consistently demonstrate the competitiveness of our method against recent state-of-the-art RAG mechanisms. Particularly, our method achieves significant gains on multi-hop and evidence-sensitive tasks, with a 2.65-point improvement in F1 on HotPotQA and a 1.5-point increase in accuracy on FEVER. Our method also achieves competitive performance to Multi-Hop RAG with 4.32$\\times$ lower latency with the utilization of SLM.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.01240v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4396597709",
@@ -5498,6 +5645,36 @@
       "Empirical Study"
     ],
     "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "EntSQL: A Benchmark for Grounding Text-to-SQL in Long-Context Enterprise Knowledge": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.03363v1",
+    "author": "Chengxi Liao and Tao Xu and Zulong Chen and Chuanfei Xu and Yiyan Wang and Xinyun Wang and Yanlong Zhang and Xiaojun Chen and Zhibo Yang and Zeyi Wen",
+    "booktitle": "arXiv",
+    "title": "EntSQL: A Benchmark for Grounding Text-to-SQL in Long-Context Enterprise Knowledge",
+    "year": "2026",
+    "abstract": "Text-to-SQL enables natural language access to databases, and recent LLMs have substantially advanced its capabilities. Existing benchmarks such as Spider, BIRD, and Spider~2.0 evaluate schema generalization, large-scale databases, and realistic workflows, but largely overlook enterprise scenarios where SQL generation depends on private business knowledge, such as internal metrics, reporting conventions, and organizational rules. We introduce EntSQL, an enterprise-oriented Text-to-SQL benchmark for evaluating long-context grounding over proprietary business documents. EntSQL contains 1,066 aligned Chinese-English semantic examples across five business domains, with most examples requiring domain knowledge beyond the question and schema and involving complex SQL structures. On English inputs, the best evaluated system reaches only 15.9\\% when long-form documents are provided, highlighting the difficulty of grounding SQL generation in enterprise knowledge.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.03363v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
       "SQL Generation"
     ],
     "relevance_level": "core"
@@ -7608,6 +7785,41 @@
     ],
     "relevance_level": "core"
   },
+  "ImageAuditor: Membership Inference Attack against Image-based Retrieval-Augmented Generation": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.03354v1",
+    "author": "Jinghuai Zhang and Pengyue Yu and Zhexiao Lin and Kunlin Cai and Fnu Suya and Yuan Tian",
+    "booktitle": "arXiv",
+    "title": "ImageAuditor: Membership Inference Attack against Image-based Retrieval-Augmented Generation",
+    "year": "2026",
+    "abstract": "Image-based Retrieval-Augmented Generation (IRAG) conditions a frozen generator on reference images retrieved from an external database, supporting both text-to-image (T2I) and question answering (Q&A) tasks. Because these databases are opaque and web-scraped, copyright holders need ways to audit whether specific images appear in them. While prior work employs membership inference attacks (MIAs) to audit uni-modal, text-based RAG, they fail to transfer to IRAG due to two key challenges. First, cross-modal retrieval: text-RAG MIAs force retrieval of the target passage by injecting its content into the query, which is unavailable in IRAG since images cannot be embedded into text queries; even accurate image captions fail to bridge the modality gap. Second, discriminative signal extraction: text-RAG MIAs extract membership signals by prompting the generator to answer multiple questions over the target passage, whereas T2I generators in IRAG produce images rather than follow Q&A commands. To fill this gap, we introduce the first MIA tailored to IRAG, ImageAuditor, which decomposes each attack query into a retrieval segment and an extraction segment, enabling dedicated optimization for each challenge. For retrieval, we propose Reward-Guided Policy Optimization (RGPO), which updates a stochastic policy from reward-ranked candidates to navigate the cross-modal embedding landscape and admits finite-sample optimality guarantees to balance exploration and exploitation. For extraction, we analyze the distribution of the MIA score to guide the co-design of the prompting strategy and scoring rule, and derive task-specific instantiations for T2I and Q&A tasks. We aggregate signals across queries via K-means clustering for reliable membership decisions. Across various IRAG systems, ImageAuditor exceeds 80% AUROC with only four queries per audited image and remains robust across diverse settings.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.03354v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Security and Access Control"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Improved NL2SQL based on Multi-layer Expert Network": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2306.17727v3",
@@ -8758,6 +8970,44 @@
     ],
     "relevance_level": "core"
   },
+  "Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.00547v1",
+    "author": "Yibo Wang and Nikki Lijing Kuang and Philip S. Yu and Zhewei Yao and Yuxiong He",
+    "booktitle": "arXiv",
+    "title": "Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents",
+    "year": "2026",
+    "abstract": "Interactive text-to-SQL agents solve database tasks through multi-turn interactions involving schema exploration, query execution, feedback interpretation, and decision revision. Long-term memory helps agents reuse past experiences, but existing retrieval methods remain limited. Static methods rely on fixed similarity heuristics that do not optimize downstream utility, while dynamic methods often learn from sparse final outcomes and retrieve memories at a single decision horizon. This is insufficient when memory usefulness changes across interaction stages, since memories useful for initial planning may differ from those needed for local, state-conditioned execution. We propose MERIT, a dynamic multi-horizon memory retrieval framework. MERIT maintains episode-level memory for global strategic guidance and turn-level memory for local decision support. Both levels use learned retrieval policies optimized with reinforcement learning. To train turn-level retrieval despite limited intermediate supervision, MERIT uses a lightweight Process Reward Model to provide dense proxy rewards for local memory selection. Experiments on BIRD-Interact show that MERIT outperforms no-memory, static-retrieval, and dynamic-retrieval baselines in success rate while reducing average interaction turns. Transfer results on Spider2-Snow further show positive cross-benchmark transfer without benchmark-specific tuning. These results suggest that multi-horizon retrieval improves experience reuse in interactive text-to-SQL agents.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.00547v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Reinforcement Learning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Dialogue Context Tracking",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Learning to Self-Evolve": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2603.18620v1",
@@ -9735,6 +9985,41 @@
     ],
     "relevance_level": "core"
   },
+  "Mitigating Bias in Locally Constrained Decoding via Tractable Proposals": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.01926v1",
+    "author": "Meihua Dang and Linxin Song and Honghua Zhang and Jieyu Zhao and Guy Van den Broeck and Stefano Ermon",
+    "booktitle": "ICML Conference",
+    "title": "Mitigating Bias in Locally Constrained Decoding via Tractable Proposals",
+    "year": "2026",
+    "abstract": "Generations from large language models often fail to conform to desired constraints such as JSON schema. Existing locally constrained decoding (LCD) approaches enforce constraints by myopically masking out next tokens, resulting in biased sampling and degradation in performance. Recent work uses sequential Monte Carlo (SMC) methods to mitigate such biases, but designing effective proposal distributions or potential functions remains a key challenge. In this work, we propose a generic approach to construct proposals and potentials for SMC sampling from $p_{\\mathrm{lm}}( \\cdot \\mid \\mathrm{constraint})$. First, we show that constraints specified as finite automata can be tensorized for efficient execution on GPUs, which we use to construct globally constrained decoding (GCD) proposals. In addition, leveraging the fact that tensorized finite automata share the same circuit structure as hidden Markov models, we circuit-multiply them to obtain the probabilistic GCD (P-GCD) proposals encoding both logical and probabilistic information about the target distributions. We evaluate (P-)GCD on the tasks of function calling, keyword-based generation, and SQL generation. Experiments show that under the same SMC sampling setup, compared to LCD proposals, (P-)GCD converges faster to the target distribution with significantly fewer particles.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.01926v1",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Constrained Decoding",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Domain Constraint Understanding",
+      "Grounding",
+      "SQL Generation",
+      "Constrained Decoding"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "MultiSpider: Towards Benchmarking Multilingual Text-to-SQL Semantic Parsing": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Dou0PWCZL23",
@@ -10358,6 +10643,40 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "ODTQA-FoRe: An Open-Domain Tabular Question Answering Dataset for Future Data Forecasting and Reasoning": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.02433v1",
+    "author": "Zhensheng Wang and Xiaole Liu and Wenmian Yang and Kun Zhou and Yiquan Zhang and Weijia Jia",
+    "booktitle": "arXiv",
+    "title": "ODTQA-FoRe: An Open-Domain Tabular Question Answering Dataset for Future Data Forecasting and Reasoning",
+    "year": "2026",
+    "abstract": "The rapid development of LLMs has significantly advanced tabular question answering, but most systems cannot perform future-oriented numerical prediction. To address this gap, we introduce a novel task, Open-Domain Tabular Question Answering for Future Data Forecasting and Reasoning, and propose the first dataset to cover time-series forecasting and forecast-based reasoning scenarios using real estate data. This task poses challenges in retrieving precise historical data, overcoming the forecasting limitations of LLMs, and standardizing responses for diverse queries. To solve the above challenges, we propose TimeFore, an LLM agent-based framework that decomposes the problem into three collaborative roles: a Retriever autonomously generates SQL to fetch data, a Forecaster invokes external time-series models for higher accuracy, and an Analyzer synthesizes the results to construct a precise and consistent final answer. Extensive experiments demonstrate the effectiveness of our TimeFore.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.02433v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "ORANGE: An Online Reflection ANd GEneration framework with Domain Knowledge for Text-to-SQL": {
     "type": "ARTICLE",
@@ -11348,6 +11667,43 @@
       "Grounding"
     ],
     "relevance_level": "core"
+  },
+  "QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.04646v1",
+    "author": "Mengao Zhang and Xiang Yang and Chang Liu and Tianhui Tan and Ke-wei Huang",
+    "booktitle": "arXiv",
+    "title": "QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples",
+    "year": "2026",
+    "abstract": "Many real-world questions over business, legal, and scientific corpora are natural-language versions of database-style queries over records latent in text. Existing retrieval-augmented generation (RAG) systems are optimized primarily for semantic relevance, but retrieving plausible passages does not guarantee correct query execution. We introduce QO-Bench, a diagnostic benchmark for query-operator question answering over typed event tuples. The benchmark covers 22,984 news articles and 614 corporate events across 18 query templates, evaluated on 785 questions. Each gold answer is deterministically computed from typed event tuples and scored by recall, with answers matched to the gold tuples by exact match rather than an LLM judge. This design enables operator-level diagnosis such as joins and intersection. We evaluate RAG, ReAct RAG, GraphRAG, and information-extraction-to-SQL under matched conditions, with a long-context oracle ceiling to isolate retrieval failure. A two-axis framework -- index-time preservation versus query-time execution -- predicts where each paradigm fails, and the results bear it out: systems retrieve relevant text but discard the typed values operators need, and the deployable paradigm ranking inverts across operators, with similarity retrieval leading on filter/project and extraction-to-SQL on intersection and counting. Even given the gold evidence, a long-context oracle stays far from saturated, so operator execution -- not retrieval alone -- is a core bottleneck that a stronger answer model does not remove. QO-Bench reframes the goal from passage relevance to query-operator-preserving retrieval.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.04646v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks": {
     "type": "ARTICLE",
@@ -12693,6 +13049,40 @@
     ],
     "relevance_level": "core"
   },
+  "SANE Schema-aware Natural-language Evaluation of Biological Data": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.04500v1",
+    "author": "Rolf Gattung and Martin Krueger and Markus Reischl",
+    "booktitle": "arXiv",
+    "title": "SANE Schema-aware Natural-language Evaluation of Biological Data",
+    "year": "2026",
+    "abstract": "High-throughput microscopy generates large, structured datasets capturing cellular responses to pharmacological perturbations, but accessing these datasets typically requires SQL expertise. Large language models offer a natural-language alternative, yet their tendency to hallucinate raises concerns about result reliability . We present SANE Schema-Aware Natural-language Evaluation, a novel paradigm for domain-specific text-to-SQL evaluation: schema-grounded, automatically generated benchmarks tied to real and specific experimental structure. SANE makes evaluation more scalable, systematic, and reproducible. Using SANE, we evaluate a few-shot large language model and show that, under constrained schemas with structured prompting and guardrails, accurate query generation is achievable without any model training or fine-tuning. Most failures stem from ambiguous or underspecified inputs and manifest as overly cautious clarification requests or answers to queries that should first be disambiguated, rather than incorrect SQL generation. These results indicate that few-shot large language models can provide reliable database access in well-defined domains when combined with schema-aware prompting.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.04500v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
   "SAR: A Structure-Aligned Reasoning Framework for Temporal Knowledge Graph Question Answering": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuLTW26",
@@ -12887,6 +13277,40 @@
       "SQL Generation",
       "Fine-tuned Generation",
       "Verification & Repair",
+      "Self-correction"
+    ],
+    "relevance_level": "core"
+  },
+  "SIRIUS-SQL: Anchoring Multi-Candidate Text-to-SQL in Execution Feedback": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.01246v1",
+    "author": "Leo Luo and Haining Xie and Siqi Shen and Zhipeng Ma and Rui Ling and Hang Xu and Hefeng Jiang and Dingwei Chen and Yang Li and Peng Chen and Jie Jiang",
+    "booktitle": "arXiv",
+    "title": "SIRIUS-SQL: Anchoring Multi-Candidate Text-to-SQL in Execution Feedback",
+    "year": "2026",
+    "abstract": "Text-to-SQL on complex schemas is unreliable on a single pass, so recent systems generate multiple SQL candidates and let voting filter out errors. Yet voting alone is not enough, because the multi-candidate recipe has three coupled weaknesses: 1) sampling more from a single generator produces increasingly redundant candidates, 2) existing pipelines apply one generic correction to every non-clean execution result, while runtime errors, timeouts, and empty results each indicate a different distance from correctness, and 3) existing selectors rely on a single angle such as result-majority voting or pairwise SQL comparison, missing what other angles would have caught. We present SIRIUS-SQL, which addresses all three weaknesses. A difficulty-smoothing RL recipe trains SIRIUS-32B to generate diverse executable SQL candidates, paired with a generalist LLM that fills in gaps left by the specialist. An execution-grounded lifecycle classifies each outcome and applies targeted repair before candidates re-enter the pool. A confidence-gated hybrid selector combines execution-result agreement with pairwise SQL-form judgment, escalating only near-tied cases to a deterministic structural check. SIRIUS-SQL reaches 75.88% on BIRD dev and 91.20% on SPIDER test. Two of three generalist pairings surpass Agentar-Scale-SQL, the strongest published multi-candidate system on BIRD dev.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.01246v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Self-consistency / Voting",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Verification & Repair",
+      "Execution Feedback",
       "Self-correction"
     ],
     "relevance_level": "core"
@@ -15424,6 +15848,46 @@
       "SQL Generation",
       "Verification & Repair",
       "Self-correction"
+    ],
+    "relevance_level": "core"
+  },
+  "The Case for Text-to-SQL Friendly Logical Database Design": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.03145v1",
+    "author": "Shi Heng Zhang and Zhengjie Miao and Jiannan Wang",
+    "booktitle": "arXiv",
+    "title": "The Case for Text-to-SQL Friendly Logical Database Design",
+    "year": "2026",
+    "abstract": "Logical database design has traditionally optimized database schemas, including tables, columns, keys, constraints, and views, for correctness, integrity, and human-written application queries. LLM-based Text-to-SQL changes the consumer: the schema is now often read as text by a language model, so design choices that preserve database semantics can still change SQL-generation accuracy. We argue that this creates a new design objective alongside the classical ones - LLM-friendly logical database design, the property that a schema is easy for a language model to map from natural language to correct SQL - and treat it as the optimization target of this paper. We instantiate this objective with three semantics-preserving schema transformations that re-purpose classical schema-design ideas: schema abstraction (+A: logical views that materialize recurring join paths), schema partitioning (+P: workload-aware logical partitions that prune irrelevant context), and schema renaming (+R: descriptive identifiers that improve downstream column linking and predicate construction). The three operators compose, and each preserves the underlying database semantics. When historical question-SQL pairs are available, they guide both partitioning and abstraction; in zero-shot settings, renaming applies directly, and abstraction falls back to an ad-hoc per-question variant. We evaluate the resulting schemas on BIRD-Union and Spider-Union across multiple Text-to-SQL pipelines and language model backbones, with gains of up to 4.2% in execution accuracy. The best transformation varies modestly across pipelines and models, with the full +A+P+R consistently improving; multiple operator combinations are competitive on each pipeline. These results show that LLM-friendly logical design is a practical and underexplored database-side optimization target, complementary to existing Text-to-SQL pipelines.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.03145v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Planning and Generation",
+      "Join Path Planning",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
+      "Query Planning",
+      "Join Path Planning",
+      "SQL Generation",
+      "Prompt-based Generation"
     ],
     "relevance_level": "core"
   },

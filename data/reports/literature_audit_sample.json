@@ -162,39 +162,39 @@
       "notes": ""
     },
     {
-      "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
+      "title": "Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2026",
+      "venue": "NeurIPS",
+      "normalized_venue": "NeurIPS",
+      "category": "AI 领域",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.08778v3"
+        "https://arxiv.org/abs/2310.04801v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task",
+      "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "IJCAI",
-      "normalized_venue": "IJCAI",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
       "category": "AI 领域",
       "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.24963/ijcai.2020/504",
-        "https://doi.org/10.24963/ijcai.2020/504"
+        "10.18653/v1/2020.acl-main.677",
+        "https://doi.org/10.18653/v1/2020.acl-main.677"
       ],
       "notes": ""
     },
@@ -218,20 +218,20 @@
       "notes": ""
     },
     {
-      "title": "Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases",
+      "title": "SiriusBI: A Comprehensive LLM-powered Solution for Data Analytics in Business Intelligence",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICML",
-      "normalized_venue": "ICML",
-      "category": "AI 领域",
-      "year": "2026",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.17001v1"
+        "https://www.vldb.org/pvldb/vol18/p4860-xie.pdf"
       ],
       "notes": "missing doi"
     },
@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling",
+      "title": "Improved NL2SQL based on Multi-layer Expert Network",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,30 +433,30 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2505.14305v3"
+        "https://arxiv.org/abs/2306.17727v3"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Can Language Models Analyze Data? Evaluating Large Language Models for Question Answering over Datasets",
+      "title": "CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.10419v1"
+        "https://arxiv.org/abs/2311.01173v1"
       ],
       "notes": "missing doi"
     },
@@ -479,43 +479,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2510.26495v2"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Database Entity Recognition with Data Augmentation and Deep Learning",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2508.19372v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "SecureLLM: Using Compositionality to Build Provably Secure Language Models for Private, Sensitive, and Secret Data",
+      "title": "ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -528,7 +492,43 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2405.09805v2"
+        "https://arxiv.org/abs/2412.10138v3"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Data Agnostic RoBERTa-based Natural Language to SQL Query Generation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2020",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2010.05243v3"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2604.06736v1"
       ],
       "notes": "missing doi"
     },
@@ -551,20 +551,20 @@
       "notes": "missing doi"
     },
     {
-      "title": "Evaluating Retrieval-Augmented Generation Variants for Natural Language-Based SQL and API Call Generation",
+      "title": "Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.07086v1"
+        "https://arxiv.org/abs/2510.17797v2"
       ],
       "notes": "missing doi"
     },
@@ -702,7 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics",
+      "title": "End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -715,31 +715,31 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.17797v2"
+        "https://arxiv.org/abs/2508.06387v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+      "title": "Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "CVPR",
-      "normalized_venue": "CVPR",
-      "category": "AI 领域",
-      "year": "2024",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ICDE",
+      "normalized_venue": "ICDE",
+      "category": "数据库领域",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/CVPR52733.2024.01464",
-        "https://doi.org/10.1109/CVPR52733.2024.01464"
+        "10.1109/ICDE65448.2025.00367",
+        "https://doi.org/10.1109/ICDE65448.2025.00367"
       ],
       "notes": ""
     },
     {
-      "title": "SLM-SQL: An Exploration of Small Language Models for Text-to-SQL",
+      "title": "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -747,12 +747,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2507.22478v1"
+        "https://arxiv.org/abs/2605.03720v1"
       ],
       "notes": "missing doi"
     }

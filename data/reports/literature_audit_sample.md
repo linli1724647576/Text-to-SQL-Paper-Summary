@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2023 | Improved NL2SQL based on Multi-layer Expert Network | missing doi |
-| arxiv | true_positive_core | ArXiv | 2023 | CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling | missing doi |
-| arxiv | true_positive_core | ArXiv | 2024 | ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2020 | Data Agnostic RoBERTa-based Natural Language to SQL Query Generation | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SQLStructEval: Structural Evaluation of LLM Text-to-SQL Generation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | IESR:Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | CORE-T: COherent REtrieval of Tables for Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics | missing doi |
+| arxiv | true_positive_core | ArXiv | 2022 | RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | DP-Bench: A Benchmark for Evaluating Data Product Creation Systems | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | AgentNLQ: A General-Purpose Agent for Natural Language to SQL | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2025 | End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation | missing doi |
-| fill | true_positive_core | ICDE | 2025 | Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models |  |
-| fill | true_positive_core | ArXiv | 2026 | Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL | missing doi |
+| fill | true_positive_core | ArXiv | 2024 | Blar-SQL: Faster, Stronger, Smaller NL2SQL | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | TailorSQL: An NL2SQL System Tailored to Your Query Workload | missing doi |
+| fill | true_positive_core | ArXiv | 2023 | Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding | missing doi |

@@ -1,28 +1,10 @@
 {
   "summary": {
     "ccf_raw_evidence_matches": 187,
-    "updated_count": 1,
-    "promoted_count": 1,
+    "updated_count": 0,
+    "promoted_count": 0,
     "metadata_fix_count": 0,
-    "already_aligned_count": 186
+    "already_aligned_count": 187
   },
-  "updates": [
-    {
-      "title": "Mitigating Bias in Locally Constrained Decoding via Tractable Proposals",
-      "from": {
-        "venue": "ArXiv",
-        "venue_track": "ArXiv",
-        "booktitle": "arXiv",
-        "journal": ""
-      },
-      "to": {
-        "venue": "ICML",
-        "venue_track": "AI 领域",
-        "booktitle": "ICML Conference",
-        "journal": ""
-      },
-      "rawdata_path": "data/rawdata/2026/ICML2026-accepted.json",
-      "rawdata_title": "Mitigating Bias in Locally Constrained Decoding via Tractable Proposals"
-    }
-  ]
+  "updates": []
 }

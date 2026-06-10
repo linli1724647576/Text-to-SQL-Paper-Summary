@@ -183,7 +183,7 @@ def find_neurips_paper_url(index_url, title):
     return ""
 
 
-def source_abstract(entry, title):
+def source_abstract(entry, title, skip_pdf=False):
     url = clean(entry.get("url", ""))
     doi = entry_doi(entry)
     if "/virtual/" in url and re.search(r"/(?:poster|paper)/", url):
@@ -195,6 +195,8 @@ def source_abstract(entry, title):
         apply_jsonld_metadata(entry, html)
         return abstract_from_html(html)
     if url.lower().endswith(".pdf"):
+        if skip_pdf:
+            return ""
         return abstract_from_pdf(url)
     if "proceedings.mlr.press/" in url:
         paper_url = url if url.endswith(".html") else find_indexed_paper_url(url, title)
@@ -317,37 +319,47 @@ def batch_by_doi(entries):
     return updated
 
 
-def enrich_file(
-    path,
-    limit=None,
-    delay=1.0,
-    skip_title_search=False,
-    skip_doi_batch=False,
-    title_filter=None,
-):
-    with open(path, encoding="utf-8") as f:
-        papers = json.load(f)
-    items = list(papers.items())
-    if skip_doi_batch:
-        updated = 0
-    else:
-        try:
-            updated = batch_by_doi(items)
-        except Exception as exc:
-            print(f"WARN: DOI batch failed for {path}: {exc}", file=sys.stderr)
-            updated = 0
-    checked = 0
+def candidate_items(items, limit=None, title_filter=None):
+    candidates = []
     for title, entry in items:
         if entry.get("abstract"):
             continue
         entry_title = entry.get("title") or title
         if title_filter and not title_filter.search(entry_title):
             continue
-        if limit is not None and checked >= limit:
+        if limit is not None and len(candidates) >= limit:
             break
-        checked += 1
+        candidates.append((title, entry))
+    return candidates
+
+
+def enrich_file(
+    path,
+    limit=None,
+    delay=1.0,
+    skip_title_search=False,
+    skip_doi_batch=False,
+    skip_pdf=False,
+    title_filter=None,
+):
+    with open(path, encoding="utf-8") as f:
+        papers = json.load(f)
+    items = list(papers.items())
+    candidates = candidate_items(items, limit=limit, title_filter=title_filter)
+    if skip_doi_batch:
+        updated = 0
+    else:
         try:
-            abstract = source_abstract(entry, entry_title)
+            updated = batch_by_doi(candidates)
+        except Exception as exc:
+            print(f"WARN: DOI batch failed for {path}: {exc}", file=sys.stderr)
+            updated = 0
+    for title, entry in candidates:
+        if entry.get("abstract"):
+            continue
+        entry_title = entry.get("title") or title
+        try:
+            abstract = source_abstract(entry, entry_title, skip_pdf=skip_pdf)
             if abstract:
                 entry["abstract"] = abstract
                 updated += 1
@@ -370,47 +382,77 @@ def enrich_file(
             time.sleep(delay)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(papers, f, indent=2, ensure_ascii=False)
-    return updated, checked
+    return updated, len(candidates)
+
+
+def venue_from_path(path):
+    match = re.match(r"([A-Za-z]+)\d{4}", Path(path).stem)
+    return match.group(1).lower() if match else ""
+
+
+def selected_files(paths, allowed_venues=None):
+    allowed = {item.strip().lower() for item in (allowed_venues or []) if item.strip()}
+    files = []
+    for item in paths:
+        path = Path(item)
+        if path.is_dir():
+            candidates = sorted(path.rglob("*.json"))
+        else:
+            candidates = [path]
+        for candidate in candidates:
+            if allowed and venue_from_path(candidate) not in allowed:
+                continue
+            files.append(candidate)
+    return files
 
 
 def main():
     parser = argparse.ArgumentParser(description="Enrich rawdata JSON abstracts")
     parser.add_argument("paths", nargs="+", help="JSON files or directories")
     parser.add_argument("--limit-per-file", type=int)
+    parser.add_argument("--global-limit", type=int, help="Stop after checking this many eligible records across all files")
     parser.add_argument("--delay", type=float, default=1.0)
     parser.add_argument("--skip-doi-batch", action="store_true")
     parser.add_argument("--skip-title-search", action="store_true")
+    parser.add_argument("--skip-pdf", action="store_true", help="Skip direct PDF downloads during source fallback")
+    parser.add_argument("--venues", help="Comma-separated venue abbreviations to process when paths contain rawdata directories")
     parser.add_argument(
         "--title-filter",
-        help="Only run per-title enrichment for records whose title matches this regex.",
+        help="Only enrich records whose title matches this regex.",
     )
     args = parser.parse_args()
 
-    files = []
-    for item in args.paths:
-        path = Path(item)
-        if path.is_dir():
-            files.extend(sorted(path.rglob("*.json")))
-        else:
-            files.append(path)
+    allowed_venues = args.venues.split(",") if args.venues else None
+    files = selected_files(args.paths, allowed_venues=allowed_venues)
 
     total_updated = 0
+    total_checked = 0
     title_filter = re.compile(args.title_filter, re.I) if args.title_filter else None
     for path in files:
         if path.name == "fetch_failures.json":
             continue
+        remaining = None
+        if args.global_limit is not None:
+            remaining = max(0, args.global_limit - total_checked)
+            if remaining == 0:
+                break
+        limit = args.limit_per_file
+        if remaining is not None:
+            limit = remaining if limit is None else min(limit, remaining)
         print(f"Enriching {path}", file=sys.stderr)
         updated, checked = enrich_file(
             path,
-            limit=args.limit_per_file,
+            limit=limit,
             delay=args.delay,
             skip_doi_batch=args.skip_doi_batch,
             skip_title_search=args.skip_title_search,
+            skip_pdf=args.skip_pdf,
             title_filter=title_filter,
         )
         total_updated += updated
+        total_checked += checked
         print(f"  updated {updated}/{checked}", file=sys.stderr)
-    print(f"Total updated abstracts: {total_updated}", file=sys.stderr)
+    print(f"Total updated abstracts: {total_updated}; checked: {total_checked}", file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -17152,7 +17152,7 @@
   "Adversarial Attack Generation Empowered by Min-Max Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/WangZLCXFL21",
-    "author": "Jingkang Wang and Tianyun Zhang and Sijia Liu 0001 and Pin-Yu Chen and Jiacen Xu and Makan Fardad and Bo Li 0026",
+    "author": "Jingkang Wang and Tianyun Zhang and Sijia Liu 0001 and Pin-Yu Chen and Jiacen Xu 0001 and Makan Fardad and Bo Li 0026",
     "booktitle": "NeurIPS",
     "title": "Adversarial Attack Generation Empowered by Min-Max Optimization.",
     "year": "2021",

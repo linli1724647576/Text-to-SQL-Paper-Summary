@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | IESR:Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | CORE-T: COherent REtrieval of Tables for Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | AgentSM: Semantic Memory for Agentic Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2022 | RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | DP-Bench: A Benchmark for Evaluating Data Product Creation Systems | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentNLQ: A General-Purpose Agent for Natural Language to SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SQL-ASTRA: Alleviating Sparse Feedback in Agentic SQL via Column-Set Matching and Trajectory Aggregation | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2024 | Blar-SQL: Faster, Stronger, Smaller NL2SQL | missing doi |
-| fill | true_positive_core | ArXiv | 2025 | TailorSQL: An NL2SQL System Tailored to Your Query Workload | missing doi |
-| fill | true_positive_core | ArXiv | 2023 | Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding | missing doi |
+| fill | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
+| fill | true_positive_application | IJCAI | 2022 | Table Pre-training: A Survey on Model Architectures, Pre-training Objectives, and Downstream Tasks |  |
+| fill | true_positive_application | ArXiv | 2025 | Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis | missing doi |

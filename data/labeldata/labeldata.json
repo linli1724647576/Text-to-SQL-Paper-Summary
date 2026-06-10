@@ -562,6 +562,36 @@
     ],
     "relevance_level": "core"
   },
+  "AI-Driven Test Case Generation from Natural Language Requirements: A Survey of Techniques and Research Gaps": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.06563v1",
+    "author": "Orimoloye Folorunsho and Hassan Reza",
+    "booktitle": "arXiv",
+    "title": "AI-Driven Test Case Generation from Natural Language Requirements: A Survey of Techniques and Research Gaps",
+    "year": "2026",
+    "abstract": "Software testing is critical for verifying that systems meet specified requirements, yet remains among the most time-consuming and expensive activities in development. Requirements-based test generation allows test cases to be derived early from requirements artifacts, but generating them directly from natural language is challenging due to inherent ambiguity and imprecision. Recent advances in AI, natural language processing (NLP), and large language models (LLMs) have made automating this pipeline increasingly feasible, while introducing new risks including hallucination, reduced traceability, and inconsistent evaluation. This survey addresses four research questions: what AI and NLP techniques have been proposed for generating test cases from natural language requirements; what tools and frameworks support these approaches; how generated test cases are evaluated; and what research gaps remain. Following Kitchenham and Charters' systematic review guidelines, we searched major scholarly databases spanning 2000-2025 and, after applying strict inclusion criteria, identified 21 primary studies. The literature is organized into three evolutionary eras, revealing that no existing approach simultaneously satisfies six key quality dimensions: automation, ambiguity handling, domain applicability, traceability, evaluation thoroughness, and hallucination control. The survey makes three main contributions: a three-era evolutionary synthesis of AI-based test generation; a six-criteria gap analysis showing no current approach fully addresses all quality dimensions; and four actionable research guidelines targeting hallucination, traceability, complexity sensitivity, and compliance.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.06563v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Li0LC025",
@@ -11691,6 +11721,41 @@
     ],
     "relevance_level": "core"
   },
+  "Progress-SQL: Improving Reinforcement Learning for Text-to-SQL via Progressive Rewards": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.06825v1",
+    "author": "Shihao Zhang and Xiaoman Wang and Yuan Liu and Yunshi Lan and Weining Qian",
+    "booktitle": "arXiv",
+    "title": "Progress-SQL: Improving Reinforcement Learning for Text-to-SQL via Progressive Rewards",
+    "year": "2026",
+    "abstract": "Reinforcement learning has recently shown promise in improving large language models for Text-to-SQL generation, yet existing methods typically optimize one-shot rewards defined over a single SQL state. Such rewards provide limited guidance for iterative SQL correction and are insufficient to capture the improvement of multi-turn SQL refinement. In this paper, we propose Progress-SQL, a multi-turn reinforcement learning framework with progressive rewards for Text-to-SQL. Our approach introduces an Oracle-guided Diagnostic Tree (ODT), which abstracts SQL queries into clause-level structural profiles and produces diagnostic feedback for next-turn refinement. To provide dense and robust reward signals, we combine ODT-based structural alignment with lexical alignment and define a progressive reward that measures the improvement from the initial SQL to the final SQL. We further incorporate a progression latency reward that favors earlier correctness and an execution status reward that encourages recovery from the invalid SQL. Experiments on BIRD, Spider, and Spider robustness variants demonstrate that our method consistently improves Text-to-SQL performance across both primary and robustness evaluations.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.06825v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Dialogue Context Tracking",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2511.20677v1",
@@ -13018,6 +13083,40 @@
     "pipeline_stages": [
       "Grounding",
       "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "Robust Active Learning for Few-Shot Example Selection in Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.10125v1",
+    "author": "Arash Pourhabib",
+    "booktitle": "arXiv",
+    "title": "Robust Active Learning for Few-Shot Example Selection in Text-to-SQL",
+    "year": "2026",
+    "abstract": "Few-shot example retrieval is the dominant paradigm for grounding large language models (LLMs) in domain-specific text-to-SQL systems. However, the quality of the annotated example bank directly governs system accuracy, and expert annotation is prohibitively expensive. We formalize the active selection of these examples as a constrained experimental design problem over the intrinsic, low-dimensional manifold of semantic query embeddings. Unlike standard active learning frameworks, our setting introduces three critical challenges: varying, query-dependent annotation reliability (heteroscedasticity), strict requirements for spatial diversity across semantic topics (partition matroid constraints), and the inherent reality that the true covariance structure of the embedding space is unknown (misspecification). To address these, we propose a stratified greedy algorithm that maximizes a heteroscedastic mutual information objective. We prove that this objective remains submodular and approximately monotonic on the intrinsic manifold, yielding a theoretical constant-factor approximation guarantee. We establish a spectral bound demonstrating that this approximation guarantee degrades gracefully, rather than catastrophically, when the assumed surrogate kernel diverges from the true underlying data-generating process. Empirical results demonstrate that the proposed strategy significantly reduces labeling effort while maintaining high text-to-SQL retrieval accuracy.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.10125v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Example Selection",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation"
     ],
     "relevance_level": "core"
   },
@@ -15998,6 +16097,39 @@
     ],
     "relevance_level": "core"
   },
+  "The AI Epistemic Deference Index: A Continuous Measure of Sycophancy": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.07897v1",
+    "author": "Alejandro Botas and Paul de Font-Reaulx and Luke Hewitt",
+    "booktitle": "arXiv",
+    "title": "The AI Epistemic Deference Index: A Continuous Measure of Sycophancy",
+    "year": "2026",
+    "abstract": "Current AI models frequently exhibit epistemic sycophancy, endorsing claims to agree with a user. Existing evaluations typically measure this either by assessing what it takes to make a model shift a binary endorsement or by eliciting an explicit probability in a proposition. However, much user-facing sycophantic behavior is demonstrated through shifts in graded support expressed through ordinary language. We propose the AI Epistemic Deference Index (AEDI): a continuous, unidimensional score representing how sensitive the support expressed in a model's output is to the attitude expressed in a user's prompt. To generate AEDI, we provide a new protocol for estimating probabilities from natural language outputs, using LLMs-as-judges validated for consistency and correlation to human judgment. We deploy it on a new curated database of 500 propositions across diverse topics and 16,000 prompts varying in user attitude, testing eight prominent models. Every model exhibits substantial deference, though with large and systematic differences across providers, with Claude models demonstrating the least, and Grok and Gemini models the most. The effect is amplified in prompts requesting a written artifact, and concentrated on propositions where models hold weaker priors. We release AEDI as an easy-to-update benchmark and measurement pipeline for output-level sycophancy evaluation.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.07897v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "The Case for Text-to-SQL Friendly Logical Database Design": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2606.03145v1",
@@ -16907,6 +17039,46 @@
     ],
     "relevance_level": "core"
   },
+  "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.08018v1",
+    "author": "Jianling Gao and Chongyang Tao and Jiayuan Bai and Liu Yang and Xuanguang Pan and Jinrui Liu and Shihao Xing and Xiaohan Xu and Jie Liang and Shuai Ma",
+    "booktitle": "arXiv",
+    "title": "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL",
+    "year": "2026",
+    "abstract": "Existing text-to-SQL benchmarks are largely centered on SQLite, making it difficult to evaluate whether models can generalize across heterogeneous SQL dialects. However, real-world database systems differ substantially in syntax, functions, type systems, and execution semantics, so the same natural language intent often requires dialect-specific SQL realizations. We introduce UniQL, a human-verified benchmark for cross-dialect text-to-SQL evaluation. UniQL aligns 1,534 natural language questions with executable SQL annotations across 16 SQL dialects, yielding 24,544 dialect-specific queries. All dialects share the same intents, aligned schemas and database contents, enabling controlled evaluation of dialect generalization. UniQL is constructed through a hybrid pipeline combining database migration, SQL translation, execution-guided verification, iterative rule summarization, and human validation. Experiments on both open-source and closed-source LLMs show that current models remain far from dialect-universal, with substantial performance variation across database systems and limited transfer from SQLite success to other dialects. These findings highlight the need for aligned cross-dialect benchmarks and more dialect-aware text-to-SQL methods. Code and data are available at https://github.com/JerryGao818/UniQL",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.08018v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Database Content Grounding",
+      "SQL Generation",
+      "Dialect Adaptation",
+      "Verification & Repair",
+      "Execution Feedback"
+    ],
+    "relevance_level": "core"
+  },
   "Unified Peripartum Database with Natural-Language-to-SQL Capabilities at Udine University Hospital: Design and Prototype": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2510.16388v1",
@@ -17488,6 +17660,52 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.08245v1",
+    "author": "Hongzhou Zheng and Yixin Gou and Wenjia Zhang",
+    "booktitle": "arXiv",
+    "title": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+    "year": "2026",
+    "abstract": "Text-to-SQL translates natural language into executable SQL queries. Few-shot in-context learning methods built upon large language models (LLMs) achieve strong performance, yet their reliance on demonstrations limits cross-domain generalization and consumes substantial context window space. Existing zero-shot methods, lacking effective generation constraints, still fall short of few-shot approaches. We observe that LLM failures in zero-shot Text-to-SQL are not random but exhibit systematic, recurring patterns. Building on this observation, we propose a fully zero-shot Text-to-SQL framework that distills core generation rules from failure cases through a Map-Reduce-based rule distillation pipeline and improves generation quality via three complementary modules: knowledge-augmented schema representation, which supplements missing semantics in Data Definition Language; a rule-driven structured reasoning framework that suppresses structural deviations; and Execution-Guided Early Stopping, which enables low-cost self-correction. On Spider, the proposed framework achieves up to 87.2% and 88.6% execution accuracy on the Dev and Test sets, respectively, establishing a new zero-shot state-of-the-art and surpassing multiple few-shot and fine-tuning methods built upon GPT-4/4o. On the domain-specific dataset UrbanPlan, it achieves 81.3%, confirming that the rule distillation approach generalizes across domains. Moreover, when equipped with a 4B-parameter model, the framework surpasses zero-shot baselines of leading closed-source models, demonstrating strong model generality.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.08245v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Fine-tuned Generation",
+      "Verification & Repair",
+      "Execution Feedback",
+      "Self-correction"
+    ],
+    "relevance_level": "core"
   },
   "Zero-Shot Text-to-SQL Learning with Auxiliary Task": {
     "type": "INPROCEEDINGS",

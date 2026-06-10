@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:09Z",
-      "last_success_at": "2026-06-05T18:59:09Z",
+      "last_attempt_at": "2026-06-10T19:36:03Z",
+      "last_success_at": "2026-06-10T19:36:03Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 474,
-      "sha256": "d59487db4533540d1e64cf88766f324fb1140c1c5085fd8fc3835c8e859167f7",
+      "sha256": "8f45f155d2e454092ff02a967c86f781f99b68f585d704ec6ccf70fe57090b77",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -996,8 +996,8 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:58:29Z",
-      "last_success_at": "2026-06-05T18:58:29Z",
+      "last_attempt_at": "2026-06-10T19:35:28Z",
+      "last_success_at": "2026-06-10T19:35:28Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
       "sha256": "8eb171a762122bdd9f9b571333ac7b425ad431c8937839c31d891c5fd1596c16",
@@ -1010,11 +1010,11 @@
     },
     "dblp-conference:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:58:38Z",
-      "last_success_at": "2026-06-05T18:58:38Z",
+      "last_attempt_at": "2026-06-10T19:35:35Z",
+      "last_success_at": "2026-06-10T19:35:35Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021.json",
       "record_count": 2334,
-      "sha256": "a57e838a560285d7f8a97005b1b0d626c8c88e6a2dbdb77085311b644d6fc2b6",
+      "sha256": "af0f76860f3ec06e86d902a89090fce7d67b638c2a927f3c35e104a8ecdfc504",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -1066,7 +1066,7 @@
     },
     "dblp-conference:NEURIPS:2025": {
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-06-05T18:58:43Z",
+      "last_attempt_at": "2026-06-10T19:35:40Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025.json",
       "record_count": 0,
@@ -1622,6 +1622,104 @@
       "status": "complete",
       "track": "",
       "venue": "TKDE",
+      "year": "2026"
+    },
+    "journal:TOSEM:2020": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2020/TOSEM2020.json",
+      "record_count": 40,
+      "sha256": "f0fb6802d7b8d8547d42eaf86ae8a2664db03044eb15d34eec492b4b69a78dba",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2020"
+    },
+    "journal:TOSEM:2021": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2021/TOSEM2021.json",
+      "record_count": 79,
+      "sha256": "25bc9c72715102bec38faf6f58c27302fae69ed6f2b873bbfca9432138f6c392",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2021"
+    },
+    "journal:TOSEM:2022": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2022/TOSEM2022.json",
+      "record_count": 152,
+      "sha256": "ea99014435edfd5dbf3b873ea3783d98a5987ec930a12af42c1990caa8a7880b",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2022"
+    },
+    "journal:TOSEM:2023": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2023/TOSEM2023.json",
+      "record_count": 159,
+      "sha256": "00297041023271fc0b3479f505512b8a32dd5db04109bc2e7eeb4511524ba2f5",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2023"
+    },
+    "journal:TOSEM:2024": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2024/TOSEM2024.json",
+      "record_count": 268,
+      "sha256": "a3aa063f2fe9125fa3c865eb54bc18503887fc8c3df7ce57653aa6117881f3b6",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2024"
+    },
+    "journal:TOSEM:2025": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2025/TOSEM2025.json",
+      "record_count": 373,
+      "sha256": "a7b404ee454fde6247a9280b2b7e4ebb98cb2c26406cca11f1f4d2ec5449b26a",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
+      "year": "2025"
+    },
+    "journal:TOSEM:2026": {
+      "error": "",
+      "last_attempt_at": "2026-06-10T19:35:22Z",
+      "last_success_at": "2026-06-10T19:35:22Z",
+      "rawdata_path": "data/rawdata/2026/TOSEM2026.json",
+      "record_count": 177,
+      "sha256": "fc280cd826c0b43cd7c7d7edf247891179aed538c0f99c198820195cf5354adb",
+      "source": "journal",
+      "source_type": "journal",
+      "status": "complete",
+      "track": "",
+      "venue": "TOSEM",
       "year": "2026"
     },
     "journal:TSE:2020": {
@@ -2228,8 +2326,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:10Z",
-      "last_success_at": "2026-06-05T18:59:10Z",
+      "last_attempt_at": "2026-06-10T19:36:04Z",
+      "last_success_at": "2026-06-10T19:36:04Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -2242,8 +2340,8 @@
     },
     "official-accepted:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:14Z",
-      "last_success_at": "2026-06-05T18:59:14Z",
+      "last_attempt_at": "2026-06-10T19:36:08Z",
+      "last_success_at": "2026-06-10T19:36:08Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
       "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
@@ -2256,8 +2354,8 @@
     },
     "official-accepted:NEURIPS:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:19Z",
-      "last_success_at": "2026-06-05T18:59:19Z",
+      "last_attempt_at": "2026-06-10T19:36:13Z",
+      "last_success_at": "2026-06-10T19:36:13Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
       "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
@@ -2270,8 +2368,8 @@
     },
     "official-accepted:NEURIPS:2023": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:25Z",
-      "last_success_at": "2026-06-05T18:59:25Z",
+      "last_attempt_at": "2026-06-10T19:36:18Z",
+      "last_success_at": "2026-06-10T19:36:18Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
       "sha256": "9dfcc668023c85da911e0d18c14601eb9ef5cc6c75db2877bc891689e3618949",
@@ -2284,8 +2382,8 @@
     },
     "official-accepted:NEURIPS:2024": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:31Z",
-      "last_success_at": "2026-06-05T18:59:31Z",
+      "last_attempt_at": "2026-06-10T19:36:25Z",
+      "last_success_at": "2026-06-10T19:36:25Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
       "sha256": "b60b3c80e797ef348c634316a42a31a9c7946a8145f6257d6f86bbb4214e442d",
@@ -2298,11 +2396,11 @@
     },
     "official-accepted:NEURIPS:2025": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:59:38Z",
-      "last_success_at": "2026-06-05T18:59:38Z",
+      "last_attempt_at": "2026-06-10T19:36:32Z",
+      "last_success_at": "2026-06-10T19:36:32Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025-accepted.json",
       "record_count": 5782,
-      "sha256": "9dc5664cb8fa9d34c58b36a9a2d09de3bb587c8199c0318dc9e11b6e0fd175a5",
+      "sha256": "293ab66a221c0afd4c6ce2bf857db8603cfd5c76c2c5815356c598d50221240f",
       "source": "official-accepted",
       "source_type": "official-accepted",
       "status": "complete",
@@ -2452,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 21,
+    "cursor": 0,
     "history": [
       {
         "cursor": 2,
@@ -2731,12 +2829,26 @@
           "NeurIPS",
           "TSE"
         ]
+      },
+      {
+        "cursor": 0,
+        "failed": [
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-06-10T19:38:14Z",
+        "succeeded": [
+          "TOSEM"
+        ],
+        "venues": [
+          "NeurIPS",
+          "TOSEM"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-05T19:25:54Z",
+    "last_completed_at": "2026-06-10T19:38:14Z",
     "last_selected": [
       "NeurIPS",
-      "TSE"
+      "TOSEM"
     ],
     "retry_queue": [
       "NeurIPS",

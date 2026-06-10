@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs",
+      "title": "VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -438,12 +438,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.05899v1"
+        "https://arxiv.org/abs/2507.17896v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "IESR:Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models",
+      "title": "Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -456,12 +456,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.05385v1"
+        "https://arxiv.org/abs/2605.14259v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CORE-T: COherent REtrieval of Tables for Text-to-SQL",
+      "title": "CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -474,79 +474,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.13111v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "AgentSM: Semantic Memory for Agentic Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.15709v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2205.06983v2"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "DP-Bench: A Benchmark for Evaluating Data Product Creation Systems",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2512.15798v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.17699v1"
+        "https://arxiv.org/abs/2604.22313v1"
       ],
       "notes": "missing doi"
     },
@@ -565,6 +493,78 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "https://arxiv.org/abs/2605.19010v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.18775v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2510.23284v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "SQL-ASTRA: Alleviating Sparse Feedback in Agentic SQL via Column-Set Matching and Trajectory Aggregation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2603.16161v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2604.28049v1"
       ],
       "notes": "missing doi"
     },
@@ -702,29 +702,48 @@
       "notes": ""
     },
     {
-      "title": "Blar-SQL: Faster, Stronger, Smaller NL2SQL",
+      "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
+      "venue": "ICML",
+      "normalized_venue": "ICML",
+      "category": "AI 领域",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2401.02997v1"
+        "https://arxiv.org/abs/2601.18119v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "TailorSQL: An NL2SQL System Tailored to Your Query Workload",
+      "title": "Table Pre-training: A Survey on Model Architectures, Pre-training Objectives, and Downstream Tasks",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "IJCAI",
+      "normalized_venue": "IJCAI",
+      "category": "AI 领域",
+      "year": "2022",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.24963/ijcai.2022/761",
+        "https://doi.org/10.24963/ijcai.2022/761"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -733,25 +752,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2505.23039v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2305.19974v1"
+        "https://arxiv.org/abs/2507.01053v3"
       ],
       "notes": "missing doi"
     }

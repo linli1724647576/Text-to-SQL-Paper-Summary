@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL",
+      "title": "Unified Peripartum Database with Natural-Language-to-SQL Capabilities at Udine University Hospital: Design and Prototype",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -438,7 +438,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2507.17896v1"
+        "https://arxiv.org/abs/2510.16388v1"
       ],
       "notes": "missing doi"
     },
@@ -497,7 +497,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees",
+      "title": "Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -505,12 +505,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.18775v1"
+        "https://arxiv.org/abs/2512.21345v1"
       ],
       "notes": "missing doi"
     },
@@ -533,7 +533,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SQL-ASTRA: Alleviating Sparse Feedback in Agentic SQL via Column-Set Matching and Trajectory Aggregation",
+      "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +546,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.16161v1"
+        "https://arxiv.org/abs/2604.17771v1"
       ],
       "notes": "missing doi"
     },
@@ -720,23 +720,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Table Pre-training: A Survey on Model Architectures, Pre-training Objectives, and Downstream Tasks",
+      "title": "TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "IJCAI",
-      "normalized_venue": "IJCAI",
-      "category": "AI 领域",
-      "year": "2022",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.24963/ijcai.2022/761",
-        "https://doi.org/10.24963/ijcai.2022/761"
+        "https://arxiv.org/abs/2605.07507v1"
       ],
-      "notes": ""
+      "notes": "missing doi"
     },
     {
       "title": "Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",

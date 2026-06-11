@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 4706,
+    "fetched_entries": 21488,
     "failure_count": 1,
     "warning_count": 0,
-    "skipped_count": 10
+    "skipped_count": 4
   },
   "failures": [
     {
@@ -19,82 +19,34 @@
   "warnings": [],
   "skipped": [
     {
-      "venue": "NeurIPS",
-      "year": 2022,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2023,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "NeurIPS",
-      "year": 2024,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2020,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
+      "venue": "AAAI",
       "year": 2021,
-      "track": "SE",
-      "source_type": "journal",
+      "track": "AI",
+      "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "TOSEM",
+      "venue": "NeurIPS",
       "year": 2022,
-      "track": "SE",
-      "source_type": "journal",
+      "track": "AI",
+      "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "TOSEM",
+      "venue": "NeurIPS",
       "year": 2023,
-      "track": "SE",
-      "source_type": "journal",
+      "track": "AI",
+      "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "TOSEM",
+      "venue": "NeurIPS",
       "year": 2024,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2026,
-      "track": "SE",
-      "source_type": "journal",
+      "track": "AI",
+      "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     }

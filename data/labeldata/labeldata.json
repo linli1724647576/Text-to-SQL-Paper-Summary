@@ -608,6 +608,8 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Planning and Generation",
+      "Neural-symbolic Parsing",
       "Agentic Feedback and Repair",
       "Security and Access Control",
       "Benchmarks and Evaluation",
@@ -10752,6 +10754,38 @@
     ],
     "relevance_level": "core"
   },
+  "Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.11897v1",
+    "author": "Shi Liu and Jiayao Chen and Chengwei Qin and Yanqing Hu and Jufan Zhang and Linyi Yang",
+    "booktitle": "arXiv",
+    "title": "Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills",
+    "year": "2026",
+    "abstract": "Scientific discovery workflows usually contain and rely heavily on lab notes, where researchers record observations, interpret uncertain results, and plan follow-up experiments. Such informative lab notes preserve evolving scientific reasoning and author uncertainty, rather than polished final results exhibited in publications, providing a valuable opportunity for AI to engage in scientific exploration at a more comprehensive and deeper level. However, most prior work on scientific text focuses on papers, protocols, or structured databases, leaving informal laboratory notes underexplored as inputs to AI agents for science. This gap matters because lab notes often intermingle validated observations, tentative judgments, and possible experimental next steps within the same passage. If these signals are conflated, an AI agent may mistake uncertain scientific judgments for confirmed conclusions or executable actions. To this end, we present Notes2Skills, a two-stage framework for turning lab notebooks into verifiable skills for scientific AI agents while preserving the author's certainty. Across seven conditions and three wet-lab sessions, Notes2Skills is the only configuration that neither mistakes uncertain notes for firm instructions nor discards firm ones. We show that certainty preservation is the missing piece between lab notebooks and reliable agent skills, opening a path toward safer AI co-scientist systems.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.11897v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "ODIN: A NL2SQL Recommender to Handle Schema Ambiguity": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2505.19302v1",
@@ -12418,6 +12452,36 @@
     ],
     "relevance_level": "core"
   },
+  "RUBICON: Agentic AI for Messy Enterprise Data": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2604.21413v2",
+    "author": "Fabian Wenz and Felix Treutwein and Kai Arenja and Çagatay Demiralp and Michael Stonebraker",
+    "booktitle": "arXiv",
+    "title": "RUBICON: Agentic AI for Messy Enterprise Data",
+    "year": "2026",
+    "abstract": "Enterprise data exists in many forms, such as tables, text, maps, e-mail, and CAD models, that are access-controlled and hidden behind bespoke interfaces. Current agentic AI systems delegate the entire query workflow to a frontier LLM: a single model interprets the request, selects sources or tools, integrates retrieved evidence, judges completeness, and generates an answer, with few constraints, limited use of schemas, and text as the primary representation throughout. We argue that this is an ineffective abstraction for enterprise data. Reliable agentic AI should instead require structure: a constrained query interface over each source and a table-centric integration layer driven by a query processor. We introduce RUBICON, a system that embodies this vision. RUBICON is based on two observations. First, text-to-SQL fails on real enterprise data and must be dramatically subsetted to achieve reliable results. Second, data integration across disparate corporate datasets is best performed using tables as the core abstraction rather than text-centric LLM pipelines. We evaluate RUBICON on two benchmarks: our enterprise-focused RUBICON-Bench, against agentic baselines, and SemBench, against LOTUS and Palimpzest. On RUBICON-Bench, where queries require coordination across heterogeneous enterprise sources, RUBICON achieves 100% end-to-end accuracy, while all agentic baselines, including single- and multi-agent ReAct systems, produce no correct answers. On SemBench, RUBICON surpasses both LOTUS and Palimpzest: it achieves 14.7% higher accuracy, reduces latency by 62.64%, and lowers token cost by 98.64%, demonstrating that a table-centric architecture better matches enterprise data while yielding significant efficiency gains.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2604.21413v2",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "ReMoGPT: Part-Level Retrieval-Augmented Motion-Language Models": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuTF25",
@@ -13600,6 +13664,39 @@
       "Fine-tuned Generation",
       "Verification & Repair",
       "Result Validation"
+    ],
+    "relevance_level": "core"
+  },
+  "SOMA-SQL: Resolving Multi-Source Ambiguity in NL-to-SQL via Synthetic Log and Execution Probing": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.11424v1",
+    "author": "Sai Ashish Somayajula and Marianne Menglin Liu and Chuan Lei and Fjona Parllaku and Daniel Garcia and Rongguang Wang and Syed Fahad Allam Shah and Ankan Bansal and Sujeeth Bharadwaj and Tao Sheng and Sujith Ravi and Dan Roth",
+    "booktitle": "arXiv",
+    "title": "SOMA-SQL: Resolving Multi-Source Ambiguity in NL-to-SQL via Synthetic Log and Execution Probing",
+    "year": "2026",
+    "abstract": "Natural language interfaces to databases aim to translate user questions into executable SQL, yet remain brittle in real-world settings where questions are underspecified and schemas are large and ambiguous. Ambiguity across user questions, database schemas, and model interpretations are central failure modes in NL2SQL, leading to misaligned intent, incorrect schema grounding, and erroneous SQL generation. Existing approaches rely on human clarification or treat ambiguity as a schema representation problem, but these do not scale nor resolve ambiguity autonomously. We propose SOMA-SQL to automatically resolve ambiguity via targeted synthetic query log and ambiguity-driven probing. SOMA-SQL constructs synthetic query log to ground schema interpretation and guide candidate SQL generation; it then executes targeted probing queries, driven by a structured ambiguity taxonomy and candidate disagreements, to produce disambiguation evidence for final SQL selection and repair. This active approach to ambiguity discovery and resolution generalizes across unseen schemas and query distributions without human-in-the-loop. Experiments on six public benchmarks demonstrate that SOMA-SQL improves execution accuracy by 13.0% on average over state-of-the-art baselines, with gains of up to 16.7% on ambiguous questions.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.11424v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction"
     ],
     "relevance_level": "core"
   },
@@ -15444,6 +15541,47 @@
     ],
     "pipeline_stages": [
       "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.12387v1",
+    "author": "Zhiyi Chen and Jie Song and Peng Li",
+    "booktitle": "arXiv",
+    "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+    "year": "2026",
+    "abstract": "Large Language Models (LLMs) have democratized database access through Text-to-SQL, but moving from prototypes to production remains difficult. Real deployments must handle strict SQL dialects, massive schemas, and evolving user preferences, while supervised fine-tuning is costly and rigid and agentic test-time scaling is expensive. We present Tahoe, a system that treats prompt optimization as a dynamic data management problem. Tahoe uses an error-driven hint learning pipeline across Development and Deployment to consolidate debugging traces into a structured Hint Bank. Compiler feedback is distilled into reusable Syntax Hints for dialect-specific rules, while execution and user feedback are converted into Semantic Hints for schema- and user-specific logic. Tahoe further introduces a Strategy Layer that models conflicting user intents as competing strategies under shared natural-language triggers, with recency signals and post-learning attribution statistics that summarize empirical success, harm, inertness, and support. At inference time, Tahoe retrieves relevant hints and guides the LLM through Logic Planning followed by SQL Synthesis. We implement and evaluate the development-phase workflow, leaving deployment-time human-feedback updates for future work. On Spider 2.0-Snow, Tahoe substantially improves Text-to-SQL without updating model parameters. On 113 supervised Spider 2.0-Snow-0212 examples using GPT-5.5, Tahoe raises pass rate from 61.95 percent to 79.42 percent and pass-at-4 from 72.57 percent to 87.61 percent, achieves 100 percent Snowflake syntax pass rate, and reduces average compiler-feedback critic rounds from 2.79 to 0.12 per sampled candidate. The same Hint Bank also transfers to weaker backbones, including a 19.7 percentage-point pass-rate gain on Doubao-2.0-lite.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.12387v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Fine-tuned Generation",
+      "Dialect Adaptation"
     ],
     "relevance_level": "core"
   },

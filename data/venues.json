@@ -5,7 +5,7 @@
       "files": [
         {
           "path": "data/rawdata/2020/AAAI2020.json",
-          "sha256": "2d6d54b1bfcf531b092889f74e0b274ee4cc7ca8943c2f26ab5e1b1beb3c2f28"
+          "sha256": "130603fe796deea30b4a257009819ac0a6cef167b9e6454fb2578a6cd9691732"
         }
       ],
       "processing": {
@@ -81,7 +81,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/AAAI2022.json",
-          "sha256": "04c71ca16bb3a1035ff9a0efa74b67de0b2d5dfc9c869d875098782b65d03f3e"
+          "sha256": "3f69b18ce2796e53bb6add386036037e4cb81523f631edbdf7441e1c43624f24"
         }
       ],
       "processing": {
@@ -119,7 +119,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/AAAI2023.json",
-          "sha256": "541130cbb950393613c1d2328b4413bdc9de1e74107f6d76aad16979f8565019"
+          "sha256": "edd8865b62e0a24997fb22dd87d050b9cd01ee9a5256eb9151280a254faf4e4a"
         }
       ],
       "processing": {
@@ -157,7 +157,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/AAAI2024.json",
-          "sha256": "5dfc3d1c54e6f469d6e3a8a0d362a91f21f67fb60d556f3e4ac1c560bd55975c"
+          "sha256": "715dbaaa61f1bb1442866bddda62fa7a4364e7b451fc5375a7d40cce6ce0111f"
         }
       ],
       "processing": {
@@ -195,7 +195,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/AAAI2025.json",
-          "sha256": "e2d871863416961a75f5bdf12cd17b56143acbe400caa85689a61ce15ea5f71d"
+          "sha256": "5bebe7ee7fb506183cfdd9d97afe7a8fef47ebaa76f0e0bc9bcf0263d55ee627"
         }
       ],
       "processing": {
@@ -233,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AAAI2026.json",
-          "sha256": "4309a45c1f86a7c28e2374213cdc2370440b8126ad0686e6a9103959ed438c64"
+          "sha256": "15295e33dbd3bc5ff658c96e86ae0da536fdefc9a510d1b83d22648d5743517c"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "8f45f155d2e454092ff02a967c86f781f99b68f585d704ec6ccf70fe57090b77"
+          "sha256": "32f217ffcc82c59826c6f48039f70d7c08c5fd99e09ed287ac203794989b6110"
         }
       ],
       "processing": {
@@ -3461,7 +3461,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/NeurIPS2025-accepted.json",
-          "sha256": "de134aacc487dd95b88e524a460330766d990bea0a651cc7660977833d74e1a6"
+          "sha256": "293ab66a221c0afd4c6ce2bf857db8603cfd5c76c2c5815356c598d50221240f"
         }
       ],
       "processing": {

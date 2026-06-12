@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "Unified Peripartum Database with Natural-Language-to-SQL Capabilities at Udine University Hospital: Design and Prototype",
+      "title": "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,12 +433,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.16388v1"
+        "https://arxiv.org/abs/2606.08018v1"
       ],
       "notes": "missing doi"
     },
@@ -497,20 +497,20 @@
       "notes": "missing doi"
     },
     {
-      "title": "Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks",
+      "title": "QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.21345v1"
+        "https://arxiv.org/abs/2606.04646v1"
       ],
       "notes": "missing doi"
     },
@@ -533,7 +533,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
+      "title": "SOMA-SQL: Resolving Multi-Source Ambiguity in NL-to-SQL via Synthetic Log and Execution Probing",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +546,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.17771v1"
+        "https://arxiv.org/abs/2606.11424v1"
       ],
       "notes": "missing doi"
     },
@@ -720,11 +720,11 @@
       "notes": "missing doi"
     },
     {
-      "title": "TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature",
+      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -733,7 +733,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.07507v1"
+        "https://arxiv.org/abs/2606.12387v1"
       ],
       "notes": "missing doi"
     },

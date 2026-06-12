@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-11T20:44:52Z",
+  "generated_at": "2026-06-12T19:11:09Z",
   "records": [
     {
       "kind": "conference",
@@ -239,7 +239,7 @@
         "data/rawdata/2022/ACL2022.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 3,
+      "relevant_candidate_count": 2,
       "source_type": "dblp-conference",
       "source_url": "",
       "status": "covered",
@@ -255,7 +255,7 @@
         "data/rawdata/2023/ACL2023.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 7,
+      "relevant_candidate_count": 6,
       "source_type": "dblp-conference",
       "source_url": "",
       "status": "covered",
@@ -266,7 +266,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 68,
+      "raw_candidate_count": 865,
       "rawdata_files": [
         "data/rawdata/2024/ACL2024.json"
       ],
@@ -282,13 +282,13 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 1798,
+      "raw_candidate_count": 3303,
       "rawdata_files": [
         "data/rawdata/2025/ACL2025-accepted.json",
         "data/rawdata/2025/ACL2025.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 4,
+      "relevant_candidate_count": 8,
       "source_type": "dblp-conference",
       "source_url": "https://2025.aclweb.org/program/main_papers/",
       "status": "covered",

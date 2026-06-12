@@ -29,13 +29,13 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | Unified Peripartum Database with Natural-Language-to-SQL Capabilities at Udine University Hospital: Design and Prototype | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | AgentNLQ: A General-Purpose Agent for Natural Language to SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SOMA-SQL: Resolving Multi-Source Ambiguity in NL-to-SQL via Synthetic Log and Execution Probing | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
@@ -45,5 +45,5 @@
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | fill | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
-| fill | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |
+| fill | true_positive_core | ArXiv | 2026 | TAHOE: Text-to-SQL with Automated Hint Optimization from Experience | missing doi |
 | fill | true_positive_application | ArXiv | 2025 | Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis | missing doi |

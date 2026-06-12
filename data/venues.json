@@ -347,7 +347,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ACL2022.json",
-          "sha256": "477c7978f72e62b95b51fa7e1e8dece8d584dae0319f0c462dad2b94d10c9a11"
+          "sha256": "7303278a630c2e5a485715658699d6011da61d4ab30ebcc1f03069e66d08efc7"
         }
       ],
       "processing": {
@@ -385,7 +385,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ACL2023.json",
-          "sha256": "a2e6b4c99605648395ac342cae93f280ee60c412d486e867cc66826ebc81548b"
+          "sha256": "e731a500cd41440335e22f26f63d87bbb31aca529917f253e78c83c3d1275f00"
         }
       ],
       "processing": {
@@ -423,7 +423,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/ACL2024.json",
-          "sha256": "e33902f5f8c48dc988ff8d21637a080b35cd21d5fc3584bf33439fdfec9855ff"
+          "sha256": "85ee1663b5a45b7d402c56d4754d234909719a417c44e51d06d743ae5185630b"
         }
       ],
       "processing": {
@@ -465,7 +465,7 @@
         },
         {
           "path": "data/rawdata/2025/ACL2025.json",
-          "sha256": "92f4f3c42f88ca2d0a0d4d3a6dae3ceb77957ce2f4d02199c803c906ffdb8324"
+          "sha256": "f0165db7463bb45bf5e63f717639d530ad5106af23612ca26ce05e7fa4c0bcd9"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "32f217ffcc82c59826c6f48039f70d7c08c5fd99e09ed287ac203794989b6110"
+          "sha256": "9c49c4e38d9a49a81d06c2a18200ebc2e45ef91a35117ef57d481451c03b230d"
         }
       ],
       "processing": {
@@ -3255,7 +3255,7 @@
         },
         {
           "path": "data/rawdata/2020/NeurIPS2020.json",
-          "sha256": "1f2e6087c0a4fc8654e4dd4546c3e9e61c44e2b058e84366475c3ceba43c64a8"
+          "sha256": "2803b3c1b3b08a827ab4a007c605dd37b4b69fce5b6fd7d71df5c377fe946488"
         }
       ],
       "processing": {

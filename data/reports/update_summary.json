@@ -15,8 +15,8 @@
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 545,
-    "unique_title_drop_ratio": -0.001835,
+    "baseline_unique_title_count": 546,
+    "unique_title_drop_ratio": 0.0,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
@@ -359,8 +359,8 @@
           "relevant_papers": 0
         },
         "CVPR2026": {
-          "raw_candidates": 4071,
-          "official_accepted": 4071,
+          "raw_candidates": 5022,
+          "official_accepted": 5022,
           "dblp": 0,
           "arxiv": 0,
           "relevant_papers": 0
@@ -1159,7 +1159,7 @@
     "available_sources_with_zero_relevant_candidates": [
       {
         "venue_year": "CVPR2026",
-        "raw_candidate_count": 4071,
+        "raw_candidate_count": 5022,
         "relevant_candidate_count": 0,
         "abstract_coverage_note": "accepted/DBLP source may lack abstracts"
       },

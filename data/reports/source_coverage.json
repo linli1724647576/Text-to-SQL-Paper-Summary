@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-12T19:11:09Z",
+  "generated_at": "2026-06-13T18:12:44Z",
   "records": [
     {
       "kind": "conference",
@@ -191,7 +191,7 @@
         "data/rawdata/2025/NeurIPS2025-accepted.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 2,
+      "relevant_candidate_count": 4,
       "source_type": "dblp-conference",
       "source_url": "https://proceedings.neurips.cc/paper/2025",
       "status": "covered",
@@ -1668,7 +1668,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 4071,
+      "raw_candidate_count": 5022,
       "rawdata_files": [
         "data/rawdata/2026/CVPR2026-accepted.json"
       ],

@@ -716,9 +716,9 @@
           "relevant_papers": 0
         },
         "NeurIPS2021": {
-          "raw_candidates": 4643,
+          "raw_candidates": 2483,
           "official_accepted": 2309,
-          "dblp": 2334,
+          "dblp": 174,
           "arxiv": 0,
           "relevant_papers": 1
         },
@@ -1219,7 +1219,7 @@
     },
     "ccf_conference_rawdata_missing": [],
     "fetch_failure_count": 1,
-    "fetch_warning_count": 0,
+    "fetch_warning_count": 1,
     "dblp_conference_failures": 1,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.010101,

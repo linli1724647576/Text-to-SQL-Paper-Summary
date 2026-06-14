@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 6781,
+    "fetched_entries": 5250,
     "failure_count": 1,
-    "warning_count": 0,
-    "skipped_count": 8
+    "warning_count": 1,
+    "skipped_count": 4
   },
   "failures": [
     {
@@ -16,7 +16,17 @@
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/rec/conf/iccv/2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/db/conf/iccvw/iccvw2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/iccvw/2023.xml: XML or text declaration not at start of entity: line 1, column 6"
+    }
+  ],
   "skipped": [
     {
       "venue": "NeurIPS",
@@ -43,40 +53,8 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
-      "year": 2020,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
+      "venue": "ICCV",
       "year": 2021,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
-      "year": 2023,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
-      "year": 2024,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
-      "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",

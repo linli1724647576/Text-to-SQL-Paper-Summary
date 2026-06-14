@@ -1,19 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 19997,
+    "fetched_entries": 20757,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 1
+    "skipped_count": 0
   },
   "failures": [],
   "warnings": [],
-  "skipped": [
-    {
-      "venue": "NeurIPS",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    }
-  ]
+  "skipped": []
 }

@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-14T18:25:22Z",
+  "generated_at": "2026-06-15T20:32:30Z",
   "records": [
     {
       "kind": "conference",
@@ -1698,7 +1698,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 6567,
+      "raw_candidate_count": 6631,
       "rawdata_files": [
         "data/rawdata/2026/ICML2026-accepted.json"
       ],

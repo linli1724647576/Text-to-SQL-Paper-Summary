@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 5250,
+    "fetched_entries": 2376,
     "failure_count": 1,
-    "warning_count": 1,
-    "skipped_count": 4
+    "warning_count": 0,
+    "skipped_count": 10
   },
   "failures": [
     {
@@ -16,18 +16,16 @@
       "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
     }
   ],
-  "warnings": [
-    {
-      "venue": "ICCV",
-      "year": 2023,
-      "track": "AI",
-      "source": "dblp",
-      "source_type": "dblp-conference",
-      "status": "existing_kept",
-      "error": "https://dblp.org/rec/conf/iccv/2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/db/conf/iccvw/iccvw2023.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/iccvw/2023.xml: XML or text declaration not at start of entity: line 1, column 6"
-    }
-  ],
+  "warnings": [],
   "skipped": [
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
     {
       "venue": "NeurIPS",
       "year": 2022,
@@ -53,8 +51,48 @@
       "reason": "complete"
     },
     {
-      "venue": "ICCV",
+      "venue": "ICML",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
       "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
+      "year": 2022,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
+      "year": 2023,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
+      "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",

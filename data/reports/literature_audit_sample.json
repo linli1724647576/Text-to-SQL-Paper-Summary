@@ -425,7 +425,7 @@
       "notes": ""
     },
     {
-      "title": "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL",
+      "title": "Translating Natural Language Queries to SQL Using the T5 Model",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,89 +433,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.08018v1"
+        "https://arxiv.org/abs/2312.12414v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2605.14259v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2604.22313v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "AgentNLQ: A General-Purpose Agent for Natural Language to SQL",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2605.19010v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "QO-Bench: Diagnosing Query-Operator-Preserving Retrieval over Typed Event Tuples",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2606.04646v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model",
+      "title": "Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -528,12 +456,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.23284v1"
+        "https://arxiv.org/abs/2512.22250v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "SOMA-SQL: Resolving Multi-Source Ambiguity in NL-to-SQL via Synthetic Log and Execution Probing",
+      "title": "CBR-to-SQL: Rethinking Retrieval-based Text-to-SQL using Case-based Reasoning in the Healthcare Domain",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +474,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.11424v1"
+        "https://arxiv.org/abs/2603.05569v2"
       ],
       "notes": "missing doi"
     },
@@ -565,6 +493,78 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "https://arxiv.org/abs/2604.28049v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2511.20677v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2512.21877v3"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "SIRIUS-SQL: Anchoring Multi-Candidate Text-to-SQL in Execution Feedback",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2606.01246v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2508.03680v1"
       ],
       "notes": "missing doi"
     },
@@ -702,25 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICML",
-      "normalized_venue": "ICML",
-      "category": "AI 领域",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2601.18119v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+      "title": "Data Agnostic RoBERTa-based Natural Language to SQL Query Generation",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -728,21 +710,21 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.12387v1"
+        "https://arxiv.org/abs/2010.05243v3"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
+      "title": "HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -751,7 +733,25 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2507.01053v3"
+        "https://arxiv.org/abs/2510.08896v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "ODTQA-FoRe: An Open-Domain Tabular Question Answering Dataset for Future Data Forecasting and Reasoning",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2606.02433v1"
       ],
       "notes": "missing doi"
     }

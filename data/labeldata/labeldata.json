@@ -323,6 +323,40 @@
     ],
     "relevance_level": "core"
   },
+  "A Qualitative Review of GenAI-Based Methods for Data Generation and Augmentation in Industrial Computer Vision Applications": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.14578v1",
+    "author": "Paul Koch and Paul Hofmann and Ferdinand Waßelewsky and Adem Karakurt and Andre Sérs and Jörg Krüger",
+    "booktitle": "arXiv",
+    "title": "A Qualitative Review of GenAI-Based Methods for Data Generation and Augmentation in Industrial Computer Vision Applications",
+    "year": "2026",
+    "abstract": "AI-driven computer vision applications require a profound database to ensure predictable behaviors and performance. Such predictable behaviors are especially important for industrial applications in gaining trust from users. However, such a database is not readily available in industrial applications, and its acquisition is not trivial either. Active learning methods can be applied to ramp up data within a project deployment to iteratively increase the database, and thus the application predictability. Unfortunately, we observe that this often leads to a loss of user trust in the application, which is difficult to regain once lost. This leads to a \"chicken-and-egg\" dilemma in which neither the database nor the application is developed. In this work, we review state-of-the-art methods and approaches to further boost the database the initial active data ramp-up phase. Here, we focus on recent advancements in GenAI-based data generation and augmentation methods and review their adaptability on an industrial computer vision classification use case. Although we observe a potential for automatic data ramp-up, we also see a domain miss match in between the source (training environment) and target (industrial use-case) - regarding context defined in natural language and object characteristics.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.14578v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4412623423",
@@ -3460,6 +3494,37 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "Closing the Reflection Gap: A Free Calibration Bonus for Agentic RL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.14211v1",
+    "author": "Yinglun Zhu",
+    "booktitle": "arXiv",
+    "title": "Closing the Reflection Gap: A Free Calibration Bonus for Agentic RL",
+    "year": "2026",
+    "abstract": "LLMs are increasingly deployed as agents that interact with external environments and observe feedback such as execution results, error messages, and tool outputs. A well-functioning agent should be able to leverage this feedback to accurately assess its own performance. Yet we find a persistent reflection gap: LLM agents tend to mis-assess their own outputs after observing concrete environment feedback -- even for questions they correctly answered -- and standard RL barely helps due to a credit-assignment mismatch. To close this gap, we propose RefGRPO, a simple yet effective fix that augments standard RL algorithms with two key ingredients: a free calibration bonus computed by contrasting the agent's own reflection with the actual outcome (requiring no additional reward model, LLM judge, or external annotation), and a dynamic schedule on its coefficient. Compared to standard RL baselines, our method simultaneously improves reflection calibration (e.g., reduces underconfidence rate $44.4\\% \\to 7.7\\%$) and task accuracy (e.g., $75.1\\% \\to 76.5\\%$) on text-to-SQL across five benchmarks. The resulting calibrated reflection turns the agent into its own verifier grounded in environment feedback, which further enables (i) better self-improvement that uses reflections as pseudo-rewards without outcome supervision, and (ii) more effective test-time selective prediction by committing only to rollouts flagged as correct.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.14211v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Tool Use and Execution Guidance",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Verification & Repair",
+      "Execution Feedback"
+    ],
+    "relevance_level": "core"
   },
   "CodeS: Towards Building Open-source Language Models for Text-to-SQL": {
     "type": "INPROCEEDINGS",
@@ -15592,6 +15657,35 @@
     "pipeline_stages": [
       "SQL Generation",
       "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.14201v1",
+    "author": "Chao Deng and Ju Fan and Yuyu Luo and Qinliang Xue and Meihao Fan and Yuxin Zhang and Min Zhang and Xiaofeng Jia and Jing Zhang and Xiaoyong Du",
+    "booktitle": "arXiv",
+    "title": "TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries",
+    "year": "2026",
+    "abstract": "Text-to-SQL aims to translate natural language questions into executable SQL queries over structured databases. Existing benchmarks mainly focus on closed-domain settings with predefined database schemas and well-specified questions, but they fall short in addressing the challenges of open-domain scenarios, such as ambiguous questions, unspecified databases, and cross-database querying. To bridge this gap, we introduce TACO, a benchmark for open-domain Text-to-SQL with Ambiguous and Cross-database queries. TACO consists of 1,500 real-world Text-to-SQL examples based on a smart city data service and 13,000 high-quality synthetic examples generated based on large-scale open data portals, covering diverse domains such as transportation, healthcare, and finance. To construct the synthetic examples, we develop an effective data synthesis pipeline that preserves the complexity of real-world queries. To demonstrate the utility of TACO, we introduce a baseline TACO-SQL composed of question rewriting, table linking, and query planning, to illustrate the challenges posed by TACO and to better understand the limitations of existing Text-to-SQL approaches. Extensive experiments on TACO using a variety of recent Text-to-SQL approaches show that, while TACO-SQL achieves the best results, a significant gap still remains between the existing approaches and human-written SQL. These findings highlight the difficulty of open-domain Text-to-SQL and position TACO as a valuable benchmark to drive future research.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.14201v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Schema Linking",
+      "Query Planning",
+      "SQL Generation"
     ],
     "relevance_level": "core"
   },

@@ -5364,7 +5364,7 @@
   "Variational Policy Gradient Method for Reinforcement Learning with General Utilities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/ZhangKBSW20",
-    "author": "Junyu Zhang and Alec Koppel and Amrit Singh Bedi and Csaba Szepesvári and Mengdi Wang 0001",
+    "author": "Junyu Zhang 0002 and Alec Koppel and Amrit Singh Bedi and Csaba Szepesvári and Mengdi Wang 0001",
     "booktitle": "NeurIPS",
     "title": "Variational Policy Gradient Method for Reinforcement Learning with General Utilities.",
     "year": "2020",
@@ -10474,7 +10474,7 @@
   "Residual Distillation: Towards Portable Deep Neural Networks without Shortcuts.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/LiZWLTLZFZ20",
-    "author": "Guilin Li 0001 and Junlei Zhang and Yunhe Wang 0001 and Chuanjian Liu and Matthias Tan and Yunfeng Lin and Wei Zhang 0196 and Jiashi Feng and Tong Zhang 0001",
+    "author": "Guilin Li 0001 and Junlei Zhang and Yunhe Wang 0001 and Chuanjian Liu and Matthias H. Y. Tan and Yunfeng Lin and Wei Zhang 0196 and Jiashi Feng and Tong Zhang 0001",
     "booktitle": "NeurIPS",
     "title": "Residual Distillation: Towards Portable Deep Neural Networks without Shortcuts.",
     "year": "2020",

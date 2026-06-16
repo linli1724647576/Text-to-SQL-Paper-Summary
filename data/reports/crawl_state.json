@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:07Z",
-      "last_success_at": "2026-06-15T20:28:07Z",
+      "last_attempt_at": "2026-06-16T20:13:52Z",
+      "last_success_at": "2026-06-16T20:13:52Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 478,
-      "sha256": "8682ddd28c05005f4311e294c84c54021bcc430c3ff3bad4dc8a8c4256e54eca",
+      "record_count": 479,
+      "sha256": "630437270671114da517548c19c95651b383d61e5eb60d9fa5c2ff4d3803a1b2",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -814,15 +814,15 @@
     },
     "dblp-conference:IJCAI:2025": {
       "error": "",
-      "last_attempt_at": "2026-05-22T18:56:21Z",
-      "last_success_at": "2026-05-22T18:56:21Z",
+      "last_attempt_at": "2026-06-16T20:13:25Z",
+      "last_success_at": "2026-06-16T20:13:25Z",
       "rawdata_path": "data/rawdata/2025/IJCAI2025.json",
       "record_count": 1279,
-      "sha256": "7198e2639fd8e66de4d8e3cb2afeeef855a5d59f6722d56e1b0149c5005987c7",
-      "source": "dblp-conference",
+      "sha256": "a020b1bc14a8bec8bba4aee37fac268016d81bf56e602764c26ed7c184d14c54",
+      "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
-      "track": "",
+      "track": "AI",
       "venue": "IJCAI",
       "year": "2025"
     },
@@ -996,11 +996,11 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:27:34Z",
-      "last_success_at": "2026-06-15T20:27:34Z",
+      "last_attempt_at": "2026-06-16T20:13:11Z",
+      "last_success_at": "2026-06-16T20:13:11Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
-      "sha256": "eac9896425bfe6cc773c0ed7b5adfa0eeec7870cc5efcece889ca51b3384d9a2",
+      "sha256": "2e49091e0cf7e6181dcb8bc17e0adb105df550da8c6dea4a7a3472210b6867f8",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -1065,15 +1065,15 @@
       "year": "2024"
     },
     "dblp-conference:NEURIPS:2025": {
-      "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-06-15T20:27:40Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-06-16T20:13:19Z",
+      "last_success_at": "2026-06-16T20:13:19Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025.json",
-      "record_count": 0,
-      "sha256": "",
+      "record_count": 955,
+      "sha256": "75f91d57c8f31128987c19a59e4d5b4c354ffdeee24a153fdf7f145aee80d58f",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "failed",
+      "status": "complete",
       "track": "AI",
       "venue": "NEURIPS",
       "year": "2025"
@@ -2326,8 +2326,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:28Z",
-      "last_success_at": "2026-06-15T20:28:28Z",
+      "last_attempt_at": "2026-06-16T20:13:54Z",
+      "last_success_at": "2026-06-16T20:13:54Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -2340,8 +2340,8 @@
     },
     "official-accepted:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:32Z",
-      "last_success_at": "2026-06-15T20:28:32Z",
+      "last_attempt_at": "2026-06-16T20:13:58Z",
+      "last_success_at": "2026-06-16T20:13:58Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
       "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
@@ -2354,8 +2354,8 @@
     },
     "official-accepted:NEURIPS:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:38Z",
-      "last_success_at": "2026-06-15T20:28:38Z",
+      "last_attempt_at": "2026-06-16T20:14:03Z",
+      "last_success_at": "2026-06-16T20:14:03Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
       "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
@@ -2368,8 +2368,8 @@
     },
     "official-accepted:NEURIPS:2023": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:44Z",
-      "last_success_at": "2026-06-15T20:28:44Z",
+      "last_attempt_at": "2026-06-16T20:14:09Z",
+      "last_success_at": "2026-06-16T20:14:09Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
       "sha256": "9dfcc668023c85da911e0d18c14601eb9ef5cc6c75db2877bc891689e3618949",
@@ -2382,8 +2382,8 @@
     },
     "official-accepted:NEURIPS:2024": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:51Z",
-      "last_success_at": "2026-06-15T20:28:51Z",
+      "last_attempt_at": "2026-06-16T20:14:16Z",
+      "last_success_at": "2026-06-16T20:14:16Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
       "sha256": "b60b3c80e797ef348c634316a42a31a9c7946a8145f6257d6f86bbb4214e442d",
@@ -2396,8 +2396,8 @@
     },
     "official-accepted:NEURIPS:2025": {
       "error": "",
-      "last_attempt_at": "2026-06-15T20:28:59Z",
-      "last_success_at": "2026-06-15T20:28:59Z",
+      "last_attempt_at": "2026-06-16T20:14:24Z",
+      "last_success_at": "2026-06-16T20:14:24Z",
       "rawdata_path": "data/rawdata/2025/NeurIPS2025-accepted.json",
       "record_count": 5782,
       "sha256": "293ab66a221c0afd4c6ce2bf857db8603cfd5c76c2c5815356c598d50221240f",
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 6,
+    "cursor": 7,
     "history": [
       {
         "cursor": 2,
@@ -2912,15 +2912,27 @@
           "NeurIPS",
           "ICML"
         ]
+      },
+      {
+        "cursor": 7,
+        "failed": [],
+        "finalized_at": "2026-06-16T20:17:04Z",
+        "succeeded": [
+          "NeurIPS",
+          "IJCAI"
+        ],
+        "venues": [
+          "NeurIPS",
+          "IJCAI"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-15T20:32:30Z",
+    "last_completed_at": "2026-06-16T20:17:04Z",
     "last_selected": [
       "NeurIPS",
-      "ICML"
+      "IJCAI"
     ],
     "retry_queue": [
-      "NeurIPS",
       "WWW",
       "ISSTA",
       "ICCV"

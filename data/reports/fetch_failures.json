@@ -1,21 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 2376,
-    "failure_count": 1,
+    "fetched_entries": 4611,
+    "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 10
+    "skipped_count": 9
   },
-  "failures": [
-    {
-      "venue": "NeurIPS",
-      "year": 2025,
-      "track": "AI",
-      "source": "dblp",
-      "source_type": "dblp-conference",
-      "status": "failed",
-      "error": "https://dblp.org/db/conf/nips/nips2025.xml: HTTP Error 404: Not Found"
-    }
-  ],
+  "failures": [],
   "warnings": [],
   "skipped": [
     {
@@ -51,7 +41,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICML",
+      "venue": "IJCAI",
       "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -59,7 +49,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICML",
+      "venue": "IJCAI",
       "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -67,7 +57,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICML",
+      "venue": "IJCAI",
       "year": 2022,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -75,7 +65,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICML",
+      "venue": "IJCAI",
       "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -83,16 +73,8 @@
       "reason": "complete"
     },
     {
-      "venue": "ICML",
+      "venue": "IJCAI",
       "year": 2024,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICML",
-      "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",

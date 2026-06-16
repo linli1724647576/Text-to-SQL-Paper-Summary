@@ -2627,6 +2627,45 @@
     ],
     "relevance_level": "core"
   },
+  "Bridging the Gap: Enabling Natural Language Queries for NoSQL Databases through Text-to-NoSQL Translation": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2502.11201v3",
+    "author": "Jinwei Lu and Jiawei Lu and Chen Zhang and Zhiqian Qin and Haodi Zhang and Yuanfeng Song and Raymond Chi-Wing Wong",
+    "booktitle": "arXiv",
+    "title": "Bridging the Gap: Enabling Natural Language Queries for NoSQL Databases through Text-to-NoSQL Translation",
+    "year": "2025",
+    "abstract": "NoSQL databases are core data infrastructure, yet natural-language access to them remains underdeveloped: correct query generation must recover how a non-relational data model represents entities, nested paths, arrays, missing fields, and dynamic keys. This paper studies Text-to-NoSQL, translating natural-language requests into executable NoSQL queries, instantiated with MongoDB aggregation pipelines over schema-less document stores. We present TEND, short for Text-to-NoSQL Dataset, an execution-verified benchmark with 1,210 MongoDB-native tasks across 11 databases. To our knowledge, TEND is the first Text-to-NoSQL benchmark whose database worlds are MongoDB-native by design: experts manually define collection boundaries, nested arrays, optional and sparse paths, polymorphic shapes, and dynamic-key conventions; these worlds are populated with real data and verified through frozen MongoDB execution, so TEND evaluates schema-less document reasoning rather than SQL-to-MQL transfer. We further introduce SAG, a Schema-as-Data Grounding solver that induces path and value grounding from stored-document evidence before bounded MQL generation, execution-grounded repair, and result-consistency selection. Evaluation uses bounded column-tolerant execution accuracy (EXC) as the headline metric, complemented by a graded result-set F1 and a mutually exclusive execution-outcome decomposition. Experiments show that LLMs with strong NL2SQL performance degrade substantially on TEND, validating Text-to-NoSQL as a distinct schema-less document reasoning problem.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2502.11201v3",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Question Decomposition",
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction",
+      "Result Validation"
+    ],
+    "relevance_level": "core"
+  },
   "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Zhao0PP22",
@@ -3547,6 +3586,55 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "CoeusBI: A Comprehensive Interactive Business Intelligence System Powered by LLMs at Baidu [Extended Version]": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.15384v1",
+    "author": "Jinqing Lian and Chaofan Li and Yingxia Shao and Ming Wang and Yang Dong and Xinyi Liu and Wei Zhang and Chaoxian Gui and Tianqi Wan and Ming Dong",
+    "booktitle": "arXiv",
+    "title": "CoeusBI: A Comprehensive Interactive Business Intelligence System Powered by LLMs at Baidu [Extended Version]",
+    "year": "2026",
+    "abstract": "The advent of Large Language Models has catalyzed the emergence of interactive Business Intelligence (BI) systems. Although commercial BI products increasingly adopt semantic layers paired with natural language interfaces, they predominantly rely on manual configurations to define metrics and dimensions. Real-world deployments face critical challenges: (a) frequent JOIN operations degrade the accuracy of SQL generation; (b) wide schemas exacerbate the challenge of schema linking; and (c) the generation of dialect-specific queries and the accurate support for multi-round dialogues incur high computational costs and yield limited accuracy. We introduce CoeusBI, an industrial-scale interactive BI system that addresses these barriers through a novel Dual-Agent Architecture paired with a Hierarchical Schema Linking module: (1) an offline View Generation Agent that utilizes error-feedback to autonomously convert complex JOIN queries into simple single-view queries, which eliminates the need for manual semantic modeling; (2) a Hierarchical Schema Linking module that leverages vector retrieval over views to handle exceptionally wide schemas efficiently; and (3) a dynamic Routing Agent that evaluates dialogue contexts to route queries, dynamically invoking either the synthesis of new intermediate representations or targeted modifications of existing ones, before compiling the unified representation via a deterministic SQL compiler that is agnostic to dialects. Extensive experiments on both public datasets and production datasets demonstrate that CoeusBI achieves significant improvements in query accuracy, token efficiency, and user satisfaction relative to existing methods. CoeusBI is deployed as a standalone service on the data platform of Baidu and is widely used across multiple business lines supporting thousands of users daily, thereby evidencing strong practicality and scalability.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.15384v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Planning and Generation",
+      "Intermediate Representation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Dialogue Context Tracking",
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
+      "Query Planning",
+      "Intermediate Representation",
+      "SQL Generation",
+      "Dialect Adaptation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation": {
     "type": "INPROCEEDINGS",
@@ -8197,6 +8285,53 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "Integrating Reasoning and Generalization in Text-to-SQL via Self-Enhanced Fine-Tuning": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.15598v1",
+    "author": "Feng Lyu and Jinfeng Cen and Sijing Duan and Hao Wu and Shucheng Li and Weixu Zhang and Haolun Wu",
+    "booktitle": "arXiv",
+    "title": "Integrating Reasoning and Generalization in Text-to-SQL via Self-Enhanced Fine-Tuning",
+    "year": "2026",
+    "abstract": "Text-to-SQL aims to translate natural language questions into executable SQL queries over structured databases, enabling non-expert users to access data intuitively. While recent advances in large language models (LLMs) have shown promise in this task, existing LLM-based approaches often struggle to strike a balance between strong reasoning capabilities and robust generalization. To address these limitations, we propose CoTE-SQL to enhance the LLM-based text-to-SQL generation with three key innovations: (i) self-enhanced reasoning traces distilled from LLMs without human annotation, (ii) structured chain-of-thought (CoT) prompting with modular decomposition and examples retrieval, and (iii) error-aware revision based on SQL execution feedback. Extensive experiments on the Spider and Bird benchmarks demonstrate that CoTE-SQL achieves new state-of-the-art performance among methods built on open-source LLMs with comparable model sizes on Bird (53.39% EX / 59.02 VES) and strong results on Spider (79.60% EX / 77.19 VES), with especially significant gains on complex queries. Results highlight the effectiveness of combining self-enhancement, structured reasoning, and execution-time feedback within an LLM-based framework for text-to-SQL design.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.15598v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Question Decomposition",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Verification & Repair",
+      "Execution Feedback"
+    ],
+    "relevance_level": "core"
   },
   "Interleaving Pre-Trained Language Models and Large Language Models for Zero-Shot NL2SQL Generation": {
     "type": "ARTICLE",

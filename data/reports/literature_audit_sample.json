@@ -425,7 +425,25 @@
       "notes": ""
     },
     {
-      "title": "Translating Natural Language Queries to SQL Using the T5 Model",
+      "title": "Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.07202v2"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,35 +451,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2312.12414v1"
+        "https://arxiv.org/abs/2203.07376v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2512.22250v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "CBR-to-SQL: Rethinking Retrieval-based Text-to-SQL using Case-based Reasoning in the Healthcare Domain",
+      "title": "CAPER: Clause-Aligned Process Supervision for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -474,7 +474,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.05569v2"
+        "https://arxiv.org/abs/2606.03327v1"
       ],
       "notes": "missing doi"
     },
@@ -497,7 +497,25 @@
       "notes": "missing doi"
     },
     {
-      "title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+      "title": "Predicting Psychological Well-Being from Spontaneous Speech using LLMs",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.11303v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -505,35 +523,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.20677v1"
+        "https://arxiv.org/abs/2305.19974v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2512.21877v3"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "SIRIUS-SQL: Anchoring Multi-Candidate Text-to-SQL in Execution Feedback",
+      "title": "SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +546,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.01246v1"
+        "https://arxiv.org/abs/2604.23477v2"
       ],
       "notes": "missing doi"
     },
@@ -702,25 +702,7 @@
       "notes": ""
     },
     {
-      "title": "Data Agnostic RoBERTa-based Natural Language to SQL Query Generation",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2010.05243v3"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance",
+      "title": "DP-Bench: A Benchmark for Evaluating Data Product Creation Systems",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -733,16 +715,35 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.08896v1"
+        "https://arxiv.org/abs/2512.15798v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "ODTQA-FoRe: An Open-Domain Tabular Question Answering Dataset for Future Data Forecasting and Reasoning",
+      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v37i11.26536",
+        "https://doi.org/10.1609/aaai.v37i11.26536"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Noisy Data is Destructive to Reinforcement Learning with Verifiable Rewards",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -751,7 +752,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.02433v1"
+        "https://arxiv.org/abs/2603.16140v1"
       ],
       "notes": "missing doi"
     }

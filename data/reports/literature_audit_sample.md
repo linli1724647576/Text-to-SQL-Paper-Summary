@@ -29,13 +29,13 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2023 | Translating Natural Language Queries to SQL Using the T5 Model | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | CBR-to-SQL: Rethinking Retrieval-based Text-to-SQL using Case-based Reasoning in the Healthcare Domain | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent | missing doi |
+| arxiv | true_positive_core | ArXiv | 2022 | HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | CAPER: Clause-Aligned Process Supervision for Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SIRIUS-SQL: Anchoring Multi-Candidate Text-to-SQL in Execution Feedback | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | Predicting Psychological Well-Being from Spontaneous Speech using LLMs | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agent Lightning: Train ANY AI Agents with Reinforcement Learning | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2020 | Data Agnostic RoBERTa-based Natural Language to SQL Query Generation | missing doi |
-| fill | true_positive_core | ArXiv | 2025 | HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance | missing doi |
-| fill | true_positive_application | ArXiv | 2026 | ODTQA-FoRe: An Open-Domain Tabular Question Answering Dataset for Future Data Forecasting and Reasoning | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | DP-Bench: A Benchmark for Evaluating Data Product Creation Systems | missing doi |
+| fill | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
+| fill | true_positive_core | ArXiv | 2026 | Noisy Data is Destructive to Reinforcement Learning with Verifiable Rewards | missing doi |

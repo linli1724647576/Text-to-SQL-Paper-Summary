@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 6,
-  "cursor_before": 5,
+  "cursor_after": 7,
+  "cursor_before": 6,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "ICML"
+    "IJCAI"
   ],
   "retry_venues": [
     "NeurIPS"
   ],
-  "selected_at": "2026-06-15T20:27:18Z",
+  "selected_at": "2026-06-16T20:13:07Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "NeurIPS",
-    "ICML"
+    "IJCAI"
   ],
-  "venues_csv": "NeurIPS,ICML",
+  "venues_csv": "NeurIPS,IJCAI",
   "version": 1
 }

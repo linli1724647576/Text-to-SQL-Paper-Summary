@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-16T20:13:52Z",
-      "last_success_at": "2026-06-16T20:13:52Z",
+      "last_attempt_at": "2026-06-17T19:26:34Z",
+      "last_success_at": "2026-06-17T19:26:34Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 479,
-      "sha256": "630437270671114da517548c19c95651b383d61e5eb60d9fa5c2ff4d3803a1b2",
+      "record_count": 478,
+      "sha256": "20fd251963e96266fc3a2baf35b99ef1b573b0ecbcbdbf34e9ce0ce8f664a489",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -2508,11 +2508,11 @@
     },
     "official-accepted:SIGMOD:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-23T18:02:47Z",
-      "last_success_at": "2026-05-23T18:02:47Z",
+      "last_attempt_at": "2026-06-17T19:26:37Z",
+      "last_success_at": "2026-06-17T19:26:37Z",
       "rawdata_path": "data/rawdata/2026/SIGMOD2026-accepted.json",
       "record_count": 349,
-      "sha256": "f03d35043a9b63494fc3d845b30a9770c6ece7a1eb060bbf2d2d48e88573b2cf",
+      "sha256": "6acba4130da1db266b49bd8b941a6714818d8263c72ddc982e53b7b4abc5b537",
       "source": "official-accepted",
       "source_type": "official-accepted",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-05-27T19:28:46Z",
+      "last_attempt_at": "2026-06-17T19:26:40Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2536,8 +2536,8 @@
     },
     "official-accepted:WWW:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-27T19:27:29Z",
-      "last_success_at": "2026-05-27T19:27:29Z",
+      "last_attempt_at": "2026-06-17T19:26:41Z",
+      "last_success_at": "2026-06-17T19:26:41Z",
       "rawdata_path": "data/rawdata/2026/WWW2026-accepted.json",
       "record_count": 676,
       "sha256": "c88b49841a3ce5dc6e9b50fe6bb6dce311d096d7131e932073e7d5b218508440",
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 7,
+    "cursor": 8,
     "history": [
       {
         "cursor": 2,
@@ -2925,12 +2925,26 @@
           "NeurIPS",
           "IJCAI"
         ]
+      },
+      {
+        "cursor": 8,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-17T19:27:40Z",
+        "succeeded": [
+          "SIGMOD"
+        ],
+        "venues": [
+          "WWW",
+          "SIGMOD"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-16T20:17:04Z",
+    "last_completed_at": "2026-06-17T19:27:40Z",
     "last_selected": [
-      "NeurIPS",
-      "IJCAI"
+      "WWW",
+      "SIGMOD"
     ],
     "retry_queue": [
       "WWW",

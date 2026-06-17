@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "630437270671114da517548c19c95651b383d61e5eb60d9fa5c2ff4d3803a1b2"
+          "sha256": "20fd251963e96266fc3a2baf35b99ef1b573b0ecbcbdbf34e9ce0ce8f664a489"
         }
       ],
       "processing": {
@@ -3987,7 +3987,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/SIGMOD2026-accepted.json",
-          "sha256": "f03d35043a9b63494fc3d845b30a9770c6ece7a1eb060bbf2d2d48e88573b2cf"
+          "sha256": "6acba4130da1db266b49bd8b941a6714818d8263c72ddc982e53b7b4abc5b537"
         }
       ],
       "processing": {

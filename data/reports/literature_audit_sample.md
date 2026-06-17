@@ -29,13 +29,13 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_application | ArXiv | 2026 | Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent | missing doi |
-| arxiv | true_positive_core | ArXiv | 2022 | HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Toward Multi-Database Query Reasoning for Text2Cypher | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | CAPER: Clause-Aligned Process Supervision for Text-to-SQL | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
-| arxiv | true_positive_application | ArXiv | 2026 | Predicting Psychological Well-Being from Spontaneous Speech using LLMs | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Post-Selection Distributional Model Evaluation | missing doi |
 | arxiv | true_positive_core | ArXiv | 2023 | Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | SANE Schema-aware Natural-language Evaluation of Biological Data | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agent Lightning: Train ANY AI Agents with Reinforcement Learning | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
@@ -45,5 +45,5 @@
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | fill | true_positive_core | ArXiv | 2025 | DP-Bench: A Benchmark for Evaluating Data Product Creation Systems | missing doi |
-| fill | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
-| fill | true_positive_core | ArXiv | 2026 | Noisy Data is Destructive to Reinforcement Learning with Verifiable Rewards | missing doi |
+| fill | true_positive_core | ICML | 2026 | Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction | missing doi |
+| fill | true_positive_core | AAAI | 2020 | Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning |  |

@@ -2522,7 +2522,7 @@
   "Mixtera: A Data Plane for Foundation Model Training": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-mixtera-a-data-plane-for-foundation-model-training",
-    "author": "Maximilian BÃ¶ther and Xiaozhe Yao and Tolga Kerimoglu and Dan Graur and Viktor Gsteiger and Ana Klimovic",
+    "author": "Maximilian Böther and Xiaozhe Yao and Tolga Kerimoglu and Dan Graur and Viktor Gsteiger and Ana Klimovic",
     "booktitle": "SIGMOD Conference",
     "title": "Mixtera: A Data Plane for Foundation Model Training",
     "year": "2026",

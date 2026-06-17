@@ -425,11 +425,11 @@
       "notes": ""
     },
     {
-      "title": "Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent",
+      "title": "Toward Multi-Database Query Reasoning for Text2Cypher",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -438,12 +438,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.07202v2"
+        "https://arxiv.org/abs/2605.10373v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+      "title": "HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -451,12 +451,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2022",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2203.07376v2"
+        "https://arxiv.org/abs/2510.08896v1"
       ],
       "notes": "missing doi"
     },
@@ -497,11 +497,11 @@
       "notes": "missing doi"
     },
     {
-      "title": "Predicting Psychological Well-Being from Spontaneous Speech using LLMs",
+      "title": "Post-Selection Distributional Model Evaluation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -510,7 +510,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.11303v1"
+        "https://arxiv.org/abs/2603.23055v3"
       ],
       "notes": "missing doi"
     },
@@ -533,7 +533,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models",
+      "title": "SANE Schema-aware Natural-language Evaluation of Biological Data",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +546,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.23477v2"
+        "https://arxiv.org/abs/2606.04500v1"
       ],
       "notes": "missing doi"
     },
@@ -720,7 +720,25 @@
       "notes": "missing doi"
     },
     {
-      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
+      "title": "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ICML",
+      "normalized_venue": "ICML",
+      "category": "AI 领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://icml.cc/virtual/2026/poster/62627"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -728,33 +746,15 @@
       "venue": "AAAI",
       "normalized_venue": "AAAI",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v37i11.26536",
-        "https://doi.org/10.1609/aaai.v37i11.26536"
+        "10.1609/aaai.v34i05.6427",
+        "https://doi.org/10.1609/aaai.v34i05.6427"
       ],
       "notes": ""
-    },
-    {
-      "title": "Noisy Data is Destructive to Reinforcement Learning with Verifiable Rewards",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2603.16140v1"
-      ],
-      "notes": "missing doi"
     }
   ]
 }

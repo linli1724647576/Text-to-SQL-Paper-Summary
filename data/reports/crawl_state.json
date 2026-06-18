@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-17T19:26:34Z",
-      "last_success_at": "2026-06-17T19:26:34Z",
+      "last_attempt_at": "2026-06-18T19:31:59Z",
+      "last_success_at": "2026-06-18T19:31:59Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 478,
-      "sha256": "20fd251963e96266fc3a2baf35b99ef1b573b0ecbcbdbf34e9ce0ce8f664a489",
+      "record_count": 480,
+      "sha256": "3f2fbb1a75b9185822cf41c6e81d01ce100da8f1da3692245e74975fc10b6c63",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -1332,11 +1332,11 @@
     },
     "dblp-conference:VLDB:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-18T08:47:17Z",
-      "last_success_at": "2026-05-18T08:47:17Z",
+      "last_attempt_at": "2026-06-18T19:31:32Z",
+      "last_success_at": "2026-06-18T19:31:32Z",
       "rawdata_path": "data/rawdata/2026/VLDB2026.json",
-      "record_count": 22,
-      "sha256": "433d1de78aeb9284b56debef3efaa83732e21f1658d01108c28cd0c24e8c4344",
+      "record_count": 65,
+      "sha256": "4ec3e36398357ef3922f776de8c66dcad3cac196cad54b04be3e40627ce065c0",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-17T19:26:40Z",
+      "last_attempt_at": "2026-06-18T19:32:00Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 8,
+    "cursor": 9,
     "history": [
       {
         "cursor": 2,
@@ -2939,12 +2939,26 @@
           "WWW",
           "SIGMOD"
         ]
+      },
+      {
+        "cursor": 9,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-18T19:32:51Z",
+        "succeeded": [
+          "VLDB"
+        ],
+        "venues": [
+          "WWW",
+          "VLDB"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-17T19:27:40Z",
+    "last_completed_at": "2026-06-18T19:32:51Z",
     "last_selected": [
       "WWW",
-      "SIGMOD"
+      "VLDB"
     ],
     "retry_queue": [
       "WWW",

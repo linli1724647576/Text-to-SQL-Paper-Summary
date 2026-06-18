@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-17T19:27:40Z",
+  "generated_at": "2026-06-18T19:32:50Z",
   "records": [
     {
       "kind": "conference",
@@ -1745,12 +1745,12 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 22,
+      "raw_candidate_count": 65,
       "rawdata_files": [
         "data/rawdata/2026/VLDB2026.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 2,
+      "relevant_candidate_count": 4,
       "source_type": "dblp-conference",
       "source_url": "https://dblp.org/db/journals/pvldb/pvldb19.xml",
       "status": "available",

@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "20fd251963e96266fc3a2baf35b99ef1b573b0ecbcbdbf34e9ce0ce8f664a489"
+          "sha256": "3f2fbb1a75b9185822cf41c6e81d01ce100da8f1da3692245e74975fc10b6c63"
         }
       ],
       "processing": {
@@ -5051,7 +5051,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDB2026.json",
-          "sha256": "433d1de78aeb9284b56debef3efaa83732e21f1658d01108c28cd0c24e8c4344"
+          "sha256": "4ec3e36398357ef3922f776de8c66dcad3cac196cad54b04be3e40627ce065c0"
         }
       ],
       "processing": {

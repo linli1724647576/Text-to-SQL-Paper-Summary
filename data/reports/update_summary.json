@@ -10,26 +10,26 @@
   "metrics": {
     "venues_sentinel_version": 2,
     "venues_sentinel_count": 145,
-    "paper_count": 554,
-    "unique_title_count": 554,
+    "paper_count": 556,
+    "unique_title_count": 556,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 552,
-    "unique_title_drop_ratio": -0.003623,
+    "baseline_unique_title_count": 554,
+    "unique_title_drop_ratio": -0.00361,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
     "category_counts": {
       "AI 领域": 92,
-      "ArXiv": 348,
+      "ArXiv": 347,
       "交叉/综合/新兴": 2,
-      "数据库领域": 103,
+      "数据库领域": 106,
       "软件工程": 9
     },
     "source_counts": {
-      "arxiv": 348,
-      "ccf_venue": 206
+      "arxiv": 347,
+      "ccf_venue": 209
     },
     "irrelevant_records": 0,
     "unsupported_www_records": 0,
@@ -310,11 +310,11 @@
           "relevant_papers": 2
         },
         "ArXiv": {
-          "raw_candidates": 478,
+          "raw_candidates": 480,
           "official_accepted": 0,
           "dblp": 0,
-          "arxiv": 478,
-          "relevant_papers": 348
+          "arxiv": 480,
+          "relevant_papers": 347
         },
         "CVPR2020": {
           "raw_candidates": 1465,
@@ -1028,14 +1028,14 @@
           "official_accepted": 0,
           "dblp": 389,
           "arxiv": 0,
-          "relevant_papers": 6
+          "relevant_papers": 7
         },
         "VLDB2026": {
-          "raw_candidates": 22,
+          "raw_candidates": 65,
           "official_accepted": 0,
-          "dblp": 22,
+          "dblp": 65,
           "arxiv": 0,
-          "relevant_papers": 2
+          "relevant_papers": 4
         },
         "VLDBJ2020": {
           "raw_candidates": 39,
@@ -1143,7 +1143,7 @@
           "relevant_papers": 0
         }
       },
-      "arxiv_raw_titles_overridden_by_ccf": 28
+      "arxiv_raw_titles_overridden_by_ccf": 29
     },
     "source_coverage": {
       "total": 151,

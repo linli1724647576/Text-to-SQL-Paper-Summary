@@ -4620,6 +4620,42 @@
     ],
     "relevance_level": "core"
   },
+  "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.19319v1",
+    "author": "Anoushka Vyas and Aarushi Dhanuka and Sina Khoshfetrat Pakazad and Henrik Ohlsson",
+    "booktitle": "arXiv",
+    "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+    "year": "2026",
+    "abstract": "Production data integration is bottlenecked by repeated, lossy handoffs between data owners, engineers, and analysts who must collaboratively discover, structure, and query enterprise data. We present Data Intelligence Agents (DIA), a system of three agents (Data Interpreter, Schema Creator, and Query Generator) that compresses this workflow by treating autonomous coding agents (ACAs) as a first-class abstraction: rather than emitting text, the agents generate, execute, validate, and repair concrete artifacts, draw on a shared memory for experience reuse, and surface each for review by domain experts. DIA is deployed in production for enterprise customers. We study the Query Generator in depth and evaluate it in fully autonomous mode across seven SQL benchmarks spanning four task categories and four dialects. It matches or surpasses the best published results on all seven, demonstrating that an architecture grounded in execution, built on ACAs and a shared memory, generalizes across the data intelligence workload with adaptation confined to natural-language instructions.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.19319v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Self-correction and Repair",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Data-aware candidate selection in NL2SQL translation via small separating instances": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.12319v1",
@@ -11350,6 +11386,29 @@
       "application_related"
     ]
   },
+  "OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision": {
+    "type": "ARTICLE",
+    "key": "journals/pvldb/HuLLWL26",
+    "author": "Ruilin Hu and Yuyu Luo and Guoliang Li 0001 and Shuangqiao Wu and Yun Luo",
+    "booktitle": "Proc. VLDB Endow.",
+    "title": "OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://www.vldb.org/pvldb/vol19/p1628-li.pdf",
+    "doi": "",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
+    "journal": "Proc. VLDB Endow.",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2025-opensearch-sql-enhancing-text-to-sql-with-dynamic-few-shot-and-consistency-align",
@@ -14224,15 +14283,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2508.07087v2",
     "author": "Mohammadreza Daviran and Brian Lin and Davood Rafiei",
-    "booktitle": "arXiv",
+    "booktitle": "Proc. VLDB Endow.",
     "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
     "year": "2025",
     "abstract": "We introduce SQL-Exchange, a framework for mapping SQL queries across different database schemas by preserving the source query structure while adapting domain-specific elements to align with the target schema. We investigate the conditions under which such mappings are feasible and beneficial, and examine their impact on enhancing the in-context learning performance of text-to-SQL systems as a downstream task. Our comprehensive evaluation across multiple model families and benchmark datasets -- assessing structural alignment with source queries, execution validity on target databases, and semantic correctness -- demonstrates that SQL-Exchange is effective across a wide range of schemas and query types. Our results further show that both in-context prompting with mapped queries and fine-tuning on mapped data consistently yield higher text-to-SQL performance than using examples drawn directly from the source schema.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2508.07087v2",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -14254,7 +14313,8 @@
       "Prompt-based Generation",
       "Fine-tuned Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "journal": "Proc. VLDB Endow."
   },
   "SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning": {
     "type": "ARTICLE",
@@ -15891,15 +15951,15 @@
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2606.14201v1",
     "author": "Chao Deng and Ju Fan and Yuyu Luo and Qinliang Xue and Meihao Fan and Yuxin Zhang and Min Zhang and Xiaofeng Jia and Jing Zhang and Xiaoyong Du",
-    "booktitle": "arXiv",
+    "booktitle": "Proc. VLDB Endow.",
     "title": "TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries",
     "year": "2026",
     "abstract": "Text-to-SQL aims to translate natural language questions into executable SQL queries over structured databases. Existing benchmarks mainly focus on closed-domain settings with predefined database schemas and well-specified questions, but they fall short in addressing the challenges of open-domain scenarios, such as ambiguous questions, unspecified databases, and cross-database querying. To bridge this gap, we introduce TACO, a benchmark for open-domain Text-to-SQL with Ambiguous and Cross-database queries. TACO consists of 1,500 real-world Text-to-SQL examples based on a smart city data service and 13,000 high-quality synthetic examples generated based on large-scale open data portals, covering diverse domains such as transportation, healthcare, and finance. To construct the synthetic examples, we develop an effective data synthesis pipeline that preserves the complexity of real-world queries. To demonstrate the utility of TACO, we introduce a baseline TACO-SQL composed of question rewriting, table linking, and query planning, to illustrate the challenges posed by TACO and to better understand the limitations of existing Text-to-SQL approaches. Extensive experiments on TACO using a variety of recent Text-to-SQL approaches show that, while TACO-SQL achieves the best results, a significant gap still remains between the existing approaches and human-written SQL. These findings highlight the difficulty of open-domain Text-to-SQL and position TACO as a valuable benchmark to drive future research.",
     "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
     "url": "https://arxiv.org/abs/2606.14201v1",
     "doi": "",
-    "venue": "ArXiv",
-    "venue_track": "ArXiv",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -15914,7 +15974,8 @@
       "Query Planning",
       "SQL Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "core",
+    "journal": "Proc. VLDB Endow."
   },
   "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience": {
     "type": "ARTICLE",

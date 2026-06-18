@@ -162,39 +162,40 @@
       "notes": ""
     },
     {
-      "title": "Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing",
+      "title": "Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams?",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "NeurIPS",
-      "normalized_venue": "NeurIPS",
-      "category": "AI 领域",
-      "year": "2023",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2310.04801v1"
+        "10.1145/3722212.3724479",
+        "https://doi.org/10.1145/3722212.3724479"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
-      "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+      "title": "Quirx: A Mutation-Based Framework for Evaluating Prompt Robustness in LLM-based Software",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2020",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ASE",
+      "normalized_venue": "ASE",
+      "category": "软件工程",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2020.acl-main.677",
-        "https://doi.org/10.18653/v1/2020.acl-main.677"
+        "10.1109/ASE63991.2025.00383",
+        "https://doi.org/10.1109/ASE63991.2025.00383"
       ],
       "notes": ""
     },
@@ -218,22 +219,23 @@
       "notes": ""
     },
     {
-      "title": "SiriusBI: A Comprehensive LLM-powered Solution for Data Analytics in Business Intelligence",
+      "title": "Sevi: Speech-to-Visualization through Neural Machine Translation",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://www.vldb.org/pvldb/vol18/p4860-xie.pdf"
+        "10.1145/3514221.3520150",
+        "https://doi.org/10.1145/3514221.3520150"
       ],
-      "notes": "missing doi"
+      "notes": ""
     },
     {
       "title": "A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation",
@@ -425,7 +427,7 @@
       "notes": ""
     },
     {
-      "title": "Toward Multi-Database Query Reasoning for Text2Cypher",
+      "title": "Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -433,17 +435,17 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.10373v1"
+        "https://arxiv.org/abs/2407.21040v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "HES-SQL: Hybrid Reasoning for Efficient Text-to-SQL with Structural Skeleton Guidance",
+      "title": "GradeSQL: Test-Time Inference with Outcome Reward Models for Text-to-SQL Generation from Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -456,7 +458,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.08896v1"
+        "https://arxiv.org/abs/2509.01308v2"
       ],
       "notes": "missing doi"
     },
@@ -497,7 +499,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Post-Selection Distributional Model Evaluation",
+      "title": "PolySQL: Scaling Text-to-SQL Evaluation Across SQL Dialects via Automated Backend Isomorphism",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -510,7 +512,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.23055v3"
+        "https://arxiv.org/abs/2605.07796v1"
       ],
       "notes": "missing doi"
     },
@@ -533,7 +535,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "SANE Schema-aware Natural-language Evaluation of Biological Data",
+      "title": "S0 Tuning: Zero-Overhead Adaptation of Hybrid Recurrent-Attention Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -546,7 +548,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.04500v1"
+        "https://arxiv.org/abs/2604.01168v2"
       ],
       "notes": "missing doi"
     },
@@ -738,23 +740,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning",
+      "title": "Natural language to SQL: Where are we today?",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
       "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v34i05.6427",
-        "https://doi.org/10.1609/aaai.v34i05.6427"
+        "http://www.vldb.org/pvldb/vol13/p1737-kim.pdf"
       ],
-      "notes": ""
+      "notes": "missing doi"
     }
   ]
 }

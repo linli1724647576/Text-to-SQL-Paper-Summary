@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-18T19:31:59Z",
-      "last_success_at": "2026-06-18T19:31:59Z",
+      "last_attempt_at": "2026-06-19T18:57:31Z",
+      "last_success_at": "2026-06-19T18:57:31Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 480,
-      "sha256": "3f2fbb1a75b9185822cf41c6e81d01ce100da8f1da3692245e74975fc10b6c63",
+      "record_count": 481,
+      "sha256": "ef551f338c0d7739a2d13e4845d0296b952d65915851db8fd9adf407ef2dd685",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -2032,8 +2032,8 @@
     },
     "official-accepted:ICDE:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-25T18:27:17Z",
-      "last_success_at": "2026-05-25T18:27:17Z",
+      "last_attempt_at": "2026-06-19T18:57:31Z",
+      "last_success_at": "2026-06-19T18:57:31Z",
       "rawdata_path": "data/rawdata/2026/ICDE2026-accepted.json",
       "record_count": 261,
       "sha256": "6685b38ab77ec6f89c8319cd78961212e22a823ba150e499a46a8ddd17a76f6c",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-18T19:32:00Z",
+      "last_attempt_at": "2026-06-19T18:57:35Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 9,
+    "cursor": 10,
     "history": [
       {
         "cursor": 2,
@@ -2953,12 +2953,26 @@
           "WWW",
           "VLDB"
         ]
+      },
+      {
+        "cursor": 10,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-19T18:58:31Z",
+        "succeeded": [
+          "ICDE"
+        ],
+        "venues": [
+          "WWW",
+          "ICDE"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-18T19:32:51Z",
+    "last_completed_at": "2026-06-19T18:58:31Z",
     "last_selected": [
       "WWW",
-      "VLDB"
+      "ICDE"
     ],
     "retry_queue": [
       "WWW",

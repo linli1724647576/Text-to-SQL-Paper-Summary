@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 9,
-  "cursor_before": 8,
+  "cursor_after": 10,
+  "cursor_before": 9,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "VLDB"
+    "ICDE"
   ],
   "retry_venues": [
     "WWW"
   ],
-  "selected_at": "2026-06-18T19:31:27Z",
+  "selected_at": "2026-06-19T18:57:08Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "WWW",
-    "VLDB"
+    "ICDE"
   ],
-  "venues_csv": "WWW,VLDB",
+  "venues_csv": "WWW,ICDE",
   "version": 1
 }

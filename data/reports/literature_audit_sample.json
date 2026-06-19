@@ -427,43 +427,7 @@
       "notes": ""
     },
     {
-      "title": "Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2407.21040v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "GradeSQL: Test-Time Inference with Outcome Reward Models for Text-to-SQL Generation from Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2509.01308v2"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "CAPER: Clause-Aligned Process Supervision for Text-to-SQL",
+      "title": "TiInsight: A SQL-based Automated Exploratory Data Analysis System through Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -476,7 +440,43 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.03327v1"
+        "https://arxiv.org/abs/2601.09404v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.22811v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.08057v1"
       ],
       "notes": "missing doi"
     },
@@ -499,7 +499,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "PolySQL: Scaling Text-to-SQL Evaluation Across SQL Dialects via Automated Backend Isomorphism",
+      "title": "PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -512,30 +512,30 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.07796v1"
+        "https://arxiv.org/abs/2604.17653v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding",
+      "title": "Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2305.19974v1"
+        "https://arxiv.org/abs/2507.01053v3"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "S0 Tuning: Zero-Overhead Adaptation of Hybrid Recurrent-Attention Models",
+      "title": "Robust Active Learning for Few-Shot Example Selection in Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -548,7 +548,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.01168v2"
+        "https://arxiv.org/abs/2606.10125v1"
       ],
       "notes": "missing doi"
     },
@@ -704,7 +704,26 @@
       "notes": ""
     },
     {
-      "title": "DP-Bench: A Benchmark for Evaluating Data Product Creation Systems",
+      "title": "DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ASE",
+      "normalized_venue": "ASE",
+      "category": "软件工程",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/ASE63991.2025.00076",
+        "https://doi.org/10.1109/ASE63991.2025.00076"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "GeoSQL-Eval: First Evaluation of LLMs on PostGIS-Based NL2GeoSQL Queries",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -717,43 +736,25 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.15798v1"
+        "https://arxiv.org/abs/2509.25264v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "Graph-Link: Bridging the Semantic-Structural Gap in Text-to-SQL via Constrained Subgraph Induction",
+      "title": "Natural Language Models for Data Visualization Utilizing nvBench Dataset",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICML",
-      "normalized_venue": "ICML",
-      "category": "AI 领域",
-      "year": "2026",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://icml.cc/virtual/2026/poster/62627"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Natural language to SQL: Where are we today?",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDB",
-      "normalized_venue": "VLDB",
-      "category": "数据库领域",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "http://www.vldb.org/pvldb/vol13/p1737-kim.pdf"
+        "https://arxiv.org/abs/2310.00832v1"
       ],
       "notes": "missing doi"
     }

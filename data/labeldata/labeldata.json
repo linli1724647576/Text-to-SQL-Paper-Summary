@@ -2367,6 +2367,44 @@
     ],
     "relevance_level": "core"
   },
+  "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.19396v1",
+    "author": "Meng Xiao and Chuan Qin and Jinmiao Chen and Yihang Cheng and Yuanchun Zhou and Hengshu Zhu",
+    "booktitle": "arXiv",
+    "title": "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases",
+    "year": "2026",
+    "abstract": "Motivation: Biomedical question answering often requires evidence beyond topically retrieved literature, including gene alias resolution, database identifier normalization, and atlas-derived biological measurements. However, existing retrieval-augmented generation (RAG) systems typically follow a fixed workflow and lack an explicit mechanism for deciding when retrieved text is sufficient, when curated biomedical knowledge is required, or when executable evidence assembly over structured measurements should be invoked. This motivates a substrate-aware large language model (LLM) harness that selectively assembles sufficient evidence across literature, knowledge bases, and biological atlases. Results: We introduce BioHarness, an LLM harness for staged biomedical evidence assembly across literature retrieval, curated biomedical knowledge resources, and atlas-derived structured measurements. BioHarness first attempts to answer from reranked literature evidence and escalates through grounded cascade control to REPL-style evidence assembly only when the current evidence is uncertain, weakly grounded, or substrate-mismatched. Across 19,302 biomedical QA items spanning seven answer formats, BioHarness improves the pooled score from 65.9 to 71.0 over the strongest non-oracle baseline. Ablations, case studies, and backbone-scaling analyses show that these gains arise from repairing evidence-substrate mismatches through reranking, entity grounding, and structured measurement access, rather than from indiscriminately invoking more reasoning steps, retrieving additional literature, or relying on a particular answer-model scale.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.19396v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Blar-SQL: Faster, Stronger, Smaller NL2SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2401.02997v1",
@@ -6698,6 +6736,39 @@
     ],
     "relevance_level": "core"
   },
+  "Fail-RAG : A Retrieval Augmented Generation Informed Framework for Robot Failure Identification": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.19598v1",
+    "author": "Ameya Salvi and Jie Hu",
+    "booktitle": "arXiv",
+    "title": "Fail-RAG : A Retrieval Augmented Generation Informed Framework for Robot Failure Identification",
+    "year": "2026",
+    "abstract": "Industry automation is witnessing an evolution in robotics driven by both technological breakthroughs and societal changes: progress towards generalist robots, embodied and physical artificial intelligence (AI), and increasing labor shortage in manufacturing.An intelligent autonomous robot needs to not only act according to planned motions but also react to any unexpected events. In this study, we focus on such unexpected events in warehouses where robots are used for material handling. Specifically, we refer to any unexpected events as failures and develop methods to detect robot operations related failures. Rule-based detection methods may break since the form of failures could change due to the dynamic nature of both environments and tasks. We propose 'Fail-RAG', a Retrieval Augmented Generation (RAG)-based failure detection framework where failure images and context information are embedded and queried against a failure database by calculating their similarities. Vision-Language Models (VLMs) are further used to analyze failures and provide details by following our instruction template. We evaluated the performance of Fail-RAG by conducting both simulation and physical experiments using fixed robot arms and a mobile manipulator for multiple tasks that are common in warehouse automation. Fail-RAG achieved 25 percentage point higher failure detection accuracy on average across five types of robot operations compared to using off-the-shelf VLMs, indicating its effectiveness for real-world failure detection.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.19598v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Falcon: A Comprehensive Chinese Text-to-SQL Benchmark for Enterprise-Grade Evaluation": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2510.24762v1",
@@ -7461,6 +7532,40 @@
     ],
     "relevance_level": "core"
   },
+  "GLARE: A Natural Language Interface for Querying Global Explanations": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.19735v1",
+    "author": "Bhavan Vasu and Rajesh Mangannavar",
+    "booktitle": "arXiv",
+    "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
+    "year": "2026",
+    "abstract": "While global explanations are crucial for understanding vision models across datasets, classes, and decision contexts, their complex and monolithic nature often hinders practical exploration. Because users typically seek targeted answers to specific questions rather than static artifacts, we present an LLM-based interactive interface that provides natural language access to global explanations for black-box image classifiers. The system's core LLM acts as a mediator, translating natural language questions into structured SQL queries over local explanation data. This enables flexible aggregation without exposing users to low-level representations. For each query, the interface outputs statistics-augmented natural language responses, supporting local explanations, and intent-aligned visualizations. We evaluate the system on intent interpretation, query mapping accuracy, generalization to novel queries and datasets, and robustness to linguistic errors. Our results demonstrate that LLM-mediated querying substantially improves the accessibility and usability of global explanations for human-centered XAI.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.19735v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "GS-QA: A Benchmark for Geospatial Question Answering": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2605.22811v1",
@@ -8120,6 +8225,35 @@
       "Result Validation"
     ],
     "relevance_level": "core"
+  },
+  "IHUBERT: Vector-Based Semantic Deduplication and Domain-Balanced Pretraining for Persian Resources": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.20089v1",
+    "author": "Arash Ghafouri and Mahdi Firouzmandi and Hossein Saberi and Mohammad Reza Hasani Ahangar",
+    "booktitle": "arXiv",
+    "title": "IHUBERT: Vector-Based Semantic Deduplication and Domain-Balanced Pretraining for Persian Resources",
+    "year": "2026",
+    "abstract": "Persian pretrained language models (PLMs) are still limited by the scarcity of large-scale, high-quality pretraining corpora and by insufficient evaluation beyond standard classification and NER tasks. We present IHUBERT, a monolingual Persian PLM trained from scratch with the RoBERTa-base encoder (125M parameters) on a 45 GB curated subset of the Sepahr-Danesh collection (about 7-8B tokens). To improve corpus quality and reduce redundancy, we employ a multi-stage preprocessing pipeline that includes normalization, exact and near-duplicate removal, anonymization, and vector-database-based semantic deduplication for distribution balancing control across domains and registers. We additionally train a 139k-vocabulary BPE tokenizer on the full pretraining corpus to better capture Persian morphology and orthographic variation. IHUBERT is evaluated on seven Persian NLU benchmarks covering NER, sentiment analysis, topic classification, NLI, extractive question answering, and relation extraction, using task-standard metrics (entity-level F1, Macro-F1, EM/F1). IHUBERT achieves its strongest gains on extractive QA, ranking first on both PQuAD (F1 88.3542) and ParsiNLU-RC (F1 49.0987), and attains the best result on FarsTail (Macro-F1 0.8350). On NER and topic classification, it remains competitive (e.g., 0.8308 F1 on ParsTwiNER; 0.7953 Macro-F1 on DigiMag), while relation extraction remains the main remaining gap (0.6684 Macro-F1 on PERLEX). A controlled tokenizer ablation on the IHUBERT pretraining corpus shows that BPE yields slightly lower subword fragmentation than WordPiece at matched vocabulary size, supporting our tokenization design. Overall, IHUBERT advances Persian language modeling through semantically curated large-scale pretraining and broad evaluation across both classification and comprehension-oriented tasks.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.20089v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "ImageAuditor: Membership Inference Attack against Image-based Retrieval-Augmented Generation": {
     "type": "ARTICLE",

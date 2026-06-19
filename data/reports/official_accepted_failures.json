@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 0,
+    "fetched_entries": 261,
     "failure_count": 0,
     "warning_count": 1,
-    "skipped_count": 1
+    "skipped_count": 2
   },
   "failures": [],
   "warnings": [
@@ -17,6 +17,13 @@
     }
   ],
   "skipped": [
+    {
+      "venue": "ICDE",
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
     {
       "venue": "WWW",
       "year": 2026,

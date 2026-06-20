@@ -9,7 +9,7 @@
   "warnings": [],
   "skipped": [
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2020,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -17,7 +17,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -25,7 +25,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2022,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -33,7 +33,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -41,7 +41,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
@@ -49,7 +49,7 @@
       "reason": "complete"
     },
     {
-      "venue": "ICDE",
+      "venue": "KDD",
       "year": 2025,
       "track": "DB",
       "source_type": "dblp-conference",

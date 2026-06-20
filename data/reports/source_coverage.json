@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-19T18:58:31Z",
+  "generated_at": "2026-06-20T18:15:50Z",
   "records": [
     {
       "kind": "conference",
@@ -1030,7 +1030,7 @@
         "data/rawdata/2025/KDD2025.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 0,
+      "relevant_candidate_count": 1,
       "source_type": "dblp-conference",
       "source_url": "https://kdd2025.kdd.org/research-track-papers/",
       "status": "covered",

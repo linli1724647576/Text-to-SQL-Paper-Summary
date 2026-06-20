@@ -3209,7 +3209,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/KDD2025-accepted.json",
-          "sha256": "6a28c2829934d8589a4e66479486e232f4ab6391c3480f94e3e9e5cc0a95bb2b"
+          "sha256": "022a57cad0210e2bccfb68daf7338dafdef0633406ea534ba1e9b048c21f0e6c"
         },
         {
           "path": "data/rawdata/2025/KDD2025.json",

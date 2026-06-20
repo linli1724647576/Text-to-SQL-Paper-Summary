@@ -1,9 +1,9 @@
 {
   "summary": {
-    "fetched_entries": 261,
+    "fetched_entries": 0,
     "failure_count": 0,
     "warning_count": 1,
-    "skipped_count": 2
+    "skipped_count": 3
   },
   "failures": [],
   "warnings": [
@@ -18,7 +18,14 @@
   ],
   "skipped": [
     {
-      "venue": "ICDE",
+      "venue": "KDD",
+      "year": 2024,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "KDD",
       "year": 2025,
       "source": "official-accepted",
       "status": "skipped",

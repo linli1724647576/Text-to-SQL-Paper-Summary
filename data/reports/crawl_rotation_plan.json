@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 11,
-  "cursor_before": 10,
+  "cursor_after": 13,
+  "cursor_before": 11,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "KDD"
+    "SIGIR"
   ],
   "retry_venues": [
     "WWW"
   ],
-  "selected_at": "2026-06-20T18:14:26Z",
+  "selected_at": "2026-06-21T18:20:19Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "WWW",
-    "KDD"
+    "SIGIR"
   ],
-  "venues_csv": "WWW,KDD",
+  "venues_csv": "WWW,SIGIR",
   "version": 1
 }

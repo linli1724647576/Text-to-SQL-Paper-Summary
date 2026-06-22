@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 13,
-  "cursor_before": 11,
+  "cursor_after": 14,
+  "cursor_before": 13,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "SIGIR"
+    "ICSE"
   ],
   "retry_venues": [
     "WWW"
   ],
-  "selected_at": "2026-06-21T18:20:19Z",
+  "selected_at": "2026-06-22T20:09:02Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "WWW",
-    "SIGIR"
+    "ICSE"
   ],
-  "venues_csv": "WWW,SIGIR",
+  "venues_csv": "WWW,ICSE",
   "version": 1
 }

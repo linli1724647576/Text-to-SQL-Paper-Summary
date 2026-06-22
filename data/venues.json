@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "ef551f338c0d7739a2d13e4845d0296b952d65915851db8fd9adf407ef2dd685"
+          "sha256": "b70cdfaa13b959ffef25d44d90f4c0d28f1abf821d638ed3ba9cbddd949cbaed"
         }
       ],
       "processing": {
@@ -2493,7 +2493,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/ICSE2026-accepted.json",
-          "sha256": "36155f3f18088601c65789466a55e72d319b9f8e4f6c85a590f244002d1aaac7"
+          "sha256": "64dbf451f6244b8fcf54b49777fa142dcad1daa5d76d1d3a87cfe138ea6a2c1d"
         }
       ],
       "processing": {

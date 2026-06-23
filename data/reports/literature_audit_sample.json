@@ -427,11 +427,11 @@
       "notes": ""
     },
     {
-      "title": "TiInsight: A SQL-based Automated Exploratory Data Analysis System through Large Language Models",
+      "title": "The AI Epistemic Deference Index: A Continuous Measure of Sycophancy",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -440,16 +440,16 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.09404v1"
+        "https://arxiv.org/abs/2606.07897v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+      "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -458,7 +458,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.22811v1"
+        "https://arxiv.org/abs/2606.19735v1"
       ],
       "notes": "missing doi"
     },
@@ -499,7 +499,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents",
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -512,7 +512,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.17653v1"
+        "https://arxiv.org/abs/2604.22934v1"
       ],
       "notes": "missing doi"
     },
@@ -535,7 +535,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Robust Active Learning for Few-Shot Example Selection in Text-to-SQL",
+      "title": "RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -548,7 +548,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.10125v1"
+        "https://arxiv.org/abs/2601.01126v2"
       ],
       "notes": "missing doi"
     },
@@ -723,40 +723,42 @@
       "notes": ""
     },
     {
-      "title": "GeoSQL-Eval: First Evaluation of LLMs on PostGIS-Based NL2GeoSQL Queries",
+      "title": "Generation-Focused Table-Based Intermediate Pre-training for Free-Form Question Answering",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2022",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v36i10.21382",
+        "https://doi.org/10.1609/aaai.v36i10.21382"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey (Extended Abstract)",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "ICDE",
+      "normalized_venue": "ICDE",
+      "category": "数据库领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.25264v2"
+        "10.1109/ICDE65448.2025.00384",
+        "https://doi.org/10.1109/ICDE65448.2025.00384"
       ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Natural Language Models for Data Visualization Utilizing nvBench Dataset",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2310.00832v1"
-      ],
-      "notes": "missing doi"
+      "notes": ""
     }
   ]
 }

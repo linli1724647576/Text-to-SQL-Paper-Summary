@@ -5697,6 +5697,45 @@
     ],
     "relevance_level": "core"
   },
+  "EHR-Complex: Benchmarking Medical Agents for Complex Clinical Reasoning": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.23301v1",
+    "author": "Yitong Qiao and Lei Liu and Yue Shen and Jian Wang and Jinjie Gu and Zhixuan Chu and Kui Ren",
+    "booktitle": "arXiv",
+    "title": "EHR-Complex: Benchmarking Medical Agents for Complex Clinical Reasoning",
+    "year": "2026",
+    "abstract": "Clinical agents promise to democratize access to electronic health records (EHRs), yet existing benchmarks fail to reflect the complexity of practical EHR analysis, e.g., often operating on idealized, clean EHRs via static SQL generation rather than interactive execution. In this work, we introduce EHR-Complex, a large-scale benchmark designed for interactive clinical database reasoning. Built on the large MIMIC-IV substrate (365K patients, 31 tables, 500M+ records), EHR-Complex comprises about 52K tasks spanning six clinical intents, supporting both patient-level and population-level queries, where each task requires an agent to interact with a sandboxed environment by executing SQL queries or Python code. Notably, EHR-Complex considers the real-world SQL task complexity for longitudinal multi-table aggregation and compositional reasoning, resulting in 31.93 SQL structural components per query on average. Evaluation results on EHR-Complex reveal the clinical difficulty of these EHR reasoning scenarios, with the top-performing model achieving only 62.3% exact-match accuracy. Pass^k consistency drops below 50% for nearly all evaluated models at k=4, exposing broad stochastic fragility. A fine-grained analysis of more than 3,800 failed trajectories for representative LLMs reveals three dominant failure modes: SQL logic errors, medical-code lookup failures, and semantic misunderstandings. EHR-Complex provides a rigorous testbed for clinical agents and highlights remaining gaps in robust reasoning for large-scale EHR analysis.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.23301v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "EHRSQL: A Practical Text-to-SQL Benchmark for Electronic Health Records": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2022-ehrsql-a-practical-text-to-sql-benchmark-for-electronic-health-records",
@@ -14606,6 +14645,43 @@
     ],
     "relevance_level": "core"
   },
+  "SQLConductor: Search-to-Policy Learning for Step-wise Text-to-SQL Orchestration": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.23537v1",
+    "author": "Yizhang Zhu and Zhangyang Peng and Boyan Li and Yuyu Luo",
+    "booktitle": "arXiv",
+    "title": "SQLConductor: Search-to-Policy Learning for Step-wise Text-to-SQL Orchestration",
+    "year": "2026",
+    "abstract": "Text-to-SQL enables users to access relational databases via natural language, but real-world settings remain challenging due to coordinated reasoning over complex database environments. Existing systems often use multi-stage pipelines or reasoning models specialized for individual stages. However, fixed pipelines rely on predefined stage orders, limiting their adaptivity to query demands and intermediate evidence. Recent orchestration-based methods provide flexibility by composing specialized modules for each query, but typical plan-then-execute approaches still commit to a complete workflow before execution and cannot adapt to intermediate artifacts and feedback. In this paper, we propose SQLConductor, a step-wise orchestration learning framework for Text-to-SQL. SQLConductor formulates Text-to-SQL subtasks as specialized actions for workflow composition and trains a policy model to select the next action based on intermediate artifacts and feedback. To learn this policy, SQLConductor introduces Search-to-Policy Learning, which uses Monte Carlo Tree Search to explore candidate workflows and stability estimation to identify robust supervision. The policy model is trained with Stability-weighted Supervised Fine-tuning to prioritize high-quality orchestration patterns and further enhanced through Curriculum Reinforcement Learning. This transforms offline workflow search into a deployable policy for step-wise orchestration at inference time. Experiments on BIRD-Dev and out-of-distribution datasets show that SQLConductor achieves superior execution accuracy and strong generalization, reaching 73.2% EX on BIRD-Dev with a compact orchestration policy coordinating frozen larger action models, outperforming prior methods that directly train comparable or larger Text-to-SQL backbones. Further analyses show that the learned policy adapts orchestration to diverse query demands.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.23537v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "core"
+  },
   "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CenLLW25",
@@ -15322,6 +15398,36 @@
       "Prompt-based Generation"
     ],
     "relevance_level": "core"
+  },
+  "SemCEB: A Cardinality Estimation Benchmark for Semantic Operators": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.23081v1",
+    "author": "Andreas Zimmerer and Claudius Kühn and Yang Li and Mihail Stoian and Renata Borovica-Gajic and Andreas Kipf",
+    "booktitle": "arXiv",
+    "title": "SemCEB: A Cardinality Estimation Benchmark for Semantic Operators",
+    "year": "2026",
+    "abstract": "Modern data systems increasingly expose multi-modal large language models as semantic operators: SQL operators, including filters and joins, whose predicates are defined by a natural-language instruction. Query optimization in these systems still rests on the same foundations as in traditional databases$\\unicode{x2013}$plan enumeration and cost models$\\unicode{x2013}$yet faces new challenges, e.g., a larger plan space and the lack of efficient cardinality estimates. The elevated per-tuple costs of semantic operators make bad plan choices worse by orders of magnitude. Therefore, precise$\\unicode{x2013}$but also fast and cheap$\\unicode{x2013}$cardinality estimates for semantic filters and joins are of high importance for optimizing query plans that include semantic operators. In this paper, we introduce SemCEB, the first benchmark for cardinality estimation over semantic operators, based on a real-world dataset of (semi-)structured text and images with 102 hand-curated, diverse queries spanning a wide range of selectivities, assessing cardinality estimation for semantic filters and joins in isolation. We evaluate sampling-based algorithms and Semantic Histograms, a state-of-the-art cardinality estimation algorithm for semantic operators, with respect to their accuracy, cost, latency, and memory overhead. We show that, while sampling is robust across different predicate categories, it does not scale and comes with high costs. Our adaptation of Semantic Histograms, on the other hand, is limited in its applicability, and its performance appears sensitive to the predicate category.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.23081v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph": {
     "type": "INPROCEEDINGS",
@@ -16110,6 +16216,40 @@
     ],
     "relevance_level": "core",
     "journal": "Proc. VLDB Endow."
+  },
+  "TACO: Task-Aware Column Description Generation Using LLMs": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.21685v1",
+    "author": "Ting Cai and Rakesh R. Menon and Yiru Chen and Zifan Liu and Yuan Tian and Fei Wu and Anudeep Chimakurthi and Prashanthi Ramamurthy and Sunav Choudhary and Kun Qian and Yunyao Li",
+    "booktitle": "arXiv",
+    "title": "TACO: Task-Aware Column Description Generation Using LLMs",
+    "year": "2026",
+    "abstract": "Generating accurate and informative column descriptions (e.g. \"membership status of customers\" for the column name \"cust_mem\") is essential for a wide range of downstream NLP tasks on tabular data, including NL2SQL, table question answering, and entity linking. This problem arises in enterprises, domain sciences, government data portals, and so on. Despite its importance, most real-world datasets suffer from missing or cryptic documentation, often due to abbreviated column names or domain-specific jargon. Existing approaches largely rely on single-prompt large language models (LLMs), which struggle with three key issues: (i) inconsistent or incorrect handling of abbreviations, (ii) hallucinated or incomplete descriptions, and (iii) redundancy or vagueness that hinders downstream performance. We present TACO, a task-aware framework for automatic column description generation using LLMs. TACO introduces a three-step pipeline: (1) abbreviation expansion, which standardizes column names; (2) description generation, which produces initial semantic descriptions enriched with synonyms and search-oriented keywords; and (3) description revision, which refines these outputs using simulated downstream tasks. In addition, we investigate human-in-the-loop extensions and release new evaluation datasets for entity linking and schema enrichment. Extensive experiments across public and proprietary datasets show that TACO consistently outperforms existing methods, improving downstream task performance by up to 32%.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.21685v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Value Linking",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Value Linking",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "core"
   },
   "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience": {
     "type": "ARTICLE",
@@ -16989,6 +17129,42 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "The Table Says Otherwise: Testing LLMs with Counterfactual Relational Data": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.23667v1",
+    "author": "Xinzhi Wang and Chunwei Liu",
+    "booktitle": "arXiv",
+    "title": "The Table Says Otherwise: Testing LLMs with Counterfactual Relational Data",
+    "year": "2026",
+    "abstract": "Large language models (LLMs) are increasingly used to answer natural-language questions over structured data. However, when a table contains familiar real-world facts, it is unclear whether the model answers by reading the provided data or by recalling knowledge learned during pretraining. This distinction is important for database applications, where the provided tables should be the source of truth. In this paper, we introduce ContraTable, a paired original-counterfactual benchmark for evaluating whether LLMs ground their answers in relational tables. We build the benchmark with two aligned versions: an original database with real-world facts and a counterfactual database that preserves the same schemas, identifiers, and relationships while changing selected country, club, and player attributes. We design 214 matched questions across three levels: single-table lookup, multi-table lookup, and multi-table temporal reasoning. Experiments on commercial closed-source and open-source models show that strong instruction-tuned models can often handle direct lookup, but their reliability drops as questions require joins, comparison, and temporal reasoning. The gap between original and counterfactual accuracy reveals that models may fall back on prior knowledge when table evidence conflicts with familiar facts. These results suggest that table-QA evaluation should measure not only accuracy, but also faithfulness to the provided database.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.23667v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Instruction Tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Think2SQL: Reinforce LLM Reasoning Capabilities for Text2SQL": {
     "type": "ARTICLE",

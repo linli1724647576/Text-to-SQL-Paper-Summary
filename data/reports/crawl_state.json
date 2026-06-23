@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-22T20:09:25Z",
-      "last_success_at": "2026-06-22T20:09:25Z",
+      "last_attempt_at": "2026-06-23T19:10:05Z",
+      "last_success_at": "2026-06-23T19:10:05Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 481,
-      "sha256": "b70cdfaa13b959ffef25d44d90f4c0d28f1abf821d638ed3ba9cbddd949cbaed",
+      "record_count": 487,
+      "sha256": "d94a12de7c88fb3ab7ab97b2b91879898c0704e1eba17ca915a72feb2c7db4c6",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -2004,11 +2004,11 @@
     },
     "official-accepted:FSE:2026": {
       "error": "",
-      "last_attempt_at": "2026-05-30T18:05:43Z",
-      "last_success_at": "2026-05-30T18:05:43Z",
+      "last_attempt_at": "2026-06-23T19:10:07Z",
+      "last_success_at": "2026-06-23T19:10:07Z",
       "rawdata_path": "data/rawdata/2026/FSE2026-accepted.json",
       "record_count": 211,
-      "sha256": "ed66df530814ac5242456ec89635e2f00cb5b9cadd67d284527c55e8a814fe60",
+      "sha256": "dba6d2815147bbb5c24bfc571e199ed1c9f74c7877b400298f39627747694960",
       "source": "official-accepted",
       "source_type": "official-accepted",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-22T20:09:32Z",
+      "last_attempt_at": "2026-06-23T19:10:11Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 14,
+    "cursor": 15,
     "history": [
       {
         "cursor": 2,
@@ -3009,12 +3009,26 @@
           "WWW",
           "ICSE"
         ]
+      },
+      {
+        "cursor": 15,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-23T19:11:11Z",
+        "succeeded": [
+          "FSE"
+        ],
+        "venues": [
+          "WWW",
+          "FSE"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-22T20:10:28Z",
+    "last_completed_at": "2026-06-23T19:11:11Z",
     "last_selected": [
       "WWW",
-      "ICSE"
+      "FSE"
     ],
     "retry_queue": [
       "WWW",

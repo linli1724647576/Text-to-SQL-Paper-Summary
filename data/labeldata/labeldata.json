@@ -5795,6 +5795,39 @@
     ],
     "relevance_level": "core"
   },
+  "EXPO-SQL: Execution-based Clause-level Policy Optimization for Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.23693v1",
+    "author": "Jaehoon Lee and CheolWon Na and Suyoung Bae and Jin-Seop Lee and Jihyung Lee and YunSeok Choi and Jee-Hyong Lee",
+    "booktitle": "arXiv",
+    "title": "EXPO-SQL: Execution-based Clause-level Policy Optimization for Text-to-SQL",
+    "year": "2026",
+    "abstract": "Text-to-SQL enables users to query databases using natural language by generating executable SQL queries. Recent methods have increasingly adopted Large Language Models based reinforcement learning (RL) to leverage execution feedback for training. However, existing RL methods assign uniform query-level rewards to all clauses in a SQL query, treating correct and incorrect clauses equally. This coarse-grained reward design leads to insufficient learning signals for correct SQL generation. To address this issue, we propose EXPO-SQL (EXecution-based clause-level Policy Optimization for Text-to-SQL) which provides fine-grained supervision through clause-level rewards. To assign clause-level rewards, our method identifies erroneous clauses by analyzing execution results, including error messages and clause-wise incremental execution. Experiments on widely-used Text-to-SQL benchmarks demonstrate that EXPO-SQL significantly outperforms existing supervised fine-tuning, prompting, and RL-based methods through fine-grained clause-level learning. Our code is available at https://github. com/jhn25/EXPO-SQL.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.23693v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Agentic Feedback and Repair",
+      "Tool Use and Execution Guidance",
+      "Security and Access Control"
+    ],
+    "pipeline_stages": [
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Verification & Repair",
+      "Execution Feedback"
+    ],
+    "relevance_level": "core"
+  },
   "Effective Transfer Learning for Identifying Similar Questions: Matching User Questions to COVID-19 FAQs": {
     "type": "INPROCEEDINGS",
     "key": "conf/kdd/McCreeryKKCA20",

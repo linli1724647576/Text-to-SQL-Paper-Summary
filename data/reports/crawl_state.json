@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-23T19:10:05Z",
-      "last_success_at": "2026-06-23T19:10:05Z",
+      "last_attempt_at": "2026-06-24T18:53:30Z",
+      "last_success_at": "2026-06-24T18:53:30Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 487,
-      "sha256": "d94a12de7c88fb3ab7ab97b2b91879898c0704e1eba17ca915a72feb2c7db4c6",
+      "sha256": "859eb4286ec2dcc4b723c557148e3897e1097a8ca641b4bd2b45e7b3c9519468",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-23T19:10:11Z",
+      "last_attempt_at": "2026-06-24T18:53:32Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 15,
+    "cursor": 16,
     "history": [
       {
         "cursor": 2,
@@ -3023,12 +3023,26 @@
           "WWW",
           "FSE"
         ]
+      },
+      {
+        "cursor": 16,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-24T18:54:28Z",
+        "succeeded": [
+          "ASE"
+        ],
+        "venues": [
+          "WWW",
+          "ASE"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-23T19:11:11Z",
+    "last_completed_at": "2026-06-24T18:54:28Z",
     "last_selected": [
       "WWW",
-      "FSE"
+      "ASE"
     ],
     "retry_queue": [
       "WWW",

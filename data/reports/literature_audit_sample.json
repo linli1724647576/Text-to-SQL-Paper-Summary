@@ -427,38 +427,38 @@
       "notes": ""
     },
     {
-      "title": "The AI Epistemic Deference Index: A Continuous Measure of Sycophancy",
+      "title": "Text2Schema: Filling the Gap in Designing Database Table Structures based on Natural Language",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.07897v1"
+        "https://arxiv.org/abs/2503.23886v2"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
+      "title": "GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.19735v1"
+        "https://arxiv.org/abs/2511.04710v1"
       ],
       "notes": "missing doi"
     },
@@ -499,7 +499,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+      "title": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -507,12 +507,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2604.22934v1"
+        "https://arxiv.org/abs/2403.09732v4"
       ],
       "notes": "missing doi"
     },
@@ -535,7 +535,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution",
+      "title": "RingSQL: Generating Synthetic Data with Schema-Independent Templates for Text-to-SQL Reasoning Models",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -548,7 +548,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.01126v2"
+        "https://arxiv.org/abs/2601.05451v1"
       ],
       "notes": "missing doi"
     },
@@ -723,26 +723,7 @@
       "notes": ""
     },
     {
-      "title": "Generation-Focused Table-Based Intermediate Pre-training for Free-Form Question Answering",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2022",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v36i10.21382",
-        "https://doi.org/10.1609/aaai.v36i10.21382"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey (Extended Abstract)",
+      "title": "GenSql: A Generative Natural Language Interface to Database Systems",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -750,15 +731,33 @@
       "venue": "ICDE",
       "normalized_venue": "ICDE",
       "category": "数据库领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/ICDE55515.2023.00278",
+        "https://doi.org/10.1109/ICDE55515.2023.00278"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Natural Language Interfaces for Databases: What Do Users Think?",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE65448.2025.00384",
-        "https://doi.org/10.1109/ICDE65448.2025.00384"
+        "https://arxiv.org/abs/2511.14718v1"
       ],
-      "notes": ""
+      "notes": "missing doi"
     }
   ]
 }

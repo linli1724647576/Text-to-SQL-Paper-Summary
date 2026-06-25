@@ -12786,6 +12786,41 @@
     ],
     "relevance_level": "core"
   },
+  "RAVEN: Long-Horizon Reasoning & Navigation with a Visuo-Spatio-Temporal Memory": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.25206v1",
+    "author": "Yixun Hu and Zhicheng Zheng and Lihan Zha and Chunwei Xing and Rajdeep Singh and Omar Hossain and Antonio Loquercio and Dhruv Shah",
+    "booktitle": "arXiv",
+    "title": "RAVEN: Long-Horizon Reasoning & Navigation with a Visuo-Spatio-Temporal Memory",
+    "year": "2026",
+    "abstract": "Long-term robot deployment requires a compact and scalable memory that preserves fine-grained visual semantics, grounds observations in space and time, and enables efficient storage and retrieval. In this paper, we propose RAVEN, an agentic memory system for long-horizon robotic question answering and navigation. RAVEN stores visual embeddings with pose and time in a vector database, and grounds retrieval in a spatial map to answer queries and navigate to goals. By operating directly on visual embeddings, RAVEN avoids lossy image-to-text captioning and enables accurate semantic, spatial, and temporal retrieval at scale. Across several simulated and real-world video question-answering benchmarks, RAVEN consistently surpasses caption-based memory systems and matches frontier VLMs on long-horizon tasks at 10$\\times$ lower retrieval cost. Finally, we instantiate RAVEN on a Unitree Go1 robot for the task of long-horizon navigation for natural language goal-reaching, and show successful deployment over several large indoor environments.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.25206v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Zeng0GCLLTZ20",

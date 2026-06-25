@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-24T18:54:28Z",
+  "generated_at": "2026-06-25T19:09:01Z",
   "records": [
     {
       "kind": "conference",
@@ -1977,7 +1977,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 30,
+      "raw_candidate_count": 33,
       "rawdata_files": [
         "data/rawdata/2026/AIJ2026.json"
       ],

@@ -731,7 +731,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AIJ2026.json",
-          "sha256": "6c8796e0c7158a731e625827b03642be471b9d07f2ffa739c6ce3760cb38b626"
+          "sha256": "dac3d5ea7c04a48311451ba11623a6fb3f8c652692cc7ad9222188d2f2261986"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "859eb4286ec2dcc4b723c557148e3897e1097a8ca641b4bd2b45e7b3c9519468"
+          "sha256": "3c2a31537fb720ee53b21bde6504b9e4968b0925b5c41120830abbb8153482e2"
         }
       ],
       "processing": {

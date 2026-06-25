@@ -427,7 +427,7 @@
       "notes": ""
     },
     {
-      "title": "Text2Schema: Filling the Gap in Designing Database Table Structures based on Natural Language",
+      "title": "Text2SQL is Not Enough: Unifying AI and Databases with TAG",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -435,12 +435,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2503.23886v2"
+        "https://arxiv.org/abs/2408.14717v1"
       ],
       "notes": "missing doi"
     },
@@ -459,6 +459,24 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "https://arxiv.org/abs/2511.04710v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2110.03546v2"
       ],
       "notes": "missing doi"
     },
@@ -535,11 +553,11 @@
       "notes": "missing doi"
     },
     {
-      "title": "RingSQL: Generating Synthetic Data with Schema-Independent Templates for Text-to-SQL Reasoning Models",
+      "title": "Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -548,25 +566,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.05451v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2508.03680v1"
+        "https://arxiv.org/abs/2605.03450v1"
       ],
       "notes": "missing doi"
     },
@@ -704,26 +704,7 @@
       "notes": ""
     },
     {
-      "title": "DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ASE",
-      "normalized_venue": "ASE",
-      "category": "软件工程",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/ASE63991.2025.00076",
-        "https://doi.org/10.1109/ASE63991.2025.00076"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "GenSql: A Generative Natural Language Interface to Database Systems",
+      "title": "An Efficient and Effective Evaluator for Text2SQL Models on Unseen and Unlabeled Data",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -731,18 +712,35 @@
       "venue": "ICDE",
       "normalized_venue": "ICDE",
       "category": "数据库领域",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ICDE55515.2023.00278",
-        "https://doi.org/10.1109/ICDE55515.2023.00278"
+        "https://arxiv.org/abs/2603.07841v1"
       ],
-      "notes": ""
+      "notes": "missing doi"
     },
     {
-      "title": "Natural Language Interfaces for Databases: What Do Users Think?",
+      "title": "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2602.12064v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "GaussMaster: An LLM-based Database Copilot System",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -755,7 +753,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.14718v1"
+        "https://arxiv.org/abs/2506.23322v1"
       ],
       "notes": "missing doi"
     }

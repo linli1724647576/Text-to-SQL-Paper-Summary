@@ -1,6 +1,6 @@
 {
   "summary": {
-    "fetched_entries": 487,
+    "fetched_entries": 521,
     "failure_count": 0,
     "warning_count": 0,
     "skipped_count": 12
@@ -57,50 +57,50 @@
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2020,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2021,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2022,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2023,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2024,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ASE",
+      "venue": "AIJ",
       "year": 2025,
-      "track": "SE",
-      "source_type": "dblp-conference",
+      "track": "AI",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     }

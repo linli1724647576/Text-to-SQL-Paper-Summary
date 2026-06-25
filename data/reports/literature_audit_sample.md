@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | Text2Schema: Filling the Gap in Designing Database Table Structures based on Natural Language | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | Text2SQL is Not Enough: Unifying AI and Databases with TAG | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models | missing doi |
+| arxiv | true_positive_core | ArXiv | 2021 | mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation | missing doi |
 | arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2024 | PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency | missing doi |
 | arxiv | true_positive_application | ArXiv | 2025 | Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | RingSQL: Generating Synthetic Data with Schema-Independent Templates for Text-to-SQL Reasoning Models | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Agent Lightning: Train ANY AI Agents with Reinforcement Learning | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_application | ASE | 2025 | DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models |  |
-| fill | true_positive_core | ICDE | 2023 | GenSql: A Generative Natural Language Interface to Database Systems |  |
-| fill | true_positive_core | ArXiv | 2025 | Natural Language Interfaces for Databases: What Do Users Think? | missing doi |
+| fill | true_positive_core | ICDE | 2026 | An Efficient and Effective Evaluator for Text2SQL Models on Unseen and Unlabeled Data | missing doi |
+| fill | true_positive_core | SIGMOD | 2026 | DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | GaussMaster: An LLM-based Database Copilot System | missing doi |

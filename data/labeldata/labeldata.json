@@ -1181,6 +1181,44 @@
     ],
     "relevance_level": "core"
   },
+  "Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.26627v1",
+    "author": "Nada Lahjouji and Ashwin Gerard Colaco",
+    "booktitle": "arXiv",
+    "title": "Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents",
+    "year": "2026",
+    "abstract": "Large language model agents increasingly query databases, search document collections, call external APIs, remember past interactions, and act on a user's behalf. As they move from answering questions to operating over sensitive data, privacy becomes harder to enforce. An agent touches many data sources, runs multi-step workflows, keeps state across sessions, and acts with delegated permissions. Sensitive information can therefore leak not only through its final answer but through the queries it issues, the intermediate results it handles, the memory it writes, and the messages it exchanges with other agents. We survey the privacy of LLM agents from a data-centric view, organizing the field around the data an agent touches rather than by attack type, and we use data agent as shorthand for an LLM agent that works with data. Research on these risks is active but scattered across retrieval-augmented generation, text-to-SQL interfaces, agent memory, prompt injection, access control, and contextual privacy. This survey brings that work together: we taxonomize the data sources an agent touches, the privacy risks each source creates, and the governance mechanisms that address them; we map the benchmarks used to measure these risks and identify what is missing; and we set out the open problems. Two findings recur: among governance mechanisms only information-flow control covers both compositional and cross-session inference leakage, the two least-protected risks; and no benchmark drives an agent across its data surfaces under one privacy policy, the instrument the field most lacks. Our goal is a reference that situates the scattered literature and gives future work a common framing.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.26627v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2025-alpha-sql-zero-shot-text-to-sql-using-monte-carlo-tree-search",
@@ -5827,6 +5865,45 @@
       "Execution Feedback"
     ],
     "relevance_level": "core"
+  },
+  "EcoTable: Cost-effective Table Integration in Data Lakes for Natural Language Queries": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.26613v1",
+    "author": "Yuhui Wang and Jinqi Liu and Chengliang Chai and Hangyu Zhao and Yuhao Deng and Yuyu Luo and Xin Tang and Ye Yuan and Guoren Wang and Fengjin Wang and Lei Cao",
+    "booktitle": "arXiv",
+    "title": "EcoTable: Cost-effective Table Integration in Data Lakes for Natural Language Queries",
+    "year": "2026",
+    "abstract": "The diverse formats of CSV and Parquet files in data lakes pose a significant challenge to traditional ETL, which relies on data engineers to pre-define a target database schema and build a complex pipeline for data integration. Moreover, with this approach, the integrated data often cannot support various analytical needs, as the predefined schema does not necessarily satisfy the table format or join relationships required to answer unforeseen queries. To address this, we propose EcoTable, the first natural language-based data integration framework. Given a set of user-specified natural language queries, EcoTable automatically integrates the tables into a form that adequately supports the corresponding SQL queries. EcoTable achieves this by leveraging the semantic understanding and complex reasoning capabilities of LLMs. Moreover, EcoTable addresses the scalability and cost issues introduced by expensive LLM inferences with a set of novel ideas. First, EcoTable introduces a graph to represent the overall search space, where nodes represent tables and edges carry weights indicating join likelihood produced by a lightweight deep learning model. On top of this graph data structure, EcoTable designs three components to achieve our goal: (1) the table identification layer aims to identify relevant tables via a two-stage schema linking based on user queries; (2) the graph-based validation layer aims to discover significant join paths, including necessary data transformations and bridging tables, by modeling the problem as Steiner tree searches; and (3) the table transformation layer generates transformation code to implement the joins using LLMs. We construct 4 real-world benchmark datasets with more than 200 queries. Extensive experiments demonstrate that EcoTable outperforms the state-of-the-art baselines, increasing accuracy by more than 30% and cutting LLM invocation costs by 5 times.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.26613v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Planning and Generation",
+      "Join Path Planning",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Schema Linking",
+      "Query Planning",
+      "Join Path Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Effective Transfer Learning for Identifying Similar Questions: Matching User Questions to COVID-19 FAQs": {
     "type": "INPROCEEDINGS",
@@ -12439,6 +12516,41 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "ProvenAI: Provenance-Native Traces of Evidence in Generated Answers": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.26449v1",
+    "author": "Mohammad Faizan and Dalal Alharthi",
+    "booktitle": "arXiv",
+    "title": "ProvenAI: Provenance-Native Traces of Evidence in Generated Answers",
+    "year": "2026",
+    "abstract": "Retrieval-augmented systems routinely present citations alongside generated answers, yet a citation does not confirm that the corresponding source meaningfully shaped the output. This paper introduces ProvenAI, a framework that decomposes transparency in multi-hop question answering into three independently measurable layers: answer correctness, citation fidelity against benchmark supporting evidence, and per-document influence under leave-one-resource-out intervention. Targeting the HotpotQA distractor benchmark through a seven-stage pipeline covering data normalisation, retrieval indexing, citation-aware answer generation, attribution auditing, ablation-based influence estimation, batch evaluation, and interactive inspection, ProvenAI evaluates 7,405 validation examples drawn from a canonical corpus of 509,300 passages. The system achieves 53.53% answer accuracy alongside a mean citation-fidelity score of 71.55%, and a worked example surfaces what we call the citation-influence gap: a clean citation audit co-occurring with a profile in which one cited source registers only weak influence while seven uncited sources demonstrably shift the output. We formalise the relationship between the implemented surface proxy and a token-level KL-divergence target through a stated faithfulness condition, ground the framework in causal-mediation analysis and database-provenance theory, and discuss how the three measurement layers compose with cryptographic provenance architectures emerging in autonomous scientific discovery. ProvenAI establishes that meaningful transparency in retrieval-grounded QA requires traceable links across retrieved, cited, and behaviourally influential evidence as three distinct, independently measured layers.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.26449v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "QATCH: Benchmarking SQL-centric tasks with Table Representation Learning Models on Your Data": {
     "type": "INPROCEEDINGS",

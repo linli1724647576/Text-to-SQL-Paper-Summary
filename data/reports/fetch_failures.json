@@ -1,12 +1,21 @@
 {
   "summary": {
-    "fetched_entries": 521,
+    "fetched_entries": 792,
     "failure_count": 0,
-    "warning_count": 0,
+    "warning_count": 1,
     "skipped_count": 12
   },
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    {
+      "venue": "TKDE",
+      "year": 2026,
+      "track": "DB",
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde38.xml: HTTP Error 503: Service Unavailable"
+    }
+  ],
   "skipped": [
     {
       "venue": "WWW",
@@ -57,49 +66,49 @@
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2020,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2021,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2022,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2023,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2024,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "AIJ",
+      "venue": "TKDE",
       "year": 2025,
-      "track": "AI",
+      "track": "DB",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"

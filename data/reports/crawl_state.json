@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-25T19:07:32Z",
-      "last_success_at": "2026-06-25T19:07:32Z",
+      "last_attempt_at": "2026-06-26T18:54:30Z",
+      "last_success_at": "2026-06-26T18:54:30Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 488,
-      "sha256": "3c2a31537fb720ee53b21bde6504b9e4968b0925b5c41120830abbb8153482e2",
+      "sha256": "d3326cdb97184c529ad5f08700117b70719df2a3a1e64fff91701d61d1902439",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -1612,15 +1612,15 @@
     },
     "journal:TKDE:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-03T20:19:17Z",
-      "last_success_at": "2026-06-03T20:19:17Z",
+      "last_attempt_at": "2026-06-26T18:54:04Z",
+      "last_success_at": "2026-06-26T18:54:04Z",
       "rawdata_path": "data/rawdata/2026/TKDE2026.json",
-      "record_count": 243,
-      "sha256": "b5d37f5f26cd78fe6ec5f2e1360492d6340a050438da65e75c712b09d526ddc1",
-      "source": "journal",
+      "record_count": 304,
+      "sha256": "669444a506824b7b336260d87623eef7d2e8cbf65a07be112770053ad073913e",
+      "source": "openalex-journal-fallback",
       "source_type": "journal",
       "status": "complete",
-      "track": "",
+      "track": "DB",
       "venue": "TKDE",
       "year": "2026"
     },
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-25T19:07:34Z",
+      "last_attempt_at": "2026-06-26T18:54:32Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 18,
+    "cursor": 19,
     "history": [
       {
         "cursor": 2,
@@ -3051,12 +3051,26 @@
           "WWW",
           "AIJ"
         ]
+      },
+      {
+        "cursor": 19,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-26T18:55:28Z",
+        "succeeded": [
+          "TKDE"
+        ],
+        "venues": [
+          "WWW",
+          "TKDE"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-25T19:09:01Z",
+    "last_completed_at": "2026-06-26T18:55:28Z",
     "last_selected": [
       "WWW",
-      "AIJ"
+      "TKDE"
     ],
     "retry_queue": [
       "WWW",

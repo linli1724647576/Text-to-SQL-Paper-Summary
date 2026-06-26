@@ -427,25 +427,7 @@
       "notes": ""
     },
     {
-      "title": "Text2SQL is Not Enough: Unifying AI and Databases with TAG",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2408.14717v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models",
+      "title": "Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -458,12 +440,12 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2511.04710v1"
+        "https://arxiv.org/abs/2511.21402v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer",
+      "title": "Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -471,21 +453,39 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2021",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2110.03546v2"
+        "https://arxiv.org/abs/2501.18197v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation",
+      "title": "X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2509.05899v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Business Logic-Driven Text-to-SQL Data Synthesis for Business Intelligence",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -494,7 +494,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.08057v1"
+        "https://arxiv.org/abs/2601.14518v1"
       ],
       "notes": "missing doi"
     },
@@ -517,47 +517,11 @@
       "notes": "missing doi"
     },
     {
-      "title": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency",
+      "title": "Optimizing Small Language Models for NL2SQL via Chain-of-Thought Fine-Tuning",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2403.09732v4"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2507.01053v3"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Retrieving Floods without Floodlights: Topic Models as Binary Classifiers for Extreme Climate Events in German News",
-      "present_in_labeldata": true,
-      "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -566,7 +530,43 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.03450v1"
+        "https://arxiv.org/abs/2603.22942v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Continual Learning of Domain Knowledge from Human Feedback in Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2511.10674v2"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "arxiv",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2510.14296v2"
       ],
       "notes": "missing doi"
     },
@@ -704,43 +704,7 @@
       "notes": ""
     },
     {
-      "title": "An Efficient and Effective Evaluator for Text2SQL Models on Unseen and Unlabeled Data",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2603.07841v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2602.12064v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "GaussMaster: An LLM-based Database Copilot System",
+      "title": "An Agentic System for Schema Aware NL2SQL Generation",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -748,12 +712,48 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2506.23322v1"
+        "https://arxiv.org/abs/2603.18018v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "NeurIPS",
+      "normalized_venue": "NeurIPS",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/72223cc66f63ca1aa59edaec1b3670e6-Abstract-Conference.html"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2605.22811v1"
       ],
       "notes": "missing doi"
     }

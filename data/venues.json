@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "3c2a31537fb720ee53b21bde6504b9e4968b0925b5c41120830abbb8153482e2"
+          "sha256": "d3326cdb97184c529ad5f08700117b70719df2a3a1e64fff91701d61d1902439"
         }
       ],
       "processing": {
@@ -4253,7 +4253,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TKDE2026.json",
-          "sha256": "b5d37f5f26cd78fe6ec5f2e1360492d6340a050438da65e75c712b09d526ddc1"
+          "sha256": "85f3c0e43fd250ef6f1752046a420d00995681310d8f83b65e3f044d01fa02c3"
         }
       ],
       "processing": {

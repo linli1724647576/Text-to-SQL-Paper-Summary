@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 18,
-  "cursor_before": 16,
+  "cursor_after": 19,
+  "cursor_before": 18,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "AIJ"
+    "TKDE"
   ],
   "retry_venues": [
     "WWW"
   ],
-  "selected_at": "2026-06-25T19:06:55Z",
+  "selected_at": "2026-06-26T18:53:59Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "WWW",
-    "AIJ"
+    "TKDE"
   ],
-  "venues_csv": "WWW,AIJ",
+  "venues_csv": "WWW,TKDE",
   "version": 1
 }

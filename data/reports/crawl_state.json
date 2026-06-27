@@ -2,8 +2,8 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-26T18:54:30Z",
-      "last_success_at": "2026-06-26T18:54:30Z",
+      "last_attempt_at": "2026-06-27T18:07:00Z",
+      "last_success_at": "2026-06-27T18:07:00Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 488,
       "sha256": "d3326cdb97184c529ad5f08700117b70719df2a3a1e64fff91701d61d1902439",
@@ -1906,15 +1906,15 @@
     },
     "journal:VLDBJ:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-04T19:23:46Z",
-      "last_success_at": "2026-06-04T19:23:46Z",
+      "last_attempt_at": "2026-06-27T18:06:18Z",
+      "last_success_at": "2026-06-27T18:06:18Z",
       "rawdata_path": "data/rawdata/2026/VLDBJ2026.json",
-      "record_count": 20,
-      "sha256": "a3164dde8786d18d316a2f04f9ed1e05a727e5dc761bbca1d1e1c16a0a649829",
-      "source": "journal",
+      "record_count": 28,
+      "sha256": "e4b82f3c65bd4437c44250fda46a362f91bd52cf8383da179baad6a6353a7faa",
+      "source": "dblp-journal",
       "source_type": "journal",
       "status": "complete",
-      "track": "",
+      "track": "DB",
       "venue": "VLDBJ",
       "year": "2026"
     },
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-26T18:54:32Z",
+      "last_attempt_at": "2026-06-27T18:07:02Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 19,
+    "cursor": 20,
     "history": [
       {
         "cursor": 2,
@@ -3065,12 +3065,26 @@
           "WWW",
           "TKDE"
         ]
+      },
+      {
+        "cursor": 20,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-27T18:07:59Z",
+        "succeeded": [
+          "VLDBJ"
+        ],
+        "venues": [
+          "WWW",
+          "VLDBJ"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-26T18:55:28Z",
+    "last_completed_at": "2026-06-27T18:07:59Z",
     "last_selected": [
       "WWW",
-      "TKDE"
+      "VLDBJ"
     ],
     "retry_queue": [
       "WWW",

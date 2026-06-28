@@ -1,6 +1,6 @@
 {
   "summary": {
-    "fetched_entries": 516,
+    "fetched_entries": 596,
     "failure_count": 0,
     "warning_count": 0,
     "skipped_count": 12
@@ -57,49 +57,49 @@
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2020,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2021,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2022,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2023,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2024,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "VLDBJ",
+      "venue": "TSE",
       "year": 2025,
-      "track": "DB",
+      "track": "SE",
       "source_type": "journal",
       "status": "skipped",
       "reason": "complete"

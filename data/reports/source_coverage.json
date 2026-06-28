@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-06-27T18:07:58Z",
+  "generated_at": "2026-06-28T18:07:51Z",
   "records": [
     {
       "kind": "conference",
@@ -2313,7 +2313,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 91,
+      "raw_candidate_count": 108,
       "rawdata_files": [
         "data/rawdata/2026/TSE2026.json"
       ],

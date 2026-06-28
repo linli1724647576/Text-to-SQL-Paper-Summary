@@ -2,8 +2,8 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-06-27T18:07:00Z",
-      "last_success_at": "2026-06-27T18:07:00Z",
+      "last_attempt_at": "2026-06-28T18:06:55Z",
+      "last_success_at": "2026-06-28T18:06:55Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 488,
       "sha256": "d3326cdb97184c529ad5f08700117b70719df2a3a1e64fff91701d61d1902439",
@@ -1808,15 +1808,15 @@
     },
     "journal:TSE:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-05T18:58:24Z",
-      "last_success_at": "2026-06-05T18:58:24Z",
+      "last_attempt_at": "2026-06-28T18:06:29Z",
+      "last_success_at": "2026-06-28T18:06:29Z",
       "rawdata_path": "data/rawdata/2026/TSE2026.json",
-      "record_count": 91,
-      "sha256": "b1dd29732483154dabb2b47ba3132049645dc25891682455f81bb83c4d7dadef",
-      "source": "journal",
+      "record_count": 108,
+      "sha256": "dff6b5e3b7d149cdc3417992df8e5562fc49516a09611b6885ed1b6523138b20",
+      "source": "dblp-journal",
       "source_type": "journal",
       "status": "complete",
-      "track": "",
+      "track": "SE",
       "venue": "TSE",
       "year": "2026"
     },
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-27T18:07:02Z",
+      "last_attempt_at": "2026-06-28T18:06:57Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 20,
+    "cursor": 21,
     "history": [
       {
         "cursor": 2,
@@ -3079,12 +3079,26 @@
           "WWW",
           "VLDBJ"
         ]
+      },
+      {
+        "cursor": 21,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-28T18:07:51Z",
+        "succeeded": [
+          "TSE"
+        ],
+        "venues": [
+          "WWW",
+          "TSE"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-27T18:07:59Z",
+    "last_completed_at": "2026-06-28T18:07:51Z",
     "last_selected": [
       "WWW",
-      "VLDBJ"
+      "TSE"
     ],
     "retry_queue": [
       "WWW",

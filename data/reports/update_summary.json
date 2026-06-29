@@ -310,10 +310,10 @@
           "relevant_papers": 2
         },
         "ArXiv": {
-          "raw_candidates": 488,
+          "raw_candidates": 489,
           "official_accepted": 0,
           "dblp": 0,
-          "arxiv": 488,
+          "arxiv": 489,
           "relevant_papers": 361
         },
         "CVPR2020": {
@@ -933,9 +933,9 @@
           "relevant_papers": 2
         },
         "TOSEM2026": {
-          "raw_candidates": 177,
+          "raw_candidates": 168,
           "official_accepted": 0,
-          "dblp": 177,
+          "dblp": 168,
           "arxiv": 0,
           "relevant_papers": 0
         },

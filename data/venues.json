@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "d3326cdb97184c529ad5f08700117b70719df2a3a1e64fff91701d61d1902439"
+          "sha256": "e1edf41ff4c026e5899ea79a3a03f49744dc8386147729fee3e21c2da3f95859"
         }
       ],
       "processing": {
@@ -4519,7 +4519,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TOSEM2026.json",
-          "sha256": "fc280cd826c0b43cd7c7d7edf247891179aed538c0f99c198820195cf5354adb"
+          "sha256": "153e3bbb6b4371b061644bb8f18a440bc863e8cd6bbbf0bbe457bf60a39d63a8"
         }
       ],
       "processing": {

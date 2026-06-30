@@ -2424,7 +2424,7 @@
   "Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LinZLLL23",
-    "author": "Bingqian Lin and Yi Zhu 0004 and Xiaodan Liang and Liang Lin and Jianzhuang Liu",
+    "author": "Bingqian Lin and Yi Zhu 0004 and Xiaodan Liang and Liang Lin 0004 and Jianzhuang Liu",
     "booktitle": "AAAI",
     "title": "Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation.",
     "year": "2023",
@@ -3054,7 +3054,7 @@
   "Adapting Object Size Variance and Class Imbalance for Semi-supervised Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/NieFCLL23",
-    "author": "Yuxiang Nie and Chaowei Fang and Lechao Cheng and Liang Lin and Guanbin Li",
+    "author": "Yuxiang Nie and Chaowei Fang and Lechao Cheng and Liang Lin 0004 and Guanbin Li",
     "booktitle": "AAAI",
     "title": "Adapting Object Size Variance and Class Imbalance for Semi-supervised Object Detection.",
     "year": "2023",
@@ -3292,7 +3292,7 @@
   "Exploring Stroke-Level Modifications for Scene Text Editing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/QuTXXW023",
-    "author": "Yadong Qu and Qingfeng Tan and Hongtao Xie and Jianjun Xu and YuXin Wang 0002 and Yongdong Zhang 0001",
+    "author": "Yadong Qu and Qingfeng Tan and Hongtao Xie 0001 and Jianjun Xu and YuXin Wang 0002 and Yongdong Zhang 0001",
     "booktitle": "AAAI",
     "title": "Exploring Stroke-Level Modifications for Scene Text Editing.",
     "year": "2023",
@@ -3712,7 +3712,7 @@
   "Superpoint Transformer for 3D Scene Instance Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SunQTX23",
-    "author": "Jiahao Sun and Chunmei Qing and Junpeng Tan and Xiangmin Xu",
+    "author": "Jiahao Sun and Chunmei Qing and Junpeng Tan and Xiangmin Xu 0001",
     "booktitle": "AAAI",
     "title": "Superpoint Transformer for 3D Scene Instance Segmentation.",
     "year": "2023",
@@ -3992,7 +3992,7 @@
   "De-biased Teacher: Rethinking IoU Matching for Semi-supervised Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangZLFCLZ23",
-    "author": "Kuo Wang and Jingyu Zhuang and Guanbin Li and Chaowei Fang and Lechao Cheng and Liang Lin and Fan Zhou",
+    "author": "Kuo Wang and Jingyu Zhuang and Guanbin Li and Chaowei Fang and Lechao Cheng and Liang Lin 0004 and Fan Zhou",
     "booktitle": "AAAI",
     "title": "De-biased Teacher: Rethinking IoU Matching for Semi-supervised Object Detection.",
     "year": "2023",
@@ -4440,7 +4440,7 @@
   "Scene Graph to Image Synthesis via Knowledge Consensus.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuWL23",
-    "author": "Yang Wu and Pengxu Wei and Liang Lin",
+    "author": "Yang Wu and Pengxu Wei and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Scene Graph to Image Synthesis via Knowledge Consensus.",
     "year": "2023",
@@ -6974,7 +6974,7 @@
   "Scalable and Effective Conductance-Based Graph Clustering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LinLJ23",
-    "author": "Longlong Lin and Ronghua Li and Tao Jia 0001",
+    "author": "Longlong Lin and Ronghua Li 0001 and Tao Jia 0001",
     "booktitle": "AAAI",
     "title": "Scalable and Effective Conductance-Based Graph Clustering.",
     "year": "2023",
@@ -15990,7 +15990,7 @@
   "Beyond ADMM: A Unified Client-Variance-Reduced Adaptive Federated Learning Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangXWCQS23",
-    "author": "Shuai Wang 0033 and Yanqing Xu and Zhiguo Wang 0005 and Tsung-Hui Chang and Tony Q. S. Quek and Defeng Sun",
+    "author": "Shuai Wang 0033 and Yanqing Xu 0003 and Zhiguo Wang 0005 and Tsung-Hui Chang and Tony Q. S. Quek and Defeng Sun",
     "booktitle": "AAAI",
     "title": "Beyond ADMM: A Unified Client-Variance-Reduced Adaptive Federated Learning Framework.",
     "year": "2023",
@@ -17768,7 +17768,7 @@
   "Dynamic Ensemble of Low-Fidelity Experts: Mitigating NAS \"Cold-Start\".": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoNLRZZ0ZL023",
-    "author": "Junbo Zhao 0007 and Xuefei Ning and Enshu Liu and Binxin Ru and Zixuan Zhou and Tianchen Zhao and Chen Chen 0007 and Jiajin Zhang and Qingmin Liao and Yu Wang 0002",
+    "author": "Junbo Zhao 0007 and Xuefei Ning and Enshu Liu and Binxin Ru and Zixuan Zhou and Tianchen Zhao and Chen Chen 0077 and Jiajin Zhang and Qingmin Liao and Yu Wang 0002",
     "booktitle": "AAAI",
     "title": "Dynamic Ensemble of Low-Fidelity Experts: Mitigating NAS \"Cold-Start\".",
     "year": "2023",
@@ -18174,7 +18174,7 @@
   "Intersection Coordination with Priority-Based Search for Autonomous Vehicles.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0001HLVK23",
-    "author": "Jiaoyang Li 0001 and The Anh Hoang and Eugene Lin and Hai L. Vu and Sven Koenig",
+    "author": "Jiaoyang Li 0001 and The Anh Hoang and Eugene Lin and Hai L. Vu 0001 and Sven Koenig",
     "booktitle": "AAAI",
     "title": "Intersection Coordination with Priority-Based Search for Autonomous Vehicles.",
     "year": "2023",
@@ -23494,7 +23494,7 @@
   "Revisiting the Importance of Amplifying Bias for Debiasing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LeePKLCC23",
-    "author": "Jungsoo Lee and Jeonghoon Park and Daeyoung Kim and Juyoung Lee and Edward Choi 0003 and Jaegul Choo",
+    "author": "Jungsoo Lee and Jeonghoon Park and Daeyoung Kim and Juyoung Lee 0001 and Edward Choi 0003 and Jaegul Choo",
     "booktitle": "AAAI",
     "title": "Revisiting the Importance of Amplifying Bias for Debiasing.",
     "year": "2023",

@@ -520,7 +520,7 @@
   "Structured Semantic Transfer for Multi-Label Recognition with Partial Labels.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Chen0W0L22",
-    "author": "Tianshui Chen and Tao Pu 0002 and Hefeng Wu and Yuan Xie 0004 and Liang Lin",
+    "author": "Tianshui Chen and Tao Pu 0002 and Hefeng Wu and Yuan Xie 0004 and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Structured Semantic Transfer for Multi-Label Recognition with Partial Labels.",
     "year": "2022",
@@ -2130,7 +2130,7 @@
   "Neighborhood-Adaptive Structure Augmented Metric Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLXZ22",
-    "author": "Pandeng Li and Yan Li and Hongtao Xie and Lei Zhang 0119",
+    "author": "Pandeng Li and Yan Li 0068 and Hongtao Xie 0001 and Lei Zhang 0119",
     "booktitle": "AAAI",
     "title": "Neighborhood-Adaptive Structure Augmented Metric Learning.",
     "year": "2022",
@@ -3250,7 +3250,7 @@
   "Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002CWL22",
-    "author": "Tao Pu 0002 and Tianshui Chen and Hefeng Wu and Liang Lin",
+    "author": "Tao Pu 0002 and Tianshui Chen and Hefeng Wu and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels.",
     "year": "2022",
@@ -4664,7 +4664,7 @@
   "Unsupervised Domain Adaptive Salient Object Detection through Uncertainty-Aware Pseudo-Label Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YanWLZLL22",
-    "author": "Pengxiang Yan and Ziyi Wu and Mengmeng Liu and Kun Zeng and Liang Lin and Guanbin Li",
+    "author": "Pengxiang Yan and Ziyi Wu and Mengmeng Liu and Kun Zeng and Liang Lin 0004 and Guanbin Li",
     "booktitle": "AAAI",
     "title": "Unsupervised Domain Adaptive Salient Object Detection through Uncertainty-Aware Pseudo-Label Learning.",
     "year": "2022",
@@ -6498,7 +6498,7 @@
   "Exploring Relational Semantics for Inductive Knowledge Graph Completion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangZPDSS22",
-    "author": "Changjian Wang and Xiaofei Zhou 0002 and Shirui Pan and Linhua Dong and Zeliang Song and Ying Sha",
+    "author": "Changjian Wang 0001 and Xiaofei Zhou 0002 and Shirui Pan and Linhua Dong and Zeliang Song and Ying Sha",
     "booktitle": "AAAI",
     "title": "Exploring Relational Semantics for Inductive Knowledge Graph Completion.",
     "year": "2022",
@@ -14198,7 +14198,7 @@
   "Multi-Agent Reinforcement Learning with General Utilities via Decentralized Shadow Reward Actor-Critic.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangBWK22",
-    "author": "Junyu Zhang and Amrit Singh Bedi and Mengdi Wang 0001 and Alec Koppel",
+    "author": "Junyu Zhang 0002 and Amrit Singh Bedi and Mengdi Wang 0001 and Alec Koppel",
     "booktitle": "AAAI",
     "title": "Multi-Agent Reinforcement Learning with General Utilities via Decentralized Shadow Reward Actor-Critic.",
     "year": "2022",
@@ -17208,7 +17208,7 @@
   "Sequence-to-Action: Grammatical Error Correction with Action Guided Sequence Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiGZSJRX22",
-    "author": "Jiquan Li and Junliang Guo and Yongxin Zhu 0003 and Xin Sheng 0003 and Deqiang Jiang and Bo Ren 0002 and Linli Xu",
+    "author": "Jiquan Li and Junliang Guo and Yongxin Zhu 0003 and Xin Sheng 0003 and Deqiang Jiang and Bo Ren 0002 and Linli Xu 0002",
     "booktitle": "AAAI",
     "title": "Sequence-to-Action: Grammatical Error Correction with Action Guided Sequence Generation.",
     "year": "2022",
@@ -17432,7 +17432,7 @@
   "Is Discourse Role Important for Emotion Recognition in Conversation?": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/OngSCLNLSLW22",
-    "author": "Donovan Ong and Jian Su 0002 and Bin Chen and Anh Tuan Luu and Ashok Narendranath and Yue Li and Shuqi Sun and Yingzhan Lin and Haifeng Wang 0001",
+    "author": "Donovan Ong and Jian Su 0002 and Bin Chen 0027 and Anh Tuan Luu and Ashok Narendranath and Yue Li and Shuqi Sun and Yingzhan Lin and Haifeng Wang 0001",
     "booktitle": "AAAI",
     "title": "Is Discourse Role Important for Emotion Recognition in Conversation?",
     "year": "2022",

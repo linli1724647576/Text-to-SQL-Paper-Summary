@@ -282,7 +282,7 @@
   "The Causal Impact of Credit Lines on Spending Distributions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLSWHY0WH24",
-    "author": "Yijun Li 0005 and Cheuk Hang Leung and Xiangqian Sun and Chaoqun Wang 0007 and Yiyan Huang and Xing Yan and Qi Wu 0009 and Dongdong Wang and Zhixiang Huang",
+    "author": "Yijun Li 0005 and Cheuk Hang Leung and Xiangqian Sun and Chaoqun Wang 0007 and Yiyan Huang and Xing Yan and Qi Wu 0009 and Dongdong Wang 0005 and Zhixiang Huang",
     "booktitle": "AAAI",
     "title": "The Causal Impact of Credit Lines on Spending Distributions.",
     "year": "2024",
@@ -744,7 +744,7 @@
   "Social Physics Informed Diffusion Model for Crowd Simulation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenDLWZ24",
-    "author": "Hongyi Chen and Jingtao Ding and Yong Li 0008 and Yue Wang 0007 and Xiao-Ping Zhang",
+    "author": "Hongyi Chen and Jingtao Ding and Yong Li 0008 and Yue Wang 0007 and Xiao-Ping Zhang 0002",
     "booktitle": "AAAI",
     "title": "Social Physics Informed Diffusion Model for Crowd Simulation.",
     "year": "2024",
@@ -1724,7 +1724,7 @@
   "EVE: Efficient Vision-Language Pre-training with Masked Prediction and Modality-Aware MoE.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenGS0YLZ24",
-    "author": "Junyi Chen and Longteng Guo and Jia Sun and Shuai Shao 0005 and Zehuan Yuan and Liang Lin and Dongyu Zhang 0002",
+    "author": "Junyi Chen and Longteng Guo and Jia Sun and Shuai Shao 0005 and Zehuan Yuan and Liang Lin 0004 and Dongyu Zhang 0002",
     "booktitle": "AAAI",
     "title": "EVE: Efficient Vision-Language Pre-training with Masked Prediction and Modality-Aware MoE.",
     "year": "2024",
@@ -1892,7 +1892,7 @@
   "Box2Poly: Memory-Efficient Polygon Prediction of Arbitrarily Shaped and Rotated Text.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenWSSWSM24",
-    "author": "Xuyang Chen and Dong Wang and Konrad Schindler and Mingwei Sun and Yongliang Wang and Nicoló Savioli and Liqiu Meng",
+    "author": "Xuyang Chen and Dong Wang and Konrad Schindler and Mingwei Sun and Yongliang Wang and Nicolò Savioli and Liqiu Meng",
     "booktitle": "AAAI",
     "title": "Box2Poly: Memory-Efficient Polygon Prediction of Arbitrarily Shaped and Rotated Text.",
     "year": "2024",
@@ -5994,7 +5994,7 @@
   "Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuLXLGLJ24",
-    "author": "Zhihang Liu and Jun Li and Hongtao Xie and Pandeng Li and Jiannan Ge and Sun'ao Liu and Guoqing Jin",
+    "author": "Zhihang Liu and Jun Li and Hongtao Xie 0001 and Pandeng Li and Jiannan Ge and Sun'ao Liu and Guoqing Jin",
     "booktitle": "AAAI",
     "title": "Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval.",
     "year": "2024",
@@ -8122,7 +8122,7 @@
   "Divide and Conquer: Hybrid Pre-training for Person Search.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TianCLYZ24",
-    "author": "Yanling Tian and Di Chen and Yunan Liu and Jian Yang 0003 and Shanshan Zhang 0001",
+    "author": "Yanling Tian and Di Chen and Yunan Liu 0001 and Jian Yang 0003 and Shanshan Zhang 0001",
     "booktitle": "AAAI",
     "title": "Divide and Conquer: Hybrid Pre-training for Person Search.",
     "year": "2024",
@@ -12588,7 +12588,7 @@
   "On Partial Optimal Transport: Revising the Infeasibility of Sinkhorn and Efficient Gradient Methods.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/NguyenNNNNT24",
-    "author": "Anh Duc Nguyen and Tuan Dung Nguyen and Quang Minh Nguyen and Hoang H. Nguyen and Lam M. Nguyen and Kim-Chuan Toh",
+    "author": "Anh Duc Nguyen and Tuan Dung Nguyen and Quang Minh Nguyen and Hoang H. Nguyen 0002 and Lam M. Nguyen and Kim-Chuan Toh",
     "booktitle": "AAAI",
     "title": "On Partial Optimal Transport: Revising the Infeasibility of Sinkhorn and Efficient Gradient Methods.",
     "year": "2024",
@@ -14632,7 +14632,7 @@
   "FacetCRS: Multi-Faceted Preference Learning for Pricking Filter Bubbles in Conversational Recommender System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhengCQL24",
-    "author": "Yongsen Zheng and Ziliang Chen 0001 and Jinghui Qin and Liang Lin",
+    "author": "Yongsen Zheng and Ziliang Chen 0001 and Jinghui Qin and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "FacetCRS: Multi-Faceted Preference Learning for Pricking Filter Bubbles in Conversational Recommender System.",
     "year": "2024",
@@ -17908,7 +17908,7 @@
   "Diagnosing and Rectifying Fake OOD Invariance: A Restructured Causal Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenZLGL24",
-    "author": "Ziliang Chen 0001 and Yongsen Zheng and Zhao-Rong Lai and Quanlong Guan and Liang Lin",
+    "author": "Ziliang Chen 0001 and Yongsen Zheng and Zhao-Rong Lai and Quanlong Guan and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Diagnosing and Rectifying Fake OOD Invariance: A Restructured Causal Approach.",
     "year": "2024",
@@ -19658,7 +19658,7 @@
   "eTag: Class-Incremental Learning via Embedding Distillation and Task-Oriented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Huang0YADX24",
-    "author": "Libo Huang and Yan Zeng 0002 and Chuanguang Yang and Zhulin An and Boyu Diao and Yongjun Xu 0001",
+    "author": "Libo Huang 0001 and Yan Zeng 0002 and Chuanguang Yang and Zhulin An and Boyu Diao and Yongjun Xu 0001",
     "booktitle": "AAAI",
     "title": "eTag: Class-Incremental Learning via Embedding Distillation and Task-Oriented Generation.",
     "year": "2024",
@@ -21338,7 +21338,7 @@
   "Towards Effective and General Graph Unlearning via Mutual Evolution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiZWZLW24",
-    "author": "Xunkai Li and Yulin Zhao and Zhengyu Wu and Wentao Zhang 0001 and Rong-Hua Li and Guoren Wang",
+    "author": "Xunkai Li and Yulin Zhao and Zhengyu Wu and Wentao Zhang 0001 and Rong-Hua Li 0001 and Guoren Wang",
     "booktitle": "AAAI",
     "title": "Towards Effective and General Graph Unlearning via Mutual Evolution.",
     "year": "2024",
@@ -21842,7 +21842,7 @@
   "RPSC: Robust Pseudo-Labeling for Semantic Clustering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/00070FY024",
-    "author": "Sihang Liu 0007 and Wenming Cao 0002 and Ruigang Fu and Kaixiang Yang and Zhiwen Yu 0002",
+    "author": "Sihang Liu 0007 and Wenming Cao 0002 and Ruigang Fu and Kaixiang Yang 0001 and Zhiwen Yu 0002",
     "booktitle": "AAAI",
     "title": "RPSC: Robust Pseudo-Labeling for Semantic Clustering.",
     "year": "2024",
@@ -22220,7 +22220,7 @@
   "One-Step Forward and Backtrack: Overcoming Zig-Zagging in Loss-Aware Quantization Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MaZM0024",
-    "author": "Lianbo Ma and Yuee Zhou and Jianlun Ma and Guo Yu 0001 and Qing Li 0006",
+    "author": "Lianbo Ma 0004 and Yuee Zhou and Jianlun Ma and Guo Yu 0001 and Qing Li 0006",
     "booktitle": "AAAI",
     "title": "One-Step Forward and Backtrack: Overcoming Zig-Zagging in Loss-Aware Quantization Training.",
     "year": "2024",
@@ -30060,7 +30060,7 @@
   "MindMap: Constructing Evidence Chains for Multi-Step Reasoning in Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuHSCL24",
-    "author": "Yangyu Wu 0001 and Xu Han and Wei Song 0010 and Miaomiao Cheng and Fei Li",
+    "author": "Yangyu Wu 0001 and Xu Han 0007 and Wei Song 0010 and Miaomiao Cheng and Fei Li",
     "booktitle": "AAAI",
     "title": "MindMap: Constructing Evidence Chains for Multi-Step Reasoning in Large Language Models.",
     "year": "2024",
@@ -30130,7 +30130,7 @@
   "ALISON: Fast and Effective Stylometric Authorship Obfuscation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XingVL024",
-    "author": "Eric Xing and Saranya Venkatraman and Thai Le and Dongwon Lee 0001",
+    "author": "Eric Xing 0002 and Saranya Venkatraman and Thai Le and Dongwon Lee 0001",
     "booktitle": "AAAI",
     "title": "ALISON: Fast and Effective Stylometric Authorship Obfuscation.",
     "year": "2024",
@@ -30480,7 +30480,7 @@
   "Visual Hallucination Elevates Speech Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZWCSX24",
-    "author": "Fang Zhang 0006 and Yongxin Zhu 0003 and Xiangxiang Wang and Huang Chen and Xing Sun 0001 and Linli Xu",
+    "author": "Fang Zhang 0006 and Yongxin Zhu 0003 and Xiangxiang Wang and Huang Chen and Xing Sun 0001 and Linli Xu 0002",
     "booktitle": "AAAI",
     "title": "Visual Hallucination Elevates Speech Recognition.",
     "year": "2024",
@@ -30774,7 +30774,7 @@
   "Fine-Grained Distillation for Long Document Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouSGTSLXJ24",
-    "author": "Yucheng Zhou 0001 and Tao Shen 0001 and Xiubo Geng and Chongyang Tao and Jianbing Shen and Guodong Long and Can Xu and Daxin Jiang",
+    "author": "Yucheng Zhou 0001 and Tao Shen 0001 and Xiubo Geng and Chongyang Tao and Jianbing Shen and Guodong Long and Can Xu 0002 and Daxin Jiang",
     "booktitle": "AAAI",
     "title": "Fine-Grained Distillation for Long Document Retrieval.",
     "year": "2024",
@@ -30928,7 +30928,7 @@
   "Complementary Knowledge Distillation for Robust and Privacy-Preserving Model Serving in Vertical Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GaoWFY024",
-    "author": "Dashan Gao 0002 and Sheng Wan and Lixin Fan and Xin Yao and Qiang Yang 0001",
+    "author": "Dashan Gao 0002 and Sheng Wan and Lixin Fan and Xin Yao 0001 and Qiang Yang 0001",
     "booktitle": "AAAI",
     "title": "Complementary Knowledge Distillation for Robust and Privacy-Preserving Model Serving in Vertical Federated Learning.",
     "year": "2024",
@@ -32426,7 +32426,7 @@
   "A Fast Exact Solver with Theoretical Analysis for the Maximum Edge-Weighted Clique Problem.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Liu0024",
-    "author": "Lu Liu and Mingyu Xiao 0001 and Yi Zhou 0016",
+    "author": "Lu Liu 0030 and Mingyu Xiao 0001 and Yi Zhou 0016",
     "booktitle": "AAAI",
     "title": "A Fast Exact Solver with Theoretical Analysis for the Maximum Edge-Weighted Clique Problem.",
     "year": "2024",
@@ -32636,7 +32636,7 @@
   "ImageCaptioner2: Image Captioner for Image Captioning Bias Amplification Assessment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Abdelrahman0LE24",
-    "author": "Eslam Abdelrahman and Pengzhan Sun 0001 and Li Erran Li and Mohamed Elhoseiny",
+    "author": "Eslam Abdelrahman and Pengzhan Sun 0001 and Li Erran Li and Mohamed Elhoseiny 0001",
     "booktitle": "AAAI",
     "title": "ImageCaptioner2: Image Captioner for Image Captioning Bias Amplification Assessment.",
     "year": "2024",
@@ -35212,7 +35212,7 @@
   "AI-Based Energy Transportation Safety: Pipeline Radial Threat Estimation Using Intelligent Sensing System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuYYZYC24",
-    "author": "Chengyuan Zhu and Yiyuan Yang and Kaixiang Yang and Haifeng Zhang and Qinmin Yang and C. L. Philip Chen",
+    "author": "Chengyuan Zhu and Yiyuan Yang and Kaixiang Yang 0001 and Haifeng Zhang and Qinmin Yang and C. L. Philip Chen",
     "booktitle": "AAAI",
     "title": "AI-Based Energy Transportation Safety: Pipeline Radial Threat Estimation Using Intelligent Sensing System.",
     "year": "2024",
@@ -36598,7 +36598,7 @@
   "Interactive Mars Image Content-Based Search with Interpretable Machine Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Vasu0DWGM24",
-    "author": "Bhavan Vasu and Steven Lu 0001 and Emily Dunkel and Kiri L. Wagstaff and Kevin Grimes and Michael McAuley",
+    "author": "Bhavan Vasu and Steven Lu 0001 and Emily R. Dunkel and Kiri L. Wagstaff and Kevin Grimes and Michael McAuley",
     "booktitle": "AAAI",
     "title": "Interactive Mars Image Content-Based Search with Interpretable Machine Learning.",
     "year": "2024",
@@ -37410,7 +37410,7 @@
   "Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Islam24",
-    "author": "Md. Khairul Islam",
+    "author": "Md. Khairul Islam 0001",
     "booktitle": "AAAI",
     "title": "Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models.",
     "year": "2024",
@@ -37816,7 +37816,7 @@
   "Interpreting Temporal Knowledge Graph Reasoning (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenYTCLZZ24",
-    "author": "Bin Chen and Kai Yang and Wenxin Tai and Zhangtao Cheng and Leyuan Liu 0002 and Ting Zhong and Fan Zhou 0002",
+    "author": "Bin Chen 0030 and Kai Yang and Wenxin Tai and Zhangtao Cheng and Leyuan Liu 0002 and Ting Zhong and Fan Zhou 0002",
     "booktitle": "AAAI",
     "title": "Interpreting Temporal Knowledge Graph Reasoning (Student Abstract).",
     "year": "2024",
@@ -38460,7 +38460,7 @@
   "Shallow Diffusion for Fast Speech Enhancement (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LeiCTZ024",
-    "author": "Yue Lei and Bin Chen and Wenxin Tai and Ting Zhong and Fan Zhou 0002",
+    "author": "Yue Lei and Bin Chen 0030 and Wenxin Tai and Ting Zhong and Fan Zhou 0002",
     "booktitle": "AAAI",
     "title": "Shallow Diffusion for Fast Speech Enhancement (Student Abstract).",
     "year": "2024",

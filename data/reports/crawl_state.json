@@ -16,11 +16,11 @@
     },
     "dblp-conference:AAAI:2020": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:05Z",
-      "last_success_at": "2026-06-11T19:37:05Z",
+      "last_attempt_at": "2026-06-30T18:58:05Z",
+      "last_success_at": "2026-06-30T18:58:05Z",
       "rawdata_path": "data/rawdata/2020/AAAI2020.json",
       "record_count": 1864,
-      "sha256": "d73d2ea5b79e4ec079eaa5ad25050bb54b5b73fb80b35a2543852749c92070a4",
+      "sha256": "5ff32aa85399b119a1efcdcf4c488588062bce1a4dbe6024c58c28a86ed1b22c",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -44,11 +44,11 @@
     },
     "dblp-conference:AAAI:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:11Z",
-      "last_success_at": "2026-06-11T19:37:11Z",
+      "last_attempt_at": "2026-06-30T18:58:14Z",
+      "last_success_at": "2026-06-30T18:58:14Z",
       "rawdata_path": "data/rawdata/2022/AAAI2022.json",
       "record_count": 1624,
-      "sha256": "61af694a59182cc846995402e6af1f9e80c094127646401bac66ff303a219fbe",
+      "sha256": "f682698d0905f03396efeac6cb48f8fab97273a15110c72893f467715b515cd2",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -58,11 +58,11 @@
     },
     "dblp-conference:AAAI:2023": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:16Z",
-      "last_success_at": "2026-06-11T19:37:16Z",
+      "last_attempt_at": "2026-06-30T18:58:22Z",
+      "last_success_at": "2026-06-30T18:58:22Z",
       "rawdata_path": "data/rawdata/2023/AAAI2023.json",
       "record_count": 2021,
-      "sha256": "8aa1fda7f94ec9b8100a5caed823b50671b2efd9a5a8bde88be4ac473d2eba09",
+      "sha256": "134794edf0f2707c9ae48278dab6584a37efc524cd4392403b9213413d40a7ff",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -72,11 +72,11 @@
     },
     "dblp-conference:AAAI:2024": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:22Z",
-      "last_success_at": "2026-06-11T19:37:22Z",
+      "last_attempt_at": "2026-06-30T18:58:28Z",
+      "last_success_at": "2026-06-30T18:58:28Z",
       "rawdata_path": "data/rawdata/2024/AAAI2024.json",
       "record_count": 2865,
-      "sha256": "6ed357442512e9722f6af75af8e1d1c0c21455651cd6fc05837d11d3f00aaf00",
+      "sha256": "071c69415ea7b9b23585fdc45803351a99694ba9f00f685da79f3834d7060a8b",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -86,11 +86,11 @@
     },
     "dblp-conference:AAAI:2025": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:28Z",
-      "last_success_at": "2026-06-11T19:37:28Z",
+      "last_attempt_at": "2026-06-30T18:58:35Z",
+      "last_success_at": "2026-06-30T18:58:35Z",
       "rawdata_path": "data/rawdata/2025/AAAI2025.json",
       "record_count": 3486,
-      "sha256": "8a6b2832126e896e2ed9a99c86b7ce74edee348524402ddc02bf1aed8898e8be",
+      "sha256": "19e34c96d831c042cae88ea0e07280c871fdcd5248e81d617727d6b4b28414f0",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -100,11 +100,11 @@
     },
     "dblp-conference:AAAI:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-11T19:37:45Z",
-      "last_success_at": "2026-06-11T19:37:45Z",
+      "last_attempt_at": "2026-06-30T18:58:42Z",
+      "last_success_at": "2026-06-30T18:58:42Z",
       "rawdata_path": "data/rawdata/2026/AAAI2026.json",
       "record_count": 4920,
-      "sha256": "15295e33dbd3bc5ff658c96e86ae0da536fdefc9a510d1b83d22648d5743517c",
+      "sha256": "948f23937d539c0b83abc2b8ba6d0a917aaba336d6a5918b6c57c5d3024667af",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-06-29T19:05:51Z",
+      "last_attempt_at": "2026-06-30T19:05:58Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 0,
+    "cursor": 1,
     "history": [
       {
         "cursor": 2,
@@ -3107,12 +3107,26 @@
           "WWW",
           "TOSEM"
         ]
+      },
+      {
+        "cursor": 1,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-06-30T21:26:20Z",
+        "succeeded": [
+          "AAAI"
+        ],
+        "venues": [
+          "WWW",
+          "AAAI"
+        ]
       }
     ],
-    "last_completed_at": "2026-06-29T19:06:34Z",
+    "last_completed_at": "2026-06-30T21:26:20Z",
     "last_selected": [
       "WWW",
-      "TOSEM"
+      "AAAI"
     ],
     "retry_queue": [
       "WWW",

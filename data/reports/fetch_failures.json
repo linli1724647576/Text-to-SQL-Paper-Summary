@@ -1,14 +1,86 @@
 {
   "summary": {
-    "fetched_entries": 657,
+    "fetched_entries": 16780,
     "failure_count": 0,
-    "warning_count": 0,
-    "skipped_count": 12
+    "warning_count": 7,
+    "skipped_count": 7
   },
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "\"text-to-sql\"",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "\"text to sql\"",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "text2sql",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "nl2sql",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "\"natural language to sql\"",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "\"semantic parsing\" sql database",
+      "source_type": "arxiv",
+      "status": "partial_failed",
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "venue": "arXiv",
+      "year": "",
+      "track": "arXiv",
+      "source": "arxiv",
+      "source_type": "arxiv",
+      "status": "empty_skipped",
+      "error": "no arXiv candidates collected; existing output kept unchanged"
+    }
+  ],
   "skipped": [
     {
+      "venue": "AAAI",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "WWW",
       "year": 2020,
       "track": "DB",
@@ -53,54 +125,6 @@
       "year": 2025,
       "track": "DB",
       "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2020,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2021,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2022,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2023,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2024,
-      "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "TOSEM",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     }

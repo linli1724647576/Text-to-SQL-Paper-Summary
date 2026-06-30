@@ -13414,7 +13414,7 @@
   "Fine-Tuning by Curriculum Learning for Non-Autoregressive Neural Machine Translation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuoTXQCL20",
-    "author": "Junliang Guo and Xu Tan 0003 and Linli Xu and Tao Qin 0001 and Enhong Chen and Tie-Yan Liu",
+    "author": "Junliang Guo and Xu Tan 0003 and Linli Xu 0002 and Tao Qin 0001 and Enhong Chen and Tie-Yan Liu",
     "booktitle": "AAAI",
     "title": "Fine-Tuning by Curriculum Learning for Non-Autoregressive Neural Machine Translation.",
     "year": "2020",
@@ -13610,7 +13610,7 @@
   "Knowledge-Enriched Visual Storytelling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HsuCHLLHK20",
-    "author": "Chao-Chun Hsu and Zi-Yuan Chen and Chi-Yang Hsu and Chih-Chia Li and Tzu-Yuan Lin and Ting-Hao Kenneth Huang and Lun-Wei Ku",
+    "author": "Chao-Chun Hsu and Zi-Yuan Chen and Chi-Yang Hsu and Chih-Chia Li and Tzu-Yuan Lin and Ting-Hao 'Kenneth' Huang and Lun-Wei Ku",
     "booktitle": "AAAI",
     "title": "Knowledge-Enriched Visual Storytelling.",
     "year": "2020",
@@ -15122,7 +15122,7 @@
   "IntroVNMT: An Introspective Model for Variational Neural Machine Translation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShengXGLZX20",
-    "author": "Xin Sheng 0003 and Linli Xu and Junliang Guo and Jingchang Liu and Ruoyu Zhao and Yinlong Xu",
+    "author": "Xin Sheng 0003 and Linli Xu 0002 and Junliang Guo and Jingchang Liu and Ruoyu Zhao and Yinlong Xu",
     "booktitle": "AAAI",
     "title": "IntroVNMT: An Introspective Model for Variational Neural Machine Translation.",
     "year": "2020",
@@ -18104,7 +18104,7 @@
   "Knowledge Graph Transfer Network for Few-Shot Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenCHWLL20",
-    "author": "Riquan Chen and Tianshui Chen and Xiaolu Hui and Hefeng Wu and Guanbin Li and Liang Lin",
+    "author": "Riquan Chen and Tianshui Chen and Xiaolu Hui and Hefeng Wu and Guanbin Li and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Knowledge Graph Transfer Network for Few-Shot Recognition.",
     "year": "2020",
@@ -19798,7 +19798,7 @@
   "Filtration and Distillation: Enhancing Region Attention for Fine-Grained Visual Categorization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuXZMYZ20",
-    "author": "Chuanbin Liu 0001 and Hongtao Xie and Zheng-Jun Zha and Lingfeng Ma and Lingyun Yu 0002 and Yongdong Zhang 0001",
+    "author": "Chuanbin Liu 0001 and Hongtao Xie 0001 and Zheng-Jun Zha and Lingfeng Ma and Lingyun Yu 0002 and Yongdong Zhang 0001",
     "booktitle": "AAAI",
     "title": "Filtration and Distillation: Enhancing Region Attention for Fine-Grained Visual Categorization.",
     "year": "2020",
@@ -21198,7 +21198,7 @@
   "CircleNet for Hip Landmark Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuXLZSZ20",
-    "author": "Hai Wu and Hongtao Xie and Chuanbin Liu 0001 and Zheng-Jun Zha and Jun Sun 0016 and Yongdong Zhang 0001",
+    "author": "Hai Wu and Hongtao Xie 0001 and Chuanbin Liu 0001 and Zheng-Jun Zha and Jun Sun 0016 and Yongdong Zhang 0001",
     "booktitle": "AAAI",
     "title": "CircleNet for Hip Landmark Detection.",
     "year": "2020",
@@ -21226,7 +21226,7 @@
   "Tree-Structured Policy Based Progressive Reinforcement Learning for Temporally Language Grounding in Video.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuLLL20",
-    "author": "Jie Wu 0030 and Guanbin Li and Si Liu 0001 and Liang Lin",
+    "author": "Jie Wu 0030 and Guanbin Li and Si Liu 0001 and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "Tree-Structured Policy Based Progressive Reinforcement Learning for Temporally Language Grounding in Video.",
     "year": "2020",
@@ -21618,7 +21618,7 @@
   "An Adversarial Perturbation Oriented Domain Adaptation Approach for Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangXLQSLL20",
-    "author": "Jihan Yang and Ruijia Xu and Ruiyu Li and Xiaojuan Qi 0001 and Xiaoyong Shen and Guanbin Li and Liang Lin",
+    "author": "Jihan Yang and Ruijia Xu and Ruiyu Li and Xiaojuan Qi 0001 and Xiaoyong Shen and Guanbin Li and Liang Lin 0004",
     "booktitle": "AAAI",
     "title": "An Adversarial Perturbation Oriented Domain Adaptation Approach for Semantic Segmentation.",
     "year": "2020",

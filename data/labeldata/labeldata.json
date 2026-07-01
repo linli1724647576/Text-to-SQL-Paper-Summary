@@ -357,6 +357,49 @@
       "application_related"
     ]
   },
+  "A Semantic-Layer-Mediated Agent for Natural Language to SQL over Heterogeneous Enterprise Databases": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.31041v1",
+    "author": "Ha Jeong Kim and Saksonita Khoeurn and Ye Ji Yoon",
+    "booktitle": "arXiv",
+    "title": "A Semantic-Layer-Mediated Agent for Natural Language to SQL over Heterogeneous Enterprise Databases",
+    "year": "2026",
+    "abstract": "Natural language-to-SQL (NL2SQL) over real-world enterprise databases remains significantly more challenging than on academic benchmarks. Enterprise schemas often contain hundreds of physical tables with cryptic column names, heterogeneous SQL dialects, and complex analytical workloads requiring nested aggregations, temporal reasoning, and multi-table joins. We present a semantic-layer-mediated NL2SQL agent that decouples semantic intent from physical SQL execution. Rather than generating SQL directly over raw schemas, the agent reasons over a curated semantic layer through a compact intermediate representation called the Semantic Model Query (SMQ). A deterministic compiler translates each SMQ into dialect-specific SQL, providing verified building blocks that the agent composes into the final query. The system employs a constrained think-act loop, supports SQLite, BigQuery, and Snowflake backends, and is integrated into an end-to-end evaluation framework. Using Gemini 3 Pro, the system achieves 94.15% execution accuracy on the 547-task Spider2-snow benchmark, ranking third on the official leaderboard and substantially outperforming schema-only approaches. We describe the system architecture, SMQ representation, agent workflow, evaluation results, and discuss semantic-layer quality and the trade-off between improved grounding and overfitting.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.31041v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Semantic Layer / Metadata",
+      "Planning and Generation",
+      "Intermediate Representation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding",
+      "Query Planning",
+      "Intermediate Representation",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Dialect Adaptation"
+    ],
+    "relevance_level": "core"
+  },
   "A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4412623423",
@@ -4148,6 +4191,48 @@
       "application_related"
     ]
   },
+  "Conversational Query Engine for Mixed-Modality Heterogeneous Enterprise Data Sources": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.28370v1",
+    "author": "Darshita Rathore and Vineet Kumar and Vaibhav Singal and Ankur Vivek Singh and Anindya Moitra",
+    "booktitle": "arXiv",
+    "title": "Conversational Query Engine for Mixed-Modality Heterogeneous Enterprise Data Sources",
+    "year": "2026",
+    "abstract": "Enterprise business intelligence queries span structured warehouses and unstructured document repositories -- modalities with fundamentally different access methods, cost profiles, and correctness semantics. Existing AI-enabled interfaces force users to select the right tool: NL2SQL systems cannot reason over slide decks, and RAG pipelines lack access to live warehouse tables. We present COGNI, a production conversational BI system that treats natural-language analytics as a heterogeneous query processing problem, organized as four architectural layers. First, an indexing layer implements slide-adaptive chunking -- recursive chunking for plain-text slides, hierarchical chunking for structured content such as tables, charts, and key-value blocks - achieving $88.3\\%$ on our internal enterprise benchmark. Second, a routing layer built on a LoRA fine-tuned Qwen-2.5-1.5B-Instruct model that produces a dual output - modality decision and complexity assessment at $93.8\\%$ accuracy and approximately $7\\times$ lower cost than frontier-model. Third, a retrieval layer executes complexity-adaptive pipelines: a self-correcting NL2SQL agent at $93.9\\%$ G-Eval, and Recursive Language Models reaching $91.0\\%$ on multi-hop synthesis queries. Finally, a caching layer validates query equivalence across multiple dimensions beyond embedding similarity, achieving zero false cache hits and $8.4\\times$ latency reduction.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.28370v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Multi-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Fine-tuned Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Correcting Semantic Parses with Natural Language through Dynamic Schema Encoding": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2305.19974v1",
@@ -4863,6 +4948,46 @@
       "application_related"
     ]
   },
+  "Database Context Compression for Text-to-SQL on Real-World Large Databases": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.28601v1",
+    "author": "Jingwen Liu and Weibin Liao and Xin Gao and Junfeng Zhao and Yasha Wang",
+    "booktitle": "arXiv",
+    "title": "Database Context Compression for Text-to-SQL on Real-World Large Databases",
+    "year": "2026",
+    "abstract": "Recent progress in Text-to-SQL has been driven by stronger language models and prompting strategies, yet performance on real enterprise benchmarks such as Spider 2.0 and BIRD remains far below that on classical academic datasets. We argue that the main bottleneck is no longer reasoning, but database representation. Real databases contain repeated audit columns, large groups of similar tables, opaque identifiers whose meanings are stored only in documentation, and extensive data dictionaries with little query-relevant information. Existing query-aware methods, including schema linking and retrieval-based schema selection, filter this raw context but still operate on redundant and verbose representations. We reformulate the problem as database context compression, a query-agnostic transformation that rewrites schemas, semantic descriptions, and external documentation into a compact representation. We formalize this transformation with the SGCF (Support-Gain Component Factorization) principle, which unifies repeated column extraction, isomorphic table templating, semantic componentization, and evidence purification under a single coverage objective. Based on SGCF, we propose DBCC, a database-side middleware that performs offline structural and semantic compression together with lightweight online evidence purification. DBCC is model-agnostic and can be integrated into existing Text-to-SQL pipelines. On Spider 2.0-Snow and BIRD, DBCC reduces input context by up to two orders of magnitude (from 2.6M to 34.7K tokens on the largest Spider 2.0-Snow subset), improves schema-linking strict recall from 0% to 56.5% under DeepSeek-V3.2 (63.1% under Claude Opus 4.7), and consistently increases end-to-end execution accuracy by 1.8-1.9% over three recent Text-to-SQL systems. Our code is open-sourced at https://github.com/MrBlankness/SchemaCompression.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.28601v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Database Entity Recognition with Data Augmentation and Deep Learning": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2508.19372v1",
@@ -5375,6 +5500,47 @@
       "Verification & Repair"
     ],
     "relevance_level": "core"
+  },
+  "Digitizing Coaching Intelligence: An Agentic Framework for Holistic Athlete Profiling using VLM and RAG": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.28570v1",
+    "author": "Deep Ghosal and Ishani Sen and Wazib Ansar and Amlan Chakrabarti",
+    "booktitle": "arXiv",
+    "title": "Digitizing Coaching Intelligence: An Agentic Framework for Holistic Athlete Profiling using VLM and RAG",
+    "year": "2026",
+    "abstract": "Athlete assessment is a critical process for tracking physical progress and identifying elite talent. However, during mass recruitment drives, traditional methods rely on manual observation, which is inherently subjective and unscalable, or basic computer vision (CV) systems limited to quantitative repetition counting. These standard approaches lack the \"coaching intelligence\" required to evaluate qualitative physiological markers such as form degradation, spinal articulation, and fatigue. This paper presents a novel, LLM-based hybrid agentic framework for automated, holistic athlete profiling that strictly aligns with the Sports Authority of India (SAI) assessment protocols. Orchestrated via LangGraph, our dual-pipeline architecture synthesizes the geometric precision of CV (MediaPipe) for kinematic tracking with the semantic reasoning of Vision-Language Models (Llama-4-scout). To overcome the latency and token constraints associated with multimodal video processing, we introduce a 3 X 3 \"Smart Grid\" temporal chunking strategy, reducing computational overhead by over 88% while preserving critical temporal continuity. To ensure data integrity and mitigate hallucination, the framework pioneers an autonomous \"LLM-as-a-Judge\" self-correction loop that cross-references quantitative and qualitative metrics before persistence. Finally, we implement a dual-persistence Retrieval-Augmented Generation (RAG) pipeline utilizing a vector search engine (ChromaDB). This enables coaches to bypass rigid SQL databases and perform complex semantic queries (e.g., \"Identify athletes with high endurance but poor core rigidity\") using natural language. Experimental results demonstrate that this multi-agent approach significantly bridges the gap between raw biometric tracking and actionable coaching insights, offering a scalable, objective solution for national talent identification.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.28570v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "DisasterLex: An Expert Concept-to-Schema Knowledge Graph for Geospatial Reasoning in Disaster Analytics": {
     "type": "ARTICLE",
@@ -8294,6 +8460,46 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "How Far Do On-Prem Open LLMs Get on Text-to-SQL? A Cross-Family Size x Technique Frontier on BIRD": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.29733v1",
+    "author": "Vladimir Beskorovainyi",
+    "booktitle": "arXiv",
+    "title": "How Far Do On-Prem Open LLMs Get on Text-to-SQL? A Cross-Family Size x Technique Frontier on BIRD",
+    "year": "2026",
+    "abstract": "Organizations that cannot send data to a cloud API increasingly ask: how good is Text-to-SQL if the model must run on-premises on open weights, and which popular accuracy \"recipes\" are worth their compute? We answer with an honest, fully reproducible benchmark on the BIRD development split (n=1534, Execution Accuracy), evaluating three open model families across two generations -- Qwen2.5-Coder (7B/14B/32B), CodeLlama-Instruct (7B/13B/34B), and Llama-3.x (8B, 70B) -- under one matched protocol, ablating a model-agnostic recipe (schema linking, self-correction, self-consistency) component by component, with every difference tested by the paired McNemar test. Four findings stand out. (i) Generation matters more than raw size, and the recipe is family-robust: Qwen2.5-Coder dominates the older CodeLlama at matched size (39.1 vs 20.9 at 7B), but a modern non-Qwen model (Llama-3.3-70B, 49.2 on a matched serving) is competitive, so CodeLlama's weakness reflects its 2023 generation, not \"non-Qwen = weak\". (ii) Self-correction is a robust, near-free win, significant on all three families where there is room to improve. (iii) Schema linking does not help, and a stronger linker does not rescue it: a retrieval/embedding linker with 96.5% gold-table recall is statistically indistinguishable from no linking, ruling out the \"weak lexical strawman\" objection across three families. (iv) Self-consistency is poor value (+0.13 pp for ~5x tokens, not significant). We report real per-stage cost ($/1k queries) and release all code, predictions, and summaries; archived code and data: https://doi.org/10.5281/zenodo.20952794",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.29733v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Self-consistency / Voting",
+      "Grounding and Retrieval",
+      "Schema Linking",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Schema Linking",
+      "Context Retrieval",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction",
+      "Result Validation"
+    ],
+    "relevance_level": "core"
   },
   "Hypergraph Enterprise Agentic Reasoner over Heterogeneous Business Systems": {
     "type": "ARTICLE",
@@ -12683,6 +12889,41 @@
     ],
     "relevance_level": "core"
   },
+  "Query-Aware Spreading Activation for Multi-Hop Retrieval over Knowledge Graphs": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.30133v1",
+    "author": "Illia Makarov and Mykola Glybovets",
+    "booktitle": "arXiv",
+    "title": "Query-Aware Spreading Activation for Multi-Hop Retrieval over Knowledge Graphs",
+    "year": "2026",
+    "abstract": "Retrieval-augmented generation built on knowledge graphs (Graph RAG) outperforms flat passage retrieval on multi-hop question answering by leveraging graph structure. In most existing systems, however, the question only sets the seed nodes; the subsequent traversal becomes \"query-blind\", depending solely on the graph structure. The exception is QAFD-RAG, which implements query-aware traversal via a flow-diffusion solver with combined edge re-weighting. This architecture requires loading the full graph into Python memory and an iterative solver with a variable number of iterations complicating integration with the graph database. We propose a spreading-activation method that achieves the same query-aware traversal with a single per-step semantic gate: the step weight is the cosine similarity between the candidate entity's description and the question, and the number of iterations is fixed. The whole retrieval procedure - seed mapping, propagation, top-K selection and context assembly - is expressed as a single Cypher query executed in one round-trip to Neo4j; the graph never leaves the database. On MuSiQue our method matches QAFD-RAG by exact match (32.80 vs 33.50) and outperforms the strongest purely-structural baseline in our comparison, HippoRAG, by 5.3 EM and 3.4 F1; on 2WikiMultiHopQA HippoRAG and QAFD-RAG retain an advantage due to their phrase-node architectures. An ablation with the gate disabled confirms that the gate is the source of a simultaneous F1 gain of 3.6 to 7.4 points and a retrieval-latency reduction by a factor of 1.5 to 4.9.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.30133v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Knowledge Graph / External Knowledge",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Querying an astronomical database using large language models: the ALeRCE text-to-SQL system": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2606.18108v1",
@@ -15462,6 +15703,45 @@
     ],
     "relevance_level": "core"
   },
+  "Schema-First Retrieval: Embedding Catalogs for Natural Language Analytics": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.28387v1",
+    "author": "Adarsh Agrawal and Shashank Indukuri",
+    "booktitle": "arXiv",
+    "title": "Schema-First Retrieval: Embedding Catalogs for Natural Language Analytics",
+    "year": "2026",
+    "abstract": "Enterprise text-to-SQL systems often fail before SQL is generated: the model receives the wrong schema context. Modern warehouses contain thousands of tables, abbreviated columns, informal metrics, hidden join conventions, and permission boundaries that are not captured by raw table names. We introduce Schema-First Retrieval, a retrieval layer that embeds catalog metadata rather than warehouse rows. The system indexes five typed catalog objects, tables, columns, metrics, relationships, and query history, using object-specific text templates. At query time, it combines parallel vector search, lineage expansion, cross-encoder reranking, workload memory, and deterministic access-control gates before SQL generation. On CRUSH4SQL (1,534 questions), Schema-First Retrieval reaches 96.4% table recall@20 and cross-encoder reranking adds +11.1 points at column recall@10; against an equally-templated BM25 baseline, semantic retrieval is +32.8 points at table recall@5. On SEDE (857 questions), query history raises table recall@5 from 52.1% to 92.3%. On BIRD (96 questions), schema-first context reduces SQL execution errors from 15.6% to 6.2%, a 2.5x reduction. These results show that catalog selection is a first-class retrieval problem for natural language analytics, not a prompt formatting detail.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.28387v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Semantic Layer / Metadata",
+      "Agentic Feedback and Repair",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "core"
+  },
   "SchemaRAG: A Schema-aware Retrieval-Augmented Generation Framework for Text-to-SQL": {
     "type": "INPROCEEDINGS",
     "key": "sigmod-official-2026-schemarag-a-schema-aware-retrieval-augmented-generation-framework-for-text-to-sq",
@@ -15602,6 +15882,39 @@
       "Empirical Study"
     ],
     "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
+  "SemJoin: Semantic Join Optimization": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.29532v1",
+    "author": "Christopher Gou and Aditya Banerjee and Jiaxuan Wang and Chunwei Liu",
+    "booktitle": "arXiv",
+    "title": "SemJoin: Semantic Join Optimization",
+    "year": "2026",
+    "abstract": "Integrating unstructured data into relational database systems is increasingly important as demand grows for natural language querying and analysis. A semantic join, joining two tables under a natural-language predicate, can be evaluated with a large language model (LLM), but comparing every pair of tuples requires O(M x N) LLM invocations and is cost-prohibitive at scale. Existing systems reduce this cost but typically commit to a single fixed strategy (e.g., embedding similarity or one batched scheme) regardless of the data or the join predicate. We propose an LLM-agent-based decision pipeline that optimizes semantic joins by matching the execution strategy to the characteristics of the underlying tables. An LLM advisor routes each join to one of two strategies: a Cluster Join, which prunes candidates via unsupervised embedding clustering and sample-based filtering, or a Classifier strategy for predicates that reduce to a shared discrete label set. Across three diverse datasets (IMDb reviews, email contradictions, and Stack Overflow tags), the advisor consistently identifies the optimal execution strategy for each workload. This dynamic routing proves decisive: it outperforms adaptive block join (ABJ) by 20-33 F1 points across all datasets while consuming fewer tokens on two of the three, and achieves higher F1 scores than featurized-decomposition join (FDJ) at one to two orders of magnitude lower token cost.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.29532v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Question Decomposition",
       "SQL Generation"
     ],
     "relevance_level": "application",
@@ -16791,6 +17104,43 @@
     ],
     "relevance_level": "core"
   },
+  "Test-Time Verification for Text-to-SQL via Outcome Reward Models": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.30851v1",
+    "author": "Mattia Tritto and Giuseppe Farano and Dario Di Palma and Gaetano Rossiello and Fedelucio Narducci and Dharmashankar Subramanian and Tommaso Di Noia",
+    "booktitle": "arXiv",
+    "title": "Test-Time Verification for Text-to-SQL via Outcome Reward Models",
+    "year": "2026",
+    "abstract": "Improving the reliability of large language models (LLMs) at inference time is a central challenge in structured reasoning tasks such as Text-to-SQL. Common test-time inference strategies, including Best-of-N sampling and Majority Voting, rely on heuristic signals such as execution success or output frequency, which provide limited semantic discrimination across candidate outputs. In this work, we study Outcome Reward Models (ORMs) as learned semantic scoring functions for test-time verification in Text-to-SQL. While ORMs have been previously explored for test-time scaling and alignment, their application to structured query generation remains underexplored. We introduce GradeSQL, a scalable framework for training task-specific ORMs via automated candidate generation and execution-based labeling, enabling verifier training without manual annotation. We integrate ORMs into a verification-driven Best-of-N pipeline and evaluate our approach on the BIRD and Spider benchmarks across multiple open-source LLM families. ORM-based selection consistently outperforms execution-based Best-of-N and Majority Voting, with gains of up to +4.33% on BIRD and +2.10% on Spider. We further show that ORMs scale effectively with larger candidate sets and yield stronger improvements on complex queries. Overall, our results demonstrate that ORM-based verification provides a simple, effective, and scalable alternative to heuristic test-time selection strategies for Text-to-SQL. Code datasets and models are publicly available.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.30851v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Self-consistency / Voting",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair"
+    ],
+    "relevance_level": "core"
+  },
   "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation": {
     "type": "ARTICLE",
     "key": "journals/pvldb/GaoWLSQDZ24",
@@ -17345,6 +17695,43 @@
     "quality_flags": [
       "application_related"
     ]
+  },
+  "Think in English, Answer in Korean: Efficient Adaptation of Multilingual Tool-Using Agents": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2606.31648v1",
+    "author": "Utsav Garg and Sungjin Hong and Jason Jung and Justin Lee and Shaan Desai and Joon Hee Kim and Anirudh Shrinivason and Edmond Wen and Susie Park",
+    "booktitle": "arXiv",
+    "title": "Think in English, Answer in Korean: Efficient Adaptation of Multilingual Tool-Using Agents",
+    "year": "2026",
+    "abstract": "We present LuckyStar 111B, a 111B-parameter hybrid reasoning model developed through a collaboration between Cohere and LG CNS for Korean-English enterprise agents under practical memory and serving constraints. The model trains from Cohere's fully post-trained Command A model rather than a new pretraining run, and uses preamble conditioning to switch between concise non-reasoning behavior and longer tool-oriented reasoning. We study four choices for scaling tool-using agents efficiently: multilingual supervised fine-tuning, reinforcement learning with verifiable rewards for multi-step tool-use tasks, language-consistency rewards for Korean user-facing responses, and 4-bit quantization for single-GPU serving. The adapted model improves mathematical reasoning, function calling, and agentic natural-language-to-SQL (NL2SQL) performance while preserving general Korean and English instruction-following quality. These results provide a practical recipe and failure-mode analysis for adapting post-trained multilingual models to verifiable agentic workflows under memory-constrained deployment.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2606.31648v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Reinforcement Learning",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Fine-tuned Generation",
+      "Verification & Repair",
+      "Result Validation"
+    ],
+    "relevance_level": "core"
   },
   "Think2SQL: Reinforce LLM Reasoning Capabilities for Text2SQL": {
     "type": "ARTICLE",

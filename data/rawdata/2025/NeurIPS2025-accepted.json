@@ -16774,7 +16774,7 @@
   "Unveiling the Spatial-temporal Effective Receptive Fields of Spiking Neural Networks": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-unveiling-the-spatial-temporal-effective-receptive-fields-of-spiking-neural-netw",
-    "author": "Jieyuan  Zhang and Xiaolong Zhou and Shuai Wang and Wenjie Wei and Hanwen Liu and Qian Sun and Malu Zhang and Yang Yang and Haizhou Li Main Conference Track <div class=\"paper-",
+    "author": "Jieyuan Zhang and Xiaolong Zhou and Shuai Wang and Wenjie Wei and Hanwen Liu and Qian Sun and Malu Zhang and Yang Yang and Haizhou Li Main Conference Track <div class=\"paper-content",
     "booktitle": "NeurIPS Conference",
     "title": "Unveiling the Spatial-temporal Effective Receptive Fields of Spiking Neural Networks",
     "year": "2025",
@@ -21044,7 +21044,7 @@
   "S$^2$NN: Sub-bit Spiking Neural Networks": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-s-2-nn-sub-bit-spiking-neural-networks",
-    "author": "Wenjie Wei and Malu Zhang and Jieyuan  Zhang and Ammar Belatreche and Shuai Wang and Yimeng Shan and Hanwen Liu and Honglin Cao and Guoqing Wang and Yang Yang and Haizhou Li Main Conference Track <li class=\"datasets_and_benchmarks_track\" data-track=\"dat",
+    "author": "Wenjie Wei and Malu Zhang and Jieyuan Zhang and Ammar Belatreche and Shuai Wang and Yimeng Shan and Hanwen Liu and Honglin Cao and Guoqing Wang and Yang Yang and Haizhou Li Main Conference Track <li class=\"datasets_and_benchmarks_track\" data-track=\"datasets_a",
     "booktitle": "NeurIPS Conference",
     "title": "S$^2$NN: Sub-bit Spiking Neural Networks",
     "year": "2025",
@@ -47294,7 +47294,7 @@
   "Bipolar Self-attention for Spiking Transformers": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-bipolar-self-attention-for-spiking-transformers",
-    "author": "Shuai Wang and Malu Zhang and Jingya Wang and Dehao Zhang and Yimeng Shan and Jieyuan  Zhang and Yichen Xiao and Honglin Cao and Haonan Zhang and Zeyu Ma and Yang Yang and Haizhou Li Main Conference Track",
+    "author": "Shuai Wang and Malu Zhang and Jingya Wang and Dehao Zhang and Yimeng Shan and Jieyuan Zhang and Yichen Xiao and Honglin Cao and Haonan Zhang and Zeyu Ma and Yang Yang and Haizhou Li Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Bipolar Self-attention for Spiking Transformers",
     "year": "2025",

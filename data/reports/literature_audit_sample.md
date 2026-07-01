@@ -29,14 +29,14 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2025 | Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs | missing doi |
-| arxiv | true_positive_application | ArXiv | 2026 | Business Logic-Driven Text-to-SQL Data Synthesis for Business Intelligence | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | Agent-Agnostic Evaluation of SQL Accuracy in Production Text-to-SQL Systems | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | Optimizing Small Language Models for NL2SQL via Chain-of-Thought Fine-Tuning | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Continual Learning of Domain Knowledge from Human Feedback in Text-to-SQL | missing doi |
-| arxiv | true_positive_core | ArXiv | 2025 | Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | Agent Lightning: Train ANY AI Agents with Reinforcement Learning | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | On Repairing Natural Language to SQL Queries | missing doi |
+| arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
+| arxiv | true_positive_core | ArXiv | 2026 | Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
@@ -44,6 +44,6 @@
 | supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
 | supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ArXiv | 2026 | An Agentic System for Schema Aware NL2SQL Generation | missing doi |
-| fill | true_positive_core | NeurIPS | 2023 | DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction | missing doi |
-| fill | true_positive_core | ArXiv | 2026 | GS-QA: A Benchmark for Geospatial Question Answering | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model | missing doi |
+| fill | true_positive_application | ICDE | 2024 | GA-Tag: Data Enrichment with an Automatic Tagging System Utilizing Large Language Models |  |

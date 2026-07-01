@@ -5392,7 +5392,7 @@
   "Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/AkujuobiCES020",
-    "author": "Uchenna Akujuobi and Jun Chen 0021 and Mohamed Elhoseiny and Michael Spranger and Xiangliang Zhang 0001",
+    "author": "Uchenna Akujuobi and Jun Chen 0021 and Mohamed Elhoseiny 0001 and Michael Spranger and Xiangliang Zhang 0001",
     "booktitle": "NeurIPS",
     "title": "Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk Estimation.",
     "year": "2020",
@@ -9928,7 +9928,7 @@
   "Zero-Resource Knowledge-Grounded Dialogue Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/LiX0ZZT20",
-    "author": "Linxiao Li and Can Xu and Wei Wu 0014 and Yufan Zhao and Xueliang Zhao and Chongyang Tao",
+    "author": "Linxiao Li and Can Xu 0002 and Wei Wu 0014 and Yufan Zhao and Xueliang Zhao and Chongyang Tao",
     "booktitle": "NeurIPS",
     "title": "Zero-Resource Knowledge-Grounded Dialogue Generation.",
     "year": "2020",
@@ -12728,7 +12728,7 @@
   "Incorporating BERT into Parallel Sequence Decoding with Adapters.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/GuoZXWCC20",
-    "author": "Junliang Guo and Zhirui Zhang and Linli Xu and Hao-Ran Wei and Boxing Chen and Enhong Chen",
+    "author": "Junliang Guo and Zhirui Zhang and Linli Xu 0002 and Hao-Ran Wei and Boxing Chen and Enhong Chen",
     "booktitle": "NeurIPS",
     "title": "Incorporating BERT into Parallel Sequence Decoding with Adapters.",
     "year": "2020",
@@ -13666,7 +13666,7 @@
   "Hierarchical Granularity Transfer Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/MinXYDZ020",
-    "author": "Shaobo Min and Hongtao Xie and Hantao Yao and Xuran Deng and Zheng-Jun Zha and Yongdong Zhang 0001",
+    "author": "Shaobo Min and Hongtao Xie 0001 and Hantao Yao and Xuran Deng and Zheng-Jun Zha and Yongdong Zhang 0001",
     "booktitle": "NeurIPS",
     "title": "Hierarchical Granularity Transfer Learning.",
     "year": "2020",
@@ -20736,7 +20736,7 @@
   "Online Meta-Critic Learning for Off-Policy Actor-Critic Methods.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/ZhouLYWH20",
-    "author": "Wei Zhou and Yiying Li and Yongxin Yang and Huaimin Wang and Timothy M. Hospedales",
+    "author": "Wei Zhou 0107 and Yiying Li and Yongxin Yang and Huaimin Wang 0001 and Timothy M. Hospedales",
     "booktitle": "NeurIPS",
     "title": "Online Meta-Critic Learning for Off-Policy Actor-Critic Methods.",
     "year": "2020",
@@ -24096,7 +24096,7 @@
   "Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/WuZXLL20",
-    "author": "Yangxin Wu and Gengwei Zhang and Hang Xu 0004 and Xiaodan Liang and Liang Lin",
+    "author": "Yangxin Wu and Gengwei Zhang and Hang Xu 0004 and Xiaodan Liang and Liang Lin 0004",
     "booktitle": "NeurIPS",
     "title": "Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation.",
     "year": "2020",

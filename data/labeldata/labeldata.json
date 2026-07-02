@@ -874,6 +874,33 @@
     ],
     "relevance_level": "core"
   },
+  "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/ShiWLR25",
+    "author": "Gengyuan Shi and Chaokun Wang and Yabin Liu and Jiawei Ren",
+    "booktitle": "ACL (1)",
+    "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages",
+    "year": "2025",
+    "abstract": "Multi-model databases and polystore systems are increasingly studied for managing multi-model data holistically. As their primary interface, multi-model query languages (MMQLs) often exhibit complex grammars, highlighting the need for effective Text-to-MMQL translation methods. Despite advances in natural language translation, no effective solutions for Text-to-MMQL exist. To address this gap, we formally define the Text-to-MMQL task and present the first Text-to-MMQL dataset involving three representative MMQLs. We propose an adaptive Text-to-MMQL framework that includes both a schema embedding module for capturing multi-model schema information and an MMQL representation strategy to generate concise intermediate query formats with error correction in generated queries. Experimental results show that the proposed framework achieves over a 9% accuracy improvement over our adapted baseline methods.",
+    "keywords": "",
+    "url": "https://aclanthology.org/2025.acl-long.776/",
+    "doi": "10.18653/v1/2025.acl-long.776",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Task Setting",
+      "Text-to-DSL / Hybrid Query",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Grounding"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Addressing Semantic Blind Spots in Text-to-SQL via Component Pre-generation and AST Matching Rewards": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-addressing-semantic-blind-spots-in-text-to-sql-via-component-pre-generation-and-",
@@ -4480,23 +4507,28 @@
   },
   "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph": {
     "type": "INPROCEEDINGS",
-    "key": "acl-official-2025-dcg-sql-enhancing-in-context-learning-for-text-to-sql-with-deep-contextual-schem",
-    "author": "Jihyung Lee and Jin-Seop Lee and Jaehoon Lee and YunSeok Choi and Jee-Hyong Lee",
-    "booktitle": "ACL Conference",
+    "key": "conf/acl/LeeLLC025",
+    "author": "Jihyung Lee and Jin-Seop Lee and Jaehoon Lee and YunSeok Choi and Jee-Hyong Lee 0001",
+    "booktitle": "ACL (1)",
     "title": "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Text-to-SQL, which translates a natural language question into an SQL query, has advanced with in-context learning of Large Language Models (LLMs). However, existing methods show little improvement in performance compared to randomly chosen demonstrations, and significant performance drops when smaller LLMs (e.g., Llama 3.1-8B) are used. This indicates that these methods heavily rely on the intrinsic capabilities of hyper-scaled LLMs, rather than effectively retrieving useful demonstrations. In this paper, we propose a novel approach for effectively retrieving demonstrations and generating SQL queries. We construct a Deep Contextual Schema Link Graph, which contains key information and semantic relationship between a question and its database schema items. This graph-based structure enables effective representation of Text-to-SQL samples and retrieval of useful demonstrations for in-context learning. Experimental results on the Spider benchmark demonstrate the effectiveness of our approach, showing consistent improvements in SQL generation performance and efficiency across both hyper-scaled LLMs and small LLMs. The code is available at https://github.com/jjklle/DCG-SQL.",
     "keywords": "",
-    "url": "https://2025.aclweb.org/program/main_papers/",
-    "doi": "",
+    "url": "https://aclanthology.org/2025.acl-long.748/",
+    "doi": "10.18653/v1/2025.acl-long.748",
     "venue": "ACL",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
       "Prompting and ICL",
       "Zero-shot / Few-shot ICL",
-      "Prompt Engineering"
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
       "Task Understanding",
@@ -14487,25 +14519,35 @@
   },
   "SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL": {
     "type": "INPROCEEDINGS",
-    "key": "acl-official-2025-share-an-slm-based-hierarchical-action-correction-assistant-for-text-to-sql",
-    "author": "Ge Qu and Jinyang Li and Bowen Qin and Xiaolong Li and Nan Huo and Chenhao Ma and Reynold Cheng",
-    "booktitle": "ACL Conference",
+    "key": "conf/acl/QuLQLH0C25",
+    "author": "Ge Qu and Jinyang Li 0003 and Bowen Qin and Xiaolong Li and Nan Huo and Chenhao Ma 0001 and Reynold Cheng",
+    "booktitle": "ACL (1)",
     "title": "SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Current self-correction approaches in text-to-SQL face two critical limitations: 1) Conventional self-correction methods rely on recursive self-calls of LLMs, resulting in multiplicative computational overhead, and 2) LLMs struggle to implement effective error detection and correction for monolithic SQL queries, as they fail to demonstrate the underlying reasoning path. In this work, we propose **SHARE**, a **S**LM-based **H**ierarchical **A**ction cor**RE**ction assistant that enables LLMs to perform more precise error localization and efficient correction. SHARE orchestrates three specialized Small Language Models (SLMs) in a sequential pipeline, where it first transforms monolithic SQL queries into stepwise action trajectories that reveal underlying reasoning, followed by a two-phase granular refinement. We further propose a novel hierarchical self-evolution strategy for data-efficient training. Our experimental results demonstrate that SHARE effectively enhances self-correction capabilities while proving robust across various LLMs. Furthermore, our comprehensive analysis shows that SHARE maintains strong performance even in low-resource training settings, which is particularly valuable for text-to-SQL applications with data privacy constraints.",
     "keywords": "",
-    "url": "https://2025.aclweb.org/program/main_papers/",
-    "doi": "",
+    "url": "https://aclanthology.org/2025.acl-long.552/",
+    "doi": "10.18653/v1/2025.acl-long.552",
     "venue": "ACL",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
       "Pre-training and Fine-tuning",
-      "Small Models and Distillation"
+      "Supervised Fine-tuning",
+      "Small Models and Distillation",
+      "Prompting and ICL",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Security and Access Control"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Verification & Repair",
+      "Self-correction"
     ],
     "relevance_level": "core"
   },
@@ -15475,23 +15517,39 @@
   },
   "STaR-SQL: Self-Taught Reasoner for Text-to-SQL": {
     "type": "INPROCEEDINGS",
-    "key": "acl-official-2025-star-sql-self-taught-reasoner-for-text-to-sql",
-    "author": "Mingqian He and Yongliang Shen and Wenqi Zhang and Qiuying Peng and Jun Wang and Weiming Lu",
-    "booktitle": "ACL Conference",
+    "key": "conf/acl/He0ZPWL25",
+    "author": "Mingqian He and Yongliang Shen 0001 and Wenqi Zhang 0001 and Qiuying Peng and Jun Wang and Weiming Lu 0001",
+    "booktitle": "ACL (1)",
     "title": "STaR-SQL: Self-Taught Reasoner for Text-to-SQL",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Generating step-by-step “chain-of-thought” rationales has proven effective for improving the performance of large language models on complex reasoning tasks. However, applying such techniques to structured tasks, such as text-to-SQL, remains largely unexplored. In this paper, we introduce Self-Taught Reasoner for text-to-SQL (STaR-SQL), a novel approach that reframes SQL query generation as a reasoning-driven process. Our method prompts the LLM to produce detailed reasoning steps for SQL queries and fine-tunes it on rationales that lead to correct outcomes. Unlike traditional methods, STaR-SQL dedicates additional test-time computation to reasoning, thereby positioning LLMs as spontaneous reasoners rather than mere prompt-based agents. To further scale the inference process, we incorporate an outcome-supervised reward model (ORM) as a verifier, which enhances SQL query accuracy. Experimental results on the challenging Spider benchmark demonstrate that STaR-SQL significantly improves text-to-SQL performance, achieving an execution accuracy of 86.6%. This surpasses a few-shot baseline by 31.6% and a baseline fine-tuned to predict answers directly by 18.0%. Additionally, STaR-SQL outperforms agent-like prompting methods that leverage more powerful yet closed-source models such as GPT-4. These findings underscore the potential of reasoning-augmented training for structured tasks and open the door to extending self-improving reasoning models to text-to-SQL generation and beyond.",
     "keywords": "",
-    "url": "https://2025.aclweb.org/program/main_papers/",
-    "doi": "",
+    "url": "https://aclanthology.org/2025.acl-long.1187/",
+    "doi": "10.18653/v1/2025.acl-long.1187",
     "venue": "ACL",
     "venue_track": "AI 领域",
     "labels": [
       "Task Setting",
-      "Single-turn Text-to-SQL"
+      "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study"
     ],
     "pipeline_stages": [
-      "SQL Generation"
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation",
+      "Fine-tuned Generation"
     ],
     "relevance_level": "core"
   },
@@ -16043,6 +16101,46 @@
       "Fine-tuned Generation"
     ],
     "relevance_level": "core"
+  },
+  "SessionBound: Turning Enterprise Task Approval into Budgeted Database Sessions": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2607.00751v1",
+    "author": "Minmin Wu",
+    "booktitle": "arXiv",
+    "title": "SessionBound: Turning Enterprise Task Approval into Budgeted Database Sessions",
+    "year": "2026",
+    "abstract": "Enterprise AI agents are useful for internal analysis, audit, compliance review, and operational investigation, but they create a difficult authorization problem. A manager or data owner may approve a business task, while the agent later generates open-ended SQL below the application layer. Existing systems help identify agents, delegate authority, govern data products, or enforce database policy, but they do not directly turn an approved enterprise task into a bounded database execution context. SessionBound fills this gap. It turns approved enterprise tasks into short-lived, budgeted, and auditable database sessions for AI agents. A control plane defines task templates, accepts task applications, records approvals, assigns budgets, and issues signed task tokens. A database runtime, SessionBoundDB, binds a token to a session and enforces safe views, row scope, denied fields, operation limits, query budgets, disclosure budgets, and receipts. The database does not rely on an LLM to decide whether a query is safe. The agent may generate SQL freely, but each attempt must stay inside the approved boundary. A PostgreSQL prototype passed a 24-scenario validation suite. Microbenchmarks show p50 SessionBound execution around 1.4--1.5 ms versus raw PostgreSQL p50 around 0.052--0.074 ms on small synthetic queries: high relative overhead, but low absolute latency.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2607.00751v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Planning and Generation",
+      "Dialect Adaptation",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Security and Access Control",
+      "Benchmarks and Evaluation",
+      "Benchmark",
+      "Empirical Study",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Sevi: Speech-to-Visualization through Neural Machine Translation": {
     "type": "INPROCEEDINGS",
@@ -16862,6 +16960,37 @@
     ],
     "relevance_level": "core"
   },
+  "TST: A Schema-Based Top-Down and Dynamic-Aware Agent of Text-to-Table Tasks": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/JiangJMCC25",
+    "author": "Peiwen Jiang and Haitong Jiang and Ruhui Ma and Yvonne Jie Chen and Jinhua Cheng",
+    "booktitle": "ACL (1)",
+    "title": "TST: A Schema-Based Top-Down and Dynamic-Aware Agent of Text-to-Table Tasks",
+    "year": "2025",
+    "abstract": "As a bridge between natural texts and information systems like structured storage, statistical analysis, retrieving, and recommendation, the text-to-table task has received widespread attention recently. Existing researches have gone through a paradigm shift from traditional bottom-up IE (Information Extraction) to top-down LLMs-based question answering with RAG (Retrieval-Augmented Generation). Furthermore, these methods mainly adopt end-to-end models or use multi-stage pipelines to extract text content based on static table structures. However, they neglect to deal with precise inner-document evidence extraction and dynamic information such as multiple entities and events, which can not be defined in static table head format and are very common in natural texts.To address this issue, we propose a two-stage dynamic content extraction agent framework called TST (Text-Schema-Table), which uses type recognition methods to extract context evidences with the conduction of domain schema sequentially. Based on the evidence, firstly we quantify the total instances of each dynamic object and then extract them with ordered numerical prompts. Through extensive comparisons with existing methods across different datasets, our extraction framework exhibits state-of-the-art (SOTA) performance. Our codes are available at https://github.com/jiangpw41/TST .",
+    "keywords": "",
+    "url": "https://aclanthology.org/2025.acl-long.829/",
+    "doi": "10.18653/v1/2025.acl-long.829",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YinNYR20",
@@ -17544,6 +17673,33 @@
       "Prompt-based Generation"
     ],
     "relevance_level": "core"
+  },
+  "The Course of News Events: A Comparison of Bottom-Up and Top-Down Approaches for Collecting Text-Based Data about Disasters": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2607.00849v1",
+    "author": "Brielen Madureira and Andreas Niekler and Mariana Madruga de Brito",
+    "booktitle": "arXiv",
+    "title": "The Course of News Events: A Comparison of Bottom-Up and Top-Down Approaches for Collecting Text-Based Data about Disasters",
+    "year": "2026",
+    "abstract": "News articles are an important source of information on disaster impacts and adaptation. A key methodological challenge in socio-environmental studies is how to select a representative data sample. Two approaches are common: querying news databases top-down with the aid of an existing disaster inventory or using NLP methods to cluster news texts bottom-up based on temporal and spatial features. Using a dataset of German news about landslides worldwide, we compare these approaches and discuss variations in event coverage. Such research design decision can influence the resulting news sample, affecting its use in studies of inequality in media coverage, disaster monitoring and inventory enrichment.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2607.00849v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "The Dawn of Natural Language to SQL: Are We Fully Ready?": {
     "type": "ARTICLE",
@@ -18397,15 +18553,15 @@
   },
   "Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL": {
     "type": "INPROCEEDINGS",
-    "key": "acl-official-2025-uncovering-the-impact-of-chain-of-thought-reasoning-for-direct-preference-optimi",
+    "key": "conf/acl/LiuLZCXTQZ25",
     "author": "Hanbing Liu and Haoyang Li and Xiaokang Zhang and Ruotong Chen and Haiyong Xu and Tian Tian and Qi Qi and Jing Zhang",
-    "booktitle": "ACL Conference",
+    "booktitle": "ACL (1)",
     "title": "Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Direct Preference Optimization (DPO) has proven effective in complex reasoning tasks like math word problems and code generation. However, when applied to Text-to-SQL datasets, it often fails to improve performance and can even degrade it. Our investigation reveals the root cause: unlike math and code tasks, which naturally integrate Chain-of-Thought (CoT) reasoning with DPO, Text-to-SQL datasets typically include only final answers (gold SQL queries) without detailed CoT solutions. By augmenting Text-to-SQL datasets with synthetic CoT solutions, we achieve, for the first time, consistent and significant performance improvements using DPO.Our analysis shows that CoT reasoning is crucial for unlocking DPO’s potential, as it mitigates reward hacking, strengthens discriminative capabilities, and improves scalability. These findings offer valuable insights for building more robust Text-to-SQL models. To support further research, we publicly release the code and CoT-enhanced datasets: https://github.com/RUCKBReasoning/DPO_Text2SQL.",
     "keywords": "",
-    "url": "https://2025.aclweb.org/program/main_papers/",
-    "doi": "",
+    "url": "https://aclanthology.org/2025.acl-long.1031/",
+    "doi": "10.18653/v1/2025.acl-long.1031",
     "venue": "ACL",
     "venue_track": "AI 领域",
     "labels": [
@@ -18415,7 +18571,9 @@
       "Reinforcement Learning",
       "Prompting and ICL",
       "Prompt Engineering",
-      "Chain-of-Thought Reasoning"
+      "Chain-of-Thought Reasoning",
+      "Benchmarks and Evaluation",
+      "Benchmark"
     ],
     "pipeline_stages": [
       "Query Planning",

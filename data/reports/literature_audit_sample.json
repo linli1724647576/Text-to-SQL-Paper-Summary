@@ -124,64 +124,26 @@
       "notes": "risk-directed sample"
     },
     {
-      "title": "Demonstrating CAESURA: Language Models as Multi-Modal Query Planners",
+      "title": "DeepSQLi: deep semantic learning for testing SQL injection",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2024",
+      "venue": "ISSTA",
+      "normalized_venue": "ISSTA",
+      "category": "软件工程",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3626246.3654732",
-        "https://doi.org/10.1145/3626246.3654732"
+        "10.1145/3395363.3397375",
+        "https://doi.org/10.1145/3395363.3397375"
       ],
       "notes": ""
     },
     {
-      "title": "DataDazzle: Intelligent Data Exploration through Natural Language",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3722212.3725094",
-        "https://doi.org/10.1145/3722212.3725094"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams?",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3722212.3724479",
-        "https://doi.org/10.1145/3722212.3724479"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Quirx: A Mutation-Based Framework for Evaluating Prompt Robustness in LLM-based Software",
+      "title": "DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_application",
@@ -194,46 +156,83 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/ASE63991.2025.00383",
-        "https://doi.org/10.1109/ASE63991.2025.00383"
+        "10.1109/ASE63991.2025.00076",
+        "https://doi.org/10.1109/ASE63991.2025.00076"
       ],
       "notes": ""
     },
     {
-      "title": "Learning Relational Decomposition of Queries for Question Answering from Tables",
+      "title": "PURPLE: Making a Large Language Model a Better SQL Writer",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
+      "venue": "ICDE",
+      "normalized_venue": "ICDE",
+      "category": "数据库领域",
       "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2024.acl-long.564",
-        "https://doi.org/10.18653/v1/2024.acl-long.564"
+        "10.1109/ICDE60146.2024.00009",
+        "https://doi.org/10.1109/ICDE60146.2024.00009"
       ],
       "notes": ""
     },
     {
-      "title": "Sevi: Speech-to-Visualization through Neural Machine Translation",
+      "title": "QATCH: Benchmarking SQL-centric tasks with Table Representation Learning Models on Your Data",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "NeurIPS",
+      "normalized_venue": "NeurIPS",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/62a24b69b820d30e9e5ad4f15ff7bf72-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v35i15.17627",
+        "https://doi.org/10.1609/aaai.v35i15.17627"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "KDD",
+      "normalized_venue": "KDD",
       "category": "数据库领域",
       "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3514221.3520150",
-        "https://doi.org/10.1145/3514221.3520150"
+        "10.1145/3534678.3539294",
+        "https://doi.org/10.1145/3534678.3539294"
       ],
       "notes": ""
     },
@@ -257,22 +256,22 @@
       "notes": ""
     },
     {
-      "title": "Boosting Small Language Models for Text-to-SQL with Fine-Grained Execution Feedback and Cost-Efficient Rewards",
+      "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
+      "venue": "ICML",
+      "normalized_venue": "ICML",
+      "category": "AI 领域",
       "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://icde2026.github.io/accepted-papers.html"
+        "https://arxiv.org/abs/2601.18119v1"
       ],
-      "notes": "missing doi, abstract"
+      "notes": "missing doi"
     },
     {
       "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
@@ -427,11 +426,11 @@
       "notes": ""
     },
     {
-      "title": "TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature",
+      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
       "present_in_labeldata": true,
       "stratum": "arxiv",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
@@ -440,7 +439,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.07507v1"
+        "https://arxiv.org/abs/2606.12387v1"
       ],
       "notes": "missing doi"
     },
@@ -463,7 +462,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL",
+      "title": "Tursio Database Search: How far are we from ChatGPT?",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -476,7 +475,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.08018v1"
+        "https://arxiv.org/abs/2603.18835v2"
       ],
       "notes": "missing doi"
     },
@@ -704,59 +703,59 @@
       "notes": ""
     },
     {
-      "title": "AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL",
+      "title": "Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "ICML",
+      "normalized_venue": "ICML",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2508.15276v2"
+        "https://proceedings.mlr.press/v267/li25dt.html"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "DCMM-SQL: Automated Data-Centric Pipeline and Multi-Model Collaboration Training for Text-to-SQL Model",
+      "title": "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2510.23284v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "GA-Tag: Data Enrichment with an Automatic Tagging System Utilizing Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/ICDE60146.2024.00412",
-        "https://doi.org/10.1109/ICDE60146.2024.00412"
+        "10.18653/v1/2025.acl-long.748",
+        "https://aclanthology.org/2025.acl-long.748/"
       ],
       "notes": ""
+    },
+    {
+      "title": "Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2501.18197v1"
+      ],
+      "notes": "missing doi"
     }
   ]
 }

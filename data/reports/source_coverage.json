@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-01T19:03:16Z",
+  "generated_at": "2026-07-02T18:28:43Z",
   "records": [
     {
       "kind": "conference",
@@ -289,7 +289,7 @@
         "data/rawdata/2025/ACL2025.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 8,
+      "relevant_candidate_count": 10,
       "source_type": "dblp-conference",
       "source_url": "https://2025.aclweb.org/program/main_papers/",
       "status": "covered",

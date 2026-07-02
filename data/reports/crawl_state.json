@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-07-01T19:00:38Z",
-      "last_success_at": "2026-07-01T19:00:38Z",
+      "last_attempt_at": "2026-07-02T18:27:30Z",
+      "last_success_at": "2026-07-02T18:27:30Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
-      "record_count": 491,
-      "sha256": "3a422a8d8edb18024c8907e29ba8b94eff5ec80194af777d3292adb07ad42f58",
+      "record_count": 492,
+      "sha256": "b956008fd9ee36dc72349eeb51bff384606c4b902410b9f5f73ceaf4eef31957",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -142,11 +142,11 @@
     },
     "dblp-conference:ACL:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-12T19:07:56Z",
-      "last_success_at": "2026-06-12T19:07:56Z",
+      "last_attempt_at": "2026-07-02T18:26:26Z",
+      "last_success_at": "2026-07-02T18:26:26Z",
       "rawdata_path": "data/rawdata/2022/ACL2022.json",
       "record_count": 604,
-      "sha256": "317ae1425c6261cfc14cdfb30f7901956bbb4b22b17259fbec40698a1ad62e56",
+      "sha256": "275afd41f4b45e6a8d83abf179cda4746b3409471bada3a14f35f835a1f30a3f",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -156,11 +156,11 @@
     },
     "dblp-conference:ACL:2023": {
       "error": "",
-      "last_attempt_at": "2026-06-12T19:08:02Z",
-      "last_success_at": "2026-06-12T19:08:02Z",
+      "last_attempt_at": "2026-07-02T18:26:33Z",
+      "last_success_at": "2026-07-02T18:26:33Z",
       "rawdata_path": "data/rawdata/2023/ACL2023.json",
       "record_count": 910,
-      "sha256": "918214e6143cddcadb5301a25f92395b69096e3d3c810f364ebcc891885187d2",
+      "sha256": "ca38c59d5ba1be390f0a5e8524a1e31bb17ef09161e2d59d47716f4a0f5397c3",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -170,11 +170,11 @@
     },
     "dblp-conference:ACL:2024": {
       "error": "",
-      "last_attempt_at": "2026-06-12T19:08:07Z",
-      "last_success_at": "2026-06-12T19:08:07Z",
+      "last_attempt_at": "2026-07-02T18:26:42Z",
+      "last_success_at": "2026-07-02T18:26:42Z",
       "rawdata_path": "data/rawdata/2024/ACL2024.json",
       "record_count": 865,
-      "sha256": "c1cd3a9ee702ede7d8079974a1681e14d98280100d7954685416eae0c82276a7",
+      "sha256": "c9698944e0a5df92073154a88dce09429cc75d7be45bd7b04ad3b05cdbd4cf62",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -184,11 +184,11 @@
     },
     "dblp-conference:ACL:2025": {
       "error": "",
-      "last_attempt_at": "2026-06-12T19:08:13Z",
-      "last_success_at": "2026-06-12T19:08:13Z",
+      "last_attempt_at": "2026-07-02T18:26:49Z",
+      "last_success_at": "2026-07-02T18:26:49Z",
       "rawdata_path": "data/rawdata/2025/ACL2025.json",
       "record_count": 1603,
-      "sha256": "12d8b640797d96d4ad265d7f9d508392072406db68a74f54733303bd698cebad",
+      "sha256": "83b2e42a57924320275b71d335da48c833dca0547e7018f9e58dce48429c5d54",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-07-01T19:01:17Z",
+      "last_attempt_at": "2026-07-02T18:27:31Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 2,
+    "cursor": 3,
     "history": [
       {
         "cursor": 2,
@@ -3135,12 +3135,26 @@
           "WWW",
           "NeurIPS"
         ]
+      },
+      {
+        "cursor": 3,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-07-02T18:28:44Z",
+        "succeeded": [
+          "ACL"
+        ],
+        "venues": [
+          "WWW",
+          "ACL"
+        ]
       }
     ],
-    "last_completed_at": "2026-07-01T19:03:16Z",
+    "last_completed_at": "2026-07-02T18:28:44Z",
     "last_selected": [
       "WWW",
-      "NeurIPS"
+      "ACL"
     ],
     "retry_queue": [
       "WWW",

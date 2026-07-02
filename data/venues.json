@@ -347,7 +347,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ACL2022.json",
-          "sha256": "7303278a630c2e5a485715658699d6011da61d4ab30ebcc1f03069e66d08efc7"
+          "sha256": "64eb0b2a9186161dddd708d91ad5057f167225ec6225d37987bfde68b374a531"
         }
       ],
       "processing": {
@@ -385,7 +385,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ACL2023.json",
-          "sha256": "e731a500cd41440335e22f26f63d87bbb31aca529917f253e78c83c3d1275f00"
+          "sha256": "f2cb89215677a6be50314ba9ee380d88b7431be7e31fdb723e02ee6886b8aa40"
         }
       ],
       "processing": {
@@ -423,7 +423,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/ACL2024.json",
-          "sha256": "85ee1663b5a45b7d402c56d4754d234909719a417c44e51d06d743ae5185630b"
+          "sha256": "9d0c396fcf255801b744c6019ba18287f3c80c01588b2cd617ffb04dd83c6675"
         }
       ],
       "processing": {
@@ -465,7 +465,7 @@
         },
         {
           "path": "data/rawdata/2025/ACL2025.json",
-          "sha256": "f0165db7463bb45bf5e63f717639d530ad5106af23612ca26ce05e7fa4c0bcd9"
+          "sha256": "5b9fd5763cce068ea5c70ce28aafb8d3a952f2eaa12908cc9ed30670d2e557a1"
         }
       ],
       "processing": {
@@ -1005,7 +1005,7 @@
       "files": [
         {
           "path": "data/rawdata/arxiv/arXiv-text2sql.json",
-          "sha256": "3a422a8d8edb18024c8907e29ba8b94eff5ec80194af777d3292adb07ad42f58"
+          "sha256": "b956008fd9ee36dc72349eeb51bff384606c4b902410b9f5f73ceaf4eef31957"
         }
       ],
       "processing": {

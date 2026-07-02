@@ -1136,7 +1136,7 @@
   "Feature-Adaptive and Data-Scalable In-Context Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Li0ZJM24",
-    "author": "Jiahao Li 0004 and Quan Wang 0002 and Licheng Zhang and Guoqing Jin and Zhendong Mao 0001",
+    "author": "Jiahao Li 0004 and Quan Wang 0002 and Licheng Zhang 0002 and Guoqing Jin and Zhendong Mao 0001",
     "booktitle": "ACL (1)",
     "title": "Feature-Adaptive and Data-Scalable In-Context Learning.",
     "year": "2024",
@@ -1360,7 +1360,7 @@
   "Generative Pre-trained Speech Language Model with Efficient Hierarchical Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Zhu0HXY24",
-    "author": "Yongxin Zhu 0003 and Dan Su 0002 and Liqiang He and Linli Xu and Dong Yu 0001",
+    "author": "Yongxin Zhu 0003 and Dan Su 0002 and Liqiang He and Linli Xu 0002 and Dong Yu 0001",
     "booktitle": "ACL (1)",
     "title": "Generative Pre-trained Speech Language Model with Efficient Hierarchical Transformer.",
     "year": "2024",
@@ -1934,7 +1934,7 @@
   "HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matthew Effect in Conversational Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhengXCWQQL24",
-    "author": "Yongsen Zheng and Ruilin Xu 0006 and Ziliang Chen 0001 and Guohua Wang 0005 and Mingjie Qian and Jinghui Qin and Liang Lin",
+    "author": "Yongsen Zheng and Ruilin Xu 0006 and Ziliang Chen 0001 and Guohua Wang 0005 and Mingjie Qian and Jinghui Qin and Liang Lin 0004",
     "booktitle": "ACL (1)",
     "title": "HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matthew Effect in Conversational Recommendation.",
     "year": "2024",
@@ -4804,7 +4804,7 @@
   "Unlearning Traces the Influential Training Data of Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/IsonumaT24",
-    "author": "Masaru Isonuma and Ivan Titov",
+    "author": "Masaru Isonuma and Ivan Titov 0001",
     "booktitle": "ACL (1)",
     "title": "Unlearning Traces the Influential Training Data of Language Models.",
     "year": "2024",
@@ -6848,7 +6848,7 @@
   "M³AV: A Multimodal, Multigenre, and Multipurpose Audio-Visual Academic Lecture Dataset.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenLYSLWZWW24",
-    "author": "Zhe Chen 0024 and Heyang Liu and Wenyi Yu and Guangzhi Sun and Hongcheng Liu and Ji Wu and Chao Zhang 0031 and Yu Wang 0027 and Yanfeng Wang 0001",
+    "author": "Zhe Chen 0024 and Heyang Liu and Wenyi Yu and Guangzhi Sun and Hongcheng Liu and Ji Wu 0002 and Chao Zhang 0031 and Yu Wang 0027 and Yanfeng Wang 0001",
     "booktitle": "ACL (1)",
     "title": "M³AV: A Multimodal, Multigenre, and Multipurpose Audio-Visual Academic Lecture Dataset.",
     "year": "2024",
@@ -7240,7 +7240,7 @@
   "Synergistic Interplay between Search and Large Language Models for Information Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/FengTG0XLZJ24",
-    "author": "Jiazhan Feng and Chongyang Tao and Xiubo Geng and Tao Shen 0001 and Can Xu and Guodong Long and Dongyan Zhao 0001 and Daxin Jiang",
+    "author": "Jiazhan Feng and Chongyang Tao and Xiubo Geng and Tao Shen 0001 and Can Xu 0002 and Guodong Long and Dongyan Zhao 0001 and Daxin Jiang",
     "booktitle": "ACL (1)",
     "title": "Synergistic Interplay between Search and Large Language Models for Information Retrieval.",
     "year": "2024",
@@ -8388,7 +8388,7 @@
   "Fundamental Capabilities of Large Language Models and their Applications in Domain Scenarios: A Survey.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiYBZLSLSYWLXBF24",
-    "author": "Jiawei Li 0020 and Yizhe Yang and Yu Bai 0018 and Xiaofeng Zhou and Yinghao Li and Huashan Sun and Yuhang Liu and Xingpeng Si and Yuhao Ye and Yixiao Wu and Yiguan Lin and Bin Xu and Ren Bowen and Chong Feng 0001 and Yang Gao 0016 and Heyan Huang",
+    "author": "Jiawei Li 0020 and Yizhe Yang and Yu Bai 0018 and Xiaofeng Zhou 0004 and Yinghao Li and Huashan Sun and Yuhang Liu and Xingpeng Si and Yuhao Ye and Yixiao Wu and Yiguan Lin and Bin Xu and Ren Bowen and Chong Feng 0001 and Yang Gao 0016 and Heyan Huang",
     "booktitle": "ACL (1)",
     "title": "Fundamental Capabilities of Large Language Models and their Applications in Domain Scenarios: A Survey.",
     "year": "2024",
@@ -9760,7 +9760,7 @@
   "XLAVS-R: Cross-Lingual Audio-Visual Speech Representation Learning for Noise-Robust Speech Perception.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/HanA0HCSW24",
-    "author": "HyoJung Han and Mohamed Anwar and Juan Pino 0001 and Wei-Ning Hsu and Marine Carpuat and Bowen Shi 0002 and Changhan Wang",
+    "author": "HyoJung Han 0001 and Mohamed Anwar and Juan Pino 0001 and Wei-Ning Hsu and Marine Carpuat and Bowen Shi 0002 and Changhan Wang",
     "booktitle": "ACL (1)",
     "title": "XLAVS-R: Cross-Lingual Audio-Visual Speech Representation Learning for Noise-Robust Speech Perception.",
     "year": "2024",
@@ -11216,7 +11216,7 @@
   "Talk With Human-like Agents: Empathetic Dialogue Through Perceptible Acoustic Reception and Reaction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YanZZLCJX24",
-    "author": "Haoqiu Yan and Yongxin Zhu 0003 and Kai Zheng and Bing Liu and Haoyu Cao 0001 and Deqiang Jiang and Linli Xu",
+    "author": "Haoqiu Yan and Yongxin Zhu 0003 and Kai Zheng and Bing Liu and Haoyu Cao 0001 and Deqiang Jiang and Linli Xu 0002",
     "booktitle": "ACL (1)",
     "title": "Talk With Human-like Agents: Empathetic Dialogue Through Perceptible Acoustic Reception and Reaction.",
     "year": "2024",
@@ -11356,7 +11356,7 @@
   "Disentangled Learning with Synthetic Parallel Data for Text Style Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Han0GXZM24",
-    "author": "Jingxuan Han and Quan Wang 0002 and Zikang Guo and Benfeng Xu and Licheng Zhang and Zhendong Mao 0001",
+    "author": "Jingxuan Han and Quan Wang 0002 and Zikang Guo and Benfeng Xu and Licheng Zhang 0002 and Zhendong Mao 0001",
     "booktitle": "ACL (1)",
     "title": "Disentangled Learning with Synthetic Parallel Data for Text Style Transfer.",
     "year": "2024",
@@ -11762,7 +11762,7 @@
   "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/SoldainiKBSAABC24",
-    "author": "Luca Soldaini and Rodney Kinney and Akshita Bhagia and Dustin Schwenk and David Atkinson and Russell Authur and Ben Bogin and Khyathi Raghavi Chandu and Jennifer Dumas and Yanai Elazar and Valentin Hofmann and Ananya Harsh Jha and Sachin Kumar 0009 and Li Lucy and Xinxi Lyu and Nathan Lambert 0001 and Ian Magnusson and Jacob Morrison and Niklas Muennighoff and Aakanksha Naik and Crystal Nam and Matthew E. Peters and Abhilasha Ravichander and Kyle Richardson 0001 and Zejiang Shen 0001 and Emma Strubell and Nishant Subramani and Oyvind Tafjord and Pete Walsh and Luke Zettlemoyer and Noah A. Smith and Hannaneh Hajishirzi and Iz Beltagy and Dirk Groeneveld and Jesse Dodge and Kyle Lo",
+    "author": "Luca Soldaini and Rodney Kinney and Akshita Bhagia and Dustin Schwenk and David Atkinson and Russell Authur and Ben Bogin and Khyathi Raghavi Chandu and Jennifer Dumas and Yanai Elazar and Valentin Hofmann and Ananya Harsh Jha and Sachin Kumar 0009 and Li Lucy and Xinxi Lyu and Nathan Lambert 0001 and Ian Magnusson and Jacob Morrison and Niklas Muennighoff and Aakanksha Naik and Crystal Nam and Matthew E. Peters and Abhilasha Ravichander and Kyle Richardson 0001 and Zejiang Shen 0001 and Emma Strubell and Nishant Subramani and Oyvind Tafjord and Pete Walsh 0001 and Luke Zettlemoyer and Noah A. Smith and Hannaneh Hajishirzi and Iz Beltagy and Dirk Groeneveld and Jesse Dodge and Kyle Lo",
     "booktitle": "ACL (1)",
     "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research.",
     "year": "2024",

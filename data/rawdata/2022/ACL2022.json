@@ -2116,7 +2116,7 @@
   "bert2BERT: Towards Reusable Pretrained Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenYS0QWWCL022",
-    "author": "Cheng Chen and Yichun Yin and Lifeng Shang and Xin Jiang 0002 and Yujia Qin and Fengyu Wang and Zhi Wang and Xiao Chen 0012 and Zhiyuan Liu 0001 and Qun Liu 0001",
+    "author": "Cheng Chen and Yichun Yin and Lifeng Shang and Xin Jiang 0002 and Yujia Qin and Fengyu Wang and Zhi Wang 0001 and Xiao Chen 0012 and Zhiyuan Liu 0001 and Qun Liu 0001",
     "booktitle": "ACL (1)",
     "title": "bert2BERT: Towards Reusable Pretrained Language Models.",
     "year": "2022",
@@ -2858,7 +2858,7 @@
   "Multimodal Dialogue Response Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/SunWXZ0HXZGJ22",
-    "author": "Qingfeng Sun and Yujing Wang and Can Xu and Kai Zheng 0021 and Yaming Yang 0001 and Huang Hu and Fei Xu and Jessica Zhang and Xiubo Geng and Daxin Jiang",
+    "author": "Qingfeng Sun and Yujing Wang and Can Xu 0002 and Kai Zheng 0021 and Yaming Yang 0001 and Huang Hu and Fei Xu and Jessica Zhang and Xiubo Geng and Daxin Jiang",
     "booktitle": "ACL (1)",
     "title": "Multimodal Dialogue Response Generation.",
     "year": "2022",
@@ -4090,7 +4090,7 @@
   "PromDA: Prompt-based Data Augmentation for Low-Resource NLU Tasks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/0003XSHTGJ22",
-    "author": "Yufei Wang 0003 and Can Xu and Qingfeng Sun and Huang Hu and Chongyang Tao and Xiubo Geng and Daxin Jiang",
+    "author": "Yufei Wang 0003 and Can Xu 0002 and Qingfeng Sun and Huang Hu and Chongyang Tao and Xiubo Geng and Daxin Jiang",
     "booktitle": "ACL (1)",
     "title": "PromDA: Prompt-based Data Augmentation for Low-Resource NLU Tasks.",
     "year": "2022",
@@ -4678,7 +4678,7 @@
   "Contextual Fine-to-Coarse Distillation for Coarse-grained Response Selection in Open-Domain Conversations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenGXHYWFHZCJD22",
-    "author": "Wei Chen 0088 and Yeyun Gong and Can Xu and Huang Hu and Bolun Yao and Zhongyu Wei and Zhihao Fan and Xiaowu Hu and Bartuer Zhou and Biao Cheng and Daxin Jiang and Nan Duan 0001",
+    "author": "Wei Chen 0088 and Yeyun Gong and Can Xu 0002 and Huang Hu and Bolun Yao and Zhongyu Wei and Zhihao Fan and Xiaowu Hu and Bartuer Zhou and Biao Cheng and Daxin Jiang and Nan Duan 0001",
     "booktitle": "ACL (1)",
     "title": "Contextual Fine-to-Coarse Distillation for Coarse-grained Response Selection in Open-Domain Conversations.",
     "year": "2022",
@@ -6176,7 +6176,7 @@
   "Learning to Rank Visual Stories From Human Ranking Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/HsuCCLCHK22",
-    "author": "Chi-Yang Hsu and Yun-Wei Chu and Vincent Chen and Kuan-Chieh Lo and Chacha Chen and Ting-Hao (Kenneth) Huang and Lun-Wei Ku",
+    "author": "Chi-Yang Hsu and Yun-Wei Chu and Vincent Chen and Kuan-Chieh Lo and Chacha Chen and Ting-Hao 'Kenneth' Huang and Lun-Wei Ku",
     "booktitle": "ACL (1)",
     "title": "Learning to Rank Visual Stories From Human Ranking Data.",
     "year": "2022",
@@ -6526,7 +6526,7 @@
   "Prompt for Extraction? PAIE: Prompting Argument Interaction for Event Argument Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/MaW0LCWS22",
-    "author": "Yubo Ma and Zehao Wang and Yixin Cao 0002 and Mukai Li and Meiqi Chen 0001 and Kun Wang and Jing Shao",
+    "author": "Yubo Ma and Zehao Wang and Yixin Cao 0002 and Mukai Li and Meiqi Chen 0001 and Kun Wang 0056 and Jing Shao",
     "booktitle": "ACL (1)",
     "title": "Prompt for Extraction? PAIE: Prompting Argument Interaction for Event Argument Extraction.",
     "year": "2022",

@@ -3670,7 +3670,7 @@
   "Hidden Schema Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/SanchezCWCM23",
-    "author": "Ramsés J. Sánchez and Lukas Conrads and Pascal Welke and Kostadin Cvejoski and César Ojeda Marin",
+    "author": "Ramsés J. Sánchez and Lukas Conrads and Pascal Welke and Kostadin Cvejoski and César Ali Ojeda Marin",
     "booktitle": "ACL (1)",
     "title": "Hidden Schema Networks.",
     "year": "2023",
@@ -5658,7 +5658,7 @@
   "MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/FengSX00T0L23",
-    "author": "Jiazhan Feng and Qingfeng Sun and Can Xu and Pu Zhao 0004 and Yaming Yang 0001 and Chongyang Tao and Dongyan Zhao 0001 and Qingwei Lin",
+    "author": "Jiazhan Feng and Qingfeng Sun and Can Xu 0002 and Pu Zhao 0004 and Yaming Yang 0001 and Chongyang Tao and Dongyan Zhao 0001 and Qingwei Lin",
     "booktitle": "ACL (1)",
     "title": "MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation.",
     "year": "2023",
@@ -6134,7 +6134,7 @@
   "Text Style Transfer with Contrastive Transfer Pattern Mining.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/HanWZCSM23",
-    "author": "Jingxuan Han and Quan Wang 0002 and Licheng Zhang and Weidong Chen 0013 and Yan Song 0004 and Zhendong Mao 0001",
+    "author": "Jingxuan Han and Quan Wang 0002 and Licheng Zhang 0002 and Weidong Chen 0013 and Yan Song 0004 and Zhendong Mao 0001",
     "booktitle": "ACL (1)",
     "title": "Text Style Transfer with Contrastive Transfer Pattern Mining.",
     "year": "2023",
@@ -7198,7 +7198,7 @@
   "Span-level Aspect-based Sentiment Analysis via Table Filling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangZLBWSX23",
-    "author": "Mao Zhang 0002 and Yongxin Zhu 0003 and Zhen Liu and Zhimin Bao and Yunfei Wu and Xing Sun 0001 and Linli Xu",
+    "author": "Mao Zhang 0002 and Yongxin Zhu 0003 and Zhen Liu and Zhimin Bao and Yunfei Wu and Xing Sun 0001 and Linli Xu 0002",
     "booktitle": "ACL (1)",
     "title": "Span-level Aspect-based Sentiment Analysis via Table Filling.",
     "year": "2023",
@@ -12028,7 +12028,7 @@
   "Exploring Lottery Prompts for Pre-trained Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenDWH0LX23",
-    "author": "Yulin Chen and Ning Ding 0002 and Xiaobin Wang and Shengding Hu and Haitao Zheng 0002 and Zhiyuan Liu 0001 and Pengjun Xie",
+    "author": "Yulin Chen 0001 and Ning Ding 0002 and Xiaobin Wang and Shengding Hu and Haitao Zheng 0002 and Zhiyuan Liu 0001 and Pengjun Xie",
     "booktitle": "ACL (1)",
     "title": "Exploring Lottery Prompts for Pre-trained Language Models.",
     "year": "2023",
@@ -12448,7 +12448,7 @@
   "Cross-Modal Attribute Insertions for Assessing the Robustness of Vision-and-Language Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/RamshettyVK23",
-    "author": "Shivaen Ramshetty and Gaurav Verma and Srijan Kumar",
+    "author": "Shivaen Ramshetty and Gaurav Verma 0005 and Srijan Kumar",
     "booktitle": "ACL (1)",
     "title": "Cross-Modal Attribute Insertions for Assessing the Robustness of Vision-and-Language Learning.",
     "year": "2023",

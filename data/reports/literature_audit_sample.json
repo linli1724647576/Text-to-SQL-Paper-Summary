@@ -426,7 +426,7 @@
       "notes": ""
     },
     {
-      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+      "title": "TACO: Task-Aware Column Description Generation Using LLMs",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -439,7 +439,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2606.12387v1"
+        "https://arxiv.org/abs/2606.21685v1"
       ],
       "notes": "missing doi"
     },
@@ -462,7 +462,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Tursio Database Search: How far are we from ChatGPT?",
+      "title": "Translating Natural Language Queries to SQL Using the T5 Model",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -470,12 +470,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2603.18835v2"
+        "https://arxiv.org/abs/2312.12414v1"
       ],
       "notes": "missing doi"
     },
@@ -516,7 +516,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "On Repairing Natural Language to SQL Queries",
+      "title": "OmniTQA: A Cost-Aware System for Hybrid Query Processing over Semi-Structured Data",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -524,12 +524,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2310.03866v1"
+        "https://arxiv.org/abs/2604.02444v1"
       ],
       "notes": "missing doi"
     },
@@ -552,7 +552,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning",
+      "title": "ReViSQL: Achieving Human-Level Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "arxiv",
       "verdict": "true_positive_core",
@@ -565,7 +565,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2602.00994v2"
+        "https://arxiv.org/abs/2603.20004v2"
       ],
       "notes": "missing doi"
     },
@@ -740,7 +740,7 @@
       "notes": ""
     },
     {
-      "title": "Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations",
+      "title": "From Textual Columns to Query Plans: A Unified Relational-Semantic Execution Framework for Hybrid Query Processing",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -748,12 +748,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2501.18197v1"
+        "https://arxiv.org/abs/2604.02444v2"
       ],
       "notes": "missing doi"
     }

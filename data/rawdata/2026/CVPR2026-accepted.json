@@ -3079,20 +3079,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-sage-style-adaptive-generalization-for-privacy-constrained-semantic-segmentation",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37782",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Sparsely Timing the Change: A Spiking Temporal Framework for Remote Sensing Interpretation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-sparsely-timing-the-change-a-spiking-temporal-framework-for-remote-sensing-inter",
@@ -3131,20 +3117,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37995",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Rethinking Dataset Distillation: Hard Truths about Soft Labels": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-rethinking-dataset-distillation-hard-truths-about-soft-labels",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Rethinking Dataset Distillation: Hard Truths about Soft Labels",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37146",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -7741,6 +7713,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "FloVerse: Floor Plan-Guided Multi-Modal Navigation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-floverse-floor-plan-guided-multi-modal-navigation",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "FloVerse: Floor Plan-Guided Multi-Modal Navigation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37202",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "Layered 4D-Rotor Gaussian Splatting: A Compressed Representation for Long Dynamic Scenes": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-layered-4d-rotor-gaussian-splatting-a-compressed-representation-for-long-dynamic",
@@ -7779,6 +7765,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38232",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "LitePT: Lighter Yet Stronger Point Transformer": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-litept-lighter-yet-stronger-point-transformer",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "LitePT: Lighter Yet Stronger Point Transformer",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37647",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -7849,6 +7849,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37382",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "MVP: Multiple View Prediction Improves GUI Grounding": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-mvp-multiple-view-prediction-improves-gui-grounding",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "MVP: Multiple View Prediction Improves GUI Grounding",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38560",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -8325,6 +8339,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36494",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Rethinking Dataset Distillation: Hard Truths about Soft Labels": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-rethinking-dataset-distillation-hard-truths-about-soft-labels",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Rethinking Dataset Distillation: Hard Truths about Soft Labels",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37146",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -11101,20 +11129,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "LitePT: Lighter Yet Stronger Point Transformer": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-litept-lighter-yet-stronger-point-transformer",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "LitePT: Lighter Yet Stronger Point Transformer",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37647",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Dynamic-eDiTor: Training-Free Text-Driven 4D Scene Editing with Multimodal Diffusion Transformer": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-dynamic-editor-training-free-text-driven-4d-scene-editing-with-multimodal-diffus",
@@ -11871,6 +11885,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-sage-style-adaptive-generalization-for-privacy-constrained-semantic-segmentation",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37782",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-irisfp-adversarial-example-based-model-fingerprinting-with-enhanced-uniqueness-a",
@@ -11993,6 +12021,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37589",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Ego: Embedding-Guided Personalization of Vision-Language Models": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-ego-embedding-guided-personalization-of-vision-language-models",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Ego: Embedding-Guided Personalization of Vision-Language Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38757",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -14933,20 +14975,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/39329",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "MVP: Multiple View Prediction Improves GUI Grounding": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-mvp-multiple-view-prediction-improves-gui-grounding",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "MVP: Multiple View Prediction Improves GUI Grounding",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38560",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -46227,20 +46255,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "FloVerse: Floor Plan-Guided Multi-Modal Navigation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-floverse-floor-plan-guided-multi-modal-navigation",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "FloVerse: Floor Plan-Guided Multi-Modal Navigation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37202",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Beyond Scanpaths: Graph-Based Gaze Simulation in Dynamic Scenes": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-beyond-scanpaths-graph-based-gaze-simulation-in-dynamic-scenes",
@@ -67391,20 +67405,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38219",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Ego: Embedding-Guided Personalization of Vision-Language Models": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-ego-embedding-guided-personalization-of-vision-language-models",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Ego: Embedding-Guided Personalization of Vision-Language Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38757",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

@@ -1,15 +1,15 @@
 {
   "summary": {
-    "fetched_entries": 4474,
+    "fetched_entries": 2564,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 8
+    "skipped_count": 11
   },
   "failures": [],
   "warnings": [],
   "skipped": [
     {
-      "venue": "ACL",
+      "venue": "CVPR",
       "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -17,8 +17,32 @@
       "reason": "complete"
     },
     {
-      "venue": "ACL",
+      "venue": "CVPR",
       "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2023,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2024,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",

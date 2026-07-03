@@ -2,11 +2,11 @@
   "records": {
     "arxiv:ARXIV:all": {
       "error": "",
-      "last_attempt_at": "2026-07-02T18:27:30Z",
-      "last_success_at": "2026-07-02T18:27:30Z",
+      "last_attempt_at": "2026-07-03T18:14:47Z",
+      "last_success_at": "2026-07-03T18:14:47Z",
       "rawdata_path": "data/rawdata/arxiv/arXiv-text2sql.json",
       "record_count": 492,
-      "sha256": "b956008fd9ee36dc72349eeb51bff384606c4b902410b9f5f73ceaf4eef31957",
+      "sha256": "9c9406e2507b16997da11f5ab838510a474428d6b3d5b0a44ea794f794d7bf87",
       "source": "arxiv",
       "source_type": "arxiv",
       "status": "complete",
@@ -310,11 +310,11 @@
     },
     "dblp-conference:CVPR:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-13T18:09:51Z",
-      "last_success_at": "2026-06-13T18:09:51Z",
+      "last_attempt_at": "2026-07-03T18:14:22Z",
+      "last_success_at": "2026-07-03T18:14:22Z",
       "rawdata_path": "data/rawdata/2022/CVPR2022.json",
       "record_count": 2072,
-      "sha256": "5da7853c616aae87d3c6d481d785f8e04200caeb3bdb8597032f6157d4ae8d2d",
+      "sha256": "f4aac3b6d30f44ade1433bfc892349285d2b196449a806ecc624588cf0ebe6e0",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -1962,11 +1962,11 @@
     },
     "official-accepted:CVPR:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-13T18:10:17Z",
-      "last_success_at": "2026-06-13T18:10:17Z",
+      "last_attempt_at": "2026-07-03T18:14:48Z",
+      "last_success_at": "2026-07-03T18:14:48Z",
       "rawdata_path": "data/rawdata/2026/CVPR2026-accepted.json",
       "record_count": 5022,
-      "sha256": "cc46fd55dcfe7890f77a3cfdf4ddecf0f08afb49fd24a41ffac15c1c5140cdf4",
+      "sha256": "61add182b24ac72a3f909cea992aeb2c296088e889f80494d736793f34aff9fe",
       "source": "official-accepted",
       "source_type": "official-accepted",
       "status": "complete",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-07-02T18:27:31Z",
+      "last_attempt_at": "2026-07-03T18:14:52Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -2536,8 +2536,8 @@
     },
     "official-accepted:WWW:2026": {
       "error": "",
-      "last_attempt_at": "2026-06-25T19:07:34Z",
-      "last_success_at": "2026-06-25T19:07:34Z",
+      "last_attempt_at": "2026-07-03T18:14:52Z",
+      "last_success_at": "2026-07-03T18:14:52Z",
       "rawdata_path": "data/rawdata/2026/WWW2026-accepted.json",
       "record_count": 676,
       "sha256": "c88b49841a3ce5dc6e9b50fe6bb6dce311d096d7131e932073e7d5b218508440",
@@ -2550,7 +2550,7 @@
     }
   },
   "rotation": {
-    "cursor": 3,
+    "cursor": 4,
     "history": [
       {
         "cursor": 2,
@@ -3149,12 +3149,26 @@
           "WWW",
           "ACL"
         ]
+      },
+      {
+        "cursor": 4,
+        "failed": [
+          "WWW"
+        ],
+        "finalized_at": "2026-07-03T18:16:11Z",
+        "succeeded": [
+          "CVPR"
+        ],
+        "venues": [
+          "WWW",
+          "CVPR"
+        ]
       }
     ],
-    "last_completed_at": "2026-07-02T18:28:44Z",
+    "last_completed_at": "2026-07-03T18:16:11Z",
     "last_selected": [
       "WWW",
-      "ACL"
+      "CVPR"
     ],
     "retry_queue": [
       "WWW",

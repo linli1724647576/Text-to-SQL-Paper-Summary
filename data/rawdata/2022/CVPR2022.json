@@ -4958,7 +4958,7 @@
   "StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/SkorokhodovTE22",
-    "author": "Ivan Skorokhodov and Sergey Tulyakov and Mohamed Elhoseiny",
+    "author": "Ivan Skorokhodov and Sergey Tulyakov and Mohamed Elhoseiny 0001",
     "booktitle": "CVPR",
     "title": "StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2.",
     "year": "2022",
@@ -7716,7 +7716,7 @@
   "Dual Adversarial Adaptation for Cross-Device Real-World Image Super-Resolution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/XuWCLMLL22",
-    "author": "Xiaoqian Xu and Pengxu Wei and Weikai Chen 0001 and Yang Liu 0267 and Mingzhi Mao and Liang Lin and Guanbin Li",
+    "author": "Xiaoqian Xu and Pengxu Wei and Weikai Chen 0001 and Yang Liu 0267 and Mingzhi Mao and Liang Lin 0004 and Guanbin Li",
     "booktitle": "CVPR",
     "title": "Dual Adversarial Adaptation for Cross-Device Real-World Image Super-Resolution.",
     "year": "2022",
@@ -12532,7 +12532,7 @@
   "Continual Object Detection via Prototypical Task Correlation Guided Gating Mechanism.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/YangDSLZXZLL22",
-    "author": "Binbin Yang and Xinchi Deng and Han Shi and Changlin Li and Gengwei Zhang and Hang Xu 0004 and Shen Zhao and Liang Lin and Xiaodan Liang",
+    "author": "Binbin Yang and Xinchi Deng and Han Shi and Changlin Li and Gengwei Zhang and Hang Xu 0004 and Shen Zhao and Liang Lin 0004 and Xiaodan Liang",
     "booktitle": "CVPR",
     "title": "Continual Object Detection via Prototypical Task Correlation Guided Gating Mechanism.",
     "year": "2022",
@@ -12868,7 +12868,7 @@
   "Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/YangXYLLH22",
-    "author": "Li Yang and Yan Xu and Chunfeng Yuan and Wei Liu 0153 and Bing Li 0001 and Weiming Hu 0004",
+    "author": "Li Yang 0014 and Yan Xu and Chunfeng Yuan and Wei Liu 0153 and Bing Li 0001 and Weiming Hu 0004",
     "booktitle": "CVPR",
     "title": "Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning.",
     "year": "2022",
@@ -13092,7 +13092,7 @@
   "Semantic-Aware Auto-Encoders for Self-supervised Representation Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangTLT22",
-    "author": "Guangrun Wang and Yansong Tang and Liang Lin and Philip H. S. Torr",
+    "author": "Guangrun Wang and Yansong Tang and Liang Lin 0004 and Philip H. S. Torr",
     "booktitle": "CVPR",
     "title": "Semantic-Aware Auto-Encoders for Self-supervised Representation Learning.",
     "year": "2022",
@@ -14898,7 +14898,7 @@
   "Temporal Feature Alignment and Mutual Information Maximization for Video-Based Human Pose Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiuFC0GGW22",
-    "author": "Zhenguang Liu and Runyang Feng and Haoming Chen and Shuang Wu 0002 and Yixing Gao and Yunjun Gao and Xiang Wang 0010",
+    "author": "Zhenguang Liu and Runyang Feng and Haoming Chen and Shuang Wu 0002 and Yixing Gao 0001 and Yunjun Gao and Xiang Wang 0010",
     "booktitle": "CVPR",
     "title": "Temporal Feature Alignment and Mutual Information Maximization for Video-Based Human Pose Estimation.",
     "year": "2022",
@@ -22682,7 +22682,7 @@
   "Partial Class Activation Attention for Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiuXX0022",
-    "author": "Sun'ao Liu and Hongtao Xie and Hai Xu and Yongdong Zhang 0001 and Qi Tian 0001",
+    "author": "Sun'ao Liu and Hongtao Xie 0001 and Hai Xu and Yongdong Zhang 0001 and Qi Tian 0001",
     "booktitle": "CVPR",
     "title": "Partial Class Activation Attention for Semantic Segmentation.",
     "year": "2022",
@@ -23172,7 +23172,7 @@
   "A Versatile Multi-View Framework for LiDAR-based 3D Object Detection with Guidance from Panoptic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/FazlaliXRL22",
-    "author": "Hamidreza Fazlali and Yixuan Xu and Yuan Ren and Bingbing Liu",
+    "author": "Hamidreza Fazlali and Yixuan Xu 0004 and Yuan Ren and Bingbing Liu",
     "booktitle": "CVPR",
     "title": "A Versatile Multi-View Framework for LiDAR-based 3D Object Detection with Guidance from Panoptic Segmentation.",
     "year": "2022",
@@ -23970,7 +23970,7 @@
   "EvUnroll: Neuromorphic Events based Rolling Shutter Image Correction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhouD0S22",
-    "author": "Xinyu Zhou and Peiqi Duan and Yi Ma 0001 and Boxin Shi",
+    "author": "Xinyu Zhou and Peiqi Duan 0002 and Yi Ma 0001 and Boxin Shi",
     "booktitle": "CVPR",
     "title": "EvUnroll: Neuromorphic Events based Rolling Shutter Image Correction.",
     "year": "2022",
@@ -24320,7 +24320,7 @@
   "VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ChenGY0E22",
-    "author": "Jun Chen 0021 and Han Guo and Kai Yi and Boyang Li 0001 and Mohamed Elhoseiny",
+    "author": "Jun Chen 0021 and Han Guo and Kai Yi and Boyang Li 0001 and Mohamed Elhoseiny 0001",
     "booktitle": "CVPR",
     "title": "VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning.",
     "year": "2022",
@@ -26280,7 +26280,7 @@
   "RelTransformer: A Transformer-Based Long-Tail Visual Relationship Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ChenAAZE22",
-    "author": "Jun Chen 0021 and Aniket Agarwal and Sherif Abdelkarim and Deyao Zhu and Mohamed Elhoseiny",
+    "author": "Jun Chen 0021 and Aniket Agarwal and Sherif Abdelkarim and Deyao Zhu and Mohamed Elhoseiny 0001",
     "booktitle": "CVPR",
     "title": "RelTransformer: A Transformer-Based Long-Tail Visual Relationship Recognition.",
     "year": "2022",
@@ -28520,7 +28520,7 @@
   "Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/TaoLWWDJZLL22",
-    "author": "Renshuai Tao and Hainan Li and Tianbo Wang and Yanlu Wei and Yifu Ding and Bowei Jin and Hongping Zhi and Xianglong Liu 0001 and Aishan Liu",
+    "author": "Renshuai Tao and Hainan Li and Tianbo Wang and Yanlu Wei and Yifu Ding 0001 and Bowei Jin and Hongping Zhi and Xianglong Liu 0001 and Aishan Liu",
     "booktitle": "CVPR",
     "title": "Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network.",
     "year": "2022",
@@ -28618,7 +28618,7 @@
   "It is Okay to Not Be Okay: Overcoming Emotional Bias in Affective Image Captioning by Contrastive Data Collection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/MohamedKHE22",
-    "author": "Youssef Mohamed and Faizan Farooq Khan and Kilichbek Haydarov and Mohamed Elhoseiny",
+    "author": "Youssef Mohamed and Faizan Farooq Khan and Kilichbek Haydarov and Mohamed Elhoseiny 0001",
     "booktitle": "CVPR",
     "title": "It is Okay to Not Be Okay: Overcoming Emotional Bias in Affective Image Captioning by Contrastive Data Collection.",
     "year": "2022",

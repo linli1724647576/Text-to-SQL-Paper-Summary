@@ -7755,6 +7755,37 @@
       "application_related"
     ]
   },
+  "From Textual Columns to Query Plans: A Unified Relational-Semantic Execution Framework for Hybrid Query Processing": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2604.02444v2",
+    "author": "Nima Shahbazi and Seiji Maekawa and Nikita Bhutani and Estevam Hruschka",
+    "booktitle": "arXiv",
+    "title": "From Textual Columns to Query Plans: A Unified Relational-Semantic Execution Framework for Hybrid Query Processing",
+    "year": "2026",
+    "abstract": "Real-world table question answering often involves hybrid schemas in which some query-relevant information is explicit in relational columns, while other attributes, predicates, or join conditions are only implicit in free-form text. Existing systems struggle with this setting: Text-to-SQL methods scale to large and multi-table databases but require fully structured schemas, whereas direct LLM-based methods can interpret textual content but are costly and unreliable when applied to large databases. We present OmniTQA, a unified framework for semi-structured table question answering that treats semantic reasoning as a first-class operation within relational query execution. OmniTQA compiles natural-language questions into directed acyclic graphs of relational and LLM-based semantic operators. This enables ambiguity-aware plan diversification, cost-aware optimization, and dual-engine execution over structured and textual data. Across structured and semi-structured benchmarks, OmniTQA consistently improves performance in hybrid settings, outperforming the strongest baselines by 14 accuracy points on average and by 27 points on the most challenging subset, while maintaining competitive accuracy on fully structured datasets.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2604.02444v2",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2501.18197v1",
@@ -9801,6 +9832,8 @@
       "Chain-of-Thought Reasoning",
       "Planning and Generation",
       "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Verification and Guardrails",
       "Benchmarks and Evaluation",
       "Benchmark"
     ],
@@ -9811,7 +9844,8 @@
       "Step-by-step Reasoning",
       "SQL Generation",
       "Prompt-based Generation",
-      "Fine-tuned Generation"
+      "Fine-tuned Generation",
+      "Verification & Repair"
     ],
     "relevance_level": "core"
   },
@@ -19442,6 +19476,44 @@
       "Context Retrieval",
       "SQL Generation",
       "Prompt-based Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
+  "pykci: A Compact Urban Knowledge Graph for Semantic and Spatial Queries using LLMs": {
+    "type": "ARTICLE",
+    "key": "http://arxiv.org/abs/2607.01605v1",
+    "author": "Huynh Duc An Son Nguyen and Lukas Arzoumanidis and Youness Dehbi",
+    "booktitle": "arXiv",
+    "title": "pykci: A Compact Urban Knowledge Graph for Semantic and Spatial Queries using LLMs",
+    "year": "2026",
+    "abstract": "CityGML, the OGC standard for modeling, storage, and exchange of semantic 3D city models, describes urban objects with detailed semantics, geometry, and topology. Yet this richness is difficult to query directly: CityGML's XML encoding is designed for exchange rather than analysis, and relational mappings expose it through schemas requiring expert knowledge. We present pykci (Python Knowledge Graph for Cities), an open-source system that transforms CityGML 2.0 datasets into a compact urban knowledge graph in Neo4j and makes it queryable in natural language. The graph schema covers all thematic feature modules of CityGML 2.0 across all levels of detail and is spatially indexed with an R-tree for efficient geometric retrieval. A complete end-to-end Python pipeline ingests CityGML datasets into the knowledge graph, exports them to OGC 3D Tiles for interactive visualization, and supports lossless round-trip export of all content back to CityGML. For querying, the graph is paired with a large language model through a model-agnostic text-to-Cypher mechanism: the graph schema is supplied as context, and the model translates natural-language questions into Cypher queries executed against the graph. We evaluate both a locally running open-weight model, which keeps sensitive city data on-premise, and a state-of-the-art commercial model for the most demanding spatial and semantic queries. Answers are grounded in exact city data rather than the model's parametric memory, reducing hallucination and providing auditable provenance for every response. We demonstrate the system on open-government CityGML LoD2 datasets from Hamburg, Germany, including complex semantic and spatial queries such as identifying roof surfaces suitable for greening. pykci enables urban planners, GIS practitioners, and citizens to interact with semantic 3D city models without expertise in query languages and database schemas.",
+    "keywords": "arxiv text-to-sql nl2sql natural language sql database semantic parsing",
+    "url": "https://arxiv.org/abs/2607.01605v1",
+    "doi": "",
+    "venue": "ArXiv",
+    "venue_track": "ArXiv",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Knowledge Graph / External Knowledge",
+      "Agentic Feedback and Repair",
+      "Human Feedback",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
     ],
     "relevance_level": "application",
     "quality_flags": [

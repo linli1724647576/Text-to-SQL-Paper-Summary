@@ -1,7 +1,7 @@
 {
   "batch_size": 2,
-  "cursor_after": 4,
-  "cursor_before": 3,
+  "cursor_after": 6,
+  "cursor_before": 4,
   "from_year": 2020,
   "manifest": [
     "AAAI",
@@ -28,18 +28,18 @@
     "TOSEM"
   ],
   "new_venues": [
-    "CVPR"
+    "ICML"
   ],
   "retry_venues": [
     "WWW"
   ],
-  "selected_at": "2026-07-03T18:14:10Z",
+  "selected_at": "2026-07-04T18:03:16Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
     "WWW",
-    "CVPR"
+    "ICML"
   ],
-  "venues_csv": "WWW,CVPR",
+  "venues_csv": "WWW,ICML",
   "version": 1
 }

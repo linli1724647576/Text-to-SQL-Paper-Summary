@@ -1,15 +1,15 @@
 {
   "summary": {
-    "fetched_entries": 2564,
+    "fetched_entries": 492,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 11
+    "skipped_count": 12
   },
   "failures": [],
   "warnings": [],
   "skipped": [
     {
-      "venue": "CVPR",
+      "venue": "ICML",
       "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -17,7 +17,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "ICML",
       "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -25,7 +25,15 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "ICML",
+      "year": 2022,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
       "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -33,7 +41,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "ICML",
       "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -41,7 +49,7 @@
       "reason": "complete"
     },
     {
-      "venue": "CVPR",
+      "venue": "ICML",
       "year": 2025,
       "track": "AI",
       "source_type": "dblp-conference",

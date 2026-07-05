@@ -24,7 +24,12 @@ class UpdateReadmeSnapshotTest(unittest.TestCase):
             (root / "data" / "rawdata" / ".gitkeep").write_text("", encoding="utf-8")
 
             (labeldata / "labeldata.json").write_text(
-                json.dumps({"Paper A": {}, "Paper B": {}}),
+                json.dumps(
+                    {
+                        "Paper A": {"year": "2025", "booktitle": "SIGMOD"},
+                        "Paper B": {"year": "2026", "venue": "ArXiv", "url": "https://arxiv.org/abs/1234.5678"},
+                    }
+                ),
                 encoding="utf-8",
             )
             (raw_2026 / "ACL2026.json").write_text(json.dumps({"A": {}}), encoding="utf-8")
@@ -43,8 +48,10 @@ class UpdateReadmeSnapshotTest(unittest.TestCase):
         self.assertEqual(counts.rawdata_files, 3)
         self.assertEqual(counts.official_source_files, 2)
         self.assertEqual(counts.official_candidates, 3)
+        self.assertEqual(counts.year_counts, {"2025": 1, "2026": 1})
+        self.assertEqual(counts.venue_counts, {"ArXiv": 1, "SIGMOD": 1})
 
-    def test_update_readme_snapshot_rewrites_only_snapshot_block(self):
+    def test_update_readme_snapshot_rewrites_snapshot_and_count_tables(self):
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
             readme = root / "README.md"
@@ -56,6 +63,16 @@ class UpdateReadmeSnapshotTest(unittest.TestCase):
                 "- **3** official accepted/proceedings source files\n"
                 "- **4** official accepted candidates before relevance filtering\n"
                 "- Website: <https://example.test/>\n\n"
+                "## Paper Counts\n\n"
+                "### Counts by Year\n\n"
+                "| Year | Papers |\n"
+                "| --- | ---: |\n"
+                "| 2024 | 99 |\n"
+                "| **Total** | **99** |\n\n\n"
+                "### Counts by Venue\n\n"
+                "| Venue | Papers |\n"
+                "| --- | ---: |\n"
+                "| Old | 99 |\n\n"
                 "## Next\n",
                 encoding="utf-8",
             )
@@ -66,13 +83,22 @@ class UpdateReadmeSnapshotTest(unittest.TestCase):
                 rawdata_files=56,
                 official_source_files=7,
                 official_candidates=89012,
+                year_counts={"2025": 2, "2026": 3},
+                venue_counts={"ArXiv": 3, "SIGMOD": 2},
             )
 
+            contents = readme.read_text(encoding="utf-8")
             self.assertTrue(changed)
-            self.assertIn("- **1,234** classified Text-to-SQL papers", readme.read_text(encoding="utf-8"))
-            self.assertIn("- **89,012** official accepted candidates before relevance filtering", readme.read_text(encoding="utf-8"))
-            self.assertIn("- Website: <https://example.test/>", readme.read_text(encoding="utf-8"))
-            self.assertIn("## Next\n", readme.read_text(encoding="utf-8"))
+            self.assertIn("- **1,234** classified Text-to-SQL papers", contents)
+            self.assertIn("- **89,012** official accepted candidates before relevance filtering", contents)
+            self.assertIn("- Website: <https://example.test/>", contents)
+            self.assertIn("| 2025 | 2 |", contents)
+            self.assertIn("| 2026 | 3 |", contents)
+            self.assertIn("| **Total** | **5** |", contents)
+            self.assertIn("| ArXiv | 3 |", contents)
+            self.assertIn("| SIGMOD | 2 |", contents)
+            self.assertNotIn("| Old | 99 |", contents)
+            self.assertIn("## Next\n", contents)
 
     def test_format_count_adds_thousands_separators(self):
         self.assertEqual(format_count(44130), "44,130")

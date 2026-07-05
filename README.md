@@ -47,40 +47,42 @@ The browser supports:
 
 | Year | Papers |
 | --- | ---: |
-| 2020 | 26 |
-| 2021 | 22 |
-| 2022 | 22 |
-| 2023 | 43 |
-| 2024 | 46 |
-| 2025 | 185 |
-| 2026 | 119 |
-| **Total** | **463** |
+| 2020 | 25 |
+| 2021 | 21 |
+| 2022 | 20 |
+| 2023 | 51 |
+| 2024 | 47 |
+| 2025 | 190 |
+| 2026 | 232 |
+| **Total** | **586** |
 
 
 ### Counts by Venue
 
 | Venue | Papers |
 | --- | ---: |
-| ArXiv | 295 |
-| SIGMOD | 35 |
-| ACL | 28 |
-| AAAI | 27 |
-| ICDE | 19 |
-| VLDB | 18 |
+| ArXiv | 375 |
+| SIGMOD | 36 |
+| AAAI | 35 |
+| ACL | 32 |
+| ICDE | 26 |
+| VLDB | 19 |
+| NeurIPS | 11 |
+| ICML | 9 |
 | KDD | 8 |
-| TKDE | 5 |
+| TKDE | 7 |
 | SIGIR | 5 |
-| NeurIPS | 5 |
+| VLDBJ | 5 |
 | CVPR | 3 |
 | IJCAI | 3 |
-| ICML | 2 |
+| TOSEM | 3 |
 | ASE | 2 |
-| TOSEM | 2 |
 | WWW | 2 |
+| FSE | 1 |
+| ICCV | 1 |
 | ICSE | 1 |
 | ISSTA | 1 |
 | TSE | 1 |
-| ICCV | 1 |
 
 ## Official Accepted Sources
 

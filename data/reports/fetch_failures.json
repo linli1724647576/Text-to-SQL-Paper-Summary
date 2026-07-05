@@ -1,15 +1,23 @@
 {
   "summary": {
-    "fetched_entries": 492,
+    "fetched_entries": 3762,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 12
+    "skipped_count": 19
   },
   "failures": [],
   "warnings": [],
   "skipped": [
     {
-      "venue": "ICML",
+      "venue": "ACL",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "CVPR",
       "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
@@ -18,40 +26,48 @@
     },
     {
       "venue": "ICML",
-      "year": 2021,
+      "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ICML",
-      "year": 2022,
+      "venue": "IJCAI",
+      "year": 2020,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ICML",
-      "year": 2023,
-      "track": "AI",
+      "venue": "SIGMOD",
+      "year": 2020,
+      "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ICML",
-      "year": 2024,
-      "track": "AI",
+      "venue": "VLDB",
+      "year": 2020,
+      "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "ICML",
-      "year": 2025,
-      "track": "AI",
+      "venue": "ICDE",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "KDD",
+      "year": 2020,
+      "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
@@ -65,42 +81,82 @@
       "reason": "complete"
     },
     {
-      "venue": "WWW",
-      "year": 2021,
+      "venue": "SIGIR",
+      "year": 2020,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "WWW",
-      "year": 2022,
-      "track": "DB",
+      "venue": "ICSE",
+      "year": 2020,
+      "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "WWW",
-      "year": 2023,
-      "track": "DB",
+      "venue": "FSE",
+      "year": 2020,
+      "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "WWW",
-      "year": 2024,
-      "track": "DB",
+      "venue": "ASE",
+      "year": 2020,
+      "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "WWW",
-      "year": 2025,
-      "track": "DB",
+      "venue": "ISSTA",
+      "year": 2020,
+      "track": "SE",
       "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "AIJ",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "TKDE",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "VLDBJ",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "TSE",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "TOSEM",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "journal",
       "status": "skipped",
       "reason": "complete"
     }

@@ -1,14 +1,16 @@
 {
-  "batch_size": 2,
-  "cursor_after": 6,
-  "cursor_before": 4,
+  "cursor_after": 1,
+  "cursor_before": 0,
   "from_year": 2020,
-  "manifest": [
+  "mode": "year",
+  "selected_at": "2026-07-05T18:05:49Z",
+  "to_year": 2026,
+  "tracks": "AI,DB,SE",
+  "venues": [
     "AAAI",
     "NeurIPS",
     "ACL",
     "CVPR",
-    "ICCV",
     "ICML",
     "IJCAI",
     "SIGMOD",
@@ -27,19 +29,7 @@
     "TSE",
     "TOSEM"
   ],
-  "new_venues": [
-    "ICML"
-  ],
-  "retry_venues": [
-    "WWW"
-  ],
-  "selected_at": "2026-07-04T18:03:16Z",
-  "to_year": 2026,
-  "tracks": "AI,DB,SE",
-  "venues": [
-    "WWW",
-    "ICML"
-  ],
-  "venues_csv": "WWW,ICML",
-  "version": 1
+  "venues_csv": "AAAI,NeurIPS,ACL,CVPR,ICML,IJCAI,SIGMOD,VLDB,ICDE,KDD,WWW,SIGIR,ICSE,FSE,ASE,ISSTA,AIJ,TKDE,VLDBJ,TSE,TOSEM",
+  "version": 1,
+  "year": 2020
 }

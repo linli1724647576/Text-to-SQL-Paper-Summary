@@ -926,7 +926,7 @@
   "Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/BianXXZHRH20",
-    "author": "Tian Bian and Xi Xiao and Tingyang Xu and Peilin Zhao and Wenbing Huang 0001 and Yu Rong 0001 and Junzhou Huang",
+    "author": "Tian Bian and Xi Xiao 0001 and Tingyang Xu and Peilin Zhao and Wenbing Huang 0001 and Yu Rong 0001 and Junzhou Huang",
     "booktitle": "AAAI",
     "title": "Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks.",
     "year": "2020",
@@ -4351,7 +4351,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i03.5638",
     "doi": "10.1609/aaai.v34i03.5638",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2996920854"
   },
   "BAR - A Reinforcement Learning Agent for Bounding-Box Automated Refinement.": {
     "type": "INPROCEEDINGS",
@@ -4659,7 +4660,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i03.5660",
     "doi": "10.1609/aaai.v34i03.5660",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998567087"
   },
   "Revisiting the Foundations of Abstract Argumentation - Semantics Based on Weak Admissibility and Weak Defense.": {
     "type": "INPROCEEDINGS",
@@ -4967,7 +4969,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i03.5682",
     "doi": "10.1609/aaai.v34i03.5682",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997262791"
   },
   "Resilient Logic Programs: Answer Set Programs Challenged by Ontologies.": {
     "type": "INPROCEEDINGS",
@@ -5046,12 +5049,13 @@
     "booktitle": "AAAI",
     "title": "Learning Query Inseparable εℒℋ Ontologies.",
     "year": "2020",
-    "abstract": "We investigate the complexity of learning query inseparable eℒℋ ontologies in a variant of Angluin's exact learning model. Given a fixed data instance A* and a query language 𝒬, we are interested in computing an ontology ℋ that entails the same queries as a target ontology 𝒯 on A*, that is, ℋ and 𝒯 are inseparable w.r.t. A* and 𝒬. The learner is allowed to pose two kinds of questions. The first is ‘Does (𝒯,A)⊨ q?’, with A an arbitrary data instance and q and query in 𝒬. An oracle replies this question with ‘yes’ or ‘no’. In the second, the learner asks ‘Are ℋ and 𝒯 inseparable w.r.t. A* and 𝒬?’. If so, the learning process finishes, otherwise, the learner receives (A*,q) with q ∈ 𝒬, (𝒯,A*) |= q and (ℋ,A*) ⊭ q (or vice-versa). Then, we analyse conditions in which query inseparability is preserved if A* changes. Finally, we consider the PAC learning model and a setting where the algorithms learn from a batch of classified data, limiting interactions with the oracles.",
+    "abstract": "We investigate the complexity of learning query inseparable εℒℋ ontologies in a variant of Angluin's exact learning model. Given a fixed data instance A* and a query language",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i03.5688",
     "doi": "10.1609/aaai.v34i03.5688",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998563031"
   },
   "Graph Representations for Higher-Order Logic and Theorem Proving.": {
     "type": "INPROCEEDINGS",
@@ -5149,7 +5153,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i03.5695",
     "doi": "10.1609/aaai.v34i03.5695",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998295907"
   },
   "COTSAE: CO-Training of Structure and Attribute Embeddings for Entity Alignment.": {
     "type": "INPROCEEDINGS",
@@ -5200,7 +5205,7 @@
     "booktitle": "AAAI",
     "title": "Towards Universal Languages for Tractable Ontology Mediated Query Answering.",
     "year": "2020",
-    "abstract": "An ontology language for ontology mediated query answering (OMQA-language) is universal for a family of OMQA-languages if it is the most expressive one among this family. In this paper, we focus on three families of tractable OMQA-languages, including first-order rewritable languages and languages whose data complexity of the query answering is in AC0 or PTIME. On the negative side, we prove that there is, in general, no universal language for each of these families of languages. On the positive side, we propose a novel property, the locality, to approximate the first-order rewritability, and show that there exists a language of disjunctive embedded dependencies that is universal for the family of OMQA-languages with locality. All of these results apply to OMQA with query languages such as conjunctive queries, unions of conjunctive queries and acyclic conjunctive queries.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i03.5699",
     "doi": "10.1609/aaai.v34i03.5699",
@@ -5261,7 +5266,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i03.5703",
     "doi": "10.1609/aaai.v34i03.5703",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997948069"
   },
   "LTLƒ Synthesis with Fairness and Stability Assumptions.": {
     "type": "INPROCEEDINGS",
@@ -5692,10 +5698,11 @@
     "year": "2020",
     "abstract": "Many machine learning tasks such as clustering, classification, and dataset search benefit from embedding data points in a space where distances reflect notions of relative similarity as perceived by humans. A common way to construct such an embedding is to request triplet similarity queries to an oracle, comparing two objects with respect to a reference. This work generalizes triplet queries to tuple queries of arbitrary size that ask an oracle to rank multiple objects against a reference, and introduces an efficient and robust adaptive selection method called InfoTuple that uses a novel approach to mutual information maximization. We show that the performance of InfoTuple at various tuple sizes exceeds that of the state-of-the-art adaptive triplet selection method on synthetic tests and new human response datasets, and empirically demonstrate the significant gains in efficiency and query consistency achieved by querying larger tuples instead of triplets.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v34i04.5734",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/5734",
     "doi": "10.1609/aaai.v34i04.5734",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997677713"
   },
   "Fatigue-Aware Bandits for Dependent Click Models.": {
     "type": "INPROCEEDINGS",
@@ -7109,7 +7116,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i04.5836",
     "doi": "10.1609/aaai.v34i04.5836",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997820050"
   },
   "Towards Interpretation of Pairwise Learning.": {
     "type": "INPROCEEDINGS",
@@ -8868,12 +8876,13 @@
     "booktitle": "AAAI",
     "title": "Differentiable Reasoning on Large Knowledge Bases and Natural Language.",
     "year": "2020",
-    "abstract": "Reasoning with knowledge expressed in natural language and Knowledge Bases (KBs) is a major challenge for Artificial Intelligence, with applications in machine reading, dialogue, and question answering. General neural architectures that jointly learn representations and transformations of text are very data-inefficient, and it is hard to analyse their reasoning process. These issues are addressed by end-to-end differentiable reasoning systems such as Neural Theorem Provers (NTPs), although they can only be used with small-scale symbolic KBs. In this paper we first propose Greedy NTPs (GNTPs), an extension to NTPs addressing their complexity and scalability limitations, thus making them applicable to real-world datasets. This result is achieved by dynamically constructing the computation graph of NTPs and including only the most promising proof paths during inference, thus obtaining orders of magnitude more efficient models. Then, we propose a novel approach for jointly reasoning over KBs and textual mentions, by embedding logic facts and natural language sentences in a shared embedding space. We show that GNTPs perform on par with NTPs at a fraction of their cost while achieving competitive link prediction results on large datasets, providing explanations for predictions, and inducing interpretable models. Source code, datasets, and supplementary material are available online at this https URL.",
+    "abstract": "Reasoning with knowledge expressed in natural language and Knowledge Bases (KBs) is a major challenge for Artificial Intelligence, with applications in machine reading, dialogue, and question answering. General neural architectures that jointly learn representations and transformations of text are very data-inefficient, and it is hard to analyse their reasoning process. These issues are addressed by end-to-end differentiable reasoning systems such as Neural Theorem Provers (NTPs), although they can only be used with small-scale symbolic KBs. In this paper we first propose Greedy NTPs (GNTPs), an extension to NTPs addressing their complexity and scalability limitations, thus making them applicable to real-world datasets. This result is achieved by dynamically constructing the computation graph of NTPs and including only the most promising proof paths during inference, thus obtaining orders of magnitude more efficient models 1. Then, we propose a novel approach for jointly reasoning over KBs and textual mentions, by embedding logic facts and natural language sentences in a shared embedding space. We show that GNTPs perform on par with NTPs at a fraction of their cost while achieving competitive link prediction results on large datasets, providing explanations for predictions, and inducing interpretable models.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i04.5962",
     "doi": "10.1609/aaai.v34i04.5962",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997359684"
   },
   "Improved Knowledge Distillation via Teacher Assistant.": {
     "type": "INPROCEEDINGS",
@@ -11267,7 +11276,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i04.6133",
     "doi": "10.1609/aaai.v34i04.6133",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998186405"
   },
   "Towards Accurate Low Bit-Width Quantization with Multiple Phase Adaptations.": {
     "type": "INPROCEEDINGS",
@@ -11827,7 +11837,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i04.6173",
     "doi": "10.1609/aaai.v34i04.6173",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998347911"
   },
   "Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers.": {
     "type": "INPROCEEDINGS",
@@ -12723,7 +12734,9 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6239",
     "doi": "10.1609/aaai.v34i05.6239",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2989588035",
+    "arxiv_id": "1911.11641"
   },
   "Back to the Future - Temporal Adaptation of Text Representations.": {
     "type": "INPROCEEDINGS",
@@ -12816,12 +12829,13 @@
     "booktitle": "AAAI",
     "title": "Zero-Shot Text-to-SQL Learning with Auxiliary Task.",
     "year": "2020",
-    "abstract": "Recent years have seen great success in the use of neural seq2seq models on the text-to-SQL task. However, little work has paid attention to how these models generalize to realistic unseen data, which naturally raises a question: does this impressive performance signify a perfect generalization model, or are there still some limitations? In this paper, we first diagnose the bottleneck of text-to-SQL task by providing a new testbed, in which we observe that existing models present poor generalization ability on rarely-seen data. The above analysis encourages us to design a simple but effective auxiliary task, which serves as a supportive model as well as a regularization term to the generation task to increase the models generalization. Experimentally, We evaluate our models on a large text-to-SQL dataset WikiSQL. Compared to a strong baseline coarse-to-fine model, our models improve over the baseline by more than 3% absolute in accuracy on the whole dataset. More interestingly, on a zero-shot subset test of WikiSQL, our models achieve 5% absolute accuracy gain over the baseline, clearly demonstrating its superior generalizability.",
+    "abstract": "Recent years have seen great success in the use of neural seq2seq models on the text-to-SQL task. However, little work has paid attention to how these models generalize to realistic unseen data, which naturally raises a question: does this impressive performance signify a perfect generalization model, or are there still some limitations?In this paper, we first diagnose the bottleneck of the text-to-SQL task by providing a new testbed, in which we observe that existing models present poor generalization ability on rarely-seen data. The above analysis encourages us to design a simple but effective auxiliary task, which serves as a supportive model as well as a regularization term to the generation task to increase the models' generalization. Experimentally, We evaluate our models on a large text-to-SQL dataset WikiSQL. Compared to a strong baseline coarse-to-fine model, our models improve over the baseline by more than 3% absolute in accuracy on the whole dataset. More interestingly, on a zero-shot subset test of WikiSQL, our models achieve 5% absolute accuracy gain over the baseline, clearly demonstrating its superior generalizability.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i05.6246",
     "doi": "10.1609/aaai.v34i05.6246",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997970380"
   },
   "Hyperbolic Interaction Model for Hierarchical Multi-Label Classification.": {
     "type": "INPROCEEDINGS",
@@ -12877,7 +12891,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6250",
     "doi": "10.1609/aaai.v34i05.6250",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998228050"
   },
   "Improving Entity Linking by Modeling Latent Entity Type Information.": {
     "type": "INPROCEEDINGS",
@@ -12919,7 +12934,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6253",
     "doi": "10.1609/aaai.v34i05.6253",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997730159"
   },
   "Attending to Entities for Better Text Understanding.": {
     "type": "INPROCEEDINGS",
@@ -12956,12 +12972,13 @@
     "booktitle": "AAAI",
     "title": "Cross-Lingual Natural Language Generation via Pre-Training.",
     "year": "2020",
-    "abstract": "In this work we focus on transferring supervision signals of natural language generation (NLG) tasks between multiple languages. We propose to pretrain the encoder and the decoder of a sequence-to-sequence model under both monolingual and cross-lingual settings. The pre-training objective encourages the model to represent different languages in the shared space, so that we can conduct zero-shot cross-lingual transfer. After the pre-training procedure, we use monolingual data to fine-tune the pre-trained model on downstream NLG tasks. Then the sequence-to-sequence model trained in a single language can be directly evaluated beyond that language (i.e., accepting multi-lingual input and producing multi-lingual output). Experimental results on question generation and abstractive summarization show that our model outperforms the machine-translation-based pipeline methods for zero-shot cross-lingual generation. Moreover, cross-lingual transfer improves NLG performance of low-resource languages by leveraging rich-resource language data. Our implementation and data are available at this https URL.",
+    "abstract": "In this work we focus on transferring supervision signals of natural language generation (NLG) tasks between multiple languages. We propose to pretrain the encoder and the decoder of a sequence-to-sequence model under both monolingual and cross-lingual settings. The pre-training objective encourages the model to represent different languages in the shared space, so that we can conduct zero-shot cross-lingual transfer. After the pre-training procedure, we use monolingual data to fine-tune the pre-trained model on downstream NLG tasks. Then the sequence-to-sequence model trained in a single language can be directly evaluated beyond that language (i.e., accepting multi-lingual input and producing multi-lingual output). Experimental results on question generation and abstractive summarization show that our model outperforms the machine-translation-based pipeline methods for zero-shot cross-lingual generation. Moreover, cross-lingual transfer improves NLG performance of low-resource languages by leveraging rich-resource language data. Our implementation and data are available at https://github.com/CZWin32768/xnlg.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i05.6256",
     "doi": "10.1609/aaai.v34i05.6256",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998653236"
   },
   "An Empirical Study of Content Understanding in Conversational Question Answering.": {
     "type": "INPROCEEDINGS",
@@ -13731,7 +13748,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6311",
     "doi": "10.1609/aaai.v34i05.6311",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2996851481"
   },
   "SemSUM: Semantic Dependency Guided Neural Abstractive Summarization.": {
     "type": "INPROCEEDINGS",
@@ -14571,7 +14589,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6371",
     "doi": "10.1609/aaai.v34i05.6371",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998107946"
   },
   "TRENDNERT: A Benchmark for Trend and Downtrend Detection in a Scientific Domain.": {
     "type": "INPROCEEDINGS",
@@ -14627,7 +14646,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6375",
     "doi": "10.1609/aaai.v34i05.6375",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998180104"
   },
   "Message Passing Attention Networks for Document Understanding.": {
     "type": "INPROCEEDINGS",
@@ -14725,7 +14745,9 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6382",
     "doi": "10.1609/aaai.v34i05.6382",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2996341334",
+    "arxiv_id": "1912.06728"
   },
   "Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis.": {
     "type": "INPROCEEDINGS",
@@ -14795,7 +14817,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6387",
     "doi": "10.1609/aaai.v34i05.6387",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997987171"
   },
   "Solving Sequential Text Classification as Board-Game Playing.": {
     "type": "INPROCEEDINGS",
@@ -14893,7 +14916,9 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6394",
     "doi": "10.1609/aaai.v34i05.6394",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2973004186",
+    "arxiv_id": "1909.05855"
   },
   "Thinking Globally, Acting Locally: Distantly Supervised Global-to-Local Knowledge Selection for Background Based Conversation.": {
     "type": "INPROCEEDINGS",
@@ -14935,7 +14960,9 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6397",
     "doi": "10.1609/aaai.v34i05.6397",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2973362636",
+    "arxiv_id": "1909.07521"
   },
   "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks.": {
     "type": "INPROCEEDINGS",
@@ -14958,12 +14985,13 @@
     "booktitle": "AAAI",
     "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "The Winograd Schema Challenge (WSC) (Levesque, Davis, and Morgenstern 2011), a benchmark for commonsense reasoning, is a set of 273 expert-crafted pronoun resolution problems originally designed to be unsolvable for statistical models that rely on selectional preferences or word associations. However, recent advances in neural language models have already reached around 90% accuracy on variants of WSC. This raises an important question whether these models have truly acquired robust commonsense capabilities or whether they rely on spurious biases in the datasets that lead to an overestimation of the true capabilities of machine commonsense.To investigate this question, we introduce WinoGrande, a large-scale dataset of 44k problems, inspired by the original WSC design, but adjusted to improve both the scale and the hardness of the dataset. The key steps of the dataset construction consist of (1) a carefully designed crowdsourcing procedure, followed by (2) systematic bias reduction using a novel AfLite algorithm that generalizes human-detectable word associations to machine-detectable embedding associations. The best state-of-the-art methods on WinoGrande achieve 59.4 – 79.1%, which are ∼15-35% (absolute) below human performance of 94.0%, depending on the amount of the training data allowed (2% – 100% respectively).Furthermore, we establish new state-of-the-art results on five related benchmarks — WSC (→ 90.1%), DPR (→ 93.1%), COPA(→ 90.6%), KnowRef (→ 85.6%), and Winogender (→ 97.1%). These results have dual implications: on one hand, they demonstrate the effectiveness of WinoGrande when used as a resource for transfer learning. On the other hand, they raise a concern that we are likely to be overestimating the true capabilities of machine commonsense across all these benchmarks. We emphasize the importance of algorithmic bias reduction in existing and future benchmarks to mitigate such overestimation.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i05.6399",
     "doi": "10.1609/aaai.v34i05.6399",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2996908057"
   },
   "Hierarchical Reinforcement Learning for Open-Domain Dialog.": {
     "type": "INPROCEEDINGS",
@@ -15089,7 +15117,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6408",
     "doi": "10.1609/aaai.v34i05.6408",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997235007"
   },
   "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.": {
     "type": "INPROCEEDINGS",
@@ -15215,7 +15244,9 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6417",
     "doi": "10.1609/aaai.v34i05.6417",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2983160116",
+    "arxiv_id": "1911.05889"
   },
   "Alignment-Enhanced Transformer for Constraining NMT with Pre-Specified Translations.": {
     "type": "INPROCEEDINGS",
@@ -15341,7 +15372,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6426",
     "doi": "10.1609/aaai.v34i05.6426",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997937415"
   },
   "Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning.": {
     "type": "INPROCEEDINGS",
@@ -15355,7 +15387,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6427",
     "doi": "10.1609/aaai.v34i05.6427",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997422608"
   },
   "ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding.": {
     "type": "INPROCEEDINGS",
@@ -16671,7 +16704,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i05.6521",
     "doi": "10.1609/aaai.v34i05.6521",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3036973371"
   },
   "Co-Attention Hierarchical Network: Generating Coherent Long Distractors for Reading Comprehension.": {
     "type": "INPROCEEDINGS",
@@ -18071,7 +18105,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i07.6627",
     "doi": "10.1609/aaai.v34i07.6627",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997762001"
   },
   "Diversity Transfer Network for Few-Shot Learning.": {
     "type": "INPROCEEDINGS",
@@ -19406,7 +19441,7 @@
   "Multi-Question Learning for Visual Question Answering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LeiWLLWTL20",
-    "author": "Chenyi Lei and Lei Wu and Dong Liu 0002 and Zhao Li and Guoxin Wang 0002 and Haihong Tang and Houqiang Li",
+    "author": "Chenyi Lei and Lei Wu and Dong Liu 0002 and Zhao Li 0007 and Guoxin Wang 0002 and Haihong Tang and Houqiang Li",
     "booktitle": "AAAI",
     "title": "Multi-Question Learning for Visual Question Answering.",
     "year": "2020",
@@ -21165,7 +21200,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i07.6919",
     "doi": "10.1609/aaai.v34i07.6919",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998245884"
   },
   "Online Hashing with Efficient Updating of Binary Codes.": {
     "type": "INPROCEEDINGS",
@@ -21300,12 +21336,13 @@
     "booktitle": "AAAI",
     "title": "Convolutional Hierarchical Attention Network for Query-Focused Video Summarization.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "Previous approaches for video summarization mainly concentrate on finding the most diverse and representative visual contents as video summary without considering the user's preference. This paper addresses the task of query-focused video summarization, which takes user's query and a long video as inputs and aims to generate a query-focused video summary. In this paper, we consider the task as a problem of computing similarity between video shots and query. To this end, we propose a method, named Convolutional Hierarchical Attention Network (CHAN), which consists of two parts: feature encoding network and query-relevance computing module. In the encoding network, we employ a convolutional network with local self-attention mechanism and query-aware global attention mechanism to learns visual information of each shot. The encoded features will be sent to query-relevance computing module to generate query-focused video summary. Extensive experiments on the benchmark dataset demonstrate the competitive performance and show the effectiveness of our approach.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i07.6929",
     "doi": "10.1609/aaai.v34i07.6929",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2996811227"
   },
   "Adversarial Learning of Privacy-Preserving and Task-Oriented Representations.": {
     "type": "INPROCEEDINGS",
@@ -21954,7 +21991,7 @@
   "Model Watermarking for Image Processing Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangCLFZZCY20",
-    "author": "Jie Zhang 0073 and Dongdong Chen 0001 and Jing Liao 0001 and Han Fang and Weiming Zhang 0001 and Wenbo Zhou 0004 and Hao Cui 0004 and Nenghai Yu",
+    "author": "Jie Zhang 0073 and Dongdong Chen 0001 and Jing Liao 0001 and Han Fang 0004 and Weiming Zhang 0001 and Wenbo Zhou 0004 and Hao Cui 0004 and Nenghai Yu",
     "booktitle": "AAAI",
     "title": "Model Watermarking for Image Processing Networks.",
     "year": "2020",
@@ -22075,7 +22112,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i07.6984",
     "doi": "10.1609/aaai.v34i07.6984",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2997429269"
   },
   "Single Camera Training for Person Re-Identification.": {
     "type": "INPROCEEDINGS",
@@ -23013,7 +23051,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i08.7052",
     "doi": "10.1609/aaai.v34i08.7052",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3037991407"
   },
   "Kanji Workbook: A Writing-Based Intelligent Tutoring System for Learning Proper Japanese Kanji Writing Technique with Instructor-Emulated Assessment.": {
     "type": "INPROCEEDINGS",
@@ -23167,7 +23206,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i09.7063",
     "doi": "10.1609/aaai.v34i09.7063",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3037577359"
   },
   "Teaching Game AI as an Undergraduate Course in Computational Media.": {
     "type": "INPROCEEDINGS",
@@ -23274,7 +23314,7 @@
     "booktitle": "AAAI",
     "title": "Coding in the Liberal Arts through Natural Language Processing and Machine Learning.",
     "year": "2020",
-    "abstract": "An initiative recently established at our institution is creating new opportunities for students to deepen their understanding of code and computational thinking, and to embrace questions of access, equity and social justice. In this short paper we report on two contextualized computing courses in this initiative that introduce coding and computational thinking through contextualizing two subfields of AI: Natural Language Processing and Machine Learning. The goal was two-fold: to help students gain foundational computational skills to further their own creative and critical practices; and more broadly, to help them develop better-informed critiques of the use of algorithmic systems, especially AI technology.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i09.7071",
     "doi": "10.1609/aaai.v34i09.7071",
@@ -24380,7 +24420,7 @@
     "booktitle": "AAAI",
     "title": "Improving Semantic Parsing Using Statistical Word Sense Disambiguation (Student Abstract).",
     "year": "2020",
-    "abstract": "A Semantic Parser generates a logical form graph from an utterance where the edges are semantic roles and nodes are word senses in an ontology that supports reasoning. The generated representation attempts to capture the full meaning of the utterance. While the process of parsing works to resolve lexical ambiguity, a number of errors in the logical forms arise from incorrectly assigned word sense determinations. This is especially true in logical and rule-based semantic parsers. Although the performance of statistical word sense disambiguation methods is superior to the word sense output of semantic parser, these systems do not produce the rich role structure or a detailed semantic representation of the sentence content. In this work, we use decisions from a statistical WSD system to inform a logical semantic parser and greatly improve semantic type assignments in the resulting logical forms.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7150",
     "doi": "10.1609/aaai.v34i10.7150",
@@ -24469,7 +24509,8 @@
     "url": "https://doi.org/10.1609/aaai.v34i10.7156",
     "doi": "10.1609/aaai.v34i10.7156",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3038113521"
   },
   "Learning to Model Opponent Learning (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -24856,7 +24897,7 @@
     "booktitle": "AAAI",
     "title": "Learning Directional Sentence-Pair Embedding for Natural Language Reasoning (Student Abstract).",
     "year": "2020",
-    "abstract": "Enabling the models with the ability of reasoning and inference over text is one of the core missions of natural language understanding. Despite deep learning models have shown strong performance on various cross-sentence inference benchmarks, recent work has shown that they are leveraging spurious statistical cues rather than capturing deeper implied relations between pairs of sentences. In this paper, we show that the state-of-the-art language encoding models are especially bad at modeling directional relations between sentences by proposing a new evaluation task: Cause-and-Effect relation prediction task. Back by our curated Cause-and-Effect Relation dataset (Cℰℛ), we also demonstrate that a mutual attention mechanism can guide the model to focus on capturing directional relations between sentences when added to existing transformer-based models. Experiment results show that the proposed approach improves the performance on downstream applications, such as the abductive reasoning task.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7184",
     "doi": "10.1609/aaai.v34i10.7184",

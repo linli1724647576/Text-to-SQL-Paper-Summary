@@ -29,21 +29,21 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
-| arxiv | true_positive_core | ArXiv | 2026 | TACO: Task-Aware Column Description Generation Using LLMs | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP | missing doi |
-| arxiv | true_positive_core | ArXiv | 2023 | Translating Natural Language Queries to SQL Using the T5 Model | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |
+| arxiv | true_positive_core | ArXiv | 2024 | From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems | missing doi |
+| arxiv | true_positive_core | ArXiv | 2023 | UNITE: A Unified Benchmark for Text-to-SQL Evaluation | missing doi |
 | arxiv | true_positive_application | ArXiv | 2026 | Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | Agent Lightning: Train ANY AI Agents with Reinforcement Learning | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | OmniTQA: A Cost-Aware System for Hybrid Query Processing over Semi-Structured Data | missing doi |
+| arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
-| arxiv | true_positive_core | ArXiv | 2026 | ReViSQL: Achieving Human-Level Text-to-SQL | missing doi |
+| arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
-| supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
-| supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
-| supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
+| supplemental | true_positive_core | AAAI | 2020 | Zero-Shot Text-to-SQL Learning with Auxiliary Task |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| fill | true_positive_core | ICML | 2025 | Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search | missing doi |
-| fill | true_positive_core | ACL | 2025 | DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph |  |
-| fill | true_positive_core | ArXiv | 2026 | From Textual Columns to Query Plans: A Unified Relational-Semantic Execution Framework for Hybrid Query Processing | missing doi |
+| supplemental | true_positive_core | AAAI | 2020 | Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning |  |
+| supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
+| fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |
+| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |

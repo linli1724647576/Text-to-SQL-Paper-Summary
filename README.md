@@ -6,7 +6,7 @@ This repository follows an ASE-style workflow: crawl DBLP/arXiv raw metadata, fe
 
 Current snapshot:
 
-- **586** classified Text-to-SQL papers
+- **584** classified Text-to-SQL papers
 - **182** rawdata files under `data/rawdata/`
 - **43** official accepted/proceedings source files
 - **56,574** official accepted candidates before relevance filtering
@@ -52,16 +52,16 @@ The browser supports:
 | 2022 | 20 |
 | 2023 | 51 |
 | 2024 | 47 |
-| 2025 | 190 |
-| 2026 | 232 |
-| **Total** | **586** |
+| 2025 | 189 |
+| 2026 | 231 |
+| **Total** | **584** |
 
 
 ### Counts by Venue
 
 | Venue | Papers |
 | --- | ---: |
-| ArXiv | 375 |
+| ArXiv | 373 |
 | SIGMOD | 36 |
 | AAAI | 35 |
 | ACL | 32 |

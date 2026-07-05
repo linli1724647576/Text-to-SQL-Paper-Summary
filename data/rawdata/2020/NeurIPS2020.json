@@ -16256,7 +16256,7 @@
   "Learning with Operator-valued Kernels in Reproducing Kernel Krein Spaces.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/SahaP20",
-    "author": "Akash Saha and P. Balamurugan 0001",
+    "author": "Akash Saha 0001 and P. Balamurugan 0001",
     "booktitle": "NeurIPS",
     "title": "Learning with Operator-valued Kernels in Reproducing Kernel Krein Spaces.",
     "year": "2020",
@@ -20078,7 +20078,7 @@
   "Adversarial Sparse Transformer for Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/WuXDZ0H20",
-    "author": "Sifan Wu and Xi Xiao and Qianggang Ding and Peilin Zhao and Ying Wei 0001 and Junzhou Huang",
+    "author": "Sifan Wu and Xi Xiao 0001 and Qianggang Ding and Peilin Zhao and Ying Wei 0001 and Junzhou Huang",
     "booktitle": "NeurIPS",
     "title": "Adversarial Sparse Transformer for Time Series Forecasting.",
     "year": "2020",

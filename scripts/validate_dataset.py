@@ -221,7 +221,7 @@ def source_policy_removed_count(baseline_papers, current_papers):
         key = normalize_title_key(entry.get("title") or title)
         if not key or key in current_keys:
             continue
-        if entry.get("openalex_id") or entry.get("semantic_scholar_id"):
+        if entry.get("openalex_id"):
             removed += 1
     return removed
 
@@ -278,7 +278,7 @@ def current_source_kind(entry):
         return "arxiv"
     if base in ALL_CCF_A_VENUES:
         return "ccf_venue"
-    if entry.get("openalex_id") or entry.get("semantic_scholar_id"):
+    if entry.get("openalex_id"):
         return "supplemental_or_other"
     return "other"
 
@@ -573,8 +573,8 @@ def validate(args):
         if other_ratio > BALANCED_OTHER_RATIO_WARNING:
             warnings.append(f"high Other category ratio: {other_ratio:.2%}")
 
-    if not os.environ.get("SEMANTIC_SCHOLAR_API_KEY"):
-        warnings.append("SEMANTIC_SCHOLAR_API_KEY is not set; Semantic Scholar rate limits may be lower")
+    if not os.environ.get("OPENALEX_API_KEY"):
+        warnings.append("OPENALEX_API_KEY is not set; OpenAlex daily API budget may be lower")
 
     rate_limited = [
         item for item in failures + report_warnings if "429" in str(item.get("error", "")) or item.get("status") == "partial_failed"

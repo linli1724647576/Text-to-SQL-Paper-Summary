@@ -122,7 +122,6 @@ def record_score(entry):
         ("year", 1),
         ("keywords", 1),
         ("openalex_id", 2),
-        ("semantic_scholar_id", 2),
         ("key", 1),
     ):
         if not is_empty(entry.get(field)):

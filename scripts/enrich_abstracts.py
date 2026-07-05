@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Enrich paper JSON files with abstracts via Semantic Scholar."""
+"""Enrich paper JSON files with abstracts via OpenAlex and source pages."""
 
 import argparse
 import html as html_lib
 import json
-import os
 import re
 import subprocess
 import sys
@@ -13,7 +12,8 @@ import urllib.parse
 import tempfile
 from pathlib import Path
 
-from http_utils import get_json as http_get_json, get_text as http_get_text, post_json as http_post_json, request as http_request
+from http_utils import get_text as http_get_text, request as http_request
+from openalex_utils import abstract_from_inverted_index, get_openalex_json
 
 
 def clean(text):
@@ -33,41 +33,22 @@ def simple_title_key(text):
     return clean(text)
 
 
-def get_json(url, timeout=20):
-    headers = {}
-    api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
-    if api_key:
-        headers["x-api-key"] = api_key
-    return http_get_json(url, timeout=timeout, headers=headers)
-
-
-def post_json(url, payload, timeout=30):
-    headers = {
-        "Content-Type": "application/json",
-    }
-    api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
-    if api_key:
-        headers["x-api-key"] = api_key
-    return http_post_json(url, payload, timeout=timeout, headers=headers)
-
-
 def get_text(url, timeout=20):
     return http_get_text(url, timeout=timeout)
 
 
 def search_title(title):
     params = {
-        "query": title,
-        "limit": "3",
-        "fields": "title,abstract,year,venue,externalIds,url",
+        "search": title,
+        "per-page": "3",
+        "select": "id,title,doi,abstract_inverted_index,primary_location",
     }
-    url = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(params)
-    payload = get_json(url)
+    payload = get_openalex_json("https://api.openalex.org/works", params, timeout=20)
     title_norm = clean(title).lower()
-    for paper in payload.get("data") or []:
-        candidate = clean(paper.get("title", "")).lower()
+    for work in payload.get("results") or []:
+        candidate = clean(work.get("title", "")).lower()
         if candidate == title_norm or title_norm in candidate or candidate in title_norm:
-            abstract = clean(paper.get("abstract", ""))
+            abstract = clean(abstract_from_inverted_index(work.get("abstract_inverted_index")))
             if abstract:
                 return abstract
     return ""
@@ -250,53 +231,60 @@ def entry_doi(entry):
     return ""
 
 
-def doi_id(entry):
-    doi = entry_doi(entry)
-    if not doi:
-        return ""
-    if not entry.get("doi"):
-        entry["doi"] = doi
-    return "DOI:" + doi
+def openalex_work_url(work):
+    primary = work.get("primary_location") or {}
+    landing = primary.get("landing_page_url") or ""
+    return landing or work.get("doi") or work.get("id") or ""
 
 
 def batch_by_doi(entries):
     indexed = []
-    ids = []
     for title, entry in entries:
         if entry.get("abstract"):
             continue
-        paper_id = doi_id(entry)
-        if not paper_id:
+        doi = entry_doi(entry)
+        if not doi:
             continue
-        indexed.append((title, entry, paper_id))
-        ids.append(paper_id)
-    if not ids:
+        if not entry.get("doi"):
+            entry["doi"] = doi
+        indexed.append((title, entry, doi))
+    if not indexed:
         return 0
 
-    fields = "title,abstract,year,venue,externalIds,url"
-
     def apply_results(payload, chunk):
+        by_doi = {
+            normalize_doi(work.get("doi", "")): work
+            for work in payload.get("results") or []
+            if normalize_doi(work.get("doi", ""))
+        }
         updated = 0
-        for result, (_, entry, _) in zip(payload, chunk):
-            if not result:
+        for _, entry, doi in chunk:
+            work = by_doi.get(doi.lower()) or by_doi.get(doi)
+            if not work:
                 continue
-            abstract = clean(result.get("abstract", ""))
+            abstract = clean(abstract_from_inverted_index(work.get("abstract_inverted_index")))
             if abstract:
                 entry["abstract"] = abstract
                 updated += 1
-            external_ids = result.get("externalIds") or {}
-            result_doi = normalize_doi(external_ids.get("DOI", ""))
+            result_doi = normalize_doi(work.get("doi", ""))
             if result_doi and not entry.get("doi"):
                 entry["doi"] = result_doi
-            if not entry.get("url") and result.get("url"):
-                entry["url"] = result["url"]
+            if work.get("id"):
+                entry["openalex_id"] = work["id"]
+            url = openalex_work_url(work)
+            if url:
+                entry["url"] = url
         return updated
 
     def fetch_chunk(chunk):
-        payload = post_json(
-            "https://api.semanticscholar.org/graph/v1/paper/batch?"
-            + urllib.parse.urlencode({"fields": fields}),
-            {"ids": [paper_id for _, _, paper_id in chunk]},
+        payload = get_openalex_json(
+            "https://api.openalex.org/works",
+            {
+                "filter": "doi:" + "|".join(doi for _, _, doi in chunk),
+                "per-page": str(len(chunk)),
+                "select": "id,title,doi,abstract_inverted_index,primary_location",
+            },
+            timeout=30,
         )
         return apply_results(payload, chunk)
 
@@ -314,8 +302,8 @@ def batch_by_doi(entries):
             return fetch_resilient(chunk[:mid]) + fetch_resilient(chunk[mid:])
 
     updated = 0
-    for start in range(0, len(indexed), 500):
-        updated += fetch_resilient(indexed[start:start + 500])
+    for start in range(0, len(indexed), 100):
+        updated += fetch_resilient(indexed[start:start + 100])
     return updated
 
 

@@ -176,7 +176,7 @@ Manual run:
 Optional secret:
 
 ```text
-SEMANTIC_SCHOLAR_API_KEY
+OPENALEX_API_KEY
 ```
 
 ## Adding Papers

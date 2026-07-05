@@ -92,7 +92,7 @@ def paper_record(title, entry, present=True, stratum=""):
         verdict = "true_positive_application"
 
     sources = []
-    for key in ("doi", "url", "openalex_id", "semantic_scholar_id"):
+    for key in ("doi", "url", "openalex_id"):
         value = entry.get(key)
         if value:
             sources.append(str(value))
@@ -184,7 +184,7 @@ def main():
         "supplemental": [
             (title, entry)
             for title, entry in items
-            if normalize_entry_venue(entry) == "其他" or entry.get("openalex_id") or entry.get("semantic_scholar_id")
+            if normalize_entry_venue(entry) == "其他" or entry.get("openalex_id")
         ],
     }
     for stratum, candidates in strata.items():

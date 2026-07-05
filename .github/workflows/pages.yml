@@ -38,6 +38,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -70,8 +72,6 @@ jobs:
 
       - name: Enrich rotated abstracts
         if: github.event_name == 'schedule'
-        env:
-          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: >
           python scripts/enrich_abstracts.py data/rawdata
           --limit-per-file 80
@@ -84,8 +84,6 @@ jobs:
 
       - name: Enrich full abstracts
         if: inputs.full_crawl
-        env:
-          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: >
           python scripts/enrich_abstracts.py data/rawdata
           --limit-per-file 80

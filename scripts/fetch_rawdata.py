@@ -16,7 +16,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
-from http_utils import get_json, get_text
+from http_utils import get_text
+from openalex_utils import get_openalex_json
 from venues import iter_ccf_a_venues, iter_readme_journals
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -238,8 +239,7 @@ def fetch_openalex_source(source_id, venue, year, track):
             "cursor": cursor,
             "sort": "publication_date:desc",
         }
-        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
-        payload = get_json(url, timeout=30)
+        payload = get_openalex_json("https://api.openalex.org/works", params, timeout=30)
         results = payload.get("results") or []
         for work in results:
             entry = normalize_openalex_work(work, venue, year, track)

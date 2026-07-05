@@ -1,22 +1,19 @@
 #!/usr/bin/env python3
-"""Crawl Text-to-SQL paper metadata from OpenAlex and Semantic Scholar.
+"""Crawl Text-to-SQL paper metadata from OpenAlex.
 
-OpenAlex and Semantic Scholar provide reproducible API-backed supplemental
-searches. The script gathers candidates by multiple Text-to-SQL queries,
-normalizes metadata, and leaves relevance filtering/classification to
-label_papers.py.
+OpenAlex provides reproducible API-backed supplemental searches. The script
+gathers candidates by multiple Text-to-SQL queries, normalizes metadata, and
+leaves relevance filtering/classification to label_papers.py.
 """
 
 import argparse
 import json
-import os
 import re
 import sys
 import time
-import urllib.parse
 from pathlib import Path
 
-from http_utils import get_json
+from openalex_utils import abstract_from_inverted_index, get_openalex_json
 from paper_utils import normalize_title_key
 from venues import (
     iter_ccf_a_venues,
@@ -90,34 +87,8 @@ CCF_VENUE_QUERIES = {
 }
 
 
-def abstract_from_inverted_index(index):
-    if not index:
-        return ""
-    positions = []
-    for word, offsets in index.items():
-        for offset in offsets:
-            positions.append((offset, word))
-    return " ".join(word for _, word in sorted(positions))
-
-
 def clean_text(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
-
-
-def openalex_get(url, timeout=12):
-    return get_json(url, timeout=timeout)
-
-
-def json_get(url, timeout=20):
-    headers = {}
-    api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
-    if api_key:
-        headers["x-api-key"] = api_key
-    return get_json(url, timeout=timeout, headers=headers)
-
-
-def semantic_scholar_available():
-    return bool(os.environ.get("SEMANTIC_SCHOLAR_API_KEY"))
 
 
 def source_name(work):
@@ -138,39 +109,6 @@ def work_url(work):
     if landing:
         return landing
     return work.get("id") or ""
-
-
-def normalize_s2_paper(paper, venue_override=None, venue_track=None):
-    title = clean_text(paper.get("title") or "")
-    abstract = clean_text(paper.get("abstract") or "")
-    if not title or not abstract:
-        return None
-    year = str(paper.get("year") or "")
-    publication_venue = paper.get("publicationVenue") or {}
-    venue = paper.get("venue") or publication_venue.get("name") or "Unknown"
-    venue_label = normalize_venue_name(venue_override or venue, title, year)
-    authors = [author.get("name", "") for author in paper.get("authors") or [] if author.get("name")]
-    url = paper.get("url") or ""
-    if paper.get("externalIds", {}).get("DOI"):
-        url = "https://doi.org/" + paper["externalIds"]["DOI"]
-    entry = {
-        "type": paper.get("publicationTypes", [""])[0] if paper.get("publicationTypes") else "",
-        "key": paper.get("paperId") or "",
-        "author": " and ".join(authors),
-        "booktitle": venue,
-        "title": title,
-        "year": year,
-        "abstract": abstract,
-        "keywords": ", ".join(paper.get("fieldsOfStudy") or []),
-        "url": url,
-        "doi": paper.get("externalIds", {}).get("DOI", ""),
-        "venue": venue_label,
-        "venue_track": venue_track or "",
-        "semantic_scholar_id": paper.get("paperId") or "",
-    }
-    entry["venue"] = normalize_entry_venue(entry)
-    entry["venue_track"] = publication_category(entry)
-    return entry
 
 
 def normalize_work(work, venue_override=None, venue_track=None):
@@ -244,15 +182,6 @@ def openalex_source_matches(work, target_venue):
     return any(high_confidence_venue_source(candidate, target_venue) for candidate in candidates)
 
 
-def s2_source_matches(paper, target_venue):
-    publication_venue = paper.get("publicationVenue") or {}
-    candidates = [
-        paper.get("venue") or "",
-        publication_venue.get("name") or "",
-    ]
-    return any(high_confidence_venue_source(candidate, target_venue) for candidate in candidates)
-
-
 def crawl_query(query, from_year, to_year, max_results, sleep):
     per_page = min(200, max_results)
     cursor = "*"
@@ -267,8 +196,7 @@ def crawl_query(query, from_year, to_year, max_results, sleep):
             "cursor": cursor,
             "sort": "publication_date:desc",
         }
-        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
-        payload = openalex_get(url)
+        payload = get_openalex_json("https://api.openalex.org/works", params, timeout=12)
         results = payload.get("results") or []
         if not results:
             break
@@ -296,30 +224,6 @@ def add_work(by_title, work, venue_override=None, venue_track=None, require_venu
     return True
 
 
-def add_s2_paper(by_title, paper, venue_override=None, venue_track=None, require_venue_match=False):
-    if venue_override and require_venue_match and not s2_source_matches(paper, venue_override):
-        return False
-    entry = normalize_s2_paper(paper, venue_override=venue_override, venue_track=venue_track)
-    if not entry:
-        return False
-    title_key = normalize_title_key(entry["title"])
-    by_title.setdefault(title_key, entry)
-    return True
-
-
-def crawl_s2(query, year, limit):
-    fields = "paperId,title,abstract,year,venue,publicationVenue,authors,externalIds,url,fieldsOfStudy,publicationTypes"
-    params = {
-        "query": query,
-        "year": str(year),
-        "limit": str(min(limit, 100)),
-        "fields": fields,
-    }
-    url = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(params)
-    payload = json_get(url)
-    return payload.get("data") or []
-
-
 def ccf_venue_queries(abbr):
     return CCF_VENUE_QUERIES.get(abbr, [abbr])
 
@@ -335,10 +239,7 @@ def iter_ccf_search_venues(from_year, to_year, allowed_venues=None):
         yield track, abbr, year, ccf_venue_queries(abbr)
 
 
-def crawl_ccf_venues(by_title, args, include_s2=True):
-    if include_s2 and not semantic_scholar_available():
-        print("Skipping CCF-A Semantic Scholar venue crawl because SEMANTIC_SCHOLAR_API_KEY is not set.", file=sys.stderr)
-        include_s2 = False
+def crawl_ccf_venues(by_title, args):
     terms = CCF_VENUE_SEARCH_TERMS[:4] if args.quick else CCF_VENUE_SEARCH_TERMS
     allowed_venues = None
     if args.limit_venues:
@@ -361,25 +262,6 @@ def crawl_ccf_venues(by_title, args, include_s2=True):
                     venue_track=track,
                     require_venue_match=True,
                 )
-        if include_s2:
-            for term in terms:
-                try:
-                    papers = crawl_s2(f"{term} {venue_query}", year, args.max_venue_results)
-                except Exception as exc:
-                    print(f"  WARN: S2 {abbr}{year} / {term}: {exc}", file=sys.stderr)
-                    if args.sleep:
-                        time.sleep(args.sleep)
-                    continue
-                for paper in papers:
-                    add_s2_paper(
-                        by_title,
-                        paper,
-                        venue_override=f"{abbr}{year}",
-                        venue_track=track,
-                        require_venue_match=True,
-                    )
-                if args.sleep:
-                    time.sleep(args.sleep)
         print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
 
@@ -402,7 +284,7 @@ def main():
     )
     parser.add_argument(
         "--source",
-        choices=["supplemental", "venues", "global", "both", "s2", "all", "ccf", "ccf-supplemental"],
+        choices=["supplemental", "venues", "global", "both", "all", "ccf", "ccf-supplemental"],
         default="supplemental",
         help="supplemental runs broad search; ccf-supplemental adds high-confidence CCF-A venue-year search.",
     )
@@ -419,8 +301,8 @@ def main():
     args = parser.parse_args()
 
     by_title = {}
-    if args.source in ("ccf", "ccf-supplemental"):
-        crawl_ccf_venues(by_title, args, include_s2=True)
+    if args.source in ("ccf", "ccf-supplemental", "all"):
+        crawl_ccf_venues(by_title, args)
 
     if args.source in ("venues", "both", "all"):
         terms = VENUE_SEARCH_TERMS[:4] if args.quick else VENUE_SEARCH_TERMS
@@ -449,30 +331,6 @@ def main():
                     add_work(by_title, work, venue_override=f"{abbr}{year}", venue_track=track)
             print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
 
-    if args.source in ("all",):
-        crawl_ccf_venues(by_title, args, include_s2=True)
-        terms = VENUE_SEARCH_TERMS[:4] if args.quick else VENUE_SEARCH_TERMS
-        allowed_venues = None
-        if args.limit_venues:
-            allowed_venues = {item.strip().lower() for item in args.limit_venues.split(",") if item.strip()}
-        for track, abbr, year, venue_queries in iter_tracked_venues(args.from_year, args.to_year):
-            if allowed_venues and abbr.lower() not in allowed_venues:
-                continue
-            print(f"Crawling Semantic Scholar venue: {abbr}{year} ({track})", file=sys.stderr)
-            before = len(by_title)
-            venue_query = venue_queries[0]
-            for term in terms:
-                try:
-                    papers = crawl_s2(f"{term} {venue_query}", year, args.max_venue_results)
-                except Exception as exc:
-                    print(f"  WARN: S2 {abbr}{year} / {term}: {exc}", file=sys.stderr)
-                    continue
-                for paper in papers:
-                    add_s2_paper(by_title, paper, venue_override=f"{abbr}{year}", venue_track=track)
-                if args.sleep:
-                    time.sleep(args.sleep)
-            print(f"  added candidates: {len(by_title) - before}; accumulated: {len(by_title)}", file=sys.stderr)
-
     if args.source in ("global", "both", "all", "supplemental", "ccf-supplemental"):
         queries = DEFAULT_SEARCH_QUERIES
         if args.quick:
@@ -495,35 +353,6 @@ def main():
                 for work in works:
                     add_work(by_title, work)
                 print(f"    accumulated candidates: {len(by_title)}", file=sys.stderr)
-
-    if args.source in ("s2", "all", "supplemental", "ccf-supplemental") and not semantic_scholar_available():
-        print("Skipping global Semantic Scholar crawl because SEMANTIC_SCHOLAR_API_KEY is not set.", file=sys.stderr)
-
-    if args.source in ("s2", "all", "supplemental", "ccf-supplemental") and semantic_scholar_available():
-        queries = DEFAULT_SEARCH_QUERIES
-        if args.quick:
-            queries = [
-                "text-to-SQL",
-                "NL2SQL",
-                "natural language to SQL",
-                "semantic parsing SQL database",
-            ]
-        for year in range(args.from_year, args.to_year + 1):
-            print(f"Crawling global Semantic Scholar year: {year}", file=sys.stderr)
-            for query in queries:
-                print(f"  query: {query}", file=sys.stderr)
-                try:
-                    papers = crawl_s2(query, year, args.max_results)
-                except Exception as exc:
-                    print(f"    WARN: S2 query failed: {exc}", file=sys.stderr)
-                    if args.sleep:
-                        time.sleep(args.sleep)
-                    continue
-                for paper in papers:
-                    add_s2_paper(by_title, paper)
-                print(f"    accumulated candidates: {len(by_title)}", file=sys.stderr)
-                if args.sleep:
-                    time.sleep(args.sleep)
 
     papers = {entry["title"]: entry for entry in by_title.values()}
     if not papers:

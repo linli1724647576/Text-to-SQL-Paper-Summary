@@ -19,6 +19,9 @@ class EnrichOpenAlexTest(unittest.TestCase):
                     "abstract_inverted_index": {"hello": [0], "world": [1]},
                     "id": "https://openalex.org/W1",
                     "primary_location": {"landing_page_url": "https://example.test/paper"},
+                    "locations": [
+                        {"landing_page_url": "https://arxiv.org/abs/2501.01234"},
+                    ],
                 }
             ]
         }
@@ -30,6 +33,7 @@ class EnrichOpenAlexTest(unittest.TestCase):
         self.assertEqual(entry["abstract"], "hello world")
         self.assertEqual(entry["openalex_id"], "https://openalex.org/W1")
         self.assertEqual(entry["url"], "https://example.test/paper")
+        self.assertEqual(entry["arxiv_id"], "2501.01234")
 
     def test_search_title_uses_openalex_abstract(self):
         payload = {

@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 from label_papers import relevance_level, with_relevance_metadata
-from paper_utils import dedupe_papers, normalize_paper_metadata, normalize_title_key, upsert_paper
+from paper_utils import build_identity_index, dedupe_papers, normalize_paper_metadata, normalize_title_key, upsert_paper
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_LABELDATA = REPO_ROOT / "data" / "labeldata" / "labeldata.json"
@@ -114,11 +114,7 @@ def main():
         new_papers = json.load(f)
 
     added = updated = skipped = invalid = 0
-    index = {
-        normalize_title_key(entry.get("title") or title): title
-        for title, entry in existing.items()
-        if normalize_title_key(entry.get("title") or title)
-    }
+    index = build_identity_index(existing)
     for title, entry in new_papers.items():
         if not entry.get("labels") or not entry.get("pipeline_stages"):
             invalid += 1

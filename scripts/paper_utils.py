@@ -4,6 +4,7 @@
 import html
 import re
 import unicodedata
+import urllib.parse
 
 from taxonomy import normalize_topic_labels
 from venues import (
@@ -65,6 +66,85 @@ def normalize_title_key(title):
     return " ".join(tokens)
 
 
+DOI_RE = re.compile(r"(10\.\d{4,9}/[^\s\"<>]+)", re.I)
+MODERN_ARXIV_RE = re.compile(r"(?:arxiv(?:\.org/(?:abs|pdf)/|:|\.))?(\d{4}\.\d{4,5})(?:v\d+)?(?:\.pdf)?", re.I)
+OLD_ARXIV_RE = re.compile(r"(?:arxiv(?:\.org/(?:abs|pdf)/|:|\.))?([a-z-]+(?:\.[A-Z]{2})?/\d{7})(?:v\d+)?(?:\.pdf)?", re.I)
+
+
+def normalize_doi(value):
+    text = urllib.parse.unquote(clean_text(value))
+    if not text:
+        return ""
+    text = re.sub(r"^doi:\s*", "", text, flags=re.I)
+    text = re.sub(r"^https?://(dx\.)?doi\.org/", "", text, flags=re.I)
+    match = DOI_RE.search(text)
+    if not match:
+        return ""
+    doi = match.group(1).strip().rstrip(".,;:)]}")
+    return doi.casefold()
+
+
+def entry_doi(entry):
+    for field in ("doi", "url", "ee", "paper_url"):
+        doi = normalize_doi(entry.get(field, ""))
+        if doi:
+            return doi
+    return ""
+
+
+def is_arxiv_doi(value):
+    return normalize_doi(value).startswith("10.48550/arxiv.")
+
+
+def arxiv_id_from_text(value):
+    text = urllib.parse.unquote(clean_text(value))
+    if not text:
+        return ""
+    modern = MODERN_ARXIV_RE.search(text)
+    if modern and ("arxiv" in text.casefold() or modern.group(0).casefold() == text.casefold()):
+        return modern.group(1)
+    old_style = OLD_ARXIV_RE.search(text)
+    if old_style and ("arxiv" in text.casefold() or old_style.group(0).casefold() == text.casefold()):
+        return old_style.group(1).casefold()
+    return ""
+
+
+def arxiv_id_from_entry(entry):
+    for field in ("arxiv_id", "url", "doi", "ee", "paper_url", "key"):
+        arxiv_id = arxiv_id_from_text(entry.get(field, ""))
+        if arxiv_id:
+            return arxiv_id
+    return ""
+
+
+def arxiv_id_from_openalex_work(work):
+    candidates = [work.get("doi", ""), work.get("id", "")]
+    for field in ("primary_location", "best_oa_location"):
+        location = work.get(field) or {}
+        candidates.extend([location.get("landing_page_url", ""), location.get("pdf_url", "")])
+    for location in work.get("locations") or []:
+        candidates.extend([location.get("landing_page_url", ""), location.get("pdf_url", "")])
+    for value in candidates:
+        arxiv_id = arxiv_id_from_text(value)
+        if arxiv_id:
+            return arxiv_id
+    return ""
+
+
+def paper_identity_keys(entry):
+    keys = []
+    title_key = normalize_title_key(entry.get("title", ""))
+    if title_key:
+        keys.append(title_key)
+    doi = entry_doi(entry)
+    if doi:
+        keys.append("doi:" + doi)
+    arxiv_id = arxiv_id_from_entry(entry)
+    if arxiv_id:
+        keys.append("arxiv:" + arxiv_id.casefold())
+    return keys
+
+
 def is_empty(value):
     return value is None or value == "" or value == [] or value == {}
 
@@ -117,6 +197,7 @@ def record_score(entry):
         score += 3
     for field, weight in (
         ("doi", 4),
+        ("arxiv_id", 3),
         ("url", 3),
         ("author", 2),
         ("year", 1),
@@ -159,6 +240,12 @@ def normalize_paper_metadata(entry):
     out = dict(entry)
     if out.get("title"):
         out["title"] = clean_title(out.get("title", ""))
+    doi = entry_doi(out)
+    if doi:
+        out["doi"] = doi
+    arxiv_id = arxiv_id_from_entry(out)
+    if arxiv_id:
+        out["arxiv_id"] = arxiv_id
     venue = normalize_entry_venue(out)
     out["venue"] = ARXIV_VENUE if venue == ARXIV_VENUE else venue
     out["venue_track"] = publication_category(out)
@@ -220,6 +307,12 @@ def merge_entries(existing, incoming, prefer_existing=False):
             if not current or (candidate and len(candidate) > len(current) + 40):
                 merged[field] = candidate
             continue
+        if field == "doi":
+            current = normalize_doi(merged.get(field, ""))
+            candidate = normalize_doi(value)
+            if not current or (candidate and is_arxiv_doi(current) and not is_arxiv_doi(candidate)):
+                merged[field] = candidate
+            continue
         if field == "venue":
             continue
         if field == "venue_track":
@@ -232,43 +325,61 @@ def merge_entries(existing, incoming, prefer_existing=False):
     return normalize_paper_metadata(merged)
 
 
+def reassign_identity_index(index, old_key, new_key, entry):
+    if old_key != new_key:
+        for identity, value in list(index.items()):
+            if value == old_key:
+                index[identity] = new_key
+    for identity in paper_identity_keys(entry):
+        index[identity] = new_key
+
+
+def build_identity_index(papers):
+    index = {}
+    for title, entry in papers.items():
+        normalized = normalize_paper_metadata({**entry, "title": entry.get("title") or title})
+        for identity in paper_identity_keys(normalized):
+            index[identity] = title
+    return index
+
+
 def dedupe_papers(papers):
     merged = {}
     index = {}
     duplicates = 0
     for title, entry in papers.items():
         entry = normalize_paper_metadata({**entry, "title": entry.get("title") or title})
-        key = normalize_title_key(entry.get("title") or title)
-        if not key:
+        keys = paper_identity_keys(entry)
+        if not keys:
             continue
-        if key in index:
-            existing_key = index[key]
+        existing_key = next((index[key] for key in keys if key in index), "")
+        if existing_key:
             combined = merge_entries(merged[existing_key], entry)
             new_key = combined.get("title") or existing_key
             if new_key != existing_key:
                 del merged[existing_key]
             merged[new_key] = combined
-            index[key] = new_key
+            reassign_identity_index(index, existing_key, new_key, combined)
             duplicates += 1
         else:
             out_key = entry.get("title") or title
             merged[out_key] = entry
-            index[key] = out_key
+            reassign_identity_index(index, out_key, out_key, entry)
     return dict(sorted(merged.items())), duplicates
 
 
 def upsert_paper(papers, index, title, entry, no_overwrite=False):
     entry = normalize_paper_metadata({**entry, "title": entry.get("title") or title})
-    key = normalize_title_key(entry.get("title") or title)
-    if not key:
+    keys = paper_identity_keys(entry)
+    if not keys:
         return "invalid"
-    if key not in index:
+    existing_key = next((index[key] for key in keys if key in index), "")
+    if not existing_key:
         out_key = entry.get("title") or title
         papers[out_key] = entry
-        index[key] = out_key
+        reassign_identity_index(index, out_key, out_key, entry)
         return "added"
 
-    existing_key = index[key]
     before = papers[existing_key]
     merged = merge_entries(before, entry, prefer_existing=no_overwrite)
     new_key = merged.get("title") or existing_key
@@ -276,7 +387,7 @@ def upsert_paper(papers, index, title, entry, no_overwrite=False):
     if new_key != existing_key:
         del papers[existing_key]
     papers[new_key] = merged
-    index[key] = new_key
+    reassign_identity_index(index, existing_key, new_key, merged)
     if no_overwrite and not changed:
         return "skipped"
     return "updated" if changed else "skipped"

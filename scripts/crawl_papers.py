@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from openalex_utils import abstract_from_inverted_index, get_openalex_json
-from paper_utils import normalize_title_key
+from paper_utils import arxiv_id_from_openalex_work, normalize_title_key
 from venues import (
     iter_ccf_a_venues,
     iter_readme_journals,
@@ -153,6 +153,9 @@ def normalize_work(work, venue_override=None, venue_track=None):
         "venue_track": venue_track or "",
         "openalex_id": work.get("id") or "",
     }
+    arxiv_id = arxiv_id_from_openalex_work(work)
+    if arxiv_id:
+        entry["arxiv_id"] = arxiv_id
     entry["venue"] = normalize_entry_venue(entry)
     entry["venue_track"] = publication_category(entry)
     return entry

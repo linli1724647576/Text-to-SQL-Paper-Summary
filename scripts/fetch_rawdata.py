@@ -19,6 +19,7 @@ from pathlib import Path
 from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
 from http_utils import get_text
 from openalex_utils import get_openalex_json
+from paper_utils import arxiv_id_from_openalex_work
 from venues import iter_ccf_a_venues, iter_readme_journals
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -229,6 +230,9 @@ def normalize_openalex_work(work, venue, year, track):
         "venue_track": track,
         "openalex_id": clean(work.get("id") or ""),
     }
+    arxiv_id = arxiv_id_from_openalex_work(work)
+    if arxiv_id:
+        entry["arxiv_id"] = arxiv_id
     return entry
 
 

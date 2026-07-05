@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 from label_papers import filter_papers, label_papers
-from paper_utils import dedupe_papers, normalize_title_key, upsert_paper
+from paper_utils import build_identity_index, dedupe_papers, upsert_paper
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
@@ -36,11 +36,7 @@ def combine_accepted(rawdata_dir):
 def merge_labeled(labeled, labeldata_path, no_overwrite=True):
     existing = load_json(labeldata_path) if labeldata_path.exists() else {}
     existing, existing_duplicates = dedupe_papers(existing)
-    index = {
-        normalize_title_key(entry.get("title") or title): title
-        for title, entry in existing.items()
-        if normalize_title_key(entry.get("title") or title)
-    }
+    index = build_identity_index(existing)
     added = updated = skipped = invalid = 0
     for title, entry in labeled.items():
         if not entry.get("labels") or not entry.get("pipeline_stages"):

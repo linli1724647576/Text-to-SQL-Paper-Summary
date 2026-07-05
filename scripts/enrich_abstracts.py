@@ -14,6 +14,7 @@ from pathlib import Path
 
 from http_utils import get_text as http_get_text, request as http_request
 from openalex_utils import abstract_from_inverted_index, get_openalex_json
+from paper_utils import arxiv_id_from_openalex_work
 
 
 def clean(text):
@@ -271,6 +272,9 @@ def batch_by_doi(entries):
                 entry["doi"] = result_doi
             if work.get("id"):
                 entry["openalex_id"] = work["id"]
+            arxiv_id = arxiv_id_from_openalex_work(work)
+            if arxiv_id and not entry.get("arxiv_id"):
+                entry["arxiv_id"] = arxiv_id
             url = openalex_work_url(work)
             if url:
                 entry["url"] = url
@@ -282,7 +286,7 @@ def batch_by_doi(entries):
             {
                 "filter": "doi:" + "|".join(doi for _, _, doi in chunk),
                 "per-page": str(len(chunk)),
-                "select": "id,title,doi,abstract_inverted_index,primary_location",
+                "select": "id,title,doi,abstract_inverted_index,primary_location,best_oa_location,locations",
             },
             timeout=30,
         )

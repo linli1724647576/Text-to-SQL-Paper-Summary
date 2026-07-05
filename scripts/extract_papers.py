@@ -58,7 +58,7 @@ def normalize_entry(entry, title, venue, year):
         "venue": entry.get("venue", venue),
         "venue_track": entry.get("venue_track", ""),
     }
-    for optional in ("journal", "container", "source", "publisher", "openalex_id"):
+    for optional in ("journal", "container", "source", "publisher", "openalex_id", "arxiv_id"):
         if entry.get(optional):
             out[optional] = entry.get(optional)
     if out["doi"] and out["url"] == out["doi"] and not out["url"].startswith("http"):

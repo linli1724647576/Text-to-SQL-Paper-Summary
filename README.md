@@ -6,23 +6,25 @@ This repository follows an ASE-style workflow: crawl DBLP/arXiv raw metadata, fe
 
 Current snapshot:
 
-- **463** classified Text-to-SQL papers
-- **174** rawdata files under `data/rawdata/`
-- **38** official accepted/proceedings source files
-- **44,130** official accepted candidates before relevance filtering
+- **586** classified Text-to-SQL papers
+- **182** rawdata files under `data/rawdata/`
+- **43** official accepted/proceedings source files
+- **56,574** official accepted candidates before relevance filtering
 - Website: <https://linli1724647576.github.io/Text-to-SQL-Paper-Summary/>
 
 ## Table of Contents
 
-- [Website](#website)
-- [Tracked Scope](#tracked-scope)
-- [Paper Counts](#paper-counts)
-- [Official Accepted Sources](#official-accepted-sources)
-- [Taxonomy](#taxonomy)
-- [Update Pipeline](#update-pipeline)
-- [Daily Automation](#daily-automation)
-- [Adding Papers](#adding-papers)
-- [Disclaimer](#disclaimer)
+- [Text-to-SQL Paper Summary ](#text-to-sql-paper-summary-)
+  - [Table of Contents](#table-of-contents)
+  - [Website](#website)
+  - [Paper Counts](#paper-counts)
+    - [Counts by Year](#counts-by-year)
+    - [Counts by Venue](#counts-by-venue)
+  - [Official Accepted Sources](#official-accepted-sources)
+  - [Update Pipeline](#update-pipeline)
+  - [Daily Automation](#daily-automation)
+  - [Adding Papers](#adding-papers)
+  - [Disclaimer](#disclaimer)
 
 ## Website
 
@@ -34,24 +36,10 @@ The browser supports:
 
 - full-text search over title, abstract, authors, venue, category, topic labels, and pipeline labels
 - dynamic filters for category, year, venue, topic, and pipeline stage
-- strict venue buckets: CCF-A venue/journal name, `ArXiv`, or `其他`
-- strict category buckets: `软件工程`, `数据库领域`, `AI 领域`, `交叉/综合/新兴`, `ArXiv`, `其他`
+- strict venue buckets: CCF-A venue/journal name, `ArXiv`, or `Other`
+- strict category buckets: `Software Engineering`, `Databases`, `AI`, `Interdisciplinary/General/Emerging`, `ArXiv`, `Other`
 - expandable paper cards with abstracts and source links
 
-## Tracked Scope
-
-The project focuses on Text-to-SQL papers from CCF-A software engineering, database, and AI venues/journals, plus arXiv and selected cross-domain venues.
-
-| Category | CCF-A venues / journals |
-| --- | --- |
-| 软件工程 | ICSE, FSE, ASE, ISSTA, TSE, TOSEM |
-| 数据库领域 | SIGMOD, VLDB, ICDE, KDD, SIGIR, TKDE, VLDBJ |
-| AI 领域 | AAAI, NeurIPS, ACL, CVPR, ICCV, ICML, IJCAI, AIJ |
-| 交叉/综合/新兴 | WWW |
-| ArXiv | arXiv Text-to-SQL / NL2SQL / semantic parsing preprints |
-| 其他 | Papers that are relevant to Text-to-SQL but do not map to the buckets above |
-
-`ASE` is treated only as **IEEE/ACM International Conference on Automated Software Engineering**.
 
 ## Paper Counts
 
@@ -68,15 +56,6 @@ The project focuses on Text-to-SQL papers from CCF-A software engineering, datab
 | 2026 | 119 |
 | **Total** | **463** |
 
-### Counts by Category
-
-| Category | Papers |
-| --- | ---: |
-| ArXiv | 295 |
-| 数据库领域 | 90 |
-| AI 领域 | 69 |
-| 软件工程 | 7 |
-| 交叉/综合/新兴 | 2 |
 
 ### Counts by Venue
 
@@ -136,49 +115,6 @@ Examples of official sources:
 - ICML and NeurIPS proceedings
 - TheWebConf accepted research tracks
 
-## Taxonomy
-
-Papers are labeled with topic labels and Text-to-SQL pipeline-stage labels. A paper can have multiple labels. `Benchmarks and Evaluation` is intentionally limited to three child labels: `Benchmark`, `Empirical Study`, and `Survey`.
-
-### Top Topic Counts
-
-| Topic Label | Papers |
-| --- | ---: |
-| Task Setting | 384 |
-| Single-turn Text-to-SQL | 381 |
-| Benchmarks and Evaluation | 296 |
-| Prompting and ICL | 286 |
-| Prompt Engineering | 257 |
-| Empirical Study | 231 |
-| Benchmark | 220 |
-| Agentic Feedback and Repair | 146 |
-| Pre-training and Fine-tuning | 134 |
-| Cross-domain Text-to-SQL | 122 |
-| Chain-of-Thought Reasoning | 114 |
-| Grounding and Retrieval | 111 |
-| Supervised Fine-tuning | 106 |
-| Planning and Generation | 91 |
-| Agentic Workflow | 66 |
-
-### Top Pipeline Counts
-
-| Pipeline Label | Papers |
-| --- | ---: |
-| SQL Generation | 397 |
-| Grounding | 227 |
-| Task Understanding | 121 |
-| Query Planning | 120 |
-| Context Retrieval | 118 |
-| Step-by-step Reasoning | 113 |
-| Verification & Repair | 78 |
-| Prompt-based Generation | 71 |
-| Fine-tuned Generation | 67 |
-| Schema Linking | 30 |
-| Self-correction | 30 |
-| Question Decomposition | 26 |
-| Intent Detection | 22 |
-| Execution Feedback | 17 |
-| Result Validation | 17 |
 
 ## Update Pipeline
 
@@ -193,6 +129,7 @@ The main scripts are:
 | Filter and label Text-to-SQL papers | `scripts/label_papers.py` |
 | Merge labeled papers | `scripts/merge_labeldata.py` |
 | Validate and audit the dataset | `scripts/validate_dataset.py`, `scripts/audit_literature_sample.py` |
+| Update README snapshot counts | `scripts/update_readme_snapshot.py` |
 | Build the static site | `scripts/build_site.py` |
 
 Typical local update:
@@ -205,6 +142,7 @@ python scripts/process_folder.py
 python scripts/merge_labeldata.py --dedupe-only --prune-irrelevant
 python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json
 python scripts/audit_literature_sample.py
+python scripts/update_readme_snapshot.py
 python scripts/build_site.py
 ```
 
@@ -221,9 +159,10 @@ The workflow:
 3. enriches missing abstracts
 4. filters and merges new Text-to-SQL papers
 5. validates and audits the dataset
-6. rebuilds `web/index.html`
-7. commits refreshed data back to the repository
-8. deploys the website to GitHub Pages
+6. updates the `Current snapshot` counts in `README.md`
+7. rebuilds `web/index.html`
+8. commits refreshed data back to the repository
+9. deploys the website to GitHub Pages
 
 Manual run:
 
@@ -260,7 +199,7 @@ For one-off manual additions, edit `data/labeldata/labeldata.json` with the fiel
     "abstract": "...",
     "url": "https://...",
     "venue": "ACL",
-    "venue_track": "AI 领域",
+    "venue_track": "AI",
     "labels": ["Task Setting", "Single-turn Text-to-SQL"],
     "pipeline_stages": ["SQL Generation"]
   }

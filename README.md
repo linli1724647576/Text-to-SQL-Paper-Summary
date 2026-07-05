@@ -137,8 +137,9 @@ The main scripts are:
 Typical local update:
 
 ```bash
-python scripts/fetch_rawdata.py --from-year 2020 --to-year 2026 --arxiv-max-results 1000 --sleep 0.5
-python scripts/fetch_official_accepted.py --from-year 2020 --to-year 2026 --sleep 0.5
+CURRENT_YEAR="$(date -u +%Y)"
+python scripts/fetch_rawdata.py --from-year 2020 --to-year "${CURRENT_YEAR}" --arxiv-max-results 1000 --sleep 0.5
+python scripts/fetch_official_accepted.py --from-year 2020 --to-year "${CURRENT_YEAR}" --sleep 0.5
 python scripts/enrich_abstracts.py data/rawdata --delay 1.0
 python scripts/process_folder.py
 python scripts/merge_labeldata.py --dedupe-only --prune-irrelevant
@@ -156,22 +157,23 @@ GitHub Actions runs the update workflow every day at **01:00 Asia/Shanghai**.
 
 The workflow:
 
-1. fetches DBLP/arXiv rawdata
-2. fetches official accepted/proceedings pages
-3. enriches missing abstracts
-4. filters and merges new Text-to-SQL papers
-5. validates and audits the dataset
-6. updates the `Current snapshot` counts in `README.md`
-7. rebuilds `web/index.html`
-8. commits refreshed data back to the repository
-9. deploys the website to GitHub Pages
+1. selects one crawl year between 2020 and the current UTC year
+2. fetches selected-year DBLP/OpenAlex rawdata
+3. fetches selected-year official accepted/proceedings pages
+4. enriches missing abstracts
+5. filters and merges new Text-to-SQL papers
+6. validates and audits the dataset
+7. updates the `Current snapshot` counts in `README.md`
+8. rebuilds `web/index.html`
+9. commits refreshed data back to the repository
+10. deploys the website to GitHub Pages
 
 Manual run:
 
 1. Open the repository **Actions** tab.
 2. Select **Build, Crawl, and Deploy Pages**.
 3. Click **Run workflow**.
-4. Use `full_crawl=true` for a complete refresh.
+4. Use `full_crawl=true` for a complete refresh, including arXiv.
 
 Optional secret:
 

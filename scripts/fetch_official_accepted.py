@@ -13,6 +13,7 @@ import re
 import sys
 import time
 import urllib.parse
+from datetime import datetime, timezone
 from pathlib import Path
 
 from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
@@ -21,6 +22,10 @@ from http_utils import get_text
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAWDATA_DIR = REPO_ROOT / "data" / "rawdata"
 REPORT_DIR = REPO_ROOT / "data" / "reports"
+
+
+def current_year():
+    return datetime.now(timezone.utc).year
 
 OFFICIAL_ACCEPTED_URLS = {
     "ACL": {
@@ -683,7 +688,7 @@ def prepare_incremental_fetch(args, state, skipped, venue, year, out_path):
 def main():
     parser = argparse.ArgumentParser(description="Fetch official accepted-paper pages")
     parser.add_argument("--from-year", type=int, default=2020)
-    parser.add_argument("--to-year", type=int, default=2026)
+    parser.add_argument("--to-year", type=int, default=current_year())
     parser.add_argument("--venues", help="Comma-separated venues, e.g. SIGMOD,ICDE,SIGIR")
     parser.add_argument("--output-dir", default=str(RAWDATA_DIR))
     parser.add_argument("--sleep", type=float, default=0.2)

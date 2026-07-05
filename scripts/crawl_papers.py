@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 from openalex_utils import abstract_from_inverted_index, get_openalex_json
@@ -85,6 +86,10 @@ CCF_VENUE_QUERIES = {
     "VLDBJ": ["VLDB Journal", "The VLDB Journal"],
     "WWW": ["The Web Conference", "World Wide Web Conference"],
 }
+
+
+def current_year():
+    return datetime.now(timezone.utc).year
 
 
 def clean_text(text):
@@ -269,7 +274,7 @@ def main():
     parser = argparse.ArgumentParser(description="Crawl Text-to-SQL metadata from OpenAlex")
     parser.add_argument("--output", "-o", default="data/autocrawl/openalex.json")
     parser.add_argument("--from-year", type=int, default=2020)
-    parser.add_argument("--to-year", type=int, default=2026)
+    parser.add_argument("--to-year", type=int, default=current_year())
     parser.add_argument(
         "--max-results",
         type=int,

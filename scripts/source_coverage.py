@@ -17,7 +17,7 @@ except Exception:
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_RAWDATA = REPO_ROOT / "data" / "rawdata"
 
-CURRENT_YEAR = 2026
+CURRENT_YEAR = datetime.now(timezone.utc).year
 TRACK_ORDER = ("AI", "DB", "SE")
 
 CURRENT_YEAR_CONFERENCE_STATUS = {
@@ -209,7 +209,8 @@ def expected_current_year_conferences(to_year, tracks, rawdata_dir):
     return records
 
 
-def expected_source_records(from_year=2020, to_year=2026, tracks=None, rawdata_dir=DEFAULT_RAWDATA):
+def expected_source_records(from_year=2020, to_year=None, tracks=None, rawdata_dir=DEFAULT_RAWDATA):
+    to_year = CURRENT_YEAR if to_year is None else to_year
     allowed = selected_tracks(tracks)
     records = []
     seen = set()
@@ -257,7 +258,8 @@ def source_coverage_summary(records):
     return summary
 
 
-def write_source_coverage_report(path, records, *, from_year=2020, to_year=2026, tracks=None):
+def write_source_coverage_report(path, records, *, from_year=2020, to_year=None, tracks=None):
+    to_year = CURRENT_YEAR if to_year is None else to_year
     payload = {
         "version": 1,
         "generated_at": utc_now(),
@@ -274,7 +276,8 @@ def write_source_coverage_report(path, records, *, from_year=2020, to_year=2026,
     return payload
 
 
-def venue_manifest(from_year=2020, to_year=2026, tracks=None, rawdata_dir=DEFAULT_RAWDATA):
+def venue_manifest(from_year=2020, to_year=None, tracks=None, rawdata_dir=DEFAULT_RAWDATA):
+    to_year = CURRENT_YEAR if to_year is None else to_year
     del rawdata_dir
     allowed = selected_tracks(tracks)
     seen = set()

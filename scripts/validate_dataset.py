@@ -7,6 +7,7 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 from label_papers import relevance_level
@@ -79,6 +80,10 @@ CCF_RECALL_CANARIES = [
         "year": "2026",
     },
 ]
+
+
+def current_year():
+    return datetime.now(timezone.utc).year
 
 
 def load_json(path, default):
@@ -612,7 +617,7 @@ def main():
     parser.add_argument("--write-report", default=str(DEFAULT_REPORT))
     parser.add_argument("--source-coverage-report", default=str(DEFAULT_SOURCE_COVERAGE_REPORT))
     parser.add_argument("--from-year", type=int, default=2020)
-    parser.add_argument("--to-year", type=int, default=2026)
+    parser.add_argument("--to-year", type=int, default=current_year())
     args = parser.parse_args()
     raise SystemExit(validate(args))
 

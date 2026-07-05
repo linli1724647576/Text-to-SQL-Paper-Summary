@@ -18,9 +18,9 @@ on:
         type: string
         default: "2020"
       to_year:
-        description: "Full crawl end year"
+        description: "Full crawl end year; leave empty for the current UTC year"
         type: string
-        default: "2026"
+        default: ""
   schedule:
     # 01:00 Asia/Shanghai every day.
     - cron: "0 17 * * *"
@@ -49,31 +49,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Select daily crawl venues
+      - name: Resolve current year
+        id: years
+        run: echo "current_year=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
+
+      - name: Select daily crawl year
         if: github.event_name == 'schedule'
         id: rotation
-        run: python scripts/crawl_rotation.py select --from-year 2020 --to-year 2026 --tracks AI,DB,SE --batch-size 2
+        run: python scripts/crawl_rotation.py select-year --from-year 2020 --to-year "${{ steps.years.outputs.current_year }}" --tracks AI,DB,SE
 
-      - name: Fetch rotated rawdata
+      - name: Fetch selected-year rawdata
         if: github.event_name == 'schedule'
-        run: python scripts/fetch_rawdata.py --from-year 2020 --to-year 2026 --tracks AI,DB,SE --venues "${{ steps.rotation.outputs.venues }}" --arxiv-max-results 1000 --sleep 2.0 --incremental --active-year-refresh-days 7
+        run: python scripts/fetch_rawdata.py --from-year "${{ steps.rotation.outputs.year }}" --to-year "${{ steps.rotation.outputs.year }}" --tracks AI,DB,SE --venues "${{ steps.rotation.outputs.venues }}" --no-arxiv --sleep 2.0 --incremental --active-year-refresh-days 7
 
       - name: Fetch full rawdata
         if: inputs.full_crawl
-        run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --tracks AI,DB,SE --arxiv-max-results 1000 --sleep 0.5
+        run: python scripts/fetch_rawdata.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || steps.years.outputs.current_year }}" --tracks AI,DB,SE --arxiv-max-results 1000 --sleep 0.5
 
-      - name: Fetch rotated official accepted papers
+      - name: Fetch selected-year official accepted papers
         if: github.event_name == 'schedule'
-        run: python scripts/fetch_official_accepted.py --from-year 2020 --to-year 2026 --venues "${{ steps.rotation.outputs.venues }}" --sleep 2.0 --incremental --active-year-refresh-days 7
+        run: python scripts/fetch_official_accepted.py --from-year "${{ steps.rotation.outputs.year }}" --to-year "${{ steps.rotation.outputs.year }}" --venues "${{ steps.rotation.outputs.venues }}" --sleep 2.0 --incremental --active-year-refresh-days 7
 
       - name: Fetch official accepted papers
         if: inputs.full_crawl
-        run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || '2026' }}" --sleep 0.5
+        run: python scripts/fetch_official_accepted.py --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || steps.years.outputs.current_year }}" --sleep 0.5
 
-      - name: Enrich rotated abstracts
+      - name: Enrich selected-year abstracts
         if: github.event_name == 'schedule'
         run: >
-          python scripts/enrich_abstracts.py data/rawdata
+          python scripts/enrich_abstracts.py data/rawdata/${{ steps.rotation.outputs.year }}
           --limit-per-file 80
           --global-limit 300
           --delay 1.0
@@ -109,7 +113,7 @@ jobs:
 
       - name: Validate dataset
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl
-        run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json
+        run: python scripts/validate_dataset.py --mode balanced --baseline HEAD:data/labeldata/labeldata.json --from-year "${{ inputs.from_year || '2020' }}" --to-year "${{ inputs.to_year || steps.years.outputs.current_year }}"
 
       - name: Audit literature sample
         if: github.event_name == 'schedule' || inputs.process_rawdata || inputs.full_crawl

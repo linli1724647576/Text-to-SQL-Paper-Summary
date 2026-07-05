@@ -13,6 +13,7 @@ import sys
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from pathlib import Path
 
 from crawl_state import load_state, mark_complete, mark_failed, mark_stale, save_state, should_skip_fetch
@@ -55,14 +56,20 @@ OPENALEX_CONFERENCE_SOURCES = {
 
 PVLDB_VOLUME_YEAR_OFFSET = -2007
 
-CURRENT_YEAR_DBLP_CONFERENCES = [
-    ("AI", "AAAI", "aaai", 2026),
-    ("DB", "VLDB", "vldb", 2026),
-]
-
 
 def clean(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
+
+
+def current_year():
+    return datetime.now(timezone.utc).year
+
+
+def current_year_dblp_conferences(year):
+    return [
+        ("AI", "AAAI", "aaai", int(year)),
+        ("DB", "VLDB", "vldb", int(year)),
+    ]
 
 
 def dblp_url(dblp_key, year):
@@ -79,7 +86,7 @@ def pvldb_url(year):
 
 
 def hinted_journal_urls(dblp_key, year):
-    if dblp_key not in JOURNAL_VOLUME_HINTS or year < 2020 or year > 2026:
+    if dblp_key not in JOURNAL_VOLUME_HINTS or year < 2020:
         return []
     prefix, offset = JOURNAL_VOLUME_HINTS[dblp_key]
     volume = year + offset
@@ -540,7 +547,7 @@ def fetch_conference_to_rawdata(args, state, skipped, failures, warnings, track,
 def main():
     parser = argparse.ArgumentParser(description="Fetch CCF-A DBLP and arXiv rawdata")
     parser.add_argument("--from-year", type=int, default=2020)
-    parser.add_argument("--to-year", type=int, default=2026)
+    parser.add_argument("--to-year", type=int, default=current_year())
     parser.add_argument("--tracks", default="AI,DB,SE",
                         help="Comma-separated CCF-A tracks: AI,DB,SE")
     parser.add_argument("--venues", help="Comma-separated venue abbreviations for debugging")
@@ -571,7 +578,7 @@ def main():
         fetched_keys.add((venue, year))
         total += fetch_conference_to_rawdata(args, state, skipped, failures, warnings, track, venue, dblp_key, year)
 
-    for track, venue, dblp_key, year in CURRENT_YEAR_DBLP_CONFERENCES:
+    for track, venue, dblp_key, year in current_year_dblp_conferences(args.to_year):
         if track not in tracks or year < args.from_year or year > args.to_year:
             continue
         if allowed_venues and venue.lower() not in allowed_venues:

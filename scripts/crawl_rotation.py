@@ -19,6 +19,10 @@ DEFAULT_TRACKS = "AI,DB,SE"
 HISTORY_LIMIT = 90
 
 
+def current_year():
+    return datetime.now(timezone.utc).year
+
+
 def load_json(path, default):
     path = Path(path)
     if not path.exists():
@@ -36,6 +40,16 @@ def write_json(path, payload):
 
 def venue_manifest(from_year, to_year, tracks):
     return source_venue_manifest(from_year, to_year, tracks=tracks)
+
+
+def year_venue_manifest(year, tracks):
+    return venue_manifest(year, year, tracks)
+
+
+def year_range(from_year, to_year):
+    if to_year < from_year:
+        raise ValueError(f"to_year {to_year} is before from_year {from_year}")
+    return list(range(from_year, to_year + 1))
 
 
 def normalized_retry_queue(rotation, manifest):
@@ -102,6 +116,23 @@ def write_github_output(path, outputs):
             f.write(f"{key}={value}\n")
 
 
+def select_year_batch(state, from_year, to_year, tracks):
+    years = year_range(from_year, to_year)
+    rotation = state.setdefault("year_rotation", {})
+    cursor_before = int(rotation.get("cursor") or 0) % len(years)
+    year = years[cursor_before]
+    venues = year_venue_manifest(year, tracks)
+    if not venues:
+        raise SystemExit(f"empty venue manifest for {year}")
+    return {
+        "year": year,
+        "venues": venues,
+        "venues_csv": ",".join(venues),
+        "cursor_before": cursor_before,
+        "cursor_after": (cursor_before + 1) % len(years),
+    }
+
+
 def command_select(args):
     manifest = venue_manifest(args.from_year, args.to_year, args.tracks)
     if not manifest:
@@ -128,6 +159,37 @@ def command_select(args):
     write_json(args.plan, plan)
     write_github_output(args.github_output, {"venues": plan["venues_csv"]})
     print(f"Selected crawl venues: {plan['venues_csv']}")
+
+
+def command_select_year(args):
+    state = load_state(args.crawl_state)
+    now = datetime.now(timezone.utc)
+    to_year = args.to_year if args.to_year is not None else current_year()
+    selection = select_year_batch(state, args.from_year, to_year, args.tracks)
+    plan = {
+        "version": 1,
+        "mode": "year",
+        "selected_at": isoformat(now),
+        "from_year": args.from_year,
+        "to_year": to_year,
+        "tracks": args.tracks,
+        "year": selection["year"],
+        "venues": selection["venues"],
+        "venues_csv": selection["venues_csv"],
+        "cursor_before": selection["cursor_before"],
+        "cursor_after": selection["cursor_after"],
+    }
+    write_json(args.plan, plan)
+    write_github_output(
+        args.github_output,
+        {
+            "year": str(plan["year"]),
+            "venues": plan["venues_csv"],
+            "from_year": str(args.from_year),
+            "to_year": str(to_year),
+        },
+    )
+    print(f"Selected crawl year: {plan['year']}; venues: {plan['venues_csv']}")
 
 
 def report_failed_venues(reports_dir, selected):
@@ -159,6 +221,9 @@ def state_failed_venues(state, selected, selected_at):
 def command_finalize(args):
     state = load_state(args.crawl_state)
     plan = load_json(args.plan, {})
+    if plan.get("mode") == "year":
+        finalize_year_rotation(state, plan, args)
+        return
     selected = [str(item) for item in plan.get("venues") or []]
     if not selected:
         print("No selected venues in rotation plan; nothing to finalize")
@@ -193,19 +258,61 @@ def command_finalize(args):
     print(f"Finalized crawl venues: succeeded={succeeded}; failed={sorted(failed)}")
 
 
+def finalize_year_rotation(state, plan, args):
+    selected = [str(item) for item in plan.get("venues") or []]
+    if not selected:
+        print("No selected venues in year rotation plan; nothing to finalize")
+        return
+    selected_at = parse_time(plan.get("selected_at")) or datetime.now(timezone.utc)
+    failed = report_failed_venues(args.reports_dir, selected)
+    failed |= state_failed_venues(state, selected, selected_at)
+    succeeded = [venue for venue in selected if venue not in failed]
+    rotation = state.setdefault("year_rotation", {})
+    rotation["cursor"] = int(plan.get("cursor_after", rotation.get("cursor") or 0))
+    history = rotation.setdefault("history", [])
+    history.append(
+        {
+            "finalized_at": isoformat(datetime.now(timezone.utc)),
+            "year": int(plan.get("year")),
+            "venues": selected,
+            "succeeded": succeeded,
+            "failed": sorted(failed),
+            "cursor": rotation["cursor"],
+        }
+    )
+    rotation["history"] = history[-HISTORY_LIMIT:]
+    rotation["last_selected_year"] = int(plan.get("year"))
+    rotation["last_selected"] = selected
+    rotation["last_completed_at"] = history[-1]["finalized_at"]
+    save_state(args.crawl_state, state)
+    print(
+        f"Finalized crawl year: year={plan.get('year')}; "
+        f"succeeded={succeeded}; failed={sorted(failed)}"
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Manage daily incremental crawl rotation")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     select = subparsers.add_parser("select")
     select.add_argument("--from-year", type=int, default=2020)
-    select.add_argument("--to-year", type=int, default=2026)
+    select.add_argument("--to-year", type=int, default=current_year())
     select.add_argument("--tracks", default=DEFAULT_TRACKS)
     select.add_argument("--batch-size", type=int, default=2)
     select.add_argument("--crawl-state", default=str(DEFAULT_STATE))
     select.add_argument("--plan", default=str(DEFAULT_PLAN))
     select.add_argument("--github-output")
     select.set_defaults(func=command_select)
+
+    select_year = subparsers.add_parser("select-year")
+    select_year.add_argument("--from-year", type=int, default=2020)
+    select_year.add_argument("--to-year", type=int)
+    select_year.add_argument("--tracks", default=DEFAULT_TRACKS)
+    select_year.add_argument("--crawl-state", default=str(DEFAULT_STATE))
+    select_year.add_argument("--plan", default=str(DEFAULT_PLAN))
+    select_year.add_argument("--github-output")
+    select_year.set_defaults(func=command_select_year)
 
     finalize = subparsers.add_parser("finalize")
     finalize.add_argument("--crawl-state", default=str(DEFAULT_STATE))

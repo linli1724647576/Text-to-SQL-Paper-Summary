@@ -15,10 +15,10 @@
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
 | ccf_conference | true_positive_application | ISSTA | 2020 | DeepSQLi: deep semantic learning for testing SQL injection |  |
 | ccf_conference | true_positive_application | ASE | 2025 | DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models |  |
-| ccf_conference | true_positive_core | ICDE | 2024 | PURPLE: Making a Large Language Model a Better SQL Writer |  |
-| ccf_conference | true_positive_core | NeurIPS | 2023 | QATCH: Benchmarking SQL-centric tasks with Table Representation Learning Models on Your Data | missing doi |
-| ccf_conference | true_positive_core | AAAI | 2021 | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training |  |
-| ccf_conference | true_positive_core | KDD | 2022 | Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph |  |
+| ccf_conference | true_positive_core | SIGMOD | 2026 | PRISM: Navigating Cost-Accuracy Trade-offs for NL2SQL | missing doi, abstract |
+| ccf_conference | true_positive_core | KDD | 2022 | Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing |  |
+| ccf_conference | true_positive_core | AAAI | 2023 | Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams |  |
+| ccf_conference | true_positive_core | SIGMOD | 2026 | SchemaRAG: A Schema-aware Retrieval-Augmented Generation Framework for Text-to-SQL | missing doi, abstract |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
 | readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
@@ -38,12 +38,12 @@
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
-| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
-| supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
+| supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
+| supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
 | supplemental | true_positive_core | AAAI | 2020 | Zero-Shot Text-to-SQL Learning with Auxiliary Task |  |
+| supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| supplemental | true_positive_core | AAAI | 2020 | Neural Semantic Parsing in Low-Resource Settings with Back-Translation and Meta-Learning |  |
-| supplemental | true_positive_core | TKDE | 2024 | Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey |  |
+| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
 | fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |
-| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |

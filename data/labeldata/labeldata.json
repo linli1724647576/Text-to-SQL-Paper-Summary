@@ -5464,6 +5464,29 @@
       "application_related"
     ]
   },
+  "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/sigmod/WeiTA21",
+    "author": "Ziyun Wei and Immanuel Trummer and Connor Anderson 0002",
+    "booktitle": "SIGMOD Conference",
+    "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
+    "year": "2021",
+    "abstract": "Recently proposed voice query interfaces translate voice input into SQL queries. Unreliable speech recognition on top of the intrinsic challenges of text-to-SQL translation makes it hard to reliably interpret user input. We present MUVE (Multiplots for Voice quEries), a system for robust voice querying. MUVE reduces the impact of ambiguous voice queries by filling the screen with multiplots, capturing results of phonetically similar queries. It maps voice input to a probability distribution over query candidates, executes a selected subset of queries, and visualizes their results in a multiplot.",
+    "keywords": "",
+    "url": "https://doi.org/10.1145/3448016.3452753",
+    "doi": "10.1145/3448016.3452753",
+    "venue": "SIGMOD",
+    "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W3175426867",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/LaoT25",

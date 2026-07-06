@@ -6012,12 +6012,13 @@
     "booktitle": "KDD",
     "title": "Deep Learning on Graphs for Natural Language Processing.",
     "year": "2021",
-    "abstract": "",
+    "abstract": "There are a rich variety of NLP problems that can be best expressed with graph structures. Due to the great power in modeling non-Euclidean data like graphs, deep learning on graphs techniques (i.e., Graph Neural Networks (GNNs)) have opened a new door to solving challenging graph-related NLP problems, and have already achieved great success. Despite the success, deep learning on graphs for NLP (DLG4NLP) still faces many challenges (e.g., automatic graph construction, graph representation learning for complex graphs, learning mapping between complex data structures).",
     "keywords": "",
     "url": "https://doi.org/10.1145/3447548.3470820",
     "doi": "10.1145/3447548.3470820",
     "venue": "KDD2021",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W3195085629"
   },
   "Adversarial Robustness in Deep Learning: From Practices to Theories.": {
     "type": "INPROCEEDINGS",

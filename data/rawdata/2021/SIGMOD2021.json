@@ -1308,12 +1308,13 @@
     "booktitle": "SIGMOD Conference",
     "title": "Logical Schema Design that Quantifies Update Inefficiency and Join Efficiency.",
     "year": "2021",
-    "abstract": "",
+    "abstract": "The goal of classical normalization is to maintain data consistency under updates, with a minimum level of effort. Given functional dependencies (FDs) alone, this goal is only achievable in the special case an FD-preserving Boyce-Codd Normal Form (BCNF) decomposition exists. As we show, in all other cases the level of effort can be neither controlled nor quantified. In response, we establish the l-Bounded Cardinality Normal Form, parameterized by a positive integer l. For every l, the normal form condition requires from every instance that every value combination over the left-hand side of every non-trivial FD does not occur in more than l tuples. BCNF is captured when l=1. We demonstrate that schemata in this normal form characterize the instances that are i) free from level l data redundancy and update inefficiency, and ii) permit level l join efficiency. We establish algorithms that compute schemata in l-Bounded Cardinality Normal Form for the smallest level l attainable across all FD-preserving decompositions. Additional algorithms i) attain even smaller levels of effort based on the loss of some FDs, and ii) decompose schemata based on prioritized FDs that cause high levels of effort. Our framework informs de-normalization already during logical design. In particular, level l quantifies both the incremental maintenance and join support of materialized views. Experiments with synthetic and real-world data illustrate which properties the schemata have that result from our algorithms, and how these properties predict the performance of update and query operations on instances over the schemata, without and with materialized views.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3448016.3459238",
     "doi": "10.1145/3448016.3459238",
     "venue": "SIGMOD2021",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W3173860497"
   },
   "Properties of Inconsistency Measures for Databases.": {
     "type": "INPROCEEDINGS",
@@ -3352,12 +3353,13 @@
     "booktitle": "SIGMOD Conference",
     "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries.",
     "year": "2021",
-    "abstract": "",
+    "abstract": "Recently proposed voice query interfaces translate voice input into SQL queries. Unreliable speech recognition on top of the intrinsic challenges of text-to-SQL translation makes it hard to reliably interpret user input. We present MUVE (Multiplots for Voice quEries), a system for robust voice querying. MUVE reduces the impact of ambiguous voice queries by filling the screen with multiplots, capturing results of phonetically similar queries. It maps voice input to a probability distribution over query candidates, executes a selected subset of queries, and visualizes their results in a multiplot.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3448016.3452753",
     "doi": "10.1145/3448016.3452753",
     "venue": "SIGMOD2021",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W3175426867"
   },
   "Vertex-Centric Visual Programming for Graph Neural Networks.": {
     "type": "INPROCEEDINGS",

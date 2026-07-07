@@ -1299,7 +1299,9 @@
     "url": "https://doi.org/10.1609/aaai.v36i1.19965",
     "doi": "10.1609/aaai.v36i1.19965",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283795993",
+    "arxiv_id": "2207.10959"
   },
   "Flow-Based Unconstrained Lip to Speech Generation.": {
     "type": "INPROCEEDINGS",
@@ -4001,7 +4003,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i3.20158",
     "doi": "10.1609/aaai.v36i3.20158",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3199093552"
   },
   "Panini-Net: GAN Prior Based Degradation-Aware Feature Interpolation for Face Restoration.": {
     "type": "INPROCEEDINGS",
@@ -6129,7 +6132,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i4.20310",
     "doi": "10.1609/aaai.v36i4.20310",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283819090"
   },
   "TAG: Learning Timed Automata from Logs.": {
     "type": "INPROCEEDINGS",
@@ -6913,7 +6917,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i4.20366",
     "doi": "10.1609/aaai.v36i4.20366",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4226151502"
   },
   "DeepHardMark: Towards Watermarking Neural Network Hardware.": {
     "type": "INPROCEEDINGS",
@@ -8621,7 +8626,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i5.20488",
     "doi": "10.1609/aaai.v36i5.20488",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3176524813"
   },
   "Expressivity of Planning with Horn Description Logic Ontologies.": {
     "type": "INPROCEEDINGS",
@@ -9265,7 +9271,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i5.20534",
     "doi": "10.1609/aaai.v36i5.20534",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283806425"
   },
   "MeTeoR: Practical Reasoning in Datalog with Metric Temporal Operators.": {
     "type": "INPROCEEDINGS",
@@ -10119,7 +10126,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i6.20595",
     "doi": "10.1609/aaai.v36i6.20595",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3036294592"
   },
   "Learning Logic Programs Though Divide, Constrain, and Conquer.": {
     "type": "INPROCEEDINGS",
@@ -12989,7 +12997,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i8.20800",
     "doi": "10.1609/aaai.v36i8.20800",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283790955"
   },
   "Learning Bounded Context-Free-Grammar via LSTM and the Transformer: Difference and the Explanations.": {
     "type": "INPROCEEDINGS",
@@ -15173,7 +15182,9 @@
     "url": "https://doi.org/10.1609/aaai.v36i9.21199",
     "doi": "10.1609/aaai.v36i9.21199",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4226065536",
+    "arxiv_id": "2112.01592"
   },
   "Extended Goal Recognition Design with First-Order Computation Tree Logic.": {
     "type": "INPROCEEDINGS",
@@ -16853,7 +16864,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21319",
     "doi": "10.1609/aaai.v36i10.21319",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283794395"
   },
   "GALAXY: A Generative Pre-trained Model for Task-Oriented Dialog with Semi-supervised Learning and Explicit Policy Injection.": {
     "type": "INPROCEEDINGS",
@@ -17161,7 +17173,9 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21341",
     "doi": "10.1609/aaai.v36i10.21341",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3207327529",
+    "arxiv_id": "2110.06800"
   },
   "Unifying Model Explainability and Robustness for Joint Text Classification and Rationale Extraction.": {
     "type": "INPROCEEDINGS",
@@ -17326,10 +17340,11 @@
     "year": "2022",
     "abstract": "There is growing evidence that the classical notion of adversarial robustness originally introduced for images has been adopted as a de facto standard by a large part of the NLP research community. We show that this notion is problematic in the context of NLP as it considers a narrow spectrum of linguistic phenomena. In this paper, we argue for semantic robustness, which is better aligned with the human concept of linguistic fidelity. We characterize semantic robustness in terms of biases that it is expected to induce in a model. We study semantic robustness of a range of vanilla and robustly trained architectures using a template-based generative test bed. We complement the analysis with empirical evidence that, despite being harder to implement, semantic robustness can improve performance %gives guarantees for on complex linguistic phenomena where models robust in the classical sense fail.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v36i10.21353",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21353",
     "doi": "10.1609/aaai.v36i10.21353",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283790681"
   },
   "Selecting Optimal Context Sentences for Event-Event Relation Extraction.": {
     "type": "INPROCEEDINGS",
@@ -17357,7 +17372,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21355",
     "doi": "10.1609/aaai.v36i10.21355",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3201572980"
   },
   "CINS: Comprehensive Instruction for Few-Shot Learning in Task-Oriented Dialog Systems.": {
     "type": "INPROCEEDINGS",
@@ -17581,7 +17597,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21371",
     "doi": "10.1609/aaai.v36i10.21371",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283793025"
   },
   "SFSRNet: Super-resolution for Single-Channel Audio Source Separation.": {
     "type": "INPROCEEDINGS",
@@ -17791,7 +17808,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21386",
     "doi": "10.1609/aaai.v36i10.21386",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283792669"
   },
   "Hyperbolic Disentangled Representation for Fine-Grained Aspect Extraction.": {
     "type": "INPROCEEDINGS",
@@ -18337,7 +18355,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i10.21425",
     "doi": "10.1609/aaai.v36i10.21425",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3217374296"
   },
   "Frequency-Aware Contrastive Learning for Neural Machine Translation.": {
     "type": "INPROCEEDINGS",
@@ -18785,7 +18804,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i11.21457",
     "doi": "10.1609/aaai.v36i11.21457",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4226355963"
   },
   "Optimal Local Explainer Aggregation for Interpretable Prediction.": {
     "type": "INPROCEEDINGS",
@@ -20017,7 +20037,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i11.21545",
     "doi": "10.1609/aaai.v36i11.21545",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3200370756"
   },
   "A Socially Relevant Focused AI Curriculum Designed for Female High School Students.": {
     "type": "INPROCEEDINGS",
@@ -21566,7 +21587,7 @@
     "booktitle": "AAAI",
     "title": "Do We Need a New Large-Scale Quality Assessment Database for Generative Inpainting Based 3D View Synthesis? (Student Abstract).",
     "year": "2022",
-    "abstract": "The advancement in Image-to-Image translation techniques using generative Deep Learning-based approaches has shown promising results for the challenging task of inpainting-based 3D view synthesis. At the same time, even the current 3D view synthesis methods often create distorted structures or blurry textures inconsistent with surrounding areas. We analyzed the recently proposed algorithms for inpainting-based 3D view synthesis and observed that these algorithms no longer produce stretching and black holes. However, the existing databases such as IETR, IRCCyN, and IVY have 3D-generated views with these artifacts. This observation suggests that the existing 3D view synthesis quality assessment algorithms can not judge the quality of most recent 3D synthesized views. With this view, through this abstract, we analyze the need for a new large-scale database and a new perceptual quality metric oriented for 3D views using a test dataset.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v36i11.21656",
     "doi": "10.1609/aaai.v36i11.21656",
@@ -22355,7 +22376,8 @@
     "url": "https://doi.org/10.1609/aaai.v36i11.21712",
     "doi": "10.1609/aaai.v36i11.21712",
     "venue": "AAAI2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4283806403"
   },
   "UCSM-DNN: User and Card Style Modeling with Deep Neural Networks for Personalized Game AI.": {
     "type": "INPROCEEDINGS",

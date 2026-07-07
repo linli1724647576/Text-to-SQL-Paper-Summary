@@ -37,13 +37,13 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
+| supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | supplemental | true_positive_core | VLDBJ | 2023 | A survey on deep learning approaches for text-to-SQL |  |
-| supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
+| supplemental | true_positive_core | ACL | 2022 | Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion |  |
+| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
 | supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
+| supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
 | supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
 | supplemental | true_positive_core | AAAI | 2020 | Zero-Shot Text-to-SQL Learning with Auxiliary Task |  |
-| supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
-| supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| fill | true_positive_core | SIGMOD | 2025 | Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams? |  |
 | fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
-| fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |

@@ -146,12 +146,13 @@
     "booktitle": "ACL (1)",
     "title": "Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking.",
     "year": "2022",
-    "abstract": "Dialogue State Tracking (DST) aims to keep track of users’ intentions during the course of a conversation. In DST, modelling the relations among domains and slots is still an under-studied problem. Existing approaches that have considered such relations generally fall short in: (1) fusing prior slot-domain membership relations and dialogue-aware dynamic slot relations explicitly, and (2) generalizing to unseen domains. To address these issues, we propose a novel D ynamic S chema G raph F usion Net work ( DSGFNet ), which generates a dynamic schema graph to explicitly fuse the prior slot-domain membership relations and dialogue-aware dynamic slot relations. It also uses the schemata to facilitate knowledge transfer to new domains. DSGFNet consists of a dialogue utterance encoder, a schema graph encoder, a dialogue-aware schema graph evolving network, and a schema graph enhanced dialogue state decoder. Empirical results on benchmark datasets (i.e., SGD, MultiWOZ2.1, and MultiWOZ2.2), show that DSGFNet outperforms existing methods.",
+    "abstract": "Dialogue State Tracking (DST) aims to keep track of users' intentions during the course of a conversation. In DST, modelling the relations among domains and slots is still an under-studied problem. Existing approaches that have considered such relations generally fall short in: (1) fusing prior slot-domain membership relations and dialogue-aware dynamic slot relations explicitly, and (2) generalizing to unseen domains. To address these issues, we propose a novel Dynamic Schema Graph Fusion Network (DSGFNet), which generates a dynamic schema graph to explicitly fuse the prior slot-domain membership relations and dialogue-aware dynamic slot relations. It also uses the schemata to facilitate knowledge transfer to new domains. DSGFNet consists of a dialogue utterance encoder, a schema graph encoder, a dialogue-aware schema graph evolving network, and a schema graph enhanced dialogue state decoder. Empirical results on benchmark datasets (i.e., SGD, MultiWOZ2.1, and MultiWOZ2.2), show that DSGFNet outperforms existing methods.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.10/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.10",
     "doi": "10.18653/v1/2022.acl-long.10",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4224131719"
   },
   "Attention Temperature Matters in Abstractive Summarization Distillation.": {
     "type": "INPROCEEDINGS",
@@ -496,12 +497,13 @@
     "booktitle": "ACL (1)",
     "title": "KaFSP: Knowledge-Aware Fuzzy Semantic Parsing for Conversational Question Answering over a Large-Scale Knowledge Base.",
     "year": "2022",
-    "abstract": "In this paper, we study two issues of semantic parsing approaches to conversational question answering over a large-scale knowledge base: (1) The actions defined in grammar are not sufficient to handle uncertain reasoning common in real-world scenarios. (2) Knowledge base information is not well exploited and incorporated into semantic parsing. To mitigate the two issues, we propose a knowledge-aware fuzzy semantic parsing framework (KaFSP). It defines fuzzy comparison operations in the grammar system for uncertain reasoning based on the fuzzy set theory. In order to enhance the interaction between semantic parsing and knowledge base, we incorporate entity triples from the knowledge base into a knowledge-aware entity disambiguation module. Additionally, we propose a multi-label classification framework to not only capture correlations between entity types and relations but also detect knowledge base information relevant to the current utterance. Both enhancements are based on pre-trained language models. Experiments on a large-scale conversational question answering benchmark demonstrate that the proposed KaFSP achieves significant improvements over previous state-of-the-art models, setting new SOTA results on 8 out of 10 question types, gaining improvements of over 10% F1 or accuracy on 3 question types, and improving overall F1 from 83.01% to 85.33%. The source code of KaFSP is available at https://github.com/tjunlp-lab/KaFSP.",
+    "abstract": "In this paper, we study two issues of semantic parsing approaches to conversational question answering over a large-scale knowledge base:",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.35",
     "doi": "10.18653/v1/2022.acl-long.35",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285147293"
   },
   "Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment.": {
     "type": "INPROCEEDINGS",
@@ -538,12 +540,13 @@
     "booktitle": "ACL (1)",
     "title": "FewNLU: Benchmarking State-of-the-Art Methods for Few-Shot Natural Language Understanding.",
     "year": "2022",
-    "abstract": "The few-shot natural language understanding (NLU) task has attracted much recent attention. However, prior methods have been evaluated under a disparate set of protocols, which hinders fair comparison and measuring the progress of the field. To address this issue, we introduce an evaluation framework that improves previous evaluation procedures in three key aspects, i.e., test performance, dev-test correlation, and stability. Under this new evaluation framework, we re-evaluate several state-of-the-art few-shot methods for NLU tasks. Our framework reveals new insights: (1) both the absolute performance and relative gap of the methods were not accurately estimated in prior literature; (2) no single method dominates most tasks with consistent performance; (3) improvements of some methods diminish with a larger pretrained model; and (4) gains from different methods are often complementary and the best combined model performs close to a strong fully-supervised baseline. We open-source our toolkit, FewNLU, that implements our evaluation framework along with a number of state-of-the-art methods.",
+    "abstract": "Yanan Zheng, Jing Zhou, Yujie Qian, Ming Ding, Chonghua Liao, Li Jian, Ruslan Salakhutdinov, Jie Tang, Sebastian Ruder, Zhilin Yang. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.38",
     "doi": "10.18653/v1/2022.acl-long.38",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3201734921"
   },
   "Learn to Adapt for Generalized Zero-Shot Text Classification.": {
     "type": "INPROCEEDINGS",
@@ -944,12 +947,13 @@
     "booktitle": "ACL (1)",
     "title": "Parallel Instance Query Network for Named Entity Recognition.",
     "year": "2022",
-    "abstract": "Named entity recognition (NER) is a fundamental task in natural language processing. Recent works treat named entity recognition as a reading comprehension task, constructing type-specific queries manually to extract entities. This paradigm suffers from three issues. First, type-specific queries can only extract one type of entities per inference, which is inefficient. Second, the extraction for different types of entities is isolated, ignoring the dependencies between them. Third, query construction relies on external knowledge and is difficult to apply to realistic scenarios with hundreds of entity types. To deal with them, we propose Parallel Instance Query Network (PIQN), which sets up global and learnable instance queries to extract entities from a sentence in a parallel manner. Each instance query predicts one entity, and by feeding all instance queries simultaneously, we can query all entities in parallel. Instead of being constructed from external knowledge, instance queries can learn their different query semantics during training. For training the model, we treat label assignment as a one-to-many Linear Assignment Problem (LAP) and dynamically assign gold entities to instance queries with minimal assignment cost. Experiments on both nested and flat NER datasets demonstrate that our proposed method outperforms previous state-of-the-art models.",
+    "abstract": "Yongliang Shen, Xiaobin Wang, Zeqi Tan, Guangwei Xu, Pengjun Xie, Fei Huang, Weiming Lu, Yueting Zhuang. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.67/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.67",
     "doi": "10.18653/v1/2022.acl-long.67",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4225794827"
   },
   "ProphetChat: Enhancing Dialogue Generation with Simulation of Future Conversation.": {
     "type": "INPROCEEDINGS",
@@ -1084,12 +1088,13 @@
     "booktitle": "ACL (1)",
     "title": "FaiRR: Faithful and Robust Deductive Reasoning over Natural Language.",
     "year": "2022",
-    "abstract": "Transformers have been shown to be able to perform deductive reasoning on a logical rulebase containing rules and statements written in natural language. Recent works show that such models can also produce the reasoning steps (i.e., the proof graph) that emulate the model’s logical reasoning process. Currently, these black-box models generate both the proof graph and intermediate inferences within the same model and thus may be unfaithful. In this work, we frame the deductive logical reasoning task by defining three modular components: rule selection, fact selection, and knowledge composition. The rule and fact selection steps select the candidate rule and facts to be used and then the knowledge composition combines them to generate new inferences. This ensures model faithfulness by assured causal relation from the proof step to the inference reasoning. To test our framework, we propose FaiRR (Faithful and Robust Reasoner) where the above three components are independently modeled by transformers. We observe that FaiRR is robust to novel language perturbations, and is faster at inference than previous works on existing reasoning datasets. Additionally, in contrast to black-box generative models, the errors made by FaiRR are more interpretable due to the modular approach.",
+    "abstract": "Transformers have been shown to be able to perform deductive reasoning on a logical rulebase containing rules and statements written in natural language. Recent works show that such models can also produce the reasoning steps (i.e., the proof graph) that emulate the model's logical reasoning process. Currently, these black-box models generate both the proof graph and intermediate inferences within the same model and thus may be unfaithful. In this work, we frame the deductive logical reasoning task by defining three modular components: rule selection, fact selection, and knowledge composition. The rule and fact selection steps select the candidate rule and facts to be used and then the knowledge composition combines them to generate new inferences. This ensures model faithfulness by assured causal relation from the proof step to the inference reasoning. To test our framework, we propose FAIRR (Faithful and Robust Reasoner) where the above three components are independently modeled by transformers. We observe that FAIRR is robust to novel language perturbations, and is faster at inference than previous works on existing reasoning datasets. Additionally, in contrast to black-box generative models, the errors made by FAIRR are more interpretable due to the modular approach. 1 1 The source code of FAIRR has been made available at https://github.com/",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.77/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.77",
     "doi": "10.18653/v1/2022.acl-long.77",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4221148719"
   },
   "HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation.": {
     "type": "INPROCEEDINGS",
@@ -1098,12 +1103,13 @@
     "booktitle": "ACL (1)",
     "title": "HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation.",
     "year": "2022",
-    "abstract": "Tables are often created with hierarchies, but existing works on table reasoning mainly focus on flat tables and neglect hierarchical tables. Hierarchical tables challenge numerical reasoning by complex hierarchical indexing, as well as implicit relationships of calculation and semantics. We present a new dataset, HiTab, to study question answering (QA) and natural language generation (NLG) over hierarchical tables. HiTab is a cross-domain dataset constructed from a wealth of statistical reports and Wikipedia pages, and has unique characteristics: (1) nearly all tables are hierarchical, and (2) QA pairs are not proposed by annotators from scratch, but are revised from real and meaningful sentences authored by analysts. (3) to reveal complex numerical reasoning in statistical reports, we provide fine-grained annotations of quantity and entity alignment. Experiments suggest that this HiTab presents a strong challenge for existing baselines and a valuable benchmark for future research. Targeting hierarchical structure, we devise a hierarchy-aware logical form for symbolic reasoning over tables, which shows high effectiveness. Targeting table reasoning, we leverage entity and quantity alignment to explore partially supervised training in QA and conditional generation in NLG, and largely reduce spurious predictions in QA and produce better descriptions in NLG.",
+    "abstract": "Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.78",
     "doi": "10.18653/v1/2022.acl-long.78",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3194951844"
   },
   "Doctor Recommendation in Online Health Forums via Expertise Learning.": {
     "type": "INPROCEEDINGS",
@@ -1546,12 +1552,13 @@
     "booktitle": "ACL (1)",
     "title": "Online Semantic Parsing for Latency Reduction in Task-Oriented Dialogue.",
     "year": "2022",
-    "abstract": "Standard conversational semantic parsing maps a complete user utterance into an executable program, after which the program is executed to respond to the user. This could be slow when the program contains expensive function calls. We investigate the opportunity to reduce latency by predicting and executing function calls while the user is still speaking. We introduce the task of online semantic parsing for this purpose, with a formal latency reduction metric inspired by simultaneous machine translation. We propose a general framework with first a learned prefix-to-program prediction module, and then a simple yet effective thresholding heuristic for subprogram selection for early execution. Experiments on the SMCalFlow and TreeDST datasets show our approach achieves large latency reduction with good parsing quality, with a 30%–65% latency reduction depending on function execution time and allowed cost.",
+    "abstract": "Jiawei Zhou, Jason Eisner, Michael Newman, Emmanouil Antonios Platanios, Sam Thomson. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.110",
     "doi": "10.18653/v1/2022.acl-long.110",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285226694"
   },
   "Few-Shot Tabular Data Enrichment Using Fine-Tuned Transformer Architectures.": {
     "type": "INPROCEEDINGS",
@@ -1700,12 +1707,13 @@
     "booktitle": "ACL (1)",
     "title": "Fully-Semantic Parsing and Generation: the BabelNet Meaning Representation.",
     "year": "2022",
-    "abstract": "A language-independent representation of meaning is one of the most coveted dreams in Natural Language Understanding. With this goal in mind, several formalisms have been proposed as frameworks for meaning representation in Semantic Parsing. And yet, the dependencies these formalisms share with respect to language-specific repositories of knowledge make the objective of closing the gap between high- and low-resourced languages hard to accomplish. In this paper, we present the BabelNet Meaning Representation (BMR), an interlingual formalism that abstracts away from language-specific constraints by taking advantage of the multilingual semantic resources of BabelNet and VerbAtlas. We describe the rationale behind the creation of BMR and put forward BMR 1.0, a dataset labeled entirely according to the new formalism. Moreover, we show how BMR is able to outperform previous formalisms thanks to its fully-semantic framing, which enables top-notch multilingual parsing and generation. We release the code at https://github.com/SapienzaNLP/bmr.",
+    "abstract": "A language-independent representation of meaning is one of the most coveted dreams in Natural Language Understanding. With this goal in mind, several formalisms have been proposed as frameworks for meaning representation in Semantic Parsing. And yet, the dependencies these formalisms share with respect to language-specific repositories of knowledge make the objective of closing the gap between high-and low-resourced languages hard to accomplish. In this paper, we present the Ba-belNet Meaning Representation (BMR), an interlingual formalism that abstracts away from language-specific constraints by taking advantage of the multilingual semantic resources of BabelNet and VerbAtlas. We describe the rationale behind the creation of BMR and put forward BMR 1.0, a dataset labeled entirely according to the new formalism. Moreover, we show how BMR is able to outperform previous formalisms thanks to its fully-semantic framing, which enables top-notch multilingual parsing and generation. We release the code at https: //github.com/SapienzaNLP/bmr.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.121",
     "doi": "10.18653/v1/2022.acl-long.121",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285059449"
   },
   "Leveraging Similar Users for Personalized Language Modeling with Limited Data.": {
     "type": "INPROCEEDINGS",
@@ -1887,7 +1895,8 @@
     "url": "https://doi.org/10.18653/v1/2022.acl-long.134",
     "doi": "10.18653/v1/2022.acl-long.134",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285201706"
   },
   "Sense Embeddings are also Biased - Evaluating Social Biases in Static and Contextualised Sense Embeddings.": {
     "type": "INPROCEEDINGS",
@@ -1910,12 +1919,13 @@
     "booktitle": "ACL (1)",
     "title": "Hybrid Semantics for Goal-Directed Natural Language Generation.",
     "year": "2022",
-    "abstract": "We consider the problem of generating natural language given a communicative goal and a world description. We ask the question: is it possible to combine complementary meaning representations to scale a goal-directed NLG system without losing expressiveness? In particular, we consider using two meaning representations, one based on logical semantics and the other based on distributional semantics. We build upon an existing goal-directed generation system, S-STRUCT, which models sentence generation as planning in a Markov decision process. We develop a hybrid approach, which uses distributional semantics to quickly and imprecisely add the main elements of the sentence and then uses first-order logic based semantics to more slowly add the precise details. We find that our hybrid method allows S-STRUCT’s generation to scale significantly better in early phases of generation and that the hybrid can often generate sentences with the same quality as S-STRUCT in substantially less time. However, we also observe and give insight into cases where the imprecision in distributional semantics leads to generation that is not as good as using pure logical semantics.",
+    "abstract": "We consider the problem of generating natural language given a communicative goal and a world description. We ask the question: is it possible to combine complementary meaning representations to scale a goal-directed NLG system without losing expressiveness? In particular, we consider using two meaning representations, one based on logical semantics and the other based on distributional semantics. We build upon an existing goal-directed generation system, S-STRUCT, which models sentence generation as planning in a Markov decision process. We develop a hybrid approach, which uses distributional semantics to quickly and imprecisely add the main elements of the sentence and then uses first-order logic based semantics to more slowly add the precise details. We find that our hybrid method allows S-STRUCT's generation to scale significantly better in early phases of generation and that the hybrid can often generate sentences with the same quality as S-STRUCT in substantially less time. However, we also observe and give insight into cases where the imprecision in distributional semantics leads to generation that is not as good as using pure logical semantics.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.136",
     "doi": "10.18653/v1/2022.acl-long.136",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285305083"
   },
   "Predicting Intervention Approval in Clinical Trials through Multi-Document Summarization.": {
     "type": "INPROCEEDINGS",
@@ -1994,12 +2004,13 @@
     "booktitle": "ACL (1)",
     "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation.",
     "year": "2022",
-    "abstract": "The robustness of Text-to-SQL parsers against adversarial perturbations plays a crucial role in delivering highly reliable applications. Previous studies along this line primarily focused on perturbations in the natural language question side, neglecting the variability of tables. Motivated by this, we propose the Adversarial Table Perturbation (ATP) as a new attacking paradigm to measure robustness of Text-to-SQL models. Following this proposition, we curate ADVETA, the first robustness evaluation benchmark featuring natural and realistic ATPs. All tested state-of-the-art models experience dramatic performance drops on ADVETA, revealing significant room of improvement. To defense against ATP, we build a systematic adversarial training example generation framework tailored for better contextualization of tabular data. Experiments show that our approach brings models best robustness improvement against ATP, while also substantially boost model robustness against NL-side perturbations. We will release ADVETA and code to facilitate future research.",
+    "abstract": "The robustness of Text-to-SQL parsers against adversarial perturbations plays a crucial role in delivering highly reliable applications. Previous studies along this line primarily focused on perturbations in the natural language question side, neglecting the variability of tables. Motivated by this, we propose the Adversarial Table Following this proposition, we curate ADVETA, the first robustness evaluation benchmark featuring natural and realistic ATPs. All tested state-of-the-art models experience dramatic performance drops on ADVETA, revealing models' vulnerability in real-world practices. To defend against ATP, we build a systematic adversarial training example generation framework tailored for better contextualization of tabular data. Experiments show that our approach not only brings the best robustness improvement against tableside perturbations but also substantially empowers models against NL-side perturbations. We release our benchmark and code at: https://github.com/microsoft/ContextualSP.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.142",
     "doi": "10.18653/v1/2022.acl-long.142",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285195848"
   },
   "Overcoming Catastrophic Forgetting beyond Continual Learning: Balanced Training for Neural Machine Translation.": {
     "type": "INPROCEEDINGS",
@@ -2666,12 +2677,13 @@
     "booktitle": "ACL (1)",
     "title": "Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets.",
     "year": "2022",
-    "abstract": "Natural language processing models often exploit spurious correlations between task-independent features and labels in datasets to perform well only within the distributions they are trained on, while not generalising to different task distributions. We propose to tackle this problem by generating a debiased version of a dataset, which can then be used to train a debiased, off-the-shelf model, by simply replacing its training data. Our approach consists of 1) a method for training data generators to generate high-quality, label-consistent data samples; and 2) a filtering mechanism for removing data points that contribute to spurious correlations, measured in terms of z-statistics. We generate debiased versions of the SNLI and MNLI datasets, and we evaluate on a large suite of debiased, out-of-distribution, and adversarial test sets. Results show that models trained on our debiased datasets generalise better than those trained on the original datasets in all settings. On the majority of the datasets, our method outperforms or performs comparably to previous state-of-the-art debiasing strategies, and when combined with an orthogonal technique, product-of-experts, it improves further and outperforms previous best results of SNLI-hard and MNLI-hard.",
+    "abstract": "Natural language processing models often exploit spurious correlations between taskindependent features and labels in datasets to perform well only within the distributions they are trained on, while not generalising to different task distributions. We propose to tackle this problem by generating a debiased version of a dataset, which can then be used to train a debiased, off-the-shelf model, by simply replacing its training data. Our approach consists of 1) a method for training data generators to generate high-quality, label-consistent data samples; and 2) a filtering mechanism for removing data points that contribute to spurious correlations, measured in terms of z-statistics. We generate debiased versions of the SNLI and MNLI datasets, 1 and we evaluate on a large suite of debiased, outof-distribution, and adversarial test sets. Results show that models trained on our debiased datasets generalise better than those trained on the original datasets in all settings. On the majority of the datasets, our method outperforms or performs comparably to previous state-ofthe-art debiasing strategies, and when combined with an orthogonal technique, productof-experts, it improves further and outperforms previous best results of SNLI-hard and MNLI-hard.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.190/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.190",
     "doi": "10.18653/v1/2022.acl-long.190",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4225468040"
   },
   "GL-CLeF: A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding.": {
     "type": "INPROCEEDINGS",
@@ -3268,12 +3280,13 @@
     "booktitle": "ACL (1)",
     "title": "LAGr: Label Aligned Graphs for Better Systematic Generalization in Semantic Parsing.",
     "year": "2022",
-    "abstract": "Semantic parsing is the task of producing structured meaning representations for natural language sentences. Recent research has pointed out that the commonly-used sequence-to-sequence (seq2seq) semantic parsers struggle to generalize systematically, i.e. to handle examples that require recombining known knowledge in novel settings. In this work, we show that better systematic generalization can be achieved by producing the meaning representation directly as a graph and not as a sequence. To this end we propose LAGr (Label Aligned Graphs), a general framework to produce semantic parses by independently predicting node and edge labels for a complete multi-layer input-aligned graph. The strongly-supervised LAGr algorithm requires aligned graphs as inputs, whereas weakly-supervised LAGr infers alignments for originally unaligned target graphs using approximate maximum-a-posteriori inference. Experiments demonstrate that LAGr achieves significant improvements in systematic generalization upon the baseline seq2seq parsers in both strongly- and weakly-supervised settings.",
+    "abstract": "Semantic parsing is the task of producing structured meaning representations for natural language sentences. Recent research has pointed out that the commonly-used sequenceto-sequence (seq2seq) semantic parsers struggle to generalize systematically, i.e. to handle examples that require recombining known knowledge in novel settings. In this work, we show that better systematic generalization can be achieved by producing the meaning representation directly as a graph and not as a sequence. To this end we propose LAGr (Label Aligned Graphs), a general framework to produce semantic parses by independently predicting node and edge labels for a complete multi-layer input-aligned graph. The strongly-supervised LAGr algorithm requires aligned graphs as inputs, whereas weaklysupervised LAGr infers alignments for originally unaligned target graphs using approximate maximum-a-posteriori inference. Experiments demonstrate that LAGr achieves significant improvements in systematic generalization upon the baseline seq2seq parsers in both strongly-and weakly-supervised settings.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.233/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.233",
     "doi": "10.18653/v1/2022.acl-long.233",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285288434"
   },
   "ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection.": {
     "type": "INPROCEEDINGS",
@@ -3422,12 +3435,13 @@
     "booktitle": "ACL (1)",
     "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions.",
     "year": "2022",
-    "abstract": "Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. Despite the success of the conventional supervised learning on individual datasets, such models often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions, and 193k task instances (input-output pairs). The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. Using this meta-dataset, we measure cross-task generalization by training models on seen tasks and measuring generalization to the remaining unseen ones. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks (19% better for models utilizing instructions). These models, however, are far behind an estimated performance upperbound indicating significant room for more progress in this direction.",
+    "abstract": "Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. Despite the success of the conventional supervised learning on individual datasets, such models often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the humanreadable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their humanauthored instructions, and 193k task instances (input-output pairs). The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. Using this meta-dataset, we measure cross-task generalization by training models on seen tasks and measuring generalization to the remaining unseen ones. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks (19% better for models utilizing instructions). These models, however, are far behind an estimated performance upperbound, indicating significant room for more progress in this direction. 1",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.244",
     "doi": "10.18653/v1/2022.acl-long.244",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3196731672"
   },
   "Imputing Out-of-Vocabulary Embeddings with LOVE Makes LanguageModels Robust with Little Cost.": {
     "type": "INPROCEEDINGS",
@@ -3996,12 +4010,13 @@
     "booktitle": "ACL (1)",
     "title": "Zero-Shot Cross-lingual Semantic Parsing.",
     "year": "2022",
-    "abstract": "Recent work in cross-lingual semantic parsing has successfully applied machine translation to localize parsers to new languages. However, these advances assume access to high-quality machine translation systems and word alignment tools. We remove these assumptions and study cross-lingual semantic parsing as a zero-shot problem, without parallel data (i.e., utterance-logical form pairs) for new languages. We propose a multi-task encoder-decoder model to transfer parsing knowledge to additional languages using only English-logical form paired data and in-domain natural language corpora in each new language. Our model encourages language-agnostic encodings by jointly optimizing for logical-form generation with auxiliary objectives designed for cross-lingual latent representation alignment. Our parser performs significantly above translation-based baselines and, in some cases, competes with the supervised upper-bound.",
+    "abstract": "Recent work in cross-lingual semantic parsing has successfully applied machine translation to localize parsers to new languages. However, these advances assume access to highquality machine translation systems and word alignment tools. We remove these assumptions and study cross-lingual semantic parsing as a zero-shot problem, without parallel data (i.e., utterance-logical form pairs) for new languages. We propose a multi-task encoderdecoder model to transfer parsing knowledge to additional languages using only Englishlogical form paired data and in-domain natural language corpora in each new language. Our model encourages language-agnostic encodings by jointly optimizing for logical-form generation with auxiliary objectives designed for cross-lingual latent representation alignment. Our parser performs significantly above translation-based baselines and, in some cases, competes with the supervised upper-bound. 1",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.285",
     "doi": "10.18653/v1/2022.acl-long.285",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3154267298"
   },
   "The Paradox of the Compositionality of Natural Language: A Neural Machine Translation Case Study.": {
     "type": "INPROCEEDINGS",
@@ -4010,12 +4025,13 @@
     "booktitle": "ACL (1)",
     "title": "The Paradox of the Compositionality of Natural Language: A Neural Machine Translation Case Study.",
     "year": "2022",
-    "abstract": "Obtaining human-like performance in NLP is often argued to require compositional generalisation. Whether neural networks exhibit this ability is usually studied by training models on highly compositional synthetic data. However, compositionality in natural language is much more complex than the rigid, arithmetic-like version such data adheres to, and artificial compositionality tests thus do not allow us to determine how neural models deal with more realistic forms of compositionality. In this work, we re-instantiate three compositionality tests from the literature and reformulate them for neural machine translation (NMT).Our results highlight that: i) unfavourably, models trained on more data are more compositional; ii) models are sometimes less compositional than expected, but sometimes more, exemplifying that different levels of compositionality are required, and models are not always able to modulate between them correctly; iii) some of the non-compositional behaviours are mistakes, whereas others reflect the natural variation in data. Apart from an empirical study, our work is a call to action: we should rethink the evaluation of compositionality in neural networks and develop benchmarks using real data to evaluate compositionality on natural language, where composing meaning is not as straightforward as doing the math.",
+    "abstract": "Obtaining human-like performance in NLP is often argued to require compositional generalisation. Whether neural networks exhibit this ability is usually studied by training models on highly compositional synthetic data. However, compositionality in natural language is much more complex than the rigid, arithmeticlike version such data adheres to, and artificial compositionality tests thus do not allow us to determine how neural models deal with more realistic forms of compositionality. In this work, we re-instantiate three compositionality tests from the literature and reformulate them for neural machine translation (NMT). Our results highlight that: i) unfavourably, models trained on more data are more compositional; ii) models are sometimes less compositional than expected, but sometimes more, exemplifying that different levels of compositionality are required, and models are not always able to modulate between them correctly; iii) some of the non-compositional behaviours are mistakes, whereas others reflect the natural variation in data. Apart from an empirical study, our work is a call to action: we should rethink the evaluation of compositionality in neural networks and develop benchmarks using real data to evaluate compositionality on natural language, where composing meaning is not as straightforward as doing the math. 1",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.286",
     "doi": "10.18653/v1/2022.acl-long.286",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3192500523"
   },
   "Multilingual Document-Level Translation Enables Zero-Shot Transfer From Sentences to Documents.": {
     "type": "INPROCEEDINGS",
@@ -5340,12 +5356,13 @@
     "booktitle": "ACL (1)",
     "title": "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion.",
     "year": "2022",
-    "abstract": "Text-to-SQL parsers map natural language questions to programs that are executable over tables to generate answers, and are typically evaluated on large-scale datasets like Spider (Yu et al., 2018). We argue that existing benchmarks fail to capture a certain out-of-domain generalization problem that is of significant practical importance: matching domain specific phrases to composite operation over columns. To study this problem, we first propose a synthetic dataset along with a re-purposed train/test split of the Squall dataset (Shi et al., 2020) as new benchmarks to quantify domain generalization over column operations, and find existing state-of-the-art parsers struggle in these benchmarks. We propose to address this problem by incorporating prior domain knowledge by preprocessing table schemas, and design a method that consists of two components: schema expansion and schema pruning. This method can be easily applied to multiple existing base parsers, and we show that it significantly outperforms baseline parsers on this domain generalization problem, boosting the underlying parsers’ overall performance by up to 13.8% relative accuracy gain (5.1% absolute) on the new Squall data split.",
+    "abstract": "Text-to-SQL parsers map natural language questions to programs that are executable over tables to generate answers, and are typically evaluated on large-scale datasets like SPIDER We argue that existing benchmarks fail to capture a certain out-of-domain generalization problem that is of significant practical importance: matching domain specific phrases to composite operations over columns.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.381",
     "doi": "10.18653/v1/2022.acl-long.381",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285131076"
   },
   "Predicate-Argument Based Bi-Encoder for Paraphrase Identification.": {
     "type": "INPROCEEDINGS",
@@ -5424,12 +5441,13 @@
     "booktitle": "ACL (1)",
     "title": "RoMe: A Robust Metric for Evaluating Natural Language Generation.",
     "year": "2022",
-    "abstract": "Evaluating Natural Language Generation (NLG) systems is a challenging task. Firstly, the metric should ensure that the generated hypothesis reflects the reference’s semantics. Secondly, it should consider the grammatical quality of the generated sentence. Thirdly, it should be robust enough to handle various surface forms of the generated sentence. Thus, an effective evaluation metric has to be multifaceted. In this paper, we propose an automatic evaluation metric incorporating several core aspects of natural language understanding (language competence, syntactic and semantic variation). Our proposed metric, RoMe, is trained on language features such as semantic similarity combined with tree edit distance and grammatical acceptability, using a self-supervised neural network to assess the overall quality of the generated sentence. Moreover, we perform an extensive robustness analysis of the state-of-the-art methods and RoMe. Empirical results suggest that RoMe has a stronger correlation to human judgment over state-of-the-art metrics in evaluating system-generated sentences across several NLG tasks.",
+    "abstract": "5645",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.387/",
+    "url": "https://publica.fraunhofer.de/handle/publica/430431",
     "doi": "10.18653/v1/2022.acl-long.387",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4226054118"
   },
   "Finding Structural Knowledge in Multimodal-BERT.": {
     "type": "INPROCEEDINGS",
@@ -5480,12 +5498,13 @@
     "booktitle": "ACL (1)",
     "title": "M3ED: Multi-modal Multi-scene Multi-label Emotional Dialogue Database.",
     "year": "2022",
-    "abstract": "The emotional state of a speaker can be influenced by many different factors in dialogues, such as dialogue scene, dialogue topic, and interlocutor stimulus. The currently available data resources to support such multimodal affective analysis in dialogues are however limited in scale and diversity. In this work, we propose a Multi-modal Multi-scene Multi-label Emotional Dialogue dataset, M 3",
+    "abstract": "Jinming Zhao, Tenggan Zhang, Jingwen Hu, Yuchen Liu, Qin Jin, Xinchao Wang, Haizhou Li. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.391/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.391",
     "doi": "10.18653/v1/2022.acl-long.391",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4281397735"
   },
   "Few-shot Named Entity Recognition with Self-describing Networks.": {
     "type": "INPROCEEDINGS",
@@ -6096,12 +6115,13 @@
     "booktitle": "ACL (1)",
     "title": "AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages.",
     "year": "2022",
-    "abstract": "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al., 2018) to 10 Indigenous languages of the Americas. We conduct experiments with XLM-R, testing multiple zero-shot and translation-based approaches. Additionally, we explore model adaptation via continued pretraining and provide an analysis of the dataset by considering hypothesis-only models. We find that XLM-R’s zero-shot performance is poor for all 10 languages, with an average performance of 38.48%. Continued pretraining offers improvements, with an average accuracy of 43.85%. Surprisingly, training on poorly translated data by far outperforms all other methods with an accuracy of 49.12%.",
+    "abstract": "Abteen Ebrahimi, Manuel Mager, Arturo Oncevay, Vishrav Chaudhary, Luis Chiruzzo, Angela Fan, John Ortega, Ricardo Ramos, Annette Rios, Ivan Vladimir Meza Ruiz, Gustavo Giménez-Lugo, Elisabeth Mager, Graham Neubig, Alexis Palmer, Rolando Coto-Solano, Thang Vu, Katharina Kann. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2022.acl-long.435",
     "doi": "10.18653/v1/2022.acl-long.435",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3154311556"
   },
   "Towards Learning (Dis)-Similarity of Source Code from Program Contrasts.": {
     "type": "INPROCEEDINGS",
@@ -6320,12 +6340,13 @@
     "booktitle": "ACL (1)",
     "title": "CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations.",
     "year": "2022",
-    "abstract": "Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, a hallmark of human intelligence is the ability to learn new concepts purely from language. Here, we explore training zero-shot classifiers for structured data purely from language. For this, we introduce CLUES, a benchmark for Classifier Learning Using natural language ExplanationS, consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. CLUES consists of 36 real-world and 144 synthetic classification tasks. It contains crowdsourced explanations describing real-world tasks from multiple teachers and programmatically generated explanations for the synthetic tasks. To model the influence of explanations in classifying an example, we develop ExEnt, an entailment-based model that learns classifiers using explanations. ExEnt generalizes up to 18% better (relative) on novel tasks than a baseline that does not use explanations. We delineate key challenges for automated learning from explanations, addressing which can lead to progress on CLUES in the future. Code and datasets are available at: https://clues-benchmark.github.io .",
+    "abstract": "Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, humans have the ability to learn new concepts from language. Here, we explore learning zero-shot classifiers for structured data 1 purely from language from natural language explanations as supervision. For this, we introduce CLUES, a benchmark for Classifier Learning Using natural language ExplanationS, consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. CLUES consists of 36 real-world and 144 synthetic classification tasks. It contains crowdsourced explanations describing real-world tasks from multiple teachers and programmatically generated explanations for the synthetic tasks. We also introduce ExEnt, an entailment-based method for training classifiers from language explanations, which explicitly models the influence of individual explanations in making a prediction. ExEnt generalizes up to 18% better (relative) on novel tasks than a baseline that does not use explanations. We identify key challenges in learning from explanations, addressing which can lead to progress on CLUES in the future. Our code and datasets are available at: https: //clues-benchmark.github.io.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.451/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.451",
     "doi": "10.18653/v1/2022.acl-long.451",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285304834"
   },
   "Substructure Distribution Projection for Zero-Shot Cross-Lingual Dependency Parsing.": {
     "type": "INPROCEEDINGS",
@@ -7160,12 +7181,13 @@
     "booktitle": "ACL (1)",
     "title": "SciNLI: A Corpus for Natural Language Inference on Scientific Text.",
     "year": "2022",
-    "abstract": "Existing Natural Language Inference (NLI) datasets, while being instrumental in the advancement of Natural Language Understanding (NLU) research, are not related to scientific text. In this paper, we introduce SciNLI, a large dataset for NLI that captures the formality in scientific text and contains 107,412 sentence pairs extracted from scholarly papers on NLP and computational linguistics. Given that the text used in scientific literature differs vastly from the text used in everyday language both in terms of vocabulary and sentence structure, our dataset is well suited to serve as a benchmark for the evaluation of scientific NLU models. Our experiments show that SciNLI is harder to classify than the existing NLI datasets. Our best performing model with XLNet achieves a Macro F1 score of only 78.18% and an accuracy of 78.23% showing that there is substantial room for improvement.",
+    "abstract": "Existing Natural Language Inference (NLI) datasets, while being instrumental in the advancement of Natural Language Understanding (NLU) research, are not related to scientific text. In this paper, we introduce SCINLI, a large dataset for NLI that captures the formality in scientific text and contains 107, 412 sentence pairs extracted from scholarly papers on NLP and computational linguistics. Given that the text used in scientific literature differs vastly from the text used in everyday language both in terms of vocabulary and sentence structure, our dataset is well suited to serve as a benchmark for the evaluation of scientific NLU models. Our experiments show that SCINLI is harder to classify than the existing NLI datasets. Our best performing model with XLNet achieves a Macro F1 score of only 78.18% and an accuracy of 78.23% showing that there is substantial room for improvement.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.511/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.511",
     "doi": "10.18653/v1/2022.acl-long.511",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4226065433"
   },
   "Neural reality of argument structure constructions.": {
     "type": "INPROCEEDINGS",
@@ -7361,7 +7383,8 @@
     "url": "https://doi.org/10.18653/v1/2022.acl-long.525",
     "doi": "10.18653/v1/2022.acl-long.525",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4285305556"
   },
   "Cluster & Tune: Boost Cold Start Performance in Text Classification.": {
     "type": "INPROCEEDINGS",
@@ -8350,12 +8373,14 @@
     "booktitle": "ACL (1)",
     "title": "End-to-End Modeling via Information Tree for One-Shot Natural Language Spatial Video Grounding.",
     "year": "2022",
-    "abstract": "Natural language spatial video grounding aims to detect the relevant objects in video frames with descriptive sentences as the query. In spite of the great advances, most existing methods rely on dense video frame annotations, which require a tremendous amount of human effort. To achieve effective grounding under a limited annotation budget, we investigate one-shot video grounding and learn to ground natural language in all video frames with solely one frame labeled, in an end-to-end manner. One major challenge of end-to-end one-shot video grounding is the existence of videos frames that are either irrelevant to the language query or the labeled frame. Another challenge relates to the limited supervision, which might result in ineffective representation learning. To address these challenges, we designed an end-to-end model via Information Tree for One-Shot video grounding (IT-OS). Its key module, the information tree, can eliminate the interference of irrelevant frames based on branch search and branch cropping techniques. In addition, several self-supervised tasks are proposed based on the information tree to improve the representation learning under insufficient labeling. Experiments on the benchmark dataset demonstrate the effectiveness of our model.",
+    "abstract": "Mengze Li, Tianbao Wang, Haoyu Zhang, Shengyu Zhang, Zhou Zhao, Jiaxu Miao, Wenqiao Zhang, Wenming Tan, Jin Wang, Peng Wang, Shiliang Pu, Fei Wu. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.",
     "keywords": "",
-    "url": "https://aclanthology.org/2022.acl-long.596/",
+    "url": "https://doi.org/10.18653/v1/2022.acl-long.596",
     "doi": "10.18653/v1/2022.acl-long.596",
     "venue": "ACL2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4221147527",
+    "arxiv_id": "2203.08013"
   },
   "RNSum: A Large-Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization.": {
     "type": "INPROCEEDINGS",

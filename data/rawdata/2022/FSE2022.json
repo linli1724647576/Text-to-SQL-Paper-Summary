@@ -1154,12 +1154,13 @@
     "booktitle": "ESEC/SIGSOFT FSE",
     "title": "NL2Viz: natural language to visualization via constrained syntax-guided synthesis.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "Recent development in NL2CODE (Natural Language to Code) research allows end-users, especially novice programmers to create a concrete implementation of their ideas such as data visualization by providing natural language (NL) instructions. An NL2CODE system often fails to achieve its goal due to three major challenges: the user's words have contextual semantics, the user may not include all details needed for code generation, and the system results are imperfect and require further refinement. To address the aforementioned three challenges for NL to Visualization, we propose a new approach and its supporting tool named NL2VIZ with three salient features: (1) leveraging not only the user's NL input but also the data and program context that the NL query is upon, (2) using hard/soft constraints to reflect different confidence levels in the constraints retrieved from the user input and data/program context, and (3) providing support for result refinement and reuse.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3540250.3549140",
     "doi": "10.1145/3540250.3549140",
     "venue": "FSE2022",
-    "venue_track": "SE"
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4308641600"
   },
   "AccessiText: automated detection of text accessibility issues in Android apps.": {
     "type": "INPROCEEDINGS",
@@ -2540,12 +2541,13 @@
     "booktitle": "ESEC/SIGSOFT FSE",
     "title": "RESTInfer: automated inferring parameter constraints from natural language RESTful API descriptions.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "RESTful APIs have been applied to provide cloud services by various notable companies. The quality assurance of RESTful API is critical. Several automatic RESTful API testing techniques have been proposed to tame this issue. By analyzing crashes caused by each test case, developers can find potential bugs in cloud services. However, it is difficult for automated tools to generate feasible parameters under complicating constraints randomly. Fortunately, RESTful API descriptions can be used to infer possible parameter constraints. Given parameter constraints, automated tools can further improve the efficiency of testing.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3540250.3559078",
     "doi": "10.1145/3540250.3559078",
     "venue": "FSE2022",
-    "venue_track": "SE"
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4308643315"
   },
   "Program analysis using WALA (tutorial).": {
     "type": "INPROCEEDINGS",

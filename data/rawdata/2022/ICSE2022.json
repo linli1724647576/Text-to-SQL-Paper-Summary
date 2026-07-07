@@ -314,12 +314,13 @@
     "booktitle": "ICSE",
     "title": "Automatic Detection of Performance Bugs in Database Systems using Equivalent Queries.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "Because modern data-intensive applications rely heavily on database systems (DBMSs), developers extensively test these systems to eliminate bugs that negatively affect functionality. Besides functional bugs, however, there is another important class of faults that negatively affect the response time of a DBMS, known as performance bugs. Despite their potential impact on end-user experience, performance bugs have received considerably less attention than functional bugs. To fill this gap, we present Amoeba, a technique and tool for automatically detecting performance bugs in DBMSs. The core idea behind Amoeba is to construct semantically equivalent query pairs, run both queries on the DBMS under test, and compare their response time. If the queries exhibit significantly different response times, that indicates the possible presence of a performance bug in the DBMS. To construct equivalent queries, we propose to use a set of structure and expression mutation rules especially targeted at uncovering performance bugs. We also introduce feedback mechanisms for improving the effectiveness and efficiency of the approach. We evaluate Amoeba on two widely-used DBMSs, namely PostgreSQL and CockroachDB, with promising results: Amoeba has so far discovered 39 potential performance bugs, among which developers have already confirmed 6 bugs and fixed 5 bugs.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3510003.3510093",
     "doi": "10.1145/3510003.3510093",
     "venue": "ICSE2022",
-    "venue_track": "SE"
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4284665426"
   },
   "AutoTransform: Automated Code Transformation to Support Modern Code Review Process.": {
     "type": "INPROCEEDINGS",

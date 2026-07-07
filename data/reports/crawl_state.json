@@ -44,8 +44,8 @@
     },
     "dblp-conference:AAAI:2022": {
       "error": "",
-      "last_attempt_at": "2026-06-30T18:58:14Z",
-      "last_success_at": "2026-06-30T18:58:14Z",
+      "last_attempt_at": "2026-07-07T19:04:05Z",
+      "last_success_at": "2026-07-07T19:04:05Z",
       "rawdata_path": "data/rawdata/2022/AAAI2022.json",
       "record_count": 1624,
       "sha256": "f682698d0905f03396efeac6cb48f8fab97273a15110c72893f467715b515cd2",
@@ -142,8 +142,8 @@
     },
     "dblp-conference:ACL:2022": {
       "error": "",
-      "last_attempt_at": "2026-07-02T18:26:26Z",
-      "last_success_at": "2026-07-02T18:26:26Z",
+      "last_attempt_at": "2026-07-07T19:04:10Z",
+      "last_success_at": "2026-07-07T19:04:10Z",
       "rawdata_path": "data/rawdata/2022/ACL2022.json",
       "record_count": 604,
       "sha256": "275afd41f4b45e6a8d83abf179cda4746b3409471bada3a14f35f835a1f30a3f",
@@ -310,11 +310,11 @@
     },
     "dblp-conference:CVPR:2022": {
       "error": "",
-      "last_attempt_at": "2026-07-03T18:14:22Z",
-      "last_success_at": "2026-07-03T18:14:22Z",
+      "last_attempt_at": "2026-07-07T19:04:19Z",
+      "last_success_at": "2026-07-07T19:04:19Z",
       "rawdata_path": "data/rawdata/2022/CVPR2022.json",
       "record_count": 2072,
-      "sha256": "f4aac3b6d30f44ade1433bfc892349285d2b196449a806ecc624588cf0ebe6e0",
+      "sha256": "97d6e729b4154f3d3fd672bc30010cedd295f17f51580e002ec79fb5ab9c88b8",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -2074,8 +2074,8 @@
     },
     "official-accepted:ICML:2022": {
       "error": "",
-      "last_attempt_at": "2026-07-04T18:04:45Z",
-      "last_success_at": "2026-07-04T18:04:45Z",
+      "last_attempt_at": "2026-07-07T19:04:22Z",
+      "last_success_at": "2026-07-07T19:04:22Z",
       "rawdata_path": "data/rawdata/2022/ICML2022-accepted.json",
       "record_count": 1233,
       "sha256": "b91aa4bd316618c95a7a6dd764e2f424274965128308a881a36036e0b8efead8",
@@ -2354,8 +2354,8 @@
     },
     "official-accepted:NEURIPS:2022": {
       "error": "",
-      "last_attempt_at": "2026-07-01T19:00:50Z",
-      "last_success_at": "2026-07-01T19:00:50Z",
+      "last_attempt_at": "2026-07-07T19:04:27Z",
+      "last_success_at": "2026-07-07T19:04:27Z",
       "rawdata_path": "data/rawdata/2022/NeurIPS2022-accepted.json",
       "record_count": 2808,
       "sha256": "9e65d520925b3785e39801f1fd6547291bd1bfc7fae194020bd512786951be60",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 2,
+    "cursor": 3,
     "history": [
       {
         "cursor": 1,
@@ -3299,15 +3299,66 @@
           "TOSEM"
         ],
         "year": 2021
+      },
+      {
+        "cursor": 3,
+        "failed": [],
+        "finalized_at": "2026-07-07T19:05:39Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2022
       }
     ],
-    "last_completed_at": "2026-07-06T18:57:24Z",
+    "last_completed_at": "2026-07-07T19:05:39Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
       "ACL",
       "CVPR",
-      "ICCV",
       "ICML",
       "IJCAI",
       "SIGMOD",
@@ -3326,6 +3377,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2021
+    "last_selected_year": 2022
   }
 }

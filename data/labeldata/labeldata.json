@@ -2891,6 +2891,7 @@
     "doi": "10.18653/v1/2022.acl-long.381",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4285131076",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -18701,6 +18702,7 @@
     "doi": "10.18653/v1/2022.acl-long.142",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4285195848",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",

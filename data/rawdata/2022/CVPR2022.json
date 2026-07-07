@@ -1338,10 +1338,11 @@
     "year": "2022",
     "abstract": "It is difficult to construct a data collection including all possible combinations of human actions and interacting objects due to the combinatorial nature of human-object interactions (HOI). In this work, we aim to develop a transferable HOI detector for unseen interactions. Existing HOI detectors often treat interactions as discrete labels and learn a classifier according to a predetermined category space. This is inherently inapt for detecting unseen interactions which are out of the predefined categories. Conversely, we treat independent HOI labels as the natural language supervision of interactions and embed them into a joint visual-and-text space to capture their correlations. More specifically, we propose a new HOI visual encoder to detect the interacting humans and objects, and map them to a joint feature space to perform interaction recognition. Our visual encoder is instantiated as a Vision Transformer with new learnable HOI tokens and a sequence parser to generate unique HOI predictions. It distills and leverages the transferable knowledge from the pretrained CLIP model to perform the zero-shot interaction detection. Experiments on two datasets, SWIG-HOI and HICO-DET, validate that our proposed method can achieve a notable mAP improvement on detecting both seen and unseen HOIs. Our code is available at https://github.com/scwangdyd/promting_hoi.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00101",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00101",
     "doi": "10.1109/CVPR52688.2022.00101",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312574495"
   },
   "Accelerating DETR Convergence via Semantic-Aligned Matching.": {
     "type": "INPROCEEDINGS",
@@ -1364,12 +1365,13 @@
     "booktitle": "CVPR",
     "title": "Efficient Video Instance Segmentation via Tracklet Query and Proposal.",
     "year": "2022",
-    "abstract": "Video Instance Segmentation (VIS) aims to simultaneously classify, segment, and track multiple object instances in videos. Recent clip-level VIS takes a short video clip as input each time showing stronger performance than frame-level VIS (tracking-by-segmentation), as more temporal context from multiple frames is utilized. Yet, most clip-level methods are neither end-to-end learnable nor real-time. These limitations are addressed by the recent VIS transformer (VisTR) [25] which performs VIS end-to-end within a clip. However, VisTR suffers from long training time due to its frame-wise dense attention. In addition, VisTR is not fully end-to-end learnable in multiple video clips as it requires a hand-crafted data association to link instance tracklets between successive clips. This paper proposes EfficientVIS, a fully end-to-end framework with efficient training and inference. At the core are tracklet query and tracklet proposal that associate and segment regions-of-interest (RoIs) across space and time by an iterative query-video interaction. We further propose a correspondence learning that makes tracklets linking between clips end-to-end learnable. Compared to VisTR, EfficientVIS requires $15\\times$ fewer training epochs while achieving state-of-the-art accuracy on the YouTube-VIS benchmark. Meanwhile, our method enables whole video instance segmentation in a single end-to-end pass without data association at all.",
+    "abstract": "Video Instance Segmentation (VIS) aims to simultaneously classify, segment, and track multiple object instances in videos. Recent clip-level VIS takes a short video clip as input each time showing stronger performance than frame-level VIS (tracking-by-segmentation), as more temporal context from multiple frames is utilized. Yet, most clip-level methods are neither end-to-end learnable nor real-time. These limitations are addressed by the recent VIS transformer (VisTR) [25] which performs VIS end-to-end within a clip. However, VisTR suffers from long training time due to its frame-wise dense attention. In addition, VisTR is not fully end-to-end learnable in multiple video clips as it requires a hand-crafted data association to link instance tracklets between successive clips. This paper proposes EfficientVIS, a fully end-to-end framework with efficient training and inference. At the core are tracklet query and tracklet proposal that associate and segment regions-of-interest (RoIs) across space and time by an iterative query-video interaction. We further propose a correspondence learning that makes tracklets linking between clips end-to-end learnable. Compared to VisTR, EfficientVIS requires <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$15\\times$</tex> fewer training epochs while achieving state-of-the-art accuracy on the YouTube-VIS benchmark. Meanwhile, our method enables whole video instance segmentation in a single end-to-end pass without data association at all.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00103",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00103",
     "doi": "10.1109/CVPR52688.2022.00103",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312573566"
   },
   "Class Re-Activation Maps for Weakly-Supervised Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
@@ -6922,12 +6924,13 @@
     "booktitle": "CVPR",
     "title": "Transform-Retrieve-Generate: Natural Language-Centric Outside-Knowledge Visual Question Answering.",
     "year": "2022",
-    "abstract": "Outside-knowledge visual question answering (OK-VQA) requires the agent to comprehend the image, make use of relevant knowledge from the entire web, and digest all the information to answer the question. Most previous works address the problem by first fusing the image and question in the multi-modal space, which is inflexible for further fusion with a vast amount of external knowledge. In this paper, we call for an alternative paradigm for the OK-VQA task, which transforms the image into plain text, so that we can enable knowledge passage retrieval, and generative question-answering in the natural language space. This paradigm takes advantage of the sheer volume of gigantic knowledge bases and the richness of pretrained language models. A Transform-Retrieve-Generate framework (TRiG) framework is proposed11The code of this work will be made public., which can be plug-and-played with alternative image-to-text models and textual knowledge bases. Experimental results show that our TRiG framework outperforms all state-of-the-art supervised methods by at least 11.1 % absolute margin.",
+    "abstract": "Outside-knowledge visual question answering (OK-VQA) requires the agent to comprehend the image, make use of relevant knowledge from the entire web, and digest all the information to answer the question. Most previous works address the problem by first fusing the image and question in the multi-modal space, which is inflexible for further fusion with a vast amount of external knowledge. In this paper, we call for an alternative paradigm for the OK-VQA task, which transforms the image into plain text, so that we can enable knowledge passage retrieval, and generative question-answering in the natural language space. This paradigm takes advantage of the sheer volume of gigantic knowledge bases and the richness of pretrained language models. A Transform-Retrieve-Generate framework (TRiG) framework is proposed <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> The code of this work will be made public., which can be plug-and-played with alternative image-to-text models and textual knowledge bases. Experimental results show that our TRiG framework outperforms all state-of-the-art supervised methods by at least 11.1 % absolute margin.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00501",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00501",
     "doi": "10.1109/CVPR52688.2022.00501",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312971273"
   },
   "SwapMix: Diagnosing and Regularizing the Over-Reliance on Visual Context in Visual Question Answering.": {
     "type": "INPROCEEDINGS",
@@ -7092,10 +7095,11 @@
     "year": "2022",
     "abstract": "Profiting from large-scale training datasets, advances in neural architecture design and efficient inference, joint embeddings have become the dominant approach for tackling cross-modal retrieval. In this work we first show that, despite their effectiveness, state-of-the-art joint embeddings suffer significantly from the longstanding “hubness problem” in which a small number of gallery embeddings form the nearest neighbours of many queries. Drawing inspiration from the NLP literature, we formulate a simple but effective framework called Querybank Normalisation (QB-NORM) that re-normalises query similarities to account for hubs in the embedding space. QB-NORM improves retrieval performance without requiring retraining. Differently from prior work, we show that QB-NORM works effectively without concurrent access to any test set queries. Within the QB-NORM framework, we also propose a novel similarity normalisation method, the Dynamic Inverted Softmax, that is significantly more robust than existing approaches. We showcase QB-NORM across a range of cross modal retrieval models and benchmarks where it consistently enhances strong baselines beyond the state of the art. Code is available at https://vladbogo.github.io/QB-Norm/.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00513",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00513",
     "doi": "10.1109/CVPR52688.2022.00513",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312999114"
   },
   "Prompt Distribution Learning.": {
     "type": "INPROCEEDINGS",
@@ -7316,10 +7320,11 @@
     "year": "2022",
     "abstract": "Traditional object detectors employ the dense paradigm of scanning over locations and scales in an image. The recent query-based object detectors break this convention by decoding image features with a set of learnable queries. However, this paradigm still suffers from slow convergence, limited performance, and design complexity of extra networks between backbone and decoder. In this paper, we find that the key to these issues is the adaptability of decoders for casting queries to varying objects. Accordingly, we propose a fast-converging query-based detector, named AdaMixer, by improving the adaptability of query-based decoding processes in two aspects. First, each query adaptively samples features over space and scales based on estimated offsets, which allows AdaMixer to efficiently attend to the coherent regions of objects. Then, we dynamically decode these sampled features with an adaptive MLP-Mixer under the guidance of each query. Thanks to these two critical designs, AdaMixer enjoys architectural simplicity without requiring dense attentional encoders or explicit pyramid networks. On the challenging MS COCO benchmark, AdaMixer with ResNet-50 as the backbone, with 12 training epochs, reaches up to 45.0 AP on the validation set along with 27.9 APs in detecting small objects. With the longer training scheme, AdaMixer with ResNeXt-101-DCN and Swin-S reaches 49.5 and 51.3 AP. Our work sheds light on a simple, accurate, and fast converging architecture for query-based object detectors. The code is made available at https://github.com/MCG-NJU/AdaMixer.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00529",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00529",
     "doi": "10.1109/CVPR52688.2022.00529",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312692509"
   },
   "Correlation Verification for Image Retrieval.": {
     "type": "INPROCEEDINGS",
@@ -11276,12 +11281,13 @@
     "booktitle": "CVPR",
     "title": "NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks.",
     "year": "2022",
-    "abstract": "Natural language explanation (NLE) models aim at explaining the decision-making process of a black box system via generating natural language sentences which are human-friendly, high-level and fine-grained. Current NLE models11Throughout this paper, we refer to NLE models as Natural Language Explanation models aimed for vision and vision-language tasks. explain the decision-making process of a vision or vision-language model (a.k.a., task model), e.g., a VQA model, via a language model (a.k.a., explanation model), e.g., GPT. Other than the additional memory resources and inference time required by the task model, the task and explanation models are completely independent, which disassociates the explanation from the reasoning process made to predict the answer. We introduce NLX-GPT, a general, compact and faithful language model that can simultaneously predict an answer and explain it. We first conduct pre-training on large scale data of image-caption pairs for general understanding of images, and then formulate the answer as a text prediction task along with the explanation. Without region proposals nor a task model, our resulting overall framework attains better evaluation scores, contains much less parameters and is 15× faster than the current SoA model. We then address the problem of evaluating the explanations which can be in many times generic, data-biased and can come in several forms. We therefore design 2 new evaluation measures: (1) explain-predict and (2) retrieval-based attack, a selfevaluation framework that requires no labels. Code is at: https://github.com/fawazsammani/nlxgpt.",
+    "abstract": "Natural language explanation (NLE) models aim at explaining the decision-making process of a black box system via generating natural language sentences which are human-friendly, high-level and fine-grained. Current NLE models <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> Throughout this paper, we refer to NLE models as Natural Language Explanation models aimed for vision and vision-language tasks. explain the decision-making process of a vision or vision-language model (a.k.a., task model), e.g., a VQA model, via a language model (a.k.a., explanation model), e.g., GPT. Other than the additional memory resources and inference time required by the task model, the task and explanation models are completely independent, which disassociates the explanation from the reasoning process made to predict the answer. We introduce NLX-GPT, a general, compact and faithful language model that can simultaneously predict an answer and explain it. We first conduct pre-training on large scale data of image-caption pairs for general understanding of images, and then formulate the answer as a text prediction task along with the explanation. Without region proposals nor a task model, our resulting overall framework attains better evaluation scores, contains much less parameters and is 15× faster than the current SoA model. We then address the problem of evaluating the explanations which can be in many times generic, data-biased and can come in several forms. We therefore design 2 new evaluation measures: (1) explain-predict and (2) retrieval-based attack, a selfevaluation framework that requires no labels. Code is at: https://github.com/fawazsammani/nlxgpt.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00814",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00814",
     "doi": "10.1109/CVPR52688.2022.00814",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4313046229"
   },
   "Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic Filter Attention.": {
     "type": "INPROCEEDINGS",
@@ -11572,10 +11578,11 @@
     "year": "2022",
     "abstract": "3D point cloud understanding is an important component in autonomous driving and robotics. In this paper, we present a novel Embedding-Querying paradigm (EQ-Paradigm) for 3D understanding tasks including detection, segmentation and classification. EQ-Paradigm is a unified paradigm that enables combination of existing 3D back-bone architectures with different task heads. Under the EQ-Paradigm, the input is first encoded in the embedding stage with an arbitrary feature extraction architecture, which is independent of tasks and heads. Then, the querying stage enables the encoded features for diverse task heads. This is achieved by introducing an intermediate representation, i.e., Q-representation, in the querying stage to bridge the embedding stage and task heads. We design a novel Q-Net as the querying stage network. Extensive experimental results on various 3D tasks show that EQ-Paradigm in tandem with Q-Net is a general and effective pipeline, which enables flexible collaboration of backbones and heads. It further boosts performance of state-of-the-art methods.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00835",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00835",
     "doi": "10.1109/CVPR52688.2022.00835",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312294656"
   },
   "PointCLIP: Point Cloud Understanding by CLIP.": {
     "type": "INPROCEEDINGS",
@@ -13140,10 +13147,11 @@
     "year": "2022",
     "abstract": "How to achieve better results with fewer labeling costs remains a challenging task. In this paper, we present a new active learning framework, which for the first time incorporates contrastive learning into recently proposed one-bit supervision. Here one-bit supervision denotes a simple Yes or No query about the correctness of the model's prediction, and is more efficient than previous active learning methods requiring assigning accurate labels to the queried samples. We claim that such one-bit information is intrinsically in accordance with the goal of contrastive loss that pulls positive pairs together and pushes negative samples away. Towards this goal, we design an uncertainty metric to actively select samples for query. These samples are then fed into different branches according to the queried results. The Yes query is treated as positive pairs of the queried category for contrastive pulling, while the No query is treated as hard negative pairs for contrastive repelling. Additionally, we design a negative loss that penalizes the negative samples away from the incorrect predicted class, which can be treated as optimizing hard negatives for the corresponding category. Our method, termed as ObCP, produces a more powerful active learning framework, and experiments on several benchmarks demonstrate its superiority.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.00947",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00947",
     "doi": "10.1109/CVPR52688.2022.00947",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4313034175"
   },
   "HCSC: Hierarchical Contrastive Selective Coding.": {
     "type": "INPROCEEDINGS",
@@ -14232,10 +14240,11 @@
     "year": "2022",
     "abstract": "The target of automatic video summarization is to create a short skim of the original long video while preserving the major content/events. There is a growing interest in the integration of user queries into video summarization or query-driven video summarization. This video summarization method predicts a concise synopsis of the original video based on the user query, which is commonly represented by the input text. However, two inherent problems exist in this query-driven way. First, the text query might not be enough to describe the exact and diverse needs of the user. Second, the user cannot edit once the summaries are produced, while we assume the needs of the user should be subtle and need to be adjusted interactively. To solve these two problems, we propose IntentVizor, an interactive video summarization framework guided by generic multi-modality queries. The input query that describes the user's needs are not limited to text but also the video snippets. We further represent these multi-modality finer-grained queries as user ‘intent’, which is interpretable, interactable, editable, and can better quantify the user's needs. In this paper, we use a set of the proposed intents to represent the user query and design a new interactive visual analytic interface. Users can interactively control and adjust these mixed-initiative intents to obtain a more satisfying summary through the interface. Also, to improve the summarization quality via video understanding, a novel Granularity-Scalable Ego-Graph Convolutional Networks (GSE-GCN) is proposed. We conduct our experiments on two benchmark datasets. Comparisons with the state-of-the-art methods verify the effectiveness of the proposed framework. Code and dataset are available at https://github.com/jnzs1836/intentvizor.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01025",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01025",
     "doi": "10.1109/CVPR52688.2022.01025",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312632488"
   },
   "M3L: Language-based Video Editing via Multi-Modal Multi-Level Transformers.": {
     "type": "INPROCEEDINGS",
@@ -18404,10 +18413,11 @@
     "year": "2022",
     "abstract": "We present in this paper a novel denoising training method to speedup DETR (DEtection TRansformer) training and offer a deepened understanding of the slow convergence issue of DETR-like methods. We show that the slow convergence results from the instability of bipartite graph matching which causes inconsistent optimization goals in early training stages. To address this issue, except for the Hungarian loss, our method additionally feeds ground-truth bounding boxes with noises into Transformer decoder and trains the model to reconstruct the original boxes, which effectively reduces the bipartite graph matching difficulty and leads to a faster convergence. Our method is universal and can be easily plugged into any DETR-like methods by adding dozens of lines of code to achieve a remarkable improvement. As a result, our DN-DETR results in a remarkable improvement (+1.9AP) under the same setting and achieves the best result (AP 43.4 and 48.6 with 12 and 50 epochs of training respectively) among DETR-like methods with ResNet-50 backbone. Compared with the baseline under the same setting, DN-DETR achieves comparable performance with 50% training epochs. Code is available at https://github.com/FengLi-ust/DN-DETR.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01325",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01325",
     "doi": "10.1109/CVPR52688.2022.01325",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312312588"
   },
   "Proper Reuse of Image Classification Features Improves Object Detection.": {
     "type": "INPROCEEDINGS",
@@ -18474,10 +18484,11 @@
     "year": "2022",
     "abstract": "While general object detection with deep learning has achieved great success in the past few years, the performance and efficiency of detecting small objects are far from satisfactory. The most common and effective way to promote small object detection is to use high-resolution images or feature maps. However, both approaches induce costly computation since the computational cost grows squarely as the size of images and features increases. To get the best of two worlds, we propose QueryDet that uses a novel query mechanism to accelerate the inference speed of feature-pyramid based object detectors. The pipeline composes two steps: it first predicts the coarse locations of small objects on low-resolution features and then computes the accurate detection results using high-resolution features sparsely guided by those coarse positions. In this way, we can not only harvest the benefit of high-resolution feature maps but also avoid useless computation for the background area. On the popular COCO dataset, the proposed method improves the detection mAP by 1.0 and mAP-small by 2.0, and the high-resolution inference speed is improved to 3.0× on average. On VisDrone dataset, which contains more small objects, we create a new state-of-the-art while gaining a 2.3× high-resolution acceleration on average. Code is available at https://github.com/ChenhongyiYang/QueryDet=PyTorch.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01330",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01330",
     "doi": "10.1109/CVPR52688.2022.01330",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312823573"
   },
   "Unknown-Aware Object Detection: Learning What You Don't Know from Videos in the Wild.": {
     "type": "INPROCEEDINGS",
@@ -20266,10 +20277,11 @@
     "year": "2022",
     "abstract": "Adversarial attacks perturb images such that a deep neural network produces incorrect classification results. A promising approach to defend against adversarial attacks on natural multi-object scenes is to impose a context-consistency check, wherein, if the detected objects are not consistent with an appropriately defined context, then an attack is suspected. Stronger attacks are needed to fool such context-aware detectors. We present the first approach for generating context-consistent adversarial attacks that can evade the context-consistency check of black-box object detectors operating on complex, natural scenes. Unlike many black-box attacks that perform repeated attempts and open themselves to detection, we assume a “zero-query” setting, where the attacker has no knowledge of the classification decisions of the victim system. First, we derive multiple attack plans that assign incorrect labels to victim objects in a context-consistent manner. Then we design and use a novel data structure that we call the perturbation success probability matrix, which enables us to filter the attack plans and choose the one most likely to succeed. This final attack plan is implemented using a perturbation-bounded adversarial attack algorithm. We compare our zero-query attack against a few-query scheme that repeatedly checks if the victim system is fooled. We also compare against state-of-the-art context-agnostic attacks. Against a context-aware defense, the fooling rate of our zero-query approach is significantly higher than context-agnostic approaches and higher than that achievable with up to three rounds of the fewquery scheme.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01460",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01460",
     "doi": "10.1109/CVPR52688.2022.01460",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312990987"
   },
   "360-Attack: Distortion-Aware Perturbations from Perspective-Views.": {
     "type": "INPROCEEDINGS",
@@ -20910,10 +20922,11 @@
     "year": "2022",
     "abstract": "Visual grounding focuses on establishing fine-grained alignment between vision and natural language, which has essential applications in multimodal reasoning systems. Existing methods use pre-trained query-agnostic visual backbones to extract visual feature maps independently without considering the query information. We argue that the visual features extracted from the visual backbones and the features really needed for multimodal reasoning are inconsistent. One reason is that there are differences between pre-training tasks and visual grounding. Moreover, since the backbones are query-agnostic, it is difficult to completely avoid the inconsistency issue by training the visual backbone end-to-end in the visual grounding framework. In this paper, we propose a Query-modulated Refinement Network (QRNet) to address the inconsistent issue by adjusting intermediate features in the visual backbone with a novel Query-aware Dynamic Attention (QD-ATT) mechanism and query-aware multiscale fusion. The QD-ATT can dynamically compute query-dependent visual attention at the spatial and channel levels of the feature maps produced by the visual backbone. We apply the QRNet to an end-to-end visual grounding framework. Extensive experiments show that the proposed method outperforms state-of-the-art methods on five widely used datasets. Our code is available at https://github.com/LukeForeverYoung/QRNet.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01506",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01506",
     "doi": "10.1109/CVPR52688.2022.01506",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312351586"
   },
   "Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding.": {
     "type": "INPROCEEDINGS",
@@ -21008,10 +21021,11 @@
     "year": "2022",
     "abstract": "Explainable visual question answering (VQA) models have been developed with neural modules and query-based knowledge incorporation to answer knowledge-requiring questions. Yet, most reasoning methods cannot effectively generate queries or incorporate external knowledge during the reasoning process, which may lead to suboptimal results. To bridge this research gap, we present Query and Attention Augmentation, a general approach that augments neural module networks to jointly reason about visual and external knowledge. To take both knowledge sources into account during reasoning, it parses the input question into a functional program with queries augmented through a novel reinforcement learning method, and jointly directs augmented attention to visual and external knowledge based on intermediate reasoning results. With extensive experiments on multiple VQA datasets, our method demonstrates significant performance, explainability, and generalizability over state-of-the-art models in answering questions requiring different extents of knowledge. Our source code is available at https://github.com/SuperJohnZhang/QAA.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01513",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01513",
     "doi": "10.1109/CVPR52688.2022.01513",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4312564152"
   },
   "REX: Reasoning-aware and Grounded Explanation.": {
     "type": "INPROCEEDINGS",
@@ -21394,7 +21408,7 @@
   "DoubleField: Bridging the Neural Surface and Radiance Fields for High-fidelity Human Reconstruction and Rendering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ShaoZZCC0L22",
-    "author": "Ruizhi Shao and Hongwen Zhang 0001 and He Zhang 0015 and Mingjia Chen and Yan-Pei Cao and Tao Yu 0007 and Yebin Liu",
+    "author": "Ruizhi Shao and Hongwen Zhang 0001 and He Zhang 0015 and Mingjia Chen and Yan-Pei Cao 0001 and Tao Yu 0007 and Yebin Liu",
     "booktitle": "CVPR",
     "title": "DoubleField: Bridging the Neural Surface and Radiance Fields for High-fidelity Human Reconstruction and Rendering.",
     "year": "2022",
@@ -24676,10 +24690,11 @@
     "year": "2022",
     "abstract": "Unpaired image-to-image (I2I) translation often requires to maximize the mutual information between the source and the translated images across different domains, which is critical for the generator to keep the source content and prevent it from unnecessary modifications. The self-supervised contrastive learning has already been successfully applied in the I2I. By constraining features from the same location to be closer than those from different ones, it implicitly ensures the result to take content from the source. However, previous work uses the features from random locations to impose the constraint, which may not be appropriate since some locations contain less information of source domain. Moreover, the feature itself does not reflect the relation with others. This paper deals with these problems by intentionally selecting significant anchor points for contrastive learning. We design a query-selected attention (QS-Attn) module, which compares feature distances in the source domain, giving an attention matrix with a probability distribution in each row. Then we select queries according to their measurement of significance, computed from the distribution. The selected ones are regarded as anchors for contrastive loss. At the same time, the reduced attention matrix is employed to route features in both domains, so that source relations maintain in the synthesis. We validate our proposed method in three different I2I datasets, showing that it increases the image quality with-out adding learnable parameters. Codes are available at https://github.com/sapphire497/query-selected-attention.",
     "keywords": "",
-    "url": "https://doi.org/10.1109/CVPR52688.2022.01775",
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01775",
     "doi": "10.1109/CVPR52688.2022.01775",
     "venue": "CVPR2022",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4221159622"
   },
   "Self-Supervised Dense Consistency Regularization for Image-to-Image Translation.": {
     "type": "INPROCEEDINGS",

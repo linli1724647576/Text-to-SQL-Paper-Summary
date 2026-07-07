@@ -577,6 +577,26 @@
       "notes": "missing doi"
     },
     {
+      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1007/s00778-023-00809-w",
+        "https://doi.org/10.1007/s00778-023-00809-w",
+        "https://openalex.org/W4386099755"
+      ],
+      "notes": ""
+    },
+    {
       "title": "A survey on deep learning approaches for text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "supplemental",
@@ -597,22 +617,42 @@
       "notes": ""
     },
     {
-      "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
+      "title": "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2021",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3448016.3452753",
-        "https://doi.org/10.1145/3448016.3452753",
-        "https://openalex.org/W3175426867"
+        "10.18653/v1/2022.acl-long.381",
+        "https://doi.org/10.18653/v1/2022.acl-long.381",
+        "https://openalex.org/W4285131076"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TSE",
+      "normalized_venue": "TSE",
+      "category": "软件工程",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/tse.2024.3523284",
+        "https://doi.org/10.1109/tse.2024.3523284",
+        "https://openalex.org/W4405846260"
       ],
       "notes": ""
     },
@@ -633,6 +673,26 @@
         "10.1109/tkde.2024.3393356",
         "https://doi.org/10.1109/tkde.2024.3393356",
         "https://openalex.org/W4396597709"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3448016.3452753",
+        "https://doi.org/10.1145/3448016.3452753",
+        "https://openalex.org/W3175426867"
       ],
       "notes": ""
     },
@@ -677,62 +737,21 @@
       "notes": ""
     },
     {
-      "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
+      "title": "Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams?",
       "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2021",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-021-00663-8",
-        "https://doi.org/10.1007/s00778-021-00663-8",
-        "https://openalex.org/W3144778742"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
+      "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2023",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1007/s00778-023-00809-w",
-        "https://doi.org/10.1007/s00778-023-00809-w",
-        "https://openalex.org/W4386099755"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TSE",
-      "normalized_venue": "TSE",
-      "category": "软件工程",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/tse.2024.3523284",
-        "https://doi.org/10.1109/tse.2024.3523284",
-        "https://openalex.org/W4405846260"
+        "10.1145/3722212.3724479",
+        "https://doi.org/10.1145/3722212.3724479"
       ],
       "notes": ""
     },
@@ -751,24 +770,6 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "https://arxiv.org/abs/2509.07159v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2605.21027v1"
       ],
       "notes": "missing doi"
     }

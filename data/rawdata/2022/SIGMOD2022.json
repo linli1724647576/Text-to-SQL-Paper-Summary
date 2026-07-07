@@ -2904,12 +2904,13 @@
     "booktitle": "SIGMOD Conference",
     "title": "Live Patching Database Management Systems.",
     "year": "2022",
-    "abstract": "",
+    "abstract": "Share on Live Patching Database Management Systems Author: Michael Fruth University of Passau, Passau, Germany University of Passau, Passau, GermanyView Profile Authors Info & Claims SIGMOD '22: Proceedings of the 2022 International Conference on Management of DataJune 2022 Pages 2524–2526https://doi.org/10.1145/3514221.3520253Online:11 June 2022Publication History 0citation46DownloadsMetricsTotal Citations0Total Downloads46Last 12 Months46Last 6 weeks6 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
     "keywords": "",
     "url": "https://doi.org/10.1145/3514221.3520253",
     "doi": "10.1145/3514221.3520253",
     "venue": "SIGMOD2022",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4281907433"
   },
   "DeepOLA: Online Aggregation for Deeply Nested Queries.": {
     "type": "INPROCEEDINGS",

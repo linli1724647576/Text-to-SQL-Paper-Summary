@@ -214,7 +214,8 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "10.1609/aaai.v37i11.26492",
-        "https://doi.org/10.1609/aaai.v37i11.26492"
+        "https://doi.org/10.1609/aaai.v37i11.26492",
+        "https://openalex.org/W4382318183"
       ],
       "notes": ""
     },
@@ -577,46 +578,6 @@
       "notes": "missing doi"
     },
     {
-      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-023-00809-w",
-        "https://doi.org/10.1007/s00778-023-00809-w",
-        "https://openalex.org/W4386099755"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "A survey on deep learning approaches for text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-022-00776-8",
-        "https://doi.org/10.1007/s00778-022-00776-8",
-        "https://openalex.org/W4317716303"
-      ],
-      "notes": ""
-    },
-    {
       "title": "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion",
       "present_in_labeldata": true,
       "stratum": "supplemental",
@@ -657,42 +618,22 @@
       "notes": ""
     },
     {
-      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/tkde.2024.3393356",
-        "https://doi.org/10.1109/tkde.2024.3393356",
-        "https://openalex.org/W4396597709"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
+      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2021",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3448016.3452753",
-        "https://doi.org/10.1145/3448016.3452753",
-        "https://openalex.org/W3175426867"
+        "10.1609/aaai.v37i11.26536",
+        "https://doi.org/10.1609/aaai.v37i11.26536",
+        "https://openalex.org/W4382202695"
       ],
       "notes": ""
     },
@@ -717,61 +658,121 @@
       "notes": ""
     },
     {
-      "title": "Zero-Shot Text-to-SQL Learning with Auxiliary Task",
+      "title": "Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
       "category": "AI 领域",
-      "year": "2020",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v34i05.6246",
-        "https://doi.org/10.1609/aaai.v34i05.6246",
-        "https://openalex.org/W2997970380"
+        "10.18653/v1/2023.acl-long.678",
+        "https://doi.org/10.18653/v1/2023.acl-long.678",
+        "https://openalex.org/W4385565204"
       ],
       "notes": ""
     },
     {
-      "title": "Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams?",
+      "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
       "present_in_labeldata": true,
-      "stratum": "fill",
+      "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
       "venue": "SIGMOD",
       "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2021",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3722212.3724479",
-        "https://doi.org/10.1145/3722212.3724479"
+        "10.1145/3448016.3452753",
+        "https://doi.org/10.1145/3448016.3452753",
+        "https://openalex.org/W3175426867"
       ],
       "notes": ""
     },
     {
-      "title": "PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning",
+      "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
       "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1007/s00778-021-00663-8",
+        "https://doi.org/10.1007/s00778-021-00663-8",
+        "https://openalex.org/W3144778742"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.07159v1"
+        "10.1145/3767739",
+        "https://doi.org/10.1145/3767739",
+        "https://openalex.org/W4414241772"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ICML",
+      "normalized_venue": "ICML",
+      "category": "AI 领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2602.15564v1"
       ],
       "notes": "missing doi"
+    },
+    {
+      "title": "Collaborative bug finding for Android apps",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "ICSE",
+      "normalized_venue": "ICSE",
+      "category": "软件工程",
+      "year": "2020",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3377811.3380349",
+        "https://doi.org/10.1145/3377811.3380349"
+      ],
+      "notes": ""
     }
   ]
 }

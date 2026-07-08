@@ -258,12 +258,13 @@
     "booktitle": "SIGMOD Conference Companion",
     "title": "ARENA: Alternative Relational Query Plan Exploration for Database Education.",
     "year": "2023",
-    "abstract": "",
+    "abstract": "A key learning goal of learners taking a database systems course is to understand how SQL queries are processed in an RDBMS in practice. To this end, comprehension of different alternative query plans (AQPs) that may be considered during the selection of the query execution plan (QEP) of a query is paramount. In this demonstration, we present a novel and generic system called ARENA that facilitates exploration of informative alternative query plans of a given SQL query to aid the comprehension of QEP selection. Under the hood, ARENA addresses a novel problem called informative plan selection problem (TIPS) which aims to discover alternative plans from the underlying plan space so that the plan informativeness is maximized. We demonstrate various innovative features of ARENA emphasizing the important role it can play in supplementing database education.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3555041.3589713",
     "doi": "10.1145/3555041.3589713",
     "venue": "SIGMOD2023",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4379390408"
   },
   "Pay \"Attention\" to Chart Images for What You Read on Text.": {
     "type": "INPROCEEDINGS",
@@ -804,12 +805,13 @@
     "booktitle": "SIGMOD Conference Companion",
     "title": "Capturing Data-inherent Dependencies in JSON Schema Extraction.",
     "year": "2023",
-    "abstract": "",
+    "abstract": "Share on Capturing Data-inherent Dependencies in JSON Schema Extraction Author: Stefan Klessinger University of Passau, Passau, Germany University of Passau, Passau, Germany 0000-0002-0030-8799View Profile Authors Info & Claims SIGMOD '23: Companion of the 2023 International Conference on Management of DataJune 2023Pages 295–297https://doi.org/10.1145/3555041.3589396Published:05 June 2023Publication History 0citation35DownloadsMetricsTotal Citations0Total Downloads35Last 12 Months35Last 6 weeks29 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
     "keywords": "",
-    "url": "https://doi.org/10.1145/3555041.3589396",
+    "url": "http://dx.doi.org/10.1145/3555041.3589396",
     "doi": "10.1145/3555041.3589396",
     "venue": "SIGMOD2023",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4379390266"
   },
   "International Workshop on Data Management on New Hardware (DaMoN).": {
     "type": "INPROCEEDINGS",

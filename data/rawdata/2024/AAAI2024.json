@@ -534,7 +534,7 @@
   "Geometric-Facilitated Denoising Diffusion Model for 3D Molecule Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuWWZC24",
-    "author": "Can Xu and Haosen Wang and Weigang Wang and Pengfei Zheng and Hongyang Chen 0001",
+    "author": "Can Xu 0005 and Haosen Wang and Weigang Wang and Pengfei Zheng and Hongyang Chen 0001",
     "booktitle": "AAAI",
     "title": "Geometric-Facilitated Denoising Diffusion Model for 3D Molecule Generation.",
     "year": "2024",
@@ -688,7 +688,7 @@
   "Hot or Cold? Adaptive Temperature Sampling for Code Generation with Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuLLZLJ024",
-    "author": "Yuqi Zhu and Jia Li 0011 and Ge Li 0001 and Yunfei Zhao and Jia Li 0012 and Zhi Jin 0001 and Hong Mei 0001",
+    "author": "Yuqi Zhu and Jia Li 0011 and Ge Li 0001 and Yunfei Zhao 0003 and Jia Li 0012 and Zhi Jin 0001 and Hong Mei 0001",
     "booktitle": "AAAI",
     "title": "Hot or Cold? Adaptive Temperature Sampling for Code Generation with Large Language Models.",
     "year": "2024",
@@ -1173,7 +1173,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i2.27832",
     "doi": "10.1609/aaai.v38i2.27832",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393156097"
   },
   "Improving Diffusion-Based Image Restoration with Error Contraction and Error Correction.": {
     "type": "INPROCEEDINGS",
@@ -1472,7 +1473,7 @@
   "LogoStyleFool: Vitiating Video Recognition Systems via Logo Style Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaoZXWXL24",
-    "author": "Yuxin Cao and Ziyu Zhao and Xi Xiao and Derui Wang and Minhui Xue 0001 and Jin Lu",
+    "author": "Yuxin Cao and Ziyu Zhao and Xi Xiao 0001 and Derui Wang and Minhui Xue 0001 and Jin Lu",
     "booktitle": "AAAI",
     "title": "LogoStyleFool: Vitiating Video Recognition Systems via Logo Style Transfer.",
     "year": "2024",
@@ -2032,7 +2033,7 @@
   "SparseGNV: Generating Novel Views of Indoor Scenes with Sparse RGB-D Images.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002CS24",
-    "author": "Weihao Cheng 0002 and Yan-Pei Cao and Ying Shan",
+    "author": "Weihao Cheng 0002 and Yan-Pei Cao 0001 and Ying Shan",
     "booktitle": "AAAI",
     "title": "SparseGNV: Generating Novel Views of Indoor Scenes with Sparse RGB-D Images.",
     "year": "2024",
@@ -3366,12 +3367,13 @@
     "booktitle": "AAAI",
     "title": "Commonsense for Zero-Shot Natural Language Video Localization.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Zero-shot Natural Language-Video Localization (NLVL) methods have exhibited promising results in training NLVL models exclusively with raw video data by dynamically generating video segments and pseudo-query annotations. However, existing pseudo-queries often lack grounding in the source video, resulting in unstructured and disjointed content. In this paper, we investigate the effectiveness of commonsense reasoning in zero-shot NLVL. Specifically, we present CORONET, a zero-shot NLVL framework that leverages commonsense to bridge the gap between videos and generated pseudo-queries via a commonsense enhancement module. CORONET employs Graph Convolution Networks (GCN) to encode commonsense information extracted from a knowledge graph, conditioned on the video, and cross-attention mechanisms to enhance the encoded video and pseudo-query representations prior to localization. Through empirical evaluations on two benchmark datasets, we demonstrate that CORONET surpasses both zero-shot and weakly supervised baselines, achieving improvements up to 32.13% across various recall thresholds and up to 6.33% in mIoU. These results underscore the significance of leveraging commonsense reasoning for zero-shot NLVL.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i3.27989",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i3.27989",
     "doi": "10.1609/aaai.v38i3.27989",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393156139"
   },
   "Learning Subject-Aware Cropping by Outpainting Professional Photos.": {
     "type": "INPROCEEDINGS",
@@ -3656,7 +3658,7 @@
   "SC-NeuS: Consistent Neural Surface Reconstruction from Sparse and Noisy Views.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangZZCS24",
-    "author": "Shi-Sheng Huang and Zi-Xin Zou and Yichi Zhang and Yan-Pei Cao and Ying Shan",
+    "author": "Shi-Sheng Huang and Zi-Xin Zou and Yichi Zhang and Yan-Pei Cao 0001 and Ying Shan",
     "booktitle": "AAAI",
     "title": "SC-NeuS: Consistent Neural Surface Reconstruction from Sparse and Noisy Views.",
     "year": "2024",
@@ -3914,10 +3916,11 @@
     "year": "2024",
     "abstract": "Video moment localization stands as a crucial task within the realm of computer vision, entailing the identification of temporal moments in untrimmed videos that bear semantic relevance to the supplied natural language queries. This work delves into a relatively unexplored facet of the task: the transferability of video moment localization models. This concern is addressed by evaluating moment localization models within a cross-domain transfer setting. In this setup, we curate multiple datasets distinguished by substantial domain gaps. The model undergoes training on one of these datasets, while validation and testing are executed using the remaining datasets. To confront the challenges inherent in this scenario, we draw inspiration from the recently introduced large-scale pre-trained vision-language models. Our focus is on exploring how the strategic utilization of these resources can bolster the capabilities of a model designed for video moment localization. Nevertheless, the distribution of language queries in video moment localization usually diverges from the text used by pre-trained models, exhibiting distinctions in aspects such as length, content, expression, and more. To mitigate the gap, this work proposes a Moment-Guided Query Prompting (MGQP) method for video moment localization. Our key idea is to generate multiple distinct and complementary prompt primitives through stratification of the original queries. Our approach is comprised of a prompt primitive constructor, a multimodal prompt refiner, and a holistic prompt incorporator. We carry out extensive experiments on Charades-STA, TACoS, DiDeMo, and YouCookII datasets, and investigate the efficacy of the proposed method using various pre-trained models, such as CLIP, ActionCLIP, CLIP4Clip, and VideoCLIP. The experimental results demonstrate the effectiveness of our proposed method.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i3.28028",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i3.28028",
     "doi": "10.1609/aaai.v38i3.28028",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393158722"
   },
   "In-Hand 3D Object Reconstruction from a Monocular RGB Video.": {
     "type": "INPROCEEDINGS",
@@ -4407,7 +4410,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i3.28063",
     "doi": "10.1609/aaai.v38i3.28063",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393149582"
   },
   "LaViP: Language-Grounded Visual Prompting.": {
     "type": "INPROCEEDINGS",
@@ -4430,12 +4434,13 @@
     "booktitle": "AAAI",
     "title": "Towards More Faithful Natural Language Explanation Using Multi-Level Contrastive Learning in VQA.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Natural language explanation in visual question answer (VQA-NLE) aims to explain the decision-making process of models by generating natural language sentences to increase users' trust in the black-box systems. Existing post-hoc methods have achieved significant progress in obtaining a plausible explanation. However, such post-hoc explanations are not always aligned with human logical inference, suffering from the issues on: 1) Deductive unsatisfiability, the generated explanations do not logically lead to the answer; 2) Factual inconsistency, the model falsifies its counterfactual explanation for answers without considering the facts in images; and 3) Semantic perturbation insensitivity, the model can not recognize the semantic changes caused by small perturbations. These problems reduce the faithfulness of explanations generated by models. To address the above issues, we propose a novel self-supervised Multi-level Contrastive Learning based natural language Explanation model (MCLE) for VQA with semantic-level, image-level, and instance-level factual and counterfactual samples. MCLE extracts discriminative features and aligns the feature spaces from explanations with visual question and answer to generate more consistent explanations. We conduct extensive experiments, ablation analysis, and case study to demonstrate the effectiveness of our method on two VQA-NLE benchmarks.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i3.28065",
     "doi": "10.1609/aaai.v38i3.28065",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393149638"
   },
   "MatchDet: A Collaborative Framework for Image Matching and Object Detection.": {
     "type": "INPROCEEDINGS",
@@ -5252,7 +5257,7 @@
   "NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LinJYYYZT24",
-    "author": "Beibei Lin and Yeying Jin and Wending Yan and Wei Ye 0005 and Yuan Yuan 0039 and Shunli Zhang and Robby T. Tan",
+    "author": "Beibei Lin and Yeying Jin and Wending Yan and Wei Ye 0005 and Yuan Yuan 0039 and Shunli Zhang 0005 and Robby T. Tan",
     "booktitle": "AAAI",
     "title": "NightRain: Nighttime Video Deraining via Adaptive-Rain-Removal and Adaptive-Correction.",
     "year": "2024",
@@ -5704,12 +5709,13 @@
     "booktitle": "AAAI",
     "title": "DifAttack: Query-Efficient Black-Box Adversarial Attack via Disentangled Feature Space.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "This work investigates efficient score-based black-box adversarial attacks with high Attack Success Rate (ASR) and good generalizability. We design a novel attack method based on a Disentangled Feature space, called DifAttack, which differs significantly from the existing ones operating over the entire feature space. Specifically, DifAttack firstly disentangles an image's latent feature into an adversarial feature and a visual feature, where the former dominates the adversarial capability of an image, while the latter largely determines its visual appearance. We train an autoencoder for the disentanglement by using pairs of clean images and their Adversarial Examples (AEs) generated from available surrogate models via white-box attack methods. Eventually, DifAttack iteratively optimizes the adversarial feature according to the query feedback from the victim model until a successful AE is generated, while keeping the visual feature unaltered. In addition, due to the avoidance of using surrogate models' gradient information when optimizing AEs for black-box models, our proposed DifAttack inherently possesses better attack capability in the open-set scenario, where the training dataset of the victim model is unknown. Extensive experimental results demonstrate that our method achieves significant improvements in ASR and query efficiency simultaneously, especially in the targeted attack and open-set scenarios. The code is available The code is available at https://github.com/csjunjun/DifAttack.git.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i4.28156",
     "doi": "10.1609/aaai.v38i4.28156",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393154890"
   },
   "Frequency Shuffling and Enhancement for Open Set Recognition.": {
     "type": "INPROCEEDINGS",
@@ -6344,7 +6350,7 @@
   "Stitching Segments and Sentences towards Generalization in Video-Text Pre-training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MaJWHZ024",
-    "author": "Fan Ma and Xiaojie Jin and Heng Wang and Jingjia Huang and Linchao Zhu and Yi Yang 0001",
+    "author": "Fan Ma and Xiaojie Jin 0004 and Heng Wang and Jingjia Huang and Linchao Zhu and Yi Yang 0001",
     "booktitle": "AAAI",
     "title": "Stitching Segments and Sentences towards Generalization in Video-Text Pre-training.",
     "year": "2024",
@@ -6358,7 +6364,7 @@
   "Image Captioning with Multi-Context Synthetic Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MaZRZ024",
-    "author": "Feipeng Ma and Yizhou Zhou and Fengyun Rao and Yueyi Zhang and Xiaoyan Sun 0001",
+    "author": "Feipeng Ma and Yizhou Zhou and Fengyun Rao and Yueyi Zhang 0001 and Xiaoyan Sun 0001",
     "booktitle": "AAAI",
     "title": "Image Captioning with Multi-Context Synthetic Data.",
     "year": "2024",
@@ -8024,7 +8030,7 @@
   "Boosting Residual Networks with Group Knowledge.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangYLLC0YO24",
-    "author": "Shengji Tang and Peng Ye 0006 and Baopu Li and Weihao Lin 0002 and Tao Chen 0003 and Tong He 0001 and Chong Yu and Wanli Ouyang",
+    "author": "Shengji Tang and Peng Ye 0006 and Baopu Li and Weihao Lin 0002 and Tao Chen 0003 and Tong He 0001 and Chong Yu 0001 and Wanli Ouyang",
     "booktitle": "AAAI",
     "title": "Boosting Residual Networks with Group Knowledge.",
     "year": "2024",
@@ -8332,7 +8338,7 @@
   "MuST: Robust Image Watermarking for Multi-Source Tracing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangMLYFZY24",
-    "author": "Guanjie Wang and Zehua Ma and Chang Liu 0089 and Xi Yang and Han Fang and Weiming Zhang 0001 and Nenghai Yu",
+    "author": "Guanjie Wang and Zehua Ma and Chang Liu 0089 and Xi Yang and Han Fang 0004 and Weiming Zhang 0001 and Nenghai Yu",
     "booktitle": "AAAI",
     "title": "MuST: Robust Image Watermarking for Multi-Source Tracing.",
     "year": "2024",
@@ -8518,12 +8524,13 @@
     "booktitle": "AAAI",
     "title": "EarthVQA: Towards Queryable Earth via Relational Reasoning-Based Remote Sensing Visual Question Answering.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Earth vision research typically focuses on extracting geospatial object locations and categories but neglects the exploration of relations between objects and comprehensive reasoning. Based on city planning needs, we develop a multi-modal multi-task VQA dataset (EarthVQA) to advance relational reasoning-based judging, counting, and comprehensive analysis. The EarthVQA dataset contains 6000 images, corresponding semantic masks, and 208,593 QA pairs with urban and rural governance requirements embedded. As objects are the basis for complex relational reasoning, we propose a Semantic OBject Awareness framework (SOBA) to advance VQA in an object-centric way. To preserve refined spatial locations and semantics, SOBA leverages a segmentation network for object semantics generation. The object-guided attention aggregates object interior features via pseudo masks, and bidirectional cross-attention further models object external relations hierarchically. To optimize object counting, we propose a numerical difference loss that dynamically adds difference penalties, unifying the classification and regression tasks. Experimental results show that SOBA outperforms both advanced general and remote sensing methods. We believe this dataset and framework provide a strong benchmark for Earth vision's complex analysis. The project page is at https://Junjue-Wang.github.io/homepage/EarthVQA.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i6.28357",
     "doi": "10.1609/aaai.v38i6.28357",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393148220"
   },
   "Semi-supervised Class-Agnostic Motion Prediction with Pseudo Label Regeneration and BEVMix.": {
     "type": "INPROCEEDINGS",
@@ -8882,12 +8889,13 @@
     "booktitle": "AAAI",
     "title": "SQLdepth: Generalizable Self-Supervised Fine-Structured Monocular Depth Estimation.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Recently, self-supervised monocular depth estimation has gained popularity with numerous applications in autonomous driving and robotics. However, existing solutions primarily seek to estimate depth from immediate visual features, and struggle to recover fine-grained scene details. In this paper, we introduce SQLdepth, a novel approach that can effectively learn fine-grained scene structure priors from ego-motion. In SQLdepth, we propose a novel Self Query Layer (SQL) to build a self-cost volume and infer depth from it, rather than inferring depth from feature maps. We show that, the self-cost volume is an effective inductive bias for geometry learning, which implicitly models the single-frame scene geometry, with each slice of it indicating a relative distance map between points and objects in a latent space. Experimental results on KITTI and Cityscapes show that our method attains remarkable state-of-the-art performance, and showcases computational efficiency, reduced training complexity, and the ability to recover fine-grained scene details. Moreover, the self-matching-oriented relative distance querying in SQL improves the robustness and zero-shot generalization capability of SQLdepth. Code is available at https://github.com/hisfog/SfMNeXt-Impl.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i6.28383",
     "doi": "10.1609/aaai.v38i6.28383",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393178517"
   },
   "H2GFormer: Horizontal-to-Global Voxel Transformer for 3D Semantic Scene Completion.": {
     "type": "INPROCEEDINGS",
@@ -9396,7 +9404,7 @@
   "Swift-Mapping: Online Neural Implicit Dense Mapping in Urban Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuZGZG024",
-    "author": "Ke Wu 0021 and Kaizhao Zhang and Mingzhe Gao and Jieru Zhao and Zhongxue Gan and Wenchao Ding 0001",
+    "author": "Ke Wu 0021 and Kaizhao Zhang and Mingzhe Gao and Jieru Zhao and Zhongxue Gan 0001 and Wenchao Ding 0001",
     "booktitle": "AAAI",
     "title": "Swift-Mapping: Online Neural Implicit Dense Mapping in Urban Scenes.",
     "year": "2024",
@@ -10805,7 +10813,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i7.28520",
     "doi": "10.1609/aaai.v38i7.28520",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393147894"
   },
   "Weakly-Supervised Mirror Detection via Scribble Annotations.": {
     "type": "INPROCEEDINGS",
@@ -11524,7 +11533,7 @@
   "TMFormer: Token Merging Transformer for Brain Tumor Segmentation with Missing Modalities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002YZYLOG024",
-    "author": "Zheyu Zhang 0002 and Gang Yang and Yueyi Zhang and Huanjing Yue and Aiping Liu and Yunwei Ou and Jian Gong and Xiaoyan Sun 0001",
+    "author": "Zheyu Zhang 0002 and Gang Yang and Yueyi Zhang 0001 and Huanjing Yue and Aiping Liu and Yunwei Ou and Jian Gong and Xiaoyan Sun 0001",
     "booktitle": "AAAI",
     "title": "TMFormer: Token Merging Transformer for Brain Tumor Segmentation with Missing Modalities.",
     "year": "2024",
@@ -12280,7 +12289,7 @@
   "Sparse3D: Distilling Multiview-Consistent Diffusion for Object Reconstruction from Sparse Views.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Zou0CHSZ24",
-    "author": "Zixin Zou and Weihao Cheng 0002 and Yan-Pei Cao and Shi-Sheng Huang and Ying Shan and Song-Hai Zhang",
+    "author": "Zixin Zou and Weihao Cheng 0002 and Yan-Pei Cao 0001 and Shi-Sheng Huang and Ying Shan and Song-Hai Zhang",
     "booktitle": "AAAI",
     "title": "Sparse3D: Distilling Multiview-Consistent Diffusion for Object Reconstruction from Sparse Views.",
     "year": "2024",
@@ -14002,7 +14011,7 @@
   "STEM: Unleashing the Power of Embeddings for Multi-Task Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SuPWXQC024",
-    "author": "Liangcai Su and Junwei Pan and Ximei Wang and Xi Xiao and Shijie Quan and Xihua Chen and Jie Jiang 0015",
+    "author": "Liangcai Su and Junwei Pan and Ximei Wang and Xi Xiao 0001 and Shijie Quan and Xihua Chen and Jie Jiang 0015",
     "booktitle": "AAAI",
     "title": "STEM: Unleashing the Power of Embeddings for Multi-Task Recommendation.",
     "year": "2024",
@@ -15780,7 +15789,7 @@
   "Efficient Online Crowdsourcing with Complex Annotations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MeirNCRW24",
-    "author": "Reshef Meir and Viet-An Nguyen and Xu Chen and Jagdish Ramakrishnan and Udi Weinsberg",
+    "author": "Reshef Meir and Viet-An Nguyen and Xu Chen 0046 and Jagdish Ramakrishnan and Udi Weinsberg",
     "booktitle": "AAAI",
     "title": "Efficient Online Crowdsourcing with Complex Annotations.",
     "year": "2024",
@@ -15836,7 +15845,7 @@
   "Exploring Domain Incremental Video Highlights Detection with the LiveFood Benchmark.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PeiXJ24",
-    "author": "Sen Pei and Shixiong Xu and Xiaojie Jin",
+    "author": "Sen Pei and Shixiong Xu and Xiaojie Jin 0004",
     "booktitle": "AAAI",
     "title": "Exploring Domain Incremental Video Highlights Detection with the LiveFood Benchmark.",
     "year": "2024",
@@ -16290,10 +16299,11 @@
     "year": "2024",
     "abstract": "Query answering for Knowledge Bases (KBs) amounts to extracting information from the various models of a KB, and presenting the user with an object that represents such information. In the vast majority of cases, this object consists of those tuples of constants that satisfy the query expression either in every model (certain answers) or in some model (possible answers). However, similarly to the case of incomplete databases, both these forms of answers are a lossy representation of all the knowledge inferable from the query and the queried KB. In this paper, we illustrate a formal framework to characterize the information that query answers for KBs are able to represent. As a first application of the framework, we study the informativeness of current query answering approaches, including the recently introduced partial answers. We then define a novel notion of answers, allowing repetition of variables across answer tuples. We show that these answers are capable of representing a meaningful form of information, and we also study their data complexity properties.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i9.28912",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i9.28912",
     "doi": "10.1609/aaai.v38i9.28912",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393159922"
   },
   "Defeasible Normative Reasoning: A Proof-Theoretic Integration of Logical Argumentation.": {
     "type": "INPROCEEDINGS",
@@ -28207,7 +28217,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i16.29763",
     "doi": "10.1609/aaai.v38i16.29763",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393160176"
   },
   "A General Search-Based Framework for Generating Textual Counterfactual Explanations.": {
     "type": "INPROCEEDINGS",
@@ -28580,12 +28591,13 @@
     "booktitle": "AAAI",
     "title": "Response Enhanced Semi-supervised Dialogue Query Generation.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Leveraging vast and continually updated knowledge from the Internet has been considered an important ability for a dialogue system. Therefore, the dialogue query generation task is proposed for generating search queries from dialogue histories, which will be submitted to a search engine for retrieving relevant websites on the Internet. In this regard, previous efforts were devoted to collecting conversations with annotated queries and training a query producer (QP) via standard supervised learning. However, these studies still face the challenges of data scarcity and domain adaptation. To address these issues, in this paper, we propose a semi-supervised learning framework -- SemiDQG, to improve model performance with unlabeled conversations. Based on the observation that the search query is typically related to the topic of dialogue response, we train a response-augmented query producer (RA) to provide rich and effective training signals for QP. We first apply a similarity-based query selection strategy to select high-quality RA-generated pseudo queries, which are used to construct pseudo instances for training QP and RA. Then, we adopt the REINFORCE algorithm to further enhance QP, with RA-provided rewards as fine-grained training signals. Experimental results and in-depth analysis of three benchmarks show the effectiveness of our framework in cross-domain and low-resource scenarios. Particularly, SemiDQG significantly surpasses ChatGPT and competitive baselines. Our code is available at \\url{https://github.com/DeepLearnXMU/SemiDQG}.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i16.29790",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i16.29790",
     "doi": "10.1609/aaai.v38i16.29790",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393160148"
   },
   "PMRC: Prompt-Based Machine Reading Comprehension for Few-Shot Named Entity Recognition.": {
     "type": "INPROCEEDINGS",
@@ -28804,12 +28816,13 @@
     "booktitle": "AAAI",
     "title": "Labels Need Prompts Too: Mask Matching for Natural Language Understanding Tasks.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Textual label names (descriptions) are typically semantically rich in many natural language understanding (NLU) tasks. In this paper, we incorporate the prompting methodology, which is widely used to enrich model input, into the label side for the first time. Specifically, we propose a Mask Matching method, which equips an input with a prompt and its label with another, and then makes predictions by matching their mask representations. We evaluate our method extensively on 8 NLU tasks with 14 datasets. The experimental results show that Mask Matching significantly outperforms its counterparts of fine-tuning and conventional prompt-tuning, setting up state-of-the-art performances in several datasets. Mask Matching is particularly good at handling NLU tasks with large label counts and informative label names. As pioneering efforts that investigate the label-side prompt, we also discuss open issues for future study.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i16.29806",
     "doi": "10.1609/aaai.v38i16.29806",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393147190"
   },
   "Harnessing Holistic Discourse Features and Triadic Interaction for Sentiment Quadruple Extraction in Dialogues.": {
     "type": "INPROCEEDINGS",
@@ -29229,7 +29242,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i17.29836",
     "doi": "10.1609/aaai.v38i17.29836",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393161143"
   },
   "Generative Multi-Modal Knowledge Retrieval with Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -31354,10 +31368,11 @@
     "year": "2024",
     "abstract": "Most planners are based on grounding, that is, generating all instances of a parameterized action during a preprocessing phase. For some problems the number of ground actions is too high, causing a performance bottleneck. Building upon an existing approach, we present an enhanced method to split action schemas automatically during the grounding phase, to reduce the number of ground actions. First, we propose to exploit the structural knowledge of the problems to have a more informative dependency graph. Then, we suggest a better objective function to define and choose the best split. Finally, we present a more effective search to find it. We experimentally measure the impact of each of these improvements, and show that our approach significantly outperforms the state of the art.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i18.29988",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i18.29988",
     "doi": "10.1609/aaai.v38i18.29988",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393146869"
   },
   "An Effective Polynomial Technique for Compiling Conditional Effects Away.": {
     "type": "INPROCEEDINGS",
@@ -32346,12 +32361,13 @@
     "booktitle": "AAAI",
     "title": "Limited Query Graph Connectivity Test.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "We propose a combinatorial optimisation model called Limited Query Graph Connectivity Test. We consider a graph whose edges have two possible states (On/Off). The edges' states are hidden initially. We could query an edge to reveal its state. Given a source s and a destination t, we aim to test s−t connectivity by identifying either a path (consisting of only On edges) or a cut (consisting of only Off edges). We are limited to B queries, after which we stop regardless of whether graph connectivity is established. We aim to design a query policy that minimizes the expected number of queries. Our model is mainly motivated by a cyber security use case where we need to establish whether attack paths exist in a given network, between a source (i.e., a compromised user node) and a destination (i.e., a high-privilege admin node). Edge query is resolved by manual effort from the IT admin, which is the motivation behind query minimization. Our model is highly related to Stochastic Boolean Function Evaluation (SBFE). There are two existing exact algorithms for SBFE that are prohibitively expensive. We propose a signifcantly more scalable exact algorithm. While previous exact algorithms only scale for trivial graphs (i.e., past works experimented on at most 20 edges), we empirically demonstrate that our algorithm is scalable for a wide range of much larger practical graphs (i.e., graphs representing Windows domain networks with tens of thousands of edges). We also propose three heuristics. Our best-performing heuristic is via limiting the planning horizon of the exact algorithm. The other two are via reinforcement learning (RL) and Monte Carlo tree search (MCTS). We also derive an algorithm for computing the performance lower bound. Experimentally, we show that all our heuristics are near optimal. The heuristic building on the exact algorithm outperforms all other heuristics, surpassing RL, MCTS and eight existing heuristics ported from SBFE and related literature.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i18.30059",
     "doi": "10.1609/aaai.v38i18.30059",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393161089"
   },
   "Theoretical Aspects of Generating Instances with Unique Solutions: Pre-assignment Models for Unique Vertex Cover.": {
     "type": "INPROCEEDINGS",
@@ -34138,12 +34154,13 @@
     "booktitle": "AAAI",
     "title": "Closing the Gap: Achieving Better Accuracy-Robustness Tradeoffs against Query-Based Attacks.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Although promising, existing defenses against query-based attacks share a common limitation: they offer increased robustness against attacks at the price of a considerable accuracy drop on clean samples. In this work, we show how to efficiently establish, at test-time, a solid tradeoff between robustness and accuracy when mitigating query-based attacks. Given that these attacks necessarily explore low-confidence regions, our insight is that activating dedicated defenses, such as random noise defense and random image transformations, only for low-confidence inputs is sufficient to prevent them. Our approach is independent of training and supported by theory. We verify the effectiveness of our approach for various existing defenses by conducting extensive experiments on CIFAR-10, CIFAR-100, and ImageNet. Our results confirm that our proposal can indeed enhance these defenses by providing better tradeoffs between robustness and accuracy when compared to state-of-the-art approaches while being completely training-free.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i19.30187",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i19.30187",
     "doi": "10.1609/aaai.v38i19.30187",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393157201"
   },
   "Coevolutionary Algorithm for Building Robust Decision Trees under Minimax Regret.": {
     "type": "INPROCEEDINGS",
@@ -35442,10 +35459,11 @@
     "year": "2024",
     "abstract": "Neural models, including large language models (LLMs), achieve superior performance on logical reasoning tasks such as question answering. To elicit reasoning capabilities from LLMs, recent works propose using the chain-of-thought (CoT) mechanism to generate both the reasoning chain and the answer, which enhances the model’s capabilities in conducting reasoning. However, due to LLM’s uninterpretable nature and the extreme flexibility of free-form explanations, several challenges remain: such as struggling with inaccurate reasoning, hallucinations, and not aligning with human preferences. In this talk, we will focus on (1) our design of leveraging structured information (that is grounded to the context), for the explainable complex question answering and reasoning; (2) our multi-module interpretable framework for inductive reasoning, which conducts step-wise faithful reasoning with iterative feedback.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i20.30280",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i20.30280",
     "doi": "10.1609/aaai.v38i20.30280",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393146414"
   },
   "Towards Robust Visual Understanding: from Recognition to Reasoning.": {
     "type": "INPROCEEDINGS",
@@ -35972,12 +35990,13 @@
     "booktitle": "AAAI",
     "title": "The Defeat of the Winograd Schema Challenge (Abstract Reprint).",
     "year": "2024",
-    "abstract": "",
+    "abstract": "The Winograd Schema Challenge—a set of twin sentences involving pronoun reference disambiguation that seem to require the use of commonsense knowledge—was proposed by Hector Levesque in 2011. By 2019, a number of AI systems, based on large pre-trained transformer-based language models and fine-tuned on these kinds of problems, achieved better than 90% accuracy. In this paper, we review the history of the Winograd Schema Challenge and discuss the lasting contributions of the flurry of research that has taken place on the WSC in the last decade. We discuss the significance of various datasets developed for WSC, and the research community's deeper understanding of the role of surrogate tasks in assessing the intelligence of an AI system.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i20.30603",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i20.30603",
     "doi": "10.1609/aaai.v38i20.30603",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393160735"
   },
   "Convolutional Spectral Kernel Learning with Generalization Guarantees (Abstract Reprint).": {
     "type": "INPROCEEDINGS",
@@ -36397,7 +36416,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i21.30323",
     "doi": "10.1609/aaai.v38i21.30323",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393146180"
   },
   "ETDPC: A Multimodality Framework for Classifying Pages in Electronic Theses and Dissertations.": {
     "type": "INPROCEEDINGS",
@@ -36761,7 +36781,9 @@
     "url": "https://doi.org/10.1609/aaai.v38i21.30349",
     "doi": "10.1609/aaai.v38i21.30349",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393161413",
+    "arxiv_id": "2409.15319"
   },
   "Does Any AI-Based Activity Contribute to Develop AI Conception? A Case Study with Italian Fifth and Sixth Grade Classes.": {
     "type": "INPROCEEDINGS",
@@ -37008,12 +37030,13 @@
     "booktitle": "AAAI",
     "title": "MineObserver 2.0: A Deep Learning & In-Game Framework for Assessing Natural Language Descriptions of Minecraft Imagery.",
     "year": "2024",
-    "abstract": "",
+    "abstract": "MineObserver 2.0 is an AI framework that uses Computer Vision and Natural Language Processing for assessing the accuracy of learner-generated descriptions of Minecraft images that include some scientifically relevant content. The system automatically assesses the accuracy of participant observations, written in natural language, made during science learning activities that take place in Minecraft. We demonstrate our system working in real-time and describe a teacher dashboard to showcase observations, both of which advance our previous work. We present the results of a study showing that MineObserver 2.0 improves over its predecessor both in perceived accuracy of the system's generated descriptions as well as in usefulness of the system's feedback. In future work, we intend improve system generated descriptions to give more teacher control and shift the system to perform continuous learning to more rapidly respond to novel observations made by learners.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v38i21.30367",
     "doi": "10.1609/aaai.v38i21.30367",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393146044"
   },
   "RetLLM-E: Retrieval-Prompt Strategy for Question-Answering on Student Discussion Forums.": {
     "type": "INPROCEEDINGS",
@@ -37559,7 +37582,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i21.30406",
     "doi": "10.1609/aaai.v38i21.30406",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393157852"
   },
   "Learning from an Infant's Visual Experience.": {
     "type": "INPROCEEDINGS",
@@ -37741,7 +37765,8 @@
     "url": "https://doi.org/10.1609/aaai.v38i21.30419",
     "doi": "10.1609/aaai.v38i21.30419",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393161733"
   },
   "Sleep-Like Unsupervised Replay Improves Performance When Data Are Limited or Unbalanced (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -39388,12 +39413,13 @@
     "booktitle": "AAAI",
     "title": "Automated Natural Language Explanation of Deep Visual Neurons with Large Models (Student Abstract).",
     "year": "2024",
-    "abstract": "",
+    "abstract": "Interpreting deep neural networks through examining neurons offers distinct advantages when it comes to exploring the inner workings of Deep Neural Networks. Previous research has indicated that specific neurons within deep vision networks possess semantic meaning and play pivotal roles in model performance. Nonetheless, the current methods for generating neuron semantics heavily rely on human intervention, which hampers their scalability and applicability. To address this limitation, this paper proposes a novel post-hoc framework for generating semantic explanations of neurons with large foundation models, without requiring human intervention or prior knowledge. Experiments are conducted with both qualitative and quantitative analysis to verify the effectiveness of our proposed approach.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i21.30537",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i21.30537",
     "doi": "10.1609/aaai.v38i21.30537",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393161579"
   },
   "Power-Aware Inverse-Search Machine Learning for Low Resource Multi-Objective Unmanned Underwater Vehicle Control (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -39726,10 +39752,11 @@
     "year": "2024",
     "abstract": "We present Lemming – a visualization tool for the interactive selection of plans for a given problem, allowing the user to efficiently whittle down the set of plans and select their plan(s) of choice. We demonstrate four different user experiences for this process, three of them based on the principle of using disjunctive action landmarks as guidance to cut down the set of choice points for the user, and one on the use of linear temporal logic (LTL) to impart additional constraints into the plan set using natural language (NL) instruction.",
     "keywords": "",
-    "url": "https://doi.org/10.1609/aaai.v38i21.30561",
+    "url": "http://dx.doi.org/10.1609/aaai.v38i21.30561",
     "doi": "10.1609/aaai.v38i21.30561",
     "venue": "AAAI2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393157679"
   },
   "SOCIALGYM 2.0: Simulator for Multi-Robot Learning and Navigation in Shared Human Spaces.": {
     "type": "INPROCEEDINGS",

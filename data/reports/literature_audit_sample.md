@@ -43,7 +43,7 @@
 | supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
 | supplemental | true_positive_core | ACL | 2023 | Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms |  |
 | supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
+| supplemental | true_positive_core | AAAI | 2023 | Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers |  |
 | supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
-| supplemental | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
+| fill | true_positive_core | SIGMOD | 2025 | Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams? |  |
 | fill | true_positive_core | ICML | 2026 | Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL | missing doi |
-| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |

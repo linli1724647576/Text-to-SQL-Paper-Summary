@@ -221,7 +221,8 @@
     "url": "https://aclanthology.org/2024.acl-long.15/",
     "doi": "10.18653/v1/2024.acl-long.15",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402667012"
   },
   "MinPrompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering.": {
     "type": "INPROCEEDINGS",
@@ -314,12 +315,13 @@
     "booktitle": "ACL (1)",
     "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge.",
     "year": "2024",
-    "abstract": "Large Language Models (LLMs) have demonstrated remarkable success in tasks like the Winograd Schema Challenge (WSC), showcasing advanced textual common-sense reasoning. However, applying this reasoning to multimodal domains, where understanding text and images together is essential, remains a substantial challenge. To address this, we introduce WinoVis, a novel dataset specifically designed to probe text-to-image models on pronoun disambiguation within multimodal contexts. Utilizing GPT-4 for prompt generation and Diffusion Attentive Attribution Maps (DAAM) for heatmap analysis, we propose a novel evaluation framework that isolates the models’ ability in pronoun disambiguation from other visual processing challenges. Evaluation of successive model versions reveals that, despite incremental advancements, Stable Diffusion 2.0 achieves a precision of 56.7% on WinoVis, only marginally surpassing random guessing. Further error analysis identifies important areas for future research aimed at advancing text-to-image models in their ability to interpret and interact with the complex visual world.",
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable success in tasks like the Winograd Schema Challenge (WSC), showcasing advanced textual common-sense reasoning.However, applying this reasoning to multimodal domains, where understanding text and images together is essential, remains a substantial challenge.To address this, we introduce WINOVIS, a novel dataset specifically designed to probe text-to-image models on pronoun disambiguation within multimodal contexts.Utilizing GPT-4 for prompt generation and Diffusion Attentive Attribution Maps (DAAM) for heatmap analysis, we propose a novel evaluation framework that isolates the models' ability in pronoun disambiguation from other visual processing challenges.Evaluation of successive model versions reveals that, despite incremental advancements, Stable Diffusion 2.0 achieves a precision of 56.7% on WINOVIS, showing minimal improvement from past iterations and only marginally surpassing random guessing.Further error analysis identifies important areas for future research aimed at advancing text-to-image models in their ability to interpret and interact with the complex visual world.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.22/",
+    "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.22",
     "doi": "10.18653/v1/2024.acl-long.22",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402667015"
   },
   "Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -1252,12 +1254,13 @@
     "booktitle": "ACL (1)",
     "title": "Language Model Adaption for Reinforcement Learning with Natural Language Action Space.",
     "year": "2024",
-    "abstract": ",",
+    "abstract": "Reinforcement learning with natural language action space often suffers from the curse of dimensionality due to the combinatorial nature of the natural language.Previous research leverages pretrained language models to capture action semantics and reduce the size of the action space.However, since pretrained models are typically trained on general corpora, there can be an unpredictable mismatch between the priors encoded in pretrained models and the characteristics of the specific RL environment.To address this issue, we propose Mutual-Information Regularized Policy Optimization, MIPO.MIPO enables implicit and dynamic reduction of the action space.Starting from the prior provided by the pretrained language model, our method dynamically adjusts the prior during the learning process based on the guidance of mutual information regularization.Theoretically, we demonstrate that this policy optimization process leads to the monotonic improvement on the mutual-information regularized RL objective.Empirically, we conduct experiments in various environments and demonstrate the effectiveness of MIPO.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2024.acl-long.89",
+    "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.89",
     "doi": "10.18653/v1/2024.acl-long.89",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671954"
   },
   "Evaluating Intention Detection Capability of Large Language Models in Persuasive Dialogues.": {
     "type": "INPROCEEDINGS",
@@ -1593,7 +1596,8 @@
     "url": "https://aclanthology.org/2024.acl-long.113/",
     "doi": "10.18653/v1/2024.acl-long.113",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671961"
   },
   "Handling Ambiguity in Emotion: From Out-of-Domain Detection to Distribution Estimation.": {
     "type": "INPROCEEDINGS",
@@ -1952,12 +1956,13 @@
     "booktitle": "ACL (1)",
     "title": "Co-training for Low Resource Scientific Natural Language Inference.",
     "year": "2024",
-    "abstract": "Scientific Natural Language Inference (NLI) is the task of predicting the semantic relation between a pair of sentences extracted from research articles. The automatic annotation method based on distant supervision for the training set of SciNLI, the first and most popular dataset for this task, results in label noise which inevitably degenerates the performance of classifiers. In this paper, we propose a novel co-training method that assigns weights based on the training dynamics of the classifiers to the distantly supervised labels, reflective of the manner they are used in the subsequent training epochs. That is, unlike the existing semi-supervised learning (SSL) approaches, we consider the historical behavior of the classifiers to evaluate the quality of the automatically annotated labels. Furthermore, by assigning importance weights instead of filtering out examples based on an arbitrary threshold on the predicted confidence, we maximize the usage of automatically labeled data, while ensuring that the noisy labels have a minimal impact on model training. The proposed method obtains an improvement of 1.5% in Macro F1 over the distant supervision baseline, and substantial improvements over several other strong SSL baselines. We make our code and data available on Github.",
+    "abstract": "Scientific Natural Language Inference (NLI) is the task of predicting the semantic relation between a pair of sentences extracted from research articles.The automatic annotation method based on distant supervision for the training set of SCINLI (Sadat and Caragea, 2022b), the first and most popular dataset for this task, results in label noise which inevitably degenerates the performance of classifiers.In this paper, we propose a novel co-training method that assigns weights based on the training dynamics of the classifiers to the distantly supervised labels, reflective of the manner they are used in the subsequent training epochs.That is, unlike the existing semi-supervised learning (SSL) approaches, we consider the historical behavior of the classifiers to evaluate the quality of the automatically annotated labels.Furthermore, by assigning importance weights instead of filtering out examples based on an arbitrary threshold on the predicted confidence, we maximize the usage of automatically labeled data, while ensuring that the noisy labels have a minimal impact on model training.The proposed method obtains an improvement of 1.5% in Macro F1 over the distant supervision baseline, and substantial improvements over several other strong SSL baselines.We make our code and data available on Github. 1",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.139/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.139",
     "doi": "10.18653/v1/2024.acl-long.139",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671948"
   },
   "RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -2004,7 +2009,7 @@
   "SirLLM: Streaming Infinite Retentive LLM.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YaoL024",
-    "author": "Yao Yao and Zuchao Li and Hai Zhao 0001",
+    "author": "Yao Yao 0008 and Zuchao Li and Hai Zhao 0001",
     "booktitle": "ACL (1)",
     "title": "SirLLM: Streaming Infinite Retentive LLM.",
     "year": "2024",
@@ -3240,12 +3245,13 @@
     "booktitle": "ACL (1)",
     "title": "Enhancing Reinforcement Learning with Label-Sensitive Reward for Natural Language Understanding.",
     "year": "2024",
-    "abstract": "Recent strides in large language models (LLMs) have yielded remarkable performance, leveraging reinforcement learning from human feedback (RLHF) to significantly enhance generation and alignment capabilities. However, RLHF encounters numerous challenges, including the objective mismatch issue, leading to suboptimal performance in Natural Language Understanding (NLU) tasks.To address this limitation, we propose a novel Reinforcement Learning framework enhanced with Label-sensitive Reward (RLLR) to amplify the performance of LLMs in NLU tasks. By incorporating label-sensitive pairs into reinforcement learning, our method aims to adeptly capture nuanced label-sensitive semantic features during RL, thereby enhancing natural language understanding.Experiments conducted on five diverse foundation models across eight tasks showcase promising results. In comparison to Supervised Fine-tuning models (SFT), RLLR demonstrates an average performance improvement of 1.54%. Compared with RLHF models, the improvement averages at 0.69%. These results reveal the effectiveness of our method for LLMs in NLU tasks.",
+    "abstract": "Kuo Liao, Shuang Li, Meng Zhao, Liqun Liu, Mengge Xue, Zhenyu Hu, Honglin Han, Chengguo Yin. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.231/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.231",
     "doi": "10.18653/v1/2024.acl-long.231",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671757"
   },
   "Intuitive or Dependent? Investigating LLMs' Behavior Style to Conflicting Prompts.": {
     "type": "INPROCEEDINGS",
@@ -3464,12 +3470,13 @@
     "booktitle": "ACL (1)",
     "title": "Exploiting Intrinsic Multilateral Logical Rules for Weakly Supervised Natural Language Video Localization.",
     "year": "2024",
-    "abstract": "Weakly supervised natural language video localization (WS-NLVL) aims to retrieve the moment corresponding to a language query in a video with only video-language pairs utilized during training. Despite great success, existing WS-NLVL methods seldomly consider the complex temporal relations enclosing the language query ( e.g. , between the language query and sub-queries decomposed from it or its synonymous query), yielding illogical predictions. In this paper, we propose a novel plug-and-play method, Intrinsic Multilateral Logical Rules, namely IMLR, to exploit intrinsic temporal relations and logical rules for WS-NLVL. Specifically, we formalize queries derived from the original language query as the nodes of a directed graph, i.e. , intrinsic temporal relation graph (ITRG), and the temporal relations between them as the edges. Instead of directly prompting a pre-trained language model, a relation-guided prompting method is introduced to generate ITRG in a hierarchical manner. We customize four types of multilateral temporal logical rules ( i.e. , identity, inclusion, synchronization, and succession) from ITRG and utilize them to train our model. Experiments demonstrate the effectiveness and superiority of our method on the Charades-STA and ActivityNet Captions datasets.",
+    "abstract": "Weakly supervised natural language video localization (WS-NLVL) aims to retrieve the moment corresponding to a language query in a video with only video-language pairs utilized during training.Despite great success, existing WS-NLVL methods seldomly consider the complex temporal relations enclosing the language query (e.g., between the language query and sub-queries decomposed from it or its synonymous query), yielding illogical predictions.In this paper, we propose a novel plug-and-play method, Intrinsic Multilateral Logical Rules, namely IMLR, to exploit intrinsic temporal relations and logical rules for WS-NLVL.Specifically, we formalize queries derived from the original language query as the nodes of a directed graph, i.e., intrinsic temporal relation graph (ITRG), and the temporal relations between them as the edges.Instead of directly prompting a pre-trained language model, a relation-guided prompting method is introduced to generate ITRG in a hierarchical manner.We customize four types of multilateral temporal logical rules (i.e., identity, inclusion, synchronization, and succession) from ITRG and utilize them to train our model.Experiments demonstrate the effectiveness and superiority of our method on the Charades-STA and ActivityNet Captions datasets.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2024.acl-long.247",
     "doi": "10.18653/v1/2024.acl-long.247",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402684026"
   },
   "Interpretability of Language Models via Task Spaces.": {
     "type": "INPROCEEDINGS",
@@ -3842,12 +3849,13 @@
     "booktitle": "ACL (1)",
     "title": "QueryAgent: A Reliable and Efficient Reasoning Framework with Environmental Feedback based Self-Correction.",
     "year": "2024",
-    "abstract": "Employing Large Language Models (LLMs) for semantic parsing has achieved remarkable success. However, we find existing methods fall short in terms of reliability and efficiency when hallucinations are encountered. In this paper, we address these challenges with a framework called QueryAgent, which solves a question step-by-step and performs stepwise self-correction. We introduce an environmental feedback-based self-correction method called ERASER. Unlike traditional approaches, ERASER leverages rich environmental feedback in the intermediate steps to perform selective and differentiated self-correction only when necessary. Experimental results demonstrate that QueryAgent notably outperforms all previous few-shot methods using only one example on GrailQA and GraphQ by 5.7 and 15.0 points. Furthermore, our approach exhibits superiority in terms of efficiency, including run-time, query overhead, and API invocation costs. By leveraging ERASER, we further improve another baseline (i.e., AgentBench) by approximately 10 points, validating the strong transferability of our approach.",
+    "abstract": "Xiang Huang, Sitao Cheng, Shanshan Huang, Jiayu Shen, Yong Xu, Chaoyun Zhang, Yuzhong Qu. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.274/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.274",
     "doi": "10.18653/v1/2024.acl-long.274",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671648"
   },
   "PITA: Prompting Task Interaction for Argumentation Mining.": {
     "type": "INPROCEEDINGS",
@@ -4612,12 +4620,13 @@
     "booktitle": "ACL (1)",
     "title": "On Measuring Faithfulness or Self-consistency of Natural Language Explanations.",
     "year": "2024",
-    "abstract": "Large language models (LLMs) can explain their predictions through post-hoc or Chain-of-Thought (CoT) explanations. But an LLM could make up reasonably sounding explanations that are unfaithful to its underlying reasoning. Recent work has designed tests that aim to judge the faithfulness of post-hoc or CoT explanations. In this work we argue that these faithfulness tests do not measure faithfulness to the models' inner workings -- but rather their self-consistency at output level. Our contributions are three-fold: i) We clarify the status of faithfulness tests in view of model explainability, characterising them as self-consistency tests instead. This assessment we underline by ii) constructing a Comparative Consistency Bank for self-consistency tests that for the first time compares existing tests on a common suite of 11 open LLMs and 5 tasks -- including iii) our new self-consistency measure CC-SHAP. CC-SHAP is a fine-grained measure (not a test) of LLM self-consistency. It compares how a model's input contributes to the predicted answer and to generating the explanation. Our fine-grained CC-SHAP metric allows us iii) to compare LLM behaviour when making predictions and to analyse the effect of other consistency tests at a deeper level, which takes us one step further towards measuring faithfulness by bringing us closer to the internals of the model than strictly surface output-oriented tests. Our code is available at \\url{https://github.com/Heidelberg-NLP/CC-SHAP}",
+    "abstract": "Large language models (LLMs) can explain their predictions through post-hoc or Chain-of-Thought (CoT) explanations. But an LLM could make up reasonably sounding explanations that are unfaithful to its underlying reasoning. Recent work has designed tests that aim to judge the faithfulness of post-hoc or CoT explanations. In this work we argue that these faithfulness tests do not measure faithfulness to the models’ inner workings – but rather their self-consistency at output level.Our contributions are three-fold: i) We clarify the status of faithfulness tests in view of model explainability, characterising them as self-consistency tests instead. This assessment we underline by ii) constructing a Comparative Consistency Bank for self-consistency tests that for the first time compares existing tests on a common suite of 11 open LLMs and 5 tasks – including iii) our new self-consistency measure CC-SHAP. CC-SHAP is a fine-grained measure (not a test) of LLM self-consistency. It compares how a model’s input contributes to the predicted answer and to generating the explanation. Our fine-grained CC-SHAP metric allows us iii) to compare LLM behaviour when making predictions and to analyse the effect of other consistency tests at a deeper level, which takes us one step further towards measuring faithfulness by bringing us closer to the internals of the model than strictly surface output-oriented tests.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2024.acl-long.329",
+    "url": "https://aclanthology.org/2024.acl-long.329/",
     "doi": "10.18653/v1/2024.acl-long.329",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671681"
   },
   "Learning or Self-aligning? Rethinking Instruction Fine-tuning.": {
     "type": "INPROCEEDINGS",
@@ -5261,7 +5270,8 @@
     "url": "https://aclanthology.org/2024.acl-long.375/",
     "doi": "10.18653/v1/2024.acl-long.375",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671668"
   },
   "Lightweight reranking for language model generations.": {
     "type": "INPROCEEDINGS",
@@ -5578,12 +5588,13 @@
     "booktitle": "ACL (1)",
     "title": "Multimodal Contextualized Semantic Parsing from Speech.",
     "year": "2024",
-    "abstract": "We introduce Semantic Parsing in Contextual Environments (SPICE), a task designed to enhance artificial agents’ contextual awareness by integrating multimodal inputs with prior contexts. SPICE goes beyond traditional semantic parsing by offering a structured, interpretable framework for dynamically updating an agent’s knowledge with new information, mirroring the complexity of human communication. We develop the VG-SPICE dataset, crafted to challenge agents with visual scene graph construction from spoken conversational exchanges, highlighting speech and visual data integration. We also present the Audio-Vision Dialogue Scene Parser (AViD-SP) developed for use on VG-SPICE. These innovations aim to improve multimodal information processing and integration. Both the VG-SPICE dataset and the AViD-SP model are publicly available.",
+    "abstract": "We introduce Semantic Parsing in Contextual Environments (SPICE), a task designed to enhance artificial agents' contextual awareness by integrating multimodal inputs with prior contexts.SPICE goes beyond traditional semantic parsing by offering a structured, interpretable framework for dynamically updating an agent's knowledge with new information, mirroring the complexity of human communication.We develop the VG-SPICE dataset, crafted to challenge agents with visual scene graph construction from spoken conversational exchanges, highlighting speech and visual data integration.We also present the Audio-Vision Dialogue Scene Parser (AViD-SP) developed for use on VG-SPICE.These innovations aim to improve multimodal information processing and integration.Both the VG-SPICE dataset and the AViD-SP model are publicly available.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.398/",
+    "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.398",
     "doi": "10.18653/v1/2024.acl-long.398",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671907"
   },
   "LaMP: When Large Language Models Meet Personalization.": {
     "type": "INPROCEEDINGS",
@@ -5961,7 +5972,8 @@
     "url": "https://aclanthology.org/2024.acl-long.425/",
     "doi": "10.18653/v1/2024.acl-long.425",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671560"
   },
   "STRUCTSUM Generation for Faster Text Comprehension.": {
     "type": "INPROCEEDINGS",
@@ -7286,12 +7298,13 @@
     "booktitle": "ACL (1)",
     "title": "Beyond Recognising Entailment: Formalising Natural Language Inference from an Argumentative Perspective.",
     "year": "2024",
-    "abstract": "In argumentation theory, argument schemes 001 provide a foundation that offers a character-002 isation of stereotypical patterns of inference. 003 There has been little work done in provid-004 ing computational approaches to identify these 005 schemes in natural language. Moreover, ad-006 vancements in recognizing textual entailment 007 lack a standardized definition, which makes 008 it challenging to compare methods trained on 009 different datasets. In this work, we propose a 010 rigorous approach to align entailment recog-011 nition with argumentation theory. Wagemans’ 012 Periodic Table of Arguments (PTA), a taxon-013 omy of argument schemes, provides the ap-014 propriate framework to unify these two fields. 015 To operationalise the theoretical model, we in-016 troduce a tool to assist humans in annotating 017 arguments according to the PTA. Beyond pro-018 viding insights into non-expert annotator train-019 ing, we present Kialo-PTA24, the first multi-020 topic dataset for the PTA. We benchmark the 021 performance of pre-trained language models 022 on various aspects of argument analysis. Our 023 experiments show that the task of argument 024 canonicalisation poses a significant challenge 025 for state-of-the-art models, suggesting an in-026 ability to represent argumentative reasoning 027 and a direction for future investigation. 028",
+    "abstract": "In argumentation theory, argument schemes are a characterisation of stereotypical patterns of inference.There has been little work done to develop computational approaches to identify these schemes in natural language.Moreover, advancements in recognizing textual entailment lack a standardized definition of inference, which makes it challenging to compare methods trained on different datasets and rely on the generalisability of their results.In this work, we propose a rigorous approach to align entailment recognition with argumentation theory.Wagemans' Periodic Table of Arguments (PTA), a taxonomy of argument schemes, provides the appropriate framework to unify these two fields.To operationalise the theoretical model, we introduce a tool to assist humans in annotating arguments according to the PTA.Beyond providing insights into non-expert annotator training, we present Kialo-PTA24, the first multi-topic dataset for the PTA.Finally, we benchmark the performance of pre-trained language models on various aspects of argument analysis.Our experiments show that the task of argument canonicalisation poses a significant challenge for state-of-the-art models, suggesting an inability to represent argumentative reasoning and a direction for future investigation.1. We conduct an annotation study to rephrase natural language arguments into structured templates and provide insights into how to train non-expert annotators to perform this analysis.2. We introduce ArgNotator, a tool that assists humans in annotating arguments according to the PTA.3. We construct Kialo-PTA24 -the first multi-topic dataset of argument types annotated according to the PTA.4. We compare the performance of state-of-theart models for two annotation subtasks.For the substance classification task, we benchmark the performance of a number of BERT-based models.For the argument canonicalisation task, we evaluate the performance of two large language models (FLAN-T5, LLAMA2) in both pre-trained and few-shot settings.The dataset, experimental setup, annotation tool and training materials can all be found on GitLab. 1",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2024.acl-long.520",
     "doi": "10.18653/v1/2024.acl-long.520",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402684161"
   },
   "AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling.": {
     "type": "INPROCEEDINGS",
@@ -7720,12 +7733,13 @@
     "booktitle": "ACL (1)",
     "title": "MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning.",
     "year": "2024",
-    "abstract": "In math reasoning with large language models (LLMs), fine-tuning data augmentation by query evolution and diverse reasoning paths is empirically verified effective, profoundly narrowing the gap between open-sourced LLMs and cutting-edge proprietary LLMs. In this paper, we conduct an investigation for such data augmentation in math reasoning and are intended to answer: (1) What strategies of data augmentation are more effective; (2) What is the scaling relationship between the amount of augmented data and model performance; and (3) Can data augmentation incentivize generalization to out-of-domain mathematical reasoning tasks? To this end, we create two new dataset AugGSM8K and AugMATH, by complicating and diversifying the queries and sampling multiple reasoning paths from GSM8K and MATH. We obtained a series of LLMs called MuggleMath by fine-tuning LLaMA models on AugGSM8K and AugMATH. MuggleMath substantially achieves new state-of-the-art on GSM8K and MATH. A log-linear relationship and a segmented log-linear are presented between MuggleMath's performance and the amount of augmented data on GSM8K and MATH, respectively. We also find that it is weak in out-of-domain math reasoning generalization from AugGSM8K to MATH and from AugMATH to GSM8K, which suggests that augmenting queries that cover a broader range of subjects is more beneficial for generalization. We release our codes and augmented data in https://github.com/OFA-Sys/gsm8k-ScRel.",
+    "abstract": "Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2024.acl-long.551",
     "doi": "10.18653/v1/2024.acl-long.551",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671688"
   },
   "Harnessing Toulmin's theory for zero-shot argument explication.": {
     "type": "INPROCEEDINGS",
@@ -8738,7 +8752,7 @@
   "AlignBench: Benchmarking Chinese Alignment of Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiuLWHFWCKXTZ0G24",
-    "author": "Xiao Liu 0036 and Xuanyu Lei and Shengyuan Wang 0002 and Yue Huang 0001 and Andrew Feng and Bosi Wen and Jiale Cheng and Pei Ke and Yifan Xu 0014 and Weng Lam Tam and Xiaohan Zhang and Lichao Sun 0001 and Xiaotao Gu and Hongning Wang and Jing Zhang 0015 and Minlie Huang and Yuxiao Dong and Jie Tang 0001",
+    "author": "Xiao Liu 0036 and Xuanyu Lei and Shengyuan Wang 0002 and Yue Huang 0001 and Andrew Feng and Bosi Wen and Jiale Cheng and Pei Ke and Yifan Xu 0014 and Weng Lam Tam and Xiaohan Zhang and Lichao Sun 0001 and Xiaotao Gu and Hongning Wang and Jing Zhang 0001 and Minlie Huang and Yuxiao Dong and Jie Tang 0001",
     "booktitle": "ACL (1)",
     "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models.",
     "year": "2024",
@@ -9596,12 +9610,13 @@
     "booktitle": "ACL (1)",
     "title": "Retaining Key Information under High Compression Ratios: Query-Guided Compressor for LLMs.",
     "year": "2024",
-    "abstract": "The growing popularity of Large Language Models has sparked interest in context compression for Large Language Models (LLMs). However, the performance of previous methods degrades dramatically as compression ratios increase, sometimes even falling to the closed-book level. This decline can be attributed to the loss of key information during the compression process. Our preliminary study supports this hypothesis, emphasizing the significance of retaining key information to maintain model performance under high compression ratios. As a result, we introduce Query-Guided Compressor (QGC), which leverages queries to guide the context compression process, effectively preserving key information within the compressed context. Additionally, we employ a dynamic compression strategy. We validate the effectiveness of our proposed QGC on the Question Answering task, including NaturalQuestions, TriviaQA, and HotpotQA datasets. Experimental results show that QGC can consistently perform well even at high compression ratios, which also offers significant benefits in terms of inference cost and throughput.",
+    "abstract": "Zhiwei Cao, Qian Cao, Yu Lu, Ningxin Peng, Luyang Huang, Shanbo Cheng, Jinsong Su. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.685/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.685",
     "doi": "10.18653/v1/2024.acl-long.685",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671518"
   },
   "COSMIC: Mutual Information for Task-Agnostic Summarization Evaluation.": {
     "type": "INPROCEEDINGS",
@@ -9680,12 +9695,13 @@
     "booktitle": "ACL (1)",
     "title": "Cheetah: Natural Language Generation for 517 African Languages.",
     "year": "2024",
-    "abstract": "Low-resource African languages pose unique challenges for natural language processing (NLP) tasks, including natural language generation (NLG). In this paper, we develop Cheetah, a massively multilingual NLG language model for African languages. Cheetah supports 517 African languages and language varieties, allowing us to address the scarcity of NLG resources and provide a solution to foster linguistic diversity. We demonstrate the effectiveness of Cheetah through comprehensive evaluations across six generation downstream tasks. In five of the six tasks, Cheetah significantly outperforms other models, showcasing its remarkable performance for generating coherent and contextually appropriate text in a wide range of African languages. We additionally conduct a detailed human evaluation to delve deeper into the linguistic capabilities of Cheetah. The findings of this study contribute to advancing NLP research in low-resource settings, enabling greater accessibility and inclusion for African languages in a rapidly expanding digital landscape. We will publicly release our models for research.",
+    "abstract": "Low-resource African languages pose unique challenges for natural language processing (NLP) tasks, including natural language generation (NLG).In this paper, we develop Cheetah, a massively multilingual NLG language model for African languages.Cheetah supports 517 African languages and language varieties, allowing us to address the scarcity of NLG resources and provide a solution to foster linguistic diversity.We demonstrate the effectiveness of Cheetah through comprehensive evaluations across six generation downstream tasks.In five of the six tasks, Cheetah significantly outperforms other models, showcasing its remarkable performance for generating coherent and contextually appropriate text in a wide range of African languages.We additionally conduct a detailed human evaluation to delve deeper into the linguistic capabilities of Cheetah.The findings of this study contribute to advancing NLP research in low-resource settings, enabling greater accessibility and inclusion for African languages in a rapidly expanding digital landscape.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.691/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.691",
     "doi": "10.18653/v1/2024.acl-long.691",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671031"
   },
   "TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning.": {
     "type": "INPROCEEDINGS",
@@ -10198,12 +10214,13 @@
     "booktitle": "ACL (1)",
     "title": "Using Natural Language Explanations to Improve Robustness of In-context Learning.",
     "year": "2024",
-    "abstract": "Recent studies demonstrated that large language models (LLMs) can excel in many tasks via in-context learning (ICL). However, recentworks show that ICL-prompted models tend to produce inaccurate results when presented with adversarial inputs. In this work, we investigate whether augmenting ICL with natural language explanations (NLEs) improves the robustness of LLMs on adversarial datasets covering natural language inference and paraphrasing identification. We prompt LLMs with a small set of human-generated NLEs to produce further NLEs, yielding more accurate results than both a zero-shot-ICL setting and using only human-generated NLEs. Our results on five popular LLMs (GPT3.5-turbo, Llama2, Vicuna, Zephyr, and Mistral) show that our approach yields over 6% improvement over baseline approaches for eight adversarial datasets: HANS, ISCS, NaN, ST, PICD, PISP, ANLI, and PAWS. Furthermore, previous studies have demonstrated that prompt selection strategies significantly enhance ICL on in-distribution test sets. However, our findings reveal that these strategies do not match the efficacy of our approach for robustness evaluations, resulting in an accuracy drop of 8% compared to the proposed approach.",
+    "abstract": "Recent studies demonstrated that large language models (LLMs) can excel in many tasks via in-context learning (ICL).However, recent works show that ICL-prompted models tend to produce inaccurate results when presented with adversarial inputs.In this work, we investigate whether augmenting ICL with natural language explanations (NLEs) improves the robustness of LLMs on adversarial datasets covering natural language inference and paraphrasing identification.We prompt LLMs with a small set of human-generated NLEs to produce further NLEs, yielding more accurate results than both a zero-shot-ICL setting and using only human-generated NLEs.Our results on five popular LLMs (GPT3.5-turbo,Llama2, Vicuna, Zephyr, and Mistral) show that our approach yields over 6% improvement over baseline approaches for eight adversarial datasets: HANS, ISCS, NaN, ST, PICD, PISP, ANLI, and PAWS.Furthermore, previous studies have demonstrated that prompt selection strategies significantly enhance ICL on in-distribution test sets.However, our findings reveal that these strategies do not match the efficacy of our approach for robustness evaluations, resulting in an accuracy drop of 8% compared to the proposed approach. 1",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.728/",
+    "url": "https://doi.org/10.18653/v1/2024.acl-long.728",
     "doi": "10.18653/v1/2024.acl-long.728",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671174"
   },
   "Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers.": {
     "type": "INPROCEEDINGS",
@@ -10334,7 +10351,7 @@
   "When is Tree Search Useful for LLM Planning? It Depends on the Discriminator.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenWMP0024",
-    "author": "Ziru Chen and Michael White and Raymond J. Mooney and Ali Payani and Yu Su 0001 and Huan Sun 0001",
+    "author": "Ziru Chen and Michael White 0001 and Raymond J. Mooney and Ali Payani and Yu Su 0001 and Huan Sun 0001",
     "booktitle": "ACL (1)",
     "title": "When is Tree Search Useful for LLM Planning? It Depends on the Discriminator.",
     "year": "2024",
@@ -10436,12 +10453,14 @@
     "booktitle": "ACL (1)",
     "title": "LLM-Rubric: A Multidimensional, Calibrated Approach to Automated Evaluation of Natural Language Texts.",
     "year": "2024",
-    "abstract": "This paper introduces a framework for the automated evaluation of natural language texts. A manually constructed rubric describes how to assess multiple dimensions of interest. To evaluate a text, a large language model (LLM) is prompted with each rubric question and produces a distribution over potential responses. The LLM predictions often fail to agree well with human judges -- indeed, the humans do not fully agree with one another. However, the multiple LLM distributions can be $\\textit{combined}$ to $\\textit{predict}$ each human judge's annotations on all questions, including a summary question that assesses overall quality or relevance. LLM-Rubric accomplishes this by training a small feed-forward neural network that includes both judge-specific and judge-independent parameters. When evaluating dialogue systems in a human-AI information-seeking task, we find that LLM-Rubric with 9 questions (assessing dimensions such as naturalness, conciseness, and citation quality) predicts human judges' assessment of overall user satisfaction, on a scale of 1--4, with RMS error $<0.5$, a $2\\times$ improvement over the uncalibrated baseline.",
+    "abstract": "This paper introduces a framework for the automated evaluation of natural language texts.A manually constructed rubric describes how to assess multiple dimensions of interest.To evaluate a text, a large language model (LLM) is prompted with each rubric question and produces a distribution over potential responses.The LLM predictions often fail to agree well with human judges-indeed, the humans do not fully agree with one another.However, the multiple LLM distributions can be combined to predict each human judge's annotations on all questions, including a summary question that assesses overall quality or relevance.LLM-RUBRIC accomplishes this by training a small feed-forward neural network that includes both judge-specific and judge-independent parameters.When evaluating dialogue systems in a human-AI information-seeking task, we find that LLM-RUBRIC with 9 questions (assessing dimensions such as naturalness, conciseness, and citation quality) predicts human judges' assessment of overall user satisfaction, on a scale of 1-4, with RMS error 0.5, a 2 mprovement over the uncalibrated baseline.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2024.acl-long.745",
     "doi": "10.18653/v1/2024.acl-long.745",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671506",
+    "arxiv_id": "2501.00274"
   },
   "LIEDER: Linguistically-Informed Evaluation for Discourse Entity Recognition.": {
     "type": "INPROCEEDINGS",
@@ -10553,7 +10572,8 @@
     "url": "https://doi.org/10.18653/v1/2024.acl-long.753",
     "doi": "10.18653/v1/2024.acl-long.753",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402683983"
   },
   "Fora: A corpus and framework for the study of facilitated dialogue.": {
     "type": "INPROCEEDINGS",
@@ -11290,12 +11310,13 @@
     "booktitle": "ACL (1)",
     "title": "WebCiteS: Attributed Query-Focused Summarization on Chinese Web Search Results with Citations.",
     "year": "2024",
-    "abstract": "Enhancing the attribution in large language models (LLMs) is a crucial task. One feasible approach is to enable LLMs to cite external sources that support their generations. However, existing datasets and evaluation methods in this domain still exhibit notable limitations. In this work, we formulate the task of attributed query-focused summarization (AQFS) and present WebCiteS, a Chinese dataset featuring 7k human-annotated summaries with citations. WebCiteS derives from real-world user queries and web search results, offering a valuable resource for model training and evaluation. Prior works in attribution evaluation do not differentiate between groundedness errors and citation errors. They also fall short in automatically verifying sentences that draw partial support from multiple sources. We tackle these issues by developing detailed metrics and enabling the automatic evaluator to decompose the sentences into sub-claims for fine-grained verification. Our comprehensive evaluation of both open-source and proprietary models on WebCiteS highlights the challenge LLMs face in correctly citing sources, underscoring the necessity for further improvement. The dataset and code will be open-sourced to facilitate further research in this crucial field.",
+    "abstract": "Haolin Deng, Chang Wang, Li Xin, Dezhang Yuan, Junlang Zhan, Tian Zhou, Jin Ma, Jun Gao, Ruifeng Xu. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
     "keywords": "",
-    "url": "https://aclanthology.org/2024.acl-long.806/",
+    "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.806",
     "doi": "10.18653/v1/2024.acl-long.806",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671264"
   },
   "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages.": {
     "type": "INPROCEEDINGS",
@@ -11416,12 +11437,13 @@
     "booktitle": "ACL (1)",
     "title": "Natural Language Satisfiability: Exploring the Problem Distribution and Evaluating Transformer-based Language Models.",
     "year": "2024",
-    "abstract": "Efforts to apply transformer-based language models (TLMs) to the problem of reasoning in natural language have enjoyed ever-increasing success in recent years. The most fundamental task in this area to which nearly all others can be reduced is that of determining satisfiability. However, from a logical point of view, satisfiability problems vary along various dimensions, which may affect TLMs'ability to learn how to solve them. The problem instances of satisfiability in natural language can belong to different computational complexity classes depending on the language fragment in which they are expressed. Although prior research has explored the problem of natural language satisfiability, the above-mentioned point has not been discussed adequately. Hence, we investigate how problem instances from varying computational complexity classes and having different grammatical constructs impact TLMs'ability to learn rules of inference. Furthermore, to faithfully evaluate TLMs, we conduct an empirical study to explore the distribution of satisfiability problems.",
+    "abstract": "Efforts to apply transformer-based language models (TLMs) to the problem of reasoning in natural language have enjoyed ever-increasing success in recent years.The most fundamental task in this area to which nearly all others can be reduced is that of determining satisfiability.However, from a logical point of view, satisfiability problems vary along various dimensions, which may affect TLMs' ability to learn how to solve them.The problem instances of satisfiability in natural language can belong to different computational complexity classes depending on the language fragment in which they are expressed.Although prior research has explored the problem of natural language satisfiability, the above-mentioned point has not been discussed adequately.Hence, we investigate how problem instances from varying computational complexity classes and having different grammatical constructs impact TLMs' ability to learn rules of inference.Furthermore, to faithfully evaluate TLMs, we conduct an empirical study to explore the distribution of satisfiability problems.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2024.acl-long.815",
+    "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.815",
     "doi": "10.18653/v1/2024.acl-long.815",
     "venue": "ACL2024",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4402671217"
   },
   "Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models.": {
     "type": "INPROCEEDINGS",

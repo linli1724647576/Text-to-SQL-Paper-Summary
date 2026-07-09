@@ -698,6 +698,26 @@
       "notes": ""
     },
     {
+      "title": "Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v37i11.26476",
+        "http://dx.doi.org/10.1609/aaai.v37i11.26476",
+        "https://openalex.org/W4382202570"
+      ],
+      "notes": ""
+    },
+    {
       "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
       "present_in_labeldata": true,
       "stratum": "supplemental",
@@ -718,22 +738,21 @@
       "notes": ""
     },
     {
-      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
+      "title": "Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams?",
       "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TOSEM",
-      "normalized_venue": "TOSEM",
-      "category": "软件工程",
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3767739",
-        "https://doi.org/10.1145/3767739",
-        "https://openalex.org/W4414241772"
+        "10.1145/3722212.3724479",
+        "https://doi.org/10.1145/3722212.3724479"
       ],
       "notes": ""
     },
@@ -754,25 +773,6 @@
         "https://arxiv.org/abs/2602.15564v1"
       ],
       "notes": "missing doi"
-    },
-    {
-      "title": "Collaborative bug finding for Android apps",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ICSE",
-      "normalized_venue": "ICSE",
-      "category": "软件工程",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3377811.3380349",
-        "https://doi.org/10.1145/3377811.3380349"
-      ],
-      "notes": ""
     }
   ]
 }

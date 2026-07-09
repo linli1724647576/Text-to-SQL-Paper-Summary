@@ -17108,6 +17108,7 @@
     "doi": "10.18653/v1/2024.acl-long.425",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4402671560",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",

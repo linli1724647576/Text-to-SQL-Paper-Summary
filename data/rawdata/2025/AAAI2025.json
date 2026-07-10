@@ -81,7 +81,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i1.31979",
     "doi": "10.1609/aaai.v39i1.31979",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409346543"
   },
   "mmFAS: Multimodal Face Anti-Spoofing Using Multi-Level Alignment and Switch-Attention Fusion.": {
     "type": "INPROCEEDINGS",
@@ -426,12 +427,13 @@
     "booktitle": "AAAI",
     "title": "Limitations in Employing Natural Language Supervision for Sensor-Based Human Activity Recognition - And Ways to Overcome Them.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Cross-modal contrastive pre-training between natural language and other modalities, e.g., vision and audio, has demonstrated astonishing performance and effectiveness across a diverse variety of tasks and domains. In this paper, we investigate whether such natural language supervision can be used for wearable sensor based Human Activity Recognition (HAR), and discover that--surprisingly--it performs substantially worse than standard end-to-end training and self-supervision. We identify the primary causes for this as: sensor heterogeneity and the lack of rich, diverse text descriptions of activities. To mitigate their impact, we also develop strategies and assess their effectiveness through an extensive experimental evaluation. These strategies lead to significant increases in activity recognition, bringing performance closer to supervised and self-supervised training, while also enabling the recognition of unseen activities and cross modal retrieval of videos. Overall, our work paves the way for better sensor-language learning, ultimately leading to the development of foundational models for HAR using wearables.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i1.32004",
     "doi": "10.1609/aaai.v39i1.32004",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409346737"
   },
   "Hypergraph Attacks via Injecting Homogeneous Nodes into Elite Hyperedges.": {
     "type": "INPROCEEDINGS",
@@ -1047,7 +1049,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i1.32048",
     "doi": "10.1609/aaai.v39i1.32048",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409346822"
   },
   "A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics.": {
     "type": "INPROCEEDINGS",
@@ -1640,7 +1643,7 @@
   "Revolutionizing Encrypted Traffic Classification with MH-Net: A Multi-View Heterogeneous Graph Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangYXY0LZ25",
-    "author": "Haozhen Zhang and Haodong Yue and Xi Xiao and Le Yu 0002 and Qing Li 0006 and Zhen Ling 0001 and Ye Zhang",
+    "author": "Haozhen Zhang and Haodong Yue and Xi Xiao 0001 and Le Yu 0002 and Qing Li 0006 and Zhen Ling 0001 and Ye Zhang",
     "booktitle": "AAAI",
     "title": "Revolutionizing Encrypted Traffic Classification with MH-Net: A Multi-View Heterogeneous Graph Model.",
     "year": "2025",
@@ -4239,7 +4242,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i3.32276",
     "doi": "10.1609/aaai.v39i3.32276",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409370140"
   },
   "Occlusion-Insensitive Talking Head Video Generation via Facelet Compensation.": {
     "type": "INPROCEEDINGS",
@@ -4496,7 +4500,7 @@
   "CoSDA: Enhancing the Robustness of Inversion-based Generative Image Watermarking Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FangCYC0C25",
-    "author": "Han Fang and Kejiang Chen and Zijin Yang and Bosen Cui and Weiming Zhang 0001 and Ee-Chien Chang",
+    "author": "Han Fang 0004 and Kejiang Chen and Zijin Yang and Bosen Cui and Weiming Zhang 0001 and Ee-Chien Chang",
     "booktitle": "AAAI",
     "title": "CoSDA: Enhancing the Robustness of Inversion-based Generative Image Watermarking Framework.",
     "year": "2025",
@@ -4925,7 +4929,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i3.32325",
     "doi": "10.1609/aaai.v39i3.32325",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409369909"
   },
   "Efficient Connectivity-Preserving Instance Segmentation with Supervoxel-Based Loss Function.": {
     "type": "INPROCEEDINGS",
@@ -5158,12 +5163,13 @@
     "booktitle": "AAAI",
     "title": "LLaVA Needs More Knowledge: Retrieval Augmented Natural Language Generation with Knowledge Graph for Explaining Thoracic Pathologies.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Generating Natural Language Explanations (NLEs) for model predictions on medical images, particularly those depicting thoracic pathologies, remains a critical and challenging task. Existing methodologies often struggle due to general models' insufficient domain-specific medical knowledge and privacy concerns associated with retrieval-based augmentation techniques. To address these issues, we propose a novel Vision-Language framework augmented with a Knowledge Graph (KG)-based datastore, which enhances the model's understanding by incorporating additional domain-specific medical knowledge essential for generating accurate and informative NLEs. Our framework employs a KG-based retrieval mechanism that not only improves the precision of the generated explanations but also preserves data privacy by avoiding direct data retrieval. The KG datastore is designed as a plug-and-play module, allowing for seamless integration with various model architectures. We introduce and evaluate three distinct frameworks within this paradigm: KG-LLaVA, which integrates the pre-trained LLaVA model with KG-RAG; Med-XPT, a custom framework combining MedCLIP, a transformer-based projector, and GPT-2; and Bio-LLaVA, which adapts LLaVA by incorporating the Bio-ViT-L vision model. These frameworks are validated on the MIMIC-NLE dataset, where they achieve state-of-the-art results, underscoring the effectiveness of KG augmentation in generating high-quality NLEs for thoracic pathologies.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i3.32342",
     "doi": "10.1609/aaai.v39i3.32342",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409347288"
   },
   "DuMo: Dual Encoder Modulation Network for Precise Concept Erasure.": {
     "type": "INPROCEEDINGS",
@@ -5742,7 +5748,7 @@
   "VProChart: Answering Chart Question Through Visual Perception Alignment Agent and Programmatic Solution Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangZLWZL25",
-    "author": "Muye Huang and Lingling Zhang 0001 and Han Lai and Wenjun Wu and Xinyu Zhang and Jun Liu",
+    "author": "Muye Huang and Lingling Zhang 0001 and Han Lai and Wenjun Wu and Xinyu Zhang 0021 and Jun Liu 0002",
     "booktitle": "AAAI",
     "title": "VProChart: Answering Chart Question Through Visual Perception Alignment Agent and Programmatic Solution Reasoning.",
     "year": "2025",
@@ -6068,12 +6074,13 @@
     "booktitle": "AAAI",
     "title": "QORT-Former: Query-optimized Real-time Transformer for Understanding Two Hands Manipulating Objects.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Significant advancements have been achieved in the realm of understanding poses and interactions of two hands manipulating an object. The emergence of augmented reality (AR) and virtual reality (VR) technologies has heightened the demand for real-time performance in these applications. However, current state-of-the-art models often exhibit promising results at the expense of substantial computational overhead. In this paper, we present a query-optimized real-time Transformer (QORT-Former), the first Transformer-based real-time framework for 3D pose estimation of two hands and an object. We first limit the number of queries and decoders to meet the efficiency requirement. Given limited number of queries and decoders, we propose to optimize queries which are taken as input to the Transformer decoder, to secure better accuracy: (1) we propose to divide queries into three types (a left hand query, a right hand query and an object query) and enhance query features (2) by using the contact information between hands and an object and (3) by using three-step update of enhanced image and query features with respect to one another. With proposed methods, we achieved real-time pose estimation performance using just 108 queries and 1 decoder (53.5 FPS on an RTX 3090TI GPU). Surpassing state-of-the-art results on the H2O dataset by 17.6% (left hand), 22.8% (right hand), and 27.2% (object), as well as on the FPHA dataset by 5.3% (right hand) and 10.4% (object), our method excels in accuracy. Additionally, it sets the state-of-the-art in interaction recognition, maintaining real-time efficiency with an off-the-shelf action recognition module.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i4.32407",
     "doi": "10.1609/aaai.v39i4.32407",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409368311"
   },
   "Every Component Counts: Rethinking the Measure of Success for Medical Semantic Segmentation in Multi-Instance Segmentation Tasks.": {
     "type": "INPROCEEDINGS",
@@ -6325,7 +6332,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i4.32425",
     "doi": "10.1609/aaai.v39i4.32425",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409368681"
   },
   "Sensing Surface Patches in Volume Rendering for Inferring Signed Distance Functions.": {
     "type": "INPROCEEDINGS",
@@ -6498,7 +6506,7 @@
   "Event-Enhanced Blurry Video Super-Resolution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KaiZWXX025",
-    "author": "Dachun Kai and Yueyi Zhang and Jin Wang 0023 and Zeyu Xiao 0002 and Zhiwei Xiong and Xiaoyan Sun 0001",
+    "author": "Dachun Kai and Yueyi Zhang 0001 and Jin Wang 0023 and Zeyu Xiao 0002 and Zhiwei Xiong and Xiaoyan Sun 0001",
     "booktitle": "AAAI",
     "title": "Event-Enhanced Blurry Video Super-Resolution.",
     "year": "2025",
@@ -6670,12 +6678,13 @@
     "booktitle": "AAAI",
     "title": "ProtoOcc: Accurate, Efficient 3D Occupancy Prediction Using Dual Branch Encoder-Prototype Query Decoder.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "In this paper, we introduce ProtoOcc, a novel 3D occupancy prediction model designed to predict the occupancy states and semantic classes of 3D voxels via a deep semantic understanding of scenes. ProtoOcc consists of two main components: the Dual Branch Encoder (DBE) and the Prototype Query Decoder (PQD). The DBE produces a new 3D voxel representation by combining 3D voxel and BEV representations across multiple scales using a dual branch structure. This design combines the BEV representation, which offers a large receptive field, with the voxel representation, known for its higher spatial resolution, thereby improving both performance and computational efficiency. The PQD employs two types of prototype-based queries to expedite the Transformer decoding process. Scene-Adaptive Prototypes are generated from the 3D voxel features of the input sample, while Scene-Agnostic Prototypes are updated during training using an Exponential Moving Average of the Scene-Adaptive Prototypes. Using these prototype-based queries for decoding, we can directly predict 3D occupancy in a single step, eliminating the need for iterative Transformer decoding. Additionally, we propose Robust Prototype Learning, which introduces noise into the prototype generation process and trains the model to denoise during the training phase. This approach enhances the robustness of ProtoOcc against degraded prototype feature quality. ProtoOcc achieves state-of-the-art performance with 45.02% mIoU on the Occ3D-nuScenes benchmark. For the single-frame method, it reaches 39.56% mIoU with 12.83 FPS on an NVIDIA RTX 3090.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i4.32450",
     "doi": "10.1609/aaai.v39i4.32450",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409368123"
   },
   "HiCM²: Hierarchical Compact Memory Modeling for Dense Video Captioning.": {
     "type": "INPROCEEDINGS",
@@ -7576,7 +7585,7 @@
   "Revisiting CAD Model Generation by Learning Raster Sketch.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiZGC025",
-    "author": "Pu Li and Wenhao Zhang and Jianwei Guo and Jinglu Chen and Dong-Ming Yan 0001",
+    "author": "Pu Li and Wenhao Zhang and Jianwei Guo 0003 and Jinglu Chen and Dong-Ming Yan 0001",
     "booktitle": "AAAI",
     "title": "Revisiting CAD Model Generation by Learning Raster Sketch.",
     "year": "2025",
@@ -10572,7 +10581,7 @@
   "IMAGDressing-v1: Customizable Virtual Dressing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Shen0HYW0L025",
-    "author": "Fei Shen and Xin Jiang 0010 and Xin He and Hu Ye and Cong Wang and Xiaoyu Du 0002 and Zechao Li and Jinhui Tang 0001",
+    "author": "Fei Shen and Xin Jiang 0010 and Xin He and Hu Ye and Cong Wang 0034 and Xiaoyu Du 0002 and Zechao Li and Jinhui Tang 0001",
     "booktitle": "AAAI",
     "title": "IMAGDressing-v1: Customizable Virtual Dressing.",
     "year": "2025",
@@ -11094,12 +11103,13 @@
     "booktitle": "AAAI",
     "title": "Diversifying Query: Region-Guided Transformer for Temporal Sentence Grounding.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Temporal sentence grounding is a challenging task that aims to localize the moment spans relevant to a language description. Although recent DETR-based models have achieved notable progress by leveraging multiple learnable moment queries, they suffer from overlapped and redundant proposals, leading to inaccurate predictions. We attribute this limitation to the lack of task-related guidance for the learnable queries to serve a specific mode. Furthermore, the complex solution space generated by variable and open-vocabulary language descriptions complicates optimization, making it harder for learnable queries to adaptively distinguish each other, leading to more severe overlapped proposals. To address this limitation, we present the Region-Guided TRansformer (RGTR) for temporal sentence grounding, which introduces regional guidance to increase query diversity and eliminate overlapped proposals. Instead of using learnable queries, RGTR adopts a set of anchor pairs as moment queries to introduce explicit regional guidance. Each moment query takes charge of moment prediction for a specific temporal region, which reduces the optimization difficulty and ensures the diversity of the proposals. In addition, we design an IoU-aware scoring head to improve proposal quality. Extensive experiments demonstrate the effectiveness of RGTR, outperforming state-of-the-art methods on three public benchmarks and exhibiting good generalization and robustness on out-of-distribution splits.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i7.32766",
     "doi": "10.1609/aaai.v39i7.32766",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409366650"
   },
   "M2Flow: A Motion Information Fusion Framework for Enhanced Unsupervised Optical Flow Estimation in Autonomous Driving.": {
     "type": "INPROCEEDINGS",
@@ -11612,12 +11622,13 @@
     "booktitle": "AAAI",
     "title": "Query-centric Audio-Visual Cognition Network for Moment Retrieval, Segmentation and Step-Captioning.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Video has emerged as a favored multimedia format on the internet. To better gain video contents, a new topic HIREST is presented, including video retrieval, moment retrieval, moment segmentation, and step-captioning. The pioneering work chooses the pre-trained CLIP-based model for video retrieval, and leverages it as a feature extractor for other three challenging tasks solved in a multi-task learning paradigm. Nevertheless, this work struggles to learn the comprehensive cognition of user-preferred content, due to disregarding the hierarchies and association relations across modalities. In this paper, guided by the shallow-to-deep principle, we propose a query-centric audio-visual cognition (QUAG) network to construct a reliable multi-modal representation for moment retrieval, segmentation and step-captioning. Specifically, we first design the modality-synergistic perception to obtain rich audio-visual content, by modeling global contrastive alignment and local fine-grained interaction between visual and audio modalities. Then, we devise the query-centric cognition that uses the deep-level query to perform the temporal-channel filtration on the shallow-level audio-visual representation. This can cognize user-preferred content and thus attain a query-centric audio-visual representation for three tasks. Extensive experiments show QUAG achieves the SOTA results on HIREST. Further, we test QUAG on the query-based video summarization task and verify its good generalization.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i7.32803",
     "doi": "10.1609/aaai.v39i7.32803",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409366645"
   },
   "Watch Video, Catch Keyword: Context-aware Keyword Attention for Moment Retrieval and Highlight Detection.": {
     "type": "INPROCEEDINGS",
@@ -12074,12 +12085,13 @@
     "booktitle": "AAAI",
     "title": "OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Open-vocabulary detection aims to detect objects from novel categories beyond the base categories on which the detector is trained. However, existing open-vocabulary detectors trained on base category data tend to assign higher confidence to trained categories and confuse novel categories with the background. To resolve this, we propose OV-DQUO, an Open-Vocabulary DETR with Denoising text Query training and open-world Unknown Objects supervision. Specifically, we introduce a wildcard matching method. This method enables the detector to learn from pairs of unknown objects recognized by the open-world detector and text embeddings with general semantics, mitigating the confidence bias between base and novel categories. Additionally, we propose a denoising text query training strategy. It synthesizes foreground and background query-box pairs from open-world unknown objects to train the detector through contrastive learning, enhancing its ability to distinguish novel objects from the background. We conducted extensive experiments on the OV-COCO and OV-LVIS benchmarks, achieving new state-of-the-art results of 45.6 AP50 and 39.3 mAP on novel categories, respectively.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i7.32836",
     "doi": "10.1609/aaai.v39i7.32836",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409367135"
   },
   "InpDiffusion: Image Inpainting Localization via Conditional Diffusion Models.": {
     "type": "INPROCEEDINGS",
@@ -12569,7 +12581,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i8.32871",
     "doi": "10.1609/aaai.v39i8.32871",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409367056"
   },
   "HoneypotNet: Backdoor Attacks Against Model Extraction.": {
     "type": "INPROCEEDINGS",
@@ -13549,7 +13562,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i8.32941",
     "doi": "10.1609/aaai.v39i8.32941",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409366923"
   },
   "TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.": {
     "type": "INPROCEEDINGS",
@@ -15285,7 +15299,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i9.33065",
     "doi": "10.1609/aaai.v39i9.33065",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409366037"
   },
   "Frequency-Aware Density Control via Reparameterization for High-Quality Rendering of 3D Gaussian Splatting.": {
     "type": "INPROCEEDINGS",
@@ -15612,7 +15627,7 @@
   "PanoDiT: Panoramic Videos Generation with Diffusion Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangCX0YMGZ025",
-    "author": "Muyang Zhang and Yuzhi Chen and Rongtao Xu and Changwei Wang 0001 and Jinming Yang and Weiliang Meng and Jianwei Guo and Huihuang Zhao and Xiaopeng Zhang 0001",
+    "author": "Muyang Zhang and Yuzhi Chen and Rongtao Xu and Changwei Wang 0001 and Jinming Yang and Weiliang Meng and Jianwei Guo 0003 and Huihuang Zhao and Xiaopeng Zhang 0001",
     "booktitle": "AAAI",
     "title": "PanoDiT: Panoramic Videos Generation with Diffusion Transformer.",
     "year": "2025",
@@ -17474,7 +17489,7 @@
   "FFCG: Effective and Fast Family Column Generation for Solving Large-Scale Linear Program.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuWLZL25",
-    "author": "Yixiang Hu and Feng Wu 0001 and Shaoang Li and Yifang Zhao and Xiang-Yang Li",
+    "author": "Yixiang Hu and Feng Wu 0001 and Shaoang Li and Yifang Zhao and Xiang-Yang Li 0001",
     "booktitle": "AAAI",
     "title": "FFCG: Effective and Fast Family Column Generation for Solving Large-Scale Linear Program.",
     "year": "2025",
@@ -17908,7 +17923,7 @@
   "Descriptive and Discriminative Document Identifiers for Generative Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChengD0L25",
-    "author": "Jiehan Cheng and Zhicheng Dou and Yutao Zhu 0001 and Xiaoxi Li",
+    "author": "Jiehan Cheng and Zhicheng Dou and Yutao Zhu 0001 and Xiaoxi Li 0005",
     "booktitle": "AAAI",
     "title": "Descriptive and Discriminative Document Identifiers for Generative Retrieval.",
     "year": "2025",
@@ -18561,7 +18576,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i11.33299",
     "doi": "10.1609/aaai.v39i11.33299",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409366022"
   },
   "ESPRESSO: An Effective Approach to Passage Retrieval for High-Quality Conversational Recommender Systems.": {
     "type": "INPROCEEDINGS",
@@ -20633,7 +20649,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i12.33447",
     "doi": "10.1609/aaai.v39i12.33447",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409365444"
   },
   "Teacher-guided Edge Discriminator for Personalized Graph Masked Autoencoder.": {
     "type": "INPROCEEDINGS",
@@ -21286,12 +21303,13 @@
     "booktitle": "AAAI",
     "title": "Welfare-Optimal Serial Dictatorships Have Polynomial Query Complexity.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Serial dictatorship is a simple mechanism for coordinating agents in solving combinatorial optimization problems according to their preferences. The most representative such problem is one-sided matching, in which a set of n agents have values for a set of n items, and the objective is to compute a matching of the agents to the items of maximum total value (a.k.a., social welfare). Following the recent framework of Caragiannis and Rathi (2023), we consider a model in which the agent-item values are not available upfront but become known by querying agent sequences. In particular, when the agents are asked to act in a sequence, they respond by picking their favorite item that has not been picked by agents who acted before and reveal their value for it. Can we compute an agent sequence that induces a social welfare-optimal matching? We answer this question affirmatively and present an algorithm that uses polynomial number (specifically, O(n^5) of queries). This solves the main open problem stated by Caragiannis and Rathi (2023). Our analysis uses a potential function argument that measures progress towards learning the underlying edge-weight information. Furthermore, the algorithm has a truthful implementation by adapting the paradigm of VCG payments.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i13.33494",
     "doi": "10.1609/aaai.v39i13.33494",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364855"
   },
   "Asymptotic Extinction in Large Coordination Games.": {
     "type": "INPROCEEDINGS",
@@ -23102,7 +23120,7 @@
   "CognTKE: A Cognitive Temporal Knowledge Extrapolation Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0015WWZLLW25",
-    "author": "Wei Chen 0015 and Yuting Wu and Shuhan Wu and Zhiyu Zhang and Mengqi Liao and Youfang Lin and Huaiyu Wan",
+    "author": "Wei Chen 0105 and Yuting Wu and Shuhan Wu and Zhiyu Zhang and Mengqi Liao and Youfang Lin and Huaiyu Wan",
     "booktitle": "AAAI",
     "title": "CognTKE: A Cognitive Temporal Knowledge Extrapolation Framework.",
     "year": "2025",
@@ -23484,12 +23502,13 @@
     "booktitle": "AAAI",
     "title": "Dung's Argumentation Framework: Unveiling the Expressive Power with Inconsistent Databases.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "The connection between inconsistent databases and Dung’s abstract argumentation framework has recently drawn growing interest. Specifically, an inconsistent database, involving certain types of integrity constraints such as functional and inclusion dependencies, can be viewed as an argumentation framework in Dung’s setting. Nevertheless, no prior work has explored the exact expressive power of Dung’s theory of argumentation when compared to inconsistent databases and integrity constraints. In this paper, we close this gap by arguing that an argumentation framework can also be viewed as an inconsistent database. We first establish a connection between subset-repairs for databases and extensions for AFs considering conflict-free, naive, admissible, and preferred semantics. Further, we define a new family of attribute-based repairs based on the principle of maximal content preservation. The effectiveness of these repairs is then highlighted by connecting them to stable, semi-stable, and stage semantics. Our main contributions include translating an argumentation framework into a database together with integrity constraints. Moreover, this translation can be achieved in polynomial time, which is essential in transferring complexity results between the two formalisms.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i14.33651",
     "doi": "10.1609/aaai.v39i14.33651",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364902"
   },
   "Spectra of Cardinality Queries over Description Logic Knowledge Bases.": {
     "type": "INPROCEEDINGS",
@@ -23531,7 +23550,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i14.33654",
     "doi": "10.1609/aaai.v39i14.33654",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364870"
   },
   "Probabilistic Strategy Logic with Degrees of Observability.": {
     "type": "INPROCEEDINGS",
@@ -23755,7 +23775,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i14.33670",
     "doi": "10.1609/aaai.v39i14.33670",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364491"
   },
   "SPAC: Sparse Partitioning and Adaptive Core Tensor Pruning Model for Knowledge Graph Completion.": {
     "type": "INPROCEEDINGS",
@@ -25911,7 +25932,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i16.33824",
     "doi": "10.1609/aaai.v39i16.33824",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409347117"
   },
   "Incremental Nyström-based Multiple Kernel Clustering.": {
     "type": "INPROCEEDINGS",
@@ -26956,12 +26978,13 @@
     "booktitle": "AAAI",
     "title": "An Information-theoretic Multi-task Representation Learning Framework for Natural Language Understanding.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "This paper proposes a new principled multi-task representation learning framework (InfoMTL) to extract noise-invariant sufficient representations for all tasks. It ensures sufficiency of shared representations for all tasks and mitigates the negative effect of redundant features, which can enhance language understanding of pre-trained language models (PLMs) under the multi-task paradigm. Firstly, a shared information maximization principle is proposed to learn more sufficient shared representations for all target tasks. It can avoid the insufficiency issue arising from representation compression in the multi-task paradigm. Secondly, a task-specific information minimization principle is designed to mitigate the negative effect of potential redundant features in the input for each task. It can compress task-irrelevant redundant information and preserve necessary information relevant to the target for multi-task prediction. Experiments on six classification benchmarks show that our method outperforms 12 comparative multi-task methods under the same multi-task settings, especially in data-constrained and noisy scenarios. Extensive experiments demonstrate that the learned representations are more sufficient, data-efficient, and robust.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i16.33899",
     "doi": "10.1609/aaai.v39i16.33899",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364373"
   },
   "Unsupervised Kernel-based Multi-view Feature Selection with Robust Self-representation and Binary Hashing.": {
     "type": "INPROCEEDINGS",
@@ -27162,7 +27185,7 @@
   "Trusted Unified Feature-Neighborhood Dynamics for Multi-View Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangQLMCFBSH25",
-    "author": "Haojian Huang and Chuanyu Qin and Zhe Liu 0041 and Kaijing Ma and Jin Chen and Han Fang and Chao Ban and Hao Sun 0038 and Zhongjiang He",
+    "author": "Haojian Huang and Chuanyu Qin and Zhe Liu 0041 and Kaijing Ma and Jin Chen and Han Fang 0002 and Chao Ban and Hao Sun 0038 and Zhongjiang He",
     "booktitle": "AAAI",
     "title": "Trusted Unified Feature-Neighborhood Dynamics for Multi-View Classification.",
     "year": "2025",
@@ -27470,7 +27493,7 @@
   "Balancing Privacy and Performance: A Many-in-One Approach for Image Anonymization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiaDWXWZC25",
-    "author": "Xuemei Jia and Jiawei Du and Hui Wei 0004 and Ruinian Xue and Zheng Wang 0007 and Hongyuan Zhu 0002 and Jun Chen 0001",
+    "author": "Xuemei Jia and Jiawei Du 0002 and Hui Wei 0004 and Ruinian Xue and Zheng Wang 0007 and Hongyuan Zhu 0002 and Jun Chen 0001",
     "booktitle": "AAAI",
     "title": "Balancing Privacy and Performance: A Many-in-One Approach for Image Anonymization.",
     "year": "2025",
@@ -28501,7 +28524,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i17.34009",
     "doi": "10.1609/aaai.v39i17.34009",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364161"
   },
   "k-HyperEdge Medoids for Clustering Ensemble.": {
     "type": "INPROCEEDINGS",
@@ -28548,7 +28572,7 @@
   "Efficient Event-Based Semantic Segmentation via Exploiting Frame-Event Fusion: A Hybrid Neural Network Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiPYWWZ025",
-    "author": "Hebei Li and Yansong Peng and Jiahui Yuan and Peixi Wu and Jin Wang 0023 and Yueyi Zhang and Xiaoyan Sun 0001",
+    "author": "Hebei Li and Yansong Peng and Jiahui Yuan and Peixi Wu and Jin Wang 0023 and Yueyi Zhang 0001 and Xiaoyan Sun 0001",
     "booktitle": "AAAI",
     "title": "Efficient Event-Based Semantic Segmentation via Exploiting Frame-Event Fusion: A Hybrid Neural Network Approach.",
     "year": "2025",
@@ -29416,7 +29440,7 @@
   "KPL: Training-Free Medical Knowledge Mining of Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuHDZZL25",
-    "author": "Jiaxiang Liu and Tianxiang Hu and Jiawei Du and Ruiyuan Zhang and Joey Tianyi Zhou and Zuozhu Liu",
+    "author": "Jiaxiang Liu and Tianxiang Hu and Jiawei Du 0002 and Ruiyuan Zhang and Joey Tianyi Zhou and Zuozhu Liu",
     "booktitle": "AAAI",
     "title": "KPL: Training-Free Medical Knowledge Mining of Vision-Language Models.",
     "year": "2025",
@@ -30158,7 +30182,7 @@
   "RoPaSS: Robust Watermarking for Partial Screen-Shooting Scenarios.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MaFYC025",
-    "author": "Zehua Ma and Han Fang and Xi Yang and Kejiang Chen and Weiming Zhang 0001",
+    "author": "Zehua Ma and Han Fang 0004 and Xi Yang and Kejiang Chen and Weiming Zhang 0001",
     "booktitle": "AAAI",
     "title": "RoPaSS: Robust Watermarking for Partial Screen-Shooting Scenarios.",
     "year": "2025",
@@ -30433,7 +30457,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i18.34147",
     "doi": "10.1609/aaai.v39i18.34147",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409364004"
   },
   "Unlocking the Game: Estimating Games in Möbius Representation for Explanation and High-Order Interaction Detection.": {
     "type": "INPROCEEDINGS",
@@ -31147,7 +31172,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i19.34198",
     "doi": "10.1609/aaai.v39i19.34198",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409363952"
   },
   "Robust Self-Paced Hashing for Cross-Modal Retrieval with Noisy Labels.": {
     "type": "INPROCEEDINGS",
@@ -32393,7 +32419,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i19.34287",
     "doi": "10.1609/aaai.v39i19.34287",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409363481"
   },
   "TimePFN: Effective Multivariate Time Series Forecasting with Synthetic Data.": {
     "type": "INPROCEEDINGS",
@@ -32594,7 +32621,7 @@
   "HyperMixer: Specializable Hypergraph Channel Mixing for Long-term Multivariate Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TianLZ0CGS025",
-    "author": "Changyuan Tian and Zhicong Lu and Zequn Zhang and Heming Yang 0003 and Wei Cao and Zhi Guo and Xian Sun 0001 and Li Jin 0001",
+    "author": "Changyuan Tian 0001 and Zhicong Lu and Zequn Zhang and Heming Yang 0003 and Wei Cao and Zhi Guo and Xian Sun 0001 and Li Jin 0001",
     "booktitle": "AAAI",
     "title": "HyperMixer: Specializable Hypergraph Channel Mixing for Long-term Multivariate Time Series Forecasting.",
     "year": "2025",
@@ -33476,7 +33503,7 @@
   "FlexPose: Pose Distribution Adaptation with Limited Guidance.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWL025",
-    "author": "Zixiao Wang and Junwu Weng and Mengyuan Liu and Bei Yu 0001",
+    "author": "Zixiao Wang 0001 and Junwu Weng and Mengyuan Liu and Bei Yu 0001",
     "booktitle": "AAAI",
     "title": "FlexPose: Pose Distribution Adaptation with Limited Guidance.",
     "year": "2025",
@@ -33658,7 +33685,7 @@
   "Spiking Point Transformer for Point Cloud Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuCLZPWNZS25",
-    "author": "Peixi Wu and Bosong Chai and Hebei Li and Menghua Zheng and Yansong Peng and Zeyu Wang and Xuan Nie and Yueyi Zhang and Xiaoyan Sun 0001",
+    "author": "Peixi Wu and Bosong Chai and Hebei Li and Menghua Zheng and Yansong Peng and Zeyu Wang and Xuan Nie and Yueyi Zhang 0001 and Xiaoyan Sun 0001",
     "booktitle": "AAAI",
     "title": "Spiking Point Transformer for Point Cloud Classification.",
     "year": "2025",
@@ -35058,7 +35085,7 @@
   "A-VL: Adaptive Attention for Large Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangYZLZZHL25",
-    "author": "Junyang Zhang 0001 and Mu Yuan and Ruiguang Zhong and Puhan Luo and Huiyou Zhan and Ningkang Zhang and Chengchen Hu and Xiang-Yang Li",
+    "author": "Junyang Zhang 0001 and Mu Yuan and Ruiguang Zhong and Puhan Luo and Huiyou Zhan and Ningkang Zhang and Chengchen Hu and Xiang-Yang Li 0001",
     "booktitle": "AAAI",
     "title": "A-VL: Adaptive Attention for Large Vision-Language Models.",
     "year": "2025",
@@ -36574,12 +36601,13 @@
     "booktitle": "AAAI",
     "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC's guideline outperforms expert human's created ones. We empirically find out that the guideline produced by MAGIC enhances the interpretability of the corrections made, providing insights in analyzing the reason behind the failures and successes of LLMs in self-correction.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i22.34511",
     "doi": "10.1609/aaai.v39i22.34511",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362830"
   },
   "Mitigating Hallucinations in Large Vision-Language Models by Adaptively Constraining Information Flow.": {
     "type": "INPROCEEDINGS",
@@ -36831,7 +36859,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i22.34529",
     "doi": "10.1609/aaai.v39i22.34529",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409348217"
   },
   "Towards Efficient Low-Order Hybrid Optimizer for Language Model Fine-Tuning.": {
     "type": "INPROCEEDINGS",
@@ -37559,7 +37588,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i22.34581",
     "doi": "10.1609/aaai.v39i22.34581",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409348254"
   },
   "AutoFEA: Enhancing AI Copilot by Integrating Finite Element Analysis Using Large Language Models with Graph Neural Networks.": {
     "type": "INPROCEEDINGS",
@@ -37718,7 +37748,7 @@
   "Key-Point-Driven Data Synthesis with Its Enhancement on Mathematical Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangLGGSDC25",
-    "author": "Yiming Huang and Xiao Liu and Yeyun Gong and Zhibin Gou and Yelong Shen and Nan Duan and Weizhu Chen",
+    "author": "Yiming Huang and Xiao Liu 0029 and Yeyun Gong and Zhibin Gou and Yelong Shen and Nan Duan 0001 and Weizhu Chen",
     "booktitle": "AAAI",
     "title": "Key-Point-Driven Data Synthesis with Its Enhancement on Mathematical Reasoning.",
     "year": "2025",
@@ -38436,12 +38466,13 @@
     "booktitle": "AAAI",
     "title": "Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Continual Semantic Parsing (CSP) aims to train parsers to convert natural language questions into SQL across tasks with limited annotated examples, adapting to dynamically updated databases in real-world scenarios. Previous studies mitigate this challenge by replaying historical data or employing parameter-efficient tuning (PET), but they often violate data privacy or rely on ideal continual learning settings. To address these issues, we propose a new Large Language Model (LLM)-Enhanced Continuous Semantic Parsing method, named LECSP, which alleviates forgetting while encouraging generalization, without requiring real data replay or ideal settings. Specifically, it first analyzes the commonalities and differences between tasks from the SQL syntax perspective to guide LLMs in reconstructing key memories and improving memory accuracy through calibration. Then, it uses a task-aware dual-teacher distillation framework to promote the accumulation and transfer of knowledge during sequential training. Experimental results on two CSP benchmarks show that our method significantly outperforms existing methods, even those utilizing data replay or ideal settings. Additionally, we achieve generalization performance beyond upper limits, better adapting to unseen tasks.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i23.34644",
     "doi": "10.1609/aaai.v39i23.34644",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362596"
   },
   "VCR: A \"Cone of Experience\" Driven Synthetic Data Generation Framework for Mathematical Reasoning.": {
     "type": "INPROCEEDINGS",
@@ -39066,12 +39097,13 @@
     "booktitle": "AAAI",
     "title": "CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Large Language Models (LLMs) have shown great promise in vulnerability identification. As C/C++ comprise half of the open-source Software (OSS) vulnerabilities over the past decade and updates in OSS mainly occur through commits, enhancing LLMs' ability to identify C/C++ Vulnerability-Contributing Commits (VCCs) is essential. However, current studies primarily focus on further pre-training LLMs on massive code datasets, which is resource-intensive and poses efficiency challenges. In this paper, we enhance the ability of BERT-based LLMs to identify C/C++ VCCs in a lightweight manner. We propose CodeLinguaNexus (CLNX) as a bridge facilitating communication between C/C++ programs and LLMs. Based on commits, CLNX efficiently converts the source code into a more natural representation while preserving key details. Specifically, CLNX first applies Structure-level Naturalization to decompose complex programs, followed by Token-level Naturalization to interpret complex symbols. We evaluate CLNX on public datasets of 25,872 C/C++ functions with their commits. The results demonstrate that CLNX substantially improves the ability of LLMs to detect C/C++ VCCs. Moreover, CLNX-equipped CodeBERT achieves new state-of-the-art performance and identifies 38 OSS vulnerabilities in the real world.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i23.34689",
     "doi": "10.1609/aaai.v39i23.34689",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409347890"
   },
   "Dynamic-Width Speculative Beam Decoding for LLM Inference.": {
     "type": "INPROCEEDINGS",
@@ -39211,7 +39243,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i23.34699",
     "doi": "10.1609/aaai.v39i23.34699",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409347892"
   },
   "Hansel: Output Length Controlling Framework for Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -39346,12 +39379,13 @@
     "booktitle": "AAAI",
     "title": "ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Predicting unknown drug-drug interactions (DDIs) is crucial for improving medication safety. Previous efforts in DDI prediction have typically focused on binary classification or predicting DDI categories, with the absence of explanatory insights that could enhance trust in these predictions. In this work, we propose to generate natural language explanations for DDI predictions, enabling the model to reveal the underlying pharmacodynamics and pharmacokinetics mechanisms simultaneously as making the prediction. To do this, we have collected DDI explanations from DDInter and DrugBank and developed various models for extensive experiments and analysis. Our models can provide accurate explanations for unknown DDIs between known drugs. This paper contributes new tools to the field of DDI prediction and lays a solid foundation for further research on generating explanations for DDI predictions.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i24.34709",
     "doi": "10.1609/aaai.v39i24.34709",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362715"
   },
   "Tuning-Free Accountable Intervention for LLM Deployment - a Metacognitive Approach.": {
     "type": "INPROCEEDINGS",
@@ -39374,12 +39408,13 @@
     "booktitle": "AAAI",
     "title": "Multi-Grained Query-Guided Set Prediction Network for Grounded Multimodal Named Entity Recognition.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Grounded Multimodal Named Entity Recognition (GMNER) is an emerging information extraction (IE) task, aiming to simultaneously extract entity spans, types, and corresponding visual regions of entities from given sentence-image pairs data. Recent unified methods employing machine reading comprehension or sequence generation-based frameworks show limitations in this difficult task. The former, utilizing human-designed type queries, struggles to differentiate ambiguous entities, such as Jordan (Person) and off-White x Jordan (Shoes). The latter, following the one-by-one decoding order, suffers from exposure bias issues. We maintain that these works misunderstand the relationships of multimodal entities. To tackle these, we propose a novel unified framework named Multi-grained Query-guided Set Prediction Network (MQSPN) to learn appropriate relationships at intra-entity and inter-entity levels. Specifically, MQSPN explicitly aligns textual entities with visual regions by employing a set of learnable queries to strengthen intra-entity connections. Based on distinct intra-entity modeling, MQSPN reformulates GMNER as a set prediction, guiding models to establish appropriate inter-entity relationships from a optimal global matching perspective. Additionally, we incorporate a query-guided Fusion Net (QFNet) as a glue network to boost better alignment of two-level relationships. Extensive experiments demonstrate that our approach achieves state-of-the-art performances in widely used benchmarks.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i24.34711",
     "doi": "10.1609/aaai.v39i24.34711",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362753"
   },
   "Adaptive Few-shot Prompting for Machine Translation with Pre-trained Language Models.": {
     "type": "INPROCEEDINGS",
@@ -39472,12 +39507,13 @@
     "booktitle": "AAAI",
     "title": "Infer Human's Intentions Before Following Natural Language Instructions.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "For AI agents to be helpful to humans, they should be able to follow natural language instructions to complete everyday cooperative tasks in human environments. However, real human instructions inherently possess ambiguity, because the human speakers assume sufficient prior knowledge about their hidden goals and intentions. Standard language grounding and planning methods fail to address such ambiguities because they do not model human internal goals as additional partially observable factors in the environment. We propose a new framework, Follow Instructions with Social and Embodied Reasoning (FISER), aiming for better natural language instruction following in collaborative embodied tasks. Our framework makes explicit inferences about human goals and intentions as intermediate reasoning steps. We implement a set of Transformer-based models and evaluate them over a challenging benchmark, HandMeThat. We empirically demonstrate that using social reasoning to explicitly infer human intentions before making action plans surpasses purely end-to-end approaches. We also compare our implementation with strong baselines, including Chain of Thought prompting on the largest available pre-trained language models, and find that FISER provides better performance on the embodied social reasoning tasks under investigation, reaching the state-of-the-art on HandMeThat.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i24.34718",
     "doi": "10.1609/aaai.v39i24.34718",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362592"
   },
   "LiteSearch: Efficient Tree Search with Dynamic Exploration Budget for Math Reasoning.": {
     "type": "INPROCEEDINGS",
@@ -39668,12 +39704,13 @@
     "booktitle": "AAAI",
     "title": "MaFeRw: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "In a real-world RAG system, the current query often involves spoken ellipses and ambiguous references from dialogue contexts, necessitating query rewriting to better describe user's information needs. However, traditional context-based rewriting has minimal enhancement on downstream generation tasks due to the lengthy process from query rewriting to response generation. Some researchers try to utilize reinforcement learning with generation feedback to assist the rewriter, but this sparse rewards provide little guidance in most cases, leading to unstable training and generation results.We find that user's needs are also reflected in the gold documents, retrieved documents and ground-truth. Therefore, by feeding back these multi-aspect dense rewards to query rewriting, more stable and satisfactory responses can be achieved. In this paper, we propose a novel query rewriting method MaFeRw, which improves RAG performance by integrating multi-aspect feedback from both the retrieval process and generated results. Specifically, we first use manual data to train a T5 model for the rewriter initialization. Next, we design three metrics as reinforcement learning feedback: the similarity between the rewritten query and the gold document, the ranking metrics, and ROUGE between the generation and the ground truth. Inspired by RLAIF, we train three kinds of reward models for the above metrics to achieve more efficient training. Finally, we combine the scores of these reward models as feedback, and use PPO algorithm to explore the optimal query rewriting strategy.Experimental results on two conversational RAG datasets demonstrate that MaFeRw achieves superior generation metrics and more stable training compared to baselines.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i24.34732",
     "doi": "10.1609/aaai.v39i24.34732",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362684"
   },
   "Defending Against Sophisticated Poisoning Attacks with RL-based Aggregation in Federated Learning.": {
     "type": "INPROCEEDINGS",
@@ -40205,7 +40242,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i24.34770",
     "doi": "10.1609/aaai.v39i24.34770",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409363613"
   },
   "Improving Natural Language Understanding for LLMs via Large-Scale Instruction Synthesis.": {
     "type": "INPROCEEDINGS",
@@ -40214,12 +40252,13 @@
     "booktitle": "AAAI",
     "title": "Improving Natural Language Understanding for LLMs via Large-Scale Instruction Synthesis.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "High-quality, large-scale instructions are crucial for aligning large language models (LLMs), however, there is a severe shortage of instruction in the field of natural language understanding (NLU). Previous works on constructing NLU instructions mainly focus on information extraction (IE), neglecting tasks such as machine reading comprehension, question answering, and text classification. Furthermore, the lack of diversity in the data has led to a decreased generalization ability of trained LLMs in other NLU tasks and a noticeable decline in the fundamental model's general capabilities. To address this issue, we propose Hum, a large-scale, high-quality synthetic instruction corpus for NLU tasks, designed to enhance the NLU capabilities of LLMs. Specifically, Hum includes IE (either close IE or open IE), machine reading comprehension, text classification, and instruction generalist tasks, thereby enriching task diversity. Additionally, we introduce a human-LLMs collaborative mechanism to synthesize instructions, which enriches instruction diversity by incorporating guidelines, preference rules, and format variants. We conduct extensive experiments on 5 NLU tasks and 28 general capability evaluation datasets for LLMs. Experimental results show that Hum enhances the NLU capabilities of six LLMs by an average of 3.1%, with no significant decline observed in other general capabilities.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i24.34771",
     "doi": "10.1609/aaai.v39i24.34771",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362351"
   },
   "Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks.": {
     "type": "INPROCEEDINGS",
@@ -40751,7 +40790,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i24.34809",
     "doi": "10.1609/aaai.v39i24.34809",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362638"
   },
   "EventSum: A Large-Scale Event-Centric Summarization Dataset for Chinese Multi-News Documents.": {
     "type": "INPROCEEDINGS",
@@ -41339,7 +41379,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i25.34851",
     "doi": "10.1609/aaai.v39i25.34851",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409362458"
   },
   "Multi Agent Reinforcement Learning for Sequential Satellite Assignment Problems.": {
     "type": "INPROCEEDINGS",
@@ -44083,7 +44124,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i27.35047",
     "doi": "10.1609/aaai.v39i27.35047",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409361230"
   },
   "Pioneering Explainable Video Fact-Checking with a New Dataset and Multi-role Multimodal Model Approach.": {
     "type": "INPROCEEDINGS",
@@ -44228,7 +44270,7 @@
   "A Denoising Pre-training Framework for Accelerating Novel Material Discovery.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShenLZ025a",
-    "author": "Shuaike Shen and Ke Liu and Muzhi Zhu and Hao Chen 0041",
+    "author": "Shuaike Shen and Ke Liu 0012 and Muzhi Zhu and Hao Chen 0041",
     "booktitle": "AAAI",
     "title": "A Denoising Pre-training Framework for Accelerating Novel Material Discovery.",
     "year": "2025",
@@ -45702,12 +45744,13 @@
     "booktitle": "AAAI",
     "title": "Lessons for Editors of AI Incidents from the AI Incident Database.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "As artificial intelligence (AI) systems become increasingly deployed across the world, they are also increasingly implicated in AI incidents – harm events to individuals and society. As a result, industry, civil society, and governments worldwide are developing best practices and regulations for monitoring and analyzing AI incidents. The AI Incident Database (AIID) is a project that catalogs AI incidents and supports further research by providing a platform to classify incidents for different operational and research-oriented goals. This study reviews the AIID’s dataset of 750+ AI incidents and two independent taxonomies applied to these incidents to identify common challenges to indexing and analyzing AI incidents. We find that certain patterns of AI incidents present structural ambiguities that challenge incident databasing and explore how epistemic uncertainty in AI incident reporting is unavoidable. We therefore report mitigations to make incident processes more robust to uncertainty related to cause, extent of harm, severity, or technical details of implicated systems. With these findings, we discuss how to develop future AI incident reporting practices.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i28.35163",
     "doi": "10.1609/aaai.v39i28.35163",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409381804"
   },
   "Exploring Iterative Enhancement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -46379,7 +46422,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i28.35211",
     "doi": "10.1609/aaai.v39i28.35211",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409360820"
   },
   "Understanding Microtargeting Pattern on Social Media.": {
     "type": "INPROCEEDINGS",
@@ -46869,7 +46913,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i28.35246",
     "doi": "10.1609/aaai.v39i28.35246",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409361427"
   },
   "AoI-MDP: An AoI Optimized Markov Decision Process Dedicated in the Underwater Task (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -48633,7 +48678,8 @@
     "url": "https://doi.org/10.1609/aaai.v39i28.35372",
     "doi": "10.1609/aaai.v39i28.35372",
     "venue": "AAAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4409361552"
   },
   "Agentic AI for Digital Twin.": {
     "type": "INPROCEEDINGS",

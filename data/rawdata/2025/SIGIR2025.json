@@ -4584,12 +4584,13 @@
     "booktitle": "SIGIR",
     "title": "Low-Cost Document Retrieval with Dense Pseudo-Query Encoding.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "Low-cost retrieval is crucial for document search on resource-limited computing platforms. This paper presents a staged sparse-to-dense retrieval framework that substitutes expensive dense query encoding with a dense pseudo-query (DPQ), an approximation derived solely from sparse retrieval results. DPQ scheme employs a simple, rank-aware weighting to combine corresponding dense representations of top sparse results, providing an opportunity to efficiently leverage an expensive but expressive LLM or BERT-based dense model without requiring GPUs. The evaluation demonstrates that DPQ-based retrieval runs fast on an affordable platform and outperforms several low-cost baselines in zero-shot retrieval.",
     "keywords": "",
     "url": "https://doi.org/10.1145/3726302.3730227",
     "doi": "10.1145/3726302.3730227",
     "venue": "SIGIR2025",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4412378033"
   },
   "Measuring the Fairness Gap Between Retrieval and Generation in RAG Systems using a Cognitive Complexity Framework.": {
     "type": "INPROCEEDINGS",

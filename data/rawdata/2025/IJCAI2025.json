@@ -1122,7 +1122,7 @@
   "IterMeme: Expert-Guided Multimodal LLM for Interactive Meme Creation with Layout-Aware Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/CaiFQWSX25",
-    "author": "Yaqi Cai and Shancheng Fang and Yadong Qu and Xiaorui Wang and Meng Shao and Hongtao Xie",
+    "author": "Yaqi Cai and Shancheng Fang and Yadong Qu and Xiaorui Wang and Meng Shao and Hongtao Xie 0001",
     "booktitle": "IJCAI",
     "title": "IterMeme: Expert-Guided Multimodal LLM for Interactive Meme Creation with Layout-Aware Generation.",
     "year": "2025",
@@ -1990,7 +1990,7 @@
   "Seeing the Unseen: Composing Outliers for Compositional Zero-Shot Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/JingLCXBGS25",
-    "author": "Chenchen Jing and Mingyu Liu and Hao Chen and Yuling Xi and Xingyuan Bu and Dong Gong and Chunhua Shen",
+    "author": "Chenchen Jing and Mingyu Liu and Hao Chen 0041 and Yuling Xi and Xingyuan Bu and Dong Gong and Chunhua Shen",
     "booktitle": "IJCAI",
     "title": "Seeing the Unseen: Composing Outliers for Compositional Zero-Shot Learning.",
     "year": "2025",
@@ -2900,7 +2900,7 @@
   "MultiDreamer3D: Multi-concept 3D Customization with Concept-Aware Diffusion Guidance.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/SongCY25",
-    "author": "Wooseok Song and Seunggyu Chang and Jaejun Yoo",
+    "author": "Wooseok Song and Seunggyu Chang and Jaejun Yoo 0001",
     "booktitle": "IJCAI",
     "title": "MultiDreamer3D: Multi-concept 3D Customization with Concept-Aware Diffusion Guidance.",
     "year": "2025",
@@ -3660,12 +3660,13 @@
     "booktitle": "IJCAI",
     "title": "G3PT: Unleash the Power of Autoregressive Modeling in 3D Generation via Cross-Scale Querying Transformer.",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "Autoregressive transformers have revolutionized generative models in language processing and shown substantial promise in image and video generation. However, these models face significant challenges when extended to 3D generation tasks due to their reliance on next-token prediction to learn token sequences, which is incompatible with the unordered nature of 3D data. Instead of imposing an artificial order on 3D data, in this paper, we introduce G3PT, a scalable, coarse-to-fine 3D native generative model with cross-scale vector quantization and cross-scale autoregressive modeling. The key is to map point-based 3D data into discrete tokens with different levels of detail, naturally establishing a sequential relationship across a variety of scales suitable for autoregressive modeling. Remarkably, our method connects tokens globally across different levels of detail without manually specified ordering. Benefiting from this approach, G3PT features a versatile 3D generation pipeline that effortlessly supports the generation of 3D shapes under diverse conditional modalities. Extensive experiments demonstrate that G3PT achieves superior generation quality and generalization ability compared to previous baselines. Most importantly, for the first time in 3D generation, scaling up G3PT reveals distinct power-law scaling behaviors.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/262",
     "doi": "10.24963/ijcai.2025/262",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414360595"
   },
   "Multimodal Prior Learning with Double Constraint Alignment for Snapshot Spectral Compressive Imaging.": {
     "type": "INPROCEEDINGS",
@@ -4412,7 +4413,7 @@
   "Balance-Aware Sequence Sampling Makes Multi-Modal Learning Better.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/GuanJY25",
-    "author": "Zhi-Hao Guan and Qing-Yuan Jiang and Yang Yang",
+    "author": "Zhi-Hao Guan and Qing-Yuan Jiang and Yang Yang 0074",
     "booktitle": "IJCAI",
     "title": "Balance-Aware Sequence Sampling Makes Multi-Modal Learning Better.",
     "year": "2025",
@@ -4636,7 +4637,7 @@
   "HGMP: Heterogeneous Graph Multi-Task Prompt Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/JiaoN0GLCB25",
-    "author": "Pengfei Jiao and Jialong Ni and Di Jin 0001 and Xuan Guo 0005 and Huan Liu 0001 and Hongjiang Chen and Yanxian Bi",
+    "author": "Pengfei Jiao and Jialong Ni and Di Jin 0001 and Xuan Guo 0005 and Huan Liu 0001 and Hongjiang Chen 0001 and Yanxian Bi",
     "booktitle": "IJCAI",
     "title": "HGMP: Heterogeneous Graph Multi-Task Prompt Learning.",
     "year": "2025",
@@ -4822,12 +4823,13 @@
     "booktitle": "IJCAI",
     "title": "Query-Based and Unnoticeable Graph Injection Attack from Neighborhood Perspective.",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "The robustness of Graph Neural Networks (GNNs) has become an increasingly important topic due to their expanding range of applications. Various attack methods have been proposed to explore the vulnerabilities of GNNs, ranging from Graph Modification Attacks (GMA) to the more practical and flexible Graph Injection Attacks (GIA). However, existing methods face two key challenges: (i) their reliance on surrogate models, which often leads to reduced attack effectiveness due to structural differences and prior biases, and (ii) existing GIA methods often sacrifice attack success rates in undefended settings to bypass certain defense models, thereby limiting their overall effectiveness. To overcome these limitations, we propose QUGIA, a Query-based and Unnoticeable Graph Injection Attack. QUGIA injects nodes by first selecting edges based on victim node connections and then generating node features using a Bayesian framework. This ensures that the injected nodes are similar to the original graph nodes, implicitly preserving homophily and making the attack more unnoticeable. Unlike previous methods, QUGIA does not rely on surrogate models, thereby avoiding performance degradation and achieving better generalization. Extensive experiments on six real-world datasets with diverse characteristics demonstrate that QUGIA achieves unnoticeable attacks and outperforms state-of-the-art attackers. Our code is available at: https://anonymous.4open.science/r/QUGIA-588E/.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/345",
     "doi": "10.24963/ijcai.2025/345",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359921"
   },
   "Flow Matching Based Sequential Recommender Model.": {
     "type": "INPROCEEDINGS",
@@ -5518,7 +5520,7 @@
   "Towards Equilibrium: An Instantaneous Probe-and-Rebalance Multimodal Learning Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/YangWJ25",
-    "author": "Yang Yang and Xixian Wu and Qing-Yuan Jiang",
+    "author": "Yang Yang 0074 and Xixian Wu and Qing-Yuan Jiang",
     "booktitle": "IJCAI",
     "title": "Towards Equilibrium: An Instantaneous Probe-and-Rebalance Multimodal Learning Approach.",
     "year": "2025",
@@ -5644,7 +5646,7 @@
   "AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangLZYL25",
-    "author": "Huanyao Zhang and Jiaye Lin and Wentao Zhang and Haitao Yuan 0002 and Guoliang Li 0001",
+    "author": "Huanyao Zhang and Jiaye Lin and Wentao Zhang 0001 and Haitao Yuan 0002 and Guoliang Li 0001",
     "booktitle": "IJCAI",
     "title": "AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting.",
     "year": "2025",
@@ -5779,7 +5781,8 @@
     "url": "https://doi.org/10.24963/ijcai.2025/413",
     "doi": "10.24963/ijcai.2025/413",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359834"
   },
   "Cap-and-Penalize: Competitive Mechanisms for Multi-Phase Regularized Online Allocation.": {
     "type": "INPROCEEDINGS",
@@ -6745,7 +6748,8 @@
     "url": "https://doi.org/10.24963/ijcai.2025/482",
     "doi": "10.24963/ijcai.2025/482",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359811"
   },
   "EnergyCompress: A General Case Base Learning Strategy.": {
     "type": "INPROCEEDINGS",
@@ -6857,7 +6861,8 @@
     "url": "https://doi.org/10.24963/ijcai.2025/490",
     "doi": "10.24963/ijcai.2025/490",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359428"
   },
   "First-Order Coalition Logic.": {
     "type": "INPROCEEDINGS",
@@ -7688,7 +7693,7 @@
   "Fully Test-Time Adaptation for Feature Decrement in Tabular Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ChengJYZG25",
-    "author": "Zi-Jian Cheng and Zi-Yi Jia and Kun-Yang Yu and Zhi Zhou 0007 and Lan-Zhe Guo",
+    "author": "Zi-Jian Cheng and Zi-Yi Jia 0001 and Kun-Yang Yu and Zhi Zhou 0007 and Lan-Zhe Guo",
     "booktitle": "IJCAI",
     "title": "Fully Test-Time Adaptation for Feature Decrement in Tabular Data.",
     "year": "2025",
@@ -8542,7 +8547,7 @@
   "Interactive Multimodal Learning via Flat Gradient Modification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/JiangCY25",
-    "author": "Qing-Yuan Jiang and Zhouyang Chi and Yang Yang",
+    "author": "Qing-Yuan Jiang and Zhouyang Chi and Yang Yang 0074",
     "booktitle": "IJCAI",
     "title": "Interactive Multimodal Learning via Flat Gradient Modification.",
     "year": "2025",
@@ -8584,7 +8589,7 @@
   "Where and How to Enhance: Discovering Bit-Width Contribution for Mixed Precision Quantization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/KangM0G25",
-    "author": "Haidong Kang and Lianbo Ma and Guo Yu 0001 and Shangce Gao",
+    "author": "Haidong Kang and Lianbo Ma 0004 and Guo Yu 0001 and Shangce Gao",
     "booktitle": "IJCAI",
     "title": "Where and How to Enhance: Discovering Bit-Width Contribution for Mixed Precision Quantization.",
     "year": "2025",
@@ -8752,7 +8757,7 @@
   "Transferable Relativistic Predictor: Mitigating Cross-Task Cold-Start Issue in NAS.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Li0M025",
-    "author": "Nan Li 0033 and Bing Xue 0001 and Lianbo Ma and Mengjie Zhang 0001",
+    "author": "Nan Li 0033 and Bing Xue 0001 and Lianbo Ma 0004 and Mengjie Zhang 0001",
     "booktitle": "IJCAI",
     "title": "Transferable Relativistic Predictor: Mitigating Cross-Task Cold-Start Issue in NAS.",
     "year": "2025",
@@ -9158,7 +9163,7 @@
   "BMIP: Bi-directional Modality Interaction Prompt Learning for VLM.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LvCZYG25",
-    "author": "Song-Lin Lv and Yu-Yang Chen 0001 and Zhi Zhou 0007 and Ming Yang and Lan-Zhe Guo",
+    "author": "Song-Lin Lv and Yu-Yang Chen 0001 and Zhi Zhou 0007 and Ming Yang 0044 and Lan-Zhe Guo",
     "booktitle": "IJCAI",
     "title": "BMIP: Bi-directional Modality Interaction Prompt Learning for VLM.",
     "year": "2025",
@@ -10712,7 +10717,7 @@
   "Boost Embodied AI Models with Robust Compression Boundary.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Yu0G25",
-    "author": "Chong Yu and Tao Chen 0003 and Zhongxue Gan",
+    "author": "Chong Yu 0001 and Tao Chen 0003 and Zhongxue Gan 0001",
     "booktitle": "IJCAI",
     "title": "Boost Embodied AI Models with Robust Compression Boundary.",
     "year": "2025",
@@ -12606,12 +12611,13 @@
     "booktitle": "IJCAI",
     "title": "How to Mitigate Information Loss in Knowledge Graphs for GraphRAG: Leveraging Triple Context Restoration and Query-Driven Feedback.",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "Knowledge Graph (KG)-augmented Large Language Models (LLMs) have recently propelled significant advances in complex reasoning tasks, thanks to their broad domain knowledge and contextual awareness. Unfortunately, current methods often assume KGs to be complete, which is impractical given the inherent limitations of KG construction and the potential loss of contextual cues when converting unstructured text into entity-relation triples. In response, this paper proposes the Triple Context Restoration and Query-driven Feedback (TCR-QF) framework, which reconstructs the textual context underlying each triple to mitigate information loss, while dynamically refining the KG structure by iteratively incorporating query-relevant missing knowledge. Experiments on five benchmark question-answering datasets substantiate the effectiveness of TCR-QF in KG and LLM integration, where itachieves a 29.1% improvement in Exact Match and a 15.5% improvement in F1 over its state-of-the-art GraphRAG competitors. The code is publicly available at https://github.com/HFUT-DMiC-Lab/TCR-QF.git.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/901",
     "doi": "10.24963/ijcai.2025/901",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359625"
   },
   "Exploring the Trade-Offs: Quantization Methods, Task Difficulty, and Model Size in Large Language Models From Edge to Giant.": {
     "type": "INPROCEEDINGS",
@@ -12994,7 +13000,7 @@
   "Detecting Hallucination in Large Language Models Through Deep Internal Representation Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangS0TZXYZ25",
-    "author": "Luan Zhang and Dandan Song 0005 and Zhijing Wu 0001 and Yuhang Tian and Changzhi Zhou and Jing Xu and Ziyi Yang and Shuhao Zhang 0001",
+    "author": "Luan Zhang and Dandan Song 0005 and Zhijing Wu 0001 and Yuhang Tian 0002 and Changzhi Zhou and Jing Xu and Ziyi Yang and Shuhao Zhang 0001",
     "booktitle": "IJCAI",
     "title": "Detecting Hallucination in Large Language Models Through Deep Internal Representation Analysis.",
     "year": "2025",
@@ -13731,7 +13737,8 @@
     "url": "https://doi.org/10.24963/ijcai.2025/981",
     "doi": "10.24963/ijcai.2025/981",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359661"
   },
   "Proven Approximation Guarantees in Multi-Objective Optimization: SPEA2 Beats NSGA-II.": {
     "type": "INPROCEEDINGS",
@@ -15234,7 +15241,7 @@
   "Mat-Instructions: A Large-Scale Inorganic Material Instruction Dataset for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiuGF0TRX25",
-    "author": "Ke Liu and Shangde Gao and Yichao Fu and Xiaoliang Wu 0003 and Shuo Tong and Ajitha Rajan and Hao Xu",
+    "author": "Ke Liu 0012 and Shangde Gao and Yichao Fu and Xiaoliang Wu 0003 and Shuo Tong and Ajitha Rajan and Hao Xu",
     "booktitle": "IJCAI",
     "title": "Mat-Instructions: A Large-Scale Inorganic Material Instruction Dataset for Large Language Models.",
     "year": "2025",
@@ -16228,7 +16235,7 @@
   "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction To Generation and Beyond.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/GuoSG00SGDCW025",
-    "author": "Kehan Guo and Yili Shen and Gisela Abigail Gonzalez-Montiel and Yue Huang 0001 and Yujun Zhou 0010 and Mihir Surve and Zhichun Guo and Payel Das and Nitesh V. Chawla and Olaf Wiest and Xiangliang Zhang 0001",
+    "author": "Kehan Guo and Yili Shen and Gisela Abigail Gonzalez-Montiel and Yue Huang 0001 and Yujun Zhou 0002 and Mihir Surve and Zhichun Guo and Payel Das and Nitesh V. Chawla and Olaf Wiest and Xiangliang Zhang 0001",
     "booktitle": "IJCAI",
     "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction To Generation and Beyond.",
     "year": "2025",
@@ -16312,7 +16319,7 @@
   "A Survey on Temporal Interaction Graph Representation Learning: Progress, Challenges, and Opportunities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/JiaoCGZH025",
-    "author": "Pengfei Jiao and Hongjiang Chen and Xuan Guo 0005 and Zhidong Zhao and Dongxiao He and Di Jin 0001",
+    "author": "Pengfei Jiao and Hongjiang Chen 0001 and Xuan Guo 0005 and Zhidong Zhao and Dongxiao He and Di Jin 0001",
     "booktitle": "IJCAI",
     "title": "A Survey on Temporal Interaction Graph Representation Learning: Progress, Challenges, and Opportunities.",
     "year": "2025",
@@ -16400,12 +16407,13 @@
     "booktitle": "IJCAI",
     "title": "Graph Neural Networks for Databases: A Survey.",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "Graph neural networks (GNNs) are powerful deep learning models for graph-structured data, demonstrating remarkable success across diverse domains. Recently, the database (DB) community has increasingly recognized the potentiality of GNNs, prompting a surge of researches focusing on improving database systems through GNN-based approaches. However, despite notable advances, There is a lack of a comprehensive review and understanding of how GNNs could improve DB systems. Therefore, this survey aims to bridge this gap by providing a structured and in-depth overview of GNNs for DB systems. Specifically, we propose a new taxonomy that classifies existing methods into two key categories: (1) Relational Databases, which includes tasks like performance prediction, query optimization, and Text-to-SQL, and (2) Graph Databases, addressing challenges like efficient graph query processing and graph similarity computation. We systematically review key methods in each category, highlighting their contributions and practical implications. Finally, we suggest promising avenues for integrating GNNs into Database systems.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/1172",
     "doi": "10.24963/ijcai.2025/1172",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359555"
   },
   "Towards Cross-Modality Modeling for Time Series Analytics: A Survey in the LLM Era.": {
     "type": "INPROCEEDINGS",
@@ -16620,7 +16628,7 @@
   "An Empirical Study of Federated Prompt Learning for Vision Language Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WangHCSWQYWLY25",
-    "author": "Zhihao Wang 0002 and Wenke Huang 0003 and Tian Chen and Zekun Shi and Guancheng Wan and Yu Qiao and Bin Yang 0026 and Jian Wang 0018 and Bing Li 0010 and Mang Ye",
+    "author": "Zhihao Wang 0002 and Wenke Huang 0003 and Tian Chen and Zekun Shi and Guancheng Wan and Yu Qiao 0001 and Bin Yang 0026 and Jian Wang 0018 and Bing Li 0010 and Mang Ye",
     "booktitle": "IJCAI",
     "title": "An Empirical Study of Federated Prompt Learning for Vision Language Model.",
     "year": "2025",
@@ -16904,12 +16912,13 @@
     "booktitle": "IJCAI",
     "title": "Shapley Value Computation in Ontology-Mediated Query Answering (Extended Abstract).",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "In this work, we explore the use of the Shapley value in ontology-mediated query answering (OMQA) and provide a detailed complexity analysis of Shapley value computation (SVC) in the OMQA setting. In particular, we establish a FP/#P-hard dichotomy for SVC for ontology-mediated queries (T,q) composed of an ontology T formulated in the description logic ELHI-bot and a connected constant-free homomorphism-closed query q. We further strengthen the #P-hardness side of the dichotomy to cover possibly disconnected queries with constants. Our results exploit recently discovered connections between SVC and probabilistic query evaluation and allow us to generalize existing results on probabilistic OMQA.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/1208",
     "doi": "10.24963/ijcai.2025/1208",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359160"
   },
   "Domain Prompt Learning with Quaternion Networks (Extended Abstract).": {
     "type": "INPROCEEDINGS",
@@ -17142,12 +17151,13 @@
     "booktitle": "IJCAI",
     "title": "On Measuring Inconsistency in Graph Databases with Regular Path Constraints (Abstract Reprint).",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "Real-world data are often inconsistent. Although a substantial amount of research has been done on measuring inconsistency, this research concentrated on knowledge bases formalized in propositional logic. Recently, inconsistency measures have been introduced for relational databases. However, nowadays, real-world information is always more frequently represented by graph-based structures which offer a more intuitive conceptualization than relational ones. In this paper, we explore inconsistency measures for graph databases with regular path constraints, a class of integrity constraints based on a well-known navigational language for graph data. In this context, we define several inconsistency measures dealing with specific elements contributing to inconsistency in graph databases. We also define some rationality postulates that are desirable properties for an inconsistency measure for graph databases. We analyze the compliance of each measure with each postulate and find various degrees of satisfaction; in fact, one of the measures satisfies all the postulates. Finally, we investigate the data and combined complexity of the calculation of all the measures as well as the complexity of deciding whether a measure is lower than, equal to, or greater than a given threshold. It turns out that for a majority of the measures these problems are tractable, while for the other different levels of intractability are exhibited.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/1225",
     "doi": "10.24963/ijcai.2025/1225",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359788"
   },
   "CADS: A Systematic Literature Review on the Challenges of Abstractive Dialogue Summarization (Abstract Reprint).": {
     "type": "INPROCEEDINGS",
@@ -17450,12 +17460,13 @@
     "booktitle": "IJCAI",
     "title": "Taking STEPS Forward: Enhancing Online Peer-Counseling with Schema Therapy via Socratic Questioning.",
     "year": "2025",
-    "abstract": "Electronic proceedings of IJCAI 2025",
+    "abstract": "Peer-counseling is essential in online mental health communities to provide relatable support to those seeking help, but the peer-counselors often lack professional training in therapeutic counseling to produce the desired cognitive changes. In this paper, we present STEPS, an AI-powered assistive dialog tool for peer-counseling. Unlike other existing tools, STEPS assists peer-counselors in facilitating cognitive change in online counseling settings. Towards this goal, we emulate two key phases in a Schema Therapy-based in-person counseling session–(1) Schema Assessment to uncover the deep-seated irrational beliefs underlying an individual’s mental health problems, and (2) Cognitive Change to reframe these beliefs into healthier alternatives. In both phases, we employ Socratic questioning techniques to effectively elicit critical introspection and guide cognitive change. We describe STEPS and present expert evaluation studies on its counseling conversations on real-world mental health forum posts. Our results indicate that STEPS significantly outperforms competitive baselines on all key metrics related to schema assessment, cognitive change strategies, and critical thinking, achieving an impressive average rating of 5 out of 6, highlighting its strong potential as a transformative tool for online peer-counseling.",
     "keywords": "",
     "url": "https://doi.org/10.24963/ijcai.2025/1248",
     "doi": "10.24963/ijcai.2025/1248",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359167"
   },
   "Combining Code Generating Large Language Models and Self-Play to Iteratively Refine Strategies in Games.": {
     "type": "INPROCEEDINGS",
@@ -17847,7 +17858,8 @@
     "url": "https://doi.org/10.24963/ijcai.2025/1276",
     "doi": "10.24963/ijcai.2025/1276",
     "venue": "IJCAI2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4414359789"
   },
   "PCToolkit: A Unified Plug-and-Play Prompt Compression Toolkit of Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -17866,7 +17878,7 @@
   "A Smart Multimodal Healthcare Copilot with Powerful LLM Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhaoLYM25",
-    "author": "Xuejiao Zhao and Siyan Liu and Su-Yin Yang and Chunyan Miao",
+    "author": "Xuejiao Zhao and Siyan Liu 0001 and Su-Yin Yang and Chunyan Miao",
     "booktitle": "IJCAI",
     "title": "A Smart Multimodal Healthcare Copilot with Powerful LLM Reasoning.",
     "year": "2025",

@@ -15,10 +15,10 @@
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
 | ccf_conference | true_positive_application | ISSTA | 2020 | DeepSQLi: deep semantic learning for testing SQL injection |  |
 | ccf_conference | true_positive_application | ASE | 2025 | DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models |  |
-| ccf_conference | true_positive_core | SIGMOD | 2026 | PRISM: Navigating Cost-Accuracy Trade-offs for NL2SQL | missing doi, abstract |
-| ccf_conference | true_positive_core | KDD | 2022 | Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing |  |
-| ccf_conference | true_positive_core | AAAI | 2023 | Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams |  |
-| ccf_conference | true_positive_core | SIGMOD | 2026 | SchemaRAG: A Schema-aware Retrieval-Augmented Generation Framework for Text-to-SQL | missing doi, abstract |
+| ccf_conference | true_positive_core | SIGMOD | 2025 | OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment | missing doi, abstract |
+| ccf_conference | true_positive_application | ICDE | 2025 | PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices |  |
+| ccf_conference | true_positive_core | ACL | 2023 | Laziness Is a Virtue When It Comes to Compositionality in Neural Semantic Parsing |  |
+| ccf_conference | true_positive_core | AAAI | 2026 | Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale |  |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
 | readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
@@ -37,13 +37,13 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
-| supplemental | true_positive_core | ACL | 2022 | Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion |  |
-| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
-| supplemental | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
-| supplemental | true_positive_core | AAAI | 2020 | Merging Weak and Active Supervision for Semantic Parsing |  |
-| supplemental | true_positive_core | ACL | 2023 | Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms |  |
+| supplemental | true_positive_application | ACL | 2025 | Adaptive and Robust Translation from Natural Language to Multi-model Query Languages |  |
 | supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
-| supplemental | true_positive_core | AAAI | 2023 | Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers |  |
+| supplemental | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
 | supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
-| fill | true_positive_core | SIGMOD | 2025 | Panel on AI for Future Databases: A New Beginning or a Boulevard of Broken Dreams? |  |
-| fill | true_positive_core | ICML | 2026 | Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL | missing doi |
+| supplemental | true_positive_core | ACL | 2023 | Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms |  |
+| supplemental | true_positive_core | AAAI | 2025 | Confidence Estimation for Error Detection in Text-to-SQL Systems |  |
+| supplemental | true_positive_core | ACL | 2023 | Multitask Pretraining with Structured Knowledge for Text-to-SQL Generation |  |
+| supplemental | true_positive_application | ACL | 2025 | Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query |  |
+| fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |
+| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |

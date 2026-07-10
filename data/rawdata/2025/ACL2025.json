@@ -16,7 +16,7 @@
   "EcomScriptBench: A Multi-task Benchmark for E-commerce Script Planning via Step-wise Intention-Driven Product Association.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangCLNX0SLGLYB25",
-    "author": "Weiqi Wang 0001 and Limeng Cui and Xin Liu and Sreyashi Nag and Wenju Xu and Chen Luo 0003 and Sheikh Muhammad Sarwar and Yang Li and Hansu Gu and Hui Liu and Changlong Yu and Jiaxin Bai and Yifan Gao 0001 and Haiyang Zhang and Qi He and Shuiwang Ji and Yangqiu Song",
+    "author": "Weiqi Wang 0001 and Limeng Cui and Xin Liu 0039 and Sreyashi Nag and Wenju Xu and Chen Luo 0003 and Sheikh Muhammad Sarwar and Yang Li 0055 and Hansu Gu and Hui Liu 0033 and Changlong Yu and Jiaxin Bai and Yifan Gao 0001 and Haiyang Zhang and Qi He 0002 and Shuiwang Ji and Yangqiu Song",
     "booktitle": "ACL (1)",
     "title": "EcomScriptBench: A Multi-task Benchmark for E-commerce Script Planning via Step-wise Intention-Driven Product Association.",
     "year": "2025",
@@ -356,12 +356,13 @@
     "booktitle": "ACL (1)",
     "title": "BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian.",
     "year": "2025",
-    "abstract": "In the epoch of multilingual large language models (LLMs), it is still challenging to evaluate the models’ understanding of lower-resourced languages, which motivates further development of expert-crafted natural language understanding benchmarks. We introduce BelarusianGLUE — a natural language understanding benchmark for Belarusian, an East Slavic language, with ≈15K instances in five tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, textual entailment. A systematic evaluation of BERT models and LLMs against this novel benchmark reveals that both types of models approach human-level performance on easier tasks, such as sentiment analysis, but there is a significant gap in performance between machine and human on a harder task — Winograd schema challenge. We find the optimal choice of model type to be task-specific: e.g. BERT models underperform on textual entailment task but are competitive for linguistic acceptability. We release the datasets (https://hf.co/datasets/maaxap/BelarusianGLUE) and evaluation code (https://github.com/maaxap/BelarusianGLUE).",
+    "abstract": "Maksim Aparovich, Volha Harytskaya, Vladislav Poritski, Oksana Volchek, Pavel Smrz. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.25/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.25",
     "doi": "10.18653/v1/2025.acl-long.25",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412886907"
   },
   "A Survey on Foundation Language Models for Single-cell Biology.": {
     "type": "INPROCEEDINGS",
@@ -2106,12 +2107,13 @@
     "booktitle": "ACL (1)",
     "title": "ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use.",
     "year": "2025",
-    "abstract": "Effective evaluation of multi-hop tool use is critical for analyzing the understanding, reasoning, and function-calling capabilities of large language models (LLMs). However, progress has been hindered by a lack of reliable evaluation datasets. To address this, we present ToolHop, a dataset comprising 995 user queries and 3,912 associated tools, specifically designed for rigorous evaluation of multi-hop tool use. ToolHop ensures diverse queries, meaningful interdependencies, locally executable tools, detailed feedback, and verifiable answers through a novel query-driven data construction approach that includes tool creation, document refinement, and code generation. We evaluate 14 LLMs across five model families (i.e., LLaMA3.1, Qwen2.5, Gemini1.5, Claude3.5, and GPT), uncovering significant challenges in handling multi-hop tool-use scenarios. The leading model, GPT-4o, achieves an accuracy of 49.04%, underscoring substantial room for improvement. Further analysis reveals variations in tool-use strategies for various families, offering actionable insights to guide the development of more effective approaches. Code and data can be found in https://huggingface.co/datasets/bytedance-research/ToolHop.",
+    "abstract": "Junjie Ye, Zhengyin Du, Xuesong Yao, Weijian Lin, Yufei Xu, Zehui Chen, Zaiyuan Wang, Sining Zhu, Zhiheng Xi, Siyu Yuan, Tao Gui, Qi Zhang, Xuanjing Huang, Jiecao Chen. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.150/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.150",
     "doi": "10.18653/v1/2025.acl-long.150",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412886777"
   },
   "Mixture of insighTful Experts (MoTE): The Synergy of Reasoning Chains and Expert Mixtures in Self-Alignment.": {
     "type": "INPROCEEDINGS",
@@ -2172,7 +2174,7 @@
   "Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiZLSL25",
-    "author": "Yuanfan Li and Zhaohan Zhang and Chengzhengxu Li and Chao Shen and Xiaoming Liu",
+    "author": "Yuanfan Li and Zhaohan Zhang and Chengzhengxu Li and Chao Shen 0001 and Xiaoming Liu",
     "booktitle": "ACL (1)",
     "title": "Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training.",
     "year": "2025",
@@ -3408,12 +3410,13 @@
     "booktitle": "ACL (1)",
     "title": "Learning to Generate Structured Output with Schema Reinforcement Learning.",
     "year": "2025",
-    "abstract": "This study investigates the structured generation capabilities of large language models (LLMs), focusing on producing valid JSON outputs against a given schema. Despite the widespread use of JSON in integrating language models with programs, there is a lack of comprehensive analysis and benchmarking of these capabilities. We explore various aspects of JSON generation, such as structure understanding, escaping, and natural language description, to determine how to assess and enable LLMs to generate valid responses. Building upon this, we propose SchemaBench features around 40K different JSON schemas to obtain and assess models’ abilities in generating valid JSON. We find that the latest LLMs are still struggling to generate a valid JSON string. Moreover, we demonstrate that incorporating reinforcement learning with a Fine-grained Schema Validator can further enhance models’ understanding of JSON schema, leading to improved performance. Our models demonstrate significant improvement in both generating JSON outputs and downstream tasks.",
+    "abstract": "Yaxi Lu, Haolun Li, Xin Cong, Zhong Zhang, Yesai Wu, Yankai Lin, Zhiyuan Liu, Fangming Liu, Maosong Sun. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.243/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.243",
     "doi": "10.18653/v1/2025.acl-long.243",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412886728"
   },
   "Enhancing Unsupervised Sentence Embeddings via Knowledge-Driven Data Augmentation and Gaussian-Decayed Contrastive Learning.": {
     "type": "INPROCEEDINGS",
@@ -4015,7 +4018,8 @@
     "url": "https://aclanthology.org/2025.acl-long.286/",
     "doi": "10.18653/v1/2025.acl-long.286",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945710"
   },
   "Enhancing Multimodal Continual Instruction Tuning with BranchLoRA.": {
     "type": "INPROCEEDINGS",
@@ -4094,12 +4098,13 @@
     "booktitle": "ACL (1)",
     "title": "What Makes a Good Natural Language Prompt?",
     "year": "2025",
-    "abstract": "As large language models (LLMs) have progressed towards more human-like and human–AI communications prevalent, prompting has emerged as a decisive component. However, there is limited conceptual consensus on what exactly quantifies natural language prompts. We attempt to address this question by conducting a meta-analysis surveying 150+ prompting-related papers from leading NLP and AI conferences (2022–2024), and blogs. We propose a property- and human-centric framework for evaluating prompt quality, encompassing 21 properties categorized into six dimensions. We then examine how existing studies assess their impact on LLMs, revealing their imbalanced support across models and tasks, and substantial research gaps. Further, we analyze correlations among properties in high-quality natural language prompts, deriving prompting recommendations. Finally, we explore multi-property prompt enhancements in reasoning tasks, observing that single-property enhancements often have the greatest impact. Our findings establish a foundation for property-centric prompt evaluation and optimization, bridging the gaps between human–AI communication and opening new prompting research directions.",
+    "abstract": "Do Xuan Long, Duy Dinh, Ngoc-Hai Nguyen, Kenji Kawaguchi, Nancy F. Chen, Shafiq Joty, Min-Yen Kan. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.292/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.292",
     "doi": "10.18653/v1/2025.acl-long.292",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945728"
   },
   "X-TURING: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents.": {
     "type": "INPROCEEDINGS",
@@ -5158,12 +5163,13 @@
     "booktitle": "ACL (1)",
     "title": "Mining Complex Patterns of Argumentative Reasoning in Natural Language Dialogue.",
     "year": "2025",
-    "abstract": "Argumentation scheme mining is the task of automatically identifying reasoning mechanisms behind argument inferences. These mechanisms provide insights into underlying argu-ment structures and guide the assessment of natural language arguments. Research on argumentation scheme mining, however, has always been limited by the scarcity of large enough publicly available corpora containing scheme annotations. In this paper, we present the first state-of-the-art results for mining argumentation schemes in natural language dialogue. For this purpose, we create QT-S CHEMES , a new corpus of 441 arguments annotated with 24 argumentation schemes. Using this corpus, we leverage the capabilities of LLMs and Transformer-based models, pre-training them on a large corpus containing textbook-like argumentation schemes and validating their applicability in real-world scenarios.",
+    "abstract": "Argumentation scheme mining is the task of automatically identifying reasoning mechanisms behind argument inferences. These mechanisms provide insights into underlying argument structures and guide the assessment of natural language arguments. Research on argumentation scheme mining, however, has always been limited by the scarcity of large enough publicly available corpora containing scheme annotations. In this paper, we present the first state-of-the-art results for mining argumentation schemes in natural language dialogue. For this purpose, we create QT-SCHEMES, a new corpus of 441 arguments annotated with 24 argumentation schemes. Using this corpus, we leverage the capabilities of LLMs and Transformer-based models, pre-training them on a large corpus containing textbook-like argumentation schemes and validating their applicability in real-world scenarios.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.368",
     "doi": "10.18653/v1/2025.acl-long.368",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945539"
   },
   "OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use.": {
     "type": "INPROCEEDINGS",
@@ -5266,7 +5272,7 @@
   "ActiView: Evaluating Active Perception Ability for Multimodal Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangCLDZXWLL25",
-    "author": "Ziyue Wang and Chi Chen and Fuwen Luo and Yurui Dong and Yuanchi Zhang and Yuzhuang Xu and Xiaolong Wang and Peng Li and Yang Liu",
+    "author": "Ziyue Wang 0002 and Chi Chen 0005 and Fuwen Luo and Yurui Dong 0001 and Yuanchi Zhang and Yuzhuang Xu and Xiaolong Wang 0014 and Peng Li 0030 and Yang Liu 0005",
     "booktitle": "ACL (1)",
     "title": "ActiView: Evaluating Active Perception Ability for Multimodal Large Language Models.",
     "year": "2025",
@@ -6516,12 +6522,13 @@
     "booktitle": "ACL (1)",
     "title": "Boosting Long-Context Information Seeking via Query-Guided Activation Refilling.",
     "year": "2025",
-    "abstract": "Processing long contexts poses a significant challenge for large language models (LLMs) due to their inherent context-window limitations and the computational burden of extensive key-value (KV) activations, which severely impact efficiency. For information-seeking tasks, full context perception is often unnecessary, as a query’s information needs can dynamically range from localized details to a global perspective, depending on its complexity. However, existing methods struggle to adapt effectively to these dynamic information needs. In the paper, we propose a method for processing long-context information-seeking tasks via query-guided AC tivation RE filling (ACRE). ACRE constructs a Bi-layer KV Cache for long contexts, where the layer-1 (L1) cache compactly captures global information, and the layer-2 (L2) cache provides detailed and localized information. ACRE establishes a proxying relationship between the two caches, allowing the input query to attend to the L1 cache and dynamically refill it with relevant entries from the L2 cache. This mechanism integrates global understanding with query-specific local details, thus improving answer decoding. Experiments on a variety of long-context information-seeking datasets demonstrate ACRE’s effectiveness, achieving improvements in both performance and efficiency. We will release our source codes in this repository .",
+    "abstract": "Processing long contexts poses a significant challenge for large language models (LLMs) due to their inherent context-window limitations and the computational burden of extensive key-value (KV) activations, which severely impact efficiency.For information-seeking tasks, full context perception is often unnecessary, as a query's information needs can dynamically range from localized details to a global perspective, depending on its complexity.However, existing methods struggle to adapt effectively to these dynamic information needs.In the paper, we propose a method for processing long-context information-seeking tasks via query-guided ACtivation REfilling (ACRE).ACRE constructs a Bi-layer KV Cache for long contexts, where the layer-1 (L1) cache compactly captures global information, and the layer-2 (L2) cache provides detailed and localized information.ACRE establishes a proxying relationship between the two caches, allowing the input query to attend to the L1 cache and dynamically refill it with relevant entries from the L2 cache.This mechanism integrates global understanding with query-specific local details, thus improving answer decoding.Experiments on a variety of long-context informationseeking datasets demonstrate ACRE's effectiveness, achieving improvements in both performance and efficiency.We will release our source codes in this repository.",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.465",
     "doi": "10.18653/v1/2025.acl-long.465",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945657"
   },
   "Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration.": {
     "type": "INPROCEEDINGS",
@@ -7739,7 +7746,8 @@
     "url": "https://aclanthology.org/2025.acl-long.552/",
     "doi": "10.18653/v1/2025.acl-long.552",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945394"
   },
   "GenderAlign: An Alignment Dataset for Mitigating Gender Bias in Large Language Models.": {
     "type": "INPROCEEDINGS",
@@ -8444,7 +8452,7 @@
   "RolePlot: A Systematic Framework for Evaluating and Enhancing the Plot-Progression Capabilities of Role-Playing Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangAQYCWYSZ25",
-    "author": "Pinyi Zhang and Siyu An and Lingfeng Qiao and Yifei Yu and Jingyang Chen and Jie Wang and Di Yin and Xing Sun 0001 and Kai Zhang",
+    "author": "Pinyi Zhang and Siyu An and Lingfeng Qiao and Yifei Yu and Jingyang Chen and Jie Wang 0146 and Di Yin and Xing Sun 0001 and Kai Zhang 0001",
     "booktitle": "ACL (1)",
     "title": "RolePlot: A Systematic Framework for Evaluating and Enhancing the Plot-Progression Capabilities of Role-Playing Agents.",
     "year": "2025",
@@ -9251,7 +9259,8 @@
     "url": "https://aclanthology.org/2025.acl-long.660/",
     "doi": "10.18653/v1/2025.acl-long.660",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945314"
   },
   "Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons.": {
     "type": "INPROCEEDINGS",
@@ -9713,7 +9722,8 @@
     "url": "https://aclanthology.org/2025.acl-long.693/",
     "doi": "10.18653/v1/2025.acl-long.693",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945303"
   },
   "Contextual Experience Replay for Self-Improvement of Language Agents.": {
     "type": "INPROCEEDINGS",
@@ -10483,7 +10493,8 @@
     "url": "https://aclanthology.org/2025.acl-long.748/",
     "doi": "10.18653/v1/2025.acl-long.748",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945208"
   },
   "PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy.": {
     "type": "INPROCEEDINGS",
@@ -10870,12 +10881,13 @@
     "booktitle": "ACL (1)",
     "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages.",
     "year": "2025",
-    "abstract": "Multi-model databases and polystore systems are increasingly studied for managing multi-model data holistically. As their primary interface, multi-model query languages (MMQLs) often exhibit complex grammars, highlighting the need for effective Text-to-MMQL translation methods. Despite advances in natural language translation, no effective solutions for Text-to-MMQL exist. To address this gap, we formally define the Text-to-MMQL task and present the first Text-to-MMQL dataset involving three representative MMQLs. We propose an adaptive Text-to-MMQL framework that includes both a schema embedding module for capturing multi-model schema information and an MMQL representation strategy to generate concise intermediate query formats with error correction in generated queries. Experimental results show that the proposed framework achieves over a 9% accuracy improvement over our adapted baseline methods.",
+    "abstract": "Multi-model databases and polystore systems are increasingly studied for managing multimodel data holistically.As their primary interface, multi-model query languages (MMQLs) often exhibit complex grammars, highlighting the need for effective Text-to-MMQL translation methods.Despite advances in natural language translation, no effective solutions for Text-to-MMQL exist.To address this gap, we formally define the Text-to-MMQL task and present the first Text-to-MMQL dataset involving three representative MMQLs.We propose an adaptive Text-to-MMQL framework that includes both a schema embedding module for capturing multi-model schema information and an MMQL representation strategy to generate concise intermediate query formats with error correction in generated queries.Experimental results show that the proposed framework achieves over a 9% accuracy improvement over our adapted baseline methods.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.776/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.776",
     "doi": "10.18653/v1/2025.acl-long.776",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945216"
   },
   "SAKE: Steering Activations for Knowledge Editing.": {
     "type": "INPROCEEDINGS",
@@ -11468,7 +11480,7 @@
   "RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiJ0WLQD25",
-    "author": "Xiaoxi Li and Jiajie Jin and Yujia Zhou 0002 and Yongkang Wu and Zhonghua Li and Ye Qi and Zhicheng Dou",
+    "author": "Xiaoxi Li 0005 and Jiajie Jin and Yujia Zhou 0002 and Yongkang Wu and Zhonghua Li and Ye Qi and Zhicheng Dou",
     "booktitle": "ACL (1)",
     "title": "RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation.",
     "year": "2025",
@@ -11617,7 +11629,8 @@
     "url": "https://aclanthology.org/2025.acl-long.829/",
     "doi": "10.18653/v1/2025.acl-long.829",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945032"
   },
   "EventRAG: Enhancing LLM Generation with Event Knowledge Graphs.": {
     "type": "INPROCEEDINGS",
@@ -12084,7 +12097,7 @@
   "ChatSOP: An SOP-Guided MCTS Planning Framework for Controllable LLM Dialogue Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiPWCSZSWWWWHLW25",
-    "author": "Zhigen Li and Jianxiang Peng and Yanmeng Wang and Yong Cao and Tianhao Shen and Minghui Zhang and Linxi Su and Shang Wu and Yihang Wu and Yuqian Wang and Ye Wang and Wei Hu and Jianfeng Li and Shaojun Wang and Jing Xiao and Deyi Xiong",
+    "author": "Zhigen Li and Jianxiang Peng and Yanmeng Wang and Yong Cao and Tianhao Shen and Minghui Zhang and Linxi Su and Shang Wu and Yihang Wu and Yuqian Wang and Ye Wang and Wei Hu and Jianfeng Li and Shaojun Wang and Jing Xiao 0006 and Deyi Xiong",
     "booktitle": "ACL (1)",
     "title": "ChatSOP: An SOP-Guided MCTS Planning Framework for Controllable LLM Dialogue Agents.",
     "year": "2025",
@@ -13446,12 +13459,13 @@
     "booktitle": "ACL (1)",
     "title": "nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow.",
     "year": "2025",
-    "abstract": "*Natural Language to Visualization* (NL2Vis) seeks to convert natural-language descriptions into visual representations of given tables, empowering users to derive insights from large-scale data. Recent advancements in *Large Language Models* (LLMs) show promise in automating code generation to transform tabular data into accessible visualizations. However, they often struggle with complex queries that require reasoning across multiple tables. To address this limitation, we propose a collaborative agent workflow, termed **nvAgent**, for NL2Vis. Specifically, **nvAgent** comprises three agents: a processor agent for database processing and context filtering, a composer agent for planning visualization generation, and a validator agent for code translation and output verification. Comprehensive evaluations on the new VisEval benchmark demonstrate that **nvAgent** consistently surpasses state-of-the-art baselines, achieving a 7.88% improvement in single-table and a 9.23% improvement in multi-table scenarios. Qualitative analyses further highlight that **nvAgent** maintains nearly a 20% performance margin over previous models, underscoring its capacity to produce high-quality visual representations from complex, heterogeneous data sources. All datasets and source code are available at: [https://github.com/geliang0114/nvAgent](https://github.com/geliang0114/nvAgent).",
+    "abstract": "Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan, Hongyu Zhang, Dongping Chen. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.960/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.960",
     "doi": "10.18653/v1/2025.acl-long.960",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412944839"
   },
   "ZIPA: A family of efficient models for multilingual phone recognition.": {
     "type": "INPROCEEDINGS",
@@ -13600,12 +13614,13 @@
     "booktitle": "ACL (1)",
     "title": "Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query.",
     "year": "2025",
-    "abstract": ",",
+    "abstract": "Elasticsearch (ES) is a distributed RESTful search engine optimized for large-scale and long-text search scenarios. Recent research on text-to-Query has explored using large language models (LLMs) to convert user query intent to executable code, making it an increasingly popular research topic. To our knowledge, we are the first to introduce the novel semantic parsing task text-to-ES. To bridge the gap between LLM and ES, in detail, we leverage LLMs and employ domain experts to generate ES query bodies, which are Domain-Specific Language (DSL), along with the corresponding post-processing code to support multi-index ES queries. Consequently, we propose the text-to-ES benchmark that consists of two datasets: Large Elasticsearch Dataset (LED), containing 26,207 text-ES pairs derived from a 224.9GB schema-free database, and ElasticSearch (BirdES)with 10,926 pairs sourced from the Bird dataset on a 33.4GB schema-fixed database. Compared with fourteen advanced LLMs and six code-based LLMs, the model we trained outperformed DeepSeek-R1 by 15.64% on the LED dataset, setting a new state-of-the-art, and achieved 78% of DeepSeek-R1’s performance on the BirdES dataset. Additionally, we provide in-depth experimental analyses and suggest future research directions for this task. Our datasets are available at https://huggingface.co/datasets/Barry1915/Text-to-ES.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2025.acl-long.971",
+    "url": "https://aclanthology.org/2025.acl-long.971/",
     "doi": "10.18653/v1/2025.acl-long.971",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945022"
   },
   "AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation.": {
     "type": "INPROCEEDINGS",
@@ -14216,12 +14231,13 @@
     "booktitle": "ACL (1)",
     "title": "QQSUM: A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Question Answering.",
     "year": "2025",
-    "abstract": "Review-based Product Question Answering (PQA) allows e-commerce platforms to automatically address customer queries by leveraging insights from user reviews. However, existing PQA systems generate answers with only a single perspective, failing to capture the diversity of customer opinions. In this paper we introduce a novel task Quantitative Query-Focused Summarization (QQSUM), which aims to summarize diverse customer opinions into representative Key Points (KPs) and quantify their prevalence to effectively answer user queries. While Retrieval-Augmented Generation (RAG) shows promise for PQA, its generated answers still fall short of capturing the full diversity of viewpoints. To tackle this challenge, our model QQSUM-RAG, which extends RAG, employs few-shot learning to jointly train a KP-oriented retriever and a KP summary generator, enabling KP-based summaries that capture diverse and representative opinions. Experimental results demonstrate that QQSUM-RAG achieves superior performance compared to state-of-the-art RAG baselines in both textual quality and quantification accuracy of opinions. Our source code is available at: https://github.com/antangrocket1312/QQSUMM",
+    "abstract": "Review-based Product Question Answering (PQA) allows e-commerce platforms to automatically address customer queries by leveraging insights from user reviews.However, existing PQA systems generate answers with only a single perspective, failing to capture the diversity of customer opinions.In this paper we introduce a novel task Quantitative Query-Focused Summarization (QQSUM), which aims to summarize diverse customer opinions into representative Key Points (KPs) and quantify their prevalence to effectively answer user queries.While Retrieval-Augmented Generation (RAG) shows promise for PQA, its generated answers still fall short of capturing the full diversity of viewpoints.To tackle this challenge, our model QQSUM-RAG, which extends RAG, employs few-shot learning to jointly train a KP-oriented retriever and a KP summary generator, enabling KP-based summaries that capture diverse and representative opinions.Experimental results demonstrate that QQSUM-RAG achieves superior performance compared to state-of-the-art RAG baselines in both textual quality and quantification accuracy of opinions.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1015/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1015",
     "doi": "10.18653/v1/2025.acl-long.1015",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412944940"
   },
   "Navigating Rifts in Human-LLM Grounding: Study and Benchmark.": {
     "type": "INPROCEEDINGS",
@@ -14445,7 +14461,8 @@
     "url": "https://aclanthology.org/2025.acl-long.1031/",
     "doi": "10.18653/v1/2025.acl-long.1031",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412944850"
   },
   "On Generalization across Measurement Systems: LLMs Entail More Test-Time Compute for Underrepresented Cultures.": {
     "type": "INPROCEEDINGS",
@@ -15070,12 +15087,13 @@
     "booktitle": "ACL (1)",
     "title": "Not All Terms Matter: Recall-Oriented Adaptive Learning for PLM-aided Query Expansion in Open-Domain Question Answering.",
     "year": "2025",
-    "abstract": "The effectiveness of open-domain question answering (ODQA), particularly those employing a retriever-reader architecture, depends on the ability to recall relevant documents - a critical step that enables the reader to accurately extract answers. To enhance this retrieval phase, current query expansion (QE) techniques leverage pre-trained language models (PLM) to mitigate word mismatches and improve the re-call of relevant documents. Despite their advancements, these techniques often treat all expanded terms uniformly, which can lead to less-than-optimal retrieval outcomes. In response, we propose a novel Re call-oriented A daptive L earning (ReAL) method, which iteratively adjusts the importance weights of QE terms based on their relevance, thereby refining term distinction and enhancing the separation of relevant terms. Specifically, ReAL employs a similarity-based model to classify documents into pseudo-relevant and pseudo-irrelevant sets, and then optimizes term weights via two tailored loss functions to maximize the scoring gap between them. Experiments on four ODQA datasets and five QE methods show that ReAL consistently enhances retrieval accuracy and overall end-to-end QA performance, providing a robust and efficient solution for improving QE strategies in ODQA scenarios.",
+    "abstract": "The effectiveness of open-domain question answering (ODQA), particularly those employing a retriever-reader architecture, depends on the ability to recall relevant documents - a critical step that enables the reader to accurately extract answers. To enhance this retrieval phase, current query expansion (QE) techniques leverage pre-trained language models (PLM) to mitigate word mismatches and improve the recall of relevant documents. Despite their advancements, these techniques often treat all expanded terms uniformly, which can lead to less-than-optimal retrieval outcomes. In response, we propose a novel Recall-oriented Adaptive Learning (ReAL) method, which iteratively adjusts the importance weights of QE terms based on their relevance, thereby refining term distinction and enhancing the separation of relevant terms. Specifically, ReAL employs a similarity-based model to classify documents into pseudo-relevant and pseudo-irrelevant sets, and then optimizes term weights via two tailored loss functions to maximize the scoring gap between them. Experiments on four ODQA datasets and five QE methods show that ReAL consistently enhances retrieval accuracy and overall end-to-end QA performance, providing a robust and efficient solution for improving QE strategies in ODQA scenarios.",
     "keywords": "",
-    "url": "https://doi.org/10.18653/v1/2025.acl-long.1076",
+    "url": "https://aclanthology.org/2025.acl-long.1076/",
     "doi": "10.18653/v1/2025.acl-long.1076",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412944744"
   },
   "A Mutual Information Perspective on Knowledge Graph Embedding.": {
     "type": "INPROCEEDINGS",
@@ -15220,7 +15238,7 @@
   "Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/MaWYYZ0025",
-    "author": "Xinbei Ma and Yiting Wang and Yao Yao and Tongxin Yuan and Aston Zhang and Zhuosheng Zhang 0001 and Hai Zhao 0001",
+    "author": "Xinbei Ma and Yiting Wang and Yao Yao 0008 and Tongxin Yuan and Aston Zhang and Zhuosheng Zhang 0001 and Hai Zhao 0001",
     "booktitle": "ACL (1)",
     "title": "Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions.",
     "year": "2025",
@@ -15332,7 +15350,7 @@
   "LESA: Learnable LLM Layer Scaling-Up.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YangCMYC0Z25",
-    "author": "Yifei Yang and Zouying Cao and Xinbei Ma and Yao Yao and Zhi Chen 0006 and Libo Qin 0001 and Hai Zhao 0001",
+    "author": "Yifei Yang and Zouying Cao and Xinbei Ma and Yao Yao 0008 and Zhi Chen 0006 and Libo Qin 0001 and Hai Zhao 0001",
     "booktitle": "ACL (1)",
     "title": "LESA: Learnable LLM Layer Scaling-Up.",
     "year": "2025",
@@ -15430,7 +15448,7 @@
   "The Role of Visual Modality in Multimodal Mathematical Reasoning: Challenges and Insights.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiuDJWLWZZC25",
-    "author": "Yufang Liu and Yao Du and Tao Ji and Jianing Wang and Yang Liu and Yuanbin Wu and Aimin Zhou and Mengdi Zhang and Xunliang Cai",
+    "author": "Yufang Liu and Yao Du and Tao Ji and Jianing Wang and Yang Liu and Yuanbin Wu and Aimin Zhou and Mengdi Zhang 0002 and Xunliang Cai",
     "booktitle": "ACL (1)",
     "title": "The Role of Visual Modality in Multimodal Mathematical Reasoning: Challenges and Insights.",
     "year": "2025",
@@ -15654,7 +15672,7 @@
   "Towards Harmonized Uncertainty Estimation for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiLQXSWS25",
-    "author": "Rui Li and Jing Long and Muge Qi and Heming Xia and Lei Sha and Peiyi Wang and Zhifang Sui",
+    "author": "Rui Li 0094 and Jing Long and Muge Qi and Heming Xia and Lei Sha and Peiyi Wang and Zhifang Sui",
     "booktitle": "ACL (1)",
     "title": "Towards Harmonized Uncertainty Estimation for Large Language Models.",
     "year": "2025",
@@ -16111,7 +16129,8 @@
     "url": "https://aclanthology.org/2025.acl-long.1150/",
     "doi": "10.18653/v1/2025.acl-long.1150",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412944803"
   },
   "On the Relation Between Fine-Tuning, Topological Properties, and Task Performance in Sense-Enhanced Embeddings.": {
     "type": "INPROCEEDINGS",
@@ -16624,12 +16643,13 @@
     "booktitle": "ACL (1)",
     "title": "STaR-SQL: Self-Taught Reasoner for Text-to-SQL.",
     "year": "2025",
-    "abstract": "Generating step-by-step “chain-of-thought” rationales has proven effective for improving the performance of large language models on complex reasoning tasks. However, applying such techniques to structured tasks, such as text-to-SQL, remains largely unexplored. In this paper, we introduce Self-Taught Reasoner for text-to-SQL (STaR-SQL), a novel approach that reframes SQL query generation as a reasoning-driven process. Our method prompts the LLM to produce detailed reasoning steps for SQL queries and fine-tunes it on rationales that lead to correct outcomes. Unlike traditional methods, STaR-SQL dedicates additional test-time computation to reasoning, thereby positioning LLMs as spontaneous reasoners rather than mere prompt-based agents. To further scale the inference process, we incorporate an outcome-supervised reward model (ORM) as a verifier, which enhances SQL query accuracy. Experimental results on the challenging Spider benchmark demonstrate that STaR-SQL significantly improves text-to-SQL performance, achieving an execution accuracy of 86.6%. This surpasses a few-shot baseline by 31.6% and a baseline fine-tuned to predict answers directly by 18.0%. Additionally, STaR-SQL outperforms agent-like prompting methods that leverage more powerful yet closed-source models such as GPT-4. These findings underscore the potential of reasoning-augmented training for structured tasks and open the door to extending self-improving reasoning models to text-to-SQL generation and beyond.",
+    "abstract": "Generating step-by-step \"chain-of-thought\" rationales has proven effective for improving the performance of large language models on complex reasoning tasks.However, applying such techniques to structured tasks, such as text-to-SQL, remains largely unexplored.In this paper, we introduce Self-Taught Reasoner for text-to-SQL (STaR-SQL), a novel approach that reframes SQL query generation as a reasoningdriven process.Our method prompts the LLM to produce detailed reasoning steps for SQL queries and fine-tunes it on rationales that lead to correct outcomes.Unlike traditional methods, STaR-SQL dedicates additional test-time computation to reasoning, thereby positioning LLMs as spontaneous reasoners rather than mere prompt-based agents.To further scale the inference process, we incorporate an outcomesupervised reward model (ORM) as a verifier, which enhances SQL query accuracy.Experimental results on the challenging Spider benchmark demonstrate that STaR-SQL significantly improves text-to-SQL performance, achieving an execution accuracy of 86.6%.This surpasses a few-shot baseline by 31.6% and a baseline fine-tuned to predict answers directly by 18.0%.Additionally, STaR-SQL outperforms agent-like prompting methods that leverage more powerful yet closed-source models such as GPT-4.These findings underscore the potential of reasoning-augmented training for structured tasks and open the door to extending self-improving reasoning models to text-to-SQL generation and beyond.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1187/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1187",
     "doi": "10.18653/v1/2025.acl-long.1187",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412945149"
   },
   "Fairness Beyond Performance: Revealing Reliability Disparities Across Groups in Legal NLP.": {
     "type": "INPROCEEDINGS",
@@ -18346,12 +18366,13 @@
     "booktitle": "ACL (1)",
     "title": "From Informal to Formal - Incorporating and Evaluating LLMs on Natural Language Requirements to Verifiable Formal Proofs.",
     "year": "2025",
-    "abstract": "The research in AI-based formal mathematical reasoning has shown an unstoppable growth trend. These studies have excelled in mathematical competitions like IMO and have made significant progress. However, these studies intertwined multiple skills simultaneously—problem-solving, reasoning, and writing formal specifications—making it hard to precisely identify the LLMs’ strengths and weaknesses in each task. This paper focuses on formal verification, an immediate application scenario of formal reasoning, and breaks it down into sub-tasks. We constructed 18k high-quality instruction-response pairs across five mainstream formal specification languages (Coq, Lean4, Dafny, ACSL, and TLA+) in six tasks by distilling gpt-4o and evaluated against ten open-sourced LLMs, including recent popular DeepSeek-R1. We found that LLMs are good at writing proof segments when given either the code, or the detailed description of proof steps. Also, the fine-tuning brought about a nearly threefold improvement at most. And interestingly, we observed that fine-tuning with formal data also enhances abilities in mathematics, reasoning, and coding. We hope our findings inspire further research.",
+    "abstract": "Jialun Cao, Yaojie Lu, Meiziniu Li, Haoyang Ma, Haokun Li, Mengda He, Cheng Wen, Le Sun, Hongyu Zhang, Shengchao Qin, Shing-Chi Cheung, Cong Tian. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1310/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1310",
     "doi": "10.18653/v1/2025.acl-long.1310",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412889879"
   },
   "CoAM: Corpus of All-Type Multiword Expressions.": {
     "type": "INPROCEEDINGS",
@@ -19032,12 +19053,13 @@
     "booktitle": "ACL (1)",
     "title": "Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies.",
     "year": "2025",
-    "abstract": "Extracting scientific evidence from biomedical studies for clinical research questions (e.g., Does stem cell transplantation improve quality of life in patients with medically refractory Crohn’s disease compared to placebo?) is a crucial step in synthesising biomedical evidence. In this paper, we focus on the task of document-level scientific evidence extraction for clinical questions with conflicting evidence. To support this task, we create a dataset called CochraneForest leveraging forest plots from Cochrane systematic reviews. It comprises 202 annotated forest plots, associated clinical research questions, full texts of studies, and study-specific conclusions. Building on CochraneForest, we propose URCA (Uniform Retrieval Clustered Augmentation), a retrieval-augmented generation framework designed to tackle the unique challenges of evidence extraction. Our experiments show that URCA outperforms the best existing methods by up to 10.3% in F1 score on this task. However, the results also underscore the complexity of CochraneForest, establishing it as a challenging testbed for advancing automated evidence synthesis systems.",
+    "abstract": "Massimiliano Pronesti, Joao H Bettencourt-Silva, Paul Flanagan, Alessandra Pascale, Oisín Redmond, Anya Belz, Yufang Hou. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1359/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1359",
     "doi": "10.18653/v1/2025.acl-long.1359",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412889864"
   },
   "Towards Robust Universal Information Extraction: Dataset, Evaluation, and Solution.": {
     "type": "INPROCEEDINGS",
@@ -19438,12 +19460,13 @@
     "booktitle": "ACL (1)",
     "title": "Multi-Facet Blending for Faceted Query-by-Example Retrieval.",
     "year": "2025",
-    "abstract": "With the growing demand to fit fine-grained user intents, faceted query-by-example (QBE), which retrieves similar documents conditioned on specific facets, has gained recent attention. However, prior approaches mainly depend on document-level comparisons using basic indicators like citations due to the lack of facet-level relevance datasets; yet, this limits their use to citation-based domains and fails to capture the intricacies of facet constraints. In this paper, we propose a multi-facet blending (FaBle) augmentation method, which exploits modularity by decomposing and recomposing to explicitly synthesize facet-specific training sets. We automatically decompose documents into facet units and generate (ir)relevant pairs by leveraging LLMs’ intrinsic distinguishing capabilities; then, dynamically recomposing the units leads to facet-wise relevance-informed document pairs. Our modularization eliminates the need for pre-defined facet knowledge or labels. Further, to prove the FaBle’s efficacy in a new domain beyond citation-based scientific paper retrieval, we release a benchmark dataset for educational exam item QBE. FaBle augmentation on 1K documents remarkably assists training in obtaining facet conditional embeddings.",
+    "abstract": "With the growing demand to fit fine-grained user intents, faceted query-by-example (QBE), which retrieves similar documents conditioned on specific facets, has gained recent attention.However, prior approaches mainly depend on document-level comparisons using basic indicators like citations due to the lack of facet-level relevance datasets; yet, this limits their use to citation-based domains and fails to capture the intricacies of facet constraints.In this paper, we propose a multi-facet blending (FaBle) augmentation method, which exploits modularity by decomposing and recomposing to explicitly synthesize facet-specific training sets.We automatically decompose documents into facet units and generate (ir)relevant pairs by leveraging LLMs' intrinsic distinguishing capabilities; then, dynamically recomposing the units leads to facet-wise relevance-informed document pairs.Our modularization eliminates the need for pre-defined facet knowledge or labels.Further, to prove the FaBle's efficacy in a new domain beyond citation-based scientific paper retrieval, we release a benchmark dataset for educational exam item QBE.FaBle augmentation on 1K documents remarkably assists training in obtaining facet conditional embeddings.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1388/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1388",
     "doi": "10.18653/v1/2025.acl-long.1388",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412889865"
   },
   "PIPER: Benchmarking and Prompting Event Reasoning Boundary of LLMs via Debiasing-Distillation Enhanced Tuning.": {
     "type": "INPROCEEDINGS",
@@ -19518,7 +19541,7 @@
   "Pretraining Context Compressor for Large Language Models with Embedding-Based Memory.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DaiLHZZWXL25",
-    "author": "Yuhong Dai and Jianxun Lian and Yitian Huang and Wei Zhang and Mingyang Zhou and Mingqi Wu and Xing Xie and Hao Liao",
+    "author": "Yuhong Dai and Jianxun Lian and Yitian Huang and Wei Zhang 0242 and Mingyang Zhou 0001 and Mingqi Wu and Xing Xie 0001 and Hao Liao",
     "booktitle": "ACL (1)",
     "title": "Pretraining Context Compressor for Large Language Models with Embedding-Based Memory.",
     "year": "2025",
@@ -20446,12 +20469,13 @@
     "booktitle": "ACL (1)",
     "title": "Map&Make: Schema Guided Text to Table Generation.",
     "year": "2025",
-    "abstract": "Transforming dense, unstructured text into interpretable tables—commonly referred to as Text-to-Table generation—is a key task in information extraction. Existing methods often overlook what complex information to extract and how to infer it from text. We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts. We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains. By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark. Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics. Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization. Code and data are available at: https://coral-lab-asu.github.io/map-make.",
+    "abstract": "Transforming dense, unstructured text into interpretable tables-commonly referred to as Text-to-Table generation-is a key task in information extraction.Existing methods often overlook what complex information to extract and how to infer it from text.We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts.We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains.By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark.Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics.Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1460/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1460",
     "doi": "10.18653/v1/2025.acl-long.1460",
     "venue": "ACL2025",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4412889755"
   },
   "IRIS: Interpretable Retrieval-Augmented Classification for Long Interspersed Document Sequences.": {
     "type": "INPROCEEDINGS",
@@ -20988,7 +21012,7 @@
   "PlanningArena: A Modular Benchmark for Multidimensional Evaluation of Planning and Tool Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhengCXPCH25",
-    "author": "Zihan Zheng and Tianle Cui and Chuwen Xie and Jiahui Pan and Qianglong Chen and Lewei He",
+    "author": "Zihan Zheng and Tianle Cui and Chuwen Xie and Jiahui Pan 0003 and Qianglong Chen and Lewei He",
     "booktitle": "ACL (1)",
     "title": "PlanningArena: A Modular Benchmark for Multidimensional Evaluation of Planning and Tool Learning.",
     "year": "2025",
@@ -21296,7 +21320,7 @@
   "TACLR: A Scalable and Efficient Retrieval-based Method for Industrial Product Attribute Value Identification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/SuZS0YY0ZHC25",
-    "author": "Yindu Su and Huike Zou and Lin Sun and Ting Zhang 0001 and Haiyang Yang and Chen Li Yu and David Lo 0001 and Qingheng Zhang and Shuguang Han and Jufeng Chen",
+    "author": "Yindu Su and Huike Zou and Lin Sun and Ting Zhang 0011 and Haiyang Yang and Chen Li Yu and David Lo 0001 and Qingheng Zhang and Shuguang Han and Jufeng Chen",
     "booktitle": "ACL (1)",
     "title": "TACLR: A Scalable and Efficient Retrieval-based Method for Industrial Product Attribute Value Identification.",
     "year": "2025",

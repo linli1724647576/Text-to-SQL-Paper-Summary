@@ -697,6 +697,7 @@
     "doi": "10.1609/aaai.v39i17.34009",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409364161",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -898,12 +899,13 @@
     "booktitle": "ACL (1)",
     "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages",
     "year": "2025",
-    "abstract": "Multi-model databases and polystore systems are increasingly studied for managing multi-model data holistically. As their primary interface, multi-model query languages (MMQLs) often exhibit complex grammars, highlighting the need for effective Text-to-MMQL translation methods. Despite advances in natural language translation, no effective solutions for Text-to-MMQL exist. To address this gap, we formally define the Text-to-MMQL task and present the first Text-to-MMQL dataset involving three representative MMQLs. We propose an adaptive Text-to-MMQL framework that includes both a schema embedding module for capturing multi-model schema information and an MMQL representation strategy to generate concise intermediate query formats with error correction in generated queries. Experimental results show that the proposed framework achieves over a 9% accuracy improvement over our adapted baseline methods.",
+    "abstract": "Multi-model databases and polystore systems are increasingly studied for managing multimodel data holistically.As their primary interface, multi-model query languages (MMQLs) often exhibit complex grammars, highlighting the need for effective Text-to-MMQL translation methods.Despite advances in natural language translation, no effective solutions for Text-to-MMQL exist.To address this gap, we formally define the Text-to-MMQL task and present the first Text-to-MMQL dataset involving three representative MMQLs.We propose an adaptive Text-to-MMQL framework that includes both a schema embedding module for capturing multi-model schema information and an MMQL representation strategy to generate concise intermediate query formats with error correction in generated queries.Experimental results show that the proposed framework achieves over a 9% accuracy improvement over our adapted baseline methods.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.776/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.776",
     "doi": "10.18653/v1/2025.acl-long.776",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945216",
     "labels": [
       "Task Setting",
       "Text-to-DSL / Hybrid Query",
@@ -3880,6 +3882,7 @@
     "doi": "10.1609/aaai.v39i24.34770",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409363613",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -4134,6 +4137,7 @@
     "doi": "10.1609/aaai.v39i23.34699",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409347892",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -4569,6 +4573,7 @@
     "doi": "10.18653/v1/2025.acl-long.748",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945208",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -7485,6 +7490,7 @@
     "doi": "10.1609/aaai.v39i23.34644",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409362596",
     "labels": [
       "Task Setting",
       "Cross-domain Text-to-SQL",
@@ -8326,6 +8332,33 @@
     ],
     "relevance_level": "core",
     "arxiv_id": "2509.01308"
+  },
+  "Graph Neural Networks for Databases: A Survey": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/ijcai/LiLLLZ25",
+    "author": "Ziming Li 0004 and Youhuan Li and Yuyu Luo and Guoliang Li 0001 and Chuxu Zhang",
+    "booktitle": "IJCAI",
+    "title": "Graph Neural Networks for Databases: A Survey",
+    "year": "2025",
+    "abstract": "Graph neural networks (GNNs) are powerful deep learning models for graph-structured data, demonstrating remarkable success across diverse domains. Recently, the database (DB) community has increasingly recognized the potentiality of GNNs, prompting a surge of researches focusing on improving database systems through GNN-based approaches. However, despite notable advances, There is a lack of a comprehensive review and understanding of how GNNs could improve DB systems. Therefore, this survey aims to bridge this gap by providing a structured and in-depth overview of GNNs for DB systems. Specifically, we propose a new taxonomy that classifies existing methods into two key categories: (1) Relational Databases, which includes tasks like performance prediction, query optimization, and Text-to-SQL, and (2) Graph Databases, addressing challenges like efficient graph query processing and graph similarity computation. We systematically review key methods in each category, highlighting their contributions and practical implications. Finally, we suggest promising avenues for integrating GNNs into Database systems.",
+    "keywords": "",
+    "url": "https://doi.org/10.24963/ijcai.2025/1172",
+    "doi": "10.24963/ijcai.2025/1172",
+    "venue": "IJCAI",
+    "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4414359555",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Survey"
+    ],
+    "pipeline_stages": [
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
   },
   "Graph Reasoning Enhanced Language Models for Text-to-SQL": {
     "type": "INPROCEEDINGS",
@@ -10577,12 +10610,13 @@
     "booktitle": "AAAI",
     "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
     "year": "2025",
-    "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC",
+    "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC's guideline outperforms expert human's created ones. We empirically find out that the guideline produced by MAGIC enhances the interpretability of the corrections made, providing insights in analyzing the reason behind the failures and successes of LLMs in self-correction.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v39i22.34511",
     "doi": "10.1609/aaai.v39i22.34511",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409362830",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -14828,6 +14862,7 @@
     "doi": "10.18653/v1/2025.acl-long.552",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945394",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -15472,6 +15507,7 @@
     "doi": "10.1609/aaai.v39i1.31979",
     "venue": "AAAI",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4409346543",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -15845,12 +15881,13 @@
     "booktitle": "ACL (1)",
     "title": "STaR-SQL: Self-Taught Reasoner for Text-to-SQL",
     "year": "2025",
-    "abstract": "Generating step-by-step “chain-of-thought” rationales has proven effective for improving the performance of large language models on complex reasoning tasks. However, applying such techniques to structured tasks, such as text-to-SQL, remains largely unexplored. In this paper, we introduce Self-Taught Reasoner for text-to-SQL (STaR-SQL), a novel approach that reframes SQL query generation as a reasoning-driven process. Our method prompts the LLM to produce detailed reasoning steps for SQL queries and fine-tunes it on rationales that lead to correct outcomes. Unlike traditional methods, STaR-SQL dedicates additional test-time computation to reasoning, thereby positioning LLMs as spontaneous reasoners rather than mere prompt-based agents. To further scale the inference process, we incorporate an outcome-supervised reward model (ORM) as a verifier, which enhances SQL query accuracy. Experimental results on the challenging Spider benchmark demonstrate that STaR-SQL significantly improves text-to-SQL performance, achieving an execution accuracy of 86.6%. This surpasses a few-shot baseline by 31.6% and a baseline fine-tuned to predict answers directly by 18.0%. Additionally, STaR-SQL outperforms agent-like prompting methods that leverage more powerful yet closed-source models such as GPT-4. These findings underscore the potential of reasoning-augmented training for structured tasks and open the door to extending self-improving reasoning models to text-to-SQL generation and beyond.",
+    "abstract": "Generating step-by-step \"chain-of-thought\" rationales has proven effective for improving the performance of large language models on complex reasoning tasks.However, applying such techniques to structured tasks, such as text-to-SQL, remains largely unexplored.In this paper, we introduce Self-Taught Reasoner for text-to-SQL (STaR-SQL), a novel approach that reframes SQL query generation as a reasoningdriven process.Our method prompts the LLM to produce detailed reasoning steps for SQL queries and fine-tunes it on rationales that lead to correct outcomes.Unlike traditional methods, STaR-SQL dedicates additional test-time computation to reasoning, thereby positioning LLMs as spontaneous reasoners rather than mere prompt-based agents.To further scale the inference process, we incorporate an outcomesupervised reward model (ORM) as a verifier, which enhances SQL query accuracy.Experimental results on the challenging Spider benchmark demonstrate that STaR-SQL significantly improves text-to-SQL performance, achieving an execution accuracy of 86.6%.This surpasses a few-shot baseline by 31.6% and a baseline fine-tuned to predict answers directly by 18.0%.Additionally, STaR-SQL outperforms agent-like prompting methods that leverage more powerful yet closed-source models such as GPT-4.These findings underscore the potential of reasoning-augmented training for structured tasks and open the door to extending self-improving reasoning models to text-to-SQL generation and beyond.",
     "keywords": "",
-    "url": "https://aclanthology.org/2025.acl-long.1187/",
+    "url": "https://doi.org/10.18653/v1/2025.acl-long.1187",
     "doi": "10.18653/v1/2025.acl-long.1187",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945149",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -17327,6 +17364,7 @@
     "doi": "10.18653/v1/2025.acl-long.829",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945032",
     "labels": [
       "Prompting and ICL",
       "Prompt Engineering",
@@ -17628,6 +17666,39 @@
     ],
     "relevance_level": "core",
     "arxiv_id": "2606.30851"
+  },
+  "Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query": {
+    "type": "INPROCEEDINGS",
+    "key": "conf/acl/XuePXSHYLFLR25",
+    "author": "Dongge Xue and Zhili Pu and Zhentao Xia and Hongli Sun and Ruihui Hou and Guangya Yu and Yupian Lin and Yongqi Fan and Jingping Liu and Tong Ruan",
+    "booktitle": "ACL (1)",
+    "title": "Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query",
+    "year": "2025",
+    "abstract": "Elasticsearch (ES) is a distributed RESTful search engine optimized for large-scale and long-text search scenarios. Recent research on text-to-Query has explored using large language models (LLMs) to convert user query intent to executable code, making it an increasingly popular research topic. To our knowledge, we are the first to introduce the novel semantic parsing task text-to-ES. To bridge the gap between LLM and ES, in detail, we leverage LLMs and employ domain experts to generate ES query bodies, which are Domain-Specific Language (DSL), along with the corresponding post-processing code to support multi-index ES queries. Consequently, we propose the text-to-ES benchmark that consists of two datasets: Large Elasticsearch Dataset (LED), containing 26,207 text-ES pairs derived from a 224.9GB schema-free database, and ElasticSearch (BirdES)with 10,926 pairs sourced from the Bird dataset on a 33.4GB schema-fixed database. Compared with fourteen advanced LLMs and six code-based LLMs, the model we trained outperformed DeepSeek-R1 by 15.64% on the LED dataset, setting a new state-of-the-art, and achieved 78% of DeepSeek-R1’s performance on the BirdES dataset. Additionally, we provide in-depth experimental analyses and suggest future research directions for this task. Our datasets are available at https://huggingface.co/datasets/Barry1915/Text-to-ES.",
+    "keywords": "",
+    "url": "https://aclanthology.org/2025.acl-long.971/",
+    "doi": "10.18653/v1/2025.acl-long.971",
+    "venue": "ACL",
+    "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412945022",
+    "labels": [
+      "Task Setting",
+      "Cross-domain Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Benchmark"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
+      "Grounding"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation": {
     "type": "ARTICLE",
@@ -18952,6 +19023,7 @@
     "doi": "10.18653/v1/2025.acl-long.1031",
     "venue": "ACL",
     "venue_track": "AI 领域",
+    "openalex_id": "https://openalex.org/W4412944850",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",

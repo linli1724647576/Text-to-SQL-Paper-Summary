@@ -233,7 +233,8 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "10.1609/aaai.v40i47.41446",
-        "https://arxiv.org/abs/2603.24023v1"
+        "https://doi.org/10.1609/aaai.v40i47.41446",
+        "https://openalex.org/W7138832438"
       ],
       "notes": ""
     },
@@ -598,27 +599,7 @@
       "notes": ""
     },
     {
-      "title": "Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2021",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3448016.3452753",
-        "https://doi.org/10.1145/3448016.3452753",
-        "https://openalex.org/W3175426867"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
+      "title": "Confidence Estimation for Text-to-SQL in Large Language Models",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -626,59 +607,19 @@
       "venue": "AAAI",
       "normalized_venue": "AAAI",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v37i11.26536",
-        "https://doi.org/10.1609/aaai.v37i11.26536",
-        "https://openalex.org/W4382202695"
+        "10.1609/aaai.v40i38.40523",
+        "https://arxiv.org/abs/2508.14056v1",
+        "https://openalex.org/W7137915127"
       ],
       "notes": ""
     },
     {
-      "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2021",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-021-00663-8",
-        "https://doi.org/10.1007/s00778-021-00663-8",
-        "https://openalex.org/W3144778742"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.18653/v1/2023.acl-long.678",
-        "https://doi.org/10.18653/v1/2023.acl-long.678",
-        "https://openalex.org/W4385565204"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Confidence Estimation for Error Detection in Text-to-SQL Systems",
+      "title": "Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -691,51 +632,129 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v39i23.34699",
-        "https://doi.org/10.1609/aaai.v39i23.34699",
-        "https://openalex.org/W4409347892"
+        "10.1609/aaai.v39i23.34644",
+        "https://doi.org/10.1609/aaai.v39i23.34644",
+        "https://openalex.org/W4409362596"
       ],
       "notes": ""
     },
     {
-      "title": "Multitask Pretraining with Structured Knowledge for Text-to-SQL Generation",
+      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.18653/v1/2023.acl-long.620",
-        "https://doi.org/10.18653/v1/2023.acl-long.620",
-        "https://openalex.org/W4385565008"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
       "category": "AI 领域",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2025.acl-long.971",
-        "https://aclanthology.org/2025.acl-long.971/",
-        "https://openalex.org/W4412945022"
+        "10.1609/aaai.v39i22.34511",
+        "https://doi.org/10.1609/aaai.v39i22.34511",
+        "https://openalex.org/W4409362830"
       ],
       "notes": ""
+    },
+    {
+      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TSE",
+      "normalized_venue": "TSE",
+      "category": "软件工程",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/tse.2024.3523284",
+        "https://doi.org/10.1109/tse.2024.3523284",
+        "https://openalex.org/W4405846260"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v39i24.34770",
+        "https://doi.org/10.1609/aaai.v39i24.34770",
+        "https://openalex.org/W4409363613"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v40i38.40484",
+        "https://doi.org/10.1609/aaai.v40i38.40484",
+        "https://openalex.org/W7138227879"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v37i11.26504",
+        "https://doi.org/10.1609/aaai.v37i11.26504",
+        "https://openalex.org/W4382202648"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2509.07159v1"
+      ],
+      "notes": "missing doi"
     },
     {
       "title": "Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs",
@@ -754,25 +773,6 @@
         "https://arxiv.org/abs/2605.21027v1"
       ],
       "notes": "missing doi"
-    },
-    {
-      "title": "Collaborative bug finding for Android apps",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ICSE",
-      "normalized_venue": "ICSE",
-      "category": "软件工程",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3377811.3380349",
-        "https://doi.org/10.1145/3377811.3380349"
-      ],
-      "notes": ""
     }
   ]
 }

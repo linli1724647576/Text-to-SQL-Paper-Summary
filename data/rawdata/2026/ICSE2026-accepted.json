@@ -2172,7 +2172,7 @@
   "The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget": {
     "type": "INPROCEEDINGS",
     "key": "icse-official-2026-the-hidden-cost-of-readability-how-code-formatting-silently-consumes-your-llm-bu",
-    "author": "Dangfeng Pan and Zhensu Sun and cenyuan zhang and David Lo and Xiaoning Du",
+    "author": "Dangfeng Pan and Zhensu Sun and Cenyuan Zhang and David Lo and Xiaoning Du",
     "booktitle": "ICSE Conference",
     "title": "The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget",
     "year": "2026",
@@ -3418,7 +3418,7 @@
   "A Causal Perspective on Measuring, Explaining and Mitigating Smells in LLM-Generated Code": {
     "type": "INPROCEEDINGS",
     "key": "icse-official-2026-a-causal-perspective-on-measuring-explaining-and-mitigating-smells-in-llm-genera",
-    "author": "Alejandro Velasco and Daniel Rodriguez-Cardenas and Dipin Khati and David N. Palacio and Lutfar Rahman Alif and Denys Poshyvanyk",
+    "author": "Alejandro Velasco and Daniel Rodriguez-Cardenas and Dipin Khati and David Nader Palacio and Lutfar Rahman Alif and Denys Poshyvanyk",
     "booktitle": "ICSE Conference",
     "title": "A Causal Perspective on Measuring, Explaining and Mitigating Smells in LLM-Generated Code",
     "year": "2026",
@@ -3852,7 +3852,7 @@
   "Enabling Global, Human-Centered Explanations for LLMs: From Tokens to Interpretable Code and Test Generation": {
     "type": "INPROCEEDINGS",
     "key": "icse-official-2026-enabling-global-human-centered-explanations-for-llms-from-tokens-to-interpretabl",
-    "author": "Dipin Khati and Daniel Rodriguez-Cardenas and David N. Palacio and Alejandro Velasco and Michele Tufano and Denys Poshyvanyk",
+    "author": "Dipin Khati and Daniel Rodriguez-Cardenas and David Nader Palacio and Alejandro Velasco and Michele Tufano and Denys Poshyvanyk",
     "booktitle": "ICSE Conference",
     "title": "Enabling Global, Human-Centered Explanations for LLMs: From Tokens to Interpretable Code and Test Generation",
     "year": "2026",

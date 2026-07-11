@@ -14,8 +14,8 @@
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
-    "baseline_unique_title_count": 585,
-    "unique_title_drop_ratio": -0.003419,
+    "baseline_unique_title_count": 587,
+    "unique_title_drop_ratio": 0.0,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
@@ -260,9 +260,9 @@
           "relevant_papers": 0
         },
         "AIJ2026": {
-          "raw_candidates": 33,
+          "raw_candidates": 55,
           "official_accepted": 0,
-          "dblp": 33,
+          "dblp": 55,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -883,9 +883,9 @@
           "relevant_papers": 3
         },
         "TKDE2026": {
-          "raw_candidates": 304,
+          "raw_candidates": 328,
           "official_accepted": 0,
-          "dblp": 304,
+          "dblp": 328,
           "arxiv": 0,
           "relevant_papers": 1
         },
@@ -932,9 +932,9 @@
           "relevant_papers": 2
         },
         "TOSEM2026": {
-          "raw_candidates": 168,
+          "raw_candidates": 252,
           "official_accepted": 0,
-          "dblp": 168,
+          "dblp": 252,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -981,9 +981,9 @@
           "relevant_papers": 0
         },
         "TSE2026": {
-          "raw_candidates": 108,
+          "raw_candidates": 138,
           "official_accepted": 0,
-          "dblp": 108,
+          "dblp": 138,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -1079,9 +1079,9 @@
           "relevant_papers": 1
         },
         "VLDBJ2026": {
-          "raw_candidates": 28,
+          "raw_candidates": 32,
           "official_accepted": 0,
-          "dblp": 28,
+          "dblp": 32,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -1217,8 +1217,8 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 1,
-    "fetch_warning_count": 0,
+    "fetch_failure_count": 0,
+    "fetch_warning_count": 5,
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.0,

@@ -38,12 +38,12 @@
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
 | supplemental | true_positive_application | ACL | 2025 | Adaptive and Robust Translation from Natural Language to Multi-model Query Languages |  |
-| supplemental | true_positive_core | SIGMOD | 2021 | Demonstrating Robust Voice Querying with MUVE: Optimally Visualizing Results of Phonetically Similar Queries |  |
-| supplemental | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
-| supplemental | true_positive_application | VLDBJ | 2021 | Micro-architectural analysis of in-memory OLTP: Revisited |  |
-| supplemental | true_positive_core | ACL | 2023 | Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms |  |
-| supplemental | true_positive_core | AAAI | 2025 | Confidence Estimation for Error Detection in Text-to-SQL Systems |  |
-| supplemental | true_positive_core | ACL | 2023 | Multitask Pretraining with Structured Knowledge for Text-to-SQL Generation |  |
-| supplemental | true_positive_application | ACL | 2025 | Text-to-ES Bench: A Comprehensive Benchmark for Converting Natural Language to Elasticsearch Query |  |
+| supplemental | true_positive_core | AAAI | 2026 | Confidence Estimation for Text-to-SQL in Large Language Models |  |
+| supplemental | true_positive_core | AAAI | 2025 | Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay |  |
+| supplemental | true_positive_core | AAAI | 2025 | MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL |  |
+| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
+| supplemental | true_positive_core | AAAI | 2026 | SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces |  |
+| supplemental | true_positive_core | AAAI | 2023 | MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL |  |
+| fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
 | fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |
-| fill | true_positive_application | ICSE | 2020 | Collaborative bug finding for Android apps |  |

@@ -391,20 +391,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-motionscale-reconstructing-appearance-geometry-and-motion-of-dynamic-scenes-with",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39124",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SwiftVLA: Unlocking Spatiotemporal Dynamics for Lightweight VLA Models at Minimal Overhead": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-swiftvla-unlocking-spatiotemporal-dynamics-for-lightweight-vla-models-at-minimal",
@@ -993,20 +979,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-flow4dgs-slam-optical-flow-guided-4d-gaussian-splatting-slam",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39381",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SWIFT: Sliding Window Reconstruction for Few-Shot Training-Free Generated Video Attribution": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-swift-sliding-window-reconstruction-for-few-shot-training-free-generated-video-a",
@@ -1087,20 +1059,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38912",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-embodiedsplat-online-feed-forward-semantic-3dgs-for-open-vocabulary-3d-scene-und",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38273",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -8595,20 +8553,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "LOREAL: Mitigating Low-Resolution Challenges in Vision-Language Models with Attribute-driven Prompt Self-Distillation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-loreal-mitigating-low-resolution-challenges-in-vision-language-models-with-attri",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "LOREAL: Mitigating Low-Resolution Challenges in Vision-Language Models with Attribute-driven Prompt Self-Distillation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36899",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "StreamingTOM: Streaming Token Compression for Efficient Video Understanding": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-streamingtom-streaming-token-compression-for-efficient-video-understanding",
@@ -10079,20 +10023,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "Masked Region Transformer for Layered Image Generation and Editing at Scale": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-masked-region-transformer-for-layered-image-generation-and-editing-at-scale",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Masked Region Transformer for Layered Image Generation and Editing at Scale",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39513",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "CoWTracker: Tracking by Warping instead of Correlation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-cowtracker-tracking-by-warping-instead-of-correlation",
@@ -10649,20 +10579,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38621",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Thermally Activated Dual-Modal Adversarial Clothing against AI Surveillance Systems": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-thermally-activated-dual-modal-adversarial-clothing-against-ai-surveillance-syst",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Thermally Activated Dual-Modal Adversarial Clothing against AI Surveillance Systems",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38499",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -12095,6 +12011,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "Landscape-Awareness for Geometric View Diffusion Model": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-landscape-awareness-for-geometric-view-diffusion-model",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Landscape-Awareness for Geometric View Diffusion Model",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38334",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "SonoWorld: From One Image to a 3D Audio-Visual Scene": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-sonoworld-from-one-image-to-a-3d-audio-visual-scene",
@@ -12189,6 +12119,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36930",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "HQC-NBV: A Hybrid Quantum-Classical View Planning Approach": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-hqc-nbv-a-hybrid-quantum-classical-view-planning-approach",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "HQC-NBV: A Hybrid Quantum-Classical View Planning Approach",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39021",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -12921,6 +12865,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "PAM: A Pose–Appearance–Motion Engine for Sim-to-Real HOI Video Generation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-pam-a-pose-appearance-motion-engine-for-sim-to-real-hoi-video-generation",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "PAM: A Pose–Appearance–Motion Engine for Sim-to-Real HOI Video Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36577",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "TAlignDiff: Automatic Tooth Alignment assisted by Diffusion-based Transformation Learning": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-taligndiff-automatic-tooth-alignment-assisted-by-diffusion-based-transformation-",
@@ -13029,6 +12987,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36268",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-benchmarking-phd-level-coding-in-3d-geometric-computer-vision",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37860",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16533,6 +16505,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "ARES: Unifying Asymmetric RGB-Event Stereo for Probabilistic Scene Flow Estimation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-ares-unifying-asymmetric-rgb-event-stereo-for-probabilistic-scene-flow-estimatio",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "ARES: Unifying Asymmetric RGB-Event Stereo for Probabilistic Scene Flow Estimation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37270",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "Factorize, Reconstruct, Enhance: A Unified Framework for Multimodal Sentiment Analysis": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-factorize-reconstruct-enhance-a-unified-framework-for-multimodal-sentiment-analy",
@@ -16571,6 +16557,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36352",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-motionscale-reconstructing-appearance-geometry-and-motion-of-dynamic-scenes-with",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39124",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-flow4dgs-slam-optical-flow-guided-4d-gaussian-splatting-slam",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39381",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16631,6 +16645,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-teamhoi-learning-a-unified-policy-for-cooperative-human-object-interactions-with",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37622",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "BD-Merging: Bias-Aware Dynamic Model Merging with Evidence-Guided Contrastive Learning": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-bd-merging-bias-aware-dynamic-model-merging-with-evidence-guided-contrastive-lea",
@@ -16641,6 +16669,48 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37280",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "PhysHO: Physics-Based Dynamic 3D Gaussian Human and Object from Monocular Video": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-physho-physics-based-dynamic-3d-gaussian-human-and-object-from-monocular-video",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "PhysHO: Physics-Based Dynamic 3D Gaussian Human and Object from Monocular Video",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39110",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-scapo-self-supervised-category-level-articulated-pose-estimation-from-a-single-3",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38874",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Zero-Shot Depth Completion with Vision-Language Model": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-zero-shot-depth-completion-with-vision-language-model",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Zero-Shot Depth Completion with Vision-Language Model",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38442",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16669,6 +16739,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38846",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-embodiedsplat-online-feed-forward-semantic-3dgs-for-open-vocabulary-3d-scene-und",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38273",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-d3d-vlp-dynamic-3d-vision-language-planning-model-for-embodied-grounding-and-nav",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38654",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16715,6 +16813,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "Thermally Activated Dual-Modal Adversarial Clothing against AI Surveillance Systems": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-thermally-activated-dual-modal-adversarial-clothing-against-ai-surveillance-syst",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Thermally Activated Dual-Modal Adversarial Clothing against AI Surveillance Systems",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38499",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "Illustrator’s Depth: Monocular Layer Index Prediction for Image Decomposition": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-illustrator-s-depth-monocular-layer-index-prediction-for-image-decomposition",
@@ -16729,6 +16841,34 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "LOREAL: Mitigating Low-Resolution Challenges in Vision-Language Models with Attribute-driven Prompt Self-Distillation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-loreal-mitigating-low-resolution-challenges-in-vision-language-models-with-attri",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "LOREAL: Mitigating Low-Resolution Challenges in Vision-Language Models with Attribute-driven Prompt Self-Distillation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36899",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "FedMPT: Federated Multi-Label Prompt Tuning of Vision-Language Models": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-fedmpt-federated-multi-label-prompt-tuning-of-vision-language-models",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "FedMPT: Federated Multi-Label Prompt Tuning of Vision-Language Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37847",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-mmface-dit-a-dual-stream-diffusion-transformer-for-high-fidelity-multimodal-face",
@@ -16739,6 +16879,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38624",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "URScenes: A Multi-scenario Dataset for Unstructured Road Environments": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-urscenes-a-multi-scenario-dataset-for-unstructured-road-environments",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "URScenes: A Multi-scenario Dataset for Unstructured Road Environments",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39547",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16809,6 +16963,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38347",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Masked Region Transformer for Layered Image Generation and Editing at Scale": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-masked-region-transformer-for-layered-image-generation-and-editing-at-scale",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Masked Region Transformer for Layered Image Generation and Editing at Scale",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39513",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -16893,6 +17061,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37998",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-omnifm-toward-modality-robust-and-task-agnostic-federated-learning-for-heterogen",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38725",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -25839,20 +26021,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36729",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-benchmarking-phd-level-coding-in-3d-geometric-computer-vision",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37860",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -45471,20 +45639,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-scapo-self-supervised-category-level-articulated-pose-estimation-from-a-single-3",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38874",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "KASALv2: Fully Automatic 3D Rotational Symmetry Classification and Axis Localization": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-kasalv2-fully-automatic-3d-rotational-symmetry-classification-and-axis-localizat",
@@ -46745,20 +46899,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "PAM: A Pose–Appearance–Motion Engine for Sim-to-Real HOI Video Generation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-pam-a-pose-appearance-motion-engine-for-sim-to-real-hoi-video-generation",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "PAM: A Pose–Appearance–Motion Engine for Sim-to-Real HOI Video Generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36577",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Open-world Hand-Object Interaction Video Generation Based on Structure and Contact-aware Representation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-open-world-hand-object-interaction-video-generation-based-on-structure-and-conta",
@@ -47473,20 +47613,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "FedMPT: Federated Multi-Label Prompt Tuning of Vision-Language Models": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-fedmpt-federated-multi-label-prompt-tuning-of-vision-language-models",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "FedMPT: Federated Multi-Label Prompt Tuning of Vision-Language Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37847",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SynthRGB-T: Language-Vision Guided Image Translation for Diversity Synthesis": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-synthrgb-t-language-vision-guided-image-translation-for-diversity-synthesis",
@@ -47889,20 +48015,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37935",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "URScenes: A Multi-scenario Dataset for Unstructured Road Environments": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-urscenes-a-multi-scenario-dataset-for-unstructured-road-environments",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "URScenes: A Multi-scenario Dataset for Unstructured Road Environments",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39547",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -49891,20 +50003,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38708",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-omnifm-toward-modality-robust-and-task-agnostic-federated-learning-for-heterogen",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38725",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -56979,20 +57077,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "PhysHO: Physics-Based Dynamic 3D Gaussian Human and Object from Monocular Video": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-physho-physics-based-dynamic-3d-gaussian-human-and-object-from-monocular-video",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "PhysHO: Physics-Based Dynamic 3D Gaussian Human and Object from Monocular Video",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39110",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-mitigating-multimodal-hallucinations-via-gradient-based-self-reflection",
@@ -58701,20 +58785,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "HQC-NBV: A Hybrid Quantum-Classical View Planning Approach": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-hqc-nbv-a-hybrid-quantum-classical-view-planning-approach",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "HQC-NBV: A Hybrid Quantum-Classical View Planning Approach",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39021",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SE(3)-Equivariance with Geometric and Topological Guidance for Category-Level Object Pose Estimation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-se-3-equivariance-with-geometric-and-topological-guidance-for-category-level-obj",
@@ -59877,20 +59947,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "ARES: Unifying Asymmetric RGB-Event Stereo for Probabilistic Scene Flow Estimation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-ares-unifying-asymmetric-rgb-event-stereo-for-probabilistic-scene-flow-estimatio",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "ARES: Unifying Asymmetric RGB-Event Stereo for Probabilistic Scene Flow Estimation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37270",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Moving Border Ownership for Event-based Motion Segmentation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-moving-border-ownership-for-event-based-motion-segmentation",
@@ -59943,20 +59999,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38241",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-teamhoi-learning-a-unified-policy-for-cooperative-human-object-interactions-with",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/37622",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -60727,20 +60769,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38918",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Landscape-Awareness for Geometric View Diffusion Model": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-landscape-awareness-for-geometric-view-diffusion-model",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Landscape-Awareness for Geometric View Diffusion Model",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38334",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -67073,20 +67101,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-d3d-vlp-dynamic-3d-vision-language-planning-model-for-embodied-grounding-and-nav",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38654",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-foundation-model-priors-enhance-object-focus-in-feature-space-for-source-free-ob",
@@ -69463,20 +69477,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38419",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Zero-Shot Depth Completion with Vision-Language Model": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-zero-shot-depth-completion-with-vision-language-model",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Zero-Shot Depth Completion with Vision-Language Model",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38442",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

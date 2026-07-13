@@ -37,13 +37,13 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
-| supplemental | true_positive_application | ACL | 2025 | Adaptive and Robust Translation from Natural Language to Multi-model Query Languages |  |
-| supplemental | true_positive_core | AAAI | 2026 | Confidence Estimation for Text-to-SQL in Large Language Models |  |
-| supplemental | true_positive_core | AAAI | 2025 | Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay |  |
-| supplemental | true_positive_core | AAAI | 2025 | MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL |  |
-| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| supplemental | true_positive_core | AAAI | 2025 | AIA: Autoregression-Based Injection Attacks Against Text2SQL Models |  |
 | supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| supplemental | true_positive_core | AAAI | 2026 | SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces |  |
-| supplemental | true_positive_core | AAAI | 2023 | MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL |  |
+| supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
+| supplemental | true_positive_core | ACL | 2023 | Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing |  |
+| supplemental | true_positive_core | ACL | 2025 | DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph |  |
+| supplemental | true_positive_core | AAAI | 2026 | AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale |  |
+| supplemental | true_positive_core | AAAI | 2025 | SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration |  |
+| supplemental | true_positive_core | AAAI | 2025 | MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL |  |
 | fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
-| fill | true_positive_application | ArXiv | 2026 | Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs | missing doi |
+| fill | true_positive_core | ArXiv | 2025 | Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR | missing doi |

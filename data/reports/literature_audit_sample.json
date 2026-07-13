@@ -579,47 +579,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.18653/v1/2025.acl-long.776",
-        "https://doi.org/10.18653/v1/2025.acl-long.776",
-        "https://openalex.org/W4412945216"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Confidence Estimation for Text-to-SQL in Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v40i38.40523",
-        "https://arxiv.org/abs/2508.14056v1",
-        "https://openalex.org/W7137915127"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay",
+      "title": "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -632,49 +592,9 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v39i23.34644",
-        "https://doi.org/10.1609/aaai.v39i23.34644",
-        "https://openalex.org/W4409362596"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v39i22.34511",
-        "https://doi.org/10.1609/aaai.v39i22.34511",
-        "https://openalex.org/W4409362830"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TSE",
-      "normalized_venue": "TSE",
-      "category": "软件工程",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/tse.2024.3523284",
-        "https://doi.org/10.1109/tse.2024.3523284",
-        "https://openalex.org/W4405846260"
+        "10.1609/aaai.v39i17.34009",
+        "https://doi.org/10.1609/aaai.v39i17.34009",
+        "https://openalex.org/W4409364161"
       ],
       "notes": ""
     },
@@ -699,7 +619,67 @@
       "notes": ""
     },
     {
-      "title": "SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces",
+      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/tkde.2024.3393356",
+        "https://doi.org/10.1109/tkde.2024.3393356",
+        "https://openalex.org/W4396597709"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2023.acl-long.177",
+        "https://doi.org/10.18653/v1/2023.acl-long.177",
+        "https://openalex.org/W4385572146"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2025.acl-long.748",
+        "https://aclanthology.org/2025.acl-long.748/",
+        "https://openalex.org/W4412945208"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -712,14 +692,14 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v40i38.40484",
-        "https://doi.org/10.1609/aaai.v40i38.40484",
-        "https://openalex.org/W7138227879"
+        "10.1609/aaai.v40i40.40672",
+        "https://arxiv.org/abs/2511.17190v1",
+        "https://openalex.org/W7139106599"
       ],
       "notes": ""
     },
     {
-      "title": "MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL",
+      "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -727,14 +707,34 @@
       "venue": "AAAI",
       "normalized_venue": "AAAI",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v37i11.26504",
-        "https://doi.org/10.1609/aaai.v37i11.26504",
-        "https://openalex.org/W4382202648"
+        "10.1609/aaai.v39i1.31979",
+        "https://doi.org/10.1609/aaai.v39i1.31979",
+        "https://openalex.org/W4409346543"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v39i22.34511",
+        "https://doi.org/10.1609/aaai.v39i22.34511",
+        "https://openalex.org/W4409362830"
       ],
       "notes": ""
     },
@@ -757,20 +757,20 @@
       "notes": "missing doi"
     },
     {
-      "title": "Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs",
+      "title": "Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR",
       "present_in_labeldata": true,
       "stratum": "fill",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2026",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2605.21027v1"
+        "https://arxiv.org/abs/2512.14622v2"
       ],
       "notes": "missing doi"
     }

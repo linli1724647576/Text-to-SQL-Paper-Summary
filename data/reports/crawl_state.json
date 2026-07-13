@@ -926,15 +926,15 @@
     },
     "dblp-conference:KDD:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-26T19:22:01Z",
-      "last_success_at": "2026-05-26T19:22:01Z",
+      "last_attempt_at": "2026-07-13T18:45:16Z",
+      "last_success_at": "2026-07-13T18:45:16Z",
       "rawdata_path": "data/rawdata/2021/KDD2021.json",
       "record_count": 482,
-      "sha256": "7fdeda98478f408b4ad9158a486eeb66788081826a2792b7a713250875bc82da",
-      "source": "dblp-conference",
+      "sha256": "b4fabb9c1dfcd614f515bd2b9ce248432c767fed299e88f2c3d6420b8f366abb",
+      "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
-      "track": "",
+      "track": "DB",
       "venue": "KDD",
       "year": "2021"
     },
@@ -1178,15 +1178,15 @@
     },
     "dblp-conference:SIGMOD:2021": {
       "error": "",
-      "last_attempt_at": "2026-05-23T18:02:46Z",
-      "last_success_at": "2026-05-23T18:02:46Z",
+      "last_attempt_at": "2026-07-13T18:45:11Z",
+      "last_success_at": "2026-07-13T18:45:11Z",
       "rawdata_path": "data/rawdata/2021/SIGMOD2021.json",
       "record_count": 270,
-      "sha256": "6fbc91d712883c41ac165cf7a70009f94082b267c137c9528c0eaca9ffa79b77",
-      "source": "dblp-conference",
+      "sha256": "e04b5927c11217f70c5fe0d1fb1f477c8735bcae122a257d37affb4b19e811f2",
+      "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
-      "track": "",
+      "track": "DB",
       "venue": "SIGMOD",
       "year": "2021"
     },
@@ -2060,8 +2060,8 @@
     },
     "official-accepted:ICML:2021": {
       "error": "",
-      "last_attempt_at": "2026-07-06T18:56:13Z",
-      "last_success_at": "2026-07-06T18:56:13Z",
+      "last_attempt_at": "2026-07-13T18:45:19Z",
+      "last_success_at": "2026-07-13T18:45:19Z",
       "rawdata_path": "data/rawdata/2021/ICML2021-accepted.json",
       "record_count": 1183,
       "sha256": "2f449a61ca31ecbb17431de01bd4afaaf45a59906de47f63284fdcd31816ca8d",
@@ -2340,8 +2340,8 @@
     },
     "official-accepted:NEURIPS:2021": {
       "error": "",
-      "last_attempt_at": "2026-07-06T18:56:17Z",
-      "last_success_at": "2026-07-06T18:56:17Z",
+      "last_attempt_at": "2026-07-13T18:45:23Z",
+      "last_success_at": "2026-07-13T18:45:23Z",
       "rawdata_path": "data/rawdata/2021/NeurIPS2021-accepted.json",
       "record_count": 2309,
       "sha256": "81883a3f80898fd57ded4c608f486366942a6cd49d8b51dd01458c324be9d636",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 1,
+    "cursor": 2,
     "history": [
       {
         "cursor": 1,
@@ -3617,14 +3617,69 @@
           "TOSEM"
         ],
         "year": 2020
+      },
+      {
+        "cursor": 2,
+        "failed": [],
+        "finalized_at": "2026-07-13T18:46:21Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICCV",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICCV",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2021
       }
     ],
-    "last_completed_at": "2026-07-12T18:02:50Z",
+    "last_completed_at": "2026-07-13T18:46:21Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
       "ACL",
       "CVPR",
+      "ICCV",
       "ICML",
       "IJCAI",
       "SIGMOD",
@@ -3643,6 +3698,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2020
+    "last_selected_year": 2021
   }
 }

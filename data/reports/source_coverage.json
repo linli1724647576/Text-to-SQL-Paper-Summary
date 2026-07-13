@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-12T18:02:49Z",
+  "generated_at": "2026-07-13T18:46:20Z",
   "records": [
     {
       "kind": "conference",
@@ -964,7 +964,7 @@
         "data/rawdata/2021/KDD2021.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 1,
+      "relevant_candidate_count": 0,
       "source_type": "dblp-conference",
       "source_url": "",
       "status": "covered",

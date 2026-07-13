@@ -42,6 +42,7 @@
     "doi": "10.1145/3448016.3457543",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W3177130063",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -1461,6 +1462,7 @@
     "doi": "10.1145/3448016.3452836",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W3176472386",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -17124,6 +17126,7 @@
     "doi": "10.1145/3448016.3457261",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W3174906424",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
@@ -18700,6 +18703,7 @@
     "doi": "10.1145/3448016.3452822",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W3168999116",
     "labels": [
       "Grounding and Retrieval",
       "Semantic Layer / Metadata",

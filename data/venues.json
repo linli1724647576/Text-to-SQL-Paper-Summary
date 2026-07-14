@@ -81,7 +81,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/AAAI2022.json",
-          "sha256": "90aa8f596fdc088f33813e4ce6fb7cb4e2344d22875f40cde3acae846e570170"
+          "sha256": "5e7f7da386b2acc312df00a3a7360b23e683594b0bbd2a4a6f95ffb6e756e105"
         }
       ],
       "processing": {
@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "5cd96ba1bef021ffe1263da2bbf312aa32f84c5103427e24891e91cf0e1275f1"
+          "sha256": "a8d1b104a2b46554f24af6da80fdbb389071f03021f7ab9fdc5bb43f5c915829"
         }
       ],
       "processing": {
@@ -1385,7 +1385,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/FSE2022.json",
-          "sha256": "e94fa3e0dede8df4fbaf444b3a7247c08452606fa200042aa0fad0aca6492c2a"
+          "sha256": "8d65efb7cec3b9dce9aa9d80301b2c0f1139e81c6d9eda25039c9e8b8c0a4136"
         }
       ],
       "processing": {
@@ -2333,7 +2333,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ICSE2022.json",
-          "sha256": "92cc55bf7cf4ebaae2b017a082160066ab5bfb96ad5ec605208c6fdb868284b7"
+          "sha256": "e8fd85ffa77d63d168e37315f74079099898f517fb6ada825986115d95c7970c"
         }
       ],
       "processing": {
@@ -3823,7 +3823,7 @@
         },
         {
           "path": "data/rawdata/2022/SIGMOD2022.json",
-          "sha256": "0e4af492874c131a9450d51a7f0000dffd489a068042a63d20ed018550225e3c"
+          "sha256": "b48ccaf8e8deb6bb8fcde068abdad44eccd75095c1e9221edf30b01f2c477f18"
         }
       ],
       "processing": {

@@ -4486,6 +4486,7 @@
     "doi": "10.1145/3514221.3517843",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W4281972940",
     "labels": [
       "Pre-training and Fine-tuning",
       "Pre-training",
@@ -9547,6 +9548,7 @@
     "doi": "10.1145/3514221.3520165",
     "venue": "SIGMOD",
     "venue_track": "数据库领域",
+    "openalex_id": "https://openalex.org/W4282016830",
     "labels": [
       "Prompting and ICL",
       "Zero-shot / Few-shot ICL",

@@ -619,27 +619,67 @@
       "notes": ""
     },
     {
-      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
+      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
+      "venue": "TSE",
+      "normalized_venue": "TSE",
+      "category": "软件工程",
       "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2024.3393356",
-        "https://doi.org/10.1109/tkde.2024.3393356",
-        "https://openalex.org/W4396597709"
+        "10.1109/tse.2024.3523284",
+        "https://doi.org/10.1109/tse.2024.3523284",
+        "https://openalex.org/W4405846260"
       ],
       "notes": ""
     },
     {
-      "title": "Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing",
+      "title": "LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2022",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3514221.3520165",
+        "https://doi.org/10.1145/3514221.3520165",
+        "https://openalex.org/W4282016830"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "DB-BERT: A Database Tuning Tool that \"Reads the Manual\"",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2022",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1145/3514221.3517843",
+        "https://doi.org/10.1145/3514221.3517843",
+        "https://openalex.org/W4281972940"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -647,34 +687,14 @@
       "venue": "ACL",
       "normalized_venue": "ACL",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2023.acl-long.177",
-        "https://doi.org/10.18653/v1/2023.acl-long.177",
-        "https://openalex.org/W4385572146"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.18653/v1/2025.acl-long.748",
-        "https://aclanthology.org/2025.acl-long.748/",
-        "https://openalex.org/W4412945208"
+        "10.18653/v1/2022.acl-long.142",
+        "https://doi.org/10.18653/v1/2022.acl-long.142",
+        "https://openalex.org/W4285195848"
       ],
       "notes": ""
     },
@@ -699,7 +719,7 @@
       "notes": ""
     },
     {
-      "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
+      "title": "RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -707,34 +727,14 @@
       "venue": "AAAI",
       "normalized_venue": "AAAI",
       "category": "AI 领域",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v39i1.31979",
-        "https://doi.org/10.1609/aaai.v39i1.31979",
-        "https://openalex.org/W4409346543"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v39i22.34511",
-        "https://doi.org/10.1609/aaai.v39i22.34511",
-        "https://openalex.org/W4409362830"
+        "10.1609/aaai.v40i39.40556",
+        "https://doi.org/10.1609/aaai.v40i39.40556",
+        "https://openalex.org/W7138941083"
       ],
       "notes": ""
     },
@@ -757,7 +757,7 @@
       "notes": "missing doi"
     },
     {
-      "title": "Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR",
+      "title": "PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -765,12 +765,12 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2512.14622v2"
+        "https://arxiv.org/abs/2604.17653v1"
       ],
       "notes": "missing doi"
     }

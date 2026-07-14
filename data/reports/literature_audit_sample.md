@@ -39,11 +39,11 @@
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
 | supplemental | true_positive_core | AAAI | 2025 | AIA: Autoregression-Based Injection Attacks Against Text2SQL Models |  |
 | supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
-| supplemental | true_positive_core | ACL | 2023 | Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing |  |
-| supplemental | true_positive_core | ACL | 2025 | DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph |  |
+| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
+| supplemental | true_positive_application | SIGMOD | 2022 | LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education |  |
+| supplemental | true_positive_application | SIGMOD | 2022 | DB-BERT: A Database Tuning Tool that "Reads the Manual" |  |
+| supplemental | true_positive_core | ACL | 2022 | Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation |  |
 | supplemental | true_positive_core | AAAI | 2026 | AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale |  |
-| supplemental | true_positive_core | AAAI | 2025 | SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration |  |
-| supplemental | true_positive_core | AAAI | 2025 | MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL |  |
+| supplemental | true_positive_core | AAAI | 2026 | RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation |  |
 | fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
-| fill | true_positive_core | ArXiv | 2025 | Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR | missing doi |
+| fill | true_positive_core | ArXiv | 2026 | PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents | missing doi |

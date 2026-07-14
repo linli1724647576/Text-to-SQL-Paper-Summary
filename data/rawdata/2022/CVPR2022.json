@@ -17287,7 +17287,7 @@
   "Exploiting Rigidity Constraints for LiDAR Scene Flow Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/DongZL0X22",
-    "author": "Guanting Dong and Yueyi Zhang and Hanlin Li and Xiaoyan Sun 0001 and Zhiwei Xiong",
+    "author": "Guanting Dong and Yueyi Zhang 0001 and Hanlin Li and Xiaoyan Sun 0001 and Zhiwei Xiong",
     "booktitle": "CVPR",
     "title": "Exploiting Rigidity Constraints for LiDAR Scene Flow Estimation.",
     "year": "2022",
@@ -17539,7 +17539,7 @@
   "Degradation-agnostic Correspondence from Resolution-asymmetric Stereo.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ChenXCPZZ22",
-    "author": "Xihao Chen and Zhiwei Xiong and Zhen Cheng 0002 and Jiayong Peng and Yueyi Zhang and Zheng-Jun Zha",
+    "author": "Xihao Chen and Zhiwei Xiong and Zhen Cheng 0002 and Jiayong Peng and Yueyi Zhang 0001 and Zheng-Jun Zha",
     "booktitle": "CVPR",
     "title": "Degradation-agnostic Correspondence from Resolution-asymmetric Stereo.",
     "year": "2022",
@@ -28885,7 +28885,7 @@
   "BigDL 2.0: Seamless Scaling of AI Pipelines from Laptops to Distributed Cluster.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/DaiDSHWQHSWGSYZ22",
-    "author": "Jason Jinquan Dai and Ding Ding and Dongjie Shi and Shengsheng Huang and Jiao Wang and Xin Qiu 0006 and Kai Huang and Guoqiong Song and Yang Wang and Qiyuan Gong and Jiaming Song and Shan Yu 0001 and Le Zheng and Yina Chen and Junwei Deng and Ge Song",
+    "author": "Jason Jinquan Dai and Ding Ding and Dongjie Shi and Shengsheng Huang and Jiao Wang and Xin Qiu 0006 and Kai Huang and Guoqiong Song and Yang Wang 0009 and Qiyuan Gong and Jiaming Song and Shan Yu 0001 and Le Zheng and Yina Chen and Junwei Deng and Ge Song",
     "booktitle": "CVPR",
     "title": "BigDL 2.0: Seamless Scaling of AI Pipelines from Laptops to Distributed Cluster.",
     "year": "2022",

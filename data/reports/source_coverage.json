@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-14T18:07:22Z",
+  "generated_at": "2026-07-15T18:11:25Z",
   "records": [
     {
       "kind": "conference",
@@ -705,7 +705,7 @@
         "data/rawdata/2023/SIGMOD2023.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 3,
+      "relevant_candidate_count": 1,
       "source_type": "dblp-conference",
       "source_url": "https://2023.sigmod.org/sigmod_research_list.shtml",
       "status": "covered",

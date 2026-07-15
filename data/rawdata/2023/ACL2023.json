@@ -5119,7 +5119,7 @@
   "BERM: Training the Balanced and Extractable Representation for Matching to Improve Generalization Ability of Dense Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/XuPSC23",
-    "author": "Shicheng Xu and Liang Pang 0001 and Huawei Shen and Xueqi Cheng",
+    "author": "Shicheng Xu and Liang Pang 0001 and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "BERM: Training the Balanced and Extractable Representation for Matching to Improve Generalization Ability of Dense Retrieval.",
     "year": "2023",
@@ -7760,7 +7760,7 @@
   "SimOAP: Improve Coherence and Consistency in Persona-based Dialogue Generation via Over-sampling and Post-evaluation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhouPSC23",
-    "author": "Junkai Zhou and Liang Pang 0001 and Huawei Shen and Xueqi Cheng",
+    "author": "Junkai Zhou and Liang Pang 0001 and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "SimOAP: Improve Coherence and Consistency in Persona-based Dialogue Generation via Over-sampling and Post-evaluation.",
     "year": "2023",

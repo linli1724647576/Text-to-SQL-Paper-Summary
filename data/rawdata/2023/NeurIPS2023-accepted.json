@@ -25566,7 +25566,7 @@
   "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2023-can-llm-already-serve-as-a-database-interface-a-big-bench-for-large-scale-databa",
-    "author": "Jinyang Li and Binyuan Hui and Ge Qu and Jiaxi Yang and Binhua Li and Bowen Li and Bailin Wang and Bowen Qin and Ruiying Geng and Nan Huo and Xuanhe Zhou and Ma Chenhao and Guoliang Li and Kevin Chang and Fei Huang and Reynold Cheng and Yongbin Li Datasets and Benchmarks Track",
+    "author": "Jinyang Li and Binyuan Hui and Ge Qu and Jiaxi Yang and Binhua Li and Bowen Li and Bailin Wang and Bowen Qin and Ruiying Geng and Nan Huo and Xuanhe Zhou and Chenhao Ma and Guoliang Li and Kevin Chang and Fei Huang and Reynold Cheng and Yongbin Li Datasets and Benchmarks Track",
     "booktitle": "NeurIPS Conference",
     "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
     "year": "2023",

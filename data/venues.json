@@ -119,7 +119,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/AAAI2023.json",
-          "sha256": "340697db1f6f273e39de7a53c47ba94ae52d1d20e29fc3437bccecb68a510b63"
+          "sha256": "d9d51c09b3fe4076507894e9158b83b87f309e2d39e037c8cda30dde6ecb57ad"
         }
       ],
       "processing": {
@@ -385,7 +385,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ACL2023.json",
-          "sha256": "0d16a808b123be9e9fed06791c49fc79c8052a40245e9896bf3ed2232e21ba46"
+          "sha256": "dae19f9487feea3a456f85fcafca84cac1ad3200cece9e3b6bd7bcbd45a6adb6"
         }
       ],
       "processing": {
@@ -1621,7 +1621,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ICCV2023.json",
-          "sha256": "c67ec19253c2de5344207923d4745f9cbfd9652e60147ad60c66f51d61b143a8"
+          "sha256": "18e8aaa3b8fc2e69a3e15c6337ed549a8ed22f44e5c7fad08380350e00c60986"
         }
       ],
       "processing": {
@@ -3377,7 +3377,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/NeurIPS2023-accepted.json",
-          "sha256": "1a87a4e81f89868a60aff0fcd3f185deda027f592ba80220e99a48323074f410"
+          "sha256": "b22bfc3df893ad7011ac4b776870d492d9c19d8f9fb1e26f8fa5ba8ca9289ddc"
         },
         {
           "path": "data/rawdata/2023/NeurIPS2023.json",
@@ -3865,7 +3865,7 @@
         },
         {
           "path": "data/rawdata/2023/SIGMOD2023.json",
-          "sha256": "db3d078c585fd0cf28a28ef1e3b500cc383b6668232b565555ecc493ac0a0b2b"
+          "sha256": "b85d012dc40709a06c87506cf50b8b8bfedeed5171454c70c178627ec25c8cd6"
         }
       ],
       "processing": {

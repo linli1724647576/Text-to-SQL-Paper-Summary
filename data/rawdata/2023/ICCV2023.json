@@ -3658,7 +3658,7 @@
   "Unify, Align and Refine: Multi-Level Semantic Alignment for Radiology Report Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiYCZLZ23",
-    "author": "Yaowei Li 0001 and Bang Yang and Xuxin Cheng and Zhihong Zhu and Hongxiang Li 0004 and Yuexian Zou",
+    "author": "Yaowei Li 0001 and Bang Yang and Xuxin Cheng and Zhihong Zhu 0001 and Hongxiang Li 0004 and Yuexian Zou",
     "booktitle": "ICCV",
     "title": "Unify, Align and Refine: Multi-Level Semantic Alignment for Radiology Report Generation.",
     "year": "2023",
@@ -4470,7 +4470,7 @@
   "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieWLZDLXW0ZL23",
-    "author": "Tao Xie 0010 and Ke Wang 0028 and Siyi Lu and Yukun Zhang and Kun Dai and Xiaoyu Li and Jie Xu and Li Wang 0092 and Lijun Zhao 0003 and Xinyu Zhang 0001 and Ruifeng Li",
+    "author": "Tao Xie 0010 and Ke Wang 0028 and Siyi Lu and Yukun Zhang and Kun Dai and Xiaoyu Li and Jie Xu and Li Wang 0092 and Lijun Zhao 0003 and Xinyu Zhang 0001 and Ruifeng Li 0001",
     "booktitle": "ICCV",
     "title": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network.",
     "year": "2023",
@@ -7019,7 +7019,7 @@
   "OFVL-MS: Once for Visual Localization across Multiple Indoor Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieDLWJGLX0L23",
-    "author": "Tao Xie 0010 and Kun Dai and Siyi Lu and Ke Wang 0028 and Zhiqiang Jiang and Jinghan Gao and Dedong Liu and Jie Xu and Lijun Zhao 0003 and Ruifeng Li",
+    "author": "Tao Xie 0010 and Kun Dai and Siyi Lu and Ke Wang 0028 and Zhiqiang Jiang and Jinghan Gao and Dedong Liu and Jie Xu and Lijun Zhao 0003 and Ruifeng Li 0001",
     "booktitle": "ICCV",
     "title": "OFVL-MS: Once for Visual Localization across Multiple Indoor Scenes.",
     "year": "2023",
@@ -7677,7 +7677,7 @@
   "GET: Group Event Transformer for Event-Based Vision.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/PengZX0023",
-    "author": "Yansong Peng and Yueyi Zhang and Zhiwei Xiong and Xiaoyan Sun 0001 and Feng Wu 0001",
+    "author": "Yansong Peng and Yueyi Zhang 0001 and Zhiwei Xiong and Xiaoyan Sun 0001 and Feng Wu 0001",
     "booktitle": "ICCV",
     "title": "GET: Group Event Transformer for Event-Based Vision.",
     "year": "2023",
@@ -13827,7 +13827,7 @@
   "Unsupervised Video Deraining with An Event Camera.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangWZX23",
-    "author": "Jin Wang 0023 and Wenming Weng and Yueyi Zhang and Zhiwei Xiong",
+    "author": "Jin Wang 0023 and Wenming Weng and Yueyi Zhang 0001 and Zhiwei Xiong",
     "booktitle": "ICCV",
     "title": "Unsupervised Video Deraining with An Event Camera.",
     "year": "2023",
@@ -15382,7 +15382,7 @@
   "G2L: Semantically Aligned and Uniform Video Grounding via Geodesic and Game Theory.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiCCLZZ23",
-    "author": "Hongxiang Li 0004 and Meng Cao 0002 and Xuxin Cheng and Yaowei Li 0001 and Zhihong Zhu and Yuexian Zou",
+    "author": "Hongxiang Li 0004 and Meng Cao 0002 and Xuxin Cheng and Yaowei Li 0001 and Zhihong Zhu 0001 and Yuexian Zou",
     "booktitle": "ICCV",
     "title": "G2L: Semantically Aligned and Uniform Video Grounding via Geodesic and Game Theory.",
     "year": "2023",
@@ -26938,7 +26938,7 @@
   "Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuHX0ZCZW23",
-    "author": "Xiaoyu Liu 0006 and Wei Huang 0036 and Zhiwei Xiong and Shenglong Zhou 0002 and Yueyi Zhang and Xuejin Chen and Zheng-Jun Zha and Feng Wu 0001",
+    "author": "Xiaoyu Liu 0006 and Wei Huang 0036 and Zhiwei Xiong and Shenglong Zhou 0002 and Yueyi Zhang 0001 and Xuejin Chen and Zheng-Jun Zha and Feng Wu 0001",
     "booktitle": "ICCV",
     "title": "Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation.",
     "year": "2023",

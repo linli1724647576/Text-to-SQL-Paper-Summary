@@ -3197,7 +3197,7 @@
   "Better and Faster: Adaptive Event Conversion for Event-Based Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PengZX0023",
-    "author": "Yansong Peng and Yueyi Zhang and Peilin Xiao and Xiaoyan Sun 0001 and Feng Wu 0001",
+    "author": "Yansong Peng and Yueyi Zhang 0001 and Peilin Xiao and Xiaoyan Sun 0001 and Feng Wu 0001",
     "booktitle": "AAAI",
     "title": "Better and Faster: Adaptive Event Conversion for Event-Based Object Detection.",
     "year": "2023",
@@ -14448,7 +14448,7 @@
   "AIO-P: Expanding Neural Performance Predictors beyond Image Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MillsNSQHLZ0J23",
-    "author": "Keith G. Mills and Di Niu and Mohammad Salameh and Weichen Qiu and Fred X. Han and Puyuan Liu and Jialin Zhang and Wei Lu 0023 and Shangling Jui",
+    "author": "Keith G. Mills and Di Niu 0002 and Mohammad Salameh and Weichen Qiu and Fred X. Han and Puyuan Liu and Jialin Zhang and Wei Lu 0023 and Shangling Jui",
     "booktitle": "AAAI",
     "title": "AIO-P: Expanding Neural Performance Predictors beyond Image Classification.",
     "year": "2023",
@@ -14462,7 +14462,7 @@
   "GENNAPE: Towards Generalized Neural Architecture Performance Estimators.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MillsHZCMSLJN23",
-    "author": "Keith G. Mills and Fred X. Han and Jialin Zhang and Fabian Chudak and Ali Safari Mamaghani and Mohammad Salameh and Wei Lu 0023 and Shangling Jui and Di Niu",
+    "author": "Keith G. Mills and Fred X. Han and Jialin Zhang and Fabian Chudak and Ali Safari Mamaghani and Mohammad Salameh and Wei Lu 0023 and Shangling Jui and Di Niu 0002",
     "booktitle": "AAAI",
     "title": "GENNAPE: Towards Generalized Neural Architecture Performance Estimators.",
     "year": "2023",

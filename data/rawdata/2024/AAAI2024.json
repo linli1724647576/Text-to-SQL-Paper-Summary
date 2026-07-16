@@ -4191,7 +4191,7 @@
   "Cross-Constrained Progressive Inference for 3D Hand Pose Estimation with Dynamic Observer-Decision-Adjuster Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KanHLYH24",
-    "author": "Zhehan Kan and Xueting Hu and Zihan Liao and Ke Yu and Zhihai He",
+    "author": "Zhehan Kan and Xueting Hu and Zihan Liao and Ke Yu 0004 and Zhihai He",
     "booktitle": "AAAI",
     "title": "Cross-Constrained Progressive Inference for 3D Hand Pose Estimation with Dynamic Observer-Decision-Adjuster Networks.",
     "year": "2024",
@@ -11477,7 +11477,7 @@
   "Concept-Guided Prompt Learning for Generalization in Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZYTH24",
-    "author": "Yi Zhang 0109 and Ce Zhang 0009 and Ke Yu and Yushun Tang and Zhihai He",
+    "author": "Yi Zhang 0109 and Ce Zhang 0009 and Ke Yu 0004 and Yushun Tang and Zhihai He",
     "booktitle": "AAAI",
     "title": "Concept-Guided Prompt Learning for Generalization in Vision-Language Models.",
     "year": "2024",
@@ -11631,7 +11631,7 @@
   "Recognizing Ultra-High-Speed Moving Objects with Bio-Inspired Spike Camera.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoZY024",
-    "author": "Junwei Zhao and Shiliang Zhang and Zhaofei Yu and Tiejun Huang 0001",
+    "author": "Junwei Zhao 0003 and Shiliang Zhang and Zhaofei Yu and Tiejun Huang 0001",
     "booktitle": "AAAI",
     "title": "Recognizing Ultra-High-Speed Moving Objects with Bio-Inspired Spike Camera.",
     "year": "2024",
@@ -13521,7 +13521,7 @@
   "UniGen: A Unified Generative Framework for Retrieval and Question Answering with Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Li0D24",
-    "author": "Xiaoxi Li and Yujia Zhou 0002 and Zhicheng Dou",
+    "author": "Xiaoxi Li 0005 and Yujia Zhou 0002 and Zhicheng Dou",
     "booktitle": "AAAI",
     "title": "UniGen: A Unified Generative Framework for Retrieval and Question Answering with Large Language Models.",
     "year": "2024",
@@ -13745,7 +13745,7 @@
   "Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Liu0Z0RGC24",
-    "author": "Yu-An Liu 0028 and Ruqing Zhang 0001 and Mingkun Zhang and Wei Chen 0034 and Maarten de Rijke and Jiafeng Guo and Xueqi Cheng",
+    "author": "Yu-An Liu 0028 and Ruqing Zhang 0001 and Mingkun Zhang and Wei Chen 0034 and Maarten de Rijke and Jiafeng Guo and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off.",
     "year": "2024",
@@ -17386,7 +17386,7 @@
   "Where and How to Attack? A Causality-Inspired Recipe for Generating Counterfactual Adversarial Examples.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaiZQLLH24",
-    "author": "Ruichu Cai and Yuxuan Zhu 0001 and Jie Qiao and Zefeng Liang and Furui Liu and Zhifeng Hao",
+    "author": "Ruichu Cai and Yuxuan Zhu 0001 and Jie Qiao and Zefeng Liang and Furui Liu and Zhifeng Hao 0004",
     "booktitle": "AAAI",
     "title": "Where and How to Attack? A Causality-Inspired Recipe for Generating Counterfactual Adversarial Examples.",
     "year": "2024",
@@ -19122,7 +19122,7 @@
   "Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuoCLPZHM24",
-    "author": "Yufei Guo and Yuanpei Chen and Xiaode Liu and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yufei Guo 0002 and Yuanpei Chen and Xiaode Liu and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks.",
     "year": "2024",
@@ -22846,7 +22846,7 @@
   "Adaptive Feature Imputation with Latent Graph for Deep Incomplete Multi-View Clustering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PuCC0PHY024",
-    "author": "Jingyu Pu and Chenhang Cui and Xinyue Chen 0004 and Yazhou Ren 0001 and Xiaorong Pu and Zhifeng Hao and Philip S. Yu and Lifang He 0001",
+    "author": "Jingyu Pu and Chenhang Cui and Xinyue Chen 0004 and Yazhou Ren 0001 and Xiaorong Pu and Zhifeng Hao 0005 and Philip S. Yu and Lifang He 0001",
     "booktitle": "AAAI",
     "title": "Adaptive Feature Imputation with Latent Graph for Deep Incomplete Multi-View Clustering.",
     "year": "2024",
@@ -23980,7 +23980,7 @@
   "N-gram Unsupervised Compoundation and Feature Injection for Better Symbolic Music Understanding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TianLLW24",
-    "author": "Jinhao Tian and Zuchao Li and Jiajia Li and Ping Wang 0028",
+    "author": "Jinhao Tian and Zuchao Li and Jiajia Li 0005 and Ping Wang 0028",
     "booktitle": "AAAI",
     "title": "N-gram Unsupervised Compoundation and Feature Injection for Better Symbolic Music Understanding.",
     "year": "2024",
@@ -25926,7 +25926,7 @@
   "PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuanXLH0SC24",
-    "author": "Yige Yuan and Bingbing Xu 0001 and Bo Lin and Liang Hou and Fei Sun 0001 and Huawei Shen and Xueqi Cheng",
+    "author": "Yige Yuan and Bingbing Xu 0001 and Bo Lin and Liang Hou and Fei Sun 0001 and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion.",
     "year": "2024",
@@ -26416,7 +26416,7 @@
   "Enhancing Representation of Spiking Neural Networks via Similarity-Sensitive Contrastive Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLCPGHM24",
-    "author": "Yuhan Zhang 0006 and Xiaode Liu and Yuanpei Chen and Weihang Peng 0001 and Yufei Guo and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yuhan Zhang 0006 and Xiaode Liu and Yuanpei Chen and Weihang Peng 0001 and Yufei Guo 0002 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Enhancing Representation of Spiking Neural Networks via Similarity-Sensitive Contrastive Learning.",
     "year": "2024",
@@ -27858,7 +27858,7 @@
   "Towards Multi-Intent Spoken Language Understanding via Hierarchical Attention and Optimal Transport.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChengZLLZZ24",
-    "author": "Xuxin Cheng and Zhihong Zhu and Hongxiang Li 0004 and Yaowei Li 0001 and Xianwei Zhuang and Yuexian Zou",
+    "author": "Xuxin Cheng and Zhihong Zhu 0001 and Hongxiang Li 0004 and Yaowei Li 0001 and Xianwei Zhuang and Yuexian Zou",
     "booktitle": "AAAI",
     "title": "Towards Multi-Intent Spoken Language Understanding via Hierarchical Attention and Optimal Transport.",
     "year": "2024",
@@ -28897,7 +28897,7 @@
   "Exploiting Auxiliary Caption for Video Grounding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiCCLZZ24",
-    "author": "Hongxiang Li 0004 and Meng Cao 0002 and Xuxin Cheng and Yaowei Li 0001 and Zhihong Zhu and Yuexian Zou",
+    "author": "Hongxiang Li 0004 and Meng Cao 0002 and Xuxin Cheng and Yaowei Li 0001 and Zhihong Zhu 0001 and Yuexian Zou",
     "booktitle": "AAAI",
     "title": "Exploiting Auxiliary Caption for Video Grounding.",
     "year": "2024",
@@ -30578,7 +30578,7 @@
   "StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangHLHXCDHZ24",
-    "author": "Yu Zhang 0126 and Rongjie Huang 0001 and Ruiqi Li and Jinzheng He and Yan Xia 0006 and Feiyang Chen 0001 and Xinyu Duan and Baoxing Huai and Zhou Zhao 0001",
+    "author": "Yu Zhang 0126 and Rongjie Huang 0001 and Ruiqi Li 0002 and Jinzheng He and Yan Xia 0006 and Feiyang Chen 0001 and Xinyu Duan and Baoxing Huai and Zhou Zhao 0001",
     "booktitle": "AAAI",
     "title": "StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis.",
     "year": "2024",
@@ -30858,7 +30858,7 @@
   "Aligner²: Enhancing Joint Multiple Intent Detection and Slot Filling via Adjustive and Forced Cross-Task Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuCLLZ24",
-    "author": "Zhihong Zhu and Xuxin Cheng and Yaowei Li 0001 and Hongxiang Li 0004 and Yuexian Zou",
+    "author": "Zhihong Zhu 0001 and Xuxin Cheng and Yaowei Li 0001 and Hongxiang Li 0004 and Yuexian Zou",
     "booktitle": "AAAI",
     "title": "Aligner²: Enhancing Joint Multiple Intent Detection and Slot Filling via Adjustive and Forced Cross-Task Alignment.",
     "year": "2024",
@@ -31517,7 +31517,7 @@
   "NaRuto: Automatically Acquiring Planning Models from Narrative Texts.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiCLH24",
-    "author": "Ruiqi Li and Leyang Cui and Songtuan Lin and Patrik Haslum",
+    "author": "Ruiqi Li 0005 and Leyang Cui and Songtuan Lin and Patrik Haslum",
     "booktitle": "AAAI",
     "title": "NaRuto: Automatically Acquiring Planning Models from Narrative Texts.",
     "year": "2024",
@@ -31769,7 +31769,7 @@
   "Identification of Causal Structure with Latent Variables Based on Higher Order Cumulants.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/01030CH024",
-    "author": "Wei Chen 0103 and Zhiyi Huang 0008 and Ruichu Cai and Zhifeng Hao and Kun Zhang 0001",
+    "author": "Wei Chen 0103 and Zhiyi Huang 0008 and Ruichu Cai and Zhifeng Hao 0004 and Kun Zhang 0001",
     "booktitle": "AAAI",
     "title": "Identification of Causal Structure with Latent Variables Based on Higher Order Cumulants.",
     "year": "2024",
@@ -31993,7 +31993,7 @@
   "TNPAR: Topological Neural Poisson Auto-Regressive Model for Learning Granger Causal Structure from Event Sequences.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuC0QY0ZH24",
-    "author": "Yuequn Liu and Ruichu Cai and Wei Chen 0103 and Jie Qiao and Yuguang Yan and Zijian Li 0001 and Keli Zhang and Zhifeng Hao",
+    "author": "Yuequn Liu and Ruichu Cai and Wei Chen 0103 and Jie Qiao and Yuguang Yan and Zijian Li 0001 and Keli Zhang and Zhifeng Hao 0004",
     "booktitle": "AAAI",
     "title": "TNPAR: Topological Neural Poisson Auto-Regressive Model for Learning Granger Causal Structure from Event Sequences.",
     "year": "2024",
@@ -32035,7 +32035,7 @@
   "Identification of Causal Structure in the Presence of Missing Data with Additive Noise Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/QiaoCYCH24",
-    "author": "Jie Qiao and Zhengming Chen 0002 and Jianhua Yu and Ruichu Cai and Zhifeng Hao",
+    "author": "Jie Qiao and Zhengming Chen 0002 and Jianhua Yu and Ruichu Cai and Zhifeng Hao 0004",
     "booktitle": "AAAI",
     "title": "Identification of Causal Structure in the Presence of Missing Data with Additive Noise Model.",
     "year": "2024",
@@ -32049,7 +32049,7 @@
   "Causal Discovery from Poisson Branching Structural Causal Model Using High-Order Cumulant with Path Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/QiaoXCCH24",
-    "author": "Jie Qiao and Yu Xiang and Zhengming Chen 0002 and Ruichu Cai and Zhifeng Hao",
+    "author": "Jie Qiao and Yu Xiang and Zhengming Chen 0002 and Ruichu Cai and Zhifeng Hao 0004",
     "booktitle": "AAAI",
     "title": "Causal Discovery from Poisson Branching Structural Causal Model Using High-Order Cumulant with Path Analysis.",
     "year": "2024",
@@ -33044,7 +33044,7 @@
   "Towards Efficient Verification of Quantized Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/000200DWZB24",
-    "author": "Pei Huang 0002 and Haoze Wu 0001 and Yuting Yang 0002 and Ieva Daukantas and Min Wu 0003 and Yedi Zhang and Clark W. Barrett",
+    "author": "Pei Huang 0002 and Haoze Wu 0001 and Yuting Yang 0002 and Ieva Daukantas and Min Wu 0011 and Yedi Zhang and Clark W. Barrett",
     "booktitle": "AAAI",
     "title": "Towards Efficient Verification of Quantized Neural Networks.",
     "year": "2024",
@@ -38037,7 +38037,7 @@
   "Sequential Modeling of Complex Marine Navigation: Case Study on a Passenger Vessel (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FanACPKB24",
-    "author": "Yimeng Fan and Pedram Agand and Mo Chen 0001 and Edward J. Park and Allison Kennedy and Chanwoo Bae",
+    "author": "Yimeng Fan and Pedram Agand and Mo Chen 0001 and Edward J. Park and Allison Kennedy and Chanwoo Bae 0002",
     "booktitle": "AAAI",
     "title": "Sequential Modeling of Complex Marine Navigation: Case Study on a Passenger Vessel (Student Abstract).",
     "year": "2024",

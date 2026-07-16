@@ -128,7 +128,7 @@
   "Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/XuPYMSCZ24",
-    "author": "Shicheng Xu and Liang Pang 0001 and Mo Yu and Fandong Meng and Huawei Shen and Xueqi Cheng and Jie Zhou 0016",
+    "author": "Shicheng Xu and Liang Pang 0001 and Mo Yu and Fandong Meng and Huawei Shen and Xueqi Cheng 0001 and Jie Zhou 0016",
     "booktitle": "ACL (1)",
     "title": "Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation.",
     "year": "2024",
@@ -3607,7 +3607,7 @@
   "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Jiang0ZZLMS00W24",
-    "author": "Yuxin Jiang and Yufei Wang 0005 and Xingshan Zeng and Wanjun Zhong and Liangyou Li and Fei Mi and Lifeng Shang and Xin Jiang 0002 and Qun Liu 0001 and Wei Wang",
+    "author": "Yuxin Jiang and Yufei Wang 0005 and Xingshan Zeng and Wanjun Zhong and Liangyou Li and Fei Mi and Lifeng Shang and Xin Jiang 0002 and Qun Liu 0001 and Wei Wang 0011",
     "booktitle": "ACL (1)",
     "title": "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models.",
     "year": "2024",
@@ -3621,7 +3621,7 @@
   "Learning to Edit: Aligning LLMs with Knowledge Editing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/JiangWWZZGLJSTL24",
-    "author": "Yuxin Jiang and Yufei Wang 0005 and Chuhan Wu and Wanjun Zhong and Xingshan Zeng and Jiahui Gao 0002 and Liangyou Li and Xin Jiang 0002 and Lifeng Shang and Ruiming Tang and Qun Liu 0001 and Wei Wang",
+    "author": "Yuxin Jiang and Yufei Wang 0005 and Chuhan Wu and Wanjun Zhong and Xingshan Zeng and Jiahui Gao 0002 and Liangyou Li and Xin Jiang 0002 and Lifeng Shang and Ruiming Tang and Qun Liu 0001 and Wei Wang 0011",
     "booktitle": "ACL (1)",
     "title": "Learning to Edit: Aligning LLMs with Knowledge Editing.",
     "year": "2024",
@@ -4729,7 +4729,7 @@
   "Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts When Knowledge Conflicts?": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Tan0YWCC24",
-    "author": "Hexiang Tan and Fei Sun 0001 and Wanli Yang and Yuanzhuo Wang and Qi Cao 0005 and Xueqi Cheng",
+    "author": "Hexiang Tan and Fei Sun 0001 and Wanli Yang and Yuanzhuo Wang and Qi Cao 0005 and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts When Knowledge Conflicts?",
     "year": "2024",
@@ -4757,7 +4757,7 @@
   "Text-to-Song: Towards Controllable Music Generation Incorporating Vocal and Accompaniment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/HongHCWLYZZ24",
-    "author": "Zhiqing Hong and Rongjie Huang 0001 and Xize Cheng and Yongqi Wang and Ruiqi Li and Fuming You and Zhou Zhao 0001 and Zhimeng Zhang",
+    "author": "Zhiqing Hong and Rongjie Huang 0001 and Xize Cheng and Yongqi Wang and Ruiqi Li 0002 and Fuming You and Zhou Zhao 0001 and Zhimeng Zhang",
     "booktitle": "ACL (1)",
     "title": "Text-to-Song: Towards Controllable Music Generation Incorporating Vocal and Accompaniment.",
     "year": "2024",
@@ -6664,7 +6664,7 @@
   "KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiZZRLSGLLH0LLY24",
-    "author": "Zixuan Li 0001 and Yutao Zeng and Yuxin Zuo and Weicheng Ren and Wenxuan Liu and Miao Su and Yucan Guo and Yantao Liu and Xiang Li 0001 and Zhilei Hu and Long Bai 0002 and Wei Li 0176 and Yidan Liu and Pan Yang and Xiaolong Jin 0001 and Jiafeng Guo and Xueqi Cheng",
+    "author": "Zixuan Li 0001 and Yutao Zeng and Yuxin Zuo and Weicheng Ren and Wenxuan Liu 0003 and Miao Su and Yucan Guo and Yantao Liu and Xiang Li 0001 and Zhilei Hu and Long Bai 0002 and Wei Li 0176 and Yidan Liu and Pan Yang and Xiaolong Jin 0001 and Jiafeng Guo and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction.",
     "year": "2024",
@@ -7379,7 +7379,7 @@
   "Robust Singing Voice Transcription Serves Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Li0WHHZ24",
-    "author": "Ruiqi Li and Yu Zhang 0126 and Yongqi Wang and Zhiqing Hong and Rongjie Huang 0001 and Zhou Zhao 0001",
+    "author": "Ruiqi Li 0002 and Yu Zhang 0126 and Yongqi Wang and Zhiqing Hong and Rongjie Huang 0001 and Zhou Zhao 0001",
     "booktitle": "ACL (1)",
     "title": "Robust Singing Voice Transcription Serves Synthesis.",
     "year": "2024",

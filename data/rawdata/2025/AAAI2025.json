@@ -101,7 +101,7 @@
   "CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Chen0ZS25",
-    "author": "Jie Chen 0099 and Liangmin Wang 0001 and Huijuan Zhu and Victor S. Sheng",
+    "author": "Jie Chen 0099 and Liangmin Wang 0001 and Huijuan Zhu 0001 and Victor S. Sheng",
     "booktitle": "AAAI",
     "title": "CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection.",
     "year": "2025",
@@ -2553,7 +2553,7 @@
   "Learning Concept Prerequisite Relation via Global Knowledge Relation Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangWXWZCL25",
-    "author": "Miao Zhang 0036 and Jiawei Wang and Kui Xiao and Shihui Wang and Yan Zhang 0077 and Hao Chen 0134 and Zhifei Li",
+    "author": "Miao Zhang 0036 and Jiawei Wang and Kui Xiao and Shihui Wang and Yan Zhang 0077 and Hao Chen 0134 and Zhifei Li 0009",
     "booktitle": "AAAI",
     "title": "Learning Concept Prerequisite Relation via Global Knowledge Relation Optimization.",
     "year": "2025",
@@ -5188,7 +5188,7 @@
   "GGS: Generalizable Gaussian Splatting for Lane Switching in Autonomous Driving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HanZLWX25",
-    "author": "Huasong Han and Kaixuan Zhou and Xiaoxiao Long and Yusen Wang and Chunxia Xiao",
+    "author": "Huasong Han and Kaixuan Zhou and Xiaoxiao Long and Yusen Wang 0002 and Chunxia Xiao",
     "booktitle": "AAAI",
     "title": "GGS: Generalizable Gaussian Splatting for Lane Switching in Autonomous Driving.",
     "year": "2025",
@@ -9587,7 +9587,7 @@
   "Qua2SeDiMo: Quantifiable Quantization Sensitivity of Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MillsSCHLN25",
-    "author": "Keith G. Mills and Mohammad Salameh and Ruichen Chen and Negar Hassanpour and Wei Lu 0023 and Di Niu",
+    "author": "Keith G. Mills and Mohammad Salameh and Ruichen Chen and Negar Hassanpour and Wei Lu 0023 and Di Niu 0002",
     "booktitle": "AAAI",
     "title": "Qua2SeDiMo: Quantifiable Quantization Sensitivity of Diffusion Models.",
     "year": "2025",
@@ -10525,7 +10525,7 @@
   "FunEditor: Achieving Complex Image Edits via Function Aggregation with Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SamadiHSWSZN25",
-    "author": "Mohammadreza Samadi and Fred X. Han and Mohammad Salameh and Hao Wu and Fengyu Sun and Chunhua Zhou and Di Niu",
+    "author": "Mohammadreza Samadi and Fred X. Han and Mohammad Salameh and Hao Wu and Fengyu Sun and Chunhua Zhou and Di Niu 0002",
     "booktitle": "AAAI",
     "title": "FunEditor: Achieving Complex Image Edits via Function Aggregation with Diffusion Models.",
     "year": "2025",
@@ -11562,7 +11562,7 @@
   "Improving Transformer Based Line Segment Detection with Matched Predicting and Re-ranking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TongPTGH025",
-    "author": "Xin Tong and Shi Peng and Baojie Tian and Yufei Guo and Xuhui Huang and Zhe Ma 0001",
+    "author": "Xin Tong and Shi Peng and Baojie Tian and Yufei Guo 0002 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Improving Transformer Based Line Segment Detection with Matched Predicting and Re-ranking.",
     "year": "2025",
@@ -18357,7 +18357,7 @@
   "Bridging the User-side Knowledge Gap in Knowledge-aware Recommendations with Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuLJNDC0R25",
-    "author": "Zheng Hu 0001 and Zhe Li and Ziyun Jiao and Satoshi Nakagawa and Jiawen Deng and Shimin Cai and Tao Zhou 0001 and Fuji Ren",
+    "author": "Zheng Hu 0001 and Zhe Li and Ziyun Jiao and Satoshi Nakagawa and Jiawen Deng 0006 and Shimin Cai and Tao Zhou 0001 and Fuji Ren",
     "booktitle": "AAAI",
     "title": "Bridging the User-side Knowledge Gap in Knowledge-aware Recommendations with Large Language Models.",
     "year": "2025",
@@ -19030,7 +19030,7 @@
   "Attack-in-the-Chain: Bootstrapping Large Language Models for Attacks Against Black-Box Neural Ranking Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/00280GRFC25",
-    "author": "Yu-An Liu 0028 and Ruqing Zhang 0001 and Jiafeng Guo and Maarten de Rijke and Yixing Fan and Xueqi Cheng",
+    "author": "Yu-An Liu 0028 and Ruqing Zhang 0001 and Jiafeng Guo and Maarten de Rijke and Yixing Fan and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Attack-in-the-Chain: Bootstrapping Large Language Models for Attacks Against Black-Box Neural Ranking Models.",
     "year": "2025",
@@ -20262,7 +20262,7 @@
   "Promptable Anomaly Segmentation with SAM Through Self-Perception Tuning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Yang0WCLTGQHD25",
-    "author": "Hui-Yue Yang and Hui Chen 0013 and Ao Wang and Kai Chen and Zijia Lin and Yongliang Tang and Pengcheng Gao and Yuming Quan and Jungong Han and Guiguang Ding",
+    "author": "Hui-Yue Yang and Hui Chen 0013 and Ao Wang and Kai Chen 0044 and Zijia Lin and Yongliang Tang and Pengcheng Gao and Yuming Quan and Jungong Han and Guiguang Ding",
     "booktitle": "AAAI",
     "title": "Promptable Anomaly Segmentation with SAM Through Self-Perception Tuning.",
     "year": "2025",
@@ -23414,7 +23414,7 @@
   "APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JianLLZZXH25",
-    "author": "Yue Jian and Xiangyu Luo and Zhifei Li and Miao Zhang 0036 and Yan Zhang 0077 and Kui Xiao and Xiaoju Hou",
+    "author": "Yue Jian and Xiangyu Luo and Zhifei Li 0009 and Miao Zhang 0036 and Yan Zhang 0077 and Kui Xiao and Xiaoju Hou",
     "booktitle": "AAAI",
     "title": "APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty.",
     "year": "2025",
@@ -24425,7 +24425,7 @@
   "Disentangling Long-Short Term State Under Unknown Interventions for Online Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaiHJ0ZLLH25",
-    "author": "Ruichu Cai and Haiqin Huang and Zhifan Jiang and Zijian Li 0001 and Changze Zhou and Yuequn Liu and Yuming Liu and Zhifeng Hao",
+    "author": "Ruichu Cai and Haiqin Huang and Zhifan Jiang and Zijian Li 0001 and Changze Zhou and Yuequn Liu and Yuming Liu and Zhifeng Hao 0004",
     "booktitle": "AAAI",
     "title": "Disentangling Long-Short Term State Under Unknown Interventions for Online Time Series Forecasting.",
     "year": "2025",
@@ -37439,7 +37439,7 @@
   "TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Guo0P0TLHW025",
-    "author": "Wenxiang Guo and Yu Zhang 0126 and Changhao Pan and Rongjie Huang 0001 and Li Tang and Ruiqi Li and Zhiqing Hong and Yongqi Wang and Zhou Zhao 0001",
+    "author": "Wenxiang Guo and Yu Zhang 0126 and Changhao Pan and Rongjie Huang 0001 and Li Tang and Ruiqi Li 0002 and Zhiqing Hong and Yongqi Wang and Zhou Zhao 0001",
     "booktitle": "AAAI",
     "title": "TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching.",
     "year": "2025",
@@ -39911,7 +39911,7 @@
   "Harnessing Large Language Models for Knowledge Graph Question Answering via Adaptive Multi-Aspect Retrieval-Augmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Xu0ZLZ0000C25",
-    "author": "Derong Xu and Xinhang Li 0002 and Ziheng Zhang and Zhenxi Lin and Zhihong Zhu and Zhi Zheng 0008 and Xian Wu 0001 and Xiangyu Zhao 0001 and Tong Xu 0001 and Enhong Chen",
+    "author": "Derong Xu and Xinhang Li 0002 and Ziheng Zhang and Zhenxi Lin and Zhihong Zhu 0001 and Zhi Zheng 0008 and Xian Wu 0001 and Xiangyu Zhao 0001 and Tong Xu 0001 and Enhong Chen",
     "booktitle": "AAAI",
     "title": "Harnessing Large Language Models for Knowledge Graph Question Answering via Adaptive Multi-Aspect Retrieval-Augmentation.",
     "year": "2025",
@@ -40936,7 +40936,7 @@
   "SongSong: A Time Phonograph for Chinese SongCi Music from Thousand of Years Away.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuLPCLWZ25",
-    "author": "Jiliang Hu 0001 and Jiajia Li and Ziyi Pan and Chong Chen and Zuchao Li and Ping Wang 0028 and Lefei Zhang",
+    "author": "Jiliang Hu 0001 and Jiajia Li 0005 and Ziyi Pan and Chong Chen and Zuchao Li and Ping Wang 0028 and Lefei Zhang",
     "booktitle": "AAAI",
     "title": "SongSong: A Time Phonograph for Chinese SongCi Music from Thousand of Years Away.",
     "year": "2025",

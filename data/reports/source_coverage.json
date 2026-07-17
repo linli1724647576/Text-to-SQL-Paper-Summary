@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-16T18:09:51Z",
+  "generated_at": "2026-07-17T18:09:25Z",
   "records": [
     {
       "kind": "conference",
@@ -428,12 +428,12 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 795,
+      "raw_candidate_count": 2701,
       "rawdata_files": [
         "data/rawdata/2025/ICCV2025.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 0,
+      "relevant_candidate_count": 1,
       "source_type": "dblp-conference",
       "source_url": "",
       "status": "covered",
@@ -1223,7 +1223,7 @@
         "data/rawdata/2025/SIGIR2025.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 1,
+      "relevant_candidate_count": 0,
       "source_type": "dblp-conference",
       "source_url": "https://sigir2025.dei.unipd.it/accepted-papers.html",
       "status": "covered",

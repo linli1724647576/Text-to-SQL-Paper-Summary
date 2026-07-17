@@ -367,7 +367,7 @@
   "A Survey on Foundation Language Models for Single-cell Biology.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangCZZLQ0025",
-    "author": "Fan Zhang 0111 and Hao Chen 0011 and Zhihong Zhu and Ziheng Zhang and Zhenxi Lin and Ziyue Qiao and Yefeng Zheng 0001 and Xian Wu 0001",
+    "author": "Fan Zhang 0111 and Hao Chen 0011 and Zhihong Zhu 0001 and Ziheng Zhang and Zhenxi Lin and Ziyue Qiao and Yefeng Zheng 0001 and Xian Wu 0001",
     "booktitle": "ACL (1)",
     "title": "A Survey on Foundation Language Models for Single-cell Biology.",
     "year": "2025",
@@ -745,7 +745,7 @@
   "MPVStance: Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangZZXC25",
-    "author": "Zhaodan Zhang and Zhao Zhang and Jin Zhang 0029 and Hui Xu and Xueqi Cheng",
+    "author": "Zhaodan Zhang and Zhao Zhang 0011 and Jin Zhang 0029 and Hui Xu and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "MPVStance: Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification.",
     "year": "2025",
@@ -2468,7 +2468,7 @@
   "Hierarchical Document Refinement for Long-context Retrieval-augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/JinLDZZWLQD25",
-    "author": "Jiajie Jin and Xiaoxi Li and Guanting Dong 0001 and Yuyao Zhang 0003 and Yutao Zhu 0001 and Yongkang Wu and Zhonghua Li and Ye Qi and Zhicheng Dou",
+    "author": "Jiajie Jin and Xiaoxi Li 0005 and Guanting Dong 0001 and Yuyao Zhang 0003 and Yutao Zhu 0001 and Yongkang Wu and Zhonghua Li and Ye Qi and Zhicheng Dou",
     "booktitle": "ACL (1)",
     "title": "Hierarchical Document Refinement for Long-context Retrieval-augmented Generation.",
     "year": "2025",
@@ -2510,7 +2510,7 @@
   "RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DongJL0DW25",
-    "author": "Guanting Dong 0001 and Jiajie Jin and Xiaoxi Li and Yutao Zhu 0001 and Zhicheng Dou and Ji-Rong Wen",
+    "author": "Guanting Dong 0001 and Jiajie Jin and Xiaoxi Li 0005 and Yutao Zhu 0001 and Zhicheng Dou and Ji-Rong Wen",
     "booktitle": "ACL (1)",
     "title": "RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation.",
     "year": "2025",
@@ -4473,7 +4473,7 @@
   "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/MoskvoretskiiMS25",
-    "author": "Viktor Moskvoretskii and Maria Marina and Mikhail Salnikov and Nikolay Ivanov and Sergey Pletenev and Daria Galimzianova and Nikita Krayko and Vasily Konovalov and Irina Nikishina and Alexander Panchenko",
+    "author": "Viktor Moskvoretskii and Maria Marina and Mikhail Salnikov and Nikolay Ivanov 0001 and Sergey Pletenev and Daria Galimzianova and Nikita Krayko and Vasily Konovalov and Irina Nikishina and Alexander Panchenko",
     "booktitle": "ACL (1)",
     "title": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.",
     "year": "2025",
@@ -4501,7 +4501,7 @@
   "Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/GeLB0M0CC25",
-    "author": "Yuyao Ge and Shenghua Liu and Baolong Bi and Yiwei Wang 0001 and Lingrui Mei and Wenjie Feng 0001 and Lizhe Chen and Xueqi Cheng",
+    "author": "Yuyao Ge and Shenghua Liu and Baolong Bi and Yiwei Wang 0001 and Lingrui Mei and Wenjie Feng 0001 and Lizhe Chen and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?",
     "year": "2025",
@@ -8634,7 +8634,7 @@
   "Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangDFWQLZC25",
-    "author": "Yuhao Wang and Keyan Ding and Kehua Feng and Zeyuan Wang and Ming Qin and Xiaotong Li and Qiang Zhang 0026 and Huajun Chen",
+    "author": "Yuhao Wang 0006 and Keyan Ding and Kehua Feng and Zeyuan Wang and Ming Qin and Xiaotong Li and Qiang Zhang 0026 and Huajun Chen",
     "booktitle": "ACL (1)",
     "title": "Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization.",
     "year": "2025",
@@ -10442,7 +10442,7 @@
   "The Mirage of Model Editing: Revisiting Evaluation in the Wild.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Yang0TMCYSC25",
-    "author": "Wanli Yang and Fei Sun 0001 and Jiajun Tan and Xinyu Ma 0001 and Qi Cao 0005 and Dawei Yin 0001 and Huawei Shen and Xueqi Cheng",
+    "author": "Wanli Yang and Fei Sun 0001 and Jiajun Tan and Xinyu Ma 0001 and Qi Cao 0005 and Dawei Yin 0001 and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "The Mirage of Model Editing: Revisiting Evaluation in the Wild.",
     "year": "2025",
@@ -11789,7 +11789,7 @@
   "Decoding by Contrasting Knowledge: Enhancing Large Language Model Confidence on Edited Facts.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/BiLMWFJC25",
-    "author": "Baolong Bi and Shenghua Liu and Lingrui Mei and Yiwei Wang 0001 and Junfeng Fang and Pengliang Ji and Xueqi Cheng",
+    "author": "Baolong Bi and Shenghua Liu and Lingrui Mei and Yiwei Wang 0001 and Junfeng Fang and Pengliang Ji and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Decoding by Contrasting Knowledge: Enhancing Large Language Model Confidence on Edited Facts.",
     "year": "2025",
@@ -12027,7 +12027,7 @@
   "It's Not Bragging If You Can Back It Up: Can LLMs Understand Braggings?": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZengLYSL25",
-    "author": "Jingjie Zeng and Huayang Li and Liang Yang and Yuanyuan Sun and Hongfei Lin",
+    "author": "Jingjie Zeng and Huayang Li and Liang Yang 0003 and Yuanyuan Sun 0002 and Hongfei Lin",
     "booktitle": "ACL (1)",
     "title": "It's Not Bragging If You Can Back It Up: Can LLMs Understand Braggings?",
     "year": "2025",
@@ -12251,7 +12251,7 @@
   "ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DingTPWGDSC25",
-    "author": "Hanxing Ding and Shuchang Tao and Liang Pang 0001 and Zihao Wei and Jinyang Gao and Bolin Ding and Huawei Shen and Xueqi Cheng",
+    "author": "Hanxing Ding and Shuchang Tao and Liang Pang 0001 and Zihao Wei and Jinyang Gao and Bolin Ding and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models.",
     "year": "2025",
@@ -15980,7 +15980,7 @@
   "MobiLoRA: Accelerating LoRA-based LLM Inference on Mobile Devices via Context-aware KV Cache Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiWMCXW25",
-    "author": "Borui Li 0001 and Yitao Wang and Haoran Ma and Ligeng Chen and Jun Xiao and Shuai Wang",
+    "author": "Borui Li 0001 and Yitao Wang and Haoran Ma 0006 and Ligeng Chen and Jun Xiao and Shuai Wang",
     "booktitle": "ACL (1)",
     "title": "MobiLoRA: Accelerating LoRA-based LLM Inference on Mobile Devices via Context-aware KV Cache Optimization.",
     "year": "2025",
@@ -16597,7 +16597,7 @@
   "Towards Fully Exploiting LLM Internal States to Enhance Knowledge Boundary Perception.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/NiBGYBC25",
-    "author": "Shiyu Ni and Keping Bi and Jiafeng Guo and Lulu Yu and Baolong Bi and Xueqi Cheng",
+    "author": "Shiyu Ni and Keping Bi and Jiafeng Guo and Lulu Yu and Baolong Bi and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Towards Fully Exploiting LLM Internal States to Enhance Knowledge Boundary Perception.",
     "year": "2025",
@@ -19064,7 +19064,7 @@
   "Towards Robust Universal Information Extraction: Dataset, Evaluation, and Solution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhuS000GC25",
-    "author": "Jizhao Zhu and Akang Shi and Zixuan Li 0001 and Long Bai 0002 and Xiaolong Jin 0001 and Jiafeng Guo and Xueqi Cheng",
+    "author": "Jizhao Zhu and Akang Shi and Zixuan Li 0001 and Long Bai 0002 and Xiaolong Jin 0001 and Jiafeng Guo and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Towards Robust Universal Information Extraction: Dataset, Evaluation, and Solution.",
     "year": "2025",

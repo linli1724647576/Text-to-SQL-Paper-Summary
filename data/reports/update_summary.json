@@ -428,9 +428,9 @@
           "relevant_papers": 0
         },
         "ICCV2025": {
-          "raw_candidates": 795,
+          "raw_candidates": 2701,
           "official_accepted": 0,
-          "dblp": 795,
+          "dblp": 2701,
           "arxiv": 0,
           "relevant_papers": 1
         },
@@ -1217,8 +1217,8 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 0,
-    "fetch_warning_count": 2,
+    "fetch_failure_count": 1,
+    "fetch_warning_count": 0,
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.0,

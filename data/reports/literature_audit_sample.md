@@ -37,6 +37,7 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
+| supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | supplemental | true_positive_core | AAAI | 2025 | AIA: Autoregression-Based Injection Attacks Against Text2SQL Models |  |
 | supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
@@ -44,6 +45,5 @@
 | supplemental | true_positive_application | SIGMOD | 2022 | DB-BERT: A Database Tuning Tool that "Reads the Manual" |  |
 | supplemental | true_positive_core | ACL | 2022 | Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation |  |
 | supplemental | true_positive_core | AAAI | 2026 | AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale |  |
-| supplemental | true_positive_core | AAAI | 2026 | RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation |  |
+| fill | true_positive_core | ArXiv | 2021 | mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer | missing doi |
 | fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
-| fill | true_positive_core | ArXiv | 2026 | PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents | missing doi |

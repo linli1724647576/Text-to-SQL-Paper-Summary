@@ -6543,7 +6543,7 @@
   "ILIF: Temporal Inhibitory Leaky Integrate-and-Fire Neuron for Overactivation in Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/SunDKW025",
-    "author": "Kai Sun and Peibo Duan and Levin Kuhlmann and Beilun Wang and Bin Zhang 0001",
+    "author": "Kai Sun 0016 and Peibo Duan and Levin Kuhlmann and Beilun Wang and Bin Zhang 0001",
     "booktitle": "IJCAI",
     "title": "ILIF: Temporal Inhibitory Leaky Integrate-and-Fire Neuron for Overactivation in Spiking Neural Networks.",
     "year": "2025",
@@ -7441,7 +7441,7 @@
   "Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/CaiZ00CXH25",
-    "author": "Ruichu Cai and Kaitao Zheng and Junxian Huang 0002 and Zijian Li 0001 and Zhengming Chen 0002 and Boyan Xu and Zhifeng Hao",
+    "author": "Ruichu Cai and Kaitao Zheng and Junxian Huang 0002 and Zijian Li 0001 and Zhengming Chen 0002 and Boyan Xu and Zhifeng Hao 0004",
     "booktitle": "IJCAI",
     "title": "Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism.",
     "year": "2025",
@@ -13014,7 +13014,7 @@
   "DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangWHXLZCW25",
-    "author": "Miao Zhang 0036 and Jiawei Wang and Jinying Han and Kui Xiao and Zhifei Li and Yan Zhang 0077 and Hao Chen 0134 and Shihui Wang",
+    "author": "Miao Zhang 0036 and Jiawei Wang and Jinying Han and Kui Xiao and Zhifei Li 0009 and Yan Zhang 0077 and Hao Chen 0134 and Shihui Wang",
     "booktitle": "IJCAI",
     "title": "DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning.",
     "year": "2025",
@@ -13042,7 +13042,7 @@
   "EDGE: Efficient Data Selection for LLM Agents via Guideline Effectiveness.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangXLZ25",
-    "author": "Yunxiao Zhang and Guanming Xiong and Haochen Li and Wen Zhao",
+    "author": "Yunxiao Zhang and Guanming Xiong and Haochen Li 0001 and Wen Zhao 0008",
     "booktitle": "IJCAI",
     "title": "EDGE: Efficient Data Selection for LLM Agents via Guideline Effectiveness.",
     "year": "2025",
@@ -14177,7 +14177,7 @@
   "Conditional Independent Test in the Presence of Measurement Error with Causal Structure Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/0008CL0HC25",
-    "author": "Hongbin Zhang 0008 and Kezhou Chen and Nankai Lin and Aimin Yang 0002 and Zhifeng Hao and Zhengming Chen 0002",
+    "author": "Hongbin Zhang 0008 and Kezhou Chen and Nankai Lin and Aimin Yang 0002 and Zhifeng Hao 0004 and Zhengming Chen 0002",
     "booktitle": "IJCAI",
     "title": "Conditional Independent Test in the Presence of Measurement Error with Causal Structure Learning.",
     "year": "2025",
@@ -16824,7 +16824,7 @@
   "Connector-S: A Survey of Connectors in Multi-modal Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhuZCS0025",
-    "author": "Xun Zhu and Zheng Zhang and Xi Chen and Yiming Shi and Miao Li 0003 and Ji Wu 0002",
+    "author": "Xun Zhu and Zheng Zhang and Xi Chen 0009 and Yiming Shi and Miao Li 0003 and Ji Wu 0002",
     "booktitle": "IJCAI",
     "title": "Connector-S: A Survey of Connectors in Multi-modal Large Language Models.",
     "year": "2025",

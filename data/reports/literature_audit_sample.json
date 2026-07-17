@@ -579,6 +579,26 @@
       "notes": "missing doi"
     },
     {
+      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1007/s00778-023-00809-w",
+        "https://doi.org/10.1007/s00778-023-00809-w",
+        "https://openalex.org/W4386099755"
+      ],
+      "notes": ""
+    },
+    {
       "title": "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models",
       "present_in_labeldata": true,
       "stratum": "supplemental",
@@ -719,24 +739,22 @@
       "notes": ""
     },
     {
-      "title": "RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation",
+      "title": "mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer",
       "present_in_labeldata": true,
-      "stratum": "supplemental",
+      "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2026",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
+      "year": "2021",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v40i39.40556",
-        "https://doi.org/10.1609/aaai.v40i39.40556",
-        "https://openalex.org/W7138941083"
+        "https://arxiv.org/abs/2110.03546v2"
       ],
-      "notes": ""
+      "notes": "missing doi"
     },
     {
       "title": "PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning",
@@ -753,24 +771,6 @@
       "doi_or_url_ok": true,
       "external_sources": [
         "https://arxiv.org/abs/2509.07159v1"
-      ],
-      "notes": "missing doi"
-    },
-    {
-      "title": "PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2604.17653v1"
       ],
       "notes": "missing doi"
     }

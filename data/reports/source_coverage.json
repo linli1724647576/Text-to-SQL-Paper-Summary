@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-17T18:09:25Z",
+  "generated_at": "2026-07-18T17:58:21Z",
   "records": [
     {
       "kind": "conference",
@@ -1745,7 +1745,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 65,
+      "raw_candidate_count": 78,
       "rawdata_files": [
         "data/rawdata/2026/VLDB2026.json"
       ],

@@ -2845,7 +2845,7 @@
   "MvP-ECR: Multi-Perspective Emotion-Cause Reasoning for Empathetic Dialogue.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HeHLYDR26",
-    "author": "Yuanyuan He and Guotai Huang and Wei Li 0308 and Jiali You 0002 and Jiawen Deng and Fuji Ren",
+    "author": "Yuanyuan He and Guotai Huang and Wei Li 0308 and Jiali You 0002 and Jiawen Deng 0006 and Fuji Ren",
     "booktitle": "AAAI",
     "title": "MvP-ECR: Multi-Perspective Emotion-Cause Reasoning for Empathetic Dialogue.",
     "year": "2026",
@@ -3559,7 +3559,7 @@
   "TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuangLZDR26",
-    "author": "Yan Zhuang 0002 and Minhao Liu and Yanru Zhang and Jiawen Deng and Fuji Ren",
+    "author": "Yan Zhuang 0002 and Minhao Liu and Yanru Zhang and Jiawen Deng 0006 and Fuji Ren",
     "booktitle": "AAAI",
     "title": "TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities.",
     "year": "2026",
@@ -6262,7 +6262,7 @@
   "OscuFit: Learning to Fit Osculating Implicit Quadrics for Point Clouds.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FuLYZ26",
-    "author": "Rao Fu 0004 and Qian Li and Liang Yu and Jianmin Zheng",
+    "author": "Rao Fu 0004 and Qian Li 0075 and Liang Yu and Jianmin Zheng",
     "booktitle": "AAAI",
     "title": "OscuFit: Learning to Fit Osculating Implicit Quadrics for Point Clouds.",
     "year": "2026",
@@ -7131,7 +7131,7 @@
   "EvalMuse-40K: A Fine-Grained Benchmark with Comprehensive Human Annotations for Text-to-Image Generation Model Alignment Evaluation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HanFFLLCWTSGL26",
-    "author": "Shuhao Han and Haotian Fan and Jiachen Fu and Liang Li and Tao Li and Junhui Cui and Yunqiu Wang and Yang Tai and Jingwei Sun and Chun-Le Guo and Chongyi Li",
+    "author": "Shuhao Han and Haotian Fan and Jiachen Fu and Liang Li and Tao Li 0008 and Junhui Cui and Yunqiu Wang and Yang Tai and Jingwei Sun and Chun-Le Guo and Chongyi Li",
     "booktitle": "AAAI",
     "title": "EvalMuse-40K: A Fine-Grained Benchmark with Comprehensive Human Annotations for Text-to-Image Generation Model Alignment Evaluation.",
     "year": "2026",
@@ -20004,7 +20004,7 @@
   "VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLZLZZ26",
-    "author": "Xuanyu Zhang and Weiqi Li and Shijie Zhao 0001 and Junlin Li and Li Zhang 0006 and Jian Zhang 0018",
+    "author": "Xuanyu Zhang 0003 and Weiqi Li and Shijie Zhao 0001 and Junlin Li and Li Zhang 0006 and Jian Zhang 0018",
     "booktitle": "AAAI",
     "title": "VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning.",
     "year": "2026",
@@ -22973,7 +22973,7 @@
   "OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuoCWYCLDL26",
-    "author": "Xian Guo and Ben Chen 0004 and Siyuan Wang and Ying Yang and Mingyue Cheng 0004 and Chenyi Lei and Yuqing Ding and Han Li 0005",
+    "author": "Xian Guo and Ben Chen 0004 and Siyuan Wang 0014 and Ying Yang and Mingyue Cheng 0004 and Chenyi Lei and Yuqing Ding and Han Li 0005",
     "booktitle": "AAAI",
     "title": "OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion.",
     "year": "2026",
@@ -24670,7 +24670,7 @@
   "Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangMJLLHYGW26",
-    "author": "Mengying Wang and Chenhui Ma and Ao Jiao and Tuo Liang and Pengjun Lu and Shrinidhi Hegde and Yu Yin 0001 and Evren Gurkan-Cavusoglu and Yinghui Wu",
+    "author": "Mengying Wang 0001 and Chenhui Ma and Ao Jiao and Tuo Liang and Pengjun Lu and Shrinidhi Hegde and Yu Yin 0001 and Evren Gurkan-Cavusoglu and Yinghui Wu 0001",
     "booktitle": "AAAI",
     "title": "Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing.",
     "year": "2026",
@@ -25006,7 +25006,7 @@
   "IDK-S: Incremental Distributional Kernel for Streaming Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuMZYT26",
-    "author": "Yang Xu and Yixiao Ma and Kaifeng Zhang and Zuliang Yang and Kai Ming Ting",
+    "author": "Yang Xu and Yixiao Ma and Kaifeng Zhang 0002 and Zuliang Yang and Kai Ming Ting",
     "booktitle": "AAAI",
     "title": "IDK-S: Incremental Distributional Kernel for Streaming Anomaly Detection.",
     "year": "2026",
@@ -30064,7 +30064,7 @@
   "MyGram: Modality-aware Graph Transformer with Global Distribution for Multi-modal Entity Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiQLHZZHXY26",
-    "author": "Zhifei Li and Ziyue Qin and Xiangyu Luo and Xiaoju Hou and Yue Zhao and Miao Zhang and Zhifang Huang and Kui Xiao and Bing Yang",
+    "author": "Zhifei Li 0009 and Ziyue Qin and Xiangyu Luo and Xiaoju Hou and Yue Zhao and Miao Zhang 0036 and Zhifang Huang and Kui Xiao and Bing Yang",
     "booktitle": "AAAI",
     "title": "MyGram: Modality-aware Graph Transformer with Global Distribution for Multi-modal Entity Alignment.",
     "year": "2026",
@@ -30078,7 +30078,7 @@
   "KeenKT: Knowledge Mastery-State Disambiguation for Knowledge Tracing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiCYHZHZXY26",
-    "author": "Zhifei Li and Lifan Chen and Jiali Yi and Xiaoju Hou and Yue Zhao and Wenxin Huang and Miao Zhang 0036 and Kui Xiao and Bing Yang",
+    "author": "Zhifei Li 0009 and Lifan Chen and Jiali Yi and Xiaoju Hou and Yue Zhao and Wenxin Huang and Miao Zhang 0036 and Kui Xiao and Bing Yang",
     "booktitle": "AAAI",
     "title": "KeenKT: Knowledge Mastery-State Disambiguation for Knowledge Tracing.",
     "year": "2026",
@@ -31549,7 +31549,7 @@
   "Spatial-Frequency Spiking Neural Network for Underwater Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenMGZXLX26",
-    "author": "Long Chen 0019 and Wei Miao and Xin Gao and Yunzhi Zhuge and Hongming Xu 0002 and Yaxin Li and Qi Xu 0008",
+    "author": "Long Chen 0019 and Wei Miao 0006 and Xin Gao and Yunzhi Zhuge and Hongming Xu 0002 and Yaxin Li and Qi Xu 0008",
     "booktitle": "AAAI",
     "title": "Spatial-Frequency Spiking Neural Network for Underwater Object Detection.",
     "year": "2026",
@@ -31647,7 +31647,7 @@
   "Horizontal and Vertical Federated Causal Structure Learning via Higher-order Cumulants.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenGPYCHZ26",
-    "author": "Wei Chen 0103 and Wanyang Gu and Linjun Peng and Ting Yan and Ruichu Cai and Zhifeng Hao and Kun Zhang 0001",
+    "author": "Wei Chen 0103 and Wanyang Gu and Linjun Peng and Ting Yan and Ruichu Cai and Zhifeng Hao 0004 and Kun Zhang 0001",
     "booktitle": "AAAI",
     "title": "Horizontal and Vertical Federated Causal Structure Learning via Higher-order Cumulants.",
     "year": "2026",
@@ -36254,7 +36254,7 @@
   "Distribution-Based Feature Attribution for Explaining the Predictions of Any Classifier.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiT26",
-    "author": "Xinpeng Li and Kai Ming Ting",
+    "author": "Xinpeng Li 0007 and Kai Ming Ting",
     "booktitle": "AAAI",
     "title": "Distribution-Based Feature Attribution for Explaining the Predictions of Any Classifier.",
     "year": "2026",
@@ -39028,7 +39028,7 @@
   "Decentralized Online Convex Optimization with Unknown Feedback Delays.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/QiuZA26",
-    "author": "Hao Qiu and Mengxiao Zhang and Juliette Achddou",
+    "author": "Hao Qiu 0004 and Mengxiao Zhang and Juliette Achddou",
     "booktitle": "AAAI",
     "title": "Decentralized Online Convex Optimization with Unknown Feedback Delays.",
     "year": "2026",
@@ -42080,7 +42080,7 @@
   "Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuSYSXHC26",
-    "author": "Jiulong Wu and Yucheng Shen and Lingyong Yan and Haixin Sun and Deguo Xia and Jizhou Huang and Min Cao",
+    "author": "Jiulong Wu and Yucheng Shen and Lingyong Yan and Haixin Sun and Deguo Xia and Jizhou Huang and Min Cao 0005",
     "booktitle": "AAAI",
     "title": "Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis.",
     "year": "2026",
@@ -45357,7 +45357,7 @@
   "Text-based Aerial-Ground Person Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouWMWCY26",
-    "author": "Xinyu Zhou and Yu Wu and Jiayao Ma and Wenhao Wang and Min Cao and Mang Ye",
+    "author": "Xinyu Zhou and Yu Wu and Jiayao Ma and Wenhao Wang and Min Cao 0005 and Mang Ye",
     "booktitle": "AAAI",
     "title": "Text-based Aerial-Ground Person Retrieval.",
     "year": "2026",
@@ -46899,7 +46899,7 @@
   "Towards Effective Code-Integrated Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/BaiMZCZFLWX26",
-    "author": "Fei Bai and Yingqian Min and Beichen Zhang and Zhipeng Chen 0001 and Xin Zhao 0018 and Lei Fang and Zheng Liu 0011 and Zhongyuan Wang 0006 and Hongteng Xu",
+    "author": "Fei Bai and Yingqian Min and Beichen Zhang 0003 and Zhipeng Chen 0001 and Xin Zhao 0018 and Lei Fang and Zheng Liu 0011 and Zhongyuan Wang 0006 and Hongteng Xu",
     "booktitle": "AAAI",
     "title": "Towards Effective Code-Integrated Reasoning.",
     "year": "2026",
@@ -47179,7 +47179,7 @@
   "LiR3AG: A Lightweight Rerank Reasoning Strategy Framework for Retrieval-Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenHXSJ26",
-    "author": "Guo Chen and Junjie Huang and Huaijin Xie and Fei Sun 0001 and Tao Jia",
+    "author": "Guo Chen and Junjie Huang and Huaijin Xie and Fei Sun 0001 and Tao Jia 0001",
     "booktitle": "AAAI",
     "title": "LiR3AG: A Lightweight Rerank Reasoning Strategy Framework for Retrieval-Augmented Generation.",
     "year": "2026",
@@ -47684,7 +47684,7 @@
   "W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DingWXWMWJD26",
-    "author": "Zhenyu Ding and Yuhao Wang and Tengyue Xiao and Haoying Wang and Guojun Ma and Mingyang Wan and Caigui Jiang and Ning Ding 0002",
+    "author": "Zhenyu Ding and Yuhao Wang and Tengyue Xiao and Haoying Wang and Guojun Ma and Mingyang Wan and Caigui Jiang and Ning Ding 0006",
     "booktitle": "AAAI",
     "title": "W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search.",
     "year": "2026",
@@ -49816,7 +49816,7 @@
   "MacVQA: Adaptive Memory Allocation and Global Noise Filtering for Continual Visual Question Answering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiWXXHZZXY26",
-    "author": "Zhifei Li and Yiran Wang and Chenyi Xiong and Yujing Xia and Xiaoju Hou and Yue Zhao and Miao Zhang 0036 and Kui Xiao and Bing Yang",
+    "author": "Zhifei Li 0009 and Yiran Wang and Chenyi Xiong and Yujing Xia and Xiaoju Hou and Yue Zhao and Miao Zhang 0036 and Kui Xiao and Bing Yang",
     "booktitle": "AAAI",
     "title": "MacVQA: Adaptive Memory Allocation and Global Noise Filtering for Continual Visual Question Answering.",
     "year": "2026",
@@ -52767,7 +52767,7 @@
   "MetaEval: Measuring the Discrimination of Benchmarks for Efficient LLM Evaluation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWWYC26",
-    "author": "Zhuo Wang and Wen Wu 0006 and Guoqing Wang and Guangze Ye and Zhenxiao Cheng",
+    "author": "Zhuo Wang 0010 and Wen Wu 0006 and Guoqing Wang and Guangze Ye and Zhenxiao Cheng",
     "booktitle": "AAAI",
     "title": "MetaEval: Measuring the Discrimination of Benchmarks for Efficient LLM Evaluation.",
     "year": "2026",
@@ -52866,7 +52866,7 @@
   "Thinking Forward and Backward: Multi-Objective Reinforcement Learning for Retrieval-Augmented Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WeiLZGSWYRC26",
-    "author": "Wenda Wei and Yu-An Liu 0028 and Ruqing Zhang 0001 and Jiafeng Guo and Lixin Su and Shuaiqiang Wang and Dawei Yin 0001 and Maarten de Rijke and Xueqi Cheng",
+    "author": "Wenda Wei and Yu-An Liu 0028 and Ruqing Zhang 0001 and Jiafeng Guo and Lixin Su and Shuaiqiang Wang and Dawei Yin 0001 and Maarten de Rijke and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Thinking Forward and Backward: Multi-Objective Reinforcement Learning for Retrieval-Augmented Reasoning.",
     "year": "2026",
@@ -53356,7 +53356,7 @@
   "RLKD: Distilling LLMs' Reasoning via Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuPZGWDPSC26",
-    "author": "Shicheng Xu and Liang Pang 0001 and Yunchang Zhu and Jia Gu and Zihao Wei and Jingcheng Deng and Feiyang Pan and Huawei Shen and Xueqi Cheng",
+    "author": "Shicheng Xu and Liang Pang 0001 and Yunchang Zhu and Jia Gu and Zihao Wei and Jingcheng Deng and Feiyang Pan and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "RLKD: Distilling LLMs' Reasoning via Reinforcement Learning.",
     "year": "2026",
@@ -55094,7 +55094,7 @@
   "S³-MSD: Large Vision-Language Model for Explainable and Generalizable Multi-modal Sarcasm Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuZZSHWCXW26",
-    "author": "Zhihong Zhu and Fan Zhang 0111 and Yunyan Zhang and Jinghan Sun and Guimin Hu and Hao Wu 0094 and Yuyan Chen and Bowen Xing and Xian Wu 0001",
+    "author": "Zhihong Zhu 0001 and Fan Zhang 0111 and Yunyan Zhang and Jinghan Sun and Guimin Hu and Hao Wu 0094 and Yuyan Chen and Bowen Xing and Xian Wu 0001",
     "booktitle": "AAAI",
     "title": "S³-MSD: Large Vision-Language Model for Explainable and Generalizable Multi-modal Sarcasm Detection.",
     "year": "2026",
@@ -55108,7 +55108,7 @@
   "CMID: Towards Medical Visual Question Answering via Contrastive Mutual Information Decoding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuZZXW26",
-    "author": "Zhihong Zhu and Yunyan Zhang and Fan Zhang 0111 and Bowen Xing and Xian Wu 0001",
+    "author": "Zhihong Zhu 0001 and Yunyan Zhang and Fan Zhang 0111 and Bowen Xing and Xian Wu 0001",
     "booktitle": "AAAI",
     "title": "CMID: Towards Medical Visual Question Answering via Contrastive Mutual Information Decoding.",
     "year": "2026",
@@ -55234,7 +55234,7 @@
   "Amplifying Discrepancies: Exploiting Macro and Micro Inconsistencies for Image Manipulation Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenZWMGLG26",
-    "author": "Shenghao Chen and Yibo Zhao 0001 and Tianyi Wang 0006 and Chunjie Ma and Weili Guan and Ming Li 0083 and Zan Gao",
+    "author": "Shenghao Chen and Yibo Zhao 0001 and Tianyi Wang 0006 and Chunjie Ma and Weili Guan and Ming Li 0083 and Zan Gao 0001",
     "booktitle": "AAAI",
     "title": "Amplifying Discrepancies: Exploiting Macro and Micro Inconsistencies for Image Manipulation Localization.",
     "year": "2026",
@@ -55458,7 +55458,7 @@
   "Parameterized Abstract Interpretation for Transformer Verification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangWIWWB26",
-    "author": "Pei Huang 0002 and Dennis Wei and Omri Isac and Haoze Wu 0001 and Min Wu 0003 and Clark W. Barrett",
+    "author": "Pei Huang 0002 and Dennis Wei and Omri Isac and Haoze Wu 0001 and Min Wu 0011 and Clark W. Barrett",
     "booktitle": "AAAI",
     "title": "Parameterized Abstract Interpretation for Transformer Verification.",
     "year": "2026",
@@ -56019,7 +56019,7 @@
   "Efficiently Computing Compact Formal Explanations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuLWB26",
-    "author": "Min Wu 0003 and Xiaofu Li and Haoze Wu 0001 and Clark W. Barrett",
+    "author": "Min Wu 0011 and Xiaofu Li and Haoze Wu 0001 and Clark W. Barrett",
     "booktitle": "AAAI",
     "title": "Efficiently Computing Compact Formal Explanations.",
     "year": "2026",
@@ -58526,7 +58526,7 @@
   "TAPO: Dynamic Teacher and Perturbed Answer Injection for Policy Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangWWBCWLLZLL26",
-    "author": "Maowei Jiang and Zihang Wang and Qi Wang and Peter Bús and Moquan Chen and Yifan Wang and Quangao Liu and Ruiqi Li and Pengyu Zeng and Ruikai Liu and Alan Liang and Yansong Xu and Yusong Hu and Chaoran Zhang and Zhiyong Dong",
+    "author": "Maowei Jiang and Zihang Wang and Qi Wang and Peter Bús and Moquan Chen and Yifan Wang and Quangao Liu and Ruiqi Li 0004 and Pengyu Zeng and Ruikai Liu and Alan Liang and Yansong Xu and Yusong Hu and Chaoran Zhang and Zhiyong Dong",
     "booktitle": "AAAI",
     "title": "TAPO: Dynamic Teacher and Perturbed Answer Injection for Policy Optimization.",
     "year": "2026",

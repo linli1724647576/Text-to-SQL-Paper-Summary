@@ -1030,9 +1030,9 @@
           "relevant_papers": 7
         },
         "VLDB2026": {
-          "raw_candidates": 65,
+          "raw_candidates": 78,
           "official_accepted": 0,
-          "dblp": 65,
+          "dblp": 78,
           "arxiv": 0,
           "relevant_papers": 4
         },
@@ -1217,7 +1217,7 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 1,
+    "fetch_failure_count": 0,
     "fetch_warning_count": 0,
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,

@@ -2466,7 +2466,7 @@
   "Accelerating Primal Solution Findings for Mixed Integer Programs Based on Solution Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DingZSLWXS20",
-    "author": "Jian-Ya Ding and Chao Zhang and Lei Shen and Shengyin Li and Bing Wang 0017 and Yinghui Xu and Le Song",
+    "author": "Jian-Ya Ding and Chao Zhang 0096 and Lei Shen and Shengyin Li and Bing Wang 0017 and Yinghui Xu and Le Song",
     "booktitle": "AAAI",
     "title": "Accelerating Primal Solution Findings for Mixed Integer Programs Based on Solution Prediction.",
     "year": "2020",
@@ -8088,7 +8088,7 @@
   "FlowScope: Spotting Money Laundering Based on Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLLHSHHC20",
-    "author": "Xiangfeng Li and Shenghua Liu and Zifeng Li and Xiaotian Han and Chuan Shi 0001 and Bryan Hooi and He Huang and Xueqi Cheng",
+    "author": "Xiangfeng Li and Shenghua Liu and Zifeng Li and Xiaotian Han and Chuan Shi 0001 and Bryan Hooi and He Huang and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "FlowScope: Spotting Money Laundering Based on Graphs.",
     "year": "2020",
@@ -16415,7 +16415,7 @@
   "Structure Learning for Headline Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangGFLC20",
-    "author": "Ruqing Zhang 0001 and Jiafeng Guo and Yixing Fan and Yanyan Lan and Xueqi Cheng",
+    "author": "Ruqing Zhang 0001 and Jiafeng Guo and Yixing Fan and Yanyan Lan and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Structure Learning for Headline Generation.",
     "year": "2020",
@@ -16583,7 +16583,7 @@
   "Reinforced Curriculum Learning on Pre-Trained Neural Machine Translation Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoWNW20",
-    "author": "Mingjun Zhao and Haijiang Wu and Di Niu and Xiaoli Wang 0004",
+    "author": "Mingjun Zhao and Haijiang Wu and Di Niu 0002 and Xiaoli Wang 0004",
     "booktitle": "AAAI",
     "title": "Reinforced Curriculum Learning on Pre-Trained Neural Machine Translation Models.",
     "year": "2020",
@@ -24374,7 +24374,7 @@
   "Entity Type Enhanced Neural Model for Distantly Supervised Relation Extraction (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/BaiJZC20",
-    "author": "Long Bai 0002 and Xiaolong Jin 0001 and Chuanzhi Zhuang and Xueqi Cheng",
+    "author": "Long Bai 0002 and Xiaolong Jin 0001 and Chuanzhi Zhuang and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Entity Type Enhanced Neural Model for Distantly Supervised Relation Extraction (Student Abstract).",
     "year": "2020",
@@ -24420,12 +24420,13 @@
     "booktitle": "AAAI",
     "title": "Improving Semantic Parsing Using Statistical Word Sense Disambiguation (Student Abstract).",
     "year": "2020",
-    "abstract": "",
+    "abstract": "A Semantic Parser generates a logical form graph from an utterance where the edges are semantic roles and nodes are word senses in an ontology that supports reasoning. The generated representation attempts to capture the full meaning of the utterance. While the process of parsing works to resolve lexical ambiguity, a number of errors in the logical forms arise from incorrectly assigned word sense determinations. This is especially true in logical and rule-based semantic parsers. Although the performance of statistical word sense disambiguation methods is superior to the word sense output of semantic parser, these systems do not produce the rich role structure or a detailed semantic representation of the sentence content. In this work, we use decisions from a statistical WSD system to inform a logical semantic parser and greatly improve semantic type assignments in the resulting logical forms.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7150",
     "doi": "10.1609/aaai.v34i10.7150",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3037522856"
   },
   "Towards an Integrative Educational Recommender for Lifelong Learners (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -24504,13 +24505,12 @@
     "booktitle": "AAAI",
     "title": "RPM-Oriented Query Rewriting Framework for E-commerce Keyword-Based Sponsored Search (Student Abstract).",
     "year": "2020",
-    "abstract": "Sponsored search optimizes revenue and relevance, which is estimated by Revenue Per Mille (RPM). Existing sponsored search models are all based on traditional statistical models, which have poor RPM performance when queries follow a heavy-tailed distribution. Here, we propose an RPMoriented Query Rewriting Framework (RQRF) which outputs related bid keywords that can yield high RPM. RQRF embeds both queries and bid keywords to vectors in the same implicit space, converting the rewriting probability between each query and keyword to the distance between the two vectors. For label construction, we propose an RPM-oriented sample construction method, labeling keywords based on whether or not they can lead to high RPM. Extensive experiments are conducted to evaluate performance of RQRF. In a one month large-scale real-world traffic of e-commerce sponsored search system, the proposed model significantly outperforms traditional baseline.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7156",
     "doi": "10.1609/aaai.v34i10.7156",
     "venue": "AAAI2020",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W3038113521"
+    "venue_track": "AI"
   },
   "Learning to Model Opponent Learning (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -25593,7 +25593,7 @@
   "Link Prediction between Group Entities in Knowledge Graphs (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SuWJJC20",
-    "author": "Jialin Su and Yuanzhuo Wang and Xiaolong Jin 0001 and Yantao Jia and Xueqi Cheng",
+    "author": "Jialin Su and Yuanzhuo Wang and Xiaolong Jin 0001 and Yantao Jia and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Link Prediction between Group Entities in Knowledge Graphs (Student Abstract).",
     "year": "2020",

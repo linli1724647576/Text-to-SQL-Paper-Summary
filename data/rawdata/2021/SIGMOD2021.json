@@ -2964,7 +2964,7 @@
   "Learning-Aided Heuristics Design for Storage System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/TangLLCYZ21",
-    "author": "Yingtian Tang and Han Lu and Xijun Li and Lei Chen 0031 and Mingxuan Yuan and Jia Zeng",
+    "author": "Yingtian Tang and Han Lu 0004 and Xijun Li and Lei Chen 0031 and Mingxuan Yuan and Jia Zeng",
     "booktitle": "SIGMOD Conference",
     "title": "Learning-Aided Heuristics Design for Storage System.",
     "year": "2021",
@@ -3090,7 +3090,7 @@
   "SRA: Smart Recovery Advisor for Cyber Attacks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/ChowDS021",
-    "author": "Ka Ho Chow and Umesh Deshpande and Sangeetha Seshadri and Ling Liu 0001",
+    "author": "Ka-Ho Chow 0001 and Umesh Deshpande and Sangeetha Seshadri and Ling Liu 0001",
     "booktitle": "SIGMOD Conference",
     "title": "SRA: Smart Recovery Advisor for Cyber Attacks.",
     "year": "2021",

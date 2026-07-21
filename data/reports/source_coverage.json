@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-20T18:56:06Z",
+  "generated_at": "2026-07-21T18:20:46Z",
   "records": [
     {
       "kind": "conference",
@@ -37,7 +37,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 1624,
+      "raw_candidate_count": 27,
       "rawdata_files": [
         "data/rawdata/2022/AAAI2022.json"
       ],
@@ -332,7 +332,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 2072,
+      "raw_candidate_count": 559,
       "rawdata_files": [
         "data/rawdata/2022/CVPR2022.json"
       ],

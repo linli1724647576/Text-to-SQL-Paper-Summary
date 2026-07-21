@@ -5943,7 +5943,7 @@
   "Debiased Contrastive Learning of Unsupervised Sentence Representations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhouZZW22",
-    "author": "Kun Zhou 0002 and Beichen Zhang and Wayne Xin Zhao and Ji-Rong Wen",
+    "author": "Kun Zhou 0002 and Beichen Zhang 0003 and Wayne Xin Zhao and Ji-Rong Wen",
     "booktitle": "ACL (1)",
     "title": "Debiased Contrastive Learning of Unsupervised Sentence Representations.",
     "year": "2022",

@@ -141,9 +141,9 @@
           "relevant_papers": 5
         },
         "AAAI2022": {
-          "raw_candidates": 1624,
+          "raw_candidates": 27,
           "official_accepted": 0,
-          "dblp": 1624,
+          "dblp": 27,
           "arxiv": 0,
           "relevant_papers": 2
         },
@@ -330,9 +330,9 @@
           "relevant_papers": 0
         },
         "CVPR2022": {
-          "raw_candidates": 2072,
+          "raw_candidates": 559,
           "official_accepted": 0,
-          "dblp": 2072,
+          "dblp": 559,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -1217,8 +1217,8 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 1,
-    "fetch_warning_count": 0,
+    "fetch_failure_count": 0,
+    "fetch_warning_count": 1,
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.0,

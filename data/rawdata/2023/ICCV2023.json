@@ -478,7 +478,7 @@
   "DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TanveerWMZ23",
-    "author": "Maham Tanveer and Yizhi Wang and Ali Mahdavi-Amiri and Hao Zhang 0002",
+    "author": "Maham Tanveer and Yizhi Wang 0006 and Ali Mahdavi-Amiri and Hao Zhang 0002",
     "booktitle": "ICCV",
     "title": "DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion.",
     "year": "2023",
@@ -4470,7 +4470,7 @@
   "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieWLZDLXW0ZL23",
-    "author": "Tao Xie 0010 and Ke Wang 0028 and Siyi Lu and Yukun Zhang and Kun Dai and Xiaoyu Li and Jie Xu and Li Wang 0092 and Lijun Zhao 0003 and Xinyu Zhang 0001 and Ruifeng Li 0001",
+    "author": "Tao Xie 0010 and Ke Wang 0028 and Siyi Lu and Yukun Zhang and Kun Dai and Xiaoyu Li and Jie Xu 0066 and Li Wang 0092 and Lijun Zhao 0003 and Xinyu Zhang 0001 and Ruifeng Li 0001",
     "booktitle": "ICCV",
     "title": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network.",
     "year": "2023",
@@ -4989,7 +4989,7 @@
   "Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangGMCSWSYK23",
-    "author": "Wenjia Wang and Yongtao Ge and Haiyi Mei and Zhongang Cai and Qingping Sun and Yanjun Wang and Chunhua Shen and Lei Yang 0059 and Taku Komura",
+    "author": "Wenjia Wang 0009 and Yongtao Ge and Haiyi Mei and Zhongang Cai and Qingping Sun and Yanjun Wang and Chunhua Shen and Lei Yang 0059 and Taku Komura",
     "booktitle": "ICCV",
     "title": "Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction.",
     "year": "2023",
@@ -7019,7 +7019,7 @@
   "OFVL-MS: Once for Visual Localization across Multiple Indoor Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieDLWJGLX0L23",
-    "author": "Tao Xie 0010 and Kun Dai and Siyi Lu and Ke Wang 0028 and Zhiqiang Jiang and Jinghan Gao and Dedong Liu and Jie Xu and Lijun Zhao 0003 and Ruifeng Li 0001",
+    "author": "Tao Xie 0010 and Kun Dai and Siyi Lu and Ke Wang 0028 and Zhiqiang Jiang and Jinghan Gao and Dedong Liu and Jie Xu 0066 and Lijun Zhao 0003 and Ruifeng Li 0001",
     "booktitle": "ICCV",
     "title": "OFVL-MS: Once for Visual Localization across Multiple Indoor Scenes.",
     "year": "2023",
@@ -22247,7 +22247,7 @@
   "RMP-Loss: Regularizing Membrane Potential Distribution for Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GuoLCZPZHM23",
-    "author": "Yufei Guo and Xiaode Liu and Yuanpei Chen and Liwen Zhang 0001 and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yufei Guo 0002 and Xiaode Liu and Yuanpei Chen and Liwen Zhang 0001 and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "ICCV",
     "title": "RMP-Loss: Regularizing Membrane Potential Distribution for Spiking Neural Networks.",
     "year": "2023",
@@ -23718,7 +23718,7 @@
   "NeTO: Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiLWCW0X23",
-    "author": "Zongcheng Li and Xiaoxiao Long and Yusen Wang and Tuo Cao and Wenping Wang 0001 and Fei Luo 0004 and Chunxia Xiao",
+    "author": "Zongcheng Li and Xiaoxiao Long and Yusen Wang 0002 and Tuo Cao and Wenping Wang 0001 and Fei Luo 0004 and Chunxia Xiao",
     "booktitle": "ICCV",
     "title": "NeTO: Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing.",
     "year": "2023",
@@ -24824,7 +24824,7 @@
   "Membrane Potential Batch Normalization for Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GuoZCPLZHM23",
-    "author": "Yufei Guo and Yuhan Zhang 0006 and Yuanpei Chen and Weihang Peng 0001 and Xiaode Liu and Liwen Zhang 0001 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yufei Guo 0002 and Yuhan Zhang 0006 and Yuanpei Chen and Weihang Peng 0001 and Xiaode Liu and Liwen Zhang 0001 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "ICCV",
     "title": "Membrane Potential Batch Normalization for Spiking Neural Networks.",
     "year": "2023",

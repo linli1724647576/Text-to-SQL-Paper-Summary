@@ -331,7 +331,7 @@
   "SCAD: Scalability Advisor for Interactive Microservices on Hybrid Clouds.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/ChowDDS023",
-    "author": "Ka Ho Chow and Umesh Deshpande and Veera Deenadhayalan and Sangeetha Seshadri and Ling Liu 0001",
+    "author": "Ka-Ho Chow 0001 and Umesh Deshpande and Veera Deenadhayalan and Sangeetha Seshadri and Ling Liu 0001",
     "booktitle": "SIGMOD Conference Companion",
     "title": "SCAD: Scalability Advisor for Interactive Microservices on Hybrid Clouds.",
     "year": "2023",

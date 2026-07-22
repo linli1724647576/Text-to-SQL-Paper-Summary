@@ -3629,7 +3629,7 @@
   "Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangWHFSZH23",
-    "author": "Siyuan Wang and Zhongyu Wei and Meng Han and Zhihao Fan and Haijun Shan and Qi Zhang 0001 and Xuanjing Huang 0001",
+    "author": "Siyuan Wang 0025 and Zhongyu Wei and Meng Han and Zhihao Fan and Haijun Shan and Qi Zhang 0001 and Xuanjing Huang 0001",
     "booktitle": "ACL (1)",
     "title": "Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs.",
     "year": "2023",
@@ -5048,7 +5048,7 @@
   "FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZengHWZWXX23",
-    "author": "Weihao Zeng and Keqing He 0001 and Yejie Wang and Chen Zeng and Jingang Wang and Yunsen Xian and Weiran Xu",
+    "author": "Weihao Zeng 0003 and Keqing He 0001 and Yejie Wang and Chen Zeng and Jingang Wang and Yunsen Xian and Weiran Xu",
     "booktitle": "ACL (1)",
     "title": "FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue.",
     "year": "2023",
@@ -8560,7 +8560,7 @@
   "Semantic Structure Enhanced Event Causality Identification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/HuLJ0GGC23",
-    "author": "Zhilei Hu and Zixuan Li 0001 and Xiaolong Jin 0001 and Long Bai 0002 and Saiping Guan and Jiafeng Guo and Xueqi Cheng",
+    "author": "Zhilei Hu and Zixuan Li 0001 and Xiaolong Jin 0001 and Long Bai 0002 and Saiping Guan and Jiafeng Guo and Xueqi Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "Semantic Structure Enhanced Event Causality Identification.",
     "year": "2023",
@@ -11130,7 +11130,7 @@
   "Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZengZHGW0X23",
-    "author": "Weihao Zeng and Lulu Zhao and Keqing He 0001 and Ruotong Geng and Jingang Wang and Wei Wu 0014 and Weiran Xu",
+    "author": "Weihao Zeng 0003 and Lulu Zhao and Keqing He 0001 and Ruotong Geng and Jingang Wang and Wei Wu 0014 and Weiran Xu",
     "booktitle": "ACL (1)",
     "title": "Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation.",
     "year": "2023",

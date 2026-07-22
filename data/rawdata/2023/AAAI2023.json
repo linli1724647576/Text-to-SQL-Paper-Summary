@@ -702,7 +702,7 @@
   "Weakly Supervised 3D Multi-Person Pose Estimation for Large-Scale Scenes Based on Monocular Camera and Single LiDAR.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CongXRZXWYM23",
-    "author": "Peishan Cong and Yiteng Xu and Yiming Ren and Juze Zhang and Lan Xu 0003 and Jingya Wang 0001 and Jingyi Yu 0001 and Yuexin Ma",
+    "author": "Peishan Cong and Yiteng Xu and Yiming Ren 0001 and Juze Zhang and Lan Xu 0003 and Jingya Wang 0001 and Jingyi Yu 0001 and Yuexin Ma",
     "booktitle": "AAAI",
     "title": "Weakly Supervised 3D Multi-Person Pose Estimation for Large-Scale Scenes Based on Monocular Camera and Single LiDAR.",
     "year": "2023",
@@ -5564,7 +5564,7 @@
   "RLogist: Fast Observation Strategy on Whole-Slide Images with Deep Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Zhao0YCHFY23",
-    "author": "Boxuan Zhao and Jun Zhang 0018 and Deheng Ye and Jian Cao and Xiao Han 0011 and Qiang Fu 0016 and Wei Yang 0032",
+    "author": "Boxuan Zhao and Jun Zhang 0018 and Deheng Ye and Jian Cao 0001 and Xiao Han 0011 and Qiang Fu 0016 and Wei Yang 0032",
     "booktitle": "AAAI",
     "title": "RLogist: Fast Observation Strategy on Whole-Slide Images with Deep Reinforcement Learning.",
     "year": "2023",
@@ -7723,7 +7723,7 @@
   "A Provable Framework of Learning Graph Embeddings via Summarization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002LKSC23",
-    "author": "Houquan Zhou 0002 and Shenghua Liu and Danai Koutra and Huawei Shen and Xueqi Cheng",
+    "author": "Houquan Zhou 0002 and Shenghua Liu and Danai Koutra and Huawei Shen and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "A Provable Framework of Learning Graph Embeddings via Summarization.",
     "year": "2023",
@@ -8369,7 +8369,7 @@
   "KerPrint: Local-Global Knowledge Graph Enhanced Diagnosis Prediction for Retrospective and Prospective Interpretations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangXZD0WX23",
-    "author": "Kai Yang and Yongxin Xu and Peinie Zou and Hongxin Ding and Junfeng Zhao 0001 and Yasha Wang and Bing Xie",
+    "author": "Kai Yang 0053 and Yongxin Xu and Peinie Zou and Hongxin Ding and Junfeng Zhao 0001 and Yasha Wang and Bing Xie",
     "booktitle": "AAAI",
     "title": "KerPrint: Local-Global Knowledge Graph Enhanced Diagnosis Prediction for Retrospective and Prospective Interpretations.",
     "year": "2023",
@@ -10415,7 +10415,7 @@
   "McOmet: Multimodal Fusion Transformer for Physical Audiovisual Commonsense Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZongS23",
-    "author": "Daoming Zong and Shiliang Sun",
+    "author": "",
     "booktitle": "AAAI",
     "title": "McOmet: Multimodal Fusion Transformer for Physical Audiovisual Commonsense Reasoning.",
     "year": "2023",
@@ -13412,7 +13412,7 @@
   "Learning Adversarially Robust Sparse Networks via Weight Reparameterization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiQZGC23",
-    "author": "Chenhao Li and Qiang Qiu and Zhibin Zhang and Jiafeng Guo and Xueqi Cheng",
+    "author": "Chenhao Li and Qiang Qiu and Zhibin Zhang and Jiafeng Guo and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Learning Adversarially Robust Sparse Networks via Weight Reparameterization.",
     "year": "2023",
@@ -14084,7 +14084,7 @@
   "Centerless Multi-View K-means Based on the Adjacency Matrix.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LuGWYX23",
-    "author": "Han Lu and Quanxue Gao and Qianqian Wang 0001 and Ming Yang 0024 and Wei Xia 0007",
+    "author": "Han Lu 0005 and Quanxue Gao and Qianqian Wang 0001 and Ming Yang 0024 and Wei Xia 0007",
     "booktitle": "AAAI",
     "title": "Centerless Multi-View K-means Based on the Adjacency Matrix.",
     "year": "2023",
@@ -19727,7 +19727,7 @@
   "Rich Event Modeling for Script Event Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002GLGJC23",
-    "author": "Long Bai 0002 and Saiping Guan and Zixuan Li 0001 and Jiafeng Guo and Xiaolong Jin 0001 and Xueqi Cheng",
+    "author": "Long Bai 0002 and Saiping Guan and Zixuan Li 0001 and Jiafeng Guo and Xiaolong Jin 0001 and Xueqi Cheng 0001",
     "booktitle": "AAAI",
     "title": "Rich Event Modeling for Script Event Prediction.",
     "year": "2023",
@@ -27608,7 +27608,7 @@
   "Enhancing Dynamic GCN for Node Attribute Forecasting with Meta Spatial-Temporal Learning (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Wu0ZW23",
-    "author": "Bo Wu 0026 and Xun Liang 0001 and Xiangping Zheng and Jun Wang",
+    "author": "Bo Wu 0026 and Xun Liang 0001 and Xiangping Zheng 0002 and Jun Wang",
     "booktitle": "AAAI",
     "title": "Enhancing Dynamic GCN for Node Attribute Forecasting with Meta Spatial-Temporal Learning (Student Abstract).",
     "year": "2023",
@@ -27804,7 +27804,7 @@
   "Exploiting High-Order Interaction Relations to Explore User Intent (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Zheng0W23",
-    "author": "Xiangping Zheng and Xun Liang 0001 and Bo Wu 0026",
+    "author": "Xiangping Zheng 0002 and Xun Liang 0001 and Bo Wu 0026",
     "booktitle": "AAAI",
     "title": "Exploiting High-Order Interaction Relations to Explore User Intent (Student Abstract).",
     "year": "2023",

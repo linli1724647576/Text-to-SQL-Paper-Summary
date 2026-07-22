@@ -119,7 +119,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/AAAI2023.json",
-          "sha256": "d9d51c09b3fe4076507894e9158b83b87f309e2d39e037c8cda30dde6ecb57ad"
+          "sha256": "c5b2882634e01fd00ce35ba25d0cb7a0adbd2952c631b929ad35c14db0b0a0e0"
         }
       ],
       "processing": {
@@ -385,7 +385,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ACL2023.json",
-          "sha256": "dae19f9487feea3a456f85fcafca84cac1ad3200cece9e3b6bd7bcbd45a6adb6"
+          "sha256": "da21e9d535e07b6045dfb9d43b7d4c38644dcac2e25f2a0a1638ed085c9c1ff2"
         }
       ],
       "processing": {
@@ -1621,7 +1621,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ICCV2023.json",
-          "sha256": "18e8aaa3b8fc2e69a3e15c6337ed549a8ed22f44e5c7fad08380350e00c60986"
+          "sha256": "9ff3a4d5ce726412fd60cf0f05ae2fbd8e8ebd0516ecae2557034f5c9da21d74"
         }
       ],
       "processing": {
@@ -3865,7 +3865,7 @@
         },
         {
           "path": "data/rawdata/2023/SIGMOD2023.json",
-          "sha256": "b85d012dc40709a06c87506cf50b8b8bfedeed5171454c70c178627ec25c8cd6"
+          "sha256": "e20e4ba3957e7bf185d1696dc5532183d2d9a6d7ec9aee8489ffe7f79c994316"
         }
       ],
       "processing": {

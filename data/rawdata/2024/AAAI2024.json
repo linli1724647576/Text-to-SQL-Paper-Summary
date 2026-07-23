@@ -730,7 +730,7 @@
   "An Empirical Study of CLIP for Text-Based Person Search.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaoBZYZ24",
-    "author": "Min Cao and Yang Bai and Ziyin Zeng and Mang Ye and Min Zhang 0005",
+    "author": "Min Cao 0005 and Yang Bai and Ziyin Zeng and Mang Ye and Min Zhang 0005",
     "booktitle": "AAAI",
     "title": "An Empirical Study of CLIP for Text-Based Person Search.",
     "year": "2024",
@@ -6168,7 +6168,7 @@
   "DLCA-Recon: Dynamic Loose Clothing Avatar Reconstruction from Monocular Videos.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Luo0WZX24",
-    "author": "Chunjie Luo and Fei Luo 0004 and Yusen Wang and Enxu Zhao and Chunxia Xiao",
+    "author": "Chunjie Luo and Fei Luo 0004 and Yusen Wang 0002 and Enxu Zhao and Chunxia Xiao",
     "booktitle": "AAAI",
     "title": "DLCA-Recon: Dynamic Loose Clothing Avatar Reconstruction from Monocular Videos.",
     "year": "2024",
@@ -8156,7 +8156,7 @@
   "End-to-End Real-Time Vanishing Point Detection with Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TongPGH24",
-    "author": "Xin Tong and Shi Peng and Yufei Guo and Xuhui Huang",
+    "author": "Xin Tong and Shi Peng and Yufei Guo 0002 and Xuhui Huang",
     "booktitle": "AAAI",
     "title": "End-to-End Real-Time Vanishing Point Detection with Transformer.",
     "year": "2024",
@@ -12023,7 +12023,7 @@
   "Enhance Sketch Recognition's Explainability via Semantic Component-Level Parsing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0001WW024",
-    "author": "Guangming Zhu 0001 and Siyuan Wang and Tianci Wu and Liang Zhang 0010",
+    "author": "Guangming Zhu 0001 and Siyuan Wang 0004 and Tianci Wu and Liang Zhang 0010",
     "booktitle": "AAAI",
     "title": "Enhance Sketch Recognition's Explainability via Semantic Component-Level Parsing.",
     "year": "2024",
@@ -18030,7 +18030,7 @@
   "Operator-Learning-Inspired Modeling of Neural Ordinary Differential Equations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChoCJJL00CP24",
-    "author": "Woojin Cho and Seunghyeon Cho and Hyundong Jin and Jinsung Jeon and Kookjin Lee and Sanghyun Hong 0001 and Dongeun Lee 0001 and Jonghyun Choi and Noseong Park",
+    "author": "Woojin Cho 0001 and Seunghyeon Cho and Hyundong Jin and Jinsung Jeon and Kookjin Lee and Sanghyun Hong 0001 and Dongeun Lee 0001 and Jonghyun Choi and Noseong Park",
     "booktitle": "AAAI",
     "title": "Operator-Learning-Inspired Modeling of Neural Ordinary Differential Equations.",
     "year": "2024",
@@ -30130,7 +30130,7 @@
   "Automated Defect Report Generation for Enhanced Industrial Quality Control.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XieZWZW0024",
-    "author": "Jiayuan Xie and Zhiping Zhou and Zihan Wu and Xinting Zhang and Jiexin Wang and Yi Cai 0001 and Qing Li 0001",
+    "author": "Jiayuan Xie and Zhiping Zhou and Zihan Wu and Xinting Zhang and Jiexin Wang 0002 and Yi Cai 0001 and Qing Li 0001",
     "booktitle": "AAAI",
     "title": "Automated Defect Report Generation for Enhanced Industrial Quality Control.",
     "year": "2024",

@@ -157,7 +157,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/AAAI2024.json",
-          "sha256": "22e3887e58a6fac063ad9cf16158312d8197604857c830e26e24d80c9c62e316"
+          "sha256": "a8dd7d0d435917c75d9ffc756e82272d3718414ef0b0d532a24f05812ba92a0e"
         }
       ],
       "processing": {
@@ -423,7 +423,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/ACL2024.json",
-          "sha256": "ada8747cda140027d5fd23e0cf32a9b2317d45cbf7440f4284f819c29ae102d2"
+          "sha256": "74a2f4303ca7f2b8ffe833b8611845794927cb1d5659701732438e5917a961ae"
         }
       ],
       "processing": {

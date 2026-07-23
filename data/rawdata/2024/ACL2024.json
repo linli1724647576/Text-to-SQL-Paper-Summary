@@ -1026,7 +1026,7 @@
   "Active Prompting with Chain-of-Thought for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DiaoWLPL024",
-    "author": "Shizhe Diao and Pengcheng Wang 0005 and Yong Lin and Rui Pan 0002 and Xiang Liu and Tong Zhang 0001",
+    "author": "Shizhe Diao and Pengcheng Wang 0005 and Yong Lin and Rui Pan 0002 and Xiang Liu 0001 and Tong Zhang 0001",
     "booktitle": "ACL (1)",
     "title": "Active Prompting with Chain-of-Thought for Large Language Models.",
     "year": "2024",
@@ -3635,7 +3635,7 @@
   "DolphCoder: Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Wang0DWZDXWZC24",
-    "author": "Yejie Wang and Keqing He 0001 and Guanting Dong 0001 and Pei Wang and Weihao Zeng and Muxi Diao and Weiran Xu and Jingang Wang and Mengdi Zhang 0002 and Xunliang Cai",
+    "author": "Yejie Wang and Keqing He 0001 and Guanting Dong 0001 and Pei Wang and Weihao Zeng 0003 and Muxi Diao and Weiran Xu and Jingang Wang and Mengdi Zhang 0002 and Xunliang Cai",
     "booktitle": "ACL (1)",
     "title": "DolphCoder: Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning.",
     "year": "2024",
@@ -4939,7 +4939,7 @@
   "LLaMA Pro: Progressive LLaMA with Block Expansion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WuGGLWFSL24",
-    "author": "Chengyue Wu and Yukang Gan and Yixiao Ge and Zeyu Lu and Jiahao Wang and Ye Feng and Ying Shan and Ping Luo 0002",
+    "author": "Chengyue Wu and Yukang Gan and Yixiao Ge and Zeyu Lu and Jiahao Wang 0005 and Ye Feng and Ying Shan and Ping Luo 0002",
     "booktitle": "ACL (1)",
     "title": "LLaMA Pro: Progressive LLaMA with Block Expansion.",
     "year": "2024",

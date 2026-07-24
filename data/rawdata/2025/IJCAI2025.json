@@ -4469,7 +4469,7 @@
   "Filling the Missings: Spatiotemporal Data Imputation by Conditional Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/HeHGZB25",
-    "author": "Wenying He and Jieling Huang and Junhua Gu and Ji Zhang and Yude Bai",
+    "author": "Wenying He and Jieling Huang and Junhua Gu and Ji Zhang 0001 and Yude Bai",
     "booktitle": "IJCAI",
     "title": "Filling the Missings: Spatiotemporal Data Imputation by Conditional Diffusion.",
     "year": "2025",
@@ -8883,7 +8883,7 @@
   "RepObE: Representation Learning-Enhanced Obfuscation Encryption Modular Semantic Task Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LinXWCHW25",
-    "author": "Limei Lin and Jinpeng Xu and Xiaoding Wang 0001 and Liang Chen and Sun-Yuan Hsieh and Jie Wu 0001",
+    "author": "Limei Lin and Jinpeng Xu and Xiaoding Wang 0001 and Liang Chen 0044 and Sun-Yuan Hsieh and Jie Wu 0001",
     "booktitle": "IJCAI",
     "title": "RepObE: Representation Learning-Enhanced Obfuscation Encryption Modular Semantic Task Framework.",
     "year": "2025",
@@ -10675,7 +10675,7 @@
   "Run Like a Neural Network, Explain Like k-Nearest Neighbor.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/YeLWC25",
-    "author": "Xiaomeng Ye and David Leake and Yu Wang and David Crandall",
+    "author": "Xiaomeng Ye and David Leake and Yu Wang 0164 and David Crandall",
     "booktitle": "IJCAI",
     "title": "Run Like a Neural Network, Explain Like k-Nearest Neighbor.",
     "year": "2025",
@@ -11515,7 +11515,7 @@
   "Contrastive Cross-Course Knowledge Tracing via Concept Graph Guided Knowledge Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/HanLHDZLLYC25",
-    "author": "Wenkang Han and Wang Lin and Liya Hu and Zhenlong Dai and Yiyun Zhou and Mengze Li and Zemin Liu and Chang Yao 0001 and Jingyuan Chen",
+    "author": "Wenkang Han and Wang Lin and Liya Hu and Zhenlong Dai and Yiyun Zhou and Mengze Li 0001 and Zemin Liu and Chang Yao 0001 and Jingyuan Chen 0003",
     "booktitle": "IJCAI",
     "title": "Contrastive Cross-Course Knowledge Tracing via Concept Graph Guided Knowledge Transfer.",
     "year": "2025",
@@ -15423,7 +15423,7 @@
   "Beyond Patterns: Harnessing Causal Logic for Autonomous Driving Trajectory Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WangL0RGYZL0L25",
-    "author": "Bonan Wang and Haicheng Liao and Chengyue Wang 0001 and Bin Rao and Yanchen Guan and Guyang Yu and Jiaxun Zhang and Songning Lai and Chengzhong Xu 0001 and Zhenning Li 0001",
+    "author": "Bonan Wang and Haicheng Liao and Chengyue Wang 0001 and Bin Rao 0003 and Yanchen Guan and Guyang Yu and Jiaxun Zhang and Songning Lai and Chengzhong Xu 0001 and Zhenning Li 0001",
     "booktitle": "IJCAI",
     "title": "Beyond Patterns: Harnessing Causal Logic for Autonomous Driving Trajectory Prediction.",
     "year": "2025",

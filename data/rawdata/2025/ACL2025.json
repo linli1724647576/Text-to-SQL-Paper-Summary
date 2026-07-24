@@ -6841,7 +6841,7 @@
   "Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WuCLLZLKW25",
-    "author": "Tao Wu and Jingyuan Chen and Wang Lin and Mengze Li 0001 and Yumeng Zhu and Ang Li 0049 and Kun Kuang 0001 and Fei Wu 0001",
+    "author": "Tao Wu and Jingyuan Chen 0003 and Wang Lin and Mengze Li 0001 and Yumeng Zhu and Ang Li 0049 and Kun Kuang 0001 and Fei Wu 0001",
     "booktitle": "ACL (1)",
     "title": "Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents.",
     "year": "2025",
@@ -6981,7 +6981,7 @@
   "EfficientQAT: Efficient Quantization-Aware Training for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenSXWGZ025",
-    "author": "Mengzhao Chen and Wenqi Shao and Peng Xu 0035 and Jiahao Wang and Peng Gao 0007 and Kaipeng Zhang and Ping Luo 0002",
+    "author": "Mengzhao Chen and Wenqi Shao and Peng Xu 0035 and Jiahao Wang 0005 and Peng Gao 0007 and Kaipeng Zhang and Ping Luo 0002",
     "booktitle": "ACL (1)",
     "title": "EfficientQAT: Efficient Quantization-Aware Training for Large Language Models.",
     "year": "2025",
@@ -10064,7 +10064,7 @@
   "Demystifying Small Language Models for Edge Deployment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LuL0YLLLZLX25",
-    "author": "Zhenyan Lu and Xiang Li 0067 and Dongqi Cai 0001 and Rongjie Yi and Fangming Liu and Wei Liu 0061 and Jian Luan 0001 and Xiwen Zhang and Nicholas D. Lane and Mengwei Xu 0001",
+    "author": "Zhenyan Lu and Xiang Li 0067 and Dongqi Cai 0001 and Rongjie Yi and Fangming Liu and Wei Liu 0302 and Jian Luan 0001 and Xiwen Zhang and Nicholas D. Lane and Mengwei Xu 0001",
     "booktitle": "ACL (1)",
     "title": "Demystifying Small Language Models for Edge Deployment.",
     "year": "2025",
@@ -12951,7 +12951,7 @@
   "HAF-RM: A Hybrid Alignment Framework for Reward Model Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiuSLWYH0W25",
-    "author": "Shujun Liu and Xiaoyu Shen and Yuhang Lai and Siyuan Wang and Shengbin Yue and Zengfeng Huang and Xuanjing Huang 0001 and Zhongyu Wei",
+    "author": "Shujun Liu and Xiaoyu Shen and Yuhang Lai and Siyuan Wang 0025 and Shengbin Yue and Zengfeng Huang and Xuanjing Huang 0001 and Zhongyu Wei",
     "booktitle": "ACL (1)",
     "title": "HAF-RM: A Hybrid Alignment Framework for Reward Model Training.",
     "year": "2025",
@@ -13091,7 +13091,7 @@
   "SConU: Selective Conformal Uncertainty in Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangWZ00SX25",
-    "author": "Zhiyuan Wang and Qingni Wang and Yue Zhang 0025 and Tianlong Chen 0001 and Xiaofeng Zhu 0001 and Xiaoshuang Shi and Kaidi Xu",
+    "author": "Zhiyuan Wang 0007 and Qingni Wang and Yue Zhang 0025 and Tianlong Chen 0001 and Xiaofeng Zhu 0001 and Xiaoshuang Shi and Kaidi Xu",
     "booktitle": "ACL (1)",
     "title": "SConU: Selective Conformal Uncertainty in Large Language Models.",
     "year": "2025",
@@ -19176,7 +19176,7 @@
   "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/SuCTYZLQWLO0ZD25",
-    "author": "Haoyang Su and Renqi Chen and Shixiang Tang and Zhenfei Yin and Xinzhe Zheng 0001 and Jinzhe Li and Biqing Qi and Qi Wu and Hui Li 0037 and Wanli Ouyang and Philip Torr 0001 and Bowen Zhou 0002 and Nanqing Dong",
+    "author": "Haoyang Su 0001 and Renqi Chen and Shixiang Tang and Zhenfei Yin and Xinzhe Zheng 0001 and Jinzhe Li and Biqing Qi and Qi Wu and Hui Li 0037 and Wanli Ouyang and Philip Torr 0001 and Bowen Zhou 0002 and Nanqing Dong",
     "booktitle": "ACL (1)",
     "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System.",
     "year": "2025",
@@ -20802,7 +20802,7 @@
   "Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangWZLF0W25",
-    "author": "Siyuan Wang and Dianyi Wang and Chengxing Zhou and Zejun Li and Zhihao Fan and Xuanjing Huang 0001 and Zhongyu Wei",
+    "author": "Siyuan Wang 0025 and Dianyi Wang and Chengxing Zhou and Zejun Li and Zhihao Fan and Xuanjing Huang 0001 and Zhongyu Wei",
     "booktitle": "ACL (1)",
     "title": "Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference.",
     "year": "2025",

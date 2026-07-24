@@ -255,7 +255,7 @@
   "Knowledge Is Power: Harnessing Large Language Models for Enhanced Cognitive Diagnosis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DongC025",
-    "author": "Zhiang Dong and Jingyuan Chen and Fei Wu 0001",
+    "author": "Zhiang Dong and Jingyuan Chen 0003 and Fei Wu 0001",
     "booktitle": "AAAI",
     "title": "Knowledge Is Power: Harnessing Large Language Models for Enhanced Cognitive Diagnosis.",
     "year": "2025",
@@ -1265,7 +1265,7 @@
   "NEST: A Neuromodulated Small-world Hypergraph Trajectory Prediction Model for Autonomous Driving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangLWGRPC0L25",
-    "author": "Chengyue Wang 0001 and Haicheng Liao and Bonan Wang and Yanchen Guan and Bin Rao and Ziyuan Pu and Zhiyong Cui and Cheng-Zhong Xu 0001 and Zhenning Li 0001",
+    "author": "Chengyue Wang 0001 and Haicheng Liao and Bonan Wang and Yanchen Guan and Bin Rao 0003 and Ziyuan Pu and Zhiyong Cui and Cheng-Zhong Xu 0001 and Zhenning Li 0001",
     "booktitle": "AAAI",
     "title": "NEST: A Neuromodulated Small-world Hypergraph Trajectory Prediction Model for Autonomous Driving.",
     "year": "2025",
@@ -2287,7 +2287,7 @@
   "SpikingYOLOX: Improved YOLOX Object Detection with Fast Fourier Convolution and Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MiaoSX00C25",
-    "author": "Wei Miao and Jiangrong Shen and Qi Xu 0008 and Timo Hämäläinen 0002 and Yi Xu 0008 and Fengyu Cong",
+    "author": "Wei Miao 0006 and Jiangrong Shen and Qi Xu 0008 and Timo Hämäläinen 0002 and Yi Xu 0008 and Fengyu Cong",
     "booktitle": "AAAI",
     "title": "SpikingYOLOX: Improved YOLOX Object Detection with Fast Fourier Convolution and Spiking Neural Networks.",
     "year": "2025",
@@ -3239,7 +3239,7 @@
   "Ouroboros-Diffusion: Exploring Consistent Content Generation in Tuning-free Long Video Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenL0QY0025",
-    "author": "Jingyuan Chen and Fuchen Long and Jie An 0002 and Zhaofan Qiu and Ting Yao 0003 and Jiebo Luo 0001 and Tao Mei 0001",
+    "author": "Jingyuan Chen 0003 and Fuchen Long and Jie An 0002 and Zhaofan Qiu and Ting Yao 0003 and Jiebo Luo 0001 and Tao Mei 0001",
     "booktitle": "AAAI",
     "title": "Ouroboros-Diffusion: Exploring Consistent Content Generation in Tuning-free Long Video Diffusion.",
     "year": "2025",
@@ -5692,7 +5692,7 @@
   "Densely Connected Parameter-Efficient Tuning for Referring Image Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangXLLHY025",
-    "author": "Jiaqi Huang and Zunnan Xu and Ting Liu and Yong Liu and Haonan Han and Kehong Yuan and Xiu Li 0001",
+    "author": "Jiaqi Huang 0003 and Zunnan Xu and Ting Liu and Yong Liu and Haonan Han and Kehong Yuan and Xiu Li 0001",
     "booktitle": "AAAI",
     "title": "Densely Connected Parameter-Efficient Tuning for Referring Image Segmentation.",
     "year": "2025",
@@ -7879,7 +7879,7 @@
   "Micro-macro Wavelet-based Gaussian Splatting for 3D Reconstruction from Unconstrained Images.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLY025",
-    "author": "Yihui Li and Chengxin Lv and Hongyu Yang and Di Huang 0001",
+    "author": "Yihui Li and Chengxin Lv and Hongyu Yang 0001 and Di Huang 0001",
     "booktitle": "AAAI",
     "title": "Micro-macro Wavelet-based Gaussian Splatting for 3D Reconstruction from Unconstrained Images.",
     "year": "2025",
@@ -8005,7 +8005,7 @@
   "Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiangZWC0YWHC25",
-    "author": "Guoyan Liang and Qin Zhou 0002 and Zhe Wang 0002 and Jingyuan Chen and Lin Gu 0001 and Chang Yao 0001 and Sai Wu and Bingcang Huang and Kai Chen 0005",
+    "author": "Guoyan Liang and Qin Zhou 0002 and Zhe Wang 0002 and Jingyuan Chen 0003 and Lin Gu 0001 and Chang Yao 0001 and Sai Wu and Bingcang Huang and Kai Chen 0005",
     "booktitle": "AAAI",
     "title": "Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities.",
     "year": "2025",
@@ -8831,7 +8831,7 @@
   "Learning Dynamic Similarity by Bidirectional Hierarchical Sliding Semantic Probe for Efficient Text Video Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuHX025",
-    "author": "Yang Liu and Shudong Huang and Deng Xiong and Jiancheng Lv 0001",
+    "author": "Yang Liu 0264 and Shudong Huang and Deng Xiong and Jiancheng Lv 0001",
     "booktitle": "AAAI",
     "title": "Learning Dynamic Similarity by Bidirectional Hierarchical Sliding Semantic Probe for Efficient Text Video Retrieval.",
     "year": "2025",
@@ -8845,7 +8845,7 @@
   "Asymmetric Visual Semantic Embedding Framework for Efficient Vision-Language Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuLH025",
-    "author": "Yang Liu and Mengyuan Liu and Shudong Huang and Jiancheng Lv 0001",
+    "author": "Yang Liu 0264 and Mengyuan Liu 0001 and Shudong Huang and Jiancheng Lv 0001",
     "booktitle": "AAAI",
     "title": "Asymmetric Visual Semantic Embedding Framework for Efficient Vision-Language Alignment.",
     "year": "2025",
@@ -11422,7 +11422,7 @@
   "3D²-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangYZCH25",
-    "author": "Zichen Tang and Hongyu Yang and Hanchen Zhang and Jiaxin Chen 0002 and Di Huang 0001",
+    "author": "Zichen Tang and Hongyu Yang 0001 and Hanchen Zhang and Jiaxin Chen 0002 and Di Huang 0001",
     "booktitle": "AAAI",
     "title": "3D²-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling.",
     "year": "2025",
@@ -11927,7 +11927,7 @@
   "SSC-VAE: Structured Sparse Coding Based Variational Autoencoder for Detail Preserved Image Reconstruction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWWML25",
-    "author": "Hao Wang and Lu Wang 0003 and Zhongyu Wang and Lixin Ma and Ye Luo",
+    "author": "Hao Wang and Lu Wang 0003 and Zhongyu Wang and Lixin Ma and Ye Luo 0004",
     "booktitle": "AAAI",
     "title": "SSC-VAE: Structured Sparse Coding Based Variational Autoencoder for Detail Preserved Image Reconstruction.",
     "year": "2025",
@@ -13315,7 +13315,7 @@
   "GEONet: Global Enhancement and Optimization Network for Lane Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XiLDWC025",
-    "author": "Suyang Xi and Yunhao Liu and Hong Ding and Mingshuo Wang and Zhenghan Chen and Xiaoxuan Liang 0002",
+    "author": "",
     "booktitle": "AAAI",
     "title": "GEONet: Global Enhancement and Optimization Network for Lane Detection.",
     "year": "2025",
@@ -14058,7 +14058,7 @@
   "FreeCap: Hybrid Calibration-Free Motion Capture in Open Environments.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XueRSYZM25",
-    "author": "Aoru Xue and Yiming Ren and Zining Song and Mao Ye 0005 and Xinge Zhu and Yuexin Ma",
+    "author": "Aoru Xue and Yiming Ren 0001 and Zining Song and Mao Ye 0005 and Xinge Zhu and Yuexin Ma",
     "booktitle": "AAAI",
     "title": "FreeCap: Hybrid Calibration-Free Motion Capture in Open Environments.",
     "year": "2025",
@@ -19786,7 +19786,7 @@
   "M^3EL: A Multi-task Multi-topic Dataset for Multi-modal Entity Linking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangYBH0L25",
-    "author": "Fang Wang 0011 and Shenglin Yin and Xiaoying Bai and Minghao Hu and Tianwei Yan 0001 and Yi Liang",
+    "author": "Fang Wang 0011 and Shenglin Yin and Xiaoying Bai and Minghao Hu 0001 and Tianwei Yan 0001 and Yi Liang",
     "booktitle": "AAAI",
     "title": "M^3EL: A Multi-task Multi-topic Dataset for Multi-modal Entity Linking.",
     "year": "2025",
@@ -20570,7 +20570,7 @@
   "Learned Image Transmission with Hierarchical Variational Autoencoder.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLCHYZ25",
-    "author": "Guangyi Zhang and Hanlei Li and Yunlong Cai and Qiyu Hu and Guanding Yu and Runmin Zhang",
+    "author": "Guangyi Zhang 0005 and Hanlei Li and Yunlong Cai and Qiyu Hu and Guanding Yu and Runmin Zhang",
     "booktitle": "AAAI",
     "title": "Learned Image Transmission with Hierarchical Variational Autoencoder.",
     "year": "2025",
@@ -28908,7 +28908,7 @@
   "Symbolic Neural Ordinary Differential Equations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiZZD25",
-    "author": "Xin Li and Chengli Zhao and Xue Zhang and Xiaojun Duan",
+    "author": "Xin Li 0195 and Chengli Zhao and Xue Zhang and Xiaojun Duan",
     "booktitle": "AAAI",
     "title": "Symbolic Neural Ordinary Differential Equations.",
     "year": "2025",
@@ -35225,7 +35225,7 @@
   "Parametric ρ-Norm Scaling Calibration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangX25",
-    "author": "Siyuan Zhang and Linbo Xie",
+    "author": "Siyuan Zhang 0002 and Linbo Xie",
     "booktitle": "AAAI",
     "title": "Parametric ρ-Norm Scaling Calibration.",
     "year": "2025",
@@ -39729,7 +39729,7 @@
   "RETQA: A Large-Scale Open-Domain Tabular Question Answering Dataset for Real Estate Sector.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangYZZ025",
-    "author": "Zhensheng Wang and Wenmian Yang and Kun Zhou and Yiquan Zhang and Weijia Jia 0001",
+    "author": "Zhensheng Wang 0001 and Wenmian Yang and Kun Zhou and Yiquan Zhang and Weijia Jia 0001",
     "booktitle": "AAAI",
     "title": "RETQA: A Large-Scale Open-Domain Tabular Question Answering Dataset for Real Estate Sector.",
     "year": "2025",
@@ -40263,7 +40263,7 @@
   "Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YueWCHW25",
-    "author": "Shengbin Yue and Siyuan Wang and Wei Chen 0088 and Xuanjing Huang 0001 and Zhongyu Wei",
+    "author": "Shengbin Yue and Siyuan Wang 0025 and Wei Chen 0088 and Xuanjing Huang 0001 and Zhongyu Wei",
     "booktitle": "AAAI",
     "title": "Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks.",
     "year": "2025",

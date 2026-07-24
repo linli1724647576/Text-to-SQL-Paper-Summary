@@ -1868,7 +1868,7 @@
   "CSE-SFP: Enabling Unsupervised Sentence Representation Learning via a Single Forward Pass.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/ZhangSL25",
-    "author": "Bowen Zhang and Zixin Song and Chunping Li",
+    "author": "Bowen Zhang 0014 and Zixin Song and Chunping Li",
     "booktitle": "SIGIR",
     "title": "CSE-SFP: Enabling Unsupervised Sentence Representation Learning via a Single Forward Pass.",
     "year": "2025",
@@ -2554,7 +2554,7 @@
   "MSL: Not All Tokens Are What You Need for Tuning LLM as a Recommender.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/WangL0LZ0SF0025",
-    "author": "Bohao Wang and Feng Liu 0047 and Jiawei Chen 0007 and Xingyu Lou and Changwang Zhang and Jun Wang 0020 and Yuegang Sun and Yan Feng and Chun Chen 0001 and Can Wang 0001",
+    "author": "Bohao Wang 0001 and Feng Liu 0047 and Jiawei Chen 0007 and Xingyu Lou and Changwang Zhang and Jun Wang 0020 and Yuegang Sun and Yan Feng and Chun Chen 0001 and Can Wang 0001",
     "booktitle": "SIGIR",
     "title": "MSL: Not All Tokens Are What You Need for Tuning LLM as a Recommender.",
     "year": "2025",
@@ -7416,7 +7416,7 @@
   "Optimize Visual Shopping Journey with Embedding-based Retrieval in Pinterest Closeup.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/HouLDQWXZL25",
-    "author": "Junpeng Hou and Wei-Ting Lin and Arkin Dharawat and Jiaxing Qu and Qi Wang 0181 and Sai Xiao and Xianxing Zhang and Weiran Li",
+    "author": "Junpeng Hou and Wei-Ting Lin and Arkin Dharawat and Jiaxing Qu and Qi Wang 0181 and Sai Xiao and Xianxing Zhang and Weiran Li 0001",
     "booktitle": "SIGIR",
     "title": "Optimize Visual Shopping Journey with Embedding-based Retrieval in Pinterest Closeup.",
     "year": "2025",

@@ -1,4 +1,84 @@
 {
+  "Can large language models be a cardinality estimator? An empirical study": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7170829036",
+    "author": "Liangzu Liu and Yinjun Wu and Yue Wang and Zhuo Chang and R N Su and Peizhi Wu and Jianjun Chen and Fuxin Jiang and Rui Shi and Bin Cui and Tieying Zhang",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Can large language models be a cardinality estimator? An empirical study",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cardinality (data modeling), Inference, Generalizability theory, Estimator, Empirical research, Econometrics, Bespoke, Leverage (statistics), Mainstream, Machine learning, Notice, Rank (graph theory), Artificial intelligence, Data mining, Data science, Estimation, Representativeness heuristic, Data modeling",
+    "url": "https://doi.org/10.1007/s00778-026-00975-7",
+    "doi": "https://doi.org/10.1007/s00778-026-00975-7",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7170829036"
+  },
+  "PINE: Extracting Correlated Token Pairs for Explainable Entity Matching": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7170076398",
+    "author": "Hironori Mizuguchi and Hiroyuki Kitagawa",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "PINE: Extracting Correlated Token Pairs for Explainable Entity Matching",
+    "year": "2026",
+    "abstract": "Explanation techniques such as local interpretable model-agnostic explanation (LIME) provide reasons behind decisions made by machine-learning models. These methods typically use a set of features and their values as inputs and identify those that significantly influence the final decision. However, machine-learning models for entity matching operate on two sets of tokens or records, each representing an entity, to determine whether they refer to the same real-world entity. Explanations for entity-matching decisions are more convincing when they highlight contributing pairs of tokens within the pair of records, rather than focusing on individual tokens alone. In this sense, existing explanation techniques are insufficient for entity matching. Therefore, we propose a new method, Pair INterpretation for Entity matching (PINE), which takes two records as input, and outputs correlated token pairs as an explanation for an entity-matching decision. Our extensive experiments on public datasets demonstrate that the extracted token pairs exhibit strong correlations and serve as interpretable evidence for matching records.",
+    "keywords": "Security token, Matching (statistics), Set (abstract data type), Computer science, Interpretation (philosophy), Artificial intelligence, Natural language processing, Data mining, Data set, Pattern recognition (psychology), Pattern matching, Machine learning, Key (lock)",
+    "url": "https://doi.org/10.1007/s00778-026-00995-3",
+    "doi": "https://doi.org/10.1007/s00778-026-00995-3",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7170076398"
+  },
+  "Towards GPU memory-aware efficient contrastive shapelet learning for unsupervised representation learning in multivariate time series": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7169887558",
+    "author": "Zhiyu Liang and Xiongfei Li and Chen Liang and Yu Hu and Yuanzhang Zhao and Zheng Liang and Jie Zhang and Hongzhi Wang and Lujia Pan",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Towards GPU memory-aware efficient contrastive shapelet learning for unsupervised representation learning in multivariate time series",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Representation (politics), Machine learning, Feature learning, Embedding, Artificial intelligence, Multivariate statistics, Anomaly detection, ENCODE, Analytics, Downstream (manufacturing), Unsupervised learning, Encoder, External Data Representation, Time series, Series (stratigraphy), Programming by demonstration, Code (set theory), Planner, Autoencoder, Data mining, Data structure, Source code, Visual analytics, Active learning (machine learning)",
+    "url": "https://doi.org/10.1007/s00778-026-00996-2",
+    "doi": "https://doi.org/10.1007/s00778-026-00996-2",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7169887558"
+  },
+  "Towards caching time-series semantically on hybrid storage": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7168626237",
+    "author": "Tao Kong and Hui Li and Liping Li and Yuanzhang Zhao and Xia Gao and Jiangtao Cui",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Towards caching time-series semantically on hybrid storage",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Workload, Semantics (computer science), Latency (audio), Graph, Semantic data model, Semantic computing, Graph database, Scheduling (production processes), Data deduplication, Big data, Response time, Load balancing (electrical power), Distributed computing, Throughput, Heuristic, Semantic grid, Focus (optics), Distributed database, Database, Cache, Data access, Semantic compression",
+    "url": "https://doi.org/10.1007/s00778-026-00988-2",
+    "doi": "https://doi.org/10.1007/s00778-026-00988-2",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7168626237"
+  },
+  "Efficient discovery of arbitrary cycles in large-scale networks": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7168023633",
+    "author": "Siyi Teng and Jeffrey Xu Yu and Jiadong Xie",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient discovery of arbitrary cycles in large-scale networks",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Scalability, Enumeration, Cycle basis, Computer science, Tree traversal, Basis (linear algebra), Graph, Set (abstract data type), Efficient algorithm, Simple (philosophy), Construct (python library), Vertex (graph theory), Graph traversal, Algorithm, Theoretical computer science, Enhanced Data Rates for GSM Evolution, Graph theory, Mathematics",
+    "url": "https://doi.org/10.1007/s00778-026-00994-4",
+    "doi": "https://doi.org/10.1007/s00778-026-00994-4",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7168023633"
+  },
   "Multi-modal knowledge graph entity alignment: a comprehensive survey": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167578239",
@@ -144,7 +224,7 @@
     "openalex_id": "https://openalex.org/W7164001305"
   },
   "Editorial: Special Issue for Selected Papers of VLDB 2023": {
-    "type": "ARTICLE",
+    "type": "EDITORIAL",
     "key": "https://openalex.org/W7162396294",
     "author": "Georgia Koutrika and Jun Yang",
     "booktitle": "The VLDB Journal",
@@ -160,7 +240,7 @@
     "openalex_id": "https://openalex.org/W7162396294"
   },
   "CardOOD: robust query-driven cardinality estimation under out-of-distribution": {
-    "type": "PREPRINT",
+    "type": "ARTICLE",
     "key": "https://openalex.org/W4405253705",
     "author": "Rui Li and Kangfei Zhao and Jeffrey Xu Yu and Guoren Wang",
     "booktitle": "The VLDB Journal",
@@ -417,7 +497,7 @@
     "openalex_id": "https://openalex.org/W7131633735"
   },
   "Correction: Verifiable Authenticated Data Structure (V-ADS) for Analytic Queries": {
-    "type": "ARTICLE",
+    "type": "ERRATUM",
     "key": "https://openalex.org/W7125981852",
     "author": "Masoud Nosrati and Ying Cai",
     "booktitle": "The VLDB Journal",
@@ -447,6 +527,22 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7124675575"
+  },
+  "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7119879082",
+    "author": "Wieger R. Punter and Odysseas Papapetrou and Minos Garofalakis",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates",
+    "year": "2026",
+    "abstract": "Abstract A key need in different disciplines is to perform analytics over fast-paced data streams, similar in nature to the traditional OLAP analytics in relational databases - i.e., with aggregates and selection predicates. Storing unbounded streams, however, is not a realistic, or desired approach due to the high storage requirements, and the delays introduced when storing massive data. Accordingly, many synopses/sketches have been proposed that can summarize the stream in small memory (usually sufficiently small to be stored in RAM), such that aggregate queries can be efficiently approximated, without storing the full stream. However, past synopses predominantly focus on summarizing single-attribute streams, and cannot handle selection predicates and constraints on arbitrary subsets of multiple attributes efficiently. In this work, we propose OmniSketch, the first sketch that scales to fast-paced and complex data streams (with many attributes), and supports count aggregates with predicates on multiple attributes, dynamically chosen at query time. OmniSketch supports streams containing both inserts and deletes, under the bounded deletes streaming model. OmniSketch offers probabilistic guarantees, a favorable space-accuracy tradeoff, and a worst-case logarithmic complexity for updating and for query execution. We demonstrate experimentally with both real and synthetic data that OmniSketch outperforms the state-of-the-art and can approximate complex ad-hoc queries within the configured accuracy guarantees, with small memory requirements.",
+    "keywords": "Computer science, Online analytical processing, Sketch, Analytics, Data stream mining, Aggregate (composite), Data mining, Probabilistic logic, Selection (genetic algorithm), Bounded function, Theoretical computer science, Data stream, Relational database, Key (lock), Focus (optics), Stream processing, Logarithm, Task (project management), Online aggregation, Data analysis, Conjunctive query, Big data, Query optimization, Data structure, Data warehouse, Database, Query language, Track (disk drive), Query plan, Clickstream, Time complexity, Online algorithm",
+    "url": "https://doi.org/10.1007/s00778-025-00960-6",
+    "doi": "https://doi.org/10.1007/s00778-025-00960-6",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7119879082"
   },
   "Revisiting data analysis with Pre-trained foundation models": {
     "type": "ARTICLE",
@@ -495,21 +591,5 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7118536033"
-  },
-  "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7119879082",
-    "author": "Wieger R. Punter and Odysseas Papapetrou and Minos Garofalakis",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates",
-    "year": "2026",
-    "abstract": "Abstract A key need in different disciplines is to perform analytics over fast-paced data streams, similar in nature to the traditional OLAP analytics in relational databases - i.e., with aggregates and selection predicates. Storing unbounded streams, however, is not a realistic, or desired approach due to the high storage requirements, and the delays introduced when storing massive data. Accordingly, many synopses/sketches have been proposed that can summarize the stream in small memory (usually sufficiently small to be stored in RAM), such that aggregate queries can be efficiently approximated, without storing the full stream. However, past synopses predominantly focus on summarizing single-attribute streams, and cannot handle selection predicates and constraints on arbitrary subsets of multiple attributes efficiently. In this work, we propose OmniSketch, the first sketch that scales to fast-paced and complex data streams (with many attributes), and supports count aggregates with predicates on multiple attributes, dynamically chosen at query time. OmniSketch supports streams containing both inserts and deletes, under the bounded deletes streaming model. OmniSketch offers probabilistic guarantees, a favorable space-accuracy tradeoff, and a worst-case logarithmic complexity for updating and for query execution. We demonstrate experimentally with both real and synthetic data that OmniSketch outperforms the state-of-the-art and can approximate complex ad-hoc queries within the configured accuracy guarantees, with small memory requirements.",
-    "keywords": "Computer science, Online analytical processing, Sketch, Analytics, Data stream mining, Aggregate (composite), Data mining, Probabilistic logic, Selection (genetic algorithm), Bounded function, Theoretical computer science, Data stream, Relational database, Key (lock), Focus (optics), Stream processing, Logarithm, Task (project management), Online aggregation, Data analysis, Conjunctive query, Big data, Query optimization, Data structure, Data warehouse, Database, Query language, Track (disk drive), Query plan, Clickstream, Time complexity, Online algorithm",
-    "url": "https://doi.org/10.1007/s00778-025-00960-6",
-    "doi": "https://doi.org/10.1007/s00778-025-00960-6",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7119879082"
   }
 }

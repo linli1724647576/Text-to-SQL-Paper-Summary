@@ -9,13 +9,13 @@
   "metrics": {
     "venues_sentinel_version": 2,
     "venues_sentinel_count": 145,
-    "paper_count": 587,
-    "unique_title_count": 587,
+    "paper_count": 588,
+    "unique_title_count": 588,
     "normalized_duplicate_groups": 0,
     "process_folder_changed": 0,
     "process_folder_stale": 0,
     "baseline_unique_title_count": 587,
-    "unique_title_drop_ratio": 0.0,
+    "unique_title_drop_ratio": -0.001704,
     "quality_pruned_irrelevant_count": 0,
     "source_policy_removed_count": 0,
     "adjusted_unique_title_drop_ratio": 0.0,
@@ -23,12 +23,12 @@
       "AI 领域": 96,
       "ArXiv": 373,
       "交叉/综合/新兴": 2,
-      "数据库领域": 107,
+      "数据库领域": 108,
       "软件工程": 9
     },
     "source_counts": {
       "arxiv": 373,
-      "ccf_venue": 214
+      "ccf_venue": 215
     },
     "irrelevant_records": 0,
     "unsupported_www_records": 0,
@@ -260,9 +260,9 @@
           "relevant_papers": 0
         },
         "AIJ2026": {
-          "raw_candidates": 55,
+          "raw_candidates": 21,
           "official_accepted": 0,
-          "dblp": 55,
+          "dblp": 21,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -883,11 +883,11 @@
           "relevant_papers": 3
         },
         "TKDE2026": {
-          "raw_candidates": 328,
+          "raw_candidates": 342,
           "official_accepted": 0,
-          "dblp": 328,
+          "dblp": 342,
           "arxiv": 0,
-          "relevant_papers": 1
+          "relevant_papers": 2
         },
         "TOSEM2020": {
           "raw_candidates": 40,
@@ -932,9 +932,9 @@
           "relevant_papers": 2
         },
         "TOSEM2026": {
-          "raw_candidates": 252,
+          "raw_candidates": 278,
           "official_accepted": 0,
-          "dblp": 252,
+          "dblp": 278,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -981,9 +981,9 @@
           "relevant_papers": 0
         },
         "TSE2026": {
-          "raw_candidates": 138,
+          "raw_candidates": 146,
           "official_accepted": 0,
-          "dblp": 138,
+          "dblp": 146,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -1079,9 +1079,9 @@
           "relevant_papers": 1
         },
         "VLDBJ2026": {
-          "raw_candidates": 32,
+          "raw_candidates": 37,
           "official_accepted": 0,
-          "dblp": 32,
+          "dblp": 37,
           "arxiv": 0,
           "relevant_papers": 0
         },
@@ -1217,8 +1217,8 @@
       ]
     },
     "ccf_conference_rawdata_missing": [],
-    "fetch_failure_count": 1,
-    "fetch_warning_count": 0,
+    "fetch_failure_count": 0,
+    "fetch_warning_count": 6,
     "dblp_conference_failures": 0,
     "expected_dblp_conferences": 99,
     "dblp_conference_failure_ratio": 0.0,

@@ -17879,6 +17879,36 @@
     "relevance_level": "core",
     "arxiv_id": "2511.21402"
   },
+  "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7170260222",
+    "author": "Guocang Yang and Victor Junqiu Wei and Y. Ling and Tao Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Context (archaeology), Orchestration, Database, Information retrieval, Database theory, Query optimization, View, Context model, Data modeling, Query language, World Wide Web, Distributed database, Relational database, Data mining",
+    "url": "https://doi.org/10.1109/tkde.2026.3716724",
+    "doi": "10.1109/tkde.2026.3716724",
+    "venue": "TKDE",
+    "venue_track": "数据库领域",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "openalex_id": "https://openalex.org/W7170260222",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Text-to-DSL / Hybrid Query",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "Text2Cypher Across Languages: Evaluating and Finetuning LLMs": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2506.21445v2",

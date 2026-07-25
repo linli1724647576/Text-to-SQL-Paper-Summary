@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-07-24T18:22:58Z",
+  "generated_at": "2026-07-25T18:03:42Z",
   "records": [
     {
       "kind": "conference",
@@ -1977,7 +1977,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 55,
+      "raw_candidate_count": 21,
       "rawdata_files": [
         "data/rawdata/2026/AIJ2026.json"
       ],
@@ -2089,12 +2089,12 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 328,
+      "raw_candidate_count": 342,
       "rawdata_files": [
         "data/rawdata/2026/TKDE2026.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 1,
+      "relevant_candidate_count": 2,
       "source_type": "journal",
       "source_url": "",
       "status": "covered",
@@ -2201,7 +2201,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 32,
+      "raw_candidate_count": 37,
       "rawdata_files": [
         "data/rawdata/2026/VLDBJ2026.json"
       ],
@@ -2313,7 +2313,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 138,
+      "raw_candidate_count": 146,
       "rawdata_files": [
         "data/rawdata/2026/TSE2026.json"
       ],
@@ -2425,7 +2425,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 252,
+      "raw_candidate_count": 278,
       "rawdata_files": [
         "data/rawdata/2026/TOSEM2026.json"
       ],

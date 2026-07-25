@@ -21,14 +21,14 @@
 | ccf_conference | true_positive_core | AAAI | 2026 | Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale |  |
 | ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
 | ccf_conference | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
-| readme_journal | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
+| readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_core | TKDE | 2025 | A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going? |  |
-| readme_journal | true_positive_core | TKDE | 2026 | XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL |  |
+| readme_journal | true_positive_core | TKDE | 2026 | Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation | missing abstract |
 | readme_journal | true_positive_application | TKDE | 2022 | A Survey on Deep Reinforcement Learning for Data Processing and Analytics |  |
 | readme_journal | true_positive_application | TKDE | 2025 | NALSpatial: A Natural Language Interface for Spatial Databases |  |
-| readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
+| readme_journal | true_positive_core | TKDE | 2026 | XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
-| readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
+| readme_journal | true_positive_application | TOSEM | 2025 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
 | arxiv | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |
 | arxiv | true_positive_core | ArXiv | 2024 | From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2023 | UNITE: A Unified Benchmark for Text-to-SQL Evaluation | missing doi |
@@ -41,9 +41,9 @@
 | supplemental | true_positive_core | AAAI | 2025 | AIA: Autoregression-Based Injection Attacks Against Text2SQL Models |  |
 | supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
 | supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
-| supplemental | true_positive_application | SIGMOD | 2022 | LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education |  |
+| supplemental | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
 | supplemental | true_positive_application | SIGMOD | 2022 | DB-BERT: A Database Tuning Tool that "Reads the Manual" |  |
 | supplemental | true_positive_core | ACL | 2022 | Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation |  |
 | supplemental | true_positive_core | AAAI | 2026 | AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale |  |
-| fill | true_positive_core | ArXiv | 2021 | mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer | missing doi |
-| fill | true_positive_core | ArXiv | 2025 | PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning | missing doi |
+| fill | true_positive_core | ArXiv | 2023 | dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models | missing doi |
+| fill | true_positive_core | ICDE | 2024 | PURPLE: Making a Large Language Model a Better SQL Writer |  |

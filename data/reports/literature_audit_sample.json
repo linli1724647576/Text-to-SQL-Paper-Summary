@@ -276,22 +276,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
+      "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TOSEM",
-      "normalized_venue": "TOSEM",
-      "category": "软件工程",
-      "year": "2023",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3579638",
-        "https://doi.org/10.1145/3579638",
-        "https://openalex.org/W4319736724"
+        "10.1007/s00778-024-00837-0",
+        "https://doi.org/10.1007/s00778-024-00837-0",
+        "https://openalex.org/W4391883497"
       ],
       "notes": ""
     },
@@ -316,7 +316,7 @@
       "notes": ""
     },
     {
-      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+      "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_core",
@@ -329,11 +329,11 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2026.3657851",
-        "https://doi.org/10.1109/tkde.2026.3657851",
-        "https://openalex.org/W7125803306"
+        "10.1109/tkde.2026.3716724",
+        "https://doi.org/10.1109/tkde.2026.3716724",
+        "https://openalex.org/W7170260222"
       ],
-      "notes": ""
+      "notes": "missing abstract"
     },
     {
       "title": "A Survey on Deep Reinforcement Learning for Data Processing and Analytics",
@@ -376,22 +376,22 @@
       "notes": ""
     },
     {
-      "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
+      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
       "category": "数据库领域",
-      "year": "2024",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1007/s00778-024-00837-0",
-        "https://doi.org/10.1007/s00778-024-00837-0",
-        "https://openalex.org/W4391883497"
+        "10.1109/tkde.2026.3657851",
+        "https://doi.org/10.1109/tkde.2026.3657851",
+        "https://openalex.org/W7125803306"
       ],
       "notes": ""
     },
@@ -416,21 +416,22 @@
       "notes": ""
     },
     {
-      "title": "Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL",
+      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
       "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2025.3609486",
-        "https://doi.org/10.1109/TKDE.2025.3609486"
+        "10.1145/3767739",
+        "https://doi.org/10.1145/3767739",
+        "https://openalex.org/W4414241772"
       ],
       "notes": ""
     },
@@ -659,22 +660,22 @@
       "notes": ""
     },
     {
-      "title": "LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education",
+      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
       "present_in_labeldata": true,
       "stratum": "supplemental",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
-      "year": "2022",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3514221.3520165",
-        "https://doi.org/10.1145/3514221.3520165",
-        "https://openalex.org/W4282016830"
+        "10.1609/aaai.v37i11.26536",
+        "https://doi.org/10.1609/aaai.v37i11.26536",
+        "https://openalex.org/W4382202695"
       ],
       "notes": ""
     },
@@ -739,7 +740,7 @@
       "notes": ""
     },
     {
-      "title": "mRAT-SQL+GAP:A Portuguese Text-to-SQL Transformer",
+      "title": "dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -747,32 +748,33 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2021",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2110.03546v2"
+        "https://arxiv.org/abs/2312.13264v1"
       ],
       "notes": "missing doi"
     },
     {
-      "title": "PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning",
+      "title": "PURPLE: Making a Large Language Model a Better SQL Writer",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2025",
+      "venue": "ICDE",
+      "normalized_venue": "ICDE",
+      "category": "数据库领域",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2509.07159v1"
+        "10.1109/icde60146.2024.00009",
+        "https://doi.org/10.1109/ICDE60146.2024.00009"
       ],
-      "notes": "missing doi"
+      "notes": ""
     }
   ]
 }

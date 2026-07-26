@@ -16,11 +16,11 @@
     },
     "dblp-conference:AAAI:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-19T17:58:55Z",
-      "last_success_at": "2026-07-19T17:58:55Z",
+      "last_attempt_at": "2026-07-26T18:02:33Z",
+      "last_success_at": "2026-07-26T18:02:33Z",
       "rawdata_path": "data/rawdata/2020/AAAI2020.json",
       "record_count": 1864,
-      "sha256": "ef1e189165b62aae6213db4d26ffec7cf9ffb95330b015bb13d97972fafb75a5",
+      "sha256": "a3f989d09b8214ac8b394bc485ce7d3a8f772468c8b57400f47d9f44de3ed99f",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -2046,8 +2046,8 @@
     },
     "official-accepted:ICML:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-19T17:59:21Z",
-      "last_success_at": "2026-07-19T17:59:21Z",
+      "last_attempt_at": "2026-07-26T18:02:35Z",
+      "last_success_at": "2026-07-26T18:02:35Z",
       "rawdata_path": "data/rawdata/2020/ICML2020-accepted.json",
       "record_count": 1084,
       "sha256": "244ea4c141bdd48f98bfe86004b7256a43ab963b4bf43ac81e2a6ea9f9f1dd2d",
@@ -2325,15 +2325,15 @@
       "year": "2025"
     },
     "official-accepted:NEURIPS:2020": {
-      "error": "<urlopen error [Errno 111] Connection refused>",
-      "last_attempt_at": "2026-07-19T17:59:30Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-07-26T18:02:39Z",
+      "last_success_at": "2026-07-26T18:02:39Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
-      "sha256": "b59d16668e402f3aefccd96fe2db972d9a5c3284392db10725a7f0599283bc5c",
+      "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "failed",
+      "status": "complete",
       "track": "",
       "venue": "NEURIPS",
       "year": "2020"
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 0,
+    "cursor": 1,
     "history": [
       {
         "cursor": 1,
@@ -4313,9 +4313,61 @@
           "TOSEM"
         ],
         "year": 2026
+      },
+      {
+        "cursor": 1,
+        "failed": [],
+        "finalized_at": "2026-07-26T18:04:11Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2020
       }
     ],
-    "last_completed_at": "2026-07-25T18:03:43Z",
+    "last_completed_at": "2026-07-26T18:04:11Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
@@ -4339,6 +4391,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2026
+    "last_selected_year": 2020
   }
 }

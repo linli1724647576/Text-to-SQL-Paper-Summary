@@ -1374,7 +1374,7 @@
   "Learning Geo-Contextual Embeddings for Commuting Flow Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Liu0XYWS20",
-    "author": "Zhicheng Liu and Fabio Miranda 0004 and Weiting Xiong and Junyan Yang and Qiao Wang and Cláudio T. Silva",
+    "author": "Zhicheng Liu and Fabio Miranda 0001 and Weiting Xiong and Junyan Yang and Qiao Wang and Cláudio T. Silva",
     "booktitle": "AAAI",
     "title": "Learning Geo-Contextual Embeddings for Commuting Flow Prediction.",
     "year": "2020",
@@ -5159,7 +5159,7 @@
   "COTSAE: CO-Training of Structure and Attribute Embeddings for Entity Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangLZWX20",
-    "author": "Kai Yang and Shaoqin Liu and Junfeng Zhao 0001 and Yasha Wang and Bing Xie",
+    "author": "Kai Yang 0053 and Shaoqin Liu and Junfeng Zhao 0001 and Yasha Wang and Bing Xie",
     "booktitle": "AAAI",
     "title": "COTSAE: CO-Training of Structure and Attribute Embeddings for Entity Alignment.",
     "year": "2020",
@@ -15094,7 +15094,7 @@
   "Are Noisy Sentences Useless for Distant Supervised Relation Extraction?": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShangHMS020",
-    "author": "Yuming Shang and He Yan Huang and Xianling Mao and Xin Sun and Wei Wei 0002",
+    "author": "Yuming Shang and He Yan Huang and Xianling Mao and Xin Sun 0029 and Wei Wei 0002",
     "booktitle": "AAAI",
     "title": "Are Noisy Sentences Useless for Distant Supervised Relation Extraction?",
     "year": "2020",
@@ -19441,7 +19441,7 @@
   "Multi-Question Learning for Visual Question Answering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LeiWLLWTL20",
-    "author": "Chenyi Lei and Lei Wu and Dong Liu 0002 and Zhao Li 0007 and Guoxin Wang 0002 and Haihong Tang and Houqiang Li",
+    "author": "Chenyi Lei and Lei Wu 0017 and Dong Liu 0002 and Zhao Li 0007 and Guoxin Wang 0002 and Haihong Tang and Houqiang Li",
     "booktitle": "AAAI",
     "title": "Multi-Question Learning for Visual Question Answering.",
     "year": "2020",
@@ -23660,7 +23660,7 @@
   "Diana's World: A Situated Multimodal Interactive Agent.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KrishnaswamyNBR20",
-    "author": "Nikhil Krishnaswamy and Pradyumna Narayana and Rahul Bangar and Kyeongmin Rim and Dhruva Patil and David G. McNeely-White and Jaime Ruiz and Bruce A. Draper and J. Ross Beveridge and James Pustejovsky",
+    "author": "Nikhil Krishnaswamy and Pradyumna Narayana and Rahul Bangar and Kyeongmin Rim and Dhruva Patil and David G. McNeely-White and Jaime Ruiz 0002 and Bruce A. Draper and J. Ross Beveridge and James Pustejovsky",
     "booktitle": "AAAI",
     "title": "Diana's World: A Situated Multimodal Interactive Agent.",
     "year": "2020",

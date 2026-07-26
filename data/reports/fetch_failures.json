@@ -1,53 +1,172 @@
 {
   "summary": {
-    "fetched_entries": 902,
+    "fetched_entries": 1864,
     "failure_count": 0,
-    "warning_count": 5,
-    "skipped_count": 0
+    "warning_count": 0,
+    "skipped_count": 20
   },
   "failures": [],
-  "warnings": [
+  "warnings": [],
+  "skipped": [
     {
-      "venue": "AAAI",
-      "year": 2026,
+      "venue": "NeurIPS",
+      "year": 2020,
       "track": "AI",
-      "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/aaai/aaai2026.xml: HTTP Error 503: Service Unavailable; https://dblp.org/rec/conf/aaai/2026.xml: XML or text declaration not at start of entity: line 1, column 6"
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ACL",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICML",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "SIGMOD",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "VLDB",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICDE",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "KDD",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "WWW",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "SIGIR",
+      "year": 2020,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICSE",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "FSE",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ASE",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ISSTA",
+      "year": 2020,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "AIJ",
+      "year": 2020,
+      "track": "AI",
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
     },
     {
       "venue": "TKDE",
-      "year": 2026,
+      "year": 2020,
       "track": "DB",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde38.xml: Remote end closed connection without response"
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
     },
     {
       "venue": "VLDBJ",
-      "year": 2026,
+      "year": 2020,
       "track": "DB",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb35.xml: Remote end closed connection without response"
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
     },
     {
       "venue": "TSE",
-      "year": 2026,
+      "year": 2020,
       "track": "SE",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse52.xml: Remote end closed connection without response"
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
     },
     {
       "venue": "TOSEM",
-      "year": 2026,
+      "year": 2020,
       "track": "SE",
-      "source": "openalex-journal-fallback",
-      "status": "fallback_used",
-      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem35.xml: Remote end closed connection without response"
+      "source_type": "journal",
+      "status": "skipped",
+      "reason": "complete"
     }
-  ],
-  "skipped": []
+  ]
 }

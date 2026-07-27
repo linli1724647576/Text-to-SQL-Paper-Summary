@@ -1,6 +1,6 @@
 {
   "summary": {
-    "fetched_entries": 1864,
+    "fetched_entries": 752,
     "failure_count": 0,
     "warning_count": 0,
     "skipped_count": 20
@@ -9,8 +9,16 @@
   "warnings": [],
   "skipped": [
     {
+      "venue": "AAAI",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "NeurIPS",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -18,7 +26,7 @@
     },
     {
       "venue": "ACL",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -26,7 +34,15 @@
     },
     {
       "venue": "CVPR",
-      "year": 2020,
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -34,7 +50,7 @@
     },
     {
       "venue": "ICML",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -42,23 +58,15 @@
     },
     {
       "venue": "IJCAI",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "SIGMOD",
-      "year": 2020,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
       "venue": "VLDB",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -66,15 +74,7 @@
     },
     {
       "venue": "ICDE",
-      "year": 2020,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "KDD",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -82,7 +82,7 @@
     },
     {
       "venue": "WWW",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -90,7 +90,7 @@
     },
     {
       "venue": "SIGIR",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -98,7 +98,7 @@
     },
     {
       "venue": "ICSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -106,7 +106,7 @@
     },
     {
       "venue": "FSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -114,7 +114,7 @@
     },
     {
       "venue": "ASE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -122,7 +122,7 @@
     },
     {
       "venue": "ISSTA",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -130,7 +130,7 @@
     },
     {
       "venue": "AIJ",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "journal",
       "status": "skipped",
@@ -138,7 +138,7 @@
     },
     {
       "venue": "TKDE",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -146,7 +146,7 @@
     },
     {
       "venue": "VLDBJ",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -154,7 +154,7 @@
     },
     {
       "venue": "TSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",
@@ -162,7 +162,7 @@
     },
     {
       "venue": "TOSEM",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",

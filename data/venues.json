@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "80de4465c06566e50d2a218af2cc1fc6c54ff9ca12c8098f655d833c14e8af91"
+          "sha256": "b20bf1004612abc5469eeefafa0c6d976a20b434b76ff9e58a50e54d2331c3c3"
         }
       ],
       "processing": {

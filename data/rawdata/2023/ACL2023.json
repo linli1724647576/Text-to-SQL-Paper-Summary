@@ -5905,7 +5905,7 @@
   "ConFEDE: Contrastive Feature Decomposition for Multimodal Sentiment Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YangYNGX23",
-    "author": "Jiuding Yang and Yakun Yu and Di Niu and Weidong Guo and Yu Xu",
+    "author": "Jiuding Yang and Yakun Yu and Di Niu 0002 and Weidong Guo and Yu Xu",
     "booktitle": "ACL (1)",
     "title": "ConFEDE: Contrastive Feature Decomposition for Multimodal Sentiment Analysis.",
     "year": "2023",

@@ -2088,7 +2088,7 @@
   "Learning Polysemantic Spoof Trace: A Multi-Modal Disentanglement Network for Face Anti-spoofing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiYCLW023",
-    "author": "Kaicheng Li and Hongyu Yang and Binghui Chen and Pengyu Li and Biao Wang and Di Huang 0001",
+    "author": "Kaicheng Li and Hongyu Yang 0001 and Binghui Chen and Pengyu Li and Biao Wang and Di Huang 0001",
     "booktitle": "AAAI",
     "title": "Learning Polysemantic Spoof Trace: A Multi-Modal Disentanglement Network for Face Anti-spoofing.",
     "year": "2023",
@@ -6600,7 +6600,7 @@
   "Rule Induction in Knowledge Graphs Using Linear Programming.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DashG23",
-    "author": "Sanjeeb Dash and Joao Goncalves",
+    "author": "Sanjeeb Dash and Joao P. Goncalves",
     "booktitle": "AAAI",
     "title": "Rule Induction in Knowledge Graphs Using Linear Programming.",
     "year": "2023",
@@ -10023,7 +10023,7 @@
   "GANTEE: Generative Adversarial Network for Taxonomy Enterance Evaluation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuJLXFLLZ23",
-    "author": "Zhouhong Gu and Sihang Jiang and Jingping Liu and Yanghua Xiao and Hongwei Feng and Zhixu Li and Jiaqing Liang and Jian Zhong",
+    "author": "Zhouhong Gu and Sihang Jiang 0001 and Jingping Liu and Yanghua Xiao and Hongwei Feng and Zhixu Li and Jiaqing Liang and Jian Zhong",
     "booktitle": "AAAI",
     "title": "GANTEE: Generative Adversarial Network for Taxonomy Enterance Evaluation.",
     "year": "2023",
@@ -15036,7 +15036,7 @@
   "GLUECons: A Generic Benchmark for Learning under Constraints.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FaghihiNZM0UWPR23",
-    "author": "Hossein Rajaby Faghihi and Aliakbar Nafar and Chen Zheng and Roshanak Mirzaee and Yue Zhang 0004 and Andrzej Uszok and Alexander Wan and Tanawan Premsri and Dan Roth 0001 and Parisa Kordjamshidi",
+    "author": "Hossein Rajaby Faghihi and Aliakbar Nafar and Chen Zheng 0006 and Roshanak Mirzaee and Yue Zhang 0004 and Andrzej Uszok and Alexander Wan and Tanawan Premsri and Dan Roth 0001 and Parisa Kordjamshidi",
     "booktitle": "AAAI",
     "title": "GLUECons: A Generic Benchmark for Learning under Constraints.",
     "year": "2023",
@@ -16254,7 +16254,7 @@
   "Towards In-Distribution Compatible Out-of-Distribution Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuJRD0000LL23",
-    "author": "Boxi Wu and Jie Jiang 0015 and Haidong Ren and Zifan Du and Wenxiao Wang 0001 and Zhifeng Li 0001 and Deng Cai 0001 and Xiaofei He 0001 and Binbin Lin and Wei Liu 0005",
+    "author": "Boxi Wu 0001 and Jie Jiang 0015 and Haidong Ren and Zifan Du and Wenxiao Wang 0001 and Zhifeng Li 0001 and Deng Cai 0001 and Xiaofei He 0001 and Binbin Lin and Wei Liu 0005",
     "booktitle": "AAAI",
     "title": "Towards In-Distribution Compatible Out-of-Distribution Detection.",
     "year": "2023",
@@ -22003,7 +22003,7 @@
   "MCL: Multi-Granularity Contrastive Learning Framework for Chinese NER.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoWHYW23",
-    "author": "Shan Zhao 0002 and Chengyu Wang 0008 and Minghao Hu and Tianwei Yan 0001 and Meng Wang 0001",
+    "author": "Shan Zhao 0002 and Chengyu Wang 0008 and Minghao Hu 0001 and Tianwei Yan 0001 and Meng Wang 0001",
     "booktitle": "AAAI",
     "title": "MCL: Multi-Granularity Contrastive Learning Framework for Chinese NER.",
     "year": "2023",

@@ -216,7 +216,7 @@
     "booktitle": "ACL (1)",
     "title": "A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus.",
     "year": "2024",
-    "abstract": "Natural language inference (NLI), the task of recognizing the entailment relationship in sentence pairs, is an actively studied topic serving as a proxy for natural language understanding. Despite the relevance of the task in building conversational agents and improving text classification, machine translation and other NLP tasks, to the best of our knowledge, there is no publicly available NLI corpus for the Romanian language. To this end, we introduce the first Romanian NLI corpus (RoNLI) comprising 58K training sentence pairs, which are obtained via distant supervision, and 6K validation and test sentence pairs, which are manually annotated with the correct labels. We conduct experiments with multiple machine learning methods based on distant learning, ranging from shallow models based on word embeddings to transformer-based neural networks, to establish a set of competitive baselines. Furthermore, we improve on the best model by employing a new curriculum learning strategy based on data cartography. Our dataset and code to reproduce the baselines are available at https://github.com/Eduard6421/RONLI.",
+    "abstract": "Natural language inference (NLI), the task of recognizing the entailment relationship in sentence pairs, is an actively studied topic serving as a proxy for natural language understanding. Despite the relevance of the task in building conversational agents and improving text classification, machine translation and other NLP tasks, to the best of our knowledge, there is no publicly available NLI corpus for the Romanian language. To this end, we introduce the first Romanian NLI corpus (RoNLI) comprising 58K training sentence pairs, which are obtained via distant supervision, and 6K validation and test sentence pairs, which are manually annotated with the correct labels. We conduct experiments with multiple machine learning methods based on distant learning, ranging from shallow models based on word embeddings to transformer-based neural networks, to establish a set of competitive baselines. Furthermore, we improve on the best model by employing a new curriculum learning strategy based on data cartography. Our dataset and code to reproduce the baselines are available at https://github.com/Eduard6421/RONLI .",
     "keywords": "",
     "url": "https://aclanthology.org/2024.acl-long.15/",
     "doi": "10.18653/v1/2024.acl-long.15",
@@ -3003,7 +3003,7 @@
   "Instruction Fusion: Advancing Prompt Evolution through Hybridization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/GuoYYLRXN24",
-    "author": "Weidong Guo and Jiuding Yang and Kaitong Yang and Xiangyang Li and Zhuwei Rao and Yu Xu and Di Niu",
+    "author": "Weidong Guo and Jiuding Yang and Kaitong Yang and Xiangyang Li and Zhuwei Rao and Yu Xu and Di Niu 0002",
     "booktitle": "ACL (1)",
     "title": "Instruction Fusion: Advancing Prompt Evolution through Hybridization.",
     "year": "2024",
@@ -4897,7 +4897,7 @@
   "DiFiNet: Boundary-Aware Semantic Differentiation and Filtration Network for Nested Named Entity Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/Cai0GLLLLJ24",
-    "author": "Yuxiang Cai and Qiao Liu 0003 and Yanglei Gan and Run Lin and Changlin Li and Xueyi Liu and Da Luo and JiayeYang JiayeYang",
+    "author": "Yuxiang Cai and Qiao Liu 0003 and Yanglei Gan and Run Lin and Changlin Li and Xueyi Liu 0004 and Da Luo and JiayeYang JiayeYang",
     "booktitle": "ACL (1)",
     "title": "DiFiNet: Boundary-Aware Semantic Differentiation and Filtration Network for Nested Named Entity Recognition.",
     "year": "2024",
@@ -5851,7 +5851,7 @@
   "STICKERCONV: Generating Multimodal Empathetic Responses from Scratch.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangKWSW0W0S24",
-    "author": "Yiqun Zhang and Fanheng Kong and Peidong Wang and Shuang Sun and Lingshuai Wang and Shi Feng 0001 and Daling Wang and Yifei Zhang 0003 and Kaisong Song",
+    "author": "Yiqun Zhang and Fanheng Kong and Peidong Wang 0001 and Shuang Sun and Lingshuai Wang and Shi Feng 0001 and Daling Wang and Yifei Zhang 0003 and Kaisong Song",
     "booktitle": "ACL (1)",
     "title": "STICKERCONV: Generating Multimodal Empathetic Responses from Scratch.",
     "year": "2024",
@@ -7393,7 +7393,7 @@
   "VulLibGen: Generating Names of Vulnerability-Affected Packages via a Large Language Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenLZLLLW024",
-    "author": "Tianyu Chen and Lin Li and ZhuLiuchuan ZhuLiuchuan and Zongyang Li and Xueqing Liu 0001 and Guangtai Liang and Qianxiang Wang and Tao Xie 0001",
+    "author": "Tianyu Chen 0006 and Lin Li 0100 and ZhuLiuchuan ZhuLiuchuan and Zongyang Li and Xueqing Liu 0001 and Guangtai Liang and Qianxiang Wang and Tao Xie 0001",
     "booktitle": "ACL (1)",
     "title": "VulLibGen: Generating Names of Vulnerability-Affected Packages via a Large Language Model.",
     "year": "2024",
@@ -9032,7 +9032,7 @@
   "UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangWYWYXLY000024",
-    "author": "Haoyu Wang and Shuo Wang 0013 and Yukun Yan and Xujia Wang and Zhiyu Yang and Yuzhuang Xu and Zhenghao Liu 0001 and Liner Yang and Ning Ding 0002 and Xu Han 0007 and Zhiyuan Liu 0001 and Maosong Sun 0001",
+    "author": "Haoyu Wang and Shuo Wang 0013 and Yukun Yan and Xujia Wang and Zhiyu Yang 0001 and Yuzhuang Xu and Zhenghao Liu 0001 and Liner Yang and Ning Ding 0002 and Xu Han 0007 and Zhiyuan Liu 0001 and Maosong Sun 0001",
     "booktitle": "ACL (1)",
     "title": "UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset.",
     "year": "2024",

@@ -4669,7 +4669,7 @@
   "Point Transformer with Federated Learning for Predicting Breast Cancer HER2 Status from Hematoxylin and Eosin-Stained Whole Slide Images.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLSQBT24",
-    "author": "Bao Li and Zhenyu Liu and Lizhi Shao and Bensheng Qiu and Hong Bu and Jie Tian 0001",
+    "author": "Bao Li 0009 and Zhenyu Liu and Lizhi Shao and Bensheng Qiu and Hong Bu and Jie Tian 0001",
     "booktitle": "AAAI",
     "title": "Point Transformer with Federated Learning for Predicting Breast Cancer HER2 Status from Hematoxylin and Eosin-Stained Whole Slide Images.",
     "year": "2024",
@@ -10384,7 +10384,7 @@
   "DiffusionEdge: Diffusion Probabilistic Model for Crisp Edge Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Ye0HYC24",
-    "author": "Yunfan Ye and Kai Xu 0004 and Yuhang Huang and Renjiao Yi and Zhiping Cai",
+    "author": "Yunfan Ye and Kai Xu 0004 and Yuhang Huang 0006 and Renjiao Yi and Zhiping Cai",
     "booktitle": "AAAI",
     "title": "DiffusionEdge: Diffusion Probabilistic Model for Crisp Edge Detection.",
     "year": "2024",
@@ -11673,7 +11673,7 @@
   "Towards Fine-Grained HBOE with Rendered Orientation Set and Laplace Smoothing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoLYLZRCW24",
-    "author": "Ruisi Zhao and Mingming Li and Zheng Yang 0008 and Binbin Lin and Xiaohui Zhong and Xiaobo Ren and Deng Cai 0001 and Boxi Wu",
+    "author": "Ruisi Zhao and Mingming Li and Zheng Yang 0008 and Binbin Lin and Xiaohui Zhong and Xiaobo Ren and Deng Cai 0001 and Boxi Wu 0001",
     "booktitle": "AAAI",
     "title": "Towards Fine-Grained HBOE with Rendered Orientation Set and Laplace Smoothing.",
     "year": "2024",
@@ -14123,7 +14123,7 @@
   "End-to-End Learning of LTLf Formulae by Faithful LTLf Encoding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WanLDLYP24",
-    "author": "Hai Wan and Pingjia Liang and Jianfeng Du and Weilin Luo and Rongzhen Ye and Bo Peng",
+    "author": "Hai Wan and Pingjia Liang and Jianfeng Du and Weilin Luo and Rongzhen Ye and Bo Peng 0041",
     "booktitle": "AAAI",
     "title": "End-to-End Learning of LTLf Formulae by Faithful LTLf Encoding.",
     "year": "2024",
@@ -19794,7 +19794,7 @@
   "Binding-Adaptive Diffusion Models for Structure-Based Drug Design.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangYZZBZYWY24",
-    "author": "Zhilin Huang and Ling Yang 0006 and Zaixi Zhang and Xiangxin Zhou and Yu Bao and Xiawu Zheng and Yuwei Yang and Yu Wang 0027 and Wenming Yang",
+    "author": "Zhilin Huang and Ling Yang 0006 and Zaixi Zhang and Xiangxin Zhou and Yu Bao and Xiawu Zheng and Yuwei Yang and Yu Wang 0008 and Wenming Yang",
     "booktitle": "AAAI",
     "title": "Binding-Adaptive Diffusion Models for Structure-Based Drug Design.",
     "year": "2024",
@@ -20578,7 +20578,7 @@
   "Relaxed Stationary Distribution Correction Estimation for Improved Offline Policy Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KimKL24",
-    "author": "Woosung Kim and Donghyeon Ki and Byung-Jun Lee",
+    "author": "Woosung Kim and Donghyeon Ki and Byung-Jun Lee 0001",
     "booktitle": "AAAI",
     "title": "Relaxed Stationary Distribution Correction Estimation for Improved Offline Policy Optimization.",
     "year": "2024",
@@ -28265,7 +28265,7 @@
   "Xiezhi: An Ever-Updating Benchmark for Holistic Domain Knowledge Evaluation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuZYZWZJXLWHXHL24",
-    "author": "Zhouhong Gu and Xiaoxuan Zhu and Haoning Ye and Lin Zhang and Jianchen Wang and Yixin Zhu and Sihang Jiang and Zhuozhi Xiong and Zihan Li and Weijie Wu and Qianyu He and Rui Xu 0026 and Wenhao Huang and Jingping Liu and Zili Wang and Shusen Wang and Weiguo Zheng and Hongwei Feng and Yanghua Xiao",
+    "author": "Zhouhong Gu and Xiaoxuan Zhu and Haoning Ye and Lin Zhang and Jianchen Wang and Yixin Zhu and Sihang Jiang 0001 and Zhuozhi Xiong and Zihan Li and Weijie Wu and Qianyu He and Rui Xu 0026 and Wenhao Huang and Jingping Liu and Zili Wang and Shusen Wang and Weiguo Zheng and Hongwei Feng and Yanghua Xiao",
     "booktitle": "AAAI",
     "title": "Xiezhi: An Ever-Updating Benchmark for Holistic Domain Knowledge Evaluation.",
     "year": "2024",
@@ -29121,7 +29121,7 @@
   "Beyond Entities: A Large-Scale Multi-Modal Knowledge Graph with Triplet Fact Grounding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuZLWLJJXC24",
-    "author": "Jingping Liu and Mingchuan Zhang and Weichen Li and Chao Wang 0095 and Shuang Li and Haiyun Jiang and Sihang Jiang and Yanghua Xiao and Yunwen Chen",
+    "author": "Jingping Liu and Mingchuan Zhang and Weichen Li 0001 and Chao Wang 0095 and Shuang Li and Haiyun Jiang and Sihang Jiang 0001 and Yanghua Xiao and Yunwen Chen",
     "booktitle": "AAAI",
     "title": "Beyond Entities: A Large-Scale Multi-Modal Knowledge Graph with Triplet Fact Grounding.",
     "year": "2024",
@@ -31054,7 +31054,7 @@
   "Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MiZZHZYP24",
-    "author": "Di Mi and Yanjun Zhang and Leo Yu Zhang and Shengshan Hu and Qi Zhong and Haizhuan Yuan and Shirui Pan",
+    "author": "Di Mi and Yanjun Zhang 0002 and Leo Yu Zhang and Shengshan Hu and Qi Zhong and Haizhuan Yuan and Shirui Pan",
     "booktitle": "AAAI",
     "title": "Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation.",
     "year": "2024",
@@ -32736,7 +32736,7 @@
   "Rethinking the Development of Large Language Models from the Causal Perspective: A Legal Text Prediction Case Study.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenZLY24",
-    "author": "Haotian Chen and Lingwei Zhang 0002 and Yiran Liu and Yang Yu",
+    "author": "Haotian Chen and Lingwei Zhang 0002 and Yiran Liu and Yang Yu 0011",
     "booktitle": "AAAI",
     "title": "Rethinking the Development of Large Language Models from the Causal Perspective: A Legal Text Prediction Case Study.",
     "year": "2024",
@@ -36914,7 +36914,7 @@
   "Build Your Own Robot Friend: An Open-Source Learning Module for Accessible and Engaging AI Education.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShiOLLAH0M24",
-    "author": "Zhonghao Shi and Amy O'Connell and Zongjian Li and Siqi Liu and Jennifer Ayissi and Guy Hoffman and Mohammad Soleymani 0001 and Maja J. Mataric",
+    "author": "Zhonghao Shi and Amy O'Connell and Zongjian Li and Siqi Liu 0012 and Jennifer Ayissi and Guy Hoffman and Mohammad Soleymani 0001 and Maja J. Mataric",
     "booktitle": "AAAI",
     "title": "Build Your Own Robot Friend: An Open-Source Learning Module for Accessible and Engaging AI Education.",
     "year": "2024",

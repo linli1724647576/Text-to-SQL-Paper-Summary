@@ -1209,7 +1209,7 @@
   "END^2: Robust Dual-Decoder Watermarking Framework Against Non-Differentiable Distortions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SunFLZL25",
-    "author": "Nan Sun and Han Fang and Yuxing Lu and Chengxin Zhao and Hefei Ling",
+    "author": "Nan Sun and Han Fang 0004 and Yuxing Lu and Chengxin Zhao and Hefei Ling",
     "booktitle": "AAAI",
     "title": "END^2: Robust Dual-Decoder Watermarking Framework Against Non-Differentiable Distortions.",
     "year": "2025",
@@ -6253,7 +6253,7 @@
   "PixelMan: Consistent Object Editing with Diffusion Models via Pixel Manipulation and Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangHSSHSN25",
-    "author": "Liyao Jiang and Negar Hassanpour and Mohammad Salameh and Mohammadreza Samadi and Jiao He and Fengyu Sun and Di Niu",
+    "author": "Liyao Jiang and Negar Hassanpour and Mohammad Salameh and Mohammadreza Samadi and Jiao He and Fengyu Sun and Di Niu 0002",
     "booktitle": "AAAI",
     "title": "PixelMan: Consistent Object Editing with Diffusion Models via Pixel Manipulation and Generation.",
     "year": "2025",
@@ -7249,7 +7249,7 @@
   "U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLLW00CY25",
-    "author": "Chenxin Li and Xinyu Liu 0001 and Wuyang Li and Cheng Wang and Hengyu Liu 0007 and Yifan Liu 0010 and Zhen Chen 0013 and Yixuan Yuan",
+    "author": "Chenxin Li and Xinyu Liu 0001 and Wuyang Li and Cheng Wang 0043 and Hengyu Liu 0007 and Yifan Liu 0010 and Zhen Chen 0013 and Yixuan Yuan",
     "booktitle": "AAAI",
     "title": "U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation.",
     "year": "2025",
@@ -14128,7 +14128,7 @@
   "TG-LLaVA: Text Guided LLaVA via Learnable Latent Embeddings.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YanLLCCLDYZS25",
-    "author": "Dawei Yan and Pengcheng Li and Yang Li and Hao Chen 0041 and Qingguo Chen and Weihua Luo and Wei Dong 0010 and Qingsen Yan and Haokui Zhang and Chunhua Shen",
+    "author": "Dawei Yan 0001 and Pengcheng Li and Yang Li and Hao Chen 0041 and Qingguo Chen and Weihua Luo and Wei Dong 0010 and Qingsen Yan and Haokui Zhang and Chunhua Shen",
     "booktitle": "AAAI",
     "title": "TG-LLaVA: Text Guided LLaVA via Learnable Latent Embeddings.",
     "year": "2025",
@@ -15192,7 +15192,7 @@
   "ChangeDiff: A Multi-Temporal Change Detection Data Generator with Flexible Text Prompts via Diffusion Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZangYWZYZ25",
-    "author": "Qi Zang and Jiayi Yang and Shuang Wang 0001 and Dong Zhao and Wenjun Yi and Zhun Zhong",
+    "author": "Qi Zang and Jiayi Yang and Shuang Wang 0001 and Dong Zhao 0007 and Wenjun Yi and Zhun Zhong",
     "booktitle": "AAAI",
     "title": "ChangeDiff: A Multi-Temporal Change Detection Data Generator with Flexible Text Prompts via Diffusion Model.",
     "year": "2025",
@@ -15473,7 +15473,7 @@
   "DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation Against Corruptions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangWQSLJLS25",
-    "author": "Jingyu Zhang and Yilei Wang and Lang Qian and Peng Sun and Zengwen Li and Sudong Jiang and Maolin Liu and Liang Song",
+    "author": "Jingyu Zhang and Yilei Wang and Lang Qian and Peng Sun 0007 and Zengwen Li and Sudong Jiang and Maolin Liu and Liang Song",
     "booktitle": "AAAI",
     "title": "DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation Against Corruptions.",
     "year": "2025",
@@ -16019,7 +16019,7 @@
   "Improving Generalization of Universal Adversarial Perturbation via Dynamic Maximin Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangXSZHLZ25",
-    "author": "Yechao Zhang and Yingzhe Xu and Junyu Shi and Leo Yu Zhang and Shengshan Hu and Minghui Li and Yanjun Zhang",
+    "author": "Yechao Zhang and Yingzhe Xu and Junyu Shi and Leo Yu Zhang and Shengshan Hu and Minghui Li and Yanjun Zhang 0002",
     "booktitle": "AAAI",
     "title": "Improving Generalization of Universal Adversarial Perturbation via Dynamic Maximin Optimization.",
     "year": "2025",
@@ -16327,7 +16327,7 @@
   "Local Conditional Controlling for Text-to-Image Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoP0LLCY0ZLLW25",
-    "author": "Yibo Zhao and Liang Peng and Yang Yang 0002 and Zekai Luo and Hengjia Li and Yao Chen and Zheng Yang 0008 and Xiaofei He 0001 and Wei Zhao 0019 and Qinglin Lu and Wei Liu 0005 and Boxi Wu",
+    "author": "Yibo Zhao and Liang Peng and Yang Yang 0002 and Zekai Luo and Hengjia Li and Yao Chen and Zheng Yang 0008 and Xiaofei He 0001 and Wei Zhao 0019 and Qinglin Lu and Wei Liu 0005 and Boxi Wu 0001",
     "booktitle": "AAAI",
     "title": "Local Conditional Controlling for Text-to-Image Diffusion Models.",
     "year": "2025",
@@ -18624,7 +18624,7 @@
   "Unlocking the Power of LSTM for Long Term Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KongWN0ZLSW25",
-    "author": "Yaxuan Kong and Zepu Wang and Yuqi Nie and Tian Zhou 0004 and Stefan Zohren and Yuxuan Liang 0002 and Peng Sun and Qingsong Wen",
+    "author": "Yaxuan Kong and Zepu Wang and Yuqi Nie and Tian Zhou 0004 and Stefan Zohren and Yuxuan Liang 0002 and Peng Sun 0007 and Qingsong Wen",
     "booktitle": "AAAI",
     "title": "Unlocking the Power of LSTM for Long Term Time Series Forecasting.",
     "year": "2025",
@@ -19016,7 +19016,7 @@
   "THGNets: Constrained Temporal Hypergraphs and Graph Neural Networks in Hyperbolic Space for Information Diffusion Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuZSZLSG25",
-    "author": "Yanchao Liu and Pengzhou Zhang and Wenchao Song and Yao Zheng and Deyu Li and Lei Shi and Junpeng Gong",
+    "author": "Yanchao Liu and Pengzhou Zhang and Wenchao Song 0001 and Yao Zheng and Deyu Li and Lei Shi and Junpeng Gong",
     "booktitle": "AAAI",
     "title": "THGNets: Constrained Temporal Hypergraphs and Graph Neural Networks in Hyperbolic Space for Information Diffusion Prediction.",
     "year": "2025",
@@ -27549,7 +27549,7 @@
   "M3Net: Efficient Time-Frequency Integration Network with Mirror Attention for Audio Classification on Edge.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangAZQ25",
-    "author": "Xuanming Jiang and Baoyi An 0001 and Guoshuai Zhao and Xueming Qian",
+    "author": "Xuanming Jiang and Baoyi An 0001 and Guoshuai Zhao 0001 and Xueming Qian",
     "booktitle": "AAAI",
     "title": "M3Net: Efficient Time-Frequency Integration Network with Mirror Attention for Audio Classification on Edge.",
     "year": "2025",
@@ -28628,7 +28628,7 @@
   "Multi-Label Ranking Loss Minimization for Matrix Completion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/00010WZLW25",
-    "author": "Jiaxuan Li 0001 and Xiaoyan Zhu 0003 and Hongrui Wang and Yu Zhang 0203 and Xin Lai 0003 and Jiayin Wang 0002",
+    "author": "Jiaxuan Li 0001 and Xiaoyan Zhu 0003 and Hongrui Wang 0004 and Yu Zhang 0203 and Xin Lai 0003 and Jiayin Wang 0002",
     "booktitle": "AAAI",
     "title": "Multi-Label Ranking Loss Minimization for Matrix Completion.",
     "year": "2025",
@@ -29608,7 +29608,7 @@
   "Integrating Co-Training with Edge Discrimination to Enhance Graph Neural Networks Under Heterophily.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuHY00Z25",
-    "author": "Siqi Liu and Dongxiao He and Zhizhi Yu and Di Jin 0001 and Zhiyong Feng 0002 and Weixiong Zhang",
+    "author": "Siqi Liu 0009 and Dongxiao He and Zhizhi Yu and Di Jin 0001 and Zhiyong Feng 0002 and Weixiong Zhang",
     "booktitle": "AAAI",
     "title": "Integrating Co-Training with Edge Discrimination to Enhance Graph Neural Networks Under Heterophily.",
     "year": "2025",
@@ -31065,7 +31065,7 @@
   "Open-Set Heterogeneous Domain Adaptation: Theoretical Analysis and Algorithm.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PhamWYZ025",
-    "author": "Thai-Hoang Pham and Yuanlong Wang and Changchang Yin and Xueru Zhang and Ping Zhang 0016",
+    "author": "Thai-Hoang Pham and Yuanlong Wang 0004 and Changchang Yin and Xueru Zhang and Ping Zhang 0016",
     "booktitle": "AAAI",
     "title": "Open-Set Heterogeneous Domain Adaptation: Theoretical Analysis and Algorithm.",
     "year": "2025",
@@ -33727,7 +33727,7 @@
   "Non-Convex Tensor Recovery from Local Measurements.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuS025",
-    "author": "Tongle Wu and Ying Sun and Jicong Fan 0001",
+    "author": "Tongle Wu and Ying Sun 0003 and Jicong Fan 0001",
     "booktitle": "AAAI",
     "title": "Non-Convex Tensor Recovery from Local Measurements.",
     "year": "2025",
@@ -35659,7 +35659,7 @@
   "Twofold Debiasing Enhances Fine-Grained Learning with Coarse Labels.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoJLY25",
-    "author": "Xin-yang Zhao and Jian Jin and Yang-yang Li and Yazhou Yao",
+    "author": "Xin-yang Zhao and Jian Jin and Yangyang Li and Yazhou Yao",
     "booktitle": "AAAI",
     "title": "Twofold Debiasing Enhances Fine-Grained Learning with Coarse Labels.",
     "year": "2025",
@@ -37509,7 +37509,7 @@
   "COSEE: Consistency-Oriented Signal-Based Early Exiting via Calibrated Sample Weighting Mechanism.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HeZZ0N025",
-    "author": "Jianing He and Qi Zhang 0020 and Hongyun Zhang and Xuanjing Huang 0001 and Usman Naseem and Duoqian Miao 0001",
+    "author": "Jianing He and Qi Zhang 0020 and Hongyun Zhang 0001 and Xuanjing Huang 0001 and Usman Naseem and Duoqian Miao 0001",
     "booktitle": "AAAI",
     "title": "COSEE: Consistency-Oriented Signal-Based Early Exiting via Calibrated Sample Weighting Mechanism.",
     "year": "2025",

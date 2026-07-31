@@ -6211,7 +6211,7 @@
   "Pseudo-SD: Pseudo Controlled Stable Diffusion for Semi-Supervised and Cross-Domain Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhaoZWSZ25",
-    "author": "Dong Zhao and Qi Zang and Shuang Wang 0001 and Nicu Sebe and Zhun Zhong",
+    "author": "Dong Zhao 0007 and Qi Zang and Shuang Wang 0001 and Nicu Sebe and Zhun Zhong",
     "booktitle": "ICCV",
     "title": "Pseudo-SD: Pseudo Controlled Stable Diffusion for Semi-Supervised and Cross-Domain Semantic Segmentation.",
     "year": "2025",
@@ -7387,7 +7387,7 @@
   "MaTe: Images are All You Need for Material Transfer via Diffusion Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuangLLHCGLL25",
-    "author": "Nisha Huang and Henglin Liu and Yizhou Lin and Kaer Huang and Chubin Chen and Jie Guo and Tong-Yee Lee and Xiu Li",
+    "author": "Nisha Huang and Henglin Liu and Yizhou Lin and Kaer Huang and Chubin Chen and Jie Guo and Tong-Yee Lee and Xiu Li 0001",
     "booktitle": "ICCV",
     "title": "MaTe: Images are All You Need for Material Transfer via Diffusion Transformer.",
     "year": "2025",
@@ -8046,7 +8046,7 @@
   "Diorama: Unleashing Zero-Shot Single-View 3D Indoor Scene Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuIRSC25",
-    "author": "Qirui Wu and Denys Iliash and Daniel Ritchie and Manolis Savva and Angel X. Chang",
+    "author": "Qirui Wu and Denys Iliash and Daniel Ritchie 0001 and Manolis Savva and Angel X. Chang",
     "booktitle": "ICCV",
     "title": "Diorama: Unleashing Zero-Shot Single-View 3D Indoor Scene Modeling.",
     "year": "2025",
@@ -8200,7 +8200,7 @@
   "Magicid: Hybrid Preference Optimization for Id-Consistent and Dynamic-Preserved Video Customization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiJXWYWC25",
-    "author": "Hengjia Li and Lifan Jiang and Xi Xiao and Tianyang Wang and Hongwei Yi and Boxi Wu and Deng Cai 0001",
+    "author": "Hengjia Li and Lifan Jiang and Xi Xiao and Tianyang Wang and Hongwei Yi and Boxi Wu 0001 and Deng Cai 0001",
     "booktitle": "ICCV",
     "title": "Magicid: Hybrid Preference Optimization for Id-Consistent and Dynamic-Preserved Video Customization.",
     "year": "2025",
@@ -9310,7 +9310,7 @@
   "Continual Adaptation: Environment-Conditional Parameter Generation for Object Detection in Dynamic Scenarios.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiWLWH25",
-    "author": "Deng Li and Aming Wu and Yang Li and Yaowei Wang and Yahong Han",
+    "author": "Deng Li 0003 and Aming Wu and Yang Li 0251 and Yaowei Wang 0001 and Yahong Han",
     "booktitle": "ICCV",
     "title": "Continual Adaptation: Environment-Conditional Parameter Generation for Object Detection in Dynamic Scenarios.",
     "year": "2025",
@@ -11928,7 +11928,7 @@
   "Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChoiKCKWK25",
-    "author": "Changwoon Choi and Jeongjun Kim and Geonho Cha and Minkwan Kim and Dongyoon Wee and Young Min Kim",
+    "author": "Changwoon Choi and Jeongjun Kim and Geonho Cha and Minkwan Kim and Dongyoon Wee and Young Min Kim 0001",
     "booktitle": "ICCV",
     "title": "Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos.",
     "year": "2025",
@@ -12783,7 +12783,7 @@
   "StableDepth: Scene-Consistent and Scale-Invariant Monocular Depth.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangYYYGLZ25",
-    "author": "Zheng Zhang and Lihe Yang and Tianyu Yang and Chaohui Yu and Xiaoyang Guo and Yixing Lao and Hengshuang Zhao",
+    "author": "Zheng Zhang and Lihe Yang and Tianyu Yang 0003 and Chaohui Yu and Xiaoyang Guo and Yixing Lao and Hengshuang Zhao",
     "booktitle": "ICCV",
     "title": "StableDepth: Scene-Consistent and Scale-Invariant Monocular Depth.",
     "year": "2025",
@@ -17809,7 +17809,7 @@
   "Laboring on Less Labors: RPCA Paradigm for Pan-Sharpening.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XuFWWZ25",
-    "author": "Honghui Xu and Chuangjie Fang and Yibin Wang and Jie Wu and Jianwei Zheng",
+    "author": "Honghui Xu 0002 and Chuangjie Fang and Yibin Wang and Jie Wu and Jianwei Zheng 0001",
     "booktitle": "ICCV",
     "title": "Laboring on Less Labors: RPCA Paradigm for Pan-Sharpening.",
     "year": "2025",
@@ -18593,7 +18593,7 @@
   "Free-Merging: Fourier Transform for Efficient Model Merging.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhengW25",
-    "author": "Shenghe Zheng and Hongzhi Wang",
+    "author": "Shenghe Zheng and Hongzhi Wang 0001",
     "booktitle": "ICCV",
     "title": "Free-Merging: Fourier Transform for Efficient Model Merging.",
     "year": "2025",
@@ -19251,7 +19251,7 @@
   "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhouXZZLZCLLBXHZM25",
-    "author": "Zewei Zhou and Hao Xiang and Zhaoliang Zheng and Seth Z. Zhao and Mingyue Lei and Yun Zhang and Tianhui Cai and Xinyi Liu and Johnson Liu and Maheswari Bajji and Xin Xia 0007 and Zhiyu Huang and Bolei Zhou and Jiaqi Ma 0003",
+    "author": "Zewei Zhou and Hao Xiang 0001 and Zhaoliang Zheng and Seth Z. Zhao and Mingyue Lei and Yun Zhang and Tianhui Cai and Xinyi Liu and Johnson Liu and Maheswari Bajji and Xin Xia 0007 and Zhiyu Huang and Bolei Zhou and Jiaqi Ma 0003",
     "booktitle": "ICCV",
     "title": "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction.",
     "year": "2025",
@@ -21183,7 +21183,7 @@
   "GaussianReg: Rapid 2D/3D Registration for Emergency Surgery Via Explicit 3D Modeling with Gaussian Primitives.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YuGLLZHY25",
-    "author": "Weihao Yu 0004 and Xiaoqing Guo and Xinyu Liu 0001 and Yifan Liu and Hao Zheng and Yawen Huang and Yixuan Yuan",
+    "author": "Weihao Yu 0004 and Xiaoqing Guo and Xinyu Liu 0001 and Yifan Liu 0010 and Hao Zheng 0008 and Yawen Huang and Yixuan Yuan",
     "booktitle": "ICCV",
     "title": "GaussianReg: Rapid 2D/3D Registration for Emergency Surgery Via Explicit 3D Modeling with Gaussian Primitives.",
     "year": "2025",
@@ -21687,7 +21687,7 @@
   "DGTalker: Disentangled Generative Latent Space Learning for Audio-Driven Gaussian Talking Heads.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiangFYWGL25",
-    "author": "Xiaoxi Liang and Yanbo Fan and Qiya Yang and Xuan Wang 0009 and Wei Gao 0003 and Ge Li",
+    "author": "Xiaoxi Liang and Yanbo Fan and Qiya Yang and Xuan Wang 0009 and Wei Gao 0003 and Ge Li 0002",
     "booktitle": "ICCV",
     "title": "DGTalker: Disentangled Generative Latent Space Learning for Audio-Driven Gaussian Talking Heads.",
     "year": "2025",
@@ -22275,7 +22275,7 @@
   "PersonalVideo: High ID-Fidelity Video Customization without Dynamic and Semantic Degradation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiQZWWLZWC25",
-    "author": "Hengjia Li and Haonan Qiu and Shiwei Zhang 0001 and Xiang Wang 0012 and Yujie Wei 0001 and Zekun Li and Yingya Zhang and Boxi Wu and Deng Cai 0001",
+    "author": "Hengjia Li and Haonan Qiu and Shiwei Zhang 0001 and Xiang Wang 0012 and Yujie Wei 0001 and Zekun Li and Yingya Zhang and Boxi Wu 0001 and Deng Cai 0001",
     "booktitle": "ICCV",
     "title": "PersonalVideo: High ID-Fidelity Video Customization without Dynamic and Semantic Degradation.",
     "year": "2025",
@@ -26588,7 +26588,7 @@
   "InfoBridge: Balanced Multimodal Integration through Conditional Dependency Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiLPLLLWYLY25",
-    "author": "Chenxin Li and Yifan Liu and Panwang Pan and Hengyu Liu and Xinyu Liu 0001 and Wuyang Li and Cheng Wang and Weihao Yu 0004 and Yiyang Lin and Yixuan Yuan",
+    "author": "Chenxin Li and Yifan Liu 0010 and Panwang Pan and Hengyu Liu 0007 and Xinyu Liu 0001 and Wuyang Li and Cheng Wang 0043 and Weihao Yu 0004 and Yiyang Lin and Yixuan Yuan",
     "booktitle": "ICCV",
     "title": "InfoBridge: Balanced Multimodal Integration through Conditional Dependency Modeling.",
     "year": "2025",
@@ -27148,7 +27148,7 @@
   "MedVSR: Medical Video Super-Resolution with Cross State-Space Propagation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuSWYK25",
-    "author": "Xinyu Liu 0001 and Guolei Sun and Cheng Wang and Yixuan Yuan and Ender Konukoglu",
+    "author": "Xinyu Liu 0001 and Guolei Sun and Cheng Wang 0043 and Yixuan Yuan and Ender Konukoglu",
     "booktitle": "ICCV",
     "title": "MedVSR: Medical Video Super-Resolution with Cross State-Space Propagation.",
     "year": "2025",
@@ -27792,7 +27792,7 @@
   "Gleam: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenWLHPX25",
-    "author": "Xiao Chen and Tai Wang and Quanyi Li and Tao Huang and Jiangmiao Pang and Tianfan Xue",
+    "author": "Xiao Chen 0016 and Tai Wang and Quanyi Li and Tao Huang and Jiangmiao Pang and Tianfan Xue",
     "booktitle": "ICCV",
     "title": "Gleam: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scenes.",
     "year": "2025",
@@ -29080,7 +29080,7 @@
   "Leveraging Debiased Cross-Modal Attention Maps and Code-Based Reasoning for Zero-Shot Referring Expression Comprehension.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenSWSZ25",
-    "author": "Juntao Chen and Wen Shen 0002 and Zhihua Wei 0001 and Lijun Sun and Hongyun Zhang",
+    "author": "Juntao Chen and Wen Shen 0002 and Zhihua Wei 0001 and Lijun Sun and Hongyun Zhang 0001",
     "booktitle": "ICCV",
     "title": "Leveraging Debiased Cross-Modal Attention Maps and Code-Based Reasoning for Zero-Shot Referring Expression Comprehension.",
     "year": "2025",
@@ -29725,7 +29725,7 @@
   "Omni-Scene Perception-Oriented Point Cloud Geometry Enhancement for Coordinate Quantization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuG25",
-    "author": "Wang Liu and Wei Gao 0003",
+    "author": "Wang Liu 0001 and Wei Gao 0003",
     "booktitle": "ICCV",
     "title": "Omni-Scene Perception-Oriented Point Cloud Geometry Enhancement for Coordinate Quantization.",
     "year": "2025",
@@ -31601,7 +31601,7 @@
   "Instance-Level Video Depth in Groups Beyond Occlusions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiangZSXLH25",
-    "author": "Yuan Liang and Yang Zhou and Ziming Sun and Tianyi Xiang and Guiqing Li and Shengfeng He",
+    "author": "Yuan Liang and Yang Zhou 0038 and Ziming Sun and Tianyi Xiang and Guiqing Li and Shengfeng He",
     "booktitle": "ICCV",
     "title": "Instance-Level Video Depth in Groups Beyond Occlusions.",
     "year": "2025",
@@ -31993,7 +31993,7 @@
   "Integrating Biological Knowledge for Robust Microscopy Image Profiling on De Novo Cell Lines.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenPWZ25",
-    "author": "Jiayuan Chen 0003 and Thai-Hoang Pham and Yuanlong Wang and Ping Zhang 0016",
+    "author": "Jiayuan Chen 0003 and Thai-Hoang Pham and Yuanlong Wang 0004 and Ping Zhang 0016",
     "booktitle": "ICCV",
     "title": "Integrating Biological Knowledge for Robust Microscopy Image Profiling on De Novo Cell Lines.",
     "year": "2025",
@@ -34433,7 +34433,7 @@
   "TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GuptaRCBVJ25",
-    "author": "Ayush Gupta and Anirban Roy and Rama Chellappa and Nathaniel D. Bastian and Alvaro Velasquez and Susmit Jha",
+    "author": "Ayush Gupta 0001 and Anirban Roy and Rama Chellappa and Nathaniel D. Bastian and Alvaro Velasquez and Susmit Jha",
     "booktitle": "ICCV",
     "title": "TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision.",
     "year": "2025",

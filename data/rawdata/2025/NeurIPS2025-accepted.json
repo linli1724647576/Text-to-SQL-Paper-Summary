@@ -2116,7 +2116,7 @@
   "VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-videorft-incentivizing-video-reasoning-capability-in-mllms-via-reinforced-fine-t",
-    "author": "Qi  Wang and Yanrui Yu and Ye Yuan and Rui Mao and Tianfei Zhou Main Conference Track <a title=\"paper tit",
+    "author": "Qi Wang and Yanrui Yu and Ye Yuan and Rui Mao and Tianfei Zhou Main Conference Track <a title=\"paper title\" href=",
     "booktitle": "NeurIPS Conference",
     "title": "VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning",
     "year": "2025",
@@ -12210,7 +12210,7 @@
   "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-adaptive-neighborhood-constrained-q-learning-for-offline-reinforcement-learning",
-    "author": "Yixiu Mao and Yun Qu and Qi  Wang and Xiangyang Ji Main Conference Track <a title=\"paper title\" href=",
+    "author": "Yixiu Mao and Yun Qu and Qi Wang and Xiangyang Ji Main Conference Track <a title=\"paper title\" href=\"/paper_fi",
     "booktitle": "NeurIPS Conference",
     "title": "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning",
     "year": "2025",
@@ -23312,7 +23312,7 @@
   "Gains: Fine-grained Federated Domain Adaptation in Open Set": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-gains-fine-grained-federated-domain-adaptation-in-open-set",
-    "author": "Zhengyi Zhong and Wenzheng Jiang and Weidong Bao and Ji Wang and Qi  Wang and Guanbo Wang and Yongheng Deng and Ju Ren Main Conference Track",
+    "author": "Zhengyi Zhong and Wenzheng Jiang and Weidong Bao and Ji Wang and Qi Wang and Guanbo Wang and Yongheng Deng and Ju Ren Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Gains: Fine-grained Federated Domain Adaptation in Open Set",
     "year": "2025",
@@ -39454,7 +39454,7 @@
   "RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-rhythm-reasoning-with-hierarchical-temporal-tokenization-for-human-mobility",
-    "author": "Haoyu He and Haozheng Luo and Yan Chen and Qi  Wang Main Conference Track <a title=\"paper title\" href=",
+    "author": "Haoyu He and Haozheng Luo and Yan Chen and Qi Wang Main Conference Track <a title=\"paper title\" href=\"/paper_f",
     "booktitle": "NeurIPS Conference",
     "title": "RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility",
     "year": "2025",
@@ -45586,7 +45586,7 @@
   "Selective Learning for Deep Time Series Forecasting": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-selective-learning-for-deep-time-series-forecasting",
-    "author": "Yisong Fu and Zezhi Shao and Chengqing Yu and Yujie Li and Zhulin An and Qi  Wang and Yongjun Xu and Fei Wang Main Conference Track",
+    "author": "Yisong Fu and Zezhi Shao and Chengqing Yu and Yujie Li and Zhulin An and Qi Wang and Yongjun Xu and Fei Wang Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Selective Learning for Deep Time Series Forecasting",
     "year": "2025",
@@ -52838,7 +52838,7 @@
   "H3D-DGS: Exploring Heterogeneous 3D Motion Representation for Deformable 3D Gaussian Splatting": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-h3d-dgs-exploring-heterogeneous-3d-motion-representation-for-deformable-3d-gauss",
-    "author": "Bing He and Yunuo Chen and Guo Lu and Qi  Wang and Qunshan Gu and Rong Xie and Li Song and Wenjun Zhang Main Conference Track",
+    "author": "Bing He and Yunuo Chen and Guo Lu and Qi Wang and Qunshan Gu and Rong Xie and Li Song and Wenjun Zhang Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "H3D-DGS: Exploring Heterogeneous 3D Motion Representation for Deformable 3D Gaussian Splatting",
     "year": "2025",

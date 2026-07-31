@@ -1220,7 +1220,7 @@
   "Egocentric Object-Interaction Anticipation with Retentive and Predictive Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/00060ZLWL25",
-    "author": "Guo Chen 0006 and Yifei Huang 0002 and Yin-Dong Zheng and Yicheng Liu and Jiahao Wang and Tong Lu 0002",
+    "author": "Guo Chen 0006 and Yifei Huang 0002 and Yin-Dong Zheng and Yicheng Liu and Jiahao Wang 0005 and Tong Lu 0002",
     "booktitle": "IJCAI",
     "title": "Egocentric Object-Interaction Anticipation with Retentive and Predictive Learning.",
     "year": "2025",
@@ -2816,7 +2816,7 @@
   "ExpTalk: Diverse Emotional Expression via Adaptive Disentanglement and Refined Alignment for Speech-Driven 3D Facial Animation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/QuZLCL0025",
-    "author": "Zhan Qu and Shengyu Zhang 0001 and Mengze Li 0001 and Zhuo Chen and Chengfei Lv and Zhou Zhao 0001 and Fei Wu 0001",
+    "author": "Zhan Qu 0001 and Shengyu Zhang 0001 and Mengze Li 0001 and Zhuo Chen and Chengfei Lv and Zhou Zhao 0001 and Fei Wu 0001",
     "booktitle": "IJCAI",
     "title": "ExpTalk: Diverse Emotional Expression via Adaptive Disentanglement and Refined Alignment for Speech-Driven 3D Facial Animation.",
     "year": "2025",
@@ -3825,7 +3825,7 @@
   "Enhancing Multimodal Model Robustness Under Missing Modalities via Memory-Driven Prompt Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhaoX0Z25",
-    "author": "Yihan Zhao and Wei Xi and Xiao Fu 0001 and Jizhong Zhao",
+    "author": "Yihan Zhao and Wei Xi 0003 and Xiao Fu 0001 and Jizhong Zhao",
     "booktitle": "IJCAI",
     "title": "Enhancing Multimodal Model Robustness Under Missing Modalities via Memory-Driven Prompt Learning.",
     "year": "2025",
@@ -4581,7 +4581,7 @@
   "ReplayCAD: Generative Diffusion Replay for Continual Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/HuGDLLHC25",
-    "author": "Lei Hu and Zhiyong Gan and Ling Deng and Jinglin Liang 0001 and Lingyu Liang and Shuangping Huang and Tianshui Chen",
+    "author": "Lei Hu 0012 and Zhiyong Gan and Ling Deng and Jinglin Liang 0001 and Lingyu Liang and Shuangping Huang and Tianshui Chen",
     "booktitle": "IJCAI",
     "title": "ReplayCAD: Generative Diffusion Replay for Continual Anomaly Detection.",
     "year": "2025",
@@ -5254,7 +5254,7 @@
   "EVICheck: Evidence-Driven Independent Reasoning and Combined Verification Method for Fact-Checking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WangSKZMZXL25",
-    "author": "Lingxiao Wang and Lei Shi 0030 and Feifei Kou and Ligu Zhu and Chen Ma 0003 and Pengfei Zhang and Mingying Xu and Zeyu Li",
+    "author": "Lingxiao Wang and Lei Shi 0030 and Feifei Kou and Ligu Zhu and Chen Ma 0003 and Pengfei Zhang 0010 and Mingying Xu and Zeyu Li",
     "booktitle": "IJCAI",
     "title": "EVICheck: Evidence-Driven Independent Reasoning and Combined Verification Method for Fact-Checking.",
     "year": "2025",
@@ -9373,7 +9373,7 @@
   "Performance Guaranteed Poisoning Attacks in Federated Learning: A Sliding Mode Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/PanZZAKK25",
-    "author": "Huazi Pan and Yanjun Zhang and Leo Yu Zhang and Scott D. Adams and Abbas Z. Kouzani and Suiyang Khoo",
+    "author": "Huazi Pan and Yanjun Zhang 0002 and Leo Yu Zhang and Scott D. Adams and Abbas Z. Kouzani and Suiyang Khoo",
     "booktitle": "IJCAI",
     "title": "Performance Guaranteed Poisoning Attacks in Federated Learning: A Sliding Mode Approach.",
     "year": "2025",
@@ -10521,7 +10521,7 @@
   "Predicting Spectral Information for Self-Supervised Signal Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/XuWXWQYZM25",
-    "author": "Yi Xu and Shuang Wang 0001 and Hantong Xing and Chenxu Wang 0001 and Dou Quan and Rui Yang 0038 and Dong Zhao and Luyang Mei",
+    "author": "Yi Xu and Shuang Wang 0001 and Hantong Xing and Chenxu Wang 0001 and Dou Quan and Rui Yang 0038 and Dong Zhao 0007 and Luyang Mei",
     "booktitle": "IJCAI",
     "title": "Predicting Spectral Information for Self-Supervised Signal Classification.",
     "year": "2025",
@@ -10633,7 +10633,7 @@
   "Theoretical Insights into Fine-Tuning Attention Mechanism: Generalization and Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/YaoQHXL0WL25",
-    "author": "Xinhao Yao and Hongjin Qian and Xiaolin Hu and Gengze Xu and Wei Liu 0302 and Jian Luan 0001 and Bin Wang 0004 and Yong Liu 0020",
+    "author": "Xinhao Yao and Hongjin Qian and Xiaolin Hu 0001 and Gengze Xu and Wei Liu 0302 and Jian Luan 0001 and Bin Wang 0004 and Yong Liu 0020",
     "booktitle": "IJCAI",
     "title": "Theoretical Insights into Fine-Tuning Attention Mechanism: Generalization and Optimization.",
     "year": "2025",
@@ -11445,7 +11445,7 @@
   "FreqMoE: Dynamic Frequency Enhancement for Neural PDE Solvers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ChenZLWZZZ025",
-    "author": "Tianyu Chen and Haoyi Zhou and Ying Li 0128 and Hao Wang 0073 and Zhenzhe Zhang and Tianchen Zhu and Shanghang Zhang and Jianxin Li 0002",
+    "author": "Tianyu Chen 0017 and Haoyi Zhou and Ying Li 0128 and Hao Wang 0073 and Zhenzhe Zhang and Tianchen Zhu and Shanghang Zhang and Jianxin Li 0002",
     "booktitle": "IJCAI",
     "title": "FreqMoE: Dynamic Frequency Enhancement for Neural PDE Solvers.",
     "year": "2025",
@@ -12565,7 +12565,7 @@
   "Improving Prediction Certainty Estimation for Reliable Early Exiting via Null Space Projection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/HeZ00HZ025",
-    "author": "Jianing He and Qi Zhang 0020 and Duoqian Miao 0001 and Kun Yi 0001 and Shufeng Hao and Hongyun Zhang and Zhihua Wei 0001",
+    "author": "Jianing He and Qi Zhang 0020 and Duoqian Miao 0001 and Kun Yi 0001 and Shufeng Hao and Hongyun Zhang 0001 and Zhihua Wei 0001",
     "booktitle": "IJCAI",
     "title": "Improving Prediction Certainty Estimation for Reliable Early Exiting via Null Space Projection.",
     "year": "2025",
@@ -13434,7 +13434,7 @@
   "GATES: Cost-aware Dynamic Workflow Scheduling via Graph Attention Networks and Evolution Strategy.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ShenCMZ25",
-    "author": "Ya Shen and Gang Chen and Hui Ma and Mengjie Zhang",
+    "author": "Ya Shen 0001 and Gang Chen and Hui Ma and Mengjie Zhang",
     "booktitle": "IJCAI",
     "title": "GATES: Cost-aware Dynamic Workflow Scheduling via Graph Attention Networks and Evolution Strategy.",
     "year": "2025",

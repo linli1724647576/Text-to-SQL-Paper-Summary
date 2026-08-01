@@ -1,4 +1,20 @@
 {
+  "Static and streaming algorithms for random sampling over spatial range joins": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7172023688",
+    "author": "Daichi Amagata and Duhyun Kim",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Static and streaming algorithms for random sampling over spatial range joins",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Joins, Algorithm, Range (aeronautics), Sampling (signal processing), Theoretical computer science, Streaming algorithm, Data mining, Mathematics, Algorithm design",
+    "url": "https://doi.org/10.1007/s00778-026-00997-1",
+    "doi": "https://doi.org/10.1007/s00778-026-00997-1",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7172023688"
+  },
   "Can large language models be a cardinality estimator? An empirical study": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7170829036",

@@ -152,7 +152,7 @@
   "Learned Static Function Data Structures.": {
     "type": "ARTICLE",
     "key": "journals/pvldb/HermannLVW26",
-    "author": "Stefan Hermann and Hans-Peter Lehmann and Giorgio Vinciguerra and Stefan Walzer",
+    "author": "Stefan Hermann 0002 and Hans-Peter Lehmann and Giorgio Vinciguerra and Stefan Walzer",
     "booktitle": "Proc. VLDB Endow.",
     "title": "Learned Static Function Data Structures.",
     "year": "2026",
@@ -317,7 +317,7 @@
   "SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.": {
     "type": "ARTICLE",
     "key": "journals/pvldb/PengYXSSCC26",
-    "author": "Yuchen Peng and Dingyu Yang and Zhongle Xie and Ji Sun and Lidan Shou and Ke Chen 0005 and Gang Chen 0001",
+    "author": "Yuchen Peng and Dingyu Yang and Zhongle Xie and Ji Sun 0001 and Lidan Shou and Ke Chen 0005 and Gang Chen 0001",
     "booktitle": "Proc. VLDB Endow.",
     "title": "SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.",
     "year": "2026",

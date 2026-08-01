@@ -713,20 +713,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-thinking-with-video-video-generation-as-a-promising-multimodal-reasoning-paradig",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39525",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "What Are You Doing? A Closer Look at Controllable Human Video Generation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-what-are-you-doing-a-closer-look-at-controllable-human-video-generation",
@@ -4839,20 +4825,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/39522",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-olatverse-a-large-scale-real-world-object-dataset-with-precise-lighting-control",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38221",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -10625,20 +10597,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "Diffusion-Based Makeup Transfer with Facial Region-Aware Makeup Features": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-diffusion-based-makeup-transfer-with-facial-region-aware-makeup-features",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Diffusion-Based Makeup Transfer with Facial Region-Aware Makeup Features",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36627",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-salmubench-a-benchmark-for-sensitive-association-level-multimodal-unlearning",
@@ -14517,20 +14475,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-filtergs-traversal-free-parallel-filtering-and-adaptive-shrinking-for-large-scal",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38832",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-reparameterized-tensor-ring-functional-decomposition-for-multi-dimensional-data-",
@@ -17905,6 +17849,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-thinking-with-video-video-generation-as-a-promising-multimodal-reasoning-paradig",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39525",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-videonet-a-large-scale-dataset-for-domain-specific-action-recognition",
@@ -17947,6 +17905,34 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-olatverse-a-large-scale-real-world-object-dataset-with-precise-lighting-control",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38221",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-filtergs-traversal-free-parallel-filtering-and-adaptive-shrinking-for-large-scal",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38832",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "E-3DPSM: A State Machine for Event-based Egocentric 3D Human Pose Estimation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-e-3dpsm-a-state-machine-for-event-based-egocentric-3d-human-pose-estimation",
@@ -17957,6 +17943,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/39483",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Diffusion-Based Makeup Transfer with Facial Region-Aware Makeup Features": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-diffusion-based-makeup-transfer-with-facial-region-aware-makeup-features",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Diffusion-Based Makeup Transfer with Facial Region-Aware Makeup Features",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36627",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "Fusion in Your Way: Aligning Image Fusion with Heterogeneous Demands via Direct Preference Optimization": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-fusion-in-your-way-aligning-image-fusion-with-heterogeneous-demands-via-direct-p",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Fusion in Your Way: Aligning Image Fusion with Heterogeneous Demands via Direct Preference Optimization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36178",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -23277,20 +23291,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/40670",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "Fusion in Your Way: Aligning Image Fusion with Heterogeneous Demands via Direct Preference Optimization": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-fusion-in-your-way-aligning-image-fusion-with-heterogeneous-demands-via-direct-p",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Fusion in Your Way: Aligning Image Fusion with Heterogeneous Demands via Direct Preference Optimization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36178",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

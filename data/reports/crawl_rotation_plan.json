@@ -1,9 +1,9 @@
 {
-  "cursor_after": 0,
-  "cursor_before": 6,
+  "cursor_after": 1,
+  "cursor_before": 0,
   "from_year": 2020,
   "mode": "year",
-  "selected_at": "2026-08-01T18:01:34Z",
+  "selected_at": "2026-08-02T18:00:53Z",
   "to_year": 2026,
   "tracks": "AI,DB,SE",
   "venues": [
@@ -31,5 +31,5 @@
   ],
   "venues_csv": "AAAI,NeurIPS,ACL,CVPR,ICML,IJCAI,SIGMOD,VLDB,ICDE,KDD,WWW,SIGIR,ICSE,FSE,ASE,ISSTA,AIJ,TKDE,VLDBJ,TSE,TOSEM",
   "version": 1,
-  "year": 2026
+  "year": 2020
 }

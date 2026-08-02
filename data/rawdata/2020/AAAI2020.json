@@ -1304,7 +1304,7 @@
   "Robust Low-Rank Discovery of Data-Driven Partial Differential Equations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiSZL20",
-    "author": "Jun Li 0027 and Gan Sun and Guoshuai Zhao and Li-Wei H. Lehman",
+    "author": "Jun Li 0027 and Gan Sun and Guoshuai Zhao 0001 and Li-Wei H. Lehman",
     "booktitle": "AAAI",
     "title": "Robust Low-Rank Discovery of Data-Driven Partial Differential Equations.",
     "year": "2020",
@@ -5931,7 +5931,7 @@
   "Fast Adaptively Weighted Matrix Factorization for Recommendation with Implicit Feedback.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Chen0ZSCF020",
-    "author": "Jiawei Chen 0007 and Can Wang 0001 and Sheng Zhou 0004 and Qihao Shi and Jingbang Chen and Yan Feng and Chun Chen 0001",
+    "author": "Jiawei Chen 0007 and Can Wang 0001 and Sheng Zhou 0004 and Qihao Shi and Jingbang Chen 0001 and Yan Feng and Chun Chen 0001",
     "booktitle": "AAAI",
     "title": "Fast Adaptively Weighted Matrix Factorization for Recommendation with Implicit Feedback.",
     "year": "2020",
@@ -20939,7 +20939,7 @@
   "Multi-Speaker Video Dialog with Frame-Level Temporal Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangJGHZ20",
-    "author": "Qiang Wang and Pin Jiang and Zhiyi Guo and Yahong Han and Zhou Zhao",
+    "author": "Qiang Wang and Pin Jiang and Zhiyi Guo and Yahong Han and Zhou Zhao 0001",
     "booktitle": "AAAI",
     "title": "Multi-Speaker Video Dialog with Frame-Level Temporal Localization.",
     "year": "2020",
@@ -24420,13 +24420,12 @@
     "booktitle": "AAAI",
     "title": "Improving Semantic Parsing Using Statistical Word Sense Disambiguation (Student Abstract).",
     "year": "2020",
-    "abstract": "A Semantic Parser generates a logical form graph from an utterance where the edges are semantic roles and nodes are word senses in an ontology that supports reasoning. The generated representation attempts to capture the full meaning of the utterance. While the process of parsing works to resolve lexical ambiguity, a number of errors in the logical forms arise from incorrectly assigned word sense determinations. This is especially true in logical and rule-based semantic parsers. Although the performance of statistical word sense disambiguation methods is superior to the word sense output of semantic parser, these systems do not produce the rich role structure or a detailed semantic representation of the sentence content. In this work, we use decisions from a statistical WSD system to inform a logical semantic parser and greatly improve semantic type assignments in the resulting logical forms.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7150",
     "doi": "10.1609/aaai.v34i10.7150",
     "venue": "AAAI2020",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W3037522856"
+    "venue_track": "AI"
   },
   "Towards an Integrative Educational Recommender for Lifelong Learners (Student Abstract).": {
     "type": "INPROCEEDINGS",
@@ -24505,12 +24504,13 @@
     "booktitle": "AAAI",
     "title": "RPM-Oriented Query Rewriting Framework for E-commerce Keyword-Based Sponsored Search (Student Abstract).",
     "year": "2020",
-    "abstract": "",
+    "abstract": "Sponsored search optimizes revenue and relevance, which is estimated by Revenue Per Mille (RPM). Existing sponsored search models are all based on traditional statistical models, which have poor RPM performance when queries follow a heavy-tailed distribution. Here, we propose an RPMoriented Query Rewriting Framework (RQRF) which outputs related bid keywords that can yield high RPM. RQRF embeds both queries and bid keywords to vectors in the same implicit space, converting the rewriting probability between each query and keyword to the distance between the two vectors. For label construction, we propose an RPM-oriented sample construction method, labeling keywords based on whether or not they can lead to high RPM. Extensive experiments are conducted to evaluate performance of RQRF. In a one month large-scale real-world traffic of e-commerce sponsored search system, the proposed model significantly outperforms traditional baseline.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7156",
     "doi": "10.1609/aaai.v34i10.7156",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3038113521"
   },
   "Learning to Model Opponent Learning (Student Abstract).": {
     "type": "INPROCEEDINGS",

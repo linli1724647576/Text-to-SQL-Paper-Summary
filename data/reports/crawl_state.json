@@ -16,11 +16,11 @@
     },
     "dblp-conference:AAAI:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-26T18:02:33Z",
-      "last_success_at": "2026-07-26T18:02:33Z",
+      "last_attempt_at": "2026-08-02T18:00:58Z",
+      "last_success_at": "2026-08-02T18:00:58Z",
       "rawdata_path": "data/rawdata/2020/AAAI2020.json",
       "record_count": 1864,
-      "sha256": "a3f989d09b8214ac8b394bc485ce7d3a8f772468c8b57400f47d9f44de3ed99f",
+      "sha256": "6ab8ef0f9af50e840b59ac9d8c1ac16081e9015a034847944a964cb1ac2ca910",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -996,8 +996,8 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-19T17:59:18Z",
-      "last_success_at": "2026-07-19T17:59:18Z",
+      "last_attempt_at": "2026-08-02T18:01:06Z",
+      "last_success_at": "2026-08-02T18:01:06Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
       "sha256": "72b28d67e9367ca5b37a842d5d849d021d1d8d613eddec55300dd4fe02d735ce",
@@ -2046,8 +2046,8 @@
     },
     "official-accepted:ICML:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-26T18:02:35Z",
-      "last_success_at": "2026-07-26T18:02:35Z",
+      "last_attempt_at": "2026-08-02T18:01:09Z",
+      "last_success_at": "2026-08-02T18:01:09Z",
       "rawdata_path": "data/rawdata/2020/ICML2020-accepted.json",
       "record_count": 1084,
       "sha256": "244ea4c141bdd48f98bfe86004b7256a43ab963b4bf43ac81e2a6ea9f9f1dd2d",
@@ -2326,8 +2326,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-07-26T18:02:39Z",
-      "last_success_at": "2026-07-26T18:02:39Z",
+      "last_attempt_at": "2026-08-02T18:01:14Z",
+      "last_success_at": "2026-08-02T18:01:14Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 0,
+    "cursor": 1,
     "history": [
       {
         "cursor": 1,
@@ -4687,9 +4687,61 @@
           "TOSEM"
         ],
         "year": 2026
+      },
+      {
+        "cursor": 1,
+        "failed": [],
+        "finalized_at": "2026-08-02T18:02:22Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2020
       }
     ],
-    "last_completed_at": "2026-08-01T18:04:52Z",
+    "last_completed_at": "2026-08-02T18:02:22Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
@@ -4713,6 +4765,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2026
+    "last_selected_year": 2020
   }
 }

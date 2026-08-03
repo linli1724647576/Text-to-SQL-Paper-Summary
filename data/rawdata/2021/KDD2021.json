@@ -4455,7 +4455,7 @@
   "Multivariate Time Series Anomaly Detection and Interpretation using Hierarchical Inter-Metric and Temporal Embedding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/kdd/LiZHSJWP21",
-    "author": "Zhihan Li and Youjian Zhao and Jiaqi Han and Ya Su and Rui Jiao and Xidao Wen and Dan Pei",
+    "author": "Zhihan Li 0002 and Youjian Zhao and Jiaqi Han and Ya Su and Rui Jiao and Xidao Wen and Dan Pei",
     "booktitle": "KDD",
     "title": "Multivariate Time Series Anomaly Detection and Interpretation using Hierarchical Inter-Metric and Temporal Embedding.",
     "year": "2021",

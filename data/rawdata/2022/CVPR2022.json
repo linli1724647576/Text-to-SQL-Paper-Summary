@@ -1365,7 +1365,7 @@
     "booktitle": "CVPR",
     "title": "Efficient Video Instance Segmentation via Tracklet Query and Proposal.",
     "year": "2022",
-    "abstract": "Video Instance Segmentation (VIS) aims to simultaneously classify, segment, and track multiple object instances in videos. Recent clip-level VIS takes a short video clip as input each time showing stronger performance than frame-level VIS (tracking-by-segmentation), as more temporal context from multiple frames is utilized. Yet, most clip-level methods are neither end-to-end learnable nor real-time. These limitations are addressed by the recent VIS transformer (VisTR) [25] which performs VIS end-to-end within a clip. However, VisTR suffers from long training time due to its frame-wise dense attention. In addition, VisTR is not fully end-to-end learnable in multiple video clips as it requires a hand-crafted data association to link instance tracklets between successive clips. This paper proposes EfficientVIS, a fully end-to-end framework with efficient training and inference. At the core are tracklet query and tracklet proposal that associate and segment regions-of-interest (RoIs) across space and time by an iterative query-video interaction. We further propose a correspondence learning that makes tracklets linking between clips end-to-end learnable. Compared to VisTR, EfficientVIS requires <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$15\\times$</tex> fewer training epochs while achieving state-of-the-art accuracy on the YouTube-VIS benchmark. Meanwhile, our method enables whole video instance segmentation in a single end-to-end pass without data association at all.",
+    "abstract": "Video Instance Segmentation (VIS) aims to simultaneously classify, segment, and track multiple object instances in videos. Recent clip-level VIS takes a short video clip as input each time showing stronger performance than frame-level VIS (tracking-by-segmentation), as more temporal context from multiple frames is utilized. Yet, most clip-level methods are neither end-to-end learnable nor real-time. These limitations are addressed by the recent VIS transformer (VisTR) [25] which performs VIS end-to-end within a clip. However, VisTR suffers from long training time due to its frame-wise dense attention. In addition, VisTR is not fully end-to-end learnable in multiple video clips as it requires a hand-crafted data association to link instance tracklets between successive clips. This paper proposes EfficientVIS, a fully end-to-end framework with efficient training and inference. At the core are tracklet query and tracklet proposal that associate and segment regions-of-interest (RoIs) across space and time by an iterative query-video interaction. We further propose a correspondence learning that makes tracklets linking between clips end-to-end learnable. Compared to VisTR, EfficientVIS requires$15\\times$fewer training epochs while achieving state-of-the-art accuracy on the YouTube-VIS benchmark. Meanwhile, our method enables whole video instance segmentation in a single end-to-end pass without data association at all.",
     "keywords": "",
     "url": "https://doi.org/10.1109/cvpr52688.2022.00103",
     "doi": "10.1109/CVPR52688.2022.00103",
@@ -2776,7 +2776,7 @@
   "Self-supervised Deep Image Restoration via Adaptive Stochastic Gradient Langevin Dynamics.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangLJ22",
-    "author": "Weixi Wang and Ji Li and Hui Ji",
+    "author": "Weixi Wang and Ji Li and Hui Ji 0002",
     "booktitle": "CVPR",
     "title": "Self-supervised Deep Image Restoration via Adaptive Stochastic Gradient Langevin Dynamics.",
     "year": "2022",
@@ -3896,7 +3896,7 @@
   "IRISformer: Dense Vision Transformers for Single-Image Inverse Rendering in Indoor Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhuLMPC22",
-    "author": "Rui Zhu and Zhengqin Li and Janarbek Matai and Fatih Porikli and Manmohan Chandraker",
+    "author": "Rui Zhu 0026 and Zhengqin Li and Janarbek Matai and Fatih Porikli and Manmohan Chandraker",
     "booktitle": "CVPR",
     "title": "IRISformer: Dense Vision Transformers for Single-Image Inverse Rendering in Indoor Scenes.",
     "year": "2022",
@@ -5702,7 +5702,7 @@
   "Towards Accurate Facial Landmark Detection via Cascaded Transformers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiGRHH22",
-    "author": "Hui Li and Zidong Guo and Seon-Min Rhee and Seungju Han 0001 and Jae-Joon Han",
+    "author": "Hui Li 0031 and Zidong Guo and Seon-Min Rhee and Seungju Han 0001 and Jae-Joon Han",
     "booktitle": "CVPR",
     "title": "Towards Accurate Facial Landmark Detection via Cascaded Transformers.",
     "year": "2022",
@@ -6924,7 +6924,7 @@
     "booktitle": "CVPR",
     "title": "Transform-Retrieve-Generate: Natural Language-Centric Outside-Knowledge Visual Question Answering.",
     "year": "2022",
-    "abstract": "Outside-knowledge visual question answering (OK-VQA) requires the agent to comprehend the image, make use of relevant knowledge from the entire web, and digest all the information to answer the question. Most previous works address the problem by first fusing the image and question in the multi-modal space, which is inflexible for further fusion with a vast amount of external knowledge. In this paper, we call for an alternative paradigm for the OK-VQA task, which transforms the image into plain text, so that we can enable knowledge passage retrieval, and generative question-answering in the natural language space. This paradigm takes advantage of the sheer volume of gigantic knowledge bases and the richness of pretrained language models. A Transform-Retrieve-Generate framework (TRiG) framework is proposed <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> The code of this work will be made public., which can be plug-and-played with alternative image-to-text models and textual knowledge bases. Experimental results show that our TRiG framework outperforms all state-of-the-art supervised methods by at least 11.1 % absolute margin.",
+    "abstract": "Outside-knowledge visual question answering (OK-VQA) requires the agent to comprehend the image, make use of relevant knowledge from the entire web, and digest all the information to answer the question. Most previous works address the problem by first fusing the image and question in the multi-modal space, which is inflexible for further fusion with a vast amount of external knowledge. In this paper, we call for an alternative paradigm for the OK-VQA task, which transforms the image into plain text, so that we can enable knowledge passage retrieval, and generative question-answering in the natural language space. This paradigm takes advantage of the sheer volume of gigantic knowledge bases and the richness of pretrained language models. A Transform-Retrieve-Generate framework (TRiG) framework is proposed11The code of this work will be made public., which can be plug-and-played with alternative image-to-text models and textual knowledge bases. Experimental results show that our TRiG framework outperforms all state-of-the-art supervised methods by at least 11.1 % absolute margin.",
     "keywords": "",
     "url": "https://doi.org/10.1109/cvpr52688.2022.00501",
     "doi": "10.1109/CVPR52688.2022.00501",
@@ -11281,7 +11281,7 @@
     "booktitle": "CVPR",
     "title": "NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks.",
     "year": "2022",
-    "abstract": "Natural language explanation (NLE) models aim at explaining the decision-making process of a black box system via generating natural language sentences which are human-friendly, high-level and fine-grained. Current NLE models <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> Throughout this paper, we refer to NLE models as Natural Language Explanation models aimed for vision and vision-language tasks. explain the decision-making process of a vision or vision-language model (a.k.a., task model), e.g., a VQA model, via a language model (a.k.a., explanation model), e.g., GPT. Other than the additional memory resources and inference time required by the task model, the task and explanation models are completely independent, which disassociates the explanation from the reasoning process made to predict the answer. We introduce NLX-GPT, a general, compact and faithful language model that can simultaneously predict an answer and explain it. We first conduct pre-training on large scale data of image-caption pairs for general understanding of images, and then formulate the answer as a text prediction task along with the explanation. Without region proposals nor a task model, our resulting overall framework attains better evaluation scores, contains much less parameters and is 15× faster than the current SoA model. We then address the problem of evaluating the explanations which can be in many times generic, data-biased and can come in several forms. We therefore design 2 new evaluation measures: (1) explain-predict and (2) retrieval-based attack, a selfevaluation framework that requires no labels. Code is at: https://github.com/fawazsammani/nlxgpt.",
+    "abstract": "Natural language explanation (NLE) models aim at explaining the decision-making process of a black box system via generating natural language sentences which are human-friendly, high-level and fine-grained. Current NLE models11Throughout this paper, we refer to NLE models as Natural Language Explanation models aimed for vision and vision-language tasks. explain the decision-making process of a vision or vision-language model (a.k.a., task model), e.g., a VQA model, via a language model (a.k.a., explanation model), e.g., GPT. Other than the additional memory resources and inference time required by the task model, the task and explanation models are completely independent, which disassociates the explanation from the reasoning process made to predict the answer. We introduce NLX-GPT, a general, compact and faithful language model that can simultaneously predict an answer and explain it. We first conduct pre-training on large scale data of image-caption pairs for general understanding of images, and then formulate the answer as a text prediction task along with the explanation. Without region proposals nor a task model, our resulting overall framework attains better evaluation scores, contains much less parameters and is 15× faster than the current SoA model. We then address the problem of evaluating the explanations which can be in many times generic, data-biased and can come in several forms. We therefore design 2 new evaluation measures: (1) explain-predict and (2) retrieval-based attack, a selfevaluation framework that requires no labels. Code is at: https://github.com/fawazsammani/nlxgpt.",
     "keywords": "",
     "url": "https://doi.org/10.1109/cvpr52688.2022.00814",
     "doi": "10.1109/CVPR52688.2022.00814",
@@ -11839,7 +11839,7 @@
   "Ranking-Based Siamese Visual Tracking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/TangL22",
-    "author": "Feng Tang and Qiang Ling",
+    "author": "Feng Tang and Qiang Ling 0001",
     "booktitle": "CVPR",
     "title": "Ranking-Based Siamese Visual Tracking.",
     "year": "2022",
@@ -13380,7 +13380,7 @@
   "PLAD: Learning to Infer Shape Programs with Pseudo-Labels and Approximate Distributions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/JonesWR22",
-    "author": "R. Kenny Jones and Homer Walke and Daniel Ritchie",
+    "author": "R. Kenny Jones and Homer Walke and Daniel Ritchie 0001",
     "booktitle": "CVPR",
     "title": "PLAD: Learning to Infer Shape Programs with Pseudo-Labels and Approximate Distributions.",
     "year": "2022",
@@ -15733,7 +15733,7 @@
   "The Neurally-Guided Shape Parser: Grammar-based Labeling of 3D Shape Regions with Approximate Inference.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/JonesHHR22",
-    "author": "R. Kenny Jones and Aalia Habib and Rana Hanocka and Daniel Ritchie",
+    "author": "R. Kenny Jones and Aalia Habib and Rana Hanocka and Daniel Ritchie 0001",
     "booktitle": "CVPR",
     "title": "The Neurally-Guided Shape Parser: Grammar-based Labeling of 3D Shape Regions with Approximate Inference.",
     "year": "2022",
@@ -15747,7 +15747,7 @@
   "AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiuXRGY22",
-    "author": "Xueyi Liu and Xiaomeng Xu and Anyi Rao and Chuang Gan 0001 and Li Yi 0001",
+    "author": "Xueyi Liu 0003 and Xiaomeng Xu and Anyi Rao and Chuang Gan 0001 and Li Yi 0001",
     "booktitle": "CVPR",
     "title": "AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation.",
     "year": "2022",
@@ -15915,7 +15915,7 @@
   "GAT-CADNet: Graph Attention Network for Panoptic Symbol Spotting in CAD Drawings.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhengLZLPT22",
-    "author": "Zhaohua Zheng and Jianfang Li 0001 and Lingjie Zhu and Honghua Li and Frank Petzold and Ping Tan",
+    "author": "Zhaohua Zheng and Jianfang Li 0001 and Lingjie Zhu and Honghua Li and Frank Petzold and Ping Tan 0002",
     "booktitle": "CVPR",
     "title": "GAT-CADNet: Graph Attention Network for Panoptic Symbol Spotting in CAD Drawings.",
     "year": "2022",
@@ -19067,7 +19067,7 @@
   "Pushing the Performance Limit of Scene Text Recognizer without Human Annotation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhengLRHHW22",
-    "author": "Caiyuan Zheng and Hui Li and Seon-Min Rhee and Seungju Han 0001 and Jae-Joon Han and Peng Wang",
+    "author": "Caiyuan Zheng and Hui Li 0031 and Seon-Min Rhee and Seungju Han 0001 and Jae-Joon Han and Peng Wang 0015",
     "booktitle": "CVPR",
     "title": "Pushing the Performance Limit of Scene Text Recognizer without Human Annotation.",
     "year": "2022",
@@ -25035,7 +25035,7 @@
   "PhotoScene: Photorealistic Material and Lighting Transfer for Indoor Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/YehLHZXHSC22",
-    "author": "Yu-Ying Yeh and Zhengqin Li and Yannick Hold-Geoffroy and Rui Zhu and Zexiang Xu and Milos Hasan and Kalyan Sunkavalli and Manmohan Chandraker",
+    "author": "Yu-Ying Yeh and Zhengqin Li and Yannick Hold-Geoffroy and Rui Zhu 0026 and Zexiang Xu and Milos Hasan and Kalyan Sunkavalli and Manmohan Chandraker",
     "booktitle": "CVPR",
     "title": "PhotoScene: Photorealistic Material and Lighting Transfer for Indoor Scenes.",
     "year": "2022",
@@ -26561,7 +26561,7 @@
   "SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/HangXYL22",
-    "author": "Yucheng Hang and Bin Xia and Wenming Yang and Qingmin Liao",
+    "author": "Yucheng Hang and Bin Xia 0014 and Wenming Yang and Qingmin Liao",
     "booktitle": "CVPR",
     "title": "SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization.",
     "year": "2022",
@@ -27135,7 +27135,7 @@
   "Object-Relation Reasoning Graph for Action Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/OuMC22",
-    "author": "Yangjun Ou and Li Mi and Zhenzhong Chen",
+    "author": "Yangjun Ou and Li Mi and Zhenzhong Chen 0001",
     "booktitle": "CVPR",
     "title": "Object-Relation Reasoning Graph for Action Recognition.",
     "year": "2022",

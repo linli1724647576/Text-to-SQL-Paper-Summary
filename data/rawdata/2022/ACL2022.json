@@ -479,7 +479,7 @@
   "Fantastic Questions and Where to Find Them: FairytaleQA - An Authentic Dataset for Narrative Comprehension.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/XuWYRYWZLBSHS0M22",
-    "author": "Ying Xu and Dakuo Wang and Mo Yu and Daniel Ritchie and Bingsheng Yao and Tongshuang Wu and Zheng Zhang 0043 and Toby Jia-Jun Li and Nora Bradford and Branda Sun and Tran Bao Hoang and Yisi Sang and Yufang Hou 0001 and Xiaojuan Ma and Diyi Yang and Nanyun Peng 0001 and Zhou Yu 0005 and Mark Warschauer",
+    "author": "Ying Xu and Dakuo Wang and Mo Yu and Daniel Ritchie 0002 and Bingsheng Yao and Tongshuang Wu and Zheng Zhang 0043 and Toby Jia-Jun Li and Nora Bradford and Branda Sun and Tran Bao Hoang and Yisi Sang and Yufang Hou 0001 and Xiaojuan Ma and Diyi Yang and Nanyun Peng 0001 and Zhou Yu 0005 and Mark Warschauer",
     "booktitle": "ACL (1)",
     "title": "Fantastic Questions and Where to Find Them: FairytaleQA - An Authentic Dataset for Narrative Comprehension.",
     "year": "2022",

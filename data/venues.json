@@ -347,7 +347,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ACL2022.json",
-          "sha256": "699ef98d78617fa1fa0b6d5079078663b324d3da6ee996ba5d50d402b98cc046"
+          "sha256": "84b4c666aa499923e9973d1b48e1b7b727eab515d6c96bbb4afb887bca1893ec"
         }
       ],
       "processing": {
@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "b20bf1004612abc5469eeefafa0c6d976a20b434b76ff9e58a50e54d2331c3c3"
+          "sha256": "a022ccb895c4b9393c2b78bf4b82d4d870a66f38b9ee36459756bb77ac6741c4"
         }
       ],
       "processing": {

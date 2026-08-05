@@ -982,7 +982,7 @@
   "Exploit Domain-Robust Optical Flow in Domain Adaptive Video Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GaoWZZL23",
-    "author": "Yuan Gao and Zilei Wang and Jiafan Zhuang and Yixin Zhang and Junjie Li 0002",
+    "author": "Yuan Gao and Zilei Wang and Jiafan Zhuang and Yixin Zhang 0007 and Junjie Li 0002",
     "booktitle": "AAAI",
     "title": "Exploit Domain-Robust Optical Flow in Domain Adaptive Video Semantic Segmentation.",
     "year": "2023",
@@ -16254,7 +16254,7 @@
   "Towards In-Distribution Compatible Out-of-Distribution Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuJRD0000LL23",
-    "author": "Boxi Wu 0001 and Jie Jiang 0015 and Haidong Ren and Zifan Du and Wenxiao Wang 0001 and Zhifeng Li 0001 and Deng Cai 0001 and Xiaofei He 0001 and Binbin Lin and Wei Liu 0005",
+    "author": "Boxi Wu 0001 and Jie Jiang 0015 and Haidong Ren and Zifan Du and Wenxiao Wang 0001 and Zhifeng Li 0001 and Deng Cai 0001 and Xiaofei He 0001 and Binbin Lin 0001 and Wei Liu 0005",
     "booktitle": "AAAI",
     "title": "Towards In-Distribution Compatible Out-of-Distribution Detection.",
     "year": "2023",
@@ -27818,7 +27818,7 @@
   "Feature Decomposition for Reducing Negative Transfer: A Novel Multi-Task Learning Method for Recommender System (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouYLZ23",
-    "author": "Jie Zhou and Qian Yu and Chuan Luo 0002 and Jing Zhang",
+    "author": "Jie Zhou 0029 and Qian Yu 0002 and Chuan Luo 0002 and Jing Zhang 0017",
     "booktitle": "AAAI",
     "title": "Feature Decomposition for Reducing Negative Transfer: A Novel Multi-Task Learning Method for Recommender System (Student Abstract).",
     "year": "2023",

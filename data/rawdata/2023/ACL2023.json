@@ -8925,7 +8925,7 @@
   "Counterfactual Active Learning for Out-of-Distribution Generalization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DengWFZ0L23",
-    "author": "Xun Deng and Wenjie Wang 0007 and Fuli Feng and Hanwang Zhang and Xiangnan He 0001 and Yong Liao",
+    "author": "Xun Deng and Wenjie Wang 0007 and Fuli Feng and Hanwang Zhang and Xiangnan He 0001 and Yong Liao 0003",
     "booktitle": "ACL (1)",
     "title": "Counterfactual Active Learning for Out-of-Distribution Generalization.",
     "year": "2023",

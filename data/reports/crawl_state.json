@@ -58,11 +58,11 @@
     },
     "dblp-conference:AAAI:2023": {
       "error": "",
-      "last_attempt_at": "2026-07-29T18:08:39Z",
-      "last_success_at": "2026-07-29T18:08:39Z",
+      "last_attempt_at": "2026-08-05T18:22:41Z",
+      "last_success_at": "2026-08-05T18:22:41Z",
       "rawdata_path": "data/rawdata/2023/AAAI2023.json",
       "record_count": 2021,
-      "sha256": "925b18f6b3044b85c9ca12c12768b21acdc70958d50d9eb35c4dcc6fd1540d60",
+      "sha256": "f80174deaf4e25c0dfddaef135e990875d16b0a6fd279477ab40a33705005abc",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -156,11 +156,11 @@
     },
     "dblp-conference:ACL:2023": {
       "error": "",
-      "last_attempt_at": "2026-07-29T18:09:19Z",
-      "last_success_at": "2026-07-29T18:09:19Z",
+      "last_attempt_at": "2026-08-05T18:22:49Z",
+      "last_success_at": "2026-08-05T18:22:49Z",
       "rawdata_path": "data/rawdata/2023/ACL2023.json",
       "record_count": 910,
-      "sha256": "78b262ef6d436f72fa2d84f1ecf737a5e8e82b22bd220ef0ee7edef00fed2f75",
+      "sha256": "be5639415aca37abfe4f3139e56c2706d198e1551e6d070d7beb98f6e5119368",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -463,15 +463,15 @@
       "year": "2021"
     },
     "dblp-conference:ICCV:2023": {
-      "error": "https://dblp.org/db/conf/iccv/iccv2023.xml: HTTP Error 503: Service Unavailable",
-      "last_attempt_at": "2026-07-29T18:10:20Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-08-05T18:22:56Z",
+      "last_success_at": "2026-08-05T18:22:56Z",
       "rawdata_path": "data/rawdata/2023/ICCV2023.json",
       "record_count": 2156,
-      "sha256": "9ff3a4d5ce726412fd60cf0f05ae2fbd8e8ebd0516ecae2557034f5c9da21d74",
+      "sha256": "aabc5fd334b119c6574069e34a25239d7e17ca0055ecd0ed8a2ea7ee0b6bdfbe",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "failed",
+      "status": "complete",
       "track": "AI",
       "venue": "ICCV",
       "year": "2023"
@@ -1205,15 +1205,15 @@
       "year": "2022"
     },
     "dblp-conference:SIGMOD:2023": {
-      "error": "https://dblp.org/db/conf/sigmod/sigmod2023.xml: HTTP Error 404: Not Found",
-      "last_attempt_at": "2026-07-29T18:10:31Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-08-05T18:23:01Z",
+      "last_success_at": "2026-08-05T18:23:01Z",
       "rawdata_path": "data/rawdata/2023/SIGMOD2023.json",
       "record_count": 68,
-      "sha256": "e20e4ba3957e7bf185d1696dc5532183d2d9a6d7ec9aee8489ffe7f79c994316",
+      "sha256": "cfe9ca23fd466d5ddacef59b24d9a52f5ba795edcea88806c886aece0c8a2da0",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "failed",
+      "status": "complete",
       "track": "DB",
       "venue": "SIGMOD",
       "year": "2023"
@@ -2088,8 +2088,8 @@
     },
     "official-accepted:ICML:2023": {
       "error": "",
-      "last_attempt_at": "2026-07-29T18:10:32Z",
-      "last_success_at": "2026-07-29T18:10:32Z",
+      "last_attempt_at": "2026-08-05T18:23:04Z",
+      "last_success_at": "2026-08-05T18:23:04Z",
       "rawdata_path": "data/rawdata/2023/ICML2023-accepted.json",
       "record_count": 1828,
       "sha256": "e1d415e0ace69a687a1bdfa9f5057ec7d5902df5059f07e3c8ca84d7d4ecf6f6",
@@ -2368,8 +2368,8 @@
     },
     "official-accepted:NEURIPS:2023": {
       "error": "",
-      "last_attempt_at": "2026-07-29T18:10:38Z",
-      "last_success_at": "2026-07-29T18:10:38Z",
+      "last_attempt_at": "2026-08-05T18:23:21Z",
+      "last_success_at": "2026-08-05T18:23:21Z",
       "rawdata_path": "data/rawdata/2023/NeurIPS2023-accepted.json",
       "record_count": 3523,
       "sha256": "0214a4a7ccf608e416d3dc3ef4b1d0084157707c08bcb8e4dd169aa94e7beda4",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 3,
+    "cursor": 4,
     "history": [
       {
         "cursor": 1,
@@ -4845,14 +4845,69 @@
           "TOSEM"
         ],
         "year": 2022
+      },
+      {
+        "cursor": 4,
+        "failed": [],
+        "finalized_at": "2026-08-05T18:26:15Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICCV",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICCV",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2023
       }
     ],
-    "last_completed_at": "2026-08-04T18:40:42Z",
+    "last_completed_at": "2026-08-05T18:26:15Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
       "ACL",
       "CVPR",
+      "ICCV",
       "ICML",
       "IJCAI",
       "SIGMOD",
@@ -4871,6 +4926,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2022
+    "last_selected_year": 2023
   }
 }

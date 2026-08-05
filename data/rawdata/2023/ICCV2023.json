@@ -366,7 +366,7 @@
   "HM-ViT: Hetero-modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XiangXM23",
-    "author": "Hao Xiang and Runsheng Xu and Jiaqi Ma 0003",
+    "author": "Hao Xiang 0001 and Runsheng Xu and Jiaqi Ma 0003",
     "booktitle": "ICCV",
     "title": "HM-ViT: Hetero-modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer.",
     "year": "2023",
@@ -1094,7 +1094,7 @@
   "Few-Shot Physically-Aware Articulated Mesh Generation via Hierarchical Deformation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuW0Y23",
-    "author": "Xueyi Liu and Bin Wang and He Wang 0010 and Li Yi 0001",
+    "author": "Xueyi Liu 0003 and Bin Wang and He Wang 0010 and Li Yi 0001",
     "booktitle": "ICCV",
     "title": "Few-Shot Physically-Aware Articulated Mesh Generation via Hierarchical Deformation.",
     "year": "2023",
@@ -4891,7 +4891,7 @@
   "Factorized Inverse Path Tracing for Efficient and Accurate Material-Lighting Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuZYZCMPLCR23",
-    "author": "Liwen Wu and Rui Zhu and Mustafa B. Yaldiz and Yinhao Zhu and Hong Cai and Janarbek Matai and Fatih Porikli and Tzu-Mao Li and Manmohan Chandraker and Ravi Ramamoorthi",
+    "author": "Liwen Wu and Rui Zhu 0026 and Mustafa B. Yaldiz and Yinhao Zhu and Hong Cai and Janarbek Matai and Fatih Porikli and Tzu-Mao Li and Manmohan Chandraker and Ravi Ramamoorthi",
     "booktitle": "ICCV",
     "title": "Factorized Inverse Path Tracing for Efficient and Accurate Material-Lighting Estimation.",
     "year": "2023",
@@ -6529,7 +6529,7 @@
   "Generative Gradient Inversion via Over-Parameterized Networks in Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangZSXLZL23",
-    "author": "Chi Zhang 0123 and Xiaoman Zhang and Ekanut Sotthiwat and Yanyu Xu 0001 and Ping Liu and Liangli Zhen and Yong Liu 0026",
+    "author": "Chi Zhang 0123 and Xiaoman Zhang and Ekanut Sotthiwat and Yanyu Xu 0001 and Ping Liu 0004 and Liangli Zhen and Yong Liu 0026",
     "booktitle": "ICCV",
     "title": "Generative Gradient Inversion via Over-Parameterized Networks in Federated Learning.",
     "year": "2023",
@@ -11222,7 +11222,7 @@
   "CORE: Co-planarity Regularized Monocular Geometry Estimation with Weak Supervision.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiWLRHKYYZ23",
-    "author": "Yuguang Li and Kai Wang and Hui Li and Seon-Min Rhee and Seungju Han 0001 and Jihye Kim and Min Yang and Ran Yang and Feng Zhu",
+    "author": "Yuguang Li and Kai Wang and Hui Li 0031 and Seon-Min Rhee and Seungju Han 0001 and Jihye Kim and Min Yang and Ran Yang and Feng Zhu",
     "booktitle": "ICCV",
     "title": "CORE: Co-planarity Regularized Monocular Geometry Estimation with Weak Supervision.",
     "year": "2023",
@@ -11446,7 +11446,7 @@
   "One-shot Implicit Animatable Avatars with Model-based Priors.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuangYLWW0LZ023",
-    "author": "Yangyi Huang and Hongwei Yi and Weiyang Liu and Haofan Wang and Boxi Wu and Wenxiao Wang 0001 and Binbin Lin and Debing Zhang and Deng Cai 0001",
+    "author": "Yangyi Huang and Hongwei Yi and Weiyang Liu and Haofan Wang and Boxi Wu 0001 and Wenxiao Wang 0001 and Binbin Lin 0001 and Debing Zhang and Deng Cai 0001",
     "booktitle": "ICCV",
     "title": "One-shot Implicit Animatable Avatars with Model-based Priors.",
     "year": "2023",
@@ -13309,7 +13309,7 @@
   "Revisiting Foreground and Background Separation in Weakly-supervised Temporal Action Localization: A Clustering-based Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuWRLZ23",
-    "author": "Qinying Liu and Zilei Wang and Shenghai Rong and Junjie Li 0002 and Yixin Zhang",
+    "author": "Qinying Liu and Zilei Wang and Shenghai Rong and Junjie Li 0002 and Yixin Zhang 0007",
     "booktitle": "ICCV",
     "title": "Revisiting Foreground and Background Separation in Weakly-supervised Temporal Action Localization: A Clustering-based Approach.",
     "year": "2023",
@@ -14555,7 +14555,7 @@
   "Towards Effective Instance Discrimination Contrastive Loss for Unsupervised Domain Adaptation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangWLZL23",
-    "author": "Yixin Zhang and Zilei Wang and Junjie Li 0002 and Jiafan Zhuang and Zihan Lin",
+    "author": "Yixin Zhang 0007 and Zilei Wang and Junjie Li 0002 and Jiafan Zhuang and Zihan Lin",
     "booktitle": "ICCV",
     "title": "Towards Effective Instance Discrimination Contrastive Loss for Unsupervised Domain Adaptation.",
     "year": "2023",
@@ -16768,7 +16768,7 @@
   "DiffIR: Efficient Diffusion Model for Image Restoration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XiaZWWWTYG23",
-    "author": "Bin Xia and Yulun Zhang 0001 and Shiyin Wang and Yitong Wang and Xinglong Wu and Yapeng Tian and Wenming Yang and Luc Van Gool",
+    "author": "Bin Xia 0014 and Yulun Zhang 0001 and Shiyin Wang and Yitong Wang and Xinglong Wu and Yapeng Tian and Wenming Yang and Luc Van Gool",
     "booktitle": "ICCV",
     "title": "DiffIR: Efficient Diffusion Model for Image Restoration.",
     "year": "2023",
@@ -17706,7 +17706,7 @@
   "Memory-and-Anticipation Transformer for Online Action Understanding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangCHWL23",
-    "author": "Jiahao Wang and Guo Chen 0006 and Yifei Huang 0002 and Limin Wang 0002 and Tong Lu 0002",
+    "author": "Jiahao Wang 0005 and Guo Chen 0006 and Yifei Huang 0002 and Limin Wang 0002 and Tong Lu 0002",
     "booktitle": "ICCV",
     "title": "Memory-and-Anticipation Transformer for Online Action Understanding.",
     "year": "2023",
@@ -18997,7 +18997,7 @@
   "MHEntropy: Entropy Meets Multiple Hypotheses for Pose and Shape Recovery.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenYY23",
-    "author": "Rongyu Chen and Linlin Yang and Angela Yao",
+    "author": "Rongyu Chen and Linlin Yang 0001 and Angela Yao",
     "booktitle": "ICCV",
     "title": "MHEntropy: Entropy Meets Multiple Hypotheses for Pose and Shape Recovery.",
     "year": "2023",
@@ -20175,7 +20175,7 @@
   "Improving Unsupervised Visual Program Inference with Code Rewriting Families.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GaneshanJR23",
-    "author": "Aditya Ganeshan and R. Kenny Jones and Daniel Ritchie",
+    "author": "Aditya Ganeshan and R. Kenny Jones and Daniel Ritchie 0001",
     "booktitle": "ICCV",
     "title": "Improving Unsupervised Visual Program Inference with Code Rewriting Families.",
     "year": "2023",
@@ -20189,7 +20189,7 @@
   "Denoising Diffusion Autoencoders are Unified Self-supervised Learners.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XiangY0W23",
-    "author": "Weilai Xiang and Hongyu Yang and Di Huang 0001 and Yunhong Wang 0001",
+    "author": "Weilai Xiang and Hongyu Yang 0001 and Di Huang 0001 and Yunhong Wang 0001",
     "booktitle": "ICCV",
     "title": "Denoising Diffusion Autoencoders are Unified Self-supervised Learners.",
     "year": "2023",
@@ -21757,7 +21757,7 @@
   "DenseShift : Towards Accurate and Efficient Low-Bit Power-of-Two Quantization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiLYCXN23",
-    "author": "Xinlin Li 0001 and Bang Liu and Rui Heng Yang and Vanessa Courville and Chao Xing and Vahid Partovi Nia",
+    "author": "Xinlin Li 0001 and Bang Liu 0003 and Rui Heng Yang and Vanessa Courville and Chao Xing and Vahid Partovi Nia",
     "booktitle": "ICCV",
     "title": "DenseShift : Towards Accurate and Efficient Low-Bit Power-of-Two Quantization.",
     "year": "2023",
@@ -23507,7 +23507,7 @@
   "Optimizing the Placement of Roadside LiDARs for Autonomous Driving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/JiangXCXMLL023",
-    "author": "Wentao Jiang and Hao Xiang and Xinyu Cai and Runsheng Xu and Jiaqi Ma 0003 and Yikang Li and Gim Hee Lee and Si Liu 0001",
+    "author": "Wentao Jiang and Hao Xiang 0001 and Xinyu Cai and Runsheng Xu and Jiaqi Ma 0003 and Yikang Li and Gim Hee Lee and Si Liu 0001",
     "booktitle": "ICCV",
     "title": "Optimizing the Placement of Roadside LiDARs for Autonomous Driving.",
     "year": "2023",
@@ -24530,7 +24530,7 @@
   "Learning Pseudo-Relations for Cross-domain Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhaoWZQYYJ23",
-    "author": "Dong Zhao and Shuang Wang 0001 and Qi Zang and Dou Quan and Xiutiao Ye and Rui Yang 0038 and Licheng Jiao",
+    "author": "Dong Zhao 0007 and Shuang Wang 0001 and Qi Zang and Dou Quan and Xiutiao Ye and Rui Yang 0038 and Licheng Jiao",
     "booktitle": "ICCV",
     "title": "Learning Pseudo-Relations for Cross-domain Semantic Segmentation.",
     "year": "2023",

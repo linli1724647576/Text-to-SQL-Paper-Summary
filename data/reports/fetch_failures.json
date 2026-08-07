@@ -1,16 +1,16 @@
 {
   "summary": {
-    "fetched_entries": 5155,
+    "fetched_entries": 3730,
     "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 18
+    "skipped_count": 19
   },
   "failures": [],
   "warnings": [],
   "skipped": [
     {
       "venue": "NeurIPS",
-      "year": 2023,
+      "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -18,7 +18,7 @@
     },
     {
       "venue": "CVPR",
-      "year": 2023,
+      "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -26,7 +26,7 @@
     },
     {
       "venue": "ICML",
-      "year": 2023,
+      "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -34,15 +34,23 @@
     },
     {
       "venue": "IJCAI",
-      "year": 2023,
+      "year": 2024,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
+      "venue": "SIGMOD",
+      "year": 2024,
+      "track": "DB",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "VLDB",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -50,7 +58,7 @@
     },
     {
       "venue": "ICDE",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -58,7 +66,7 @@
     },
     {
       "venue": "KDD",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -66,7 +74,7 @@
     },
     {
       "venue": "WWW",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -74,7 +82,7 @@
     },
     {
       "venue": "SIGIR",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -82,7 +90,7 @@
     },
     {
       "venue": "ICSE",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -90,7 +98,7 @@
     },
     {
       "venue": "FSE",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -98,7 +106,7 @@
     },
     {
       "venue": "ASE",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -106,7 +114,7 @@
     },
     {
       "venue": "ISSTA",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -114,7 +122,7 @@
     },
     {
       "venue": "AIJ",
-      "year": 2023,
+      "year": 2024,
       "track": "AI",
       "source_type": "journal",
       "status": "skipped",
@@ -122,7 +130,7 @@
     },
     {
       "venue": "TKDE",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -130,7 +138,7 @@
     },
     {
       "venue": "VLDBJ",
-      "year": 2023,
+      "year": 2024,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -138,7 +146,7 @@
     },
     {
       "venue": "TSE",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",
@@ -146,7 +154,7 @@
     },
     {
       "venue": "TOSEM",
-      "year": 2023,
+      "year": 2024,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",

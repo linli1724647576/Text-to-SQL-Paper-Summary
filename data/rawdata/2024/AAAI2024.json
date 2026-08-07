@@ -758,7 +758,7 @@
   "Trend-Aware Supervision: On Learning Invariance for Semi-supervised Facial Action Unit Intensity Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenZW024",
-    "author": "Yingjie Chen and Jiarui Zhang 0007 and Tao Wang 0004 and Yun Liang 0001",
+    "author": "Yingjie Chen 0002 and Jiarui Zhang 0007 and Tao Wang 0004 and Yun Liang 0001",
     "booktitle": "AAAI",
     "title": "Trend-Aware Supervision: On Learning Invariance for Semi-supervised Facial Action Unit Intensity Estimation.",
     "year": "2024",
@@ -1375,7 +1375,7 @@
   "Disentangled Diffusion-Based 3D Human Pose Estimation with Hierarchical Spatial and Temporal Denoiser.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaiHHYH24",
-    "author": "Qingyuan Cai and Xuecai Hu and Saihui Hou and Li Yao and Yongzhen Huang",
+    "author": "Qingyuan Cai and Xuecai Hu and Saihui Hou and Li Yao 0002 and Yongzhen Huang",
     "booktitle": "AAAI",
     "title": "Disentangled Diffusion-Based 3D Human Pose Estimation with Hierarchical Spatial and Temporal Denoiser.",
     "year": "2024",
@@ -3279,7 +3279,7 @@
   "Collaborative Weakly Supervised Video Correlation Learning for Procedure-Aware Instructional Video Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/He0LMZZL24",
-    "author": "Tianyao He and Huabin Liu 0001 and Yuxi Li 0009 and Xiao Ma and Cheng Zhong and Yang Zhang and Weiyao Lin",
+    "author": "Tianyao He and Huabin Liu 0001 and Yuxi Li 0009 and Xiao Ma and Cheng Zhong and Yang Zhang 0002 and Weiyao Lin",
     "booktitle": "AAAI",
     "title": "Collaborative Weakly Supervised Video Correlation Learning for Procedure-Aware Instructional Video Analysis.",
     "year": "2024",
@@ -5467,7 +5467,7 @@
   "TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP without Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LinCZLLYLLL024",
-    "author": "Yuqi Lin and Minghao Chen 0001 and Kaipeng Zhang and Hengjia Li and Mingming Li and Zheng Yang 0008 and Dongqin Lv and Binbin Lin and Haifeng Liu 0001 and Deng Cai 0001",
+    "author": "Yuqi Lin and Minghao Chen 0001 and Kaipeng Zhang and Hengjia Li and Mingming Li and Zheng Yang 0008 and Dongqin Lv and Binbin Lin 0001 and Haifeng Liu 0001 and Deng Cai 0001",
     "booktitle": "AAAI",
     "title": "TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP without Training.",
     "year": "2024",
@@ -7512,7 +7512,7 @@
   "Transformer-Based No-Reference Image Quality Assessment via Supervised Contrastive Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShiGQ24",
-    "author": "Jinsong Shi and Pan Gao 0001 and Jie Qin 0004",
+    "author": "Jinsong Shi 0002 and Pan Gao 0001 and Jie Qin 0004",
     "booktitle": "AAAI",
     "title": "Transformer-Based No-Reference Image Quality Assessment via Supervised Contrastive Learning.",
     "year": "2024",
@@ -9572,7 +9572,7 @@
   "Semi-supervised 3D Object Detection with PatchTeacher and PillarMix.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuP0HLH00O24",
-    "author": "Xiaopei Wu and Liang Peng and Liang Xie 0003 and Yuenan Hou and Binbin Lin and Xiaoshui Huang and Haifeng Liu 0001 and Deng Cai 0001 and Wanli Ouyang",
+    "author": "Xiaopei Wu and Liang Peng and Liang Xie 0003 and Yuenan Hou and Binbin Lin 0001 and Xiaoshui Huang and Haifeng Liu 0001 and Deng Cai 0001 and Wanli Ouyang",
     "booktitle": "AAAI",
     "title": "Semi-supervised 3D Object Detection with PatchTeacher and PillarMix.",
     "year": "2024",
@@ -9768,7 +9768,7 @@
   "SPEAL: Skeletal Prior Embedded Attention Learning for Cross-Source Point Cloud Registration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XiongZXWSW24",
-    "author": "Kezheng Xiong and Maoji Zheng and Qingshan Xu and Chenglu Wen and Siqi Shen and Cheng Wang 0003",
+    "author": "Kezheng Xiong and Maoji Zheng and Qingshan Xu 0001 and Chenglu Wen and Siqi Shen and Cheng Wang 0003",
     "booktitle": "AAAI",
     "title": "SPEAL: Skeletal Prior Embedded Attention Learning for Cross-Source Point Cloud Registration.",
     "year": "2024",
@@ -11673,7 +11673,7 @@
   "Towards Fine-Grained HBOE with Rendered Orientation Set and Laplace Smoothing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoLYLZRCW24",
-    "author": "Ruisi Zhao and Mingming Li and Zheng Yang 0008 and Binbin Lin and Xiaohui Zhong and Xiaobo Ren and Deng Cai 0001 and Boxi Wu 0001",
+    "author": "Ruisi Zhao and Mingming Li and Zheng Yang 0008 and Binbin Lin 0001 and Xiaohui Zhong and Xiaobo Ren and Deng Cai 0001 and Boxi Wu 0001",
     "booktitle": "AAAI",
     "title": "Towards Fine-Grained HBOE with Rendered Orientation Set and Laplace Smoothing.",
     "year": "2024",
@@ -12835,7 +12835,7 @@
   "RR-PU: A Synergistic Two-Stage Positive and Unlabeled Learning Framework for Robust Tax Evasion Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaoR0SZ24",
-    "author": "Shuzhi Cao and Jianfei Ruan and Bo Dong 0001 and Bin Shi and Qinghua Zheng",
+    "author": "Shuzhi Cao and Jianfei Ruan and Bo Dong 0001 and Bin Shi 0003 and Qinghua Zheng",
     "booktitle": "AAAI",
     "title": "RR-PU: A Synergistic Two-Stage Positive and Unlabeled Learning Framework for Robust Tax Evasion Detection.",
     "year": "2024",
@@ -18632,7 +18632,7 @@
   "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FanWZH24",
-    "author": "Yan Fan and Yu Wang 0106 and Pengfei Zhu 0001 and Qinghua Hu",
+    "author": "Yan Fan 0002 and Yu Wang 0106 and Pengfei Zhu 0001 and Qinghua Hu",
     "booktitle": "AAAI",
     "title": "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning.",
     "year": "2024",
@@ -22650,7 +22650,7 @@
   "A Graph Dynamics Prior for Relational Inference.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PanSD24",
-    "author": "Liming Pan and Cheng Shi and Ivan Dokmanic",
+    "author": "Liming Pan and Cheng Shi 0003 and Ivan Dokmanic",
     "booktitle": "AAAI",
     "title": "A Graph Dynamics Prior for Relational Inference.",
     "year": "2024",
@@ -23126,7 +23126,7 @@
   "Towards Improved Proxy-Based Deep Metric Learning via Data-Augmented Domain Adaptation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Ren0WH24",
-    "author": "Li Ren and Chen Chen 0001 and Liqiang Wang and Kien A. Hua",
+    "author": "Li Ren and Chen Chen 0001 and Liqiang Wang 0001 and Kien A. Hua",
     "booktitle": "AAAI",
     "title": "Towards Improved Proxy-Based Deep Metric Learning via Data-Augmented Domain Adaptation.",
     "year": "2024",
@@ -24344,7 +24344,7 @@
   "AQ-DETR: Low-Bit Quantized Detection Transformer with Auxiliary Queries.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangSYLLGH024",
-    "author": "Runqi Wang and Huixin Sun and Linlin Yang and Shaohui Lin and Chuanjian Liu and Yan Gao 0017 and Yao Hu 0002 and Baochang Zhang 0001",
+    "author": "Runqi Wang and Huixin Sun and Linlin Yang 0001 and Shaohui Lin and Chuanjian Liu and Yan Gao 0017 and Yao Hu 0002 and Baochang Zhang 0001",
     "booktitle": "AAAI",
     "title": "AQ-DETR: Low-Bit Quantized Detection Transformer with Auxiliary Queries.",
     "year": "2024",
@@ -33940,7 +33940,7 @@
   "The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuS0Z024",
-    "author": "Yuefei Wu and Bin Shi and Bo Dong 0001 and Qinghua Zheng and Hua Wei 0001",
+    "author": "Yuefei Wu and Bin Shi 0003 and Bo Dong 0001 and Qinghua Zheng and Hua Wei 0001",
     "booktitle": "AAAI",
     "title": "The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution.",
     "year": "2024",

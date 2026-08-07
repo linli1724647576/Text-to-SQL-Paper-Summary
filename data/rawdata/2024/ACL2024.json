@@ -1868,7 +1868,7 @@
   "Unlocking Data-free Low-bit Quantization with Matrix Decomposition for KV Cache Compression.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiuGZMWW24",
-    "author": "Peiyu Liu 0002 and Ze-Feng Gao and Xin Zhao 0018 and Yipeng Ma and Tao Wang and Ji-Rong Wen",
+    "author": "Peiyu Liu 0002 and Ze-Feng Gao and Xin Zhao 0018 and Yipeng Ma and Tao Wang 0053 and Ji-Rong Wen",
     "booktitle": "ACL (1)",
     "title": "Unlocking Data-free Low-bit Quantization with Matrix Decomposition for KV Cache Compression.",
     "year": "2024",
@@ -6454,7 +6454,7 @@
   "BvSP: Broad-view Soft Prompting for Few-Shot Aspect Sentiment Quad Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/BaiXLZHH0C24",
-    "author": "Yinhao Bai and Yalan Xie and Xiaoyi Liu and Yuhua Zhao 0001 and Zhixin Han and Mengting Hu and Hang Gao 0003 and Renhong Cheng",
+    "author": "Yinhao Bai and Yalan Xie and Xiaoyi Liu and Yuhua Zhao 0001 and Zhixin Han and Mengting Hu 0002 and Hang Gao 0003 and Renhong Cheng",
     "booktitle": "ACL (1)",
     "title": "BvSP: Broad-view Soft Prompting for Few-Shot Aspect Sentiment Quad Prediction.",
     "year": "2024",
@@ -11882,7 +11882,7 @@
   "ToMBench: Benchmarking Theory of Mind in Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/0002WZWBJCHLXH24",
-    "author": "Zhuang Chen 0002 and Jincenzi Wu and Jinfeng Zhou and Bosi Wen and Guanqun Bi and Gongyao Jiang and Yaru Cao and Mengting Hu and Yunghwei Lai and Zexuan Xiong and Minlie Huang",
+    "author": "Zhuang Chen 0002 and Jincenzi Wu and Jinfeng Zhou and Bosi Wen and Guanqun Bi and Gongyao Jiang and Yaru Cao and Mengting Hu 0002 and Yunghwei Lai and Zexuan Xiong and Minlie Huang",
     "booktitle": "ACL (1)",
     "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models.",
     "year": "2024",

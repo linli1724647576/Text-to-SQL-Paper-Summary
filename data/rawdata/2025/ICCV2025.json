@@ -156,7 +156,7 @@
   "Inter: Mitigating Hallucination in Large Vision-Language Models by Interaction Guidance Sampling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DongDWHZSJLZZ25",
-    "author": "Xin Dong and Shichao Dong and Jin Wang and Jing Huang and Li Zhou and Zenghui Sun and Lihua Jing and Jinsong Lan and Xiaoyong Zhu and Bo Zheng",
+    "author": "Xin Dong and Shichao Dong and Jin Wang and Jing Huang and Li Zhou and Zenghui Sun and Lihua Jing and Jinsong Lan and Xiaoyong Zhu and Bo Zheng 0007",
     "booktitle": "ICCV",
     "title": "Inter: Mitigating Hallucination in Large Vision-Language Models by Interaction Guidance Sampling.",
     "year": "2025",
@@ -438,7 +438,7 @@
   "Rethinking Key-Frame-Based Micro-Expression Recognition: a Robust and Accurate Framework Against Key-Frame Errors.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangTC25",
-    "author": "Zheyuan Zhang and Weihao Tang and Hong Chen",
+    "author": "Zheyuan Zhang 0007 and Weihao Tang and Hong Chen",
     "booktitle": "ICCV",
     "title": "Rethinking Key-Frame-Based Micro-Expression Recognition: a Robust and Accurate Framework Against Key-Frame Errors.",
     "year": "2025",
@@ -634,7 +634,7 @@
   "Automated Red Teaming for Text-to-Image Models Through Feedback-Guided Prompt Iteration with Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XuCQZWMZW25",
-    "author": "Wei Xu and Kangjie Chen and Jiawei Qiu and Yuyang Zhang and Run Wang and Jin Mao and Tianwei Zhang and Lina Wang",
+    "author": "Wei Xu 0039 and Kangjie Chen and Jiawei Qiu and Yuyang Zhang and Run Wang 0001 and Jin Mao and Tianwei Zhang 0004 and Lina Wang 0001",
     "booktitle": "ICCV",
     "title": "Automated Red Teaming for Text-to-Image Models Through Feedback-Guided Prompt Iteration with Vision-Language Models.",
     "year": "2025",
@@ -872,7 +872,7 @@
   "Blind2Sound: Self-Supervised Image Denoising Without Residual Noise.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuWCH25",
-    "author": "Jiazheng Liu and Zejin Wang and Bohao Chen and Hua Han",
+    "author": "Jiazheng Liu and Zejin Wang and Bohao Chen and Hua Han 0001",
     "booktitle": "ICCV",
     "title": "Blind2Sound: Self-Supervised Image Denoising Without Residual Noise.",
     "year": "2025",
@@ -956,7 +956,7 @@
   "Vector Contrastive Learning for Pixel-Wise Pretraining in Medical Vision.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HeL25",
-    "author": "Yuting He and Shuo Li",
+    "author": "Yuting He 0001 and Shuo Li 0001",
     "booktitle": "ICCV",
     "title": "Vector Contrastive Learning for Pixel-Wise Pretraining in Medical Vision.",
     "year": "2025",
@@ -984,7 +984,7 @@
   "Wasserstein Style Distribution Analysis and Transform for Stylized Image Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YuGSS25",
-    "author": "Xi Yu and Xiang Gu and Zhihao Shi and Jian Sun",
+    "author": "Xi Yu and Xiang Gu 0005 and Zhihao Shi and Jian Sun 0009",
     "booktitle": "ICCV",
     "title": "Wasserstein Style Distribution Analysis and Transform for Stylized Image Generation.",
     "year": "2025",
@@ -1026,7 +1026,7 @@
   "Long-Tailed Classification with Multi-Granularity Semantics.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuYW25",
-    "author": "Yuting Liu and Liu Yang and Yu Wang 0106",
+    "author": "Yuting Liu and Liu Yang 0010 and Yu Wang 0106",
     "booktitle": "ICCV",
     "title": "Long-Tailed Classification with Multi-Granularity Semantics.",
     "year": "2025",
@@ -1250,7 +1250,7 @@
   "Frequency-Dynamic Attention Modulation for Dense Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenGF25",
-    "author": "Linwei Chen and Lin Gu and Ying Fu",
+    "author": "Linwei Chen and Lin Gu 0003 and Ying Fu 0001",
     "booktitle": "ICCV",
     "title": "Frequency-Dynamic Attention Modulation for Dense Prediction.",
     "year": "2025",
@@ -1770,7 +1770,7 @@
   "SegmentDreamer: Towards High-Fidelity Text-to-3D Synthesis with Segmented Consistency Trajectory Distillation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuCWXZ25",
-    "author": "Jiahao Zhu and Zixuan Chen and Guangcong Wang and Xiaohua Xie and Yi Zhou",
+    "author": "Jiahao Zhu and Zixuan Chen and Guangcong Wang and Xiaohua Xie and Yi Zhou 0005",
     "booktitle": "ICCV",
     "title": "SegmentDreamer: Towards High-Fidelity Text-to-3D Synthesis with Segmented Consistency Trajectory Distillation.",
     "year": "2025",
@@ -2246,7 +2246,7 @@
   "Robust Unfolding Network for HDR Imaging with Modulo Cameras.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenJ25",
-    "author": "Zhile Chen and Hui Ji",
+    "author": "Zhile Chen and Hui Ji 0002",
     "booktitle": "ICCV",
     "title": "Robust Unfolding Network for HDR Imaging with Modulo Cameras.",
     "year": "2025",
@@ -2456,7 +2456,7 @@
   "Trade-Offs in Image Generation: How Do Different Dimensions Interact?": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangXYZZCQLXL25",
-    "author": "Sicheng Zhang and Binzhu Xie and Zhonghao Yan and Yuli Zhang and Donghao Zhou and Xiaofei Chen and Shi Qiu and Jiaqi Liu and Guoyang Xie and Zhichao Lu",
+    "author": "Sicheng Zhang and Binzhu Xie and Zhonghao Yan and Yuli Zhang and Donghao Zhou and Xiaofei Chen and Shi Qiu 0001 and Jiaqi Liu and Guoyang Xie and Zhichao Lu",
     "booktitle": "ICCV",
     "title": "Trade-Offs in Image Generation: How Do Different Dimensions Interact?",
     "year": "2025",
@@ -2680,7 +2680,7 @@
   "Think Twice: Test-Time Reasoning for Robust CLIP Zero-Shot Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LuPW25",
-    "author": "Shenyu Lu and Zhaoying Pan and Xiaoqian Wang",
+    "author": "Shenyu Lu and Zhaoying Pan and Xiaoqian Wang 0001",
     "booktitle": "ICCV",
     "title": "Think Twice: Test-Time Reasoning for Robust CLIP Zero-Shot Classification.",
     "year": "2025",
@@ -2988,7 +2988,7 @@
   "Uncertainty-Aware Gradient Stabilization for Small Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SunLYCZ25",
-    "author": "Huixin Sun and Yanjing Li and Linlin Yang and Xianbin Cao 0001 and Baochang Zhang 0001",
+    "author": "Huixin Sun and Yanjing Li and Linlin Yang 0001 and Xianbin Cao 0001 and Baochang Zhang 0001",
     "booktitle": "ICCV",
     "title": "Uncertainty-Aware Gradient Stabilization for Small Object Detection.",
     "year": "2025",
@@ -3885,7 +3885,7 @@
   "NeurOp-Diff: Continuous Remote Sensing Image Super-Resolution via Neural Operator Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XuTXL25",
-    "author": "Zihao Xu and Yuzhi Tang and Bowen Xu and Qingquan Li",
+    "author": "Zihao Xu and Yuzhi Tang and Bowen Xu and Qingquan Li 0001",
     "booktitle": "ICCV",
     "title": "NeurOp-Diff: Continuous Remote Sensing Image Super-Resolution via Neural Operator Diffusion.",
     "year": "2025",
@@ -3955,7 +3955,7 @@
   "GeoDistill: Geometry-Guided Self-Distillation for Weakly Supervised Cross-View Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TongXAHS25",
-    "author": "Shaowen Tong and Zimin Xia and Alexandre Alahi and Xuming He 0001 and Yujiao Shi",
+    "author": "Shaowen Tong and Zimin Xia and Alexandre Alahi and Xuming He 0001 and Yujiao Shi 0002",
     "booktitle": "ICCV",
     "title": "GeoDistill: Geometry-Guided Self-Distillation for Weakly Supervised Cross-View Localization.",
     "year": "2025",
@@ -4221,7 +4221,7 @@
   "Learning Yourself: Class-Incremental Semantic Segmentation with Language-Inspired Bootstrapped Disentanglement.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuZL25",
-    "author": "Ruitao Wu and Yifan Zhao and Jia Li",
+    "author": "Ruitao Wu and Yifan Zhao 0002 and Jia Li 0003",
     "booktitle": "ICCV",
     "title": "Learning Yourself: Class-Incremental Semantic Segmentation with Language-Inspired Bootstrapped Disentanglement.",
     "year": "2025",
@@ -4403,7 +4403,7 @@
   "LVAgent: Long Video Understanding by Multi-Round Dynamical Collaboration of MLLM Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenYCWLLW25",
-    "author": "Boyu Chen and Zhengrong Yue and Siran Chen and Zikang Wang and Yang Liu and Peng Li and Yali Wang",
+    "author": "Boyu Chen and Zhengrong Yue and Siran Chen and Zikang Wang and Yang Liu 0003 and Peng Li 0030 and Yali Wang 0001",
     "booktitle": "ICCV",
     "title": "LVAgent: Long Video Understanding by Multi-Round Dynamical Collaboration of MLLM Agents.",
     "year": "2025",
@@ -4767,7 +4767,7 @@
   "SPD: Shallow Backdoor Protecting Deep Backdoor Against Backdoor Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YuanLCZZD25",
-    "author": "Shunjie Yuan and Xinghua Li 0001 and Xuelin Cao and Haiyan Zhang and Mengyao Zhu and Robert H. Deng",
+    "author": "Shunjie Yuan and Xinghua Li 0001 and Xuelin Cao and Haiyan Zhang and Mengyao Zhu 0004 and Robert H. Deng",
     "booktitle": "ICCV",
     "title": "SPD: Shallow Backdoor Protecting Deep Backdoor Against Backdoor Detection.",
     "year": "2025",
@@ -4809,7 +4809,7 @@
   "Vpr-Cloak: a First Look at Privacy Cloak Against Visual Place Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DongCLYLWTY25",
-    "author": "Shuting Dong and Mingzhi Chen 0003 and Feng Lu and Hao Yu and Guanghao Li 0003 and Zhe Wu 0006 and Ming Tang and Chun Yuan 0003",
+    "author": "Shuting Dong and Mingzhi Chen 0003 and Feng Lu and Hao Yu and Guanghao Li 0003 and Zhe Wu 0006 and Ming Tang 0006 and Chun Yuan 0003",
     "booktitle": "ICCV",
     "title": "Vpr-Cloak: a First Look at Privacy Cloak Against Visual Place Recognition.",
     "year": "2025",
@@ -5117,7 +5117,7 @@
   "ChatReID: Open-Ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/NiuYZFYLLQX25",
-    "author": "Ke Niu 0004 and Haiyang Yu 0004 and Mengyang Zhao and Teng Fu 0001 and Siyang Yi and Wei Lu and Bin Li 0015 and Xuelin Qian and Xiangyang Xue 0001",
+    "author": "Ke Niu 0004 and Haiyang Yu 0004 and Mengyang Zhao 0002 and Teng Fu 0001 and Siyang Yi and Wei Lu and Bin Li 0015 and Xuelin Qian and Xiangyang Xue 0001",
     "booktitle": "ICCV",
     "title": "ChatReID: Open-Ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models.",
     "year": "2025",
@@ -5525,7 +5525,7 @@
   "S3E: Self-Supervised State Estimation for Radar-Inertial System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangXLW25",
-    "author": "Shengpeng Wang and Yulong Xie and Qing Liao 0001 and Wei Wang",
+    "author": "Shengpeng Wang and Yulong Xie and Qing Liao 0001 and Wei Wang 0050",
     "booktitle": "ICCV",
     "title": "S3E: Self-Supervised State Estimation for Radar-Inertial System.",
     "year": "2025",
@@ -5581,7 +5581,7 @@
   "IRASim: A Fine-Grained World Model for Robot Manipulation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuWGLCK25",
-    "author": "Fangqi Zhu and Hongtao Wu and Song Guo and Yuxiao Liu and Chilam Cheang and Tao Kong",
+    "author": "Fangqi Zhu and Hongtao Wu and Song Guo 0001 and Yuxiao Liu and Chilam Cheang and Tao Kong",
     "booktitle": "ICCV",
     "title": "IRASim: A Fine-Grained World Model for Robot Manipulation.",
     "year": "2025",
@@ -6197,7 +6197,7 @@
   "Sim-DETR: Unlock DETR for Temporal Sentence Grounding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TangWZSLLY25",
-    "author": "Jiajin Tang and Zhengxuan Wei and Yuchen Zhu and Cheng Shi and Guanbin Li and Liang Lin 0004 and Sibei Yang",
+    "author": "Jiajin Tang and Zhengxuan Wei and Yuchen Zhu and Cheng Shi 0001 and Guanbin Li and Liang Lin 0004 and Sibei Yang",
     "booktitle": "ICCV",
     "title": "Sim-DETR: Unlock DETR for Temporal Sentence Grounding.",
     "year": "2025",
@@ -6505,7 +6505,7 @@
   "Dataset Ownership Verification for Pre-Trained Masked Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieSSZWZDS25",
-    "author": "Yuechen Xie and Jie Song and Yicheng Shan and Xiaoyan Zhang and Yuanyu Wan and Shengxuming Zhang and Jiarui Duan and Mingli Song",
+    "author": "Yuechen Xie and Jie Song 0011 and Yicheng Shan and Xiaoyan Zhang and Yuanyu Wan and Shengxuming Zhang and Jiarui Duan and Mingli Song",
     "booktitle": "ICCV",
     "title": "Dataset Ownership Verification for Pre-Trained Masked Models.",
     "year": "2025",
@@ -7738,7 +7738,7 @@
   "MMReason: An Open-Ended Multi-Modal Multi-Step Reasoning Benchmark for MLLMs Toward AGI.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YaoHQCLZZZZSWT25",
-    "author": "Huanjin Yao and Jiaxing Huang 0001 and Yawen Qiu and Michael K. Chen 0002 and Wenzheng Liu and Wei Zhang 0196 and Wenjie Zeng and Xikun Zhang 0007 and Jingyi Zhang 0005 and YuXin Song and Wenhao Wu and Dacheng Tao",
+    "author": "Huanjin Yao and Jiaxing Huang 0001 and Yawen Qiu and Michael K. Chen 0002 and Wenzheng Liu and Wei Zhang 0196 and Wenjie Zeng and Xikun Zhang 0007 and Jingyi Zhang 0005 and YuXin Song 0001 and Wenhao Wu and Dacheng Tao",
     "booktitle": "ICCV",
     "title": "MMReason: An Open-Ended Multi-Modal Multi-Step Reasoning Benchmark for MLLMs Toward AGI.",
     "year": "2025",
@@ -7766,7 +7766,7 @@
   "ZipVL: Accelerating Vision-Language Models Through Dynamic Token Sparsity.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HeCLSZZZ25",
-    "author": "Yefei He and Feng Chen and Jing Liu and Wenqi Shao and Hong Zhou and Kaipeng Zhang and Bohan Zhuang",
+    "author": "Yefei He and Feng Chen 0047 and Jing Liu and Wenqi Shao and Hong Zhou and Kaipeng Zhang and Bohan Zhuang",
     "booktitle": "ICCV",
     "title": "ZipVL: Accelerating Vision-Language Models Through Dynamic Token Sparsity.",
     "year": "2025",
@@ -7878,7 +7878,7 @@
   "UniConvNet: Expanding Effective Receptive Field While Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangX25",
-    "author": "Yuhao Wang and Wei Xi",
+    "author": "Yuhao Wang and Wei Xi 0003",
     "booktitle": "ICCV",
     "title": "UniConvNet: Expanding Effective Receptive Field While Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale.",
     "year": "2025",
@@ -8032,7 +8032,7 @@
   "Hierarchical Event Memory for Accurate and Low-Latency Online Video Temporal Grounding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhengPSYL25",
-    "author": "Minghang Zheng and Yuxin Peng and Benyuan Sun and Yi Yang and Yang Liu",
+    "author": "Minghang Zheng and Yuxin Peng 0001 and Benyuan Sun and Yi Yang and Yang Liu",
     "booktitle": "ICCV",
     "title": "Hierarchical Event Memory for Accurate and Low-Latency Online Video Temporal Grounding.",
     "year": "2025",
@@ -8804,7 +8804,7 @@
   "Background Invariance Testing According to Semantic Proximity.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiaoC25",
-    "author": "Zukang Liao and Min Chen",
+    "author": "Zukang Liao and Min Chen 0001",
     "booktitle": "ICCV",
     "title": "Background Invariance Testing According to Semantic Proximity.",
     "year": "2025",
@@ -8818,7 +8818,7 @@
   "Preacher: Paper-to-Video Agentic System.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuYLWLW25",
-    "author": "Jingwei Liu and Ling Yang and Hao Luo and Fan Wang and Hongyan Li and Mengdi Wang",
+    "author": "Jingwei Liu and Ling Yang 0006 and Hao Luo 0004 and Fan Wang 0019 and Hongyan Li 0002 and Mengdi Wang 0001",
     "booktitle": "ICCV",
     "title": "Preacher: Paper-to-Video Agentic System.",
     "year": "2025",
@@ -8958,7 +8958,7 @@
   "Tracking Tiny Drones Against Clutter: Large-Scale Infrared Benchmark with Motion-Centric Adaptive Algorithm.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangJZWLWW25",
-    "author": "Jiahao Zhang and Zongli Jiang and Jinli Zhang and Yixin Wei and Liang Li and Yizheng Wang and Gang Wang",
+    "author": "Jiahao Zhang and Zongli Jiang and Jinli Zhang and Yixin Wei and Liang Li 0006 and Yizheng Wang and Gang Wang 0031",
     "booktitle": "ICCV",
     "title": "Tracking Tiny Drones Against Clutter: Large-Scale Infrared Benchmark with Motion-Centric Adaptive Algorithm.",
     "year": "2025",
@@ -9042,7 +9042,7 @@
   "InterGSEdit: Interactive 3D Gaussian Splatting Editing with 3D Geometry-Consistent Attention Prior.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WenWWL25",
-    "author": "Minghao Wen and Shengjie Wu and Kangkan Wang and Dong Liang",
+    "author": "Minghao Wen and Shengjie Wu and Kangkan Wang and Dong Liang 0008",
     "booktitle": "ICCV",
     "title": "InterGSEdit: Interactive 3D Gaussian Splatting Editing with 3D Geometry-Consistent Attention Prior.",
     "year": "2025",
@@ -9324,7 +9324,7 @@
   "RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChengHYZWW25",
-    "author": "Chong Cheng and Yu Hu and Sicheng Yu and Beizhen Zhao and Zijian Wang and Hao Wang",
+    "author": "Chong Cheng and Yu Hu and Sicheng Yu and Beizhen Zhao and Zijian Wang and Hao Wang 0094",
     "booktitle": "ICCV",
     "title": "RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration.",
     "year": "2025",
@@ -9884,7 +9884,7 @@
   "SU-RGS: Relightable 3D Gaussian Splatting from Sparse Views Under Unconstrained Illuminations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangHZLF25",
-    "author": "Qi Zhang and Chi Huang and Qian Zhang and Nan Li and Wei Feng",
+    "author": "Qi Zhang 0071 and Chi Huang and Qian Zhang 0051 and Nan Li 0048 and Wei Feng 0005",
     "booktitle": "ICCV",
     "title": "SU-RGS: Relightable 3D Gaussian Splatting from Sparse Views Under Unconstrained Illuminations.",
     "year": "2025",
@@ -10038,7 +10038,7 @@
   "Neural Solver of Dichromatic Reflection Model for Specular Highlight Removal.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/Fu25",
-    "author": "Gang Fu",
+    "author": "Gang Fu 0003",
     "booktitle": "ICCV",
     "title": "Neural Solver of Dichromatic Reflection Model for Specular Highlight Removal.",
     "year": "2025",
@@ -10150,7 +10150,7 @@
   "More Reliable Pseudo-Labels, Better Performance: A Generalized Approach to Single Positive Multi-Label Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TranVNDN25",
-    "author": "Luong Tran and Thieu Vo and Anh Nguyen and Sang Dinh and Van Nguyen",
+    "author": "Luong Tran and Thieu Vo and Anh Nguyen 0003 and Sang Dinh and Van Nguyen",
     "booktitle": "ICCV",
     "title": "More Reliable Pseudo-Labels, Better Performance: A Generalized Approach to Single Positive Multi-Label Learning.",
     "year": "2025",
@@ -10332,7 +10332,7 @@
   "V2XScenes: A Multiple Challenging Traffic Conditions Dataset for Large-Range Vehicle-Infrastructure Collaborative Perception.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangWGCLXN25",
-    "author": "Bowen Wang and Yafei Wang and Wei Gong and Siheng Chen and Genjia Liu and Minhao Xiong and Chin Long Ng",
+    "author": "Bowen Wang 0005 and Yafei Wang and Wei Gong and Siheng Chen and Genjia Liu and Minhao Xiong and Chin Long Ng",
     "booktitle": "ICCV",
     "title": "V2XScenes: A Multiple Challenging Traffic Conditions Dataset for Large-Range Vehicle-Infrastructure Collaborative Perception.",
     "year": "2025",
@@ -11102,7 +11102,7 @@
   "EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Embodiment-Centric Flow.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenLHYCW25",
-    "author": "Yixiang Chen and Peiyan Li and Yan Huang and Jiabing Yang and Kehan Chen and Liang Wang",
+    "author": "Yixiang Chen and Peiyan Li 0001 and Yan Huang 0008 and Jiabing Yang and Kehan Chen and Liang Wang 0001",
     "booktitle": "ICCV",
     "title": "EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Embodiment-Centric Flow.",
     "year": "2025",
@@ -11172,7 +11172,7 @@
   "Leveraging Spatial Invariance to Boost Adversarial Transferability.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhouLRQF25",
-    "author": "Zihan Zhou and Li Li 0103 and Yanli Ren and Chuan Qin and Guorui Feng",
+    "author": "Zihan Zhou and Li Li 0103 and Yanli Ren and Chuan Qin 0001 and Guorui Feng",
     "booktitle": "ICCV",
     "title": "Leveraging Spatial Invariance to Boost Adversarial Transferability.",
     "year": "2025",
@@ -11340,7 +11340,7 @@
   "CycleVAR: Repurposing Autoregressive Model for Unsupervised One-Step Image Translation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuLLWL25",
-    "author": "Yi Liu and Shengqian Li and Zuzeng Lin and Feng Wang and Si Liu",
+    "author": "Yi Liu and Shengqian Li and Zuzeng Lin and Feng Wang 0015 and Si Liu",
     "booktitle": "ICCV",
     "title": "CycleVAR: Repurposing Autoregressive Model for Unsupervised One-Step Image Translation.",
     "year": "2025",
@@ -12138,7 +12138,7 @@
   "Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponent-Guided Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangCLZZ25",
-    "author": "Zuyu Zhang and Ning Chen and Yongshan Liu and Qinghua Zhang and Xu Zhang",
+    "author": "Zuyu Zhang and Ning Chen and Yongshan Liu and Qinghua Zhang 0001 and Xu Zhang 0019",
     "booktitle": "ICCV",
     "title": "Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponent-Guided Optimization.",
     "year": "2025",
@@ -12376,7 +12376,7 @@
   "Temperature in Cosine-based Softmax Loss.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/Kobayashi25",
-    "author": "Takumi Kobayashi",
+    "author": "Takumi Kobayashi 0001",
     "booktitle": "ICCV",
     "title": "Temperature in Cosine-based Softmax Loss.",
     "year": "2025",
@@ -12460,7 +12460,7 @@
   "MagicMirror: ID-Preserved Video Generation in Video Diffusion Transformers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangLXPYLJ25",
-    "author": "Yuechen Zhang and Yaoyang Liu and Bin Xia and Bohao Peng and Zexin Yan and Eric Lo 0001 and Jiaya Jia",
+    "author": "Yuechen Zhang and Yaoyang Liu and Bin Xia 0014 and Bohao Peng and Zexin Yan and Eric Lo 0001 and Jiaya Jia",
     "booktitle": "ICCV",
     "title": "MagicMirror: ID-Preserved Video Generation in Video Diffusion Transformers.",
     "year": "2025",
@@ -12993,7 +12993,7 @@
   "MATE: Motion-Augmented Temporal Consistency for Event-Based Point Tracking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HanZCLZ25",
-    "author": "Han Han and Wei Zhai and Yang Cao 0010 and Bin Li and Zhengjun Zha",
+    "author": "Han Han and Wei Zhai and Yang Cao 0010 and Bin Li 0025 and Zhengjun Zha",
     "booktitle": "ICCV",
     "title": "MATE: Motion-Augmented Temporal Consistency for Event-Based Point Tracking.",
     "year": "2025",
@@ -13049,7 +13049,7 @@
   "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangLRL25",
-    "author": "Jiahui Wang and Zuyan Liu and Yongming Rao and Jiwen Lu",
+    "author": "Jiahui Wang 0001 and Zuyan Liu and Yongming Rao and Jiwen Lu",
     "booktitle": "ICCV",
     "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs.",
     "year": "2025",
@@ -13371,7 +13371,7 @@
   "Efficient Multi-Person Motion Prediction by Lightweight Spatial and Temporal Interactions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhengYS25",
-    "author": "Yuanhong Zheng and Ruixuan Yu and Jian Sun",
+    "author": "Yuanhong Zheng and Ruixuan Yu and Jian Sun 0009",
     "booktitle": "ICCV",
     "title": "Efficient Multi-Person Motion Prediction by Lightweight Spatial and Temporal Interactions.",
     "year": "2025",
@@ -13861,7 +13861,7 @@
   "WaveMamba: Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuDYLYRZFLLWLZ25",
-    "author": "Haodong Zhu and Wenhao Dong and Linlin Yang and Hong Li 0016 and Yuguang Yang 0007 and Yangyang Ren and Qingcheng Zhu and Zichao Feng and Changbai Li and Shaohui Lin and Runqi Wang and Xiaoyan Luo and Baochang Zhang 0001",
+    "author": "Haodong Zhu and Wenhao Dong and Linlin Yang 0001 and Hong Li 0016 and Yuguang Yang 0007 and Yangyang Ren and Qingcheng Zhu and Zichao Feng and Changbai Li and Shaohui Lin and Runqi Wang and Xiaoyan Luo and Baochang Zhang 0001",
     "booktitle": "ICCV",
     "title": "WaveMamba: Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection.",
     "year": "2025",
@@ -14407,7 +14407,7 @@
   "Exploring View Consistency for Scene-Adaptive Low-Light Light Field Image Enhancement.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangGL25",
-    "author": "Shuo Zhang and Chen Gao and Youfang Lin",
+    "author": "Shuo Zhang 0003 and Chen Gao and Youfang Lin",
     "booktitle": "ICCV",
     "title": "Exploring View Consistency for Scene-Adaptive Low-Light Light Field Image Enhancement.",
     "year": "2025",
@@ -14519,7 +14519,7 @@
   "Boosting Adversarial Transferability via Negative Hessian Trace Regularization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LongTZX25",
-    "author": "Yunfei Long and Zilin Tian and Liguo Zhang and Huosheng Xu",
+    "author": "Yunfei Long and Zilin Tian and Liguo Zhang 0002 and Huosheng Xu",
     "booktitle": "ICCV",
     "title": "Boosting Adversarial Transferability via Negative Hessian Trace Regularization.",
     "year": "2025",
@@ -14533,7 +14533,7 @@
   "CountSE: Soft Exemplar Open-Set Object Counting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuZZK25",
-    "author": "Shuai Liu and Peng Zhang and Shiwei Zhang and Wei Ke",
+    "author": "Shuai Liu 0016 and Peng Zhang and Shiwei Zhang 0004 and Wei Ke 0003",
     "booktitle": "ICCV",
     "title": "CountSE: Soft Exemplar Open-Set Object Counting.",
     "year": "2025",
@@ -14617,7 +14617,7 @@
   "Two Losses, One Goal: Balancing Conflict Gradients for Semi-Supervised Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SunMLCW25",
-    "author": "Rui Sun and Huayu Mai and Wangkai Li and Yujia Chen and Yuan Wang",
+    "author": "Rui Sun 0006 and Huayu Mai and Wangkai Li and Yujia Chen and Yuan Wang 0064",
     "booktitle": "ICCV",
     "title": "Two Losses, One Goal: Balancing Conflict Gradients for Semi-Supervised Semantic Segmentation.",
     "year": "2025",
@@ -14715,7 +14715,7 @@
   "Mdp3: a Training-Free Approach for List-Wise Frame Selection in Video-Llms.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SunLWCXLZL25",
-    "author": "Hui Sun and Shiyin Lu and Huanyu Wang and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and Ming Li",
+    "author": "Hui Sun 0003 and Shiyin Lu and Huanyu Wang and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and Ming Li 0005",
     "booktitle": "ICCV",
     "title": "Mdp3: a Training-Free Approach for List-Wise Frame Selection in Video-Llms.",
     "year": "2025",
@@ -15009,7 +15009,7 @@
   "FOLDER: Accelerating Multi-Modal Large Language Models with Enhanced Performance.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangYSJQXT25",
-    "author": "Haicheng Wang and Zhemeng Yu and Gabriele Spadaro and Chen Ju and Victor Quétu and Shuai Xiao and Enzo Tartaglione",
+    "author": "Haicheng Wang and Zhemeng Yu and Gabriele Spadaro and Chen Ju and Victor Quétu and Shuai Xiao 0002 and Enzo Tartaglione",
     "booktitle": "ICCV",
     "title": "FOLDER: Accelerating Multi-Modal Large Language Models with Enhanced Performance.",
     "year": "2025",
@@ -15331,7 +15331,7 @@
   "DiffTell: A High-Quality Dataset for Describing Image Manipulation Changes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DiSFTBCL25",
-    "author": "Zonglin Di and Jing Shi 0005 and Yifei Fan and Hao Tan 0002 and Alexander Black 0001 and John P. Collomosse and Yang Liu",
+    "author": "Zonglin Di and Jing Shi 0005 and Yifei Fan and Hao Tan 0002 and Alexander Black 0001 and John P. Collomosse and Yang Liu 0018",
     "booktitle": "ICCV",
     "title": "DiffTell: A High-Quality Dataset for Describing Image Manipulation Changes.",
     "year": "2025",
@@ -16507,7 +16507,7 @@
   "CoMPaSS: Enhancing Spatial Understanding in Text-to-Image Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangFFZLGZL25",
-    "author": "Gaoyang Zhang and Bingtao Fu and Qingnan Fan and Qi Zhang and Runxing Liu and Hong Gu and Huaqi Zhang and Xinguo Liu",
+    "author": "Gaoyang Zhang and Bingtao Fu and Qingnan Fan and Qi Zhang 0029 and Runxing Liu and Hong Gu and Huaqi Zhang and Xinguo Liu",
     "booktitle": "ICCV",
     "title": "CoMPaSS: Enhancing Spatial Understanding in Text-to-Image Diffusion Models.",
     "year": "2025",
@@ -16689,7 +16689,7 @@
   "Memory-Efficient Generative Models via Product Quantization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ShaoZYW25",
-    "author": "Jie Shao and Hanxiao Zhang and Hao Yu and Jianxin Wu",
+    "author": "Jie Shao 0001 and Hanxiao Zhang and Hao Yu 0027 and Jianxin Wu 0001",
     "booktitle": "ICCV",
     "title": "Memory-Efficient Generative Models via Product Quantization.",
     "year": "2025",
@@ -16731,7 +16731,7 @@
   "Neighboring Autoregressive Modeling for Efficient Visual Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HeHHCZZZ25",
-    "author": "Yefei He and Yuanyu He and Shaoxuan He and Feng Chen and Hong Zhou and Kaipeng Zhang and Bohan Zhuang",
+    "author": "Yefei He and Yuanyu He and Shaoxuan He and Feng Chen 0047 and Hong Zhou and Kaipeng Zhang and Bohan Zhuang",
     "booktitle": "ICCV",
     "title": "Neighboring Autoregressive Modeling for Efficient Visual Generation.",
     "year": "2025",
@@ -17557,7 +17557,7 @@
   "Dual Domain Control via Active Learning for Remote Sensing Domain Incremental Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SunCYW25",
-    "author": "Jiachen Sun and De Cheng and Xi Yang and Nannan Wang",
+    "author": "Jiachen Sun and De Cheng and Xi Yang 0011 and Nannan Wang 0001",
     "booktitle": "ICCV",
     "title": "Dual Domain Control via Active Learning for Remote Sensing Domain Incremental Object Detection.",
     "year": "2025",
@@ -17767,7 +17767,7 @@
   "From Reusing to Forecasting: Accelerating Diffusion Models With Taylorseers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuZLCZ25",
-    "author": "Jiacheng Liu and Chang Zou and Yuanhuiyi Lyu and Junjie Chen and Linfeng Zhang",
+    "author": "Jiacheng Liu and Chang Zou and Yuanhuiyi Lyu and Junjie Chen and Linfeng Zhang 0001",
     "booktitle": "ICCV",
     "title": "From Reusing to Forecasting: Accelerating Diffusion Models With Taylorseers.",
     "year": "2025",
@@ -18803,7 +18803,7 @@
   "Engage for All: Making Ordinary Image Descriptions Appealing Again!": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenJZCGYG25",
-    "author": "Yuyan Chen and Yifan Jiang and Li Zhou and Jinghan Cao and Yu Guan and Ming-Hsuan Yang 0001 and Qing Guo 0005",
+    "author": "Yuyan Chen and Yifan Jiang and Li Zhou and Jinghan Cao and Yu Guan 0001 and Ming-Hsuan Yang 0001 and Qing Guo 0005",
     "booktitle": "ICCV",
     "title": "Engage for All: Making Ordinary Image Descriptions Appealing Again!",
     "year": "2025",
@@ -18915,7 +18915,7 @@
   "Benefit from Seen: Enhancing Open-Vocabulary Object Detection by Bridging Visual and Textual Co-Occurrence Knowledge.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiNR25",
-    "author": "Yanqi Li and Jianwei Niu and Tao Ren",
+    "author": "Yanqi Li and Jianwei Niu 0002 and Tao Ren 0001",
     "booktitle": "ICCV",
     "title": "Benefit from Seen: Enhancing Open-Vocabulary Object Detection by Bridging Visual and Textual Co-Occurrence Knowledge.",
     "year": "2025",
@@ -19097,7 +19097,7 @@
   "NAPPure: Adversarial Purification for Robust Image Classification Under Non-Additive Perturbations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/NanLCZC25",
-    "author": "Junjie Nan and Jianing Li and Wei Chen and Mingkun Zhang and Xueqi Cheng",
+    "author": "Junjie Nan and Jianing Li and Wei Chen 0034 and Mingkun Zhang and Xueqi Cheng 0001",
     "booktitle": "ICCV",
     "title": "NAPPure: Adversarial Purification for Robust Image Classification Under Non-Additive Perturbations.",
     "year": "2025",
@@ -19209,7 +19209,7 @@
   "RareCLIP: Rarity-Aware Online Zero-Shot Industrial Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HeCPX25",
-    "author": "Jianfang He and Min Cao and Silong Peng and Qiong Xie",
+    "author": "Jianfang He and Min Cao 0005 and Silong Peng and Qiong Xie",
     "booktitle": "ICCV",
     "title": "RareCLIP: Rarity-Aware Online Zero-Shot Industrial Anomaly Detection.",
     "year": "2025",
@@ -19237,7 +19237,7 @@
   "ForgeLens: Data-Efficient Forgery Focus for Generalizable Forgery Image Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenZN25",
-    "author": "Yingjian Chen and Lei Zhang and Yakun Niu",
+    "author": "Yingjian Chen and Lei Zhang 0115 and Yakun Niu",
     "booktitle": "ICCV",
     "title": "ForgeLens: Data-Efficient Forgery Focus for Generalizable Forgery Image Detection.",
     "year": "2025",
@@ -20147,7 +20147,7 @@
   "Learning Visual Proxy for Compositional Zero-Shot Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangYLJZW25",
-    "author": "Shiyu Zhang and Cheng Yan and Yang Liu and Chenchen Jing and Lei Zhou and Wenjun Wang",
+    "author": "Shiyu Zhang and Cheng Yan and Yang Liu 0357 and Chenchen Jing and Lei Zhou 0008 and Wenjun Wang 0002",
     "booktitle": "ICCV",
     "title": "Learning Visual Proxy for Compositional Zero-Shot Learning.",
     "year": "2025",
@@ -22303,7 +22303,7 @@
   "Humoto: A 4D Dataset of Mocap Human Object Interactions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LuHBHZ25",
-    "author": "Jiaxin Lu 0001 and Chun-Hao Paul Huang and Uttaran Bhattacharya and Qixing Huang and Yi Zhou",
+    "author": "Jiaxin Lu 0001 and Chun-Hao Paul Huang and Uttaran Bhattacharya and Qixing Huang and Yi Zhou 0023",
     "booktitle": "ICCV",
     "title": "Humoto: A 4D Dataset of Mocap Human Object Interactions.",
     "year": "2025",
@@ -22541,7 +22541,7 @@
   "UniDxMD: Towards Unified Representation for Cross-Modal Unsupervised Domain Adaptation in 3D Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiangYLDYH25",
-    "author": "Zhengyin Liang and Hui Yin and Min Liang and Qianqian Du and Ying Yang and Hua Huang",
+    "author": "Zhengyin Liang and Hui Yin 0002 and Min Liang and Qianqian Du and Ying Yang and Hua Huang",
     "booktitle": "ICCV",
     "title": "UniDxMD: Towards Unified Representation for Cross-Modal Unsupervised Domain Adaptation in 3D Semantic Segmentation.",
     "year": "2025",
@@ -23004,7 +23004,7 @@
   "Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChengYWZW25",
-    "author": "Chong Cheng and Sicheng Yu and Zijian Wang and Yifan Zhou and Hao Wang",
+    "author": "Chong Cheng and Sicheng Yu and Zijian Wang and Yifan Zhou and Hao Wang 0094",
     "booktitle": "ICCV",
     "title": "Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps.",
     "year": "2025",
@@ -23620,7 +23620,7 @@
   "Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/MoonLPK25",
-    "author": "Saemi Moon and Minjong Lee and Sangdon Park and Dongwoo Kim",
+    "author": "Saemi Moon and Minjong Lee and Sangdon Park 0001 and Dongwoo Kim",
     "booktitle": "ICCV",
     "title": "Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning.",
     "year": "2025",
@@ -23900,7 +23900,7 @@
   "Rep-MTL: Unleashing the Power of Representation-Level Task Saliency for Multi-Task Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangLX25",
-    "author": "Zedong Wang and Siyuan Li and Dan Xu",
+    "author": "Zedong Wang and Siyuan Li 0002 and Dan Xu 0002",
     "booktitle": "ICCV",
     "title": "Rep-MTL: Unleashing the Power of Representation-Level Task Saliency for Multi-Task Learning.",
     "year": "2025",
@@ -23928,7 +23928,7 @@
   "Fusion Meets Diverse Conditions: A High-Diversity Benchmark and Baseline for UAV-Based Multimodal Object Detection with Condition Cues.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenBHQLLLLZ25",
-    "author": "Chen Chen 0152 and Kangcheng Bin and Ting Hu and Jiahao Qi and Xingyue Liu and Tianpeng Liu and Zhen Liu and Yongxiang Liu and Ping Zhong 0001",
+    "author": "Chen Chen 0152 and Kangcheng Bin and Ting Hu and Jiahao Qi and Xingyue Liu and Tianpeng Liu and Zhen Liu 0004 and Yongxiang Liu and Ping Zhong 0001",
     "booktitle": "ICCV",
     "title": "Fusion Meets Diverse Conditions: A High-Diversity Benchmark and Baseline for UAV-Based Multimodal Object Detection with Condition Cues.",
     "year": "2025",
@@ -24348,7 +24348,7 @@
   "Head2Body: Body Pose Generation from Multi-Sensory Head-Mounted Inputs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TranMCK25",
-    "author": "Minh Tran and Hongda Mao and Qingshuang Chen and Yelin Kim",
+    "author": "Minh Tran 0004 and Hongda Mao and Qingshuang Chen and Yelin Kim",
     "booktitle": "ICCV",
     "title": "Head2Body: Body Pose Generation from Multi-Sensory Head-Mounted Inputs.",
     "year": "2025",
@@ -27190,7 +27190,7 @@
   "UPRE: Zero-Shot Domain Adaptation for Object Detection via Unified Prompt and Representation Enhancement.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangWWZLC25",
-    "author": "Xiao Zhang and Fei Wei and Yong Wang and Wenda Zhao and Feiyi Li and Xiangxiang Chu",
+    "author": "Xiao Zhang 0050 and Fei Wei and Yong Wang and Wenda Zhao 0003 and Feiyi Li and Xiangxiang Chu",
     "booktitle": "ICCV",
     "title": "UPRE: Zero-Shot Domain Adaptation for Object Detection via Unified Prompt and Representation Enhancement.",
     "year": "2025",
@@ -27386,7 +27386,7 @@
   "Federated Continuous Category Discovery and Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangLGYHHD25",
-    "author": "Lixu Wang and Chenxi Liu and Junfeng Guo and Qingqing Ye 0001 and Heng Huang 0001 and Haibo Hu 0001 and Wei Dong",
+    "author": "Lixu Wang and Chenxi Liu and Junfeng Guo and Qingqing Ye 0001 and Heng Huang 0001 and Haibo Hu 0001 and Wei Dong 0007",
     "booktitle": "ICCV",
     "title": "Federated Continuous Category Discovery and Learning.",
     "year": "2025",
@@ -30103,7 +30103,7 @@
   "Dataset Distillation Via Vision-Language Category Prototype.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZouLSWYZ25",
-    "author": "Yawen Zou and Guang Li and Duo Su and Zi Wang and Jun Yu 0012 and Chao Zhang 0030",
+    "author": "Yawen Zou and Guang Li 0008 and Duo Su and Zi Wang and Jun Yu 0012 and Chao Zhang 0030",
     "booktitle": "ICCV",
     "title": "Dataset Distillation Via Vision-Language Category Prototype.",
     "year": "2025",
@@ -30439,7 +30439,7 @@
   "Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuMGMCYCBWS25",
-    "author": "Junming Liu and Siyuan Meng and Yanting Gao and Song Mao and Pinlong Cai and Guohang Yan and Yirong Chen and Zilin Bian and Ding Wang and Botian Shi",
+    "author": "Junming Liu and Siyuan Meng and Yanting Gao and Song Mao and Pinlong Cai and Guohang Yan and Yirong Chen and Zilin Bian and Ding Wang 0001 and Botian Shi",
     "booktitle": "ICCV",
     "title": "Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning.",
     "year": "2025",
@@ -30775,7 +30775,7 @@
   "Boosting Adversarial Transferability via Residual Perturbation Attack.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/PengTWWW25",
-    "author": "Jinjia Peng and Zeze Tao and Huibing Wang and Meng Wang and Yang Wang",
+    "author": "Jinjia Peng and Zeze Tao and Huibing Wang and Meng Wang 0001 and Yang Wang 0023",
     "booktitle": "ICCV",
     "title": "Boosting Adversarial Transferability via Residual Perturbation Attack.",
     "year": "2025",
@@ -30831,7 +30831,7 @@
   "PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangXFJA25",
-    "author": "Hao Zhang and Haolan Xu and Chun Feng and Varun Jampani and Narendra Ahuja",
+    "author": "Hao Zhang 0122 and Haolan Xu and Chun Feng and Varun Jampani and Narendra Ahuja",
     "booktitle": "ICCV",
     "title": "PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling.",
     "year": "2025",
@@ -31055,7 +31055,7 @@
   "풟ℐℋ-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DuanYW25",
-    "author": "Songsong Duan and Xi Yang and Nannan Wang",
+    "author": "Songsong Duan and Xi Yang 0011 and Nannan Wang 0001",
     "booktitle": "ICCV",
     "title": "풟ℐℋ-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation.",
     "year": "2025",
@@ -31083,7 +31083,7 @@
   "Video2BEV: Transforming Drone Videos to BEVs for Video-Based Geo-Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/JuHLZ25",
-    "author": "Hao Ju and Shaofei Huang 0001 and Si Liu 0001 and Zhedong Zheng",
+    "author": "Hao Ju 0004 and Shaofei Huang 0001 and Si Liu 0001 and Zhedong Zheng",
     "booktitle": "ICCV",
     "title": "Video2BEV: Transforming Drone Videos to BEVs for Video-Based Geo-Localization.",
     "year": "2025",
@@ -31125,7 +31125,7 @@
   "PBCAT: Patch-Based Composite Adversarial Training Against Physically Realizable Attacks on Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiZHZHSH25",
-    "author": "Xiao Li and Yiming Zhu and Yifan Huang and Wei Zhang and Yingzhe He and Jie Shi and Xiaolin Hu",
+    "author": "Xiao Li 0028 and Yiming Zhu and Yifan Huang and Wei Zhang 0370 and Yingzhe He and Jie Shi and Xiaolin Hu 0001",
     "booktitle": "ICCV",
     "title": "PBCAT: Patch-Based Composite Adversarial Training Against Physically Realizable Attacks on Object Detection.",
     "year": "2025",
@@ -31517,7 +31517,7 @@
   "Addressing Representation Collapse in Vector Quantized Models with One Linear Layer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuLXXX25",
-    "author": "Yongxin Zhu and Bocheng Li and Yifei Xin and Zhihua Xia and Linli Xu",
+    "author": "Yongxin Zhu 0003 and Bocheng Li and Yifei Xin and Zhihua Xia and Linli Xu 0002",
     "booktitle": "ICCV",
     "title": "Addressing Representation Collapse in Vector Quantized Models with One Linear Layer.",
     "year": "2025",
@@ -32007,7 +32007,7 @@
   "Canonswap: High-Fidelity and Consistent Video Face Swapping Via Canonical Space Modulation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LuoZLLWCLH25",
-    "author": "Xiangyang Luo and Ye Zhu and Yunfei Liu and Lijian Lin and Cong Wan and Zijian Cai and Yu Li and Shao-Lun Huang",
+    "author": "Xiangyang Luo and Ye Zhu 0003 and Yunfei Liu 0001 and Lijian Lin and Cong Wan and Zijian Cai and Yu Li 0003 and Shao-Lun Huang",
     "booktitle": "ICCV",
     "title": "Canonswap: High-Fidelity and Consistent Video Face Swapping Via Canonical Space Modulation.",
     "year": "2025",
@@ -32035,7 +32035,7 @@
   "Hierarchical Cross-Modal Prompt Learning for Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhengYHYH25",
-    "author": "Hao Zheng and Shunzhi Yang and Zhuoxin He and Jinfeng Yang and Zhenhua Huang",
+    "author": "Hao Zheng and Shunzhi Yang and Zhuoxin He and Jinfeng Yang and Zhenhua Huang 0001",
     "booktitle": "ICCV",
     "title": "Hierarchical Cross-Modal Prompt Learning for Vision-Language Models.",
     "year": "2025",
@@ -32301,7 +32301,7 @@
   "FiVE-Bench: A Fine-Grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiXWZW25",
-    "author": "Minghan Li and Chenxi Xie and Yichen Wu and Lei Zhang and Mengyu Wang",
+    "author": "Minghan Li 0001 and Chenxi Xie and Yichen Wu and Lei Zhang 0006 and Mengyu Wang 0001",
     "booktitle": "ICCV",
     "title": "FiVE-Bench: A Fine-Grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models.",
     "year": "2025",
@@ -32835,7 +32835,7 @@
   "Large Scene Generation with Cube-Absorb Discrete Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuH25",
-    "author": "Qianjiang Hu Wei Hu and Wei Hu",
+    "author": "Qianjiang Hu Wei Hu and Wei Hu 0003",
     "booktitle": "ICCV",
     "title": "Large Scene Generation with Cube-Absorb Discrete Diffusion.",
     "year": "2025",
@@ -33831,7 +33831,7 @@
   "UniFuse: A Unified All-In-One Framework for Multi-Modal Medical Image Fusion Under Diverse Degradations and Misalignments.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SuZLLL25",
-    "author": "Dayong Su and Yafei Zhang and Huafeng Li and Jinxing Li and Yu Liu",
+    "author": "Dayong Su and Yafei Zhang and Huafeng Li 0001 and Jinxing Li 0003 and Yu Liu 0023",
     "booktitle": "ICCV",
     "title": "UniFuse: A Unified All-In-One Framework for Multi-Modal Medical Image Fusion Under Diverse Degradations and Misalignments.",
     "year": "2025",
@@ -34377,7 +34377,7 @@
   "FICGen: Frequency-Inspired Contextual Disentanglement for Layout-driven Degraded Image Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangZMLJCL25",
-    "author": "Wenzhuang Wang and Yifan Zhao and Mingcan Ma and Ming Liu and Zhonglin Jiang and Yong Chen and Jia Li",
+    "author": "Wenzhuang Wang and Yifan Zhao 0002 and Mingcan Ma and Ming Liu and Zhonglin Jiang and Yong Chen and Jia Li 0003",
     "booktitle": "ICCV",
     "title": "FICGen: Frequency-Inspired Contextual Disentanglement for Layout-driven Degraded Image Generation.",
     "year": "2025",
@@ -34461,7 +34461,7 @@
   "CoStoDet-DDPM: Collaborative Training of Stochastic and Deterministic Models Improves Surgical Workflow Anticipation and Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YangLLW25",
-    "author": "Kaixiang Yang and Xin Li and Qiang Li and Zhiwei Wang",
+    "author": "Kaixiang Yang 0004 and Xin Li 0001 and Qiang Li 0018 and Zhiwei Wang 0002",
     "booktitle": "ICCV",
     "title": "CoStoDet-DDPM: Collaborative Training of Stochastic and Deterministic Models Improves Surgical Workflow Anticipation and Recognition.",
     "year": "2025",
@@ -34517,7 +34517,7 @@
   "Epipolar Consistent Attention Aggregation Network for Unsupervised Light Field Disparity Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GaoZL25",
-    "author": "Chen Gao and Shuo Zhang and Youfang Lin",
+    "author": "Chen Gao and Shuo Zhang 0003 and Youfang Lin",
     "booktitle": "ICCV",
     "title": "Epipolar Consistent Attention Aggregation Network for Unsupervised Light Field Disparity Estimation.",
     "year": "2025",
@@ -36785,7 +36785,7 @@
   "Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/JinYZSDX25",
-    "author": "Shuo Jin and Siyue Yu and Bingfeng Zhang and Mingjie Sun and Yi Dong and Jimin Xiao",
+    "author": "Shuo Jin and Siyue Yu and Bingfeng Zhang and Mingjie Sun and Yi Dong 0002 and Jimin Xiao",
     "booktitle": "ICCV",
     "title": "Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation.",
     "year": "2025",
@@ -37065,7 +37065,7 @@
   "Driving View Synthesis on Free-Form Trajectories with Generative Prior.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YangPYZZ25",
-    "author": "Zeyu Yang and Zijie Pan and Yuankun Yang and Xiatian Zhu and Li Zhang",
+    "author": "Zeyu Yang 0004 and Zijie Pan and Yuankun Yang and Xiatian Zhu and Li Zhang 0040",
     "booktitle": "ICCV",
     "title": "Driving View Synthesis on Free-Form Trajectories with Generative Prior.",
     "year": "2025",
@@ -37261,7 +37261,7 @@
   "Layer-Wise Vision Injection With Disentangled Attention for Efficient LVLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangLLBZYLZY25",
-    "author": "Xuange Zhang and Dengjie Li and Bo Liu and Zenghao Bao and Yao Zhou and Baisong Yang and Zhongying Liu and Yujie Zhong and Tongtong Yuan",
+    "author": "Xuange Zhang and Dengjie Li and Bo Liu 0011 and Zenghao Bao and Yao Zhou and Baisong Yang and Zhongying Liu and Yujie Zhong and Tongtong Yuan",
     "booktitle": "ICCV",
     "title": "Layer-Wise Vision Injection With Disentangled Attention for Efficient LVLMs.",
     "year": "2025",
@@ -37639,7 +37639,7 @@
   "Semantic-Guided Camera Ray Regression for Visual Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangZ25a",
-    "author": "Yesheng Zhang and Xu Zhao",
+    "author": "Yesheng Zhang and Xu Zhao 0001",
     "booktitle": "ICCV",
     "title": "Semantic-Guided Camera Ray Regression for Visual Localization.",
     "year": "2025",

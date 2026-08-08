@@ -142,7 +142,7 @@
   "OmniNER2025: Diverse and Comprehensive Fine-Grained NER Dataset and Benchmark for Chinese.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/ZhouLLHD0X25",
-    "author": "Yong Zhou and Shuaipeng Liu and Yunqing Li and Mengting Hu and Wen Dai and Xiaowei Zhao 0003 and Xiujuan Xu",
+    "author": "Yong Zhou and Shuaipeng Liu and Yunqing Li and Mengting Hu 0002 and Wen Dai and Xiaowei Zhao 0003 and Xiujuan Xu",
     "booktitle": "SIGIR",
     "title": "OmniNER2025: Diverse and Comprehensive Fine-Grained NER Dataset and Benchmark for Chinese.",
     "year": "2025",
@@ -1055,7 +1055,7 @@
   "HCDS: Hierarchical Clustering for Cold-Start Few-Shot Data Selection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/ZhaoHWL0HH25",
-    "author": "Yuhua Zhao 0001 and Zhixin Han and Xunzhi Wang and Bitong Luo and Hang Gao 0003 and Minlie Huang and Mengting Hu",
+    "author": "Yuhua Zhao 0001 and Zhixin Han and Xunzhi Wang and Bitong Luo and Hang Gao 0003 and Minlie Huang and Mengting Hu 0002",
     "booktitle": "SIGIR",
     "title": "HCDS: Hierarchical Clustering for Cold-Start Few-Shot Data Selection.",
     "year": "2025",
@@ -4268,7 +4268,7 @@
   "GEAR: Generalized Alternating Regressor for Multi-Behavior Sequential Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/00010KLG25",
-    "author": "Junzhe Jiang 0001 and Kai Zhang 0038 and Junfeng Kang and Yucong Luo and Min Gao",
+    "author": "Junzhe Jiang 0001 and Kai Zhang 0038 and Junfeng Kang and Yucong Luo and Min Gao 0017",
     "booktitle": "SIGIR",
     "title": "GEAR: Generalized Alternating Regressor for Multi-Behavior Sequential Recommendation.",
     "year": "2025",
@@ -7346,7 +7346,7 @@
   "A System for Triggering Sports Instant Answers on Search Engines.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/KaratTKDVMSSKMS25",
-    "author": "Ankith Karat and Atishay Tibrewal and Nishka Kotian and Manan Dang and Ravindra Valluri and Antony Ravi Teja Marineni and Sarthak Sahni and Rhea Sundaresan and Ankit Kumar and Aditya Mehndiratta and Sunil Shah and Arun D. Poondi and Chandra Bhushan and Subhasis Panigrahi and Manish Gupta",
+    "author": "Ankith Karat and Atishay Tibrewal and Nishka Kotian and Manan Dang and Ravindra Valluri and Antony Ravi Teja Marineni and Sarthak Sahni and Rhea Sundaresan and Ankit Kumar and Aditya Mehndiratta and Sunil Shah and Arun D. Poondi and Chandra Bhushan and Subhasis Panigrahi and Manish Gupta 0001",
     "booktitle": "SIGIR",
     "title": "A System for Triggering Sports Instant Answers on Search Engines.",
     "year": "2025",

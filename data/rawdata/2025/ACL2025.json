@@ -3477,7 +3477,7 @@
   "Quantification of Large Language Model Distillation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LeeZALDHW0LA0LW25",
-    "author": "Sunbowen Lee and Junting Zhou and Chang Ao and Kaige Li and Xeron Du and Sirui He and Haihong Wu and Tianci Liu 0011 and Jiaheng Liu and Hamid Alinejad-Rokny and Min Yang 0007 and Yitao Liang and Zhoufutu Wen and Shiwen Ni",
+    "author": "Sunbowen Lee and Junting Zhou and Chang Ao and Kaige Li and Xeron Du and Sirui He 0001 and Haihong Wu and Tianci Liu 0011 and Jiaheng Liu and Hamid Alinejad-Rokny and Min Yang 0007 and Yitao Liang and Zhoufutu Wen and Shiwen Ni",
     "booktitle": "ACL (1)",
     "title": "Quantification of Large Language Model Distillation.",
     "year": "2025",
@@ -4151,7 +4151,7 @@
   "NGQA: A Nutritional Graph Question Answering Benchmark for Personalized Health-aware Nutritional Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangLLWMGMMGCZ25",
-    "author": "Zheyuan Zhang and Yiyang Li and Nhi Ha Lan Le and Zehong Wang and Tianyi Ma and Vincent Galassi and Keerthiram Murugesan and Nuno Moniz and Werner Geyer and Nitesh V. Chawla and Chuxu Zhang and Yanfang Ye 0001",
+    "author": "Zheyuan Zhang 0008 and Yiyang Li and Nhi Ha Lan Le and Zehong Wang and Tianyi Ma and Vincent Galassi and Keerthiram Murugesan and Nuno Moniz and Werner Geyer and Nitesh V. Chawla and Chuxu Zhang and Yanfang Ye 0001",
     "booktitle": "ACL (1)",
     "title": "NGQA: A Nutritional Graph Question Answering Benchmark for Personalized Health-aware Nutritional Reasoning.",
     "year": "2025",
@@ -8970,7 +8970,7 @@
   "CLAIM: Mitigating Multilingual Object Hallucination in Large Vision-Language Models with Cross-Lingual Attention Intervention.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YeLF0HLJXZLTT025",
-    "author": "Zekai Ye and Qiming Li and Xiaocheng Feng and Libo Qin 0001 and Yichong Huang and Baohang Li and Kui Jiang and Yang Xiang and Zhirui Zhang and Yunfei Lu and Duyu Tang and Dandan Tu and Bing Qin 0001",
+    "author": "Zekai Ye and Qiming Li and Xiaocheng Feng and Libo Qin 0001 and Yichong Huang and Baohang Li and Kui Jiang and Yang Xiang 0003 and Zhirui Zhang and Yunfei Lu and Duyu Tang and Dandan Tu and Bing Qin 0001",
     "booktitle": "ACL (1)",
     "title": "CLAIM: Mitigating Multilingual Object Hallucination in Large Vision-Language Models with Cross-Lingual Attention Intervention.",
     "year": "2025",
@@ -15826,7 +15826,7 @@
   "Enhancing Chain-of-Thought Reasoning with Critical Representation Fine-tuning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/0004Y0LFX00Y25",
-    "author": "Chenxi Huang 0004 and Shaotian Yan and Liang Xie 0003 and Binbin Lin and Sinan Fan and Yue Xin and Deng Cai 0001 and Chen Shen 0003 and Jieping Ye",
+    "author": "Chenxi Huang 0004 and Shaotian Yan and Liang Xie 0003 and Binbin Lin 0001 and Sinan Fan and Yue Xin and Deng Cai 0001 and Chen Shen 0003 and Jieping Ye",
     "booktitle": "ACL (1)",
     "title": "Enhancing Chain-of-Thought Reasoning with Critical Representation Fine-tuning.",
     "year": "2025",
@@ -17354,7 +17354,7 @@
   "Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical Relation Extraction via LLMs-as-the-Judge.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LaskarJDPH025",
-    "author": "Md. Tahmid Rahman Laskar and Israt Jahan and Elham Dolatabadi and Chun Peng and Enamul Hoque and Jimmy Huang 0001",
+    "author": "Md. Tahmid Rahman Laskar and Israt Jahan and Elham Dolatabadi and Chun Peng and Enamul Hoque 0001 and Jimmy Huang 0001",
     "booktitle": "ACL (1)",
     "title": "Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical Relation Extraction via LLMs-as-the-Judge.",
     "year": "2025",
@@ -19499,7 +19499,7 @@
   "Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenWLZW25",
-    "author": "Kexin Chen and Dongxia Wang 0002 and Yi Liu and Haonan Zhang 0007 and Wenhai Wang",
+    "author": "Kexin Chen and Dongxia Wang 0002 and Yi Liu 0069 and Haonan Zhang 0007 and Wenhai Wang",
     "booktitle": "ACL (1)",
     "title": "Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models.",
     "year": "2025",

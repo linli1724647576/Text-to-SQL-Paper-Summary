@@ -2217,7 +2217,7 @@
   "Towards More Discriminative Feature Learning in SNNs with Temporal-Self-Erasing Supervision.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuYZXWCGLLH25",
-    "author": "Wei Liu and Li Yang and Mingxuan Zhao and Dengfeng Xue and Shuxun Wang and Boyu Cai and Jin Gao and Wenjuan Li and Bing Li and Weiming Hu",
+    "author": "Wei Liu 0153 and Li Yang 0014 and Mingxuan Zhao and Dengfeng Xue and Shuxun Wang and Boyu Cai and Jin Gao and Wenjuan Li and Bing Li 0001 and Weiming Hu 0004",
     "booktitle": "AAAI",
     "title": "Towards More Discriminative Feature Learning in SNNs with Temporal-Self-Erasing Supervision.",
     "year": "2025",
@@ -2399,7 +2399,7 @@
   "Pose as a Modality: A Psychology-Inspired Network for Personality Recognition with a New Multimodal Dataset.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangPZZSZDK25",
-    "author": "Bin Tang and Keqi Pan and Miao Zheng and Ning Zhou and Jialu Sui and Dandan Zhu 0001 and Cheng-Long Deng and Shu-Guang Kuai",
+    "author": "Bin Tang 0010 and Keqi Pan and Miao Zheng and Ning Zhou and Jialu Sui and Dandan Zhu 0001 and Cheng-Long Deng and Shu-Guang Kuai",
     "booktitle": "AAAI",
     "title": "Pose as a Modality: A Psychology-Inspired Network for Personality Recognition with a New Multimodal Dataset.",
     "year": "2025",
@@ -2553,7 +2553,7 @@
   "Learning Concept Prerequisite Relation via Global Knowledge Relation Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangWXWZCL25",
-    "author": "Miao Zhang 0036 and Jiawei Wang and Kui Xiao and Shihui Wang and Yan Zhang 0077 and Hao Chen 0134 and Zhifei Li 0009",
+    "author": "Miao Zhang 0036 and Jiawei Wang 0027 and Kui Xiao and Shihui Wang and Yan Zhang 0077 and Hao Chen 0134 and Zhifei Li 0009",
     "booktitle": "AAAI",
     "title": "Learning Concept Prerequisite Relation via Global Knowledge Relation Optimization.",
     "year": "2025",
@@ -5538,7 +5538,7 @@
   "GaussianSR: High Fidelity 2D Gaussian Splatting for Arbitrary-Scale Image Super-Resolution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuXCYZ25",
-    "author": "Jintong Hu and Bin Xia and Bin Chen and Wenming Yang and Lei Zhang",
+    "author": "Jintong Hu and Bin Xia 0014 and Bin Chen and Wenming Yang and Lei Zhang",
     "booktitle": "AAAI",
     "title": "GaussianSR: High Fidelity 2D Gaussian Splatting for Arbitrary-Scale Image Super-Resolution.",
     "year": "2025",
@@ -8761,7 +8761,7 @@
   "Interacted Object Grounding in Spatio-Temporal Human-Object Interactions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuW0ZFLMC025",
-    "author": "Xiaoyang Liu and Boran Wen and Xinpeng Liu 0002 and Zizheng Zhou and Hongwei Fan and Cewu Lu and Lizhuang Ma and Yulong Chen and Yong-Lu Li 0001",
+    "author": "Xiaoyang Liu 0014 and Boran Wen and Xinpeng Liu 0002 and Zizheng Zhou and Hongwei Fan and Cewu Lu and Lizhuang Ma and Yulong Chen and Yong-Lu Li 0001",
     "booktitle": "AAAI",
     "title": "Interacted Object Grounding in Spatio-Temporal Human-Object Interactions.",
     "year": "2025",
@@ -8859,7 +8859,7 @@
   "MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuCSZXC25",
-    "author": "Yaqi Liu and Shuhuan Chen and Haichao Shi and Xiaoyu Zhang 0002 and Song Xiao and Qiang Cai 0001",
+    "author": "Yaqi Liu and Shuhuan Chen and Haichao Shi and Xiaoyu Zhang 0002 and Song Xiao 0001 and Qiang Cai 0001",
     "booktitle": "AAAI",
     "title": "MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder.",
     "year": "2025",
@@ -10483,7 +10483,7 @@
   "Improving Integrated Gradient-based Transferable Adversarial Examples by Refining the Integration Path.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002ZLYZL025",
-    "author": "Yuchen Ren 0002 and Zhengyu Zhao 0001 and Chenhao Lin and Bo Yang 0049 and Lu Zhou and Zhe Liu and Chao Shen 0001",
+    "author": "Yuchen Ren 0002 and Zhengyu Zhao 0001 and Chenhao Lin and Bo Yang 0049 and Lu Zhou 0002 and Zhe Liu 0001 and Chao Shen 0001",
     "booktitle": "AAAI",
     "title": "Improving Integrated Gradient-based Transferable Adversarial Examples by Refining the Integration Path.",
     "year": "2025",
@@ -12615,7 +12615,7 @@
   "AnyTalk: Multi-modal Driven Multi-domain Talking Head Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangLHCLL25",
-    "author": "Yu Wang and Yunfei Liu and Fa-Ting Hong and Meng Cao and Lijian Lin and Yu Li",
+    "author": "Yu Wang 0027 and Yunfei Liu 0001 and Fa-Ting Hong and Meng Cao and Lijian Lin and Yu Li 0003",
     "booktitle": "AAAI",
     "title": "AnyTalk: Multi-modal Driven Multi-domain Talking Head Generation.",
     "year": "2025",
@@ -14940,7 +14940,7 @@
   "End-to-End Autonomous Driving Through V2X Cooperation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuYZY00N25",
-    "author": "Haibao Yu and Wenxian Yang and Jiaru Zhong and Zhenwei Yang and Siqi Fan 0002 and Ping Luo 0002 and Zaiqing Nie",
+    "author": "Haibao Yu and Wenxian Yang 0001 and Jiaru Zhong and Zhenwei Yang and Siqi Fan 0002 and Ping Luo 0002 and Zaiqing Nie",
     "booktitle": "AAAI",
     "title": "End-to-End Autonomous Driving Through V2X Cooperation.",
     "year": "2025",
@@ -15010,7 +15010,7 @@
   "STGC-NeRF: Spatial-Temporal Geometric Consistency for LiDAR Neural Radiance Fields in Dynamic Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuSLXYWSW25",
-    "author": "Shangshu Yu and Xiaotian Sun 0005 and Wen Li 0005 and Qingshan Xu and Zhimin Yuan and Sijie Wang and Rui She 0001 and Cheng Wang 0003",
+    "author": "Shangshu Yu and Xiaotian Sun 0005 and Wen Li 0005 and Qingshan Xu 0001 and Zhimin Yuan and Sijie Wang and Rui She 0001 and Cheng Wang 0003",
     "booktitle": "AAAI",
     "title": "STGC-NeRF: Spatial-Temporal Geometric Consistency for LiDAR Neural Radiance Fields in Dynamic Scenes.",
     "year": "2025",
@@ -16803,7 +16803,7 @@
   "All-in-One: Transferring Vision Foundation Models into Stereo Matching.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouZYYCJCZ25",
-    "author": "Jingyi Zhou and Haoyu Zhang and Jiakang Yuan and Peng Ye 0006 and Tao Chen 0003 and Hao Jiang and Meiya Chen and Yangyang Zhang",
+    "author": "Jingyi Zhou and Haoyu Zhang and Jiakang Yuan and Peng Ye 0006 and Tao Chen 0003 and Hao Jiang 0013 and Meiya Chen and Yangyang Zhang",
     "booktitle": "AAAI",
     "title": "All-in-One: Transferring Vision Foundation Models into Stereo Matching.",
     "year": "2025",
@@ -18834,7 +18834,7 @@
   "Context-aware Inductive Knowledge Graph Completion with Latent Type Constraints and Subgraph Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiYXSJGLK25",
-    "author": "Muzhi Li 0001 and Cehao Yang and Chengjin Xu and Zixing Song and Xuhui Jiang and Jian Guo and Ho-fung Leung and Irwin King",
+    "author": "Muzhi Li 0001 and Cehao Yang and Chengjin Xu and Zixing Song and Xuhui Jiang and Jian Guo 0016 and Ho-fung Leung and Irwin King",
     "booktitle": "AAAI",
     "title": "Context-aware Inductive Knowledge Graph Completion with Latent Type Constraints and Subgraph Reasoning.",
     "year": "2025",
@@ -20178,7 +20178,7 @@
   "Out-of-Distribution Generalization on Graphs via Progressive Inference.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuSPL0025",
-    "author": "Yiming Xu 0001 and Bin Shi and Zhen Peng 0005 and Huixiang Liu and Bo Dong 0001 and Chen Chen 0022",
+    "author": "Yiming Xu 0001 and Bin Shi 0003 and Zhen Peng 0005 and Huixiang Liu and Bo Dong 0001 and Chen Chen 0022",
     "booktitle": "AAAI",
     "title": "Out-of-Distribution Generalization on Graphs via Progressive Inference.",
     "year": "2025",
@@ -20192,7 +20192,7 @@
   "Revisiting Graph Contrastive Learning on Anomaly Detection: A Structural Imbalance Perspective.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/00010SH0W025",
-    "author": "Yiming Xu 0001 and Zhen Peng 0005 and Bin Shi and Xu Hua and Bo Dong 0001 and Song Wang 0013 and Chen Chen 0022",
+    "author": "Yiming Xu 0001 and Zhen Peng 0005 and Bin Shi 0003 and Xu Hua and Bo Dong 0001 and Song Wang 0013 and Chen Chen 0022",
     "booktitle": "AAAI",
     "title": "Revisiting Graph Contrastive Learning on Anomaly Detection: A Structural Imbalance Perspective.",
     "year": "2025",
@@ -21916,7 +21916,7 @@
   "Multi-Apartment Rent Division.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ProcacciaS025",
-    "author": "Ariel D. Procaccia and Benjamin Schiffer and Shirley Zhang 0001",
+    "author": "Ariel D. Procaccia and Benjamin Schiffer 0001 and Shirley Zhang 0001",
     "booktitle": "AAAI",
     "title": "Multi-Apartment Rent Division.",
     "year": "2025",
@@ -21958,7 +21958,7 @@
   "Improved Regret Bounds for Online Fair Division with Bandit Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Schiffer025",
-    "author": "Benjamin Schiffer and Shirley Zhang 0001",
+    "author": "Benjamin Schiffer 0001 and Shirley Zhang 0001",
     "booktitle": "AAAI",
     "title": "Improved Regret Bounds for Online Fair Division with Bandit Learning.",
     "year": "2025",
@@ -24957,7 +24957,7 @@
   "Attack-inspired Calibration Loss for Calibrating Crack Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenCZLFCL25",
-    "author": "Zhuangzhuang Chen and Qiangyu Chen and Jiahao Zhang and Zhiliang Lin and Xingyu Feng and Jie Chen 0027 and Jianqiang Li 0001",
+    "author": "Zhuangzhuang Chen and Qiangyu Chen and Jiahao Zhang and Zhiliang Lin and Xingyu Feng 0001 and Jie Chen 0027 and Jianqiang Li 0001",
     "booktitle": "AAAI",
     "title": "Attack-inspired Calibration Loss for Calibrating Crack Recognition.",
     "year": "2025",
@@ -26134,7 +26134,7 @@
   "Multimodal Fusion Using Multi-View Domains for Data Heterogeneity in Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GaoZFT25",
-    "author": "Min Gao and Haifeng Zheng and Xinxin Feng and Ran Tao",
+    "author": "Min Gao 0007 and Haifeng Zheng and Xinxin Feng and Ran Tao",
     "booktitle": "AAAI",
     "title": "Multimodal Fusion Using Multi-View Domains for Data Heterogeneity in Federated Learning.",
     "year": "2025",
@@ -26176,7 +26176,7 @@
   "Maintaining Fairness in Logit-based Knowledge Distillation for Class-Incremental Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GaoHZXZMDW25",
-    "author": "Zijian Gao and Shanhao Han and Xingxing Zhang and Kele Xu and Dulan Zhou and Xinjun Mao and Yong Dou and Huaimin Wang 0001",
+    "author": "Zijian Gao and Shanhao Han and Xingxing Zhang 0001 and Kele Xu and Dulan Zhou and Xinjun Mao and Yong Dou and Huaimin Wang 0001",
     "booktitle": "AAAI",
     "title": "Maintaining Fairness in Logit-based Knowledge Distillation for Class-Incremental Learning.",
     "year": "2025",
@@ -27073,7 +27073,7 @@
   "Stability and Generalization of Zeroth-Order Decentralized Stochastic Gradient Descent with Changing Topology.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuGXL0WL25",
-    "author": "Xiaolin Hu and Zixuan Gong and Gengze Xu and Wei Liu 0302 and Jian Luan 0001 and Bin Wang 0004 and Yong Liu 0020",
+    "author": "Xiaolin Hu 0001 and Zixuan Gong and Gengze Xu and Wei Liu 0302 and Jian Luan 0001 and Bin Wang 0004 and Yong Liu 0020",
     "booktitle": "AAAI",
     "title": "Stability and Generalization of Zeroth-Order Decentralized Stochastic Gradient Descent with Changing Topology.",
     "year": "2025",
@@ -27171,7 +27171,7 @@
   "TCAQ-DM: Timestep-Channel Adaptive Quantization for Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangCGZ025",
-    "author": "Haocheng Huang and Jiaxin Chen 0002 and Jinyang Guo and Ruiyi Zhan and Yunhong Wang 0001",
+    "author": "Haocheng Huang and Jiaxin Chen 0002 and Jinyang Guo 0002 and Ruiyi Zhan and Yunhong Wang 0001",
     "booktitle": "AAAI",
     "title": "TCAQ-DM: Timestep-Channel Adaptive Quantization for Diffusion Models.",
     "year": "2025",
@@ -29034,7 +29034,7 @@
   "EBS-CFL: Efficient and Byzantine-robust Secure Clustered Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiBGP0D25",
-    "author": "Zhiqiang Li and Haiyong Bao and Menghong Guan and Hao Pan and Cheng Huang 0001 and Hong-Ning Dai",
+    "author": "Zhiqiang Li 0007 and Haiyong Bao and Menghong Guan and Hao Pan and Cheng Huang 0001 and Hong-Ning Dai",
     "booktitle": "AAAI",
     "title": "EBS-CFL: Efficient and Byzantine-robust Secure Clustered Federated Learning.",
     "year": "2025",
@@ -32691,7 +32691,7 @@
   "In-Dataset Trajectory Return Regularization for Offline Preference-based Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TuSZZLCZ25",
-    "author": "Songjun Tu and Jingbo Sun and Qichao Zhang and Yaocheng Zhang and Jia Liu and Ke Chen and Dongbin Zhao",
+    "author": "Songjun Tu and Jingbo Sun 0001 and Qichao Zhang and Yaocheng Zhang and Jia Liu and Ke Chen and Dongbin Zhao",
     "booktitle": "AAAI",
     "title": "In-Dataset Trajectory Return Regularization for Offline Preference-based Reinforcement Learning.",
     "year": "2025",
@@ -35491,7 +35491,7 @@
   "STraj: Self-training for Bridging the Cross-Geography Gap in Trajectory Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Zhang0GZ0L0025",
-    "author": "Zhanwei Zhang and Minghao Chen 0001 and Zhihong Gu and Xinkui Zhao and Zheng Yang 0008 and Binbin Lin and Deng Cai 0001 and Wenxiao Wang 0001",
+    "author": "Zhanwei Zhang and Minghao Chen 0001 and Zhihong Gu and Xinkui Zhao and Zheng Yang 0008 and Binbin Lin 0001 and Deng Cai 0001 and Wenxiao Wang 0001",
     "booktitle": "AAAI",
     "title": "STraj: Self-training for Bridging the Cross-Geography Gap in Trajectory Prediction.",
     "year": "2025",
@@ -38813,7 +38813,7 @@
   "A Compact Model for Mathematics Problem Representations Distilled from BERT.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/MingYCSL25",
-    "author": "Hao Ming and Xinguo Yu and Xiaotian Cheng and Zhenquan Shen and Xiaopan Lyu",
+    "author": "Hao Ming 0001 and Xinguo Yu and Xiaotian Cheng and Zhenquan Shen and Xiaopan Lyu",
     "booktitle": "AAAI",
     "title": "A Compact Model for Mathematics Problem Representations Distilled from BERT.",
     "year": "2025",
@@ -39347,7 +39347,7 @@
   "VERO: Verification and Zero-Shot Feedback Acquisition for Few-Shot Multimodal Aspect-Level Sentiment Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SunWSMLD25",
-    "author": "Kai Sun and Hao Wu and Bin Shi and Samuel Mensah and Peng Liu and Bo Dong 0001",
+    "author": "Kai Sun and Hao Wu and Bin Shi 0003 and Samuel Mensah and Peng Liu and Bo Dong 0001",
     "booktitle": "AAAI",
     "title": "VERO: Verification and Zero-Shot Feedback Acquisition for Few-Shot Multimodal Aspect-Level Sentiment Classification.",
     "year": "2025",
@@ -43121,7 +43121,7 @@
   "Reinforcement Learning Platform for Adversarial Black-box Attacks with Custom Distortion Filters.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SarkarBMGGN0GR25",
-    "author": "Soumyendu Sarkar and Ashwin Ramesh Babu and Sajad Mousavi and Vineet Gundecha and Sahand Ghorbanpour and Avisek Naug and Ricardo Luna Gutiérrez 0001 and Antonio Guillen 0001 and Desik Rengarajan",
+    "author": "Soumyendu Sarkar and Ashwin Ramesh Babu and Sajad Mousavi and Vineet Gundecha and Sahand Ghorbanpour and Avisek Naug and Ricardo Luna Gutiérrez and Antonio Guillen 0001 and Desik Rengarajan",
     "booktitle": "AAAI",
     "title": "Reinforcement Learning Platform for Adversarial Black-box Attacks with Custom Distortion Filters.",
     "year": "2025",
@@ -48641,7 +48641,7 @@
   "Hierarchical Multi-Agent Framework for Carbon-Efficient Liquid-Cooled Data Center Clusters.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SarkarNGG0GMBRB25",
-    "author": "Soumyendu Sarkar and Avisek Naug and Antonio Guillen 0001 and Vineet Gundecha and Ricardo Luna Gutiérrez 0001 and Sahand Ghorbanpour and Sajad Mousavi and Ashwin Ramesh Babu and Desik Rengarajan and Cullen E. Bash",
+    "author": "Soumyendu Sarkar and Avisek Naug and Antonio Guillen 0001 and Vineet Gundecha and Ricardo Luna Gutiérrez and Sahand Ghorbanpour and Sajad Mousavi and Ashwin Ramesh Babu and Desik Rengarajan and Cullen E. Bash",
     "booktitle": "AAAI",
     "title": "Hierarchical Multi-Agent Framework for Carbon-Efficient Liquid-Cooled Data Center Clusters.",
     "year": "2025",

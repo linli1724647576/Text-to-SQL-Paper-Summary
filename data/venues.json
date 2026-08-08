@@ -195,7 +195,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/AAAI2025.json",
-          "sha256": "12c807b96506155cc4b2a1cf963639664fe7560a93c5c08349f2bd68c0bbcbe2"
+          "sha256": "fd5852741204b81d679ffbe5cd3e0d7b9742694db1c97b9b32c049c0b1d6c40a"
         }
       ],
       "processing": {
@@ -465,7 +465,7 @@
         },
         {
           "path": "data/rawdata/2025/ACL2025.json",
-          "sha256": "883bc0ade41e317033a83c37657340c28a21d7308f1b45723d0ec565624fdc6f"
+          "sha256": "09299ca5a5ddaca406fc5b0a96439a6b1aba943daf31192e9c68cbdd6177bb7f"
         }
       ],
       "processing": {
@@ -1659,7 +1659,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/ICCV2025.json",
-          "sha256": "cb93ac8bdeba6954e316b9b41efea7ae1b397addaeb8a66167c9c0d86bbe7af0"
+          "sha256": "4f30e4db9ea4ac7cf8394c2f75beb64477ad26b2ac083b936f2a93bbb34fe4bd"
         }
       ],
       "processing": {
@@ -2745,7 +2745,7 @@
         },
         {
           "path": "data/rawdata/2025/IJCAI2025.json",
-          "sha256": "91f268604bc2251c177f93a8f212fd460299b55518cd18558599d4c94e85344f"
+          "sha256": "3438dd2ed8ed8a18fdf19cf8f3b74fbc01c6ae5b2eb54c1f4f12e9529409bcd9"
         }
       ],
       "processing": {
@@ -3461,7 +3461,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/NeurIPS2025-accepted.json",
-          "sha256": "e470ba45416698ff5518899f867ffb4ef6b0408a0fae8aa660441dfd4998e4d3"
+          "sha256": "42616211831a4681c855491d9bba5c217136e8c6a3105419cdb01002a4bac0a9"
         },
         {
           "path": "data/rawdata/2025/NeurIPS2025.json",
@@ -3697,7 +3697,7 @@
         },
         {
           "path": "data/rawdata/2025/SIGIR2025.json",
-          "sha256": "96799e4a2acc4b4ed9908b7903d4afe13ee7a6031912cdad32e6b1146ddb2e47"
+          "sha256": "14d1b14bfb1f6852ed8165f234a1e3a04db8889627140c8e5b9b8b551691e4b3"
         }
       ],
       "processing": {

@@ -2018,7 +2018,7 @@
   "Jacobian-Based Interpretation of Nonlinear Neural Encoding Model": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-jacobian-based-interpretation-of-nonlinear-neural-encoding-model",
-    "author": "Xiaohui Gao and Haoran Yang and cheng yue and Mengfei Zuo and Yiheng Liu and Peiyang Li Main Conference Track <a tit",
+    "author": "Haoran Yang and cheng yue and Mengfei Zuo and Yiheng Liu and Peiyang Li and Xiaohui Gao Main Conference Track <a tit",
     "booktitle": "NeurIPS Conference",
     "title": "Jacobian-Based Interpretation of Nonlinear Neural Encoding Model",
     "year": "2025",
@@ -26840,7 +26840,7 @@
   "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-does-reinforcement-learning-really-incentivize-reasoning-capacity-in-llms-beyond",
-    "author": "Zhiqi Chen and Yang Yue and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang Main Conference Track",
+    "author": "Yang Yue and Zhiqi Chen and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
     "year": "2025",
@@ -76414,7 +76414,7 @@
   "Connectome-Based Modelling Reveals Orientation Maps in the Drosophila Optic Lobe": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2025-connectome-based-modelling-reveals-orientation-maps-in-the-drosophila-optic-lobe",
-    "author": "Jia Nuo Liew and Shenghan Lin and Bowen Chen and Wei Zhang and Xiaowei Zhu and Xiaolin Hu Main Conference Track <a t",
+    "author": "Jia Nuo Liew and Shenghan Lin and Bowen Chen and Xiaowei Zhu and Wei Zhang and Xiaolin Hu Main Conference Track <a t",
     "booktitle": "NeurIPS Conference",
     "title": "Connectome-Based Modelling Reveals Orientation Maps in the Drosophila Optic Lobe",
     "year": "2025",

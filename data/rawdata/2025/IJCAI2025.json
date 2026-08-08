@@ -1360,7 +1360,7 @@
   "Diff-LMM: Diffusion Teacher-Guided Spatio-Temporal Perception for Video Large Multimodal Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/DangCWLWWWZW25",
-    "author": "Jisheng Dang and Ligen Chen and Jingze Wu and Ronghao Lin and Bimei Wang and Yun Wang and Liting Wang and Nannan Zhu and Teng Wang 0007",
+    "author": "Jisheng Dang and Ligen Chen and Jingze Wu and Ronghao Lin and Bimei Wang and Yun Wang 0053 and Liting Wang and Nannan Zhu and Teng Wang 0007",
     "booktitle": "IJCAI",
     "title": "Diff-LMM: Diffusion Teacher-Guided Spatio-Temporal Perception for Video Large Multimodal Models.",
     "year": "2025",
@@ -2046,7 +2046,7 @@
   "SSTrack: Sample-interval Scheduling for Lightweight Visual Object Tracking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/KouLLLHG25",
-    "author": "Yutong Kou and Shubo Lin and Liang Li and Bing Li and Weiming Hu and Jin Gao",
+    "author": "Yutong Kou and Shubo Lin and Liang Li and Bing Li and Weiming Hu 0004 and Jin Gao",
     "booktitle": "IJCAI",
     "title": "SSTrack: Sample-interval Scheduling for Lightweight Visual Object Tracking.",
     "year": "2025",
@@ -3082,7 +3082,7 @@
   "Self-supervised End-to-end ToF Imaging Based on RGB-D Cross-modal Dependency.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WangWW25",
-    "author": "Weihang Wang 0012 and Jun Wang and Fei Wen",
+    "author": "Weihang Wang 0012 and Jun Wang 0137 and Fei Wen 0005",
     "booktitle": "IJCAI",
     "title": "Self-supervised End-to-end ToF Imaging Based on RGB-D Cross-modal Dependency.",
     "year": "2025",
@@ -8225,7 +8225,7 @@
   "PNAct: Crafting Backdoor Attacks in Safe Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/GuoLZW25",
-    "author": "Weiran Guo and Guanjun Liu and Ziyuan Zhou and Ling Wang",
+    "author": "Weiran Guo and Guanjun Liu and Ziyuan Zhou 0005 and Ling Wang",
     "booktitle": "IJCAI",
     "title": "PNAct: Crafting Backdoor Attacks in Safe Reinforcement Learning.",
     "year": "2025",
@@ -9135,7 +9135,7 @@
   "Guiding LLM-based Smart Contract Generation with Finite State Machine.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LuoLYHWZWJ25",
-    "author": "Hao Luo and Yuhao Lin and Xiao Yan and Xintong Hu and Yuxiang Wang and Qiming Zeng and Hao Wang and Jiawei Jiang",
+    "author": "Hao Luo 0023 and Yuhao Lin and Xiao Yan 0002 and Xintong Hu and Yuxiang Wang 0013 and Qiming Zeng and Hao Wang 0013 and Jiawei Jiang 0001",
     "booktitle": "IJCAI",
     "title": "Guiding LLM-based Smart Contract Generation with Finite State Machine.",
     "year": "2025",
@@ -12173,7 +12173,7 @@
   "Attention-based Conditional Random Field for Financial Fraud Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Wang0ZWWL025",
-    "author": "Xiaoguang Wang and Chenxu Wang 0001 and Luyue Zhang and Xiaole Wang and Mengqin Wang and Huanlong Liu and Tao Qin 0002",
+    "author": "Xiaoguang Wang 0016 and Chenxu Wang 0001 and Luyue Zhang and Xiaole Wang and Mengqin Wang and Huanlong Liu and Tao Qin 0002",
     "booktitle": "IJCAI",
     "title": "Attention-based Conditional Random Field for Financial Fraud Detection.",
     "year": "2025",
@@ -13014,7 +13014,7 @@
   "DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangWHXLZCW25",
-    "author": "Miao Zhang 0036 and Jiawei Wang and Jinying Han and Kui Xiao and Zhifei Li 0009 and Yan Zhang 0077 and Hao Chen 0134 and Shihui Wang",
+    "author": "Miao Zhang 0036 and Jiawei Wang 0027 and Jinying Han and Kui Xiao and Zhifei Li 0009 and Yan Zhang 0077 and Hao Chen 0134 and Shihui Wang",
     "booktitle": "IJCAI",
     "title": "DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning.",
     "year": "2025",
@@ -13434,7 +13434,7 @@
   "GATES: Cost-aware Dynamic Workflow Scheduling via Graph Attention Networks and Evolution Strategy.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ShenCMZ25",
-    "author": "Ya Shen 0001 and Gang Chen and Hui Ma and Mengjie Zhang",
+    "author": "Ya Shen 0001 and Gang Chen 0002 and Hui Ma 0001 and Mengjie Zhang 0001",
     "booktitle": "IJCAI",
     "title": "GATES: Cost-aware Dynamic Workflow Scheduling via Graph Attention Networks and Evolution Strategy.",
     "year": "2025",
@@ -15087,7 +15087,7 @@
   "Automating Intervention Discovery from Scientific Literature: A Progressive Ontology Prompting and Dual-LLM Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/HuL0YXZ0X25",
-    "author": "Yuting Hu and Dancheng Liu and Qingyun Wang 0005 and Charles Yu and Chenhui Xu and Qingxiao Zheng and Heng Ji 0001 and Jinjun Xiong",
+    "author": "Yuting Hu and Dancheng Liu and Qingyun Wang 0005 and Charles Yu and Chenhui Xu and Qingxiao Zheng 0001 and Heng Ji 0001 and Jinjun Xiong",
     "booktitle": "IJCAI",
     "title": "Automating Intervention Discovery from Scientific Literature: A Progressive Ontology Prompting and Dual-LLM Framework.",
     "year": "2025",
@@ -15549,7 +15549,7 @@
   "OpenCarbon: A Contrastive Learning-based Cross-Modality Neural Approach for High-Resolution Carbon Emission Prediction Using Open Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZengLZD0Y025",
-    "author": "Jinwei Zeng and Yu Liu 0016 and Guozhen Zhang and Jingtao Ding and Yuming Lin 0003 and Jian Yuan and Yong Li 0008",
+    "author": "Jinwei Zeng and Yu Liu 0016 and Guozhen Zhang 0001 and Jingtao Ding and Yuming Lin 0003 and Jian Yuan and Yong Li 0008",
     "booktitle": "IJCAI",
     "title": "OpenCarbon: A Contrastive Learning-based Cross-Modality Neural Approach for High-Resolution Carbon Emission Prediction Using Open Data.",
     "year": "2025",

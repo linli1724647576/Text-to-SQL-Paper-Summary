@@ -392,7 +392,7 @@
   "Breaking the Isolation-Freshness Trade-off: Joint Adaptive Storage Optimization for HTAP Systems.": {
     "type": "ARTICLE",
     "key": "journals/pvldb/DingZZSXLD26",
-    "author": "Zhenghao Ding and Xinyi Zhang 0002 and Chao Zhang and Yishen Sun and Kai Xu and Wei Lu 0015 and Xiaoyong Du 0001",
+    "author": "Zhenghao Ding and Xinyi Zhang 0002 and Chao Zhang 0034 and Yishen Sun and Kai Xu and Wei Lu 0015 and Xiaoyong Du 0001",
     "booktitle": "Proc. VLDB Endow.",
     "title": "Breaking the Isolation-Freshness Trade-off: Joint Adaptive Storage Optimization for HTAP Systems.",
     "year": "2026",

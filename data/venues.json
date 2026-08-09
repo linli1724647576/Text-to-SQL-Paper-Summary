@@ -233,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AAAI2026.json",
-          "sha256": "09518d03e195479981d4c4fcee4a580cfa3a767f2c1932f9ea2f4b32e770231b"
+          "sha256": "99a17b0a34c8dd304ed633d183e77db75f69bbc86d66860196e3728e9ca20d15"
         }
       ],
       "processing": {
@@ -731,7 +731,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AIJ2026.json",
-          "sha256": "1dd975a8b9af5f3a3f50215f6eca109047257ea3331d48c04ff7dd018928b794"
+          "sha256": "dac3d5ea7c04a48311451ba11623a6fb3f8c652692cc7ad9222188d2f2261986"
         }
       ],
       "processing": {
@@ -1271,7 +1271,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/CVPR2026-accepted.json",
-          "sha256": "a3fd13710be3cb93fca118ff7ceb4640f107f04736d9933abe06f4a2a4c2b871"
+          "sha256": "75db29d641c17e254a00d583be5048ae985ac214b4608ee25b895d2ddf1fa3a3"
         }
       ],
       "processing": {
@@ -2219,7 +2219,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/ICML2026-accepted.json",
-          "sha256": "bd1decce12ace9ec3b73b371165976ff7eb3bdff8a25146e2e5bde4967a11791"
+          "sha256": "7638e4c5a24569f8e054dc320a694c402e9e0b28e8ab8802dd9150762b147460"
         }
       ],
       "processing": {
@@ -4253,7 +4253,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TKDE2026.json",
-          "sha256": "4970219eac73e3efd6c143d69393468bc78960b2e79ddd7bb182271967a56642"
+          "sha256": "55d0a8e466003e8072c6c6dccbb0e5729574624c92218d8e82b3927e460c358f"
         }
       ],
       "processing": {
@@ -4519,7 +4519,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TOSEM2026.json",
-          "sha256": "870715bb819b4528670ccd9b1fae1bd86403fa248dca31f91c82e4e88b19ee24"
+          "sha256": "88b3b3ff1301a204691e4367a261da4ece39404a9da8fc91b81eb04179a25d7f"
         }
       ],
       "processing": {
@@ -4785,7 +4785,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TSE2026.json",
-          "sha256": "16bdaada6ec8ba6d10f71dc78f74d7914358147602c8f66fab0bcc8262f8db4d"
+          "sha256": "2c59c2734d533bc76cda74c9104d7d91ae5641e6c6b2fddf29a0a504f3f6dc75"
         }
       ],
       "processing": {
@@ -5051,7 +5051,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDB2026.json",
-          "sha256": "d7046e72077df4dd79f112d6a4899e800e4d6d8e7babe6ed3b8b6e703fc6e77e"
+          "sha256": "38ad63b20bf485831c881fe8fb57b9346f62a974047da3db703ce924e7f2f6ee"
         }
       ],
       "processing": {
@@ -5317,7 +5317,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDBJ2026.json",
-          "sha256": "0180cb6018324e833f0338769efbb057b4aef113847aa14dc8d44dbc3aa1e903"
+          "sha256": "bbbf4591ee49f6c1c1d009e2c4b7e95bc42c018238a9cf48da8b37c6aea35eaa"
         }
       ],
       "processing": {

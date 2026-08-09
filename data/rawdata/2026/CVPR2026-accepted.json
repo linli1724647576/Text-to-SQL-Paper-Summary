@@ -1357,20 +1357,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "CARD: Correlation Aware Restoration with Diffusion": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-card-correlation-aware-restoration-with-diffusion",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "CARD: Correlation Aware Restoration with Diffusion",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36313",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "BackSplit: The Importance of Sub-dividing the Background in Biomedical Lesion Segmentation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-backsplit-the-importance-of-sub-dividing-the-background-in-biomedical-lesion-seg",
@@ -18017,6 +18003,48 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "CARD: Correlation Aware Restoration with Diffusion": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-card-correlation-aware-restoration-with-diffusion",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "CARD: Correlation Aware Restoration with Diffusion",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36313",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-the-surprising-effectiveness-of-noise-pretraining-for-implicit-neural-representa",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36601",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "MaxMark: High-Capacity Diffusion-Native Watermarking via Robust and Invertible Latent Embedding": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-maxmark-high-capacity-diffusion-native-watermarking-via-robust-and-invertible-la",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "MaxMark: High-Capacity Diffusion-Native Watermarking via Robust and Invertible Latent Embedding",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39632",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-medclipseg-probabilistic-vision-language-adaptation-for-data-efficient-and-gener",
@@ -20827,20 +20855,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/40196",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-the-surprising-effectiveness-of-noise-pretraining-for-implicit-neural-representa",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36601",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -43143,20 +43157,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/36529",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "MaxMark: High-Capacity Diffusion-Native Watermarking via Robust and Invertible Latent Embedding": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-maxmark-high-capacity-diffusion-native-watermarking-via-robust-and-invertible-la",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "MaxMark: High-Capacity Diffusion-Native Watermarking via Robust and Invertible Latent Embedding",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39632",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

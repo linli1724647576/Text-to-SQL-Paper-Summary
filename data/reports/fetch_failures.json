@@ -1,148 +1,44 @@
 {
   "summary": {
-    "fetched_entries": 9609,
+    "fetched_entries": 5910,
     "failure_count": 0,
-    "warning_count": 0,
-    "skipped_count": 17
+    "warning_count": 4,
+    "skipped_count": 0
   },
   "failures": [],
-  "warnings": [],
-  "skipped": [
-    {
-      "venue": "NeurIPS",
-      "year": 2025,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "CVPR",
-      "year": 2025,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICML",
-      "year": 2025,
-      "track": "AI",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "SIGMOD",
-      "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "VLDB",
-      "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICDE",
-      "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "KDD",
-      "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "WWW",
-      "year": 2025,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICSE",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "FSE",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ASE",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ISSTA",
-      "year": 2025,
-      "track": "SE",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "AIJ",
-      "year": 2025,
-      "track": "AI",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
-    },
+  "warnings": [
     {
       "venue": "TKDE",
-      "year": 2025,
+      "year": 2026,
       "track": "DB",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tkde/tkde38.xml: Remote end closed connection without response"
     },
     {
       "venue": "VLDBJ",
-      "year": 2025,
+      "year": 2026,
       "track": "DB",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/vldb/vldb35.xml: Remote end closed connection without response"
     },
     {
       "venue": "TSE",
-      "year": 2025,
+      "year": 2026,
       "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tse/tse52.xml: Remote end closed connection without response"
     },
     {
       "venue": "TOSEM",
-      "year": 2025,
+      "year": 2026,
       "track": "SE",
-      "source_type": "journal",
-      "status": "skipped",
-      "reason": "complete"
+      "source": "openalex-journal-fallback",
+      "status": "fallback_used",
+      "reason": "DBLP journal failed or empty: https://dblp.org/db/journals/tosem/tosem35.xml: Remote end closed connection without response"
     }
-  ]
+  ],
+  "skipped": []
 }

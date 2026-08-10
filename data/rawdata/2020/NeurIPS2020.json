@@ -24124,7 +24124,7 @@
   "Information-theoretic Task Selection for Meta-Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/GutierrezL20",
-    "author": "Ricardo Luna Gutierrez 0001 and Matteo Leonetti",
+    "author": "Ricardo Luna Gutiérrez and Matteo Leonetti",
     "booktitle": "NeurIPS",
     "title": "Information-theoretic Task Selection for Meta-Reinforcement Learning.",
     "year": "2020",

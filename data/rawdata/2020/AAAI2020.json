@@ -9713,7 +9713,7 @@
   "Transfer Value Iteration Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShenZXZP20",
-    "author": "Junyi Shen and Hankz Hankui Zhuo and Jin Xu and Bin Zhong and Sinno Jialin Pan",
+    "author": "Junyi Shen and Hankz Hankui Zhuo and Jin Xu 0014 and Bin Zhong and Sinno Jialin Pan",
     "booktitle": "AAAI",
     "title": "Transfer Value Iteration Networks.",
     "year": "2020",

@@ -3053,7 +3053,7 @@
       "files": [
         {
           "path": "data/rawdata/2021/KDD2021.json",
-          "sha256": "6289dd24e5cf125722573555694f9a4c0d2f78c8bf75fa84782fba39f2fc2c57"
+          "sha256": "8395dd823b1cbc4b9dff904053e46d0e6e05f8f5f882c3f2addaf0e5c2e25ff7"
         }
       ],
       "processing": {
@@ -3781,7 +3781,7 @@
         },
         {
           "path": "data/rawdata/2021/SIGMOD2021.json",
-          "sha256": "7176670c7bd10718412f61ecfc31ec67ed75cdd2b368eef07fc84bd981250a76"
+          "sha256": "79d25ff87bffe394300fb4be4ab0bc4276e01bdc84de1b64a996ed84c8fe7b24"
         }
       ],
       "processing": {

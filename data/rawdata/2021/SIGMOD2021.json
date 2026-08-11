@@ -399,7 +399,7 @@
   "Hybrid Evaluation for Distributed Iterative Matrix Computation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/ChenX0MQZ21",
-    "author": "Zihao Chen and Chen Xu 0001 and Juan Soto 0001 and Volker Markl and Weining Qian and Aoying Zhou",
+    "author": "Zihao Chen 0002 and Chen Xu 0001 and Juan Soto 0001 and Volker Markl and Weining Qian and Aoying Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Hybrid Evaluation for Distributed Iterative Matrix Computation.",
     "year": "2021",
@@ -2805,7 +2805,7 @@
   "ExDRa: Exploratory Data Science on Federated Raw Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/Baunsgaard0CDGG21",
-    "author": "Sebastian Baunsgaard and Matthias Boehm 0001 and Ankit Chaudhary and Behrouz Derakhshan and Stefan Geißelsöder and Philipp M. Grulich and Michael Hildebrand and Kevin Innerebner and Volker Markl and Claus Neubauer and Sarah Osterburg and Olga Ovcharenko and Sergey Redyuk and Tobias Rieger and Alireza Rezaei Mahdiraji and Sebastian Benjamin Wrede and Steffen Zeuch",
+    "author": "Sebastian Baunsgaard and Matthias Boehm 0001 and Ankit Chaudhary 0002 and Behrouz Derakhshan and Stefan Geißelsöder and Philipp M. Grulich and Michael Hildebrand and Kevin Innerebner and Volker Markl and Claus Neubauer and Sarah Osterburg and Olga Ovcharenko and Sergey Redyuk and Tobias Rieger and Alireza Rezaei Mahdiraji and Sebastian Benjamin Wrede and Steffen Zeuch",
     "booktitle": "SIGMOD Conference",
     "title": "ExDRa: Exploratory Data Science on Federated Raw Data.",
     "year": "2021",
@@ -3277,7 +3277,7 @@
   "IndoorViz: A Demonstration System for Indoor Spatial Data Management.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/LiYCS021",
-    "author": "Yue Li and Shiyu Yang and Muhammad Aamir Cheema and Zhou Shao and Xuemin Lin 0001",
+    "author": "Yue Li and Shiyu Yang 0002 and Muhammad Aamir Cheema and Zhou Shao and Xuemin Lin 0001",
     "booktitle": "SIGMOD Conference",
     "title": "IndoorViz: A Demonstration System for Indoor Spatial Data Management.",
     "year": "2021",

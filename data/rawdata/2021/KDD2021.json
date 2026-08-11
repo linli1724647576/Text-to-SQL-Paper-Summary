@@ -4385,7 +4385,7 @@
   "Dual Attentive Sequential Learning for Cross-Domain Click-Through Rate Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/kdd/LiJQHT21",
-    "author": "Pan Li 0008 and Zhichao Jiang and Maofei Que and Yao Hu and Alexander Tuzhilin",
+    "author": "Pan Li 0008 and Zhichao Jiang and Maofei Que and Yao Hu 0002 and Alexander Tuzhilin",
     "booktitle": "KDD",
     "title": "Dual Attentive Sequential Learning for Cross-Domain Click-Through Rate Prediction.",
     "year": "2021",
@@ -4722,7 +4722,7 @@
   "Diversity driven Query Rewriting in Search Advertising.": {
     "type": "INPROCEEDINGS",
     "key": "conf/kdd/MohankumarBS21",
-    "author": "Akash Kumar Mohankumar and Nikit Begwani and Amit Singh",
+    "author": "Akash Kumar Mohankumar and Nikit Begwani and Amit Singh 0003",
     "booktitle": "KDD",
     "title": "Diversity driven Query Rewriting in Search Advertising.",
     "year": "2021",

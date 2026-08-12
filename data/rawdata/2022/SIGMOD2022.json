@@ -623,7 +623,7 @@
   "Redundancy Elimination in Distributed Matrix Computation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/ChenH0QZ22",
-    "author": "Zihao Chen and Baokun Han and Chen Xu 0001 and Weining Qian and Aoying Zhou",
+    "author": "Zihao Chen 0002 and Baokun Han and Chen Xu 0001 and Weining Qian and Aoying Zhou",
     "booktitle": "SIGMOD Conference",
     "title": "Redundancy Elimination in Distributed Matrix Computation.",
     "year": "2022",

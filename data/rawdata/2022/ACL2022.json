@@ -3894,7 +3894,7 @@
   "Chart-to-Text: A Large-Scale Benchmark for Chart Summarization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/KantharajLLMTHJ22",
-    "author": "Shankar Kantharaj and Rixie Tiffany Ko Leong and Xiang Lin and Ahmed Masry and Megh Thakkar and Enamul Hoque and Shafiq R. Joty",
+    "author": "Shankar Kantharaj and Rixie Tiffany Ko Leong and Xiang Lin and Ahmed Masry and Megh Thakkar and Enamul Hoque 0001 and Shafiq R. Joty",
     "booktitle": "ACL (1)",
     "title": "Chart-to-Text: A Large-Scale Benchmark for Chart Summarization.",
     "year": "2022",
@@ -5072,7 +5072,7 @@
   "Dynamic Global Memory for Document-level Argument Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DuLJ22",
-    "author": "Xinya Du and Sha Li and Heng Ji",
+    "author": "Xinya Du and Sha Li and Heng Ji 0001",
     "booktitle": "ACL (1)",
     "title": "Dynamic Global Memory for Document-level Argument Extraction.",
     "year": "2022",
@@ -5691,7 +5691,7 @@
   "An Effective and Efficient Entity Alignment Decoding Algorithm via Third-Order Tensor Isomorphism.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/MaoMYZWXWL22",
-    "author": "Xin Mao and Meirong Ma and Hao Yuan and Jianchao Zhu and Zongyu Wang and Rui Xie and Wei Wu and Man Lan",
+    "author": "Xin Mao 0002 and Meirong Ma and Hao Yuan and Jianchao Zhu and Zongyu Wang and Rui Xie and Wei Wu and Man Lan",
     "booktitle": "ACL (1)",
     "title": "An Effective and Efficient Entity Alignment Decoding Algorithm via Third-Order Tensor Isomorphism.",
     "year": "2022",

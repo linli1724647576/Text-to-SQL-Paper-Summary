@@ -30,7 +30,7 @@
   "Large-Scale Pre-training for Person Re-identification with Noisy Labels.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/Fu0YBY0LW022",
-    "author": "Dengpan Fu and Dongdong Chen 0001 and Hao Yang 0036 and Jianmin Bao and Lu Yuan and Lei Zhang 0001 and Houqiang Li and Fang Wen 0001 and Dong Chen 0003",
+    "author": "Dengpan Fu and Dongdong Chen 0001 and Hao Yang 0036 and Jianmin Bao and Lu Yuan 0001 and Lei Zhang 0001 and Houqiang Li and Fang Wen 0001 and Dong Chen 0003",
     "booktitle": "CVPR",
     "title": "Large-Scale Pre-training for Person Re-identification with Noisy Labels.",
     "year": "2022",
@@ -2440,7 +2440,7 @@
   "Depth Estimation by Combining Binocular Stereo and Monocular Structured-Light.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/0006YYJCG22",
-    "author": "Yuhua Xu 0006 and Xiaoli Yang and Yushan Yu and Wei Jia and Zhaobi Chu and Yulan Guo",
+    "author": "Yuhua Xu 0006 and Xiaoli Yang and Yushan Yu and Wei Jia 0001 and Zhaobi Chu and Yulan Guo",
     "booktitle": "CVPR",
     "title": "Depth Estimation by Combining Binocular Stereo and Monocular Structured-Light.",
     "year": "2022",
@@ -7188,7 +7188,7 @@
   "Mobile-Former: Bridging MobileNet and Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ChenDCLDY022",
-    "author": "Yinpeng Chen and Xiyang Dai and Dongdong Chen 0001 and Mengchen Liu and Xiaoyi Dong and Lu Yuan and Zicheng Liu 0001",
+    "author": "Yinpeng Chen and Xiyang Dai and Dongdong Chen 0001 and Mengchen Liu and Xiaoyi Dong and Lu Yuan 0001 and Zicheng Liu 0001",
     "booktitle": "CVPR",
     "title": "Mobile-Former: Bridging MobileNet and Transformer.",
     "year": "2022",
@@ -10451,7 +10451,7 @@
   "Self-supervised Correlation Mining Network for Person Image Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangQYS22",
-    "author": "Zijian Wang 0009 and Xingqun Qi and Kun Yuan and Muyi Sun",
+    "author": "Zijian Wang 0009 and Xingqun Qi and Kun Yuan 0003 and Muyi Sun",
     "booktitle": "CVPR",
     "title": "Self-supervised Correlation Mining Network for Person Image Generation.",
     "year": "2022",
@@ -14487,7 +14487,7 @@
   "Vector Quantized Diffusion Model for Text-to-Image Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/GuCBWZCYG22",
-    "author": "Shuyang Gu and Dong Chen 0003 and Jianmin Bao and Fang Wen 0001 and Bo Zhang 0025 and Dongdong Chen 0001 and Lu Yuan and Baining Guo",
+    "author": "Shuyang Gu and Dong Chen 0003 and Jianmin Bao and Fang Wen 0001 and Bo Zhang 0025 and Dongdong Chen 0001 and Lu Yuan 0001 and Baining Guo",
     "booktitle": "CVPR",
     "title": "Vector Quantized Diffusion Model for Text-to-Image Synthesis.",
     "year": "2022",
@@ -14739,7 +14739,7 @@
   "Distribution Consistent Neural Architecture Search.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/PanSZZL22",
-    "author": "Junyi Pan and Chong Sun and Yizhou Zhou and Ying Zhang and Chen Li 0031",
+    "author": "Junyi Pan and Chong Sun and Yizhou Zhou and Ying Zhang 0021 and Chen Li 0031",
     "booktitle": "CVPR",
     "title": "Distribution Consistent Neural Architecture Search.",
     "year": "2022",
@@ -14851,7 +14851,7 @@
   "Grounded Language-Image Pre-training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiZZYLZWYZHCG22",
-    "author": "Liunian Harold Li and Pengchuan Zhang and Haotian Zhang 0005 and Jianwei Yang and Chunyuan Li and Yiwu Zhong and Lijuan Wang and Lu Yuan and Lei Zhang 0001 and Jenq-Neng Hwang and Kai-Wei Chang 0001 and Jianfeng Gao 0001",
+    "author": "Liunian Harold Li and Pengchuan Zhang and Haotian Zhang 0005 and Jianwei Yang and Chunyuan Li and Yiwu Zhong and Lijuan Wang and Lu Yuan 0001 and Lei Zhang 0001 and Jenq-Neng Hwang and Kai-Wei Chang 0001 and Jianfeng Gao 0001",
     "booktitle": "CVPR",
     "title": "Grounded Language-Image Pre-training.",
     "year": "2022",
@@ -15369,7 +15369,7 @@
   "Reduce Information Loss in Transformers for Pluralistic Image Inpainting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiuTC0DCLYY22",
-    "author": "Qiankun Liu 0001 and Zhentao Tan and Dongdong Chen 0001 and Qi Chu 0001 and Xiyang Dai and Yinpeng Chen and Mengchen Liu and Lu Yuan and Nenghai Yu",
+    "author": "Qiankun Liu 0001 and Zhentao Tan and Dongdong Chen 0001 and Qi Chu 0001 and Xiyang Dai and Yinpeng Chen and Mengchen Liu and Lu Yuan 0001 and Nenghai Yu",
     "booktitle": "CVPR",
     "title": "Reduce Information Loss in Transformers for Pluralistic Image Inpainting.",
     "year": "2022",
@@ -16405,7 +16405,7 @@
   "CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/DongBCZYYCG22",
-    "author": "Xiaoyi Dong and Jianmin Bao and Dongdong Chen 0001 and Weiming Zhang 0001 and Nenghai Yu and Lu Yuan and Dong Chen 0003 and Baining Guo",
+    "author": "Xiaoyi Dong and Jianmin Bao and Dongdong Chen 0001 and Weiming Zhang 0001 and Nenghai Yu and Lu Yuan 0001 and Dong Chen 0003 and Baining Guo",
     "booktitle": "CVPR",
     "title": "CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows.",
     "year": "2022",
@@ -16433,7 +16433,7 @@
   "MiniViT: Compressing Vision Transformers with Weight Multiplexing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhangPWLXFY22",
-    "author": "Jinnian Zhang and Houwen Peng and Kan Wu and Mengchen Liu and Bin Xiao 0004 and Jianlong Fu and Lu Yuan",
+    "author": "Jinnian Zhang and Houwen Peng and Kan Wu and Mengchen Liu and Bin Xiao 0004 and Jianlong Fu and Lu Yuan 0001",
     "booktitle": "CVPR",
     "title": "MiniViT: Compressing Vision Transformers with Weight Multiplexing.",
     "year": "2022",
@@ -16993,7 +16993,7 @@
   "SplitNets: Designing Neural Architectures for Efficient Distributed Computing on Head-Mounted Systems.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/DongSLLQ0L22",
-    "author": "Xin Dong 0009 and Barbara De Salvo and Meng Li 0004 and Chiao Liu and Zhongnan Qu and H. T. Kung 0001 and Ziyun Li",
+    "author": "Xin Dong 0009 and Barbara De Salvo and Meng Li 0004 and Chiao Liu and Zhongnan Qu and H. T. Kung 0001 and Ziyun Li 0001",
     "booktitle": "CVPR",
     "title": "SplitNets: Designing Neural Architectures for Efficient Distributed Computing on Head-Mounted Systems.",
     "year": "2022",
@@ -19907,7 +19907,7 @@
   "BEVT: BERT Pretraining of Video Transformers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangCWCDLJZY22",
-    "author": "Rui Wang 0095 and Dongdong Chen 0001 and Zuxuan Wu and Yinpeng Chen and Xiyang Dai and Mengchen Liu and Yu-Gang Jiang 0001 and Luowei Zhou and Lu Yuan",
+    "author": "Rui Wang 0095 and Dongdong Chen 0001 and Zuxuan Wu and Yinpeng Chen and Xiyang Dai and Mengchen Liu and Yu-Gang Jiang 0001 and Luowei Zhou and Lu Yuan 0001",
     "booktitle": "CVPR",
     "title": "BEVT: BERT Pretraining of Video Transformers.",
     "year": "2022",
@@ -20159,7 +20159,7 @@
   "HybridCR: Weakly-Supervised 3D Point Cloud Semantic Segmentation via Hybrid Contrastive Regularization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/Li0SKQRLM22",
-    "author": "Mengtian Li and Yuan Xie 0006 and Yunhang Shen and Bo Ke and Ruizhi Qiao and Bo Ren 0002 and Shaohui Lin and Lizhuang Ma",
+    "author": "Mengtian Li 0002 and Yuan Xie 0006 and Yunhang Shen and Bo Ke and Ruizhi Qiao and Bo Ren 0002 and Shaohui Lin and Lizhuang Ma",
     "booktitle": "CVPR",
     "title": "HybridCR: Weakly-Supervised 3D Point Cloud Semantic Segmentation via Hybrid Contrastive Regularization.",
     "year": "2022",
@@ -24390,7 +24390,7 @@
   "HairCLIP: Design Your Hair by Text and Reference Image.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/Wei0Z0TY0Y22",
-    "author": "Tianyi Wei and Dongdong Chen 0001 and Wenbo Zhou 0004 and Jing Liao 0001 and Zhentao Tan and Lu Yuan and Weiming Zhang 0001 and Nenghai Yu",
+    "author": "Tianyi Wei and Dongdong Chen 0001 and Wenbo Zhou 0004 and Jing Liao 0001 and Zhentao Tan and Lu Yuan 0001 and Weiming Zhang 0001 and Nenghai Yu",
     "booktitle": "CVPR",
     "title": "HairCLIP: Design Your Hair by Text and Reference Image.",
     "year": "2022",
@@ -25217,7 +25217,7 @@
   "General Facial Representation Learning in a Visual-Linguistic Manner.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhengYZBCHYC0W22",
-    "author": "Yinglin Zheng and Hao Yang 0036 and Ting Zhang 0002 and Jianmin Bao and Dongdong Chen 0001 and Yangyu Huang and Lu Yuan and Dong Chen 0003 and Ming Zeng 0008 and Fang Wen 0001",
+    "author": "Yinglin Zheng and Hao Yang 0036 and Ting Zhang 0002 and Jianmin Bao and Dongdong Chen 0001 and Yangyu Huang and Lu Yuan 0001 and Dong Chen 0003 and Ming Zeng 0008 and Fang Wen 0001",
     "booktitle": "CVPR",
     "title": "General Facial Representation Learning in a Visual-Linguistic Manner.",
     "year": "2022",

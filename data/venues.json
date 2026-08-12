@@ -347,7 +347,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ACL2022.json",
-          "sha256": "84b4c666aa499923e9973d1b48e1b7b727eab515d6c96bbb4afb887bca1893ec"
+          "sha256": "cef0891a9409f879eaaead1f0a9c1f46a87ad161f386bd2b8231d550459eae2f"
         }
       ],
       "processing": {
@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "a022ccb895c4b9393c2b78bf4b82d4d870a66f38b9ee36459756bb77ac6741c4"
+          "sha256": "2aed51f8d25a3ab47d268fcf773d5e4e5bfc86af8634fd85f78274f8e6c0144c"
         }
       ],
       "processing": {
@@ -3823,7 +3823,7 @@
         },
         {
           "path": "data/rawdata/2022/SIGMOD2022.json",
-          "sha256": "b48ccaf8e8deb6bb8fcde068abdad44eccd75095c1e9221edf30b01f2c477f18"
+          "sha256": "dab99eb999d95850ab48ed51a88f7e740ce585dc23811ab8485bdec94f52b123"
         }
       ],
       "processing": {

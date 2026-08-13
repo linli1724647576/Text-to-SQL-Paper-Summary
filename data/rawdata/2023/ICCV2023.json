@@ -2061,7 +2061,7 @@
   "Improving Adversarial Robustness of Masked Autoencoders via Test-time Frequency-domain Prompting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuangD0CY00Y23",
-    "author": "Qidong Huang and Xiaoyi Dong and Dongdong Chen 0001 and Yinpeng Chen and Lu Yuan and Gang Hua 0001 and Weiming Zhang 0001 and Nenghai Yu",
+    "author": "Qidong Huang and Xiaoyi Dong and Dongdong Chen 0001 and Yinpeng Chen and Lu Yuan 0001 and Gang Hua 0001 and Weiming Zhang 0001 and Nenghai Yu",
     "booktitle": "ICCV",
     "title": "Improving Adversarial Robustness of Masked Autoencoders via Test-time Frequency-domain Prompting.",
     "year": "2023",
@@ -3070,7 +3070,7 @@
   "3D-aware Image Generation using 2D Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XiangYH023",
-    "author": "Jianfeng Xiang and Jiaolong Yang and Binbin Huang and Xin Tong 0001",
+    "author": "Jianfeng Xiang and Jiaolong Yang and Binbin Huang 0004 and Xin Tong 0001",
     "booktitle": "ICCV",
     "title": "3D-aware Image Generation using 2D Diffusion Models.",
     "year": "2023",
@@ -7915,7 +7915,7 @@
   "Convolutional Networks with Oriented 1D Kernels.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/KirchmeyerD23",
-    "author": "Alexandre Kirchmeyer and Jia Deng",
+    "author": "Alexandre Kirchmeyer and Jia Deng 0001",
     "booktitle": "ICCV",
     "title": "Convolutional Networks with Oriented 1D Kernels.",
     "year": "2023",
@@ -10716,7 +10716,7 @@
   "Scene as Occupancy.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TongSWCWDGLLLL23",
-    "author": "Wenwen Tong and Chonghao Sima and Tai Wang and Li Chen 0008 and Silei Wu and Hanming Deng and Yi Gu and Lewei Lu and Ping Luo 0002 and Dahua Lin and Hongyang Li 0001",
+    "author": "Wenwen Tong and Chonghao Sima and Tai Wang and Li Chen 0008 and Silei Wu and Hanming Deng and Yi Gu 0005 and Lewei Lu and Ping Luo 0002 and Dahua Lin and Hongyang Li 0001",
     "booktitle": "ICCV",
     "title": "Scene as Occupancy.",
     "year": "2023",
@@ -13477,7 +13477,7 @@
   "Enhancing Non-line-of-sight Imaging via Learnable Inverse Kernel and Attention Mechanisms.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YuSWHWPXLLL23",
-    "author": "Yanhua Yu and Siyuan Shen and Zi Wang 0019 and Binbin Huang and Yuehan Wang and Xingyue Peng and Suan Xia and Ping Liu and Ruiqian Li and Shiying Li",
+    "author": "Yanhua Yu and Siyuan Shen and Zi Wang 0019 and Binbin Huang 0004 and Yuehan Wang and Xingyue Peng and Suan Xia and Ping Liu and Ruiqian Li and Shiying Li",
     "booktitle": "ICCV",
     "title": "Enhancing Non-line-of-sight Imaging via Learnable Inverse Kernel and Attention Mechanisms.",
     "year": "2023",
@@ -15942,7 +15942,7 @@
   "Towards Saner Deep Image Registration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DuanZ023",
-    "author": "Bin Duan and Ming Zhong 0008 and Yan Yan 0002",
+    "author": "Bin Duan 0004 and Ming Zhong 0008 and Yan Yan 0002",
     "booktitle": "ICCV",
     "title": "Towards Saner Deep Image Registration.",
     "year": "2023",
@@ -17412,7 +17412,7 @@
   "Spatio-temporal Prompting Network for Robust Video Feature Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/SunWZDZH23",
-    "author": "Guanxiong Sun and Chi Wang and Zhaoyu Zhang and Jiankang Deng and Stefanos Zafeiriou and Yang Hua 0001",
+    "author": "Guanxiong Sun and Chi Wang and Zhaoyu Zhang 0001 and Jiankang Deng and Stefanos Zafeiriou and Yang Hua 0001",
     "booktitle": "ICCV",
     "title": "Spatio-temporal Prompting Network for Robust Video Feature Extraction.",
     "year": "2023",
@@ -17566,7 +17566,7 @@
   "What Can Simple Arithmetic Operations Do for Temporal Modeling?": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuSS0XO23",
-    "author": "Wenhao Wu and Yuxin Song and Zhun Sun and Jingdong Wang 0001 and Chang Xu 0002 and Wanli Ouyang",
+    "author": "Wenhao Wu and Yuxin Song 0001 and Zhun Sun and Jingdong Wang 0001 and Chang Xu 0002 and Wanli Ouyang",
     "booktitle": "ICCV",
     "title": "What Can Simple Arithmetic Operations Do for Temporal Modeling?",
     "year": "2023",
@@ -17580,7 +17580,7 @@
   "UATVR: Uncertainty-Adaptive Text-Video Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/FangWLZS0SJW23",
-    "author": "Bo Fang 0003 and Wenhao Wu and Chang Liu and Yu Zhou 0015 and Yuxin Song and Weiping Wang 0005 and Xiangbo Shu and Xiangyang Ji and Jingdong Wang 0001",
+    "author": "Bo Fang 0003 and Wenhao Wu and Chang Liu and Yu Zhou 0015 and Yuxin Song 0001 and Weiping Wang 0005 and Xiangbo Shu and Xiangyang Ji and Jingdong Wang 0001",
     "booktitle": "ICCV",
     "title": "UATVR: Uncertainty-Adaptive Text-Video Retrieval.",
     "year": "2023",
@@ -20035,7 +20035,7 @@
   "Order-Prompted Tag Sequence Generation for Video Tagging.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/MaZCQLLYLQSH23",
-    "author": "Zongyang Ma and Ziqi Zhang and Yuxin Chen and Zhongang Qi and Yingmin Luo and Zekun Li 0006 and Chunfeng Yuan and Bing Li 0001 and Xiaohu Qie and Ying Shan and Weiming Hu 0004",
+    "author": "Zongyang Ma and Ziqi Zhang 0010 and Yuxin Chen and Zhongang Qi and Yingmin Luo and Zekun Li 0006 and Chunfeng Yuan and Bing Li 0001 and Xiaohu Qie and Ying Shan and Weiming Hu 0004",
     "booktitle": "ICCV",
     "title": "Order-Prompted Tag Sequence Generation for Video Tagging.",
     "year": "2023",
@@ -24418,7 +24418,7 @@
   "Masked Autoencoders are Efficient Class Incremental Learners.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhaiLBLC23",
-    "author": "Jiang-Tian Zhai and Xialei Liu and Andrew D. Bagdanov and Ke Li and Ming-Ming Cheng",
+    "author": "Jiang-Tian Zhai and Xialei Liu and Andrew D. Bagdanov and Ke Li 0015 and Ming-Ming Cheng",
     "booktitle": "ICCV",
     "title": "Masked Autoencoders are Efficient Class Incremental Learners.",
     "year": "2023",
@@ -25272,7 +25272,7 @@
   "Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuWMY0LM23",
-    "author": "Wenbo Hu 0002 and Yuling Wang and Lin Ma and Bangbang Yang and Lin Gao 0004 and Xiao Liu and Yuewen Ma",
+    "author": "Wenbo Hu 0002 and Yuling Wang and Lin Ma and Bangbang Yang and Lin Gao 0004 and Xiao Liu 0040 and Yuewen Ma",
     "booktitle": "ICCV",
     "title": "Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields.",
     "year": "2023",
@@ -26420,7 +26420,7 @@
   "ASM: Adaptive Skinning Model for High-Quality 3D Face Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YangSSCZSY23",
-    "author": "Kai Yang and Hong Shang and Tianyang Shi and Xinghan Chen and Jingkai Zhou and Zhongqian Sun and Wei Yang",
+    "author": "Kai Yang and Hong Shang and Tianyang Shi and Xinghan Chen and Jingkai Zhou and Zhongqian Sun and Wei Yang 0032",
     "booktitle": "ICCV",
     "title": "ASM: Adaptive Skinning Model for High-Quality 3D Face Modeling.",
     "year": "2023",
@@ -26574,7 +26574,7 @@
   "Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/FanZYZCX23",
-    "author": "Zhenfeng Fan and Zhiheng Zhang and Shuang Yang and Chongyang Zhong and Min Cao and Shihong Xia",
+    "author": "Zhenfeng Fan and Zhiheng Zhang and Shuang Yang and Chongyang Zhong and Min Cao 0005 and Shihong Xia",
     "booktitle": "ICCV",
     "title": "Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map.",
     "year": "2023",
@@ -26868,7 +26868,7 @@
   "C2ST: Cross-modal Contextualized Sequence Transduction for Continuous Sign Language Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangGYLH23",
-    "author": "Huaiwen Zhang and Zihang Guo and Yang Yang and Xin Liu and De Hu",
+    "author": "Huaiwen Zhang and Zihang Guo and Yang Yang 0121 and Xin Liu and De Hu",
     "booktitle": "ICCV",
     "title": "C2ST: Cross-modal Contextualized Sequence Transduction for Continuous Sign Language Recognition.",
     "year": "2023",
@@ -28030,7 +28030,7 @@
   "TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuPZXLYXVCWCH23",
-    "author": "Kan Wu and Houwen Peng and Zhenghong Zhou and Bin Xiao 0004 and Mengchen Liu and Lu Yuan and Hong Xuan and Michael Valenzuela and Xi Stephen Chen and Xinggang Wang and Hongyang Chao and Han Hu 0001",
+    "author": "Kan Wu and Houwen Peng and Zhenghong Zhou and Bin Xiao 0004 and Mengchen Liu and Lu Yuan 0001 and Hong Xuan and Michael Valenzuela and Xi Stephen Chen and Xinggang Wang and Hongyang Chao and Han Hu 0001",
     "booktitle": "ICCV",
     "title": "TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance.",
     "year": "2023",

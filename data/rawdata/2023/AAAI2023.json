@@ -842,7 +842,7 @@
   "PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DongBZC0YC0YG23",
-    "author": "Xiaoyi Dong and Jianmin Bao and Ting Zhang 0002 and Dongdong Chen 0001 and Weiming Zhang 0001 and Lu Yuan and Dong Chen 0003 and Fang Wen 0001 and Nenghai Yu and Baining Guo",
+    "author": "Xiaoyi Dong and Jianmin Bao and Ting Zhang 0002 and Dongdong Chen 0001 and Weiming Zhang 0001 and Lu Yuan 0001 and Dong Chen 0003 and Fang Wen 0001 and Nenghai Yu and Baining Guo",
     "booktitle": "AAAI",
     "title": "PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers.",
     "year": "2023",
@@ -884,7 +884,7 @@
   "Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FanC00YW23",
-    "author": "Wan-Cyuan Fan and Yen-Chun Chen 0001 and Dongdong Chen 0001 and Yu Cheng 0001 and Lu Yuan and Yu-Chiang Frank Wang",
+    "author": "Wan-Cyuan Fan and Yen-Chun Chen 0001 and Dongdong Chen 0001 and Yu Cheng 0001 and Lu Yuan 0001 and Yu-Chiang Frank Wang",
     "booktitle": "AAAI",
     "title": "Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis.",
     "year": "2023",
@@ -3757,7 +3757,7 @@
   "Deep Manifold Attack on Point Clouds via Parameter Plane Stretching.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangWPS0GTW23",
-    "author": "Keke Tang and Jianpeng Wu and Weilong Peng and Yawen Shi and Peng Song 0001 and Zhaoquan Gu and Zhihong Tian and Wenping Wang 0001",
+    "author": "Keke Tang and Jianpeng Wu and Weilong Peng and Yawen Shi and Peng Song 0001 and Zhaoquan Gu and Zhihong Tian 0001 and Wenping Wang 0001",
     "booktitle": "AAAI",
     "title": "Deep Manifold Attack on Point Clouds via Parameter Plane Stretching.",
     "year": "2023",
@@ -7947,7 +7947,7 @@
   "Integrating Reward Maximization and Population Estimation: Sequential Decision-Making for Internal Revenue Service Audit Selection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002CAATGGH23",
-    "author": "Peter Henderson 0002 and Ben Chugg and Brandon R. Anderson and Kristen M. Altenburger and Alex Turk and John Guyton and Jacob Goldin and Daniel E. Ho",
+    "author": "Peter Henderson 0002 and Ben Chugg and Brandon R. Anderson and Kristen M. Altenburger and Alex Turk and John Guyton and Jacob S. Goldin and Daniel E. Ho",
     "booktitle": "AAAI",
     "title": "Integrating Reward Maximization and Population Estimation: Sequential Decision-Making for Internal Revenue Service Audit Selection.",
     "year": "2023",
@@ -11087,7 +11087,7 @@
   "Context-Aware Safe Medication Recommendations with Molecular Graph and DDI Graph Embedding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenLGW23",
-    "author": "Qianyu Chen and Xin Li 0033 and Kunnan Geng and Mingzhong Wang",
+    "author": "Qianyu Chen 0004 and Xin Li 0033 and Kunnan Geng and Mingzhong Wang",
     "booktitle": "AAAI",
     "title": "Context-Aware Safe Medication Recommendations with Molecular Graph and DDI Graph Embedding.",
     "year": "2023",
@@ -17094,7 +17094,7 @@
   "i-Code: An Integrative and Composable Multimodal Learning Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangFZP00XQGCLX23",
-    "author": "Ziyi Yang 0011 and Yuwei Fang and Chenguang Zhu 0001 and Reid Pryzant and Dongdong Chen 0001 and Yu Shi 0001 and Yichong Xu and Yao Qian and Mei Gao and Yi-Ling Chen and Liyang Lu and Yujia Xie and Robert Gmyr and Noel Codella and Naoyuki Kanda and Bin Xiao 0004 and Lu Yuan and Takuya Yoshioka and Michael Zeng 0001 and Xuedong Huang 0001",
+    "author": "Ziyi Yang 0011 and Yuwei Fang and Chenguang Zhu 0001 and Reid Pryzant and Dongdong Chen 0001 and Yu Shi 0001 and Yichong Xu and Yao Qian and Mei Gao and Yi-Ling Chen and Liyang Lu and Yujia Xie and Robert Gmyr and Noel Codella and Naoyuki Kanda and Bin Xiao 0004 and Lu Yuan 0001 and Takuya Yoshioka and Michael Zeng 0001 and Xuedong Huang 0001",
     "booktitle": "AAAI",
     "title": "i-Code: An Integrative and Composable Multimodal Learning Framework.",
     "year": "2023",
@@ -19166,7 +19166,7 @@
   "Entropy Regularization for Population Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Chugg0GH23",
-    "author": "Ben Chugg and Peter Henderson 0002 and Jacob Goldin and Daniel E. Ho",
+    "author": "Ben Chugg and Peter Henderson 0002 and Jacob S. Goldin and Daniel E. Ho",
     "booktitle": "AAAI",
     "title": "Entropy Regularization for Population Estimation.",
     "year": "2023",

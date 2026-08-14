@@ -1010,7 +1010,7 @@
   "Open-Set Facial Expression Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangYLQWD24",
-    "author": "Yuhang Zhang and Yue Yao and Xuannan Liu and Lixiong Qin and Wenjing Wang and Weihong Deng",
+    "author": "Yuhang Zhang and Yue Yao 0001 and Xuannan Liu and Lixiong Qin and Wenjing Wang and Weihong Deng",
     "booktitle": "AAAI",
     "title": "Open-Set Facial Expression Recognition.",
     "year": "2024",
@@ -6084,7 +6084,7 @@
   "Set Prediction Guided by Semantic Concepts for Diverse Video Captioning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LuZYLWLH24",
-    "author": "Yifan Lu 0001 and Ziqi Zhang and Chunfeng Yuan and Peng Li and Yan Wang 0153 and Bing Li 0001 and Weiming Hu 0004",
+    "author": "Yifan Lu 0001 and Ziqi Zhang 0010 and Chunfeng Yuan and Peng Li and Yan Wang 0153 and Bing Li 0001 and Weiming Hu 0004",
     "booktitle": "AAAI",
     "title": "Set Prediction Guided by Semantic Concepts for Diverse Video Captioning.",
     "year": "2024",
@@ -7960,7 +7960,7 @@
   "Offline and Online Optical Flow Enhancement for Deep Video Compression.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangSLZLL24",
-    "author": "Chuanbo Tang and Xihua Sheng and Zhuoyuan Li 0001 and Haotian Zhang and Li Li 0040 and Dong Liu 0002",
+    "author": "Chuanbo Tang and Xihua Sheng and Zhuoyuan Li 0001 and Haotian Zhang 0009 and Li Li 0040 and Dong Liu 0002",
     "booktitle": "AAAI",
     "title": "Offline and Online Optical Flow Enhancement for Deep Video Compression.",
     "year": "2024",
@@ -7974,7 +7974,7 @@
   "Manifold Constraints for Imperceptible Adversarial Attacks on Point Clouds.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangHPWSLZWT24",
-    "author": "Keke Tang and Xu He and Weilong Peng and Jianpeng Wu and Yawen Shi and Daizong Liu and Pan Zhou 0001 and Wenping Wang 0001 and Zhihong Tian",
+    "author": "Keke Tang and Xu He and Weilong Peng and Jianpeng Wu and Yawen Shi and Daizong Liu and Pan Zhou 0001 and Wenping Wang 0001 and Zhihong Tian 0001",
     "booktitle": "AAAI",
     "title": "Manifold Constraints for Imperceptible Adversarial Attacks on Point Clouds.",
     "year": "2024",
@@ -9390,7 +9390,7 @@
   "Selective and Orthogonal Feature Activation for Pedestrian Attribute Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuHGNYGZ24",
-    "author": "Junyi Wu 0001 and Yan Huang 0023 and Min Gao and Yuzhen Niu and Mingjing Yang and Zhipeng Gao and Jianqiang Zhao",
+    "author": "Junyi Wu 0001 and Yan Huang 0023 and Min Gao 0007 and Yuzhen Niu and Mingjing Yang and Zhipeng Gao and Jianqiang Zhao",
     "booktitle": "AAAI",
     "title": "Selective and Orthogonal Feature Activation for Pedestrian Attribute Recognition.",
     "year": "2024",
@@ -17428,7 +17428,7 @@
   "EG-NAS: Neural Architecture Search with Fast Evolutionary Exploration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaiCLLL24",
-    "author": "Zicheng Cai and Lei Chen and Peng Liu and Tongtao Ling and Yutao Lai",
+    "author": "Zicheng Cai and Lei Chen 0044 and Peng Liu and Tongtao Ling and Yutao Lai",
     "booktitle": "AAAI",
     "title": "EG-NAS: Neural Architecture Search with Fast Evolutionary Exploration.",
     "year": "2024",
@@ -18674,7 +18674,7 @@
   "Improving GNN Calibration with Discriminative Ability: Insights and Strategies.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FangLCW24",
-    "author": "Yujie Fang and Xin Li 0033 and Qianyu Chen and Mingzhong Wang",
+    "author": "Yujie Fang and Xin Li 0033 and Qianyu Chen 0004 and Mingzhong Wang",
     "booktitle": "AAAI",
     "title": "Improving GNN Calibration with Discriminative Ability: Insights and Strategies.",
     "year": "2024",
@@ -20746,7 +20746,7 @@
   "Friendly Attacks to Improve Channel Coding Reliability.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KurmukovaG24",
-    "author": "Anastasia Kurmukova and Deniz Gündüz",
+    "author": "Anastasiia Kurmukova and Deniz Gündüz",
     "booktitle": "AAAI",
     "title": "Friendly Attacks to Improve Channel Coding Reliability.",
     "year": "2024",
@@ -26332,7 +26332,7 @@
   "From Toxic to Trustworthy: Using Self-Distillation and Semi-supervised Methods to Refine Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZHLB24",
-    "author": "Xianda Zhang and Baolin Zheng and Jianbao Hu and Chengyang Li and Xiaoying Bai",
+    "author": "Xianda Zhang and Baolin Zheng and Jianbao Hu and Chengyang Li 0001 and Xiaoying Bai",
     "booktitle": "AAAI",
     "title": "From Toxic to Trustworthy: Using Self-Distillation and Semi-supervised Methods to Refine Neural Networks.",
     "year": "2024",
@@ -26920,7 +26920,7 @@
   "Patch-Aware Sample Selection for Efficient Masked Image Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhugeWLBWC24",
-    "author": "Zhengyang Zhuge and Jiaxing Wang and Yong Li and Yongjun Bao and Peisong Wang and Jian Cheng 0001",
+    "author": "Zhengyang Zhuge and Jiaxing Wang and Yong Li and Yongjun Bao and Peisong Wang 0001 and Jian Cheng 0001",
     "booktitle": "AAAI",
     "title": "Patch-Aware Sample Selection for Efficient Masked Image Modeling.",
     "year": "2024",

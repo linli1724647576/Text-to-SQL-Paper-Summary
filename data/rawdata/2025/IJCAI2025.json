@@ -1626,7 +1626,7 @@
   "DDPA-3DVG: Vision-Language Dual-Decoupling and Progressive Alignment for 3D Visual Grounding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/GuFZ0025",
-    "author": "Hongjie Gu and Jinlong Fan and Liang Zheng and Jing Zhang 0037 and Yuxiang Yang 0001",
+    "author": "Hongjie Gu and Jinlong Fan 0001 and Liang Zheng and Jing Zhang 0037 and Yuxiang Yang 0001",
     "booktitle": "IJCAI",
     "title": "DDPA-3DVG: Vision-Language Dual-Decoupling and Progressive Alignment for 3D Visual Grounding.",
     "year": "2025",
@@ -2942,7 +2942,7 @@
   "Outstanding Orthodontist: No More Artifactual Teeth in Talking Face.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/SuZW0D25",
-    "author": "Zibo Su and Ziqi Zhang and Kun Wei and Xu Yang 0019 and Cheng Deng 0002",
+    "author": "Zibo Su and Ziqi Zhang 0009 and Kun Wei and Xu Yang 0019 and Cheng Deng 0002",
     "booktitle": "IJCAI",
     "title": "Outstanding Orthodontist: No More Artifactual Teeth in Talking Face.",
     "year": "2025",
@@ -10507,7 +10507,7 @@
   "A Priori Estimation of the Approximation, Optimization and Generalization Errors of Random Neural Networks for Solving Partial Differential Equations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/XuLH25",
-    "author": "Xianliang Xu and Ye Li and Zhongyi Huang",
+    "author": "Xianliang Xu and Ye Li 0037 and Zhongyi Huang",
     "booktitle": "IJCAI",
     "title": "A Priori Estimation of the Approximation, Optimization and Generalization Errors of Random Neural Networks for Solving Partial Differential Equations.",
     "year": "2025",
@@ -10773,7 +10773,7 @@
   "FedSaaS: Class-Consistency Federated Semantic Segmentation via Global Prototype Supervision and Local Adversarial Harmonization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/YuWWLYC25",
-    "author": "Xiaoyang Yu and Xiaoming Wu and Xin Wang 0037 and Dongrun Li and Ming Yang and Peng Cheng",
+    "author": "Xiaoyang Yu and Xiaoming Wu and Xin Wang 0037 and Dongrun Li and Ming Yang 0023 and Peng Cheng 0001",
     "booktitle": "IJCAI",
     "title": "FedSaaS: Class-Consistency Federated Semantic Segmentation via Global Prototype Supervision and Local Adversarial Harmonization.",
     "year": "2025",
@@ -10843,7 +10843,7 @@
   "Rethinking Federated Graph Learning: A Data Condensation Perspective.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangLZH25",
-    "author": "Hao Zhang and Xunkai Li and Yinlin Zhu and Lianglin Hu",
+    "author": "Hao Zhang 0098 and Xunkai Li and Yinlin Zhu and Lianglin Hu",
     "booktitle": "IJCAI",
     "title": "Rethinking Federated Graph Learning: A Data Condensation Perspective.",
     "year": "2025",
@@ -10927,7 +10927,7 @@
   "LEKA: LLM-Enhanced Knowledge Augmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/00010MWFL25",
-    "author": "Xinhao Zhang 0001 and Jinghan Zhang 0002 and Fengran Mo and Dongjie Wang and Yanjie Fu and Kunpeng Liu 0001",
+    "author": "Xinhao Zhang 0001 and Jinghan Zhang 0002 and Fengran Mo and Dongjie Wang 0001 and Yanjie Fu and Kunpeng Liu 0001",
     "booktitle": "IJCAI",
     "title": "LEKA: LLM-Enhanced Knowledge Augmentation.",
     "year": "2025",
@@ -13028,7 +13028,7 @@
   "Token-Level Accept or Reject: A Micro Alignment Approach for Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangYTZSWHXLX025",
-    "author": "Yang Zhang and Yu Yu and Bo Tang and Yu Zhu and Chuxiong Sun and Wenqiang Wei and Jie Hu and Zipeng Xie and Zhiyu Li and Feiyu Xiong and Edward Chung 0001",
+    "author": "Yang Zhang 0072 and Yu Yu 0008 and Bo Tang 0011 and Yu Zhu and Chuxiong Sun and Wenqiang Wei and Jie Hu 0025 and Zipeng Xie and Zhiyu Li and Feiyu Xiong and Edward Chung 0001",
     "booktitle": "IJCAI",
     "title": "Token-Level Accept or Reject: A Micro Alignment Approach for Large Language Models.",
     "year": "2025",

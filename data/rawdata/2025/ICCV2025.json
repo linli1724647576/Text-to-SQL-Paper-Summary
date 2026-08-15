@@ -732,7 +732,7 @@
   "RESCUE: Crowd Evacuation Simulation via Controlling SDM-United Characters.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuZKMWHWLL25",
-    "author": "Xiaolin Liu and Tianyi Zhou and Hongbo Kang and Jian Ma and Ziwen Wang and Jing Huang and Wenguo Weng and Yu-Kun Lai and Kun Li 0001",
+    "author": "Xiaolin Liu and Tianyi Zhou 0007 and Hongbo Kang and Jian Ma and Ziwen Wang and Jing Huang and Wenguo Weng and Yu-Kun Lai and Kun Li 0001",
     "booktitle": "ICCV",
     "title": "RESCUE: Crowd Evacuation Simulation via Controlling SDM-United Characters.",
     "year": "2025",
@@ -942,7 +942,7 @@
   "Semantic Watermarking Reinvented: Enhancing Robustness and Generation Quality with Fourier Integrity.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LeeC25a",
-    "author": "Sung Ju Lee and Nam Ik Cho",
+    "author": "Sung Ju Lee 0004 and Nam Ik Cho",
     "booktitle": "ICCV",
     "title": "Semantic Watermarking Reinvented: Enhancing Robustness and Generation Quality with Fourier Integrity.",
     "year": "2025",
@@ -7303,7 +7303,7 @@
   "RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuWBTWDCFZWYFS25",
-    "author": "Huiyang Hu and Peijin Wang and Hanbo Bi and Boyuan Tong and Zhaozhi Wang and Wenhui Diao and Hao Chang and Yingchao Feng and Ziqi Zhang and Yaowei Wang 0001 and Qixiang Ye and Kun Fu 0001 and Xian Sun 0001",
+    "author": "Huiyang Hu and Peijin Wang and Hanbo Bi and Boyuan Tong and Zhaozhi Wang and Wenhui Diao and Hao Chang and Yingchao Feng and Ziqi Zhang 0010 and Yaowei Wang 0001 and Qixiang Ye and Kun Fu 0001 and Xian Sun 0001",
     "booktitle": "ICCV",
     "title": "RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model.",
     "year": "2025",
@@ -7331,7 +7331,7 @@
   "LaneDiffusion: Improving Centerline Graph Learning via Prior Injected BEV Feature Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangZZTLWL25",
-    "author": "Zijie Wang and Weiming Zhang 0006 and Wei Zhang and Xiao Tan 0001 and Hongxing Liu and Yaowei Wang and Guanbin Li",
+    "author": "Zijie Wang and Weiming Zhang 0006 and Wei Zhang and Xiao Tan 0001 and Hongxing Liu and Yaowei Wang 0001 and Guanbin Li",
     "booktitle": "ICCV",
     "title": "LaneDiffusion: Improving Centerline Graph Learning via Prior Injected BEV Feature Generation.",
     "year": "2025",
@@ -10822,7 +10822,7 @@
   "Neuroverse3D: Developing in-Context Learning Universal Model for Neuroimaging in 3D.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuPYGSSYM25",
-    "author": "Jiesi Hu and Hanyang Peng and Yanwu Yang and Xutao Guo and Yang Shang and Pengcheng Shi and Chenfei Ye and Ting Ma 0001",
+    "author": "Jiesi Hu and Hanyang Peng and Yanwu Yang 0001 and Xutao Guo and Yang Shang and Pengcheng Shi and Chenfei Ye and Ting Ma 0001",
     "booktitle": "ICCV",
     "title": "Neuroverse3D: Developing in-Context Learning Universal Model for Neuroimaging in 3D.",
     "year": "2025",
@@ -14183,7 +14183,7 @@
   "MaskSAM: Auto-Prompt SAM with Mask Classification for Volumetric Medical Image Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieTDCYA25",
-    "author": "Bin Xie and Hao Tang 0005 and Bin Duan and Dawen Cai and Yan Yan 0002 and Gady Agam",
+    "author": "Bin Xie and Hao Tang 0005 and Bin Duan 0004 and Dawen Cai and Yan Yan 0002 and Gady Agam",
     "booktitle": "ICCV",
     "title": "MaskSAM: Auto-Prompt SAM with Mask Classification for Volumetric Medical Image Segmentation.",
     "year": "2025",
@@ -17613,7 +17613,7 @@
   "Generative Adversarial Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/JunKK25",
-    "author": "U.-Chae Jun and Jaeeun Ko and Jiwoo Kang",
+    "author": "U-Chae Jun and Jaeeun Ko and Jiwoo Kang",
     "booktitle": "ICCV",
     "title": "Generative Adversarial Diffusion.",
     "year": "2025",
@@ -22513,7 +22513,7 @@
   "VLIPP: Towards Physically Plausible Video Generation with Vision and Language Informed Physical Prior.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YangLZYBMWCWLJ25",
-    "author": "Xindi Yang and Baolu Li and Yiming Zhang and Zhenfei Yin and Lei Bai 0001 and Liqian Ma and Zhiyong Wang 0001 and Jianfei Cai 0001 and Tien-Tsin Wong and Huchuan Lu and Xu Jia 0012",
+    "author": "Xindi Yang and Baolu Li 0001 and Yiming Zhang and Zhenfei Yin and Lei Bai 0001 and Liqian Ma and Zhiyong Wang 0001 and Jianfei Cai 0001 and Tien-Tsin Wong and Huchuan Lu and Xu Jia 0012",
     "booktitle": "ICCV",
     "title": "VLIPP: Towards Physically Plausible Video Generation with Vision and Language Informed Physical Prior.",
     "year": "2025",
@@ -24376,7 +24376,7 @@
   "RAGNet: Large-Scale Reasoning-Based Affordance Segmentation Benchmark Towards General Grasping.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WuFHLJLDWAKS25",
-    "author": "Dongming Wu and Yanping Fu and Saike Huang and Yingfei Liu and Fan Jia 0006 and Nian Liu 0002 and Feng Dai and Tiancai Wang and Rao Muhammad Anwer and Fahad Shahbaz Khan and Jianbing Shen",
+    "author": "Dongming Wu 0005 and Yanping Fu and Saike Huang and Yingfei Liu and Fan Jia 0006 and Nian Liu 0002 and Feng Dai and Tiancai Wang and Rao Muhammad Anwer and Fahad Shahbaz Khan and Jianbing Shen",
     "booktitle": "ICCV",
     "title": "RAGNet: Large-Scale Reasoning-Based Affordance Segmentation Benchmark Towards General Grasping.",
     "year": "2025",
@@ -24614,7 +24614,7 @@
   "Vid-Group: Temporal Video Grounding Pretraining from Unlabeled Videos in the Wild.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/BaoKYSJNEK25",
-    "author": "Peijun Bao and Chenqi Kong and Siyuan Yang 0001 and Zihao Shao and Xinghao Jiang and Boon Poh Ng and Meng Hwa Er and Alex ChiChung Kot",
+    "author": "Peijun Bao and Chenqi Kong and Siyuan Yang 0001 and Zihao Shao and Xinghao Jiang and Boon Poh Ng and Meng Hwa Er and Alex Chichung Kot",
     "booktitle": "ICCV",
     "title": "Vid-Group: Temporal Video Grounding Pretraining from Unlabeled Videos in the Wild.",
     "year": "2025",
@@ -25230,7 +25230,7 @@
   "TCFG: Truncated Classifier-Free Guidance for Efficient and Scalable Text-to-Image Acceleration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/FuL25",
-    "author": "Xiaomeng Fu and Jia Li",
+    "author": "Xiaomeng Fu and Jia Li 0057",
     "booktitle": "ICCV",
     "title": "TCFG: Truncated Classifier-Free Guidance for Efficient and Scalable Text-to-Image Acceleration.",
     "year": "2025",
@@ -28828,7 +28828,7 @@
   "Robust and Efficient 3D Gaussian Splatting for Urban Scene Reconstruction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YuanHXWY25",
-    "author": "Zhensheng Yuan and Haozhi Huang 0005 and Zhen Xiong and Di Wang and Guanghua Yang",
+    "author": "Zhensheng Yuan and Haozhi Huang 0005 and Zhen Xiong and Di Wang 0032 and Guanghua Yang",
     "booktitle": "ICCV",
     "title": "Robust and Efficient 3D Gaussian Splatting for Urban Scene Reconstruction.",
     "year": "2025",
@@ -32175,7 +32175,7 @@
   "SEGA: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangZWWYJLX25",
-    "author": "Haoran Wang and Bo Zhao and Jinghui Wang and Hanzhang Wang and Huan Yang and Wei Ji and Hao Liu and Xinyan Xiao",
+    "author": "Haoran Wang and Bo Zhao 0039 and Jinghui Wang and Hanzhang Wang and Huan Yang 0005 and Wei Ji and Hao Liu and Xinyan Xiao",
     "booktitle": "ICCV",
     "title": "SEGA: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior.",
     "year": "2025",
@@ -37373,7 +37373,7 @@
   "VisionMath: Vision-Form Mathematical Problem-Solving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/MaCZOYZZLLLSH25",
-    "author": "Zongyang Ma and Yuxin Chen and Ziqi Zhang and Zhongang Oi and Chunfeng Yuan and Shaojie Zhu and Chengxiang Zhuo and Bing Li 0001 and Ye Liu 0002 and Zang Li and Ying Shan and Weiming Hu 0004",
+    "author": "Zongyang Ma and Yuxin Chen and Ziqi Zhang 0010 and Zhongang Oi and Chunfeng Yuan and Shaojie Zhu and Chengxiang Zhuo and Bing Li 0001 and Ye Liu 0002 and Zang Li and Ying Shan and Weiming Hu 0004",
     "booktitle": "ICCV",
     "title": "VisionMath: Vision-Form Mathematical Problem-Solving.",
     "year": "2025",

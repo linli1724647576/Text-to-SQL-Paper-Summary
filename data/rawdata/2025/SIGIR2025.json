@@ -1490,7 +1490,7 @@
   "OBELLA: Open the Book for Evaluating Long-Form Large Language Model Answers in Open-Domain Question Answering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/RenZ0R25",
-    "author": "Tianyu Ren and Zhaoyu Zhang and Hui Wang 0001 and Karen Rafferty",
+    "author": "Tianyu Ren and Zhaoyu Zhang 0001 and Hui Wang 0001 and Karen Rafferty",
     "booktitle": "SIGIR",
     "title": "OBELLA: Open the Book for Evaluating Long-Form Large Language Model Answers in Open-Domain Question Answering.",
     "year": "2025",
@@ -2134,7 +2134,7 @@
   "Mitigating Distribution Shifts in Sequential Recommendation: An Invariance Perspective.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/LiaoYHWXL25",
-    "author": "Yuxin Liao and Yonghui Yang 0001 and Min Hou 0004 and Le Wu and Hefei Xu and Hao Liu 0078",
+    "author": "Yuxin Liao and Yonghui Yang 0001 and Min Hou 0004 and Le Wu 0001 and Hefei Xu and Hao Liu 0078",
     "booktitle": "SIGIR",
     "title": "Mitigating Distribution Shifts in Sequential Recommendation: An Invariance Perspective.",
     "year": "2025",
@@ -2722,7 +2722,7 @@
   "Invariance Matters: Empowering Social Recommendation via Graph Invariant Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/YangWLHSHW25",
-    "author": "Yonghui Yang 0001 and Le Wu and Yuxin Liao and Zhuangzhuang He and Pengyang Shao and Richang Hong and Meng Wang 0001",
+    "author": "Yonghui Yang 0001 and Le Wu 0001 and Yuxin Liao and Zhuangzhuang He and Pengyang Shao and Richang Hong and Meng Wang 0001",
     "booktitle": "SIGIR",
     "title": "Invariance Matters: Empowering Social Recommendation via Graph Invariant Learning.",
     "year": "2025",

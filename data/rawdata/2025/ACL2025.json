@@ -3210,7 +3210,7 @@
   "Unveiling Language-Specific Features in Large Language Models via Sparse Autoencoders.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/DengWYZF25",
-    "author": "Boyi Deng and Yu Wan 0004 and Baosong Yang and Yidan Zhang and Fuli Feng",
+    "author": "Boyi Deng and Yu Wan 0004 and Baosong Yang and Yidan Zhang 0004 and Fuli Feng",
     "booktitle": "ACL (1)",
     "title": "Unveiling Language-Specific Features in Large Language Models via Sparse Autoencoders.",
     "year": "2025",
@@ -5972,7 +5972,7 @@
   "LocAgent: Graph-Guided LLM Agents for Code Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenTDW0JPC025",
-    "author": "Zhaoling Chen and Robert Tang and Gangda Deng and Fang Wu and Jialong Wu 0010 and Zhiwei Jiang and Viktor K. Prasanna and Arman Cohan and Xingyao Wang 0002",
+    "author": "Zhaoling Chen and Robert Tang and Gangda Deng and Fang Wu 0002 and Jialong Wu 0010 and Zhiwei Jiang and Viktor K. Prasanna and Arman Cohan and Xingyao Wang 0002",
     "booktitle": "ACL (1)",
     "title": "LocAgent: Graph-Guided LLM Agents for Code Localization.",
     "year": "2025",
@@ -8872,7 +8872,7 @@
   "EAC-MoE: Expert-Selection Aware Compressor for Mixture-of-Experts Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ChenSW025",
-    "author": "Yuanteng Chen and Yuantian Shao and Peisong Wang and Jian Cheng 0001",
+    "author": "Yuanteng Chen and Yuantian Shao and Peisong Wang 0001 and Jian Cheng 0001",
     "booktitle": "ACL (1)",
     "title": "EAC-MoE: Expert-Selection Aware Compressor for Mixture-of-Experts Large Language Models.",
     "year": "2025",
@@ -9713,7 +9713,7 @@
   "UniRAG: Unified Query Understanding Method for Retrieval Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiHLZYYZS25",
-    "author": "Rui Li and Liyang He and Qi Liu and Zheng Zhang and Heng Yu and Yuyang Ye and Linbo Zhu and Yu Su",
+    "author": "Rui Li 0093 and Liyang He and Qi Liu 0003 and Zheng Zhang 0048 and Heng Yu and Yuyang Ye and Linbo Zhu and Yu Su 0002",
     "booktitle": "ACL (1)",
     "title": "UniRAG: Unified Query Understanding Method for Retrieval Augmented Generation.",
     "year": "2025",
@@ -11144,7 +11144,7 @@
   "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhuangSZ25",
-    "author": "Wenhao Zhuang and Yuan Sun and Xiaobing Zhao",
+    "author": "Wenhao Zhuang and Yuan Sun 0010 and Xiaobing Zhao",
     "booktitle": "ACL (1)",
     "title": "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages.",
     "year": "2025",
@@ -15069,7 +15069,7 @@
   "Proxy-Driven Robust Multimodal Sentiment Analysis with Incomplete Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhuHWY0025",
-    "author": "Aoqiang Zhu and Min Hu and Xiaohua Wang 0002 and Jiaoyun Yang and Yiming Tang 0001 and Ning An 0001",
+    "author": "Aoqiang Zhu and Min Hu 0010 and Xiaohua Wang 0002 and Jiaoyun Yang and Yiming Tang 0001 and Ning An 0001",
     "booktitle": "ACL (1)",
     "title": "Proxy-Driven Robust Multimodal Sentiment Analysis with Incomplete Data.",
     "year": "2025",
@@ -15476,7 +15476,7 @@
   "S²R: Teaching LLMs to Self-verify and Self-correct via Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/MaWLLCZZDL25",
-    "author": "Ruotian Ma and Peisong Wang and Cheng Liu and Xingyan Liu and Jiaqi Chen and Bang Zhang and Xin Zhou and Nan Du and Jia Li",
+    "author": "Ruotian Ma and Peisong Wang 0002 and Cheng Liu and Xingyan Liu and Jiaqi Chen and Bang Zhang and Xin Zhou and Nan Du and Jia Li 0009",
     "booktitle": "ACL (1)",
     "title": "S²R: Teaching LLMs to Self-verify and Self-correct via Reinforcement Learning.",
     "year": "2025",
@@ -18559,7 +18559,7 @@
   "Benchmarking Long-Context Language Models on Long Code Understanding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiGLZLTLTZJ25",
-    "author": "Jia Li 0012 and Xuyuan Guo and Lei Li and Kechi Zhang and Ge Li 0001 and Zhengwei Tao and Fang Liu 0032 and Chongyang Tao and Yuqi Zhu and Zhi Jin 0001",
+    "author": "Jia Li 0012 and Xuyuan Guo and Lei Li and Kechi Zhang and Ge Li 0001 and Jia Li 0011 and Zhengwei Tao and Fang Liu 0032 and Chongyang Tao and Yuqi Zhu and Zhi Jin 0001",
     "booktitle": "ACL (1)",
     "title": "Benchmarking Long-Context Language Models on Long Code Understanding.",
     "year": "2025",
@@ -20578,7 +20578,7 @@
   "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiLZX25",
-    "author": "Hao Li and Xiaogeng Liu and Ning Zhang and Chaowei Xiao",
+    "author": "Hao Li and Xiaogeng Liu and Ning Zhang 0017 and Chaowei Xiao",
     "booktitle": "ACL (1)",
     "title": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free.",
     "year": "2025",

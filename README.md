@@ -9,7 +9,7 @@ Current snapshot:
 - **588** classified Text-to-SQL papers
 - **182** rawdata files under `data/rawdata/`
 - **43** official accepted/proceedings source files
-- **56,574** official accepted candidates before relevance filtering
+- **50,857** official accepted candidates before relevance filtering
 - Website: <https://linli1724647576.github.io/Text-to-SQL-Paper-Summary/>
 
 ## Table of Contents

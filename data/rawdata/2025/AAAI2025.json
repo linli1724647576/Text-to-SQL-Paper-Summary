@@ -1923,7 +1923,7 @@
   "Multi-Modal Latent Variables for Cross-Individual Primary Visual Cortex Modeling and Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhuLSOY025",
-    "author": "Yu Zhu and Bo Lei and Chunfeng Song and Wanli Ouyang and Shan Yu and Tiejun Huang 0003",
+    "author": "Yu Zhu 0008 and Bo Lei and Chunfeng Song and Wanli Ouyang and Shan Yu and Tiejun Huang 0001",
     "booktitle": "AAAI",
     "title": "Multi-Modal Latent Variables for Cross-Individual Primary Visual Cortex Modeling and Analysis.",
     "year": "2025",
@@ -3267,7 +3267,7 @@
   "Rethinking High-speed Image Reconstruction Framework with Spike Camera.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenZ0Y25",
-    "author": "Kang Chen and Yajing Zheng and Tiejun Huang 0003 and Zhaofei Yu",
+    "author": "Kang Chen and Yajing Zheng and Tiejun Huang 0001 and Zhaofei Yu",
     "booktitle": "AAAI",
     "title": "Rethinking High-speed Image Reconstruction Framework with Spike Camera.",
     "year": "2025",
@@ -6197,7 +6197,7 @@
   "Granularity-Adaptive Spatial Evidence Tokenization for Video Question Answering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangJ0XXCSGM25",
-    "author": "Hao Jiang and Yang Jin and Zhicheng Sun 0001 and Kun Xu 0005 and Kun Xu 0005 and Liwei Chen and Yang Song 0008 and Kun Gai and Yadong Mu",
+    "author": "Hao Jiang 0032 and Yang Jin and Zhicheng Sun 0001 and Kun Xu 0005 and Kun Xu 0005 and Liwei Chen and Yang Song 0008 and Kun Gai and Yadong Mu",
     "booktitle": "AAAI",
     "title": "Granularity-Adaptive Spatial Evidence Tokenization for Video Question Answering.",
     "year": "2025",
@@ -13007,7 +13007,7 @@
   "Language Prompt for Autonomous Driving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuHLWXZS25",
-    "author": "Dongming Wu and Wencheng Han and Yingfei Liu and Tiancai Wang and Cheng-Zhong Xu 0001 and Xiangyu Zhang 0005 and Jianbing Shen",
+    "author": "Dongming Wu 0005 and Wencheng Han and Yingfei Liu and Tiancai Wang and Cheng-Zhong Xu 0001 and Xiangyu Zhang 0005 and Jianbing Shen",
     "booktitle": "AAAI",
     "title": "Language Prompt for Autonomous Driving.",
     "year": "2025",
@@ -15781,7 +15781,7 @@
   "Few-Shot Domain Adaptation for Learned Image Compression.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZLLL25",
-    "author": "Tianyu Zhang and Haotian Zhang and Yuqi Li and Li Li 0040 and Dong Liu 0002",
+    "author": "Tianyu Zhang and Haotian Zhang 0009 and Yuqi Li and Li Li 0040 and Dong Liu 0002",
     "booktitle": "AAAI",
     "title": "Few-Shot Domain Adaptation for Learned Image Compression.",
     "year": "2025",
@@ -20556,7 +20556,7 @@
   "DREAM: Decoupled Discriminative Learning with Bigraph-aware Alignment for Semi-supervised 2D-3D Cross-modal Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0111WCPWX00025",
-    "author": "Fan Zhang 0111 and Changhu Wang and Zebang Cheng and Xiaojiang Peng and Dongjie Wang and Yijia Xiao and Chong Chen 0002 and Xian-Sheng Hua 0001 and Xiao Luo 0001",
+    "author": "Fan Zhang 0111 and Changhu Wang and Zebang Cheng and Xiaojiang Peng and Dongjie Wang 0001 and Yijia Xiao and Chong Chen 0002 and Xian-Sheng Hua 0001 and Xiao Luo 0001",
     "booktitle": "AAAI",
     "title": "DREAM: Decoupled Discriminative Learning with Bigraph-aware Alignment for Semi-supervised 2D-3D Cross-modal Retrieval.",
     "year": "2025",
@@ -20725,7 +20725,7 @@
   "Multi-type MOOCs Recommendation: Leveraging Deep Multi-Relational Representation and Hierarchical Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0014GWZHSY25",
-    "author": "Ye Zhang 0014 and Yanqi Gao and Dongjie Wang and Yupeng Zhou and Jinlong He and Zhaoyang Sun and Minghao Yin",
+    "author": "Ye Zhang 0014 and Yanqi Gao and Dongjie Wang 0001 and Yupeng Zhou and Jinlong He and Zhaoyang Sun and Minghao Yin",
     "booktitle": "AAAI",
     "title": "Multi-type MOOCs Recommendation: Leveraging Deep Multi-Relational Representation and Hierarchical Reasoning.",
     "year": "2025",
@@ -23696,7 +23696,7 @@
   "Column-Oriented Datalog on the GPU.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SunKGM25",
-    "author": "Yihao Sun and Sidharth Kumar and Thomas Gilray and Kristopher K. Micinski",
+    "author": "Yihao Sun 0003 and Sidharth Kumar and Thomas Gilray and Kristopher K. Micinski",
     "booktitle": "AAAI",
     "title": "Column-Oriented Datalog on the GPU.",
     "year": "2025",
@@ -25601,7 +25601,7 @@
   "Contrastive Auxiliary Learning with Structure Transformation for Heterogeneous Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002SGLL25",
-    "author": "Wei Du 0002 and Hongmin Sun and Hang Gao and Gaoyang Li and Ying Li 0004",
+    "author": "Wei Du 0002 and Hongmin Sun and Hang Gao 0014 and Gaoyang Li and Ying Li 0004",
     "booktitle": "AAAI",
     "title": "Contrastive Auxiliary Learning with Structure Transformation for Heterogeneous Graphs.",
     "year": "2025",
@@ -27003,7 +27003,7 @@
   "Large Language Model Meets Graph Neural Network in Knowledge Distillation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002ZYLGZ025",
-    "author": "Shengxiang Hu 0002 and Guobing Zou and Song Yang and Shiyi Lin and Yanglan Gan and Bofeng Zhang and Yixin Chen 0001",
+    "author": "Shengxiang Hu 0002 and Guobing Zou and Song Yang 0003 and Shiyi Lin and Yanglan Gan and Bofeng Zhang and Yixin Chen 0001",
     "booktitle": "AAAI",
     "title": "Large Language Model Meets Graph Neural Network in Knowledge Distillation.",
     "year": "2025",
@@ -29118,7 +29118,7 @@
   "Metric-Agnostic Continual Learning for Sustainable Group Fairness.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LianZC0T025",
-    "author": "Heng Lian 0001 and Chen Zhao and Zhong Chen 0003 and Xingquan Zhu 0001 and My T. Thai and Yi He 0007",
+    "author": "Heng Lian 0001 and Chen Zhao 0010 and Zhong Chen 0003 and Xingquan Zhu 0001 and My T. Thai and Yi He 0007",
     "booktitle": "AAAI",
     "title": "Metric-Agnostic Continual Learning for Sustainable Group Fairness.",
     "year": "2025",
@@ -30799,7 +30799,7 @@
   "FedSPU: Personalized Federated Learning for Resource-Constrained Devices with Stochastic Parameter Update.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/NiuDQ25",
-    "author": "Ziru Niu and Hai Dong and A. K. Qin 0001",
+    "author": "Ziru Niu and Hai Dong 0001 and A. K. Qin 0001",
     "booktitle": "AAAI",
     "title": "FedSPU: Personalized Federated Learning for Resource-Constrained Devices with Stochastic Parameter Update.",
     "year": "2025",
@@ -32509,7 +32509,7 @@
   "Imperceptible 3D Point Cloud Attacks on Lattice-based Barycentric Coordinates.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangDPWLLT25",
-    "author": "Keke Tang and Ziyong Du and Weilong Peng and Xiaofei Wang and Daizong Liu and Ligang Liu 0001 and Zhihong Tian",
+    "author": "Keke Tang and Ziyong Du and Weilong Peng and Xiaofei Wang and Daizong Liu and Ligang Liu 0001 and Zhihong Tian 0001",
     "booktitle": "AAAI",
     "title": "Imperceptible 3D Point Cloud Attacks on Lattice-based Barycentric Coordinates.",
     "year": "2025",
@@ -41721,7 +41721,7 @@
   "RATT: A Thought Structure for Coherent and Correct LLM Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0002WR0W025",
-    "author": "Jinghan Zhang 0002 and Xiting Wang and Weijieying Ren and Lu Jiang 0007 and Dongjie Wang and Kunpeng Liu 0001",
+    "author": "Jinghan Zhang 0002 and Xiting Wang and Weijieying Ren and Lu Jiang 0007 and Dongjie Wang 0001 and Kunpeng Liu 0001",
     "booktitle": "AAAI",
     "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning.",
     "year": "2025",

@@ -100,11 +100,11 @@
     },
     "dblp-conference:AAAI:2026": {
       "error": "",
-      "last_attempt_at": "2026-08-09T17:33:39Z",
-      "last_success_at": "2026-08-09T17:33:39Z",
+      "last_attempt_at": "2026-08-16T17:20:46Z",
+      "last_success_at": "2026-08-16T17:20:46Z",
       "rawdata_path": "data/rawdata/2026/AAAI2026.json",
       "record_count": 4920,
-      "sha256": "d19eb4c7c039cc9e152481094d182028e2f0c26c35fe6c7bef3464a76212d556",
+      "sha256": "0fb9d0d51b163ca431487e508a16db2ffcbfed5a0d066f33dd2abb9abfb38d00",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "complete",
@@ -1962,8 +1962,8 @@
     },
     "official-accepted:CVPR:2026": {
       "error": "",
-      "last_attempt_at": "2026-08-09T17:34:41Z",
-      "last_success_at": "2026-08-09T17:34:41Z",
+      "last_attempt_at": "2026-08-16T17:20:53Z",
+      "last_success_at": "2026-08-16T17:20:53Z",
       "rawdata_path": "data/rawdata/2026/CVPR2026-accepted.json",
       "record_count": 5022,
       "sha256": "d89c5af1b8e0f8a82ca03a26916c3ee43f74264b635215ac6ae050e7ad0fe5fe",
@@ -2130,11 +2130,11 @@
     },
     "official-accepted:ICML:2026": {
       "error": "",
-      "last_attempt_at": "2026-08-09T17:34:38Z",
-      "last_success_at": "2026-08-09T17:34:38Z",
+      "last_attempt_at": "2026-08-16T17:20:50Z",
+      "last_success_at": "2026-08-16T17:20:50Z",
       "rawdata_path": "data/rawdata/2026/ICML2026-accepted.json",
       "record_count": 6628,
-      "sha256": "3f33d3bca5068d04eec1f1d56b7bfda8cefda8d77e8610bd491d4b02a0e2bd89",
+      "sha256": "1374d23770783651a82fc3ce039da78b1b9123d8c7d4319e585a1dce3a928cfb",
       "source": "official-accepted",
       "source_type": "official-accepted",
       "status": "complete",
@@ -2507,15 +2507,15 @@
       "year": "2025"
     },
     "official-accepted:SIGMOD:2026": {
-      "error": "parsed only 0 entries",
-      "last_attempt_at": "2026-08-09T17:34:56Z",
-      "last_success_at": "",
+      "error": "",
+      "last_attempt_at": "2026-08-16T17:20:58Z",
+      "last_success_at": "2026-08-16T17:20:58Z",
       "rawdata_path": "data/rawdata/2026/SIGMOD2026-accepted.json",
       "record_count": 349,
       "sha256": "6acba4130da1db266b49bd8b941a6714818d8263c72ddc982e53b7b4abc5b537",
       "source": "official-accepted",
       "source_type": "official-accepted",
-      "status": "empty",
+      "status": "complete",
       "track": "",
       "venue": "SIGMOD",
       "year": "2026"
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 6,
+    "cursor": 0,
     "history": [
       {
         "cursor": 1,
@@ -5380,15 +5380,66 @@
           "TOSEM"
         ],
         "year": 2025
+      },
+      {
+        "cursor": 0,
+        "failed": [],
+        "finalized_at": "2026-08-16T17:22:50Z",
+        "succeeded": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2026
       }
     ],
-    "last_completed_at": "2026-08-15T17:24:05Z",
+    "last_completed_at": "2026-08-16T17:22:50Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
       "ACL",
       "CVPR",
-      "ICCV",
       "ICML",
       "IJCAI",
       "SIGMOD",
@@ -5407,6 +5458,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2025
+    "last_selected_year": 2026
   }
 }

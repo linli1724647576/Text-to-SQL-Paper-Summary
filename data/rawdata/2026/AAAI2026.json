@@ -478,7 +478,7 @@
   "Energy-based Autoregressive Generation for Neural Population Dynamics.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GeDZY26",
-    "author": "Ningling Ge and Sicheng Dai and Yu Zhu and Shan Yu",
+    "author": "Ningling Ge and Sicheng Dai and Yu Zhu 0008 and Shan Yu",
     "booktitle": "AAAI",
     "title": "Energy-based Autoregressive Generation for Neural Population Dynamics.",
     "year": "2026",
@@ -7579,7 +7579,7 @@
   "Medverse: A Universal Model for Full-Resolution 3D Medical Image Segmentation, Transformation and Enhancement.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuCYYZPM26",
-    "author": "Jiesi Hu and Jianfeng Cao and Yanwu Yang and Chenfei Ye and Yixuan Zhang and Hanyang Peng and Ting Ma 0001",
+    "author": "Jiesi Hu and Jianfeng Cao and Yanwu Yang 0001 and Chenfei Ye and Yixuan Zhang and Hanyang Peng and Ting Ma 0001",
     "booktitle": "AAAI",
     "title": "Medverse: A Universal Model for Full-Resolution 3D Medical Image Segmentation, Transformation and Enhancement.",
     "year": "2026",
@@ -14655,7 +14655,7 @@
   "Less Is More: Sparse and Cooperative Perturbation for Point Cloud Attacks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangHWPZZT26",
-    "author": "Keke Tang and Tianyu Hao and Xiaofei Wang and Weilong Peng and Denghui Zhang 0001 and Peican Zhu and Zhihong Tian",
+    "author": "Keke Tang and Tianyu Hao and Xiaofei Wang and Weilong Peng and Denghui Zhang 0001 and Peican Zhu and Zhihong Tian 0001",
     "booktitle": "AAAI",
     "title": "Less Is More: Sparse and Cooperative Perturbation for Point Cloud Attacks.",
     "year": "2026",
@@ -18184,7 +18184,7 @@
   "VAEVQ: Enhancing Discrete Visual Tokenization Through Variational Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangHWY26",
-    "author": "Sicheng Yang and Xing Hu 0010 and Qiang Wu 0012 and Dawei Yang",
+    "author": "Sicheng Yang 0001 and Xing Hu 0010 and Qiang Wu 0012 and Dawei Yang",
     "booktitle": "AAAI",
     "title": "VAEVQ: Enhancing Discrete Visual Tokenization Through Variational Modeling.",
     "year": "2026",
@@ -18268,7 +18268,7 @@
   "MedSAMix: A Training-Free Model Merging Approach for Medical Image Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangSHSGW26",
-    "author": "Yanwu Yang and Guinan Su and Jiesi Hu and Francesco Sammarco and Jonas Geiping and Thomas Wolfers",
+    "author": "Yanwu Yang 0001 and Guinan Su and Jiesi Hu and Francesco Sammarco and Jonas Geiping and Thomas Wolfers",
     "booktitle": "AAAI",
     "title": "MedSAMix: A Training-Free Model Merging Approach for Medical Image Segmentation.",
     "year": "2026",
@@ -19808,7 +19808,7 @@
   "YOLO-IOD: Towards Real Time Incremental Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLXWXZZ26",
-    "author": "Shizhou Zhang and Xueqiang Lv and Yinghui Xing and Qirui Wu and Di Xu 0010 and Chen Zhao and Yanning Zhang 0001",
+    "author": "Shizhou Zhang and Xueqiang Lv and Yinghui Xing and Qirui Wu and Di Xu 0010 and Chen Zhao 0009 and Yanning Zhang 0001",
     "booktitle": "AAAI",
     "title": "YOLO-IOD: Towards Real Time Incremental Object Detection.",
     "year": "2026",
@@ -23072,7 +23072,7 @@
   "RecCocktail: A Generalizable and Efficient Framework for LLM-Based Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HouBWLZLHTW26",
-    "author": "Min Hou 0004 and Chenxi Bai and Le Wu and Hao Liu 0003 and Kai Zhang 0038 and Weiwen Liu and Richang Hong and Ruiming Tang and Meng Wang 0001",
+    "author": "Min Hou 0004 and Chenxi Bai and Le Wu 0001 and Hao Liu 0003 and Kai Zhang 0038 and Weiwen Liu and Richang Hong and Ruiming Tang and Meng Wang 0001",
     "booktitle": "AAAI",
     "title": "RecCocktail: A Generalizable and Efficient Framework for LLM-Based Recommendation.",
     "year": "2026",
@@ -23156,7 +23156,7 @@
   "BAG: Benchmarking Anomaly Detection on Dynamic Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuaQWTXWLG26",
-    "author": "Fengrui Hua and Yiyan Qi and Zikai Wei and Yuxing Tian and Chengjin Xu and Xiaojun Wu 0007 and Jia Li and Jian Guo 0016",
+    "author": "Fengrui Hua and Yiyan Qi and Zikai Wei and Yuxing Tian and Chengjin Xu and Xiaojun Wu 0007 and Jia Li 0009 and Jian Guo 0016",
     "booktitle": "AAAI",
     "title": "BAG: Benchmarking Anomaly Detection on Dynamic Graphs.",
     "year": "2026",
@@ -23212,7 +23212,7 @@
   "LLM-Aligned Geographic Item Tokenization for Local-Life Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangWZYZZGZ26",
-    "author": "Hao Jiang and Guoquan Wang and Donglin Zhou and Sheng Yu and Yang Zeng and Wencong Zeng and Kun Gai and Guorui Zhou",
+    "author": "Hao Jiang 0032 and Guoquan Wang and Donglin Zhou and Sheng Yu and Yang Zeng and Wencong Zeng and Kun Gai and Guorui Zhou",
     "booktitle": "AAAI",
     "title": "LLM-Aligned Geographic Item Tokenization for Local-Life Recommendation.",
     "year": "2026",
@@ -25090,7 +25090,7 @@
   "Bipartite Mode Matching for Vision Training Set Search from a Hierarchical Data Server.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YaoYG26",
-    "author": "Yue Yao and Ruining Yang and Tom Gedeon",
+    "author": "Yue Yao 0001 and Ruining Yang and Tom Gedeon",
     "booktitle": "AAAI",
     "title": "Bipartite Mode Matching for Vision Training Set Search from a Hierarchical Data Server.",
     "year": "2026",
@@ -25496,7 +25496,7 @@
   "Dimension-Aware Active Annotation for Aesthetic Perception via Multi-Agent Human-AI Collaboration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangHWZY26",
-    "author": "Ye Zhang 0014 and Jinlong He and Dongjie Wang and Yupeng Zhou and Minghao Yin",
+    "author": "Ye Zhang 0014 and Jinlong He and Dongjie Wang 0001 and Yupeng Zhou and Minghao Yin",
     "booktitle": "AAAI",
     "title": "Dimension-Aware Active Annotation for Aesthetic Perception via Multi-Agent Human-AI Collaboration.",
     "year": "2026",
@@ -25707,7 +25707,7 @@
   "Inference Scaling Law for Retrieval Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouAXWFW26",
-    "author": "Shu Zhou and Yuxuan Ao and Yunyang Xuan and Xin Wang and Tao Fan and Hao Wang",
+    "author": "Shu Zhou 0002 and Yuxuan Ao and Yunyang Xuan and Xin Wang and Tao Fan and Hao Wang 0194",
     "booktitle": "AAAI",
     "title": "Inference Scaling Law for Retrieval Augmented Generation.",
     "year": "2026",
@@ -28886,7 +28886,7 @@
   "MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShengWLL26",
-    "author": "Juyi Sheng and Ziyi Wang and Peiming Li and Mengyuan Liu",
+    "author": "Juyi Sheng and Ziyi Wang and Peiming Li and Mengyuan Liu 0001",
     "booktitle": "AAAI",
     "title": "MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation.",
     "year": "2026",
@@ -32627,7 +32627,7 @@
   "GCIB: Causal Intervention Guided Graph Information Bottleneck Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DuWCJBW26",
-    "author": "Hangyuan Du and Rong Wang and Lixin Cui and Gaoxia Jiang and Liang Bai 0001 and Wenjian Wang",
+    "author": "Hangyuan Du and Rong Wang and Lixin Cui and Gaoxia Jiang and Liang Bai 0001 and Wenjian Wang 0001",
     "booktitle": "AAAI",
     "title": "GCIB: Causal Intervention Guided Graph Information Bottleneck Framework.",
     "year": "2026",
@@ -33047,7 +33047,7 @@
   "Learning Whom to Align With: Progressive Anomaly Combination Detection for Partially View-Aligned Clustering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GaoCLLLLDZ26",
-    "author": "Hang Gao and Zuosong Cai and Yuze Li and Cheng Liu 0001 and Gaoyang Li and Ying Li 0004 and Wei Du 0002 and You Zhou 0008",
+    "author": "Hang Gao 0014 and Zuosong Cai and Yuze Li and Cheng Liu 0001 and Gaoyang Li and Ying Li 0004 and Wei Du 0002 and You Zhou 0008",
     "booktitle": "AAAI",
     "title": "Learning Whom to Align With: Progressive Anomaly Combination Detection for Partially View-Aligned Clustering.",
     "year": "2026",
@@ -35694,7 +35694,7 @@
   "MARLIN: Multi-Agent Reinforcement Learning for Incremental DAG Discovery.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiCZYCHCZ26",
-    "author": "Dong Li 0034 and Zhengzhang Chen and Xujiang Zhao and Linlin Yu and Zhong Chen and Yi He and Haifeng Chen and Chen Zhao 0010",
+    "author": "Dong Li 0034 and Zhengzhang Chen and Xujiang Zhao and Linlin Yu and Zhong Chen 0003 and Yi He 0007 and Haifeng Chen and Chen Zhao 0010",
     "booktitle": "AAAI",
     "title": "MARLIN: Multi-Agent Reinforcement Learning for Incremental DAG Discovery.",
     "year": "2026",
@@ -35792,7 +35792,7 @@
   "Bridging Modalities via Progressive Re-alignment for Multimodal Test-Time Adaptation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiF26",
-    "author": "Jiacheng Li and Songhe Feng",
+    "author": "Jiacheng Li 0006 and Songhe Feng",
     "booktitle": "AAAI",
     "title": "Bridging Modalities via Progressive Re-alignment for Multimodal Test-Time Adaptation.",
     "year": "2026",
@@ -37641,7 +37641,7 @@
   "Spiking-Aided Neural Architecture for Efficient and Robust WiFi Sensing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LuJZZ26",
-    "author": "Yisha Lu and Liwen Jing and Jiangmao Zheng and Bowen Zhang 0005",
+    "author": "Yisha Lu and Liwen Jing 0001 and Jiangmao Zheng and Bowen Zhang 0005",
     "booktitle": "AAAI",
     "title": "Spiking-Aided Neural Architecture for Efficient and Robust WiFi Sensing.",
     "year": "2026",
@@ -41632,7 +41632,7 @@
   "Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangJXCLZJLW26",
-    "author": "Yihua Wang and Qi Jia 0004 and Cong Xu 0001 and Feiyu Chen 0005 and Yuhan Liu 0014 and Haotian Zhang and Liang Jin and Lu Liu 0009 and Zhichun Wang",
+    "author": "Yihua Wang and Qi Jia 0004 and Cong Xu 0001 and Feiyu Chen 0005 and Yuhan Liu 0014 and Haotian Zhang 0017 and Liang Jin and Lu Liu 0009 and Zhichun Wang",
     "booktitle": "AAAI",
     "title": "Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection.",
     "year": "2026",
@@ -41730,7 +41730,7 @@
   "MemeBQ: Memory Efficient Binary Quantization of LLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangLPLWH26",
-    "author": "Yuanhui Wang and Kunlong Liu and Minnan Pei and Zhangming Li 0002 and Peisong Wang and Qinghao Hu 0001",
+    "author": "Yuanhui Wang and Kunlong Liu and Minnan Pei and Zhangming Li 0002 and Peisong Wang 0001 and Qinghao Hu 0001",
     "booktitle": "AAAI",
     "title": "MemeBQ: Memory Efficient Binary Quantization of LLMs.",
     "year": "2026",
@@ -41982,7 +41982,7 @@
   "RCMoE: A Communication-Efficient Random Compression Framework for Resource-Constrained Mixture-of-Experts Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuCTJTTXT26",
-    "author": "Donglei Wu and Xiao Cai and Jinglei Tan and Jinda Jia and Guangming Tan and Dingwen Tao and Wen Xia and Zhihong Tian",
+    "author": "Donglei Wu and Xiao Cai and Jinglei Tan and Jinda Jia and Guangming Tan and Dingwen Tao and Wen Xia and Zhihong Tian 0001",
     "booktitle": "AAAI",
     "title": "RCMoE: A Communication-Efficient Random Compression Framework for Resource-Constrained Mixture-of-Experts Training.",
     "year": "2026",
@@ -42752,7 +42752,7 @@
   "AT-Field: Rethinking the Games in Adversarial Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuLSLT26",
-    "author": "Yixiao Xu and Mohan Li and Zhijie Shen and Yuan Liu 0002 and Zhihong Tian",
+    "author": "Yixiao Xu and Mohan Li and Zhijie Shen and Yuan Liu 0002 and Zhihong Tian 0001",
     "booktitle": "AAAI",
     "title": "AT-Field: Rethinking the Games in Adversarial Training.",
     "year": "2026",
@@ -44349,7 +44349,7 @@
   "MMhops-R1: Multimodal Multi-hop Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZMCLYWRSH26",
-    "author": "Tao Zhang and Ziqi Zhang and Zongyang Ma and Yuxin Chen and Bing Li 0001 and Chunfeng Yuan and Guangting Wang and Fengyun Rao and Ying Shan and Weiming Hu 0004",
+    "author": "Tao Zhang and Ziqi Zhang 0010 and Zongyang Ma and Yuxin Chen and Bing Li 0001 and Chunfeng Yuan and Guangting Wang and Fengyun Rao and Ying Shan and Weiming Hu 0004",
     "booktitle": "AAAI",
     "title": "MMhops-R1: Multimodal Multi-hop Reasoning.",
     "year": "2026",
@@ -52108,7 +52108,7 @@
   "Beyond Passive Critical Thinking: Fostering Proactive Questioning to Enhance Human-AI Collaboration.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangLLWLXS26",
-    "author": "Ante Wang and Yujie Lin and Jingyao Liu and Suhang Wu and Hao Liu and Xinyan Xiao and Jinsong Su",
+    "author": "Ante Wang and Yujie Lin 0003 and Jingyao Liu and Suhang Wu and Hao Liu and Xinyan Xiao and Jinsong Su",
     "booktitle": "AAAI",
     "title": "Beyond Passive Critical Thinking: Fostering Proactive Questioning to Enhance Human-AI Collaboration.",
     "year": "2026",
@@ -52641,7 +52641,7 @@
   "Efficient Post-Training Refinement of Latent Reasoning in Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWYBGDLF26",
-    "author": "Xinyuan Wang 0011 and Dongjie Wang and Wangyang Ying and Haoyue Bai 0002 and Nanxu Gong and Sixun Dong and Kunpeng Liu 0001 and Yanjie Fu",
+    "author": "Xinyuan Wang 0011 and Dongjie Wang 0001 and Wangyang Ying and Haoyue Bai 0002 and Nanxu Gong and Sixun Dong and Kunpeng Liu 0001 and Yanjie Fu",
     "booktitle": "AAAI",
     "title": "Efficient Post-Training Refinement of Latent Reasoning in Large Language Models.",
     "year": "2026",
@@ -53566,7 +53566,7 @@
   "ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangZLLWWLHQ26",
-    "author": "Peiru Yang and Haoran Zheng and Yi Luo and Xinyi Liu and Jinrui Wang and Huili Wang and Xintian Li and Yongfeng Huang 0001 and Tao Qi",
+    "author": "Peiru Yang and Haoran Zheng and Yi Luo and Xinyi Liu and Jinrui Wang and Huili Wang 0001 and Xintian Li and Yongfeng Huang 0001 and Tao Qi 0001",
     "booktitle": "AAAI",
     "title": "ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases.",
     "year": "2026",
@@ -53580,7 +53580,7 @@
   "MrM: Black-Box Membership Inference Attacks Against Multimodal RAG Systems.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangYZBWSLPHQ26",
-    "author": "Peiru Yang and Jinhua Yin and Haoran Zheng and Xueying Bai and Huili Wang and Yufei Sun 0001 and Xintian Li and Songwei Pei and Yongfeng Huang 0001 and Tao Qi",
+    "author": "Peiru Yang and Jinhua Yin and Haoran Zheng and Xueying Bai and Huili Wang 0001 and Yufei Sun 0001 and Xintian Li and Songwei Pei and Yongfeng Huang 0001 and Tao Qi 0001",
     "booktitle": "AAAI",
     "title": "MrM: Black-Box Membership Inference Attacks Against Multimodal RAG Systems.",
     "year": "2026",
@@ -54141,7 +54141,7 @@
   "EA-VAE: Learning to Reconstruct Dysarthric Speech via Variational Autoencoder with Encoding Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLYZW26",
-    "author": "Daipeng Zhang and Wenhuan Lu and Xianghu Yue and Hongcheng Zhang and Jianguo Wei",
+    "author": "Daipeng Zhang 0001 and Wenhuan Lu and Xianghu Yue and Hongcheng Zhang and Jianguo Wei",
     "booktitle": "AAAI",
     "title": "EA-VAE: Learning to Reconstruct Dysarthric Speech via Variational Autoencoder with Encoding Alignment.",
     "year": "2026",
@@ -55654,7 +55654,7 @@
   "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LinLPSYX26",
-    "author": "Zhixin Lin and Jungang Li and Shidong Pan and Yibo Shi and Yue Yao and Dongliang Xu",
+    "author": "Zhixin Lin and Jungang Li and Shidong Pan and Yibo Shi and Yue Yao 0001 and Dongliang Xu",
     "booktitle": "AAAI",
     "title": "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents.",
     "year": "2026",
@@ -59507,7 +59507,7 @@
   "DAVSP: Safety Alignment for Large Vision-Language Models via Deep Aligned Visual Safety Prompt.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLCL26",
-    "author": "Yitong Zhang and Jia Li and Liyi Cai and Ge Li",
+    "author": "Yitong Zhang and Jia Li 0011 and Liyi Cai and Ge Li 0001",
     "booktitle": "AAAI",
     "title": "DAVSP: Safety Alignment for Large Vision-Language Models via Deep Aligned Visual Safety Prompt.",
     "year": "2026",
@@ -67449,7 +67449,7 @@
   "Fine-tuning Zero-shot Large Language Models for Patient-reported Outcomes (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YanCLZGC26",
-    "author": "Yang Yan 0003 and Matthew W. Chen and Jiayi Lyu and Chen Zhao and Hao Gao and Zhong Chen 0003",
+    "author": "Yang Yan 0003 and Matthew W. Chen and Jiayi Lyu and Chen Zhao 0010 and Hao Gao and Zhong Chen 0003",
     "booktitle": "AAAI",
     "title": "Fine-tuning Zero-shot Large Language Models for Patient-reported Outcomes (Student Abstract).",
     "year": "2026",

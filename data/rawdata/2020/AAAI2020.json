@@ -44,7 +44,7 @@
   "Revisiting Graph Based Collaborative Filtering: A Linear Residual Graph Convolutional Network Approach.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenWHZW20",
-    "author": "Lei Chen 0051 and Le Wu and Richang Hong and Kun Zhang 0015 and Meng Wang 0001",
+    "author": "Lei Chen 0051 and Le Wu 0001 and Richang Hong and Kun Zhang 0015 and Meng Wang 0001",
     "booktitle": "AAAI",
     "title": "Revisiting Graph Based Collaborative Filtering: A Linear Residual Graph Convolutional Network Approach.",
     "year": "2020",
@@ -1794,7 +1794,7 @@
   "Graph Convolutional Networks with Markov Random Field Reasoning for Social Spammer Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuLXWC20",
-    "author": "Yongji Wu and Defu Lian and Yiheng Xu and Le Wu and Enhong Chen",
+    "author": "Yongji Wu and Defu Lian and Yiheng Xu and Le Wu 0001 and Enhong Chen",
     "booktitle": "AAAI",
     "title": "Graph Convolutional Networks with Markov Random Field Reasoning for Social Spammer Detection.",
     "year": "2020",
@@ -14356,7 +14356,7 @@
   "Revision in Continuous Space: Unsupervised Text Style Transfer without Adversarial Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuFZPL20",
-    "author": "Dayiheng Liu and Jie Fu 0001 and Yidan Zhang and Chris Pal and Jiancheng Lv 0001",
+    "author": "Dayiheng Liu and Jie Fu 0001 and Yidan Zhang 0004 and Chris Pal and Jiancheng Lv 0001",
     "booktitle": "AAAI",
     "title": "Revision in Continuous Space: Unsupervised Text Style Transfer without Adversarial Learning.",
     "year": "2020",
@@ -20925,7 +20925,7 @@
   "Sparsity-Inducing Binarized Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangHLZ020",
-    "author": "Peisong Wang and Xiangyu He and Gang Li 0015 and Tianli Zhao and Jian Cheng 0001",
+    "author": "Peisong Wang 0001 and Xiangyu He and Gang Li 0015 and Tianli Zhao and Jian Cheng 0001",
     "booktitle": "AAAI",
     "title": "Sparsity-Inducing Binarized Neural Networks.",
     "year": "2020",

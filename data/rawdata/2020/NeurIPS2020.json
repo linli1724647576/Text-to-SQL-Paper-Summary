@@ -13176,7 +13176,7 @@
   "GreedyFool: Distortion-Aware Sparse Adversarial Attack.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/Dong0BQYZYC20",
-    "author": "Xiaoyi Dong and Dongdong Chen 0001 and Jianmin Bao and Chuan Qin 0003 and Lu Yuan and Weiming Zhang 0001 and Nenghai Yu and Dong Chen 0003",
+    "author": "Xiaoyi Dong and Dongdong Chen 0001 and Jianmin Bao and Chuan Qin 0003 and Lu Yuan 0001 and Weiming Zhang 0001 and Nenghai Yu and Dong Chen 0003",
     "booktitle": "NeurIPS",
     "title": "GreedyFool: Distortion-Aware Sparse Adversarial Attack.",
     "year": "2020",

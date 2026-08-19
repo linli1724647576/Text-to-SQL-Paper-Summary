@@ -2131,7 +2131,7 @@
   "ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/icse/ZhangLWLL0CL22",
-    "author": "Ziqi Zhang and Yuanchun Li 0003 and Jindong Wang 0001 and Bingyan Liu and Ding Li 0001 and Yao Guo 0001 and Xiangqun Chen and Yunxin Liu 0001",
+    "author": "Ziqi Zhang 0017 and Yuanchun Li 0003 and Jindong Wang 0001 and Bingyan Liu and Ding Li 0001 and Yao Guo 0001 and Xiangqun Chen and Yunxin Liu 0001",
     "booktitle": "ICSE",
     "title": "ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing.",
     "year": "2022",

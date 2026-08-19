@@ -3868,7 +3868,7 @@
   "OmniFusion: 360 Monocular Depth Estimation via Geometry-Aware Fusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/LiGY0DR22",
-    "author": "Yuyan Li and Yuliang Guo and Zhixin Yan and Xinyu Huang 0001 and Ye Duan and Liu Ren",
+    "author": "Yuyan Li and Yuliang Guo and Zhixin Yan and Xinyu Huang 0001 and Ye Duan and Liu Ren 0001",
     "booktitle": "CVPR",
     "title": "OmniFusion: 360 Monocular Depth Estimation via Geometry-Aware Fusion.",
     "year": "2022",
@@ -6696,7 +6696,7 @@
   "Cloning Outfits from Real-World Images to 3D Characters for Generalizable Person Re-Identification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangLL22",
-    "author": "Yanan Wang and Xuezhi Liang and Shengcai Liao",
+    "author": "Yanan Wang 0009 and Xuezhi Liang and Shengcai Liao",
     "booktitle": "CVPR",
     "title": "Cloning Outfits from Real-World Images to 3D Characters for Generalizable Person Re-Identification.",
     "year": "2022",
@@ -6822,7 +6822,7 @@
   "Multi-Level Representation Learning with Semantic Alignment for Referring Video Object Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WuD0S22",
-    "author": "Dongming Wu and Xingping Dong and Ling Shao 0001 and Jianbing Shen",
+    "author": "Dongming Wu 0005 and Xingping Dong and Ling Shao 0001 and Jianbing Shen",
     "booktitle": "CVPR",
     "title": "Multi-Level Representation Learning with Semantic Alignment for Referring Video Object Segmentation.",
     "year": "2022",
@@ -9583,7 +9583,7 @@
   "Remember the Difference: Cross-Domain Few-Shot Semantic Segmentation via Meta-Memory Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangDWEFZ22",
-    "author": "Wenjian Wang and Lijuan Duan and Yuxi Wang 0001 and Qing En and Junsong Fan and Zhaoxiang Zhang 0001",
+    "author": "Wenjian Wang 0002 and Lijuan Duan and Yuxi Wang 0001 and Qing En and Junsong Fan and Zhaoxiang Zhang 0001",
     "booktitle": "CVPR",
     "title": "Remember the Difference: Cross-Domain Few-Shot Semantic Segmentation via Meta-Memory Transfer.",
     "year": "2022",
@@ -10717,7 +10717,7 @@
   "Few-Shot Font Generation by Learning Fine-Grained Local Styles.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/TangCLHGFHLD022",
-    "author": "Licheng Tang and Yiyang Cai and Jiaming Liu and Zhibin Hong and Mingming Gong and Minhu Fan and Junyu Han and Jingtuo Liu and Errui Ding and Jingdong Wang 0001",
+    "author": "Licheng Tang and Yiyang Cai and Jiaming Liu 0003 and Zhibin Hong and Mingming Gong and Minhu Fan and Junyu Han and Jingtuo Liu and Errui Ding and Jingdong Wang 0001",
     "booktitle": "CVPR",
     "title": "Few-Shot Font Generation by Learning Fine-Grained Local Styles.",
     "year": "2022",
@@ -13716,7 +13716,7 @@
   "Differentially Private Federated Learning with Local Regularization and Sparsification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ChengWZ022",
-    "author": "Anda Cheng and Peisong Wang and Xi Sheryl Zhang and Jian Cheng 0001",
+    "author": "Anda Cheng and Peisong Wang 0001 and Xi Sheryl Zhang and Jian Cheng 0001",
     "booktitle": "CVPR",
     "title": "Differentially Private Federated Learning with Local Regularization and Sparsification.",
     "year": "2022",
@@ -14613,7 +14613,7 @@
   "Few-Shot Head Swapping in the Wild.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ShuWZLHDHLD022",
-    "author": "Changyong Shu and Hemao Wu and Hang Zhou 0009 and Jiaming Liu and Zhibin Hong and Changxing Ding and Junyu Han and Jingtuo Liu and Errui Ding and Jingdong Wang 0001",
+    "author": "Changyong Shu and Hemao Wu and Hang Zhou 0009 and Jiaming Liu 0003 and Zhibin Hong and Changxing Ding and Junyu Han and Jingtuo Liu and Errui Ding and Jingdong Wang 0001",
     "booktitle": "CVPR",
     "title": "Few-Shot Head Swapping in the Wild.",
     "year": "2022",
@@ -20117,7 +20117,7 @@
   "Symmetry and Uncertainty-Aware Object SLAM for 6DoF Object Pose Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/MerrillGZ0LPR022",
-    "author": "Nathaniel Merrill and Yuliang Guo and Xingxing Zuo 0001 and Xinyu Huang 0001 and Stefan Leutenegger and Xi Peng and Liu Ren and Guoquan Huang 0001",
+    "author": "Nathaniel Merrill and Yuliang Guo and Xingxing Zuo 0001 and Xinyu Huang 0001 and Stefan Leutenegger and Xi Peng and Liu Ren 0001 and Guoquan Huang 0001",
     "booktitle": "CVPR",
     "title": "Symmetry and Uncertainty-Aware Object SLAM for 6DoF Object Pose Estimation.",
     "year": "2022",
@@ -22094,7 +22094,7 @@
   "Joint Video Summarization and Moment Localization by Cross-Task Sample Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/JiangM22",
-    "author": "Hao Jiang and Yadong Mu",
+    "author": "Hao Jiang 0032 and Yadong Mu",
     "booktitle": "CVPR",
     "title": "Joint Video Summarization and Moment Localization by Cross-Task Sample Transfer.",
     "year": "2022",
@@ -22640,7 +22640,7 @@
   "RegionCLIP: Region-based Language-Image Pretraining.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhongYZLCLZDYLG22",
-    "author": "Yiwu Zhong and Jianwei Yang and Pengchuan Zhang and Chunyuan Li and Noel Codella and Liunian Harold Li and Luowei Zhou and Xiyang Dai and Lu Yuan and Yin Li 0003 and Jianfeng Gao 0001",
+    "author": "Yiwu Zhong and Jianwei Yang and Pengchuan Zhang and Chunyuan Li and Noel Codella and Liunian Harold Li and Luowei Zhou and Xiyang Dai and Lu Yuan 0001 and Yin Li 0003 and Jianfeng Gao 0001",
     "booktitle": "CVPR",
     "title": "RegionCLIP: Region-based Language-Image Pretraining.",
     "year": "2022",
@@ -24516,7 +24516,7 @@
   "An Empirical Study of Training End-to-End Vision-and-Language Transformers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/DouXGWWWZZYP0022",
-    "author": "Zi-Yi Dou and Yichong Xu and Zhe Gan and Jianfeng Wang and Shuohang Wang and Lijuan Wang and Chenguang Zhu 0001 and Pengchuan Zhang and Lu Yuan and Nanyun Peng 0001 and Zicheng Liu 0001 and Michael Zeng 0001",
+    "author": "Zi-Yi Dou and Yichong Xu and Zhe Gan and Jianfeng Wang and Shuohang Wang and Lijuan Wang and Chenguang Zhu 0001 and Pengchuan Zhang and Lu Yuan 0001 and Nanyun Peng 0001 and Zicheng Liu 0001 and Michael Zeng 0001",
     "booktitle": "CVPR",
     "title": "An Empirical Study of Training End-to-End Vision-and-Language Transformers.",
     "year": "2022",
@@ -25819,7 +25819,7 @@
   "Unified Contrastive Learning in Image-Text-Label Space.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/YangLZXLYG22",
-    "author": "Jianwei Yang and Chunyuan Li and Pengchuan Zhang and Bin Xiao 0004 and Ce Liu 0001 and Lu Yuan and Jianfeng Gao 0001",
+    "author": "Jianwei Yang and Chunyuan Li and Pengchuan Zhang and Bin Xiao 0004 and Ce Liu 0001 and Lu Yuan 0001 and Jianfeng Gao 0001",
     "booktitle": "CVPR",
     "title": "Unified Contrastive Learning in Image-Text-Label Space.",
     "year": "2022",

@@ -7274,7 +7274,7 @@
   "Human-Instructed Deep Hierarchical Generative Learning for Automated Urban Planning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWZZSF23",
-    "author": "Dongjie Wang and Lingfei Wu 0001 and Denghui Zhang and Jingbo Zhou 0003 and Leilei Sun and Yanjie Fu",
+    "author": "Dongjie Wang 0001 and Lingfei Wu 0001 and Denghui Zhang and Jingbo Zhou 0003 and Leilei Sun and Yanjie Fu",
     "booktitle": "AAAI",
     "title": "Human-Instructed Deep Hierarchical Generative Learning for Automated Urban Planning.",
     "year": "2023",
@@ -7667,7 +7667,7 @@
   "Fair Representation Learning for Recommendation: A Mutual Information Perspective.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoWSZH023",
-    "author": "Chen Zhao and Le Wu and Pengyang Shao and Kun Zhang 0015 and Richang Hong and Meng Wang 0001",
+    "author": "Chen Zhao and Le Wu 0001 and Pengyang Shao and Kun Zhang 0015 and Richang Hong and Meng Wang 0001",
     "booktitle": "AAAI",
     "title": "Fair Representation Learning for Recommendation: A Mutual Information Perspective.",
     "year": "2023",
@@ -11829,7 +11829,7 @@
   "Dish-TS: A General Paradigm for Alleviating Distribution Shift in Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0010WWWZF23",
-    "author": "Wei Fan 0010 and Pengyang Wang and Dongkun Wang and Dongjie Wang and Yuanchun Zhou and Yanjie Fu",
+    "author": "Wei Fan 0010 and Pengyang Wang and Dongkun Wang and Dongjie Wang 0001 and Yuanchun Zhou and Yanjie Fu",
     "booktitle": "AAAI",
     "title": "Dish-TS: A General Paradigm for Alleviating Distribution Shift in Time Series Forecasting.",
     "year": "2023",
@@ -12726,7 +12726,7 @@
   "Energy-Motivated Equivariant Pretraining for 3D Molecular Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiaoH0R023",
-    "author": "Rui Jiao and Jiaqi Han and Wenbing Huang 0001 and Yu Rong 0001 and Yang Liu 0005",
+    "author": "Rui Jiao and Jiaqi Han 0001 and Wenbing Huang 0001 and Yu Rong 0001 and Yang Liu 0005",
     "booktitle": "AAAI",
     "title": "Energy-Motivated Equivariant Pretraining for 3D Molecular Graphs.",
     "year": "2023",
@@ -28127,7 +28127,7 @@
   "FC-TrackNet: Fast Convergence Net for 6D Pose Tracking in Synthetic Domains.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiaWCCJ23",
-    "author": "Di Jia and Qian Wang 0053 and Jun Cao and Peng Cai and Zhiyang Jin",
+    "author": "Di Jia and Qian Wang 0053 and Jun Cao and Peng Cai 0005 and Zhiyang Jin",
     "booktitle": "AAAI",
     "title": "FC-TrackNet: Fast Convergence Net for 6D Pose Tracking in Synthetic Domains.",
     "year": "2023",

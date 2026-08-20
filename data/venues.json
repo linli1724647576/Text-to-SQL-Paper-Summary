@@ -119,7 +119,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/AAAI2023.json",
-          "sha256": "dd68ecf00e0f10922fe38c39458a7523beb64c18406bfef9279148ec6341d39d"
+          "sha256": "5c2bc493ba422b0fe2fb4615860de1359d731c2fafbae21dab53fe140f1ee36e"
         }
       ],
       "processing": {
@@ -385,7 +385,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ACL2023.json",
-          "sha256": "2fe78c3ceaf1df7adbb6590cf180571eec18f3822c2c11cc2748e020da553572"
+          "sha256": "5200c4bb67930a17722a715087899de94774cac0ee84b0469b56b3966edaa6f0"
         }
       ],
       "processing": {
@@ -1621,7 +1621,7 @@
       "files": [
         {
           "path": "data/rawdata/2023/ICCV2023.json",
-          "sha256": "1265d8205013a7a027f97e5d4924289d3121b1e7be8ecff7aa325d3d8d974900"
+          "sha256": "be27fbde11e7c50034e827ca15cb85889fb4628f707cd6358de97fda565605e3"
         }
       ],
       "processing": {

@@ -2411,7 +2411,7 @@
   "Hyp-OW: Exploiting Hierarchical Structure Learning with Hyperbolic Distance Enhances Open World Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DoanLBHGR24",
-    "author": "Thang Doan and Xin Li and Sima Behpour and Wenbin He and Liang Gou and Liu Ren",
+    "author": "Thang Doan and Xin Li and Sima Behpour and Wenbin He and Liang Gou and Liu Ren 0001",
     "booktitle": "AAAI",
     "title": "Hyp-OW: Exploiting Hierarchical Structure Learning with Hyperbolic Distance Enhances Open World Object Detection.",
     "year": "2024",
@@ -3910,7 +3910,7 @@
   "Transferable Video Moment Localization by Moment-Guided Query Prompting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangYM24",
-    "author": "Hao Jiang and Yang Yizhang and Yadong Mu",
+    "author": "Hao Jiang 0032 and Yang Yizhang and Yadong Mu",
     "booktitle": "AAAI",
     "title": "Transferable Video Moment Localization by Moment-Guided Query Prompting.",
     "year": "2024",
@@ -13759,7 +13759,7 @@
   "Full Bayesian Significance Testing for Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuLWH24",
-    "author": "Zehua Liu and Zimeng Li and Jingyuan Wang 0001 and Yue He",
+    "author": "Zehua Liu and Zimeng Li 0002 and Jingyuan Wang 0001 and Yue He",
     "booktitle": "AAAI",
     "title": "Full Bayesian Significance Testing for Neural Networks.",
     "year": "2024",
@@ -19752,7 +19752,7 @@
   "One Step Learning, One Step Review.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangLLG24",
-    "author": "Xiaolong Huang and Qiankun Li and Xueran Li and Xuesong Gao",
+    "author": "Xiaolong Huang 0001 and Qiankun Li 0004 and Xueran Li and Xuesong Gao",
     "booktitle": "AAAI",
     "title": "One Step Learning, One Step Review.",
     "year": "2024",
@@ -20088,7 +20088,7 @@
   "Which Is More Effective in Label Noise Cleaning, Correction or Filtering?": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangZBWM24",
-    "author": "Gaoxia Jiang and Jia Zhang 0023 and Xuefei Bai and Wenjian Wang and Deyu Meng",
+    "author": "Gaoxia Jiang and Jia Zhang 0023 and Xuefei Bai and Wenjian Wang 0001 and Deyu Meng",
     "booktitle": "AAAI",
     "title": "Which Is More Effective in Label Noise Cleaning, Correction or Filtering?",
     "year": "2024",
@@ -27298,7 +27298,7 @@
   "Imagine, Initialize, and Explore: An Effective Exploration Method in Multi-Agent Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuWYCCL24",
-    "author": "Zeyang Liu 0001 and Lipeng Wan 0003 and Xinrui Yang and Zhuoran Chen and Xingyu Chen and Xuguang Lan",
+    "author": "Zeyang Liu 0001 and Lipeng Wan 0003 and Xinrui Yang and Zhuoran Chen and Xingyu Chen 0001 and Xuguang Lan",
     "booktitle": "AAAI",
     "title": "Imagine, Initialize, and Explore: An Effective Exploration Method in Multi-Agent Reinforcement Learning.",
     "year": "2024",
@@ -27466,7 +27466,7 @@
   "ProAgent: Building Proactive Cooperative Agents with Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangYHWLSZZLZC24",
-    "author": "Ceyao Zhang and Kaijie Yang and Siyi Hu and Zihao Wang and Guanghe Li and Yihang Sun and Cheng Zhang and Zhaowei Zhang 0001 and Anji Liu and Song-Chun Zhu and Xiaojun Chang and Junge Zhang and Feng Yin 0001 and Yitao Liang and Yaodong Yang 0001",
+    "author": "Ceyao Zhang and Kaijie Yang and Siyi Hu 0001 and Zihao Wang and Guanghe Li and Yihang Sun and Cheng Zhang and Zhaowei Zhang 0001 and Anji Liu and Song-Chun Zhu and Xiaojun Chang and Junge Zhang and Feng Yin 0001 and Yitao Liang and Yaodong Yang 0001",
     "booktitle": "AAAI",
     "title": "ProAgent: Building Proactive Cooperative Agents with Large Language Models.",
     "year": "2024",
@@ -30732,7 +30732,7 @@
   "FT-GAN: Fine-Grained Tune Modeling for Chinese Opera Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhengBSZY24",
-    "author": "Meizhen Zheng and Peng Bai and Xiaodong Shi and Xun Zhou and Yiting Yan",
+    "author": "Meizhen Zheng and Peng Bai 0006 and Xiaodong Shi and Xun Zhou and Yiting Yan",
     "booktitle": "AAAI",
     "title": "FT-GAN: Fine-Grained Tune Modeling for Chinese Opera Synthesis.",
     "year": "2024",
@@ -31068,7 +31068,7 @@
   "Towards the Robustness of Differentially Private Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/QiW024",
-    "author": "Tao Qi and Huili Wang and Yongfeng Huang 0001",
+    "author": "Tao Qi 0001 and Huili Wang 0001 and Yongfeng Huang 0001",
     "booktitle": "AAAI",
     "title": "Towards the Robustness of Differentially Private Federated Learning.",
     "year": "2024",
@@ -36942,7 +36942,7 @@
   "Detecting AI-Generated Code Assignments Using Perplexity of Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuS24",
-    "author": "Zhenyu Xu and Victor S. Sheng",
+    "author": "Zhenyu Xu 0006 and Victor S. Sheng",
     "booktitle": "AAAI",
     "title": "Detecting AI-Generated Code Assignments Using Perplexity of Large Language Models.",
     "year": "2024",
@@ -39255,7 +39255,7 @@
   "Bridging the Gap between Source Code and Requirements Using GPT (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuXLS24",
-    "author": "Ruoyu Xu and Zhenyu Xu and Gaoxiang Li and Victor S. Sheng",
+    "author": "Ruoyu Xu and Zhenyu Xu 0006 and Gaoxiang Li and Victor S. Sheng",
     "booktitle": "AAAI",
     "title": "Bridging the Gap between Source Code and Requirements Using GPT (Student Abstract).",
     "year": "2024",
@@ -39269,7 +39269,7 @@
   "ChatGPT-Generated Code Assignment Detection Using Perplexity of Large Language Models (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuXS24",
-    "author": "Zhenyu Xu and Ruoyu Xu and Victor S. Sheng",
+    "author": "Zhenyu Xu 0006 and Ruoyu Xu and Victor S. Sheng",
     "booktitle": "AAAI",
     "title": "ChatGPT-Generated Code Assignment Detection Using Perplexity of Large Language Models (Student Abstract).",
     "year": "2024",

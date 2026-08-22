@@ -4093,7 +4093,7 @@
   "DCSF-KD: Dynamic Channel-wise Spatial Feature Knowledge Distillation for Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0001LGWZ25",
-    "author": "Tao Dai 0001 and Yang Lin and Hang Guo 0002 and Jinbao Wang and Zexuan Zhu 0001",
+    "author": "Tao Dai 0001 and Yang Lin and Hang Guo 0002 and Jinbao Wang 0001 and Zexuan Zhu 0001",
     "booktitle": "AAAI",
     "title": "DCSF-KD: Dynamic Channel-wise Spatial Feature Knowledge Distillation for Object Detection.",
     "year": "2025",
@@ -7977,7 +7977,7 @@
   "Exploring the Potential of Large Vision-Language Models for Unsupervised Text-Based Person Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLSCHTSL25",
-    "author": "Zongyi Li and Jianbo Li and Yuxuan Shi and Jiazhong Chen and Shijuan Huang and Linnan Tu and Fei Shen and Hefei Ling",
+    "author": "Zongyi Li and Jianbo Li and Yuxuan Shi 0002 and Jiazhong Chen and Shijuan Huang and Linnan Tu and Fei Shen 0004 and Hefei Ling",
     "booktitle": "AAAI",
     "title": "Exploring the Potential of Large Vision-Language Models for Unsupervised Text-Based Person Retrieval.",
     "year": "2025",
@@ -8019,7 +8019,7 @@
   "Look Inside for More: Internal Spatial Modality Perception for 3D Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiangXHWGW25",
-    "author": "Hanzhe Liang and Guoyang Xie and Chengbin Hou and Bingshu Wang and Can Gao and Jinbao Wang",
+    "author": "Hanzhe Liang and Guoyang Xie and Chengbin Hou and Bingshu Wang and Can Gao and Jinbao Wang 0001",
     "booktitle": "AAAI",
     "title": "Look Inside for More: Internal Spatial Modality Perception for 3D Anomaly Detection.",
     "year": "2025",
@@ -9797,7 +9797,7 @@
   "Learning with Open-world Noisy Data via Class-independent Margin in Dual Representation Space.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/PanGZW25",
-    "author": "Linchao Pan and Can Gao and Jie Zhou and Jinbao Wang",
+    "author": "Linchao Pan and Can Gao and Jie Zhou and Jinbao Wang 0001",
     "booktitle": "AAAI",
     "title": "Learning with Open-world Noisy Data via Class-independent Margin in Dual Representation Space.",
     "year": "2025",
@@ -10567,7 +10567,7 @@
   "Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ShenYLZ00W25",
-    "author": "Fei Shen and Hu Ye and Sibo Liu and Jun Zhang 0018 and Cong Wang 0034 and Xiao Han 0011 and Yang Wei",
+    "author": "Fei Shen 0004 and Hu Ye and Sibo Liu and Jun Zhang 0018 and Cong Wang 0034 and Xiao Han 0011 and Yang Wei",
     "booktitle": "AAAI",
     "title": "Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models.",
     "year": "2025",
@@ -10581,7 +10581,7 @@
   "IMAGDressing-v1: Customizable Virtual Dressing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Shen0HYW0L025",
-    "author": "Fei Shen and Xin Jiang 0010 and Xin He and Hu Ye and Cong Wang 0034 and Xiaoyu Du 0002 and Zechao Li and Jinhui Tang 0001",
+    "author": "Fei Shen 0004 and Xin Jiang 0010 and Xin He and Hu Ye and Cong Wang 0034 and Xiaoyu Du 0002 and Zechao Li and Jinhui Tang 0001",
     "booktitle": "AAAI",
     "title": "IMAGDressing-v1: Customizable Virtual Dressing.",
     "year": "2025",
@@ -11380,7 +11380,7 @@
   "RAGG: Retrieval-Augmented Grasp Generation Model.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangZHNH25",
-    "author": "Zhenhua Tang and Bin Zhu 0006 and Yanbin Hao and Chong-Wah Ngo and Richang Hong",
+    "author": "Zhenhua Tang 0001 and Bin Zhu 0006 and Yanbin Hao and Chong-Wah Ngo and Richang Hong",
     "booktitle": "AAAI",
     "title": "RAGG: Retrieval-Augmented Grasp Generation Model.",
     "year": "2025",
@@ -11562,7 +11562,7 @@
   "Improving Transformer Based Line Segment Detection with Matched Predicting and Re-ranking.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TongPTGH025",
-    "author": "Xin Tong and Shi Peng and Baojie Tian and Yufei Guo 0002 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Xin Tong and Shi Peng and Baojie Tian and Yufei Guo 0001 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Improving Transformer Based Line Segment Detection with Matched Predicting and Re-ranking.",
     "year": "2025",
@@ -12320,7 +12320,7 @@
   "FreeGen: Bridging Visual-Linguistic Discrepancies Towards Diffusion-based Pixel-level Data Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangMCXLL25",
-    "author": "Wenzhuang Wang and Mingcan Ma and Yong Chen and Changqun Xia and Zhenbao Liang and Jia Li",
+    "author": "Wenzhuang Wang and Mingcan Ma and Yong Chen and Changqun Xia and Zhenbao Liang and Jia Li 0003",
     "booktitle": "AAAI",
     "title": "FreeGen: Bridging Visual-Linguistic Discrepancies Towards Diffusion-based Pixel-level Data Synthesis.",
     "year": "2025",
@@ -12558,7 +12558,7 @@
   "Breaking Barriers in Physical-World Adversarial Examples: Improving Robustness and Transferability via Robust Feature.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangC0ZWHL25",
-    "author": "Yichen Wang and Yuxuan Chou and Ziqi Zhou 0001 and Hangtao Zhang and Wei Wan and Shengshan Hu and Minghui Li",
+    "author": "Yichen Wang 0013 and Yuxuan Chou and Ziqi Zhou 0001 and Hangtao Zhang and Wei Wan and Shengshan Hu and Minghui Li",
     "booktitle": "AAAI",
     "title": "Breaking Barriers in Physical-World Adversarial Examples: Improving Robustness and Transferability via Robust Feature.",
     "year": "2025",
@@ -15164,7 +15164,7 @@
   "DVP-MVS: Synergize Depth-Edge and Visibility Prior for Multi-View Stereo.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuanLSLLMW25",
-    "author": "Zhenlong Yuan and Jinguo Luo and Fei Shen and Zhaoxin Li and Cong Liu and Tianlu Mao and Zhaoqi Wang",
+    "author": "Zhenlong Yuan and Jinguo Luo and Fei Shen 0004 and Zhaoxin Li and Cong Liu and Tianlu Mao and Zhaoqi Wang",
     "booktitle": "AAAI",
     "title": "DVP-MVS: Synergize Depth-Edge and Visibility Prior for Multi-View Stereo.",
     "year": "2025",
@@ -15178,7 +15178,7 @@
   "MSP-MVS: Multi-Granularity Segmentation Prior Guided Multi-View Stereo.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuanLSLLMW25a",
-    "author": "Zhenlong Yuan and Cong Liu and Fei Shen and Zhaoxin Li and Jinguo Luo and Tianlu Mao and Zhaoqi Wang",
+    "author": "Zhenlong Yuan and Cong Liu and Fei Shen 0004 and Zhaoxin Li and Jinguo Luo and Tianlu Mao and Zhaoqi Wang",
     "booktitle": "AAAI",
     "title": "MSP-MVS: Multi-Granularity Segmentation Prior Guided Multi-View Stereo.",
     "year": "2025",
@@ -36935,7 +36935,7 @@
   "Region-Based Optimization in Continual Learning for Audio Deepfake Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ChenYF0RZZYGXWL25",
-    "author": "Yujie Chen 0006 and Jiangyan Yi and Cunhang Fan and Jianhua Tao 0001 and Yong Ren and Siding Zeng and Chu Yuan Zhang and Xinrui Yan and Hao Gu and Jun Xue 0001 and Chenglong Wang 0001 and Zhao Lv and Xiaohui Zhang 0006",
+    "author": "Yujie Chen 0006 and Jiangyan Yi and Cunhang Fan and Jianhua Tao 0001 and Yong Ren 0006 and Siding Zeng and Chu Yuan Zhang and Xinrui Yan and Hao Gu and Jun Xue 0001 and Chenglong Wang 0001 and Zhao Lv and Xiaohui Zhang 0006",
     "booktitle": "AAAI",
     "title": "Region-Based Optimization in Continual Learning for Audio Deepfake Detection.",
     "year": "2025",
@@ -48810,7 +48810,7 @@
   "MathMistake Checker: A Comprehensive Demonstration for Step-by-Step Math Problem Mistake Finding by Prompt-Guided LLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangJZLZ25",
-    "author": "Tianyang Zhang 0004 and Zhuoxuan Jiang and Haotian Zhang and Lin Lin and Shaohua Zhang",
+    "author": "Tianyang Zhang 0004 and Zhuoxuan Jiang and Haotian Zhang 0029 and Lin Lin and Shaohua Zhang",
     "booktitle": "AAAI",
     "title": "MathMistake Checker: A Comprehensive Demonstration for Step-by-Step Math Problem Mistake Finding by Prompt-Guided LLMs.",
     "year": "2025",

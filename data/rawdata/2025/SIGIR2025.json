@@ -1784,7 +1784,7 @@
   "Exploring Training and Inference Scaling Laws in Generative Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/CaiLYWZLC25",
-    "author": "Hongru Cai and Yongqi Li 0001 and Ruifeng Yuan and Wenjie Wang 0007 and Zhen Zhang and Wenjie Li 0002 and Tat-Seng Chua",
+    "author": "Hongru Cai and Yongqi Li 0001 and Ruifeng Yuan and Wenjie Wang 0007 and Zhen Zhang 0008 and Wenjie Li 0002 and Tat-Seng Chua",
     "booktitle": "SIGIR",
     "title": "Exploring Training and Inference Scaling Laws in Generative Retrieval.",
     "year": "2025",

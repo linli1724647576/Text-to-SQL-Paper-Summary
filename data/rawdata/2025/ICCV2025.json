@@ -7471,7 +7471,7 @@
   "Lightweight and Fast Real-Time Image Enhancement via Decomposition of the Spatial-Aware Lookup Tables.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/KimLC25",
-    "author": "Wontae Kim and Keuntek Lee and Nam Ik Cho",
+    "author": "Wontae Kim 0002 and Keuntek Lee and Nam Ik Cho",
     "booktitle": "ICCV",
     "title": "Lightweight and Fast Real-Time Image Enhancement via Decomposition of the Spatial-Aware Lookup Tables.",
     "year": "2025",
@@ -9240,7 +9240,7 @@
   "Bridging the Gap Between Brain and Machine in Interpreting Visual Semantics: Towards Self-Adaptive Brain-to-Text Decoding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ChenQWP25",
-    "author": "Jiaxuan Chen and Yu Qi and Yueming Wang and Gang Pan",
+    "author": "Jiaxuan Chen and Yu Qi and Yueming Wang 0001 and Gang Pan 0001",
     "booktitle": "ICCV",
     "title": "Bridging the Gap Between Brain and Machine in Interpreting Visual Semantics: Towards Self-Adaptive Brain-to-Text Decoding.",
     "year": "2025",
@@ -10458,7 +10458,7 @@
   "CHORDS: Diffusion Sampling Accelerator with Multi-Core Hierarchical ODE Solvers.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HanYLXZE25",
-    "author": "Jiaqi Han and Haotian Ye and Puheng Li and Minkai Xu and James Zou 0001 and Stefano Ermon",
+    "author": "Jiaqi Han 0001 and Haotian Ye and Puheng Li and Minkai Xu and James Zou 0001 and Stefano Ermon",
     "booktitle": "ICCV",
     "title": "CHORDS: Diffusion Sampling Accelerator with Multi-Core Hierarchical ODE Solvers.",
     "year": "2025",
@@ -11284,7 +11284,7 @@
   "MambaMl: Exploring State Space Models for Multi-Label Image Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuLCW25",
-    "author": "Xuelin Zhu and Jian Liu and Jiuxin Cao and Bing Wang",
+    "author": "Xuelin Zhu and Jian Liu and Jiuxin Cao and Bing Wang 0013",
     "booktitle": "ICCV",
     "title": "MambaMl: Exploring State Space Models for Multi-Label Image Classification.",
     "year": "2025",
@@ -14995,7 +14995,7 @@
   "CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/KumarGZHRL25",
-    "author": "Abhinav Kumar 0004 and Yuliang Guo and Zhihao Zhang and Xinyu Huang 0001 and Liu Ren and Xiaoming Liu 0002",
+    "author": "Abhinav Kumar 0004 and Yuliang Guo and Zhihao Zhang and Xinyu Huang 0001 and Liu Ren 0001 and Xiaoming Liu 0002",
     "booktitle": "ICCV",
     "title": "CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector.",
     "year": "2025",
@@ -15107,7 +15107,7 @@
   "Semantics Versus Identity: A Divide-and-Conquer Approach Towards Adjustable Medical Image De-Identification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/TianWZCJLZYHWZ25",
-    "author": "Yuan Tian 0017 and Shuo Wang and Rongzhao Zhang and Zijian Chen 0001 and Yankai Jiang 0003 and Chunyi Li and Xiangyang Zhu and Fang Yan 0002 and Qiang Hu 0003 and Xiaosong Wang 0001 and Guangtao Zhai",
+    "author": "Yuan Tian 0017 and Shuo Wang and Rongzhao Zhang and Zijian Chen 0001 and Yankai Jiang 0003 and Chunyi Li 0001 and Xiangyang Zhu and Fang Yan 0002 and Qiang Hu 0003 and Xiaosong Wang 0001 and Guangtao Zhai",
     "booktitle": "ICCV",
     "title": "Semantics Versus Identity: A Divide-and-Conquer Approach Towards Adjustable Medical Image De-Identification.",
     "year": "2025",
@@ -16087,7 +16087,7 @@
   "Beyond Spatial Frequency: Pixel-Wise Temporal Frequency-Based Deepfake Video Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/KimCJNYBC25",
-    "author": "Taehoon Kim and Jongwook Choi and Yonghyun Jeong and Haeun Noh and Jaejun Yoo and Seungryul Baek and Jongwon Choi",
+    "author": "Taehoon Kim 0004 and Jongwook Choi 0001 and Yonghyun Jeong and Haeun Noh and Jaejun Yoo 0001 and Seungryul Baek and Jongwon Choi",
     "booktitle": "ICCV",
     "title": "Beyond Spatial Frequency: Pixel-Wise Temporal Frequency-Based Deepfake Video Detection.",
     "year": "2025",
@@ -17235,7 +17235,7 @@
   "Learned Image Compression with Hierarchical Progressive Context Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiZLL25",
-    "author": "Yuqi Li and Haotian Zhang and Li Li and Dong Liu",
+    "author": "Yuqi Li and Haotian Zhang 0009 and Li Li 0040 and Dong Liu 0002",
     "booktitle": "ICCV",
     "title": "Learned Image Compression with Hierarchical Progressive Context Modeling.",
     "year": "2025",
@@ -19055,7 +19055,7 @@
   "Information Density Principle for MLLM Benchmarks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiLZTJLMWDCZ25",
-    "author": "Chunyi Li and Xiaozhe Li and Zicheng Zhang and Yuan Tian 0017 and Ziheng Jia and Xiaohong Liu 0001 and Xiongkuo Min and Jia Wang 0004 and Haodong Duan and Kai Chen 0026 and Guangtao Zhai",
+    "author": "Chunyi Li 0001 and Xiaozhe Li and Zicheng Zhang and Yuan Tian 0017 and Ziheng Jia and Xiaohong Liu 0001 and Xiongkuo Min and Jia Wang 0004 and Haodong Duan and Kai Chen 0026 and Guangtao Zhai",
     "booktitle": "ICCV",
     "title": "Information Density Principle for MLLM Benchmarks.",
     "year": "2025",
@@ -19153,7 +19153,7 @@
   "BridgeDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/GuanGWL25",
-    "author": "Tongfan Guan and Jiaxin Guo and Chen Wang and Yun-Hui Liu",
+    "author": "Tongfan Guan and Jiaxin Guo and Chen Wang 0033 and Yun-Hui Liu",
     "booktitle": "ICCV",
     "title": "BridgeDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment.",
     "year": "2025",
@@ -19405,7 +19405,7 @@
   "MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/JiangLYLWCM25",
-    "author": "Jianfei Jiang 0006 and Qiankun Liu and Haochen Yu and Hongyuan Liu 0007 and Liyong Wang and Jiansheng Chen and Huimin Ma 0001",
+    "author": "Jianfei Jiang 0006 and Qiankun Liu 0001 and Haochen Yu and Hongyuan Liu 0007 and Liyong Wang and Jiansheng Chen and Huimin Ma 0001",
     "booktitle": "ICCV",
     "title": "MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network.",
     "year": "2025",
@@ -19615,7 +19615,7 @@
   "NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/BinHWCW25",
-    "author": "Yanrui Bin and Wenbo Hu and Haoyuan Wang and Xinya Chen and Bing Wang",
+    "author": "Yanrui Bin and Wenbo Hu and Haoyuan Wang and Xinya Chen and Bing Wang 0013",
     "booktitle": "ICCV",
     "title": "NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors.",
     "year": "2025",
@@ -24110,7 +24110,7 @@
   "Online Language Splatting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/KatragaddaWGHHR25",
-    "author": "Saimouli Katragadda and Cho-Ying Wu and Yuliang Guo and Xinyu Huang 0001 and Guoquan Huang 0001 and Liu Ren",
+    "author": "Saimouli Katragadda and Cho-Ying Wu and Yuliang Guo and Xinyu Huang 0001 and Guoquan Huang 0001 and Liu Ren 0001",
     "booktitle": "ICCV",
     "title": "Online Language Splatting.",
     "year": "2025",
@@ -24320,7 +24320,7 @@
   "ProSAM: Enhancing the Robustness of Sam-Based Visual Reference Segmentation with Probabilistic Prompts.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangSHR25",
-    "author": "Xiaoqi Wang and Clint Sebastian and Wenbin He and Liu Ren",
+    "author": "Xiaoqi Wang and Clint Sebastian and Wenbin He and Liu Ren 0001",
     "booktitle": "ICCV",
     "title": "ProSAM: Enhancing the Robustness of Sam-Based Visual Reference Segmentation with Probabilistic Prompts.",
     "year": "2025",
@@ -26266,7 +26266,7 @@
   "Svit-Split: Unleashing the Power of Vision Foundation Models Via Efficient Splitting Heads.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiLLHKR25",
-    "author": "Yifan Li and Xin Li and Tianqin Li and Wenbin He and Yu Kong and Liu Ren",
+    "author": "Yifan Li and Xin Li and Tianqin Li and Wenbin He and Yu Kong and Liu Ren 0001",
     "booktitle": "ICCV",
     "title": "Svit-Split: Unleashing the Power of Vision Foundation Models Via Efficient Splitting Heads.",
     "year": "2025",
@@ -27694,7 +27694,7 @@
   "Entropy-Adaptive Diffusion Policy Optimization with Dynamic Step Alignment.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YanCGSWYLLZZZXCH25",
-    "author": "Renye Yan and Jikang Cheng and Yaozhong Gan and Shikun Sun and You Wu and Yunfan Yang and Ling Liang and Jinlong Lin and Yeshuang Zhu and Jie Zhou 0001 and Jinchao Zhang and Junliang Xing and Yimao Cai and Ru Huang 0001",
+    "author": "Renye Yan and Jikang Cheng and Yaozhong Gan and Shikun Sun and You Wu and Yunfan Yang and Ling Liang 0003 and Jinlong Lin and Yeshuang Zhu and Jie Zhou 0001 and Jinchao Zhang and Junliang Xing and Yimao Cai and Ru Huang 0001",
     "booktitle": "ICCV",
     "title": "Entropy-Adaptive Diffusion Policy Optimization with Dynamic Step Alignment.",
     "year": "2025",
@@ -32259,7 +32259,7 @@
   "Synergistic Prompting for Robust Visual Recognition with Missing Modalities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangDLDJGZH25",
-    "author": "Zhihui Zhang and Luanyuan Dai and Qika Lin and Yunfeng Diao and Guangyin Jin and Yufei Guo and Jing Zhang 0037 and Xiaoshuai Hao",
+    "author": "Zhihui Zhang and Luanyuan Dai and Qika Lin and Yunfeng Diao and Guangyin Jin and Yufei Guo 0001 and Jing Zhang 0037 and Xiaoshuai Hao",
     "booktitle": "ICCV",
     "title": "Synergistic Prompting for Robust Visual Recognition with Missing Modalities.",
     "year": "2025",
@@ -32371,7 +32371,7 @@
   "Text-to-Any-Skeleton Motion Generation Without Retargeting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuLDXNW25",
-    "author": "Qingyuan Liu and Ke Lu 0002 and Kun Dong 0001 and Jian Xue 0002 and Zehai Niu and Jinbao Wang",
+    "author": "Qingyuan Liu and Ke Lu 0002 and Kun Dong 0001 and Jian Xue 0002 and Zehai Niu and Jinbao Wang 0001",
     "booktitle": "ICCV",
     "title": "Text-to-Any-Skeleton Motion Generation Without Retargeting.",
     "year": "2025",
@@ -34839,7 +34839,7 @@
   "SDFormer: Vision-Based 3D Semantic Scene Completion via SAM-Assisted Dual-Channel Voxel Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XuePZQTLL25",
-    "author": "Yujie Xue and Huilong Pi and Jiapeng Zhang and Yunchuan Qin and Zhuo Tang and Kenli Li 0001 and Ruihui Li",
+    "author": "Yujie Xue and Huilong Pi and Jiapeng Zhang 0001 and Yunchuan Qin and Zhuo Tang and Kenli Li 0001 and Ruihui Li",
     "booktitle": "ICCV",
     "title": "SDFormer: Vision-Based 3D Semantic Scene Completion via SAM-Assisted Dual-Channel Voxel Transformer.",
     "year": "2025",
@@ -36729,7 +36729,7 @@
   "Membership Inference Attacks With False Discovery Rate Control.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhaoQCH25",
-    "author": "Chenxu Zhao and Wei Qian and Aobo Chen and Mengdi Huai",
+    "author": "Chenxu Zhao and Wei Qian and Aobo Chen 0002 and Mengdi Huai",
     "booktitle": "ICCV",
     "title": "Membership Inference Attacks With False Discovery Rate Control.",
     "year": "2025",

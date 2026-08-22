@@ -1,68 +1,81 @@
 {
   "summary": {
-    "fetched_entries": 7071,
+    "fetched_entries": 3395,
     "failure_count": 0,
-    "warning_count": 2,
-    "skipped_count": 6
+    "warning_count": 1,
+    "skipped_count": 9
   },
   "failures": [],
   "warnings": [
     {
-      "venue": "ISSTA",
-      "year": 2024,
+      "venue": "KDD",
+      "year": 2025,
       "source": "official-accepted",
       "status": "parse_skipped",
-      "url": "https://conf.researchr.org/track/issta-2024/issta-2024-papers",
+      "url": "https://kdd2025.kdd.org/research-track-papers/",
       "parsed_entries": 0
-    },
-    {
-      "venue": "WWW",
-      "year": 2024,
-      "source": "official-accepted",
-      "status": "parse_skipped",
-      "url": "https://www2024.thewebconf.org/accepted/research-tracks/",
-      "parsed_entries": 1
     }
   ],
   "skipped": [
     {
+      "venue": "ACL",
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICDE",
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "ICSE",
-      "year": 2024,
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
       "venue": "FSE",
-      "year": 2024,
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
       "venue": "ASE",
-      "year": 2024,
+      "year": 2025,
+      "source": "official-accepted",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ISSTA",
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
       "venue": "IJCAI",
-      "year": 2024,
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "KDD",
-      "year": 2024,
+      "venue": "SIGIR",
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
       "venue": "SIGMOD",
-      "year": 2024,
+      "year": 2025,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"

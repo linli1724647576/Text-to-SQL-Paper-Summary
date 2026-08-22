@@ -4024,7 +4024,7 @@
   "Enhancing Multimodal Continual Instruction Tuning with BranchLoRA.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangRLY0LJB25",
-    "author": "Duzhen Zhang and Yong Ren and Zhong-Zhi Li and Yahan Yu and Jiahua Dong 0001 and Chenxing Li and Zhilong Ji and Jinfeng Bai",
+    "author": "Duzhen Zhang and Yong Ren 0006 and Zhong-Zhi Li and Yahan Yu and Jiahua Dong 0001 and Chenxing Li and Zhilong Ji and Jinfeng Bai",
     "booktitle": "ACL (1)",
     "title": "Enhancing Multimodal Continual Instruction Tuning with BranchLoRA.",
     "year": "2025",
@@ -8578,7 +8578,7 @@
   "Redundancy Principles for MLLMs Benchmarks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangZFL0MDCZ25",
-    "author": "Zicheng Zhang and Xiangyu Zhao and Xinyu Fang and Chunyi Li and Xiaohong Liu 0001 and Xiongkuo Min and Haodong Duan and Kai Chen 0026 and Guangtao Zhai",
+    "author": "Zicheng Zhang and Xiangyu Zhao and Xinyu Fang and Chunyi Li 0001 and Xiaohong Liu 0001 and Xiongkuo Min and Haodong Duan and Kai Chen 0026 and Guangtao Zhai",
     "booktitle": "ACL (1)",
     "title": "Redundancy Principles for MLLMs Benchmarks.",
     "year": "2025",
@@ -9713,7 +9713,7 @@
   "UniRAG: Unified Query Understanding Method for Retrieval Augmented Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiHLZYYZS25",
-    "author": "Rui Li 0093 and Liyang He and Qi Liu 0003 and Zheng Zhang 0048 and Heng Yu and Yuyang Ye and Linbo Zhu and Yu Su 0002",
+    "author": "Rui Li 0093 and Liyang He and Qi Liu 0003 and Zheng Zhang 0048 and Heng Yu and Yuyang Ye 0002 and Linbo Zhu and Yu Su 0002",
     "booktitle": "ACL (1)",
     "title": "UniRAG: Unified Query Understanding Method for Retrieval Augmented Generation.",
     "year": "2025",
@@ -12671,7 +12671,7 @@
   "OASIS: Order-Augmented Strategy for Improved Code Search.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/GaoZLYZCZ025",
-    "author": "Zuchen Gao and Zizheng Zhan and Xianming Li and Erxin Yu and Haotian Zhang and Chenbin Chenbin and Yuqun Zhang and Jing Li 0049",
+    "author": "Zuchen Gao and Zizheng Zhan and Xianming Li and Erxin Yu and Haotian Zhang 0026 and Chenbin Chenbin and Yuqun Zhang and Jing Li 0049",
     "booktitle": "ACL (1)",
     "title": "OASIS: Order-Augmented Strategy for Improved Code Search.",
     "year": "2025",
@@ -14509,7 +14509,7 @@
   "Optimal Transport-Based Token Weighting scheme for Enhanced Preference Optimization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/LiHZWZ25",
-    "author": "Meng Li and Guangda Huzhang and Haibo Zhang and Xiting Wang and Anxiang Zeng",
+    "author": "Meng Li and Guangda Huzhang and Haibo Zhang 0013 and Xiting Wang and Anxiang Zeng",
     "booktitle": "ACL (1)",
     "title": "Optimal Transport-Based Token Weighting scheme for Enhanced Preference Optimization.",
     "year": "2025",
@@ -18713,7 +18713,7 @@
   "InspireDebate: Multi-Dimensional Subjective-Objective Evaluation-Guided Reasoning and Optimization for Debating.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/WangL0J25",
-    "author": "Fuyu Wang and Jiangtong Li and Kun Zhu 0036 and Changjun Jiang 0002",
+    "author": "Fuyu Wang 0004 and Jiangtong Li and Kun Zhu 0036 and Changjun Jiang 0002",
     "booktitle": "ACL (1)",
     "title": "InspireDebate: Multi-Dimensional Subjective-Objective Evaluation-Guided Reasoning and Optimization for Debating.",
     "year": "2025",
@@ -18895,7 +18895,7 @@
   "Online Iterative Self-Alignment for Radiology Report Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/XiaoSZYWB25",
-    "author": "Ting Xiao 0002 and Lei Shi 0004 and Yang Zhang and HaoFeng Yang and Zhe Wang 0002 and Chenjia Bai",
+    "author": "Ting Xiao 0002 and Lei Shi 0004 and Yang Zhang 0072 and HaoFeng Yang and Zhe Wang 0002 and Chenjia Bai",
     "booktitle": "ACL (1)",
     "title": "Online Iterative Self-Alignment for Radiology Report Generation.",
     "year": "2025",
@@ -20469,7 +20469,7 @@
     "booktitle": "ACL (1)",
     "title": "Map&Make: Schema Guided Text to Table Generation.",
     "year": "2025",
-    "abstract": "Transforming dense, unstructured text into interpretable tables-commonly referred to as Text-to-Table generation-is a key task in information extraction.Existing methods often overlook what complex information to extract and how to infer it from text.We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts.We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains.By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark.Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics.Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization.",
+    "abstract": "Transforming dense, unstructured text into interpretable tables-commonly referred to as Text-to-Table generation-is a key task in information extraction.Existing methods often overlook what complex information to extract and how to infer it from text.We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts.We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains.By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark.Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics.Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization.Code and data are available",
     "keywords": "",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.1460",
     "doi": "10.18653/v1/2025.acl-long.1460",

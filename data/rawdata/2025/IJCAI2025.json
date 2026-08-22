@@ -1304,7 +1304,7 @@
   "MC3D-AD: A Unified Geometry-aware Reconstruction Model for Multi-category 3D Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ChengGZ0DW25",
-    "author": "Jiayi Cheng and Can Gao and Jie Zhou 0009 and Jiajun Wen 0001 and Tao Dai and Jinbao Wang",
+    "author": "Jiayi Cheng and Can Gao and Jie Zhou 0009 and Jiajun Wen 0001 and Tao Dai and Jinbao Wang 0001",
     "booktitle": "IJCAI",
     "title": "MC3D-AD: A Unified Geometry-aware Reconstruction Model for Multi-category 3D Anomaly Detection.",
     "year": "2025",
@@ -2466,7 +2466,7 @@
   "Learning Real Facial Concepts for Independent Deepfake Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Liu000X25",
-    "author": "Ming-Hui Liu and Harry Cheng 0002 and Tianyi Wang 0006 and Xin Luo 0006 and Xin-Shun Xu",
+    "author": "Ming-Hui Liu 0001 and Harry Cheng 0002 and Tianyi Wang 0006 and Xin Luo 0006 and Xin-Shun Xu",
     "booktitle": "IJCAI",
     "title": "Learning Real Facial Concepts for Independent Deepfake Detection.",
     "year": "2025",
@@ -2480,7 +2480,7 @@
   "Fusion of Granular-Ball Visual Spatial Representations for Enhanced Facial Expression Recognition.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiuSWRW25",
-    "author": "Shuaiyu Liu and Qiyao Shen and Yunxi Wang and Yazhou Ren 0001 and Guoyin Wang",
+    "author": "Shuaiyu Liu and Qiyao Shen and Yunxi Wang and Yazhou Ren 0001 and Guoyin Wang 0001",
     "booktitle": "IJCAI",
     "title": "Fusion of Granular-Ball Visual Spatial Representations for Enhanced Facial Expression Recognition.",
     "year": "2025",
@@ -2550,7 +2550,7 @@
   "From Sparse to Complete: Semantic Understanding Based on Stroke Evolution in On-the-fly Sketch-based Image Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiuDHZW25",
-    "author": "Yingge Liu and Dawei Dai and Xiangling Hou and Shilin Zhao and Guoyin Wang",
+    "author": "Yingge Liu and Dawei Dai and Xiangling Hou and Shilin Zhao and Guoyin Wang 0001",
     "booktitle": "IJCAI",
     "title": "From Sparse to Complete: Semantic Understanding Based on Stroke Evolution in On-the-fly Sketch-based Image Retrieval.",
     "year": "2025",
@@ -2564,7 +2564,7 @@
   "OT-DETECTOR: Delving into Optimal Transport for Zero-shot Out-of-Distribution Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiuTZQL25",
-    "author": "Yu Liu 0158 and Hao Tang 0007 and Haiqi Zhang and Jing Qin 0001 and Zechao Li",
+    "author": "Yu Liu 0158 and Hao Tang 0007 and Haiqi Zhang 0001 and Jing Qin 0001 and Zechao Li",
     "booktitle": "IJCAI",
     "title": "OT-DETECTOR: Delving into Optimal Transport for Zero-shot Out-of-Distribution Detection.",
     "year": "2025",
@@ -3460,7 +3460,7 @@
   "DPMamba: Distillation Prompt Mamba for Multimodal Remote Sensing Image Classification with Missing Modalities.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/YangQHD25",
-    "author": "Yueguang Yang and Jiahui Qu and Ling Huang and Wenqian Dong",
+    "author": "Yueguang Yang and Jiahui Qu and Ling Huang 0009 and Wenqian Dong",
     "booktitle": "IJCAI",
     "title": "DPMamba: Distillation Prompt Mamba for Multimodal Remote Sensing Image Classification with Missing Modalities.",
     "year": "2025",
@@ -3727,7 +3727,7 @@
   "HyperTrans: Efficient Hypergraph-Driven Cross-Domain Pattern Transfer in Image Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangZLWL025",
-    "author": "Tengyu Zhang and Deyu Zeng and Baoqiang Li and Wei Wang and Wei Liu and Zongze Wu 0001",
+    "author": "Tengyu Zhang and Deyu Zeng and Baoqiang Li and Wei Wang and Wei Liu 0200 and Zongze Wu 0001",
     "booktitle": "IJCAI",
     "title": "HyperTrans: Efficient Hypergraph-Driven Cross-Domain Pattern Transfer in Image Anomaly Detection.",
     "year": "2025",
@@ -4749,7 +4749,7 @@
   "TOTF: Missing-Aware Encoders for Clustering on Multi-View Incomplete Attributed Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Li0ZY0025",
-    "author": "Mengyao Li and Xu Zhou 0001 and Jiapeng Zhang and Zhibang Yang and Cen Chen 0001 and Kenli Li 0001",
+    "author": "Mengyao Li and Xu Zhou 0001 and Jiapeng Zhang 0001 and Zhibang Yang and Cen Chen 0001 and Kenli Li 0001",
     "booktitle": "IJCAI",
     "title": "TOTF: Missing-Aware Encoders for Clustering on Multi-View Incomplete Attributed Graphs.",
     "year": "2025",
@@ -5422,7 +5422,7 @@
   "GBGC: Efficient and Adaptive Graph Coarsening via Granular-ball Computing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/XiaWX0W25",
-    "author": "Shuyin Xia and Guan Wang and Gaojie Xu and Sen Zhao 0001 and Guoyin Wang",
+    "author": "Shuyin Xia and Guan Wang and Gaojie Xu and Sen Zhao 0001 and Guoyin Wang 0001",
     "booktitle": "IJCAI",
     "title": "GBGC: Efficient and Adaptive Graph Coarsening via Granular-ball Computing.",
     "year": "2025",
@@ -6375,7 +6375,7 @@
   "Public Signaling in Markets with Information Asymmetry Using a Limited Number of Signals.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhaoLS25",
-    "author": "Xu Zhao 0008 and Ren Liu and Weiran Shen",
+    "author": "Xu Zhao 0008 and Ren Liu 0002 and Weiran Shen",
     "booktitle": "IJCAI",
     "title": "Public Signaling in Markets with Information Asymmetry Using a Limited Number of Signals.",
     "year": "2025",
@@ -10157,7 +10157,7 @@
   "SCNNs: Spike-based Coupling Neural Networks for Understanding Structural-Functional Relationships in the Human Brain.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WeiJW0R0H25",
-    "author": "Shaolong Wei and Shu Jiang and Mingliang Wang and Liang Sun 0009 and Haonan Rao and Weiping Ding 0001 and Jiashuang Huang",
+    "author": "Shaolong Wei 0001 and Shu Jiang and Mingliang Wang and Liang Sun 0009 and Haonan Rao and Weiping Ding 0001 and Jiashuang Huang",
     "booktitle": "IJCAI",
     "title": "SCNNs: Spike-based Coupling Neural Networks for Understanding Structural-Functional Relationships in the Human Brain.",
     "year": "2025",
@@ -13574,7 +13574,7 @@
   "State Revisit and Re-explore: Bridging Sim-to-Real Gaps in Offline-and-Online Reinforcement Learning with An Imperfect Simulator.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ChenXXLY00L25",
-    "author": "Xingyu Chen and Jiayi Xie and Zhijian Xu and Ruixun Liu and Shuai Yang and Zeyang Liu 0001 and Lipeng Wan 0003 and Xuguang Lan",
+    "author": "Xingyu Chen 0001 and Jiayi Xie and Zhijian Xu and Ruixun Liu and Shuai Yang and Zeyang Liu 0001 and Lipeng Wan 0003 and Xuguang Lan",
     "booktitle": "IJCAI",
     "title": "State Revisit and Re-explore: Bridging Sim-to-Real Gaps in Offline-and-Online Reinforcement Learning with An Imperfect Simulator.",
     "year": "2025",
@@ -16572,7 +16572,7 @@
   "Game Theory Meets Large Language Models: A Systematic Survey.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/SunWCC25",
-    "author": "Haoran Sun and Yusen Wu and Yukun Cheng and Xu Chu",
+    "author": "Haoran Sun and Yusen Wu 0004 and Yukun Cheng and Xu Chu",
     "booktitle": "IJCAI",
     "title": "Game Theory Meets Large Language Models: A Systematic Survey.",
     "year": "2025",
@@ -16600,7 +16600,7 @@
   "Large Language Models for Causal Discovery: Current Landscape and Future Directions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WanLWHL25",
-    "author": "Guangya Wan and Yunsheng Lu and Yuqi Wu and Mengxuan Hu and Sheng Li 0001",
+    "author": "Guangya Wan and Yunsheng Lu and Yuqi Wu 0001 and Mengxuan Hu and Sheng Li 0001",
     "booktitle": "IJCAI",
     "title": "Large Language Models for Causal Discovery: Current Landscape and Future Directions.",
     "year": "2025",

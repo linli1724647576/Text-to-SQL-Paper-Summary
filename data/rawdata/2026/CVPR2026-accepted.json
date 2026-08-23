@@ -11913,20 +11913,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "CRFT: Consistent–Recurrent Feature Flow Transformer for Cross-Modal Image Registration": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "CRFT: Consistent–Recurrent Feature Flow Transformer for Cross-Modal Image Registration",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38186",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "Protect to Adapt: Subspace-Constrained Adaptation with Ranked Negative Prompt Feedback for Few-Shot Action Recognition": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-protect-to-adapt-subspace-constrained-adaptation-with-ranked-negative-prompt-fee",
@@ -18045,6 +18031,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-dcoar-deep-concept-injection-into-unified-autoregressive-models-for-personalized",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36844",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-medclipseg-probabilistic-vision-language-adaptation-for-data-efficient-and-gener",
@@ -18073,6 +18073,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "CRFT: Consistent–Recurrent Feature Flow Transformer for Cross-Modal Image Registration": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-crft-consistent-recurrent-feature-flow-transformer-for-cross-modal-image-registr",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "CRFT: Consistent–Recurrent Feature Flow Transformer for Cross-Modal Image Registration",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38186",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "Color-Encoded Illumination for High-Speed Volumetric Scene Reconstruction": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-color-encoded-illumination-for-high-speed-volumetric-scene-reconstruction",
@@ -18087,6 +18101,20 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "Beyond Tie Points: Satellite Image Block Adjustment based on Dense Feature Consistency": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-beyond-tie-points-satellite-image-block-adjustment-based-on-dense-feature-consis",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "Beyond Tie Points: Satellite Image Block Adjustment based on Dense Feature Consistency",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36818",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-seatrack-simple-efficient-and-adaptive-multimodal-tracker",
@@ -18097,6 +18125,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/40039",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-an-optimal-transport-driven-approach-for-cultivating-latent-space-in-online-incr",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36700",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -41579,20 +41621,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "Beyond Tie Points: Satellite Image Block Adjustment based on Dense Feature Consistency": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-beyond-tie-points-satellite-image-block-adjustment-based-on-dense-feature-consis",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "Beyond Tie Points: Satellite Image Block Adjustment based on Dense Feature Consistency",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36818",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "SARMAE: Masked Autoencoder for SAR Representation Learning": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-sarmae-masked-autoencoder-for-sar-representation-learning",
@@ -55061,20 +55089,6 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
-  "DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-dcoar-deep-concept-injection-into-unified-autoregressive-models-for-personalized",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36844",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
   "AutoDebias: An Automated Framework for Detecting and Mitigating Backdoor Biases in Text-to-Image Models": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-autodebias-an-automated-framework-for-detecting-and-mitigating-backdoor-biases-i",
@@ -66649,20 +66663,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/37437",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-an-optimal-transport-driven-approach-for-cultivating-latent-space-in-online-incr",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36700",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

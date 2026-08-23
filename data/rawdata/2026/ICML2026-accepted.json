@@ -4619,20 +4619,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Cost-aware Stopping for Bayesian Optimization": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-cost-aware-stopping-for-bayesian-optimization",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Cost-aware Stopping for Bayesian Optimization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/61659",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-psg-nav-probabilistic-scene-graph-navigation-via-multiverse-decision-making",
@@ -4689,6 +4675,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Cost-aware Stopping for Bayesian Optimization": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-cost-aware-stopping-for-bayesian-optimization",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Cost-aware Stopping for Bayesian Optimization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/61659",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Optimization Dynamics of Equivariant and Augmented Neural Networks": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-optimization-dynamics-of-equivariant-and-augmented-neural-networks",
@@ -4703,6 +4703,48 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-correcting-visual-blur-induced-by-attention-distraction-to-reduce-hallucinations",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/65308",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Label-Guided Representation Learning for Incomplete Multi-View Multi-Label Classification": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-label-guided-representation-learning-for-incomplete-multi-view-multi-label-class",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Label-Guided Representation Learning for Incomplete Multi-View Multi-Label Classification",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62851",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Towards a Holistic Understanding of Selection Bias for Causal Effect Identification": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-towards-a-holistic-understanding-of-selection-bias-for-causal-effect-identificat",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Towards a Holistic Understanding of Selection Bias for Causal Effect Identification",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66497",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "UnHype: CLIP-Guided Hypernetworks for Dynamic LoRA Unlearning": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-unhype-clip-guided-hypernetworks-for-dynamic-lora-unlearning",
@@ -4713,6 +4755,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62857",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "The Perception–Physics Paradox: Probing Scientific Alignment with TC-Bench": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-the-perception-physics-paradox-probing-scientific-alignment-with-tc-bench",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "The Perception–Physics Paradox: Probing Scientific Alignment with TC-Bench",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60767",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Position: Stop Chasing the C-index when Evaluating Survival Analysis Models": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-position-stop-chasing-the-c-index-when-evaluating-survival-analysis-models",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Position: Stop Chasing the C-index when Evaluating Survival Analysis Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/67098",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -5959,20 +6029,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/60764",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "The Perception–Physics Paradox: Probing Scientific Alignment with TC-Bench": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-the-perception-physics-paradox-probing-scientific-alignment-with-tc-bench",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "The Perception–Physics Paradox: Probing Scientific Alignment with TC-Bench",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60767",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -13897,20 +13953,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62849",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Label-Guided Representation Learning for Incomplete Multi-View Multi-Label Classification": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-label-guided-representation-learning-for-incomplete-multi-view-multi-label-class",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Label-Guided Representation Learning for Incomplete Multi-View Multi-Label Classification",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62851",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -31733,20 +31775,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/67090",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Position: Stop Chasing the C-index when Evaluating Survival Analysis Models": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-position-stop-chasing-the-c-index-when-evaluating-survival-analysis-models",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Position: Stop Chasing the C-index when Evaluating Survival Analysis Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/67098",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -78203,20 +78231,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-correcting-visual-blur-induced-by-attention-distraction-to-reduce-hallucinations",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/65308",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "The Labyrinth and the Thread: Rethinking Regularizations in Sequential Knowledge Editing for Large Language Models": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-the-labyrinth-and-the-thread-rethinking-regularizations-in-sequential-knowledge-",
@@ -87607,20 +87621,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/66496",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Towards a Holistic Understanding of Selection Bias for Causal Effect Identification": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-towards-a-holistic-understanding-of-selection-bias-for-causal-effect-identificat",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Towards a Holistic Understanding of Selection Bias for Causal Effect Identification",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66497",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

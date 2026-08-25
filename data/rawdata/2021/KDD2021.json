@@ -1038,7 +1038,7 @@
   "TrajNet: A Trajectory-Based Deep Learning Model for Traffic Prediction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/kdd/Hui0CK21",
-    "author": "Bo Hui 0001 and Da Yan 0001 and Haiquan Chen and Wei-Shinn Ku",
+    "author": "Bo Hui 0001 and Da Yan 0001 and Haiquan Chen 0001 and Wei-Shinn Ku",
     "booktitle": "KDD",
     "title": "TrajNet: A Trajectory-Based Deep Learning Model for Traffic Prediction.",
     "year": "2021",

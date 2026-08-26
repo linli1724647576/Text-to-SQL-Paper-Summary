@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "7967bab92ac1cf346a4afa11986782ac1bf6c9fe4b2f406c94f9d4fd114e7639"
+          "sha256": "dee9bf2a60bf98ff655d51abd0b8748c3e7fe55f85a3f99ca8091c7ddc634b42"
         }
       ],
       "processing": {
@@ -2333,7 +2333,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/ICSE2022.json",
-          "sha256": "fbf7a5c2249f50c9552794c9306a0278022c346ecb25e2c57a69d77f3abee814"
+          "sha256": "8c6ebce02ced520d786f085ef992d343193ab90461523a56f13afc2dae7c3e34"
         }
       ],
       "processing": {

@@ -492,7 +492,7 @@
   "RecDis-SNN: Rectifying Membrane Potential Distribution for Directly Training Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/GuoTCZLMH22",
-    "author": "Yufei Guo 0002 and Xinyi Tong 0001 and Yuanpei Chen and Liwen Zhang 0001 and Xiaode Liu and Zhe Ma 0001 and Xuhui Huang",
+    "author": "Yufei Guo 0001 and Xinyi Tong 0001 and Yuanpei Chen and Liwen Zhang 0001 and Xiaode Liu and Zhe Ma 0001 and Xuhui Huang",
     "booktitle": "CVPR",
     "title": "RecDis-SNN: Rectifying Membrane Potential Distribution for Directly Training Spiking Neural Networks.",
     "year": "2022",
@@ -2790,7 +2790,7 @@
   "Self-Supervised Arbitrary-Scale Point Clouds Upsampling via Implicit Neural Representation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/ZhaoLZJ00J22",
-    "author": "Wenbo Zhao 0004 and Xianming Liu 0005 and Zhiwei Zhong and Junjun Jiang and Wei Gao 0003 and Ge Li 0002 and Xiangyang Ji",
+    "author": "Wenbo Zhao 0004 and Xianming Liu 0005 and Zhiwei Zhong 0001 and Junjun Jiang and Wei Gao 0003 and Ge Li 0002 and Xiangyang Ji",
     "booktitle": "CVPR",
     "title": "Self-Supervised Arbitrary-Scale Point Clouds Upsampling via Implicit Neural Representation.",
     "year": "2022",
@@ -15579,7 +15579,7 @@
   "Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/HuWCYS22",
-    "author": "Minghui Hu 0001 and Yujie Wang and Tat-Jen Cham and Jianfei Yang and Ponnuthurai N. Suganthan",
+    "author": "Minghui Hu 0001 and Yujie Wang and Tat-Jen Cham and Jianfei Yang 0001 and Ponnuthurai N. Suganthan",
     "booktitle": "CVPR",
     "title": "Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation.",
     "year": "2022",
@@ -15887,7 +15887,7 @@
   "Multi-Source Uncertainty Mining for Deep Unsupervised Saliency Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangZWLL22",
-    "author": "Yifan Wang 0004 and Wenbo Zhang and Lijun Wang and Ting Liu 0018 and Huchuan Lu",
+    "author": "Yifan Wang 0004 and Wenbo Zhang and Lijun Wang 0001 and Ting Liu 0018 and Huchuan Lu",
     "booktitle": "CVPR",
     "title": "Multi-Source Uncertainty Mining for Deep Unsupervised Saliency Detection.",
     "year": "2022",
@@ -23634,7 +23634,7 @@
   "AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/YangJJXC22",
-    "author": "Canqian Yang and Meiguang Jin and Xu Jia 0012 and Yi Xu 0001 and Ying Chen",
+    "author": "Canqian Yang and Meiguang Jin and Xu Jia 0012 and Yi Xu 0001 and Ying Chen 0011",
     "booktitle": "CVPR",
     "title": "AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement.",
     "year": "2022",

@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-08-26T19:06:52Z",
+  "generated_at": "2026-08-28T01:21:48Z",
   "records": [
     {
       "kind": "conference",
@@ -412,7 +412,7 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 498,
+      "raw_candidate_count": 2156,
       "rawdata_files": [
         "data/rawdata/2023/ICCV2023.json"
       ],

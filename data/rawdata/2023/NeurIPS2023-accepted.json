@@ -7226,7 +7226,7 @@
   "Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2023-let-the-flows-tell-solving-graph-combinatorial-problems-with-gflownets",
-    "author": "Dinghuai Zhang and Hanjun Dai and Nikolay Malkin and Aaron C. Courville and Yoshua Bengio and Ling Pan Main Conference Track",
+    "author": "Dinghuai Zhang and Hanjun Dai and Esmeralda S. Whitammer and Aaron C. Courville and Yoshua Bengio and Ling Pan Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets",
     "year": "2023",
@@ -18930,7 +18930,7 @@
   "Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network": {
     "type": "INPROCEEDINGS",
     "key": "neurips-official-2023-joint-bayesian-inference-of-graphical-structure-and-parameters-with-a-single-gen",
-    "author": "Tristan Deleu and Mizu Nishikawa-Toomey and Jithendaraa Subramanian and Nikolay Malkin and Laurent Charlin and Yoshua Bengio Main Conference Track",
+    "author": "Tristan Deleu and Mizu Nishikawa-Toomey and Jithendaraa Subramanian and Esmeralda S. Whitammer and Laurent Charlin and Yoshua Bengio Main Conference Track",
     "booktitle": "NeurIPS Conference",
     "title": "Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network",
     "year": "2023",

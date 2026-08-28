@@ -9740,7 +9740,7 @@
   "Transforming Visual Scene Graphs to Image Captions.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/YangPWXYLHHLZ23",
-    "author": "Xu Yang 0021 and Jiawei Peng and Zihua Wang and Haiyang Xu 0001 and Qinghao Ye and Chenliang Li 0003 and Songfang Huang and Fei Huang 0002 and Zhangzikang Li and Yu Zhang 0004",
+    "author": "Xu Yang 0021 and Jiawei Peng 0001 and Zihua Wang and Haiyang Xu 0001 and Qinghao Ye and Chenliang Li 0003 and Songfang Huang and Fei Huang 0002 and Zhangzikang Li and Yu Zhang 0004",
     "booktitle": "ACL (1)",
     "title": "Transforming Visual Scene Graphs to Image Captions.",
     "year": "2023",

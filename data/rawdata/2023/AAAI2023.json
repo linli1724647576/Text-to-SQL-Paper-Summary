@@ -16128,7 +16128,7 @@
   "SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangXYC00X23",
-    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang and Zhenghua Chen and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001",
+    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang 0001 and Zhenghua Chen and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001",
     "booktitle": "AAAI",
     "title": "SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation.",
     "year": "2023",
@@ -20685,7 +20685,7 @@
   "WIERT: Web Information Extraction via Render Tree.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiSSGLJ23",
-    "author": "Zimeng Li and Bo Shao and Linjun Shou and Ming Gong 0001 and Gen Li and Daxin Jiang",
+    "author": "Zimeng Li 0002 and Bo Shao and Linjun Shou and Ming Gong 0001 and Gen Li and Daxin Jiang",
     "booktitle": "AAAI",
     "title": "WIERT: Web Information Extraction via Render Tree.",
     "year": "2023",
@@ -26472,7 +26472,7 @@
   "Disentangling the Benefits of Self-Supervised Learning to Deployment-Driven Downstream Tasks of Satellite Images (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DengWZWZYZCMHL23",
-    "author": "Zhuo Deng and Yibing Wei and Mingye Zhu and Xueliang Wang and Junchi Zhou and Zhicheng Yang and Hang Zhou and Zhenjie Cao and Lan Ma and Mei Han and Jui-Hsin Lai",
+    "author": "Zhuo Deng 0001 and Yibing Wei and Mingye Zhu and Xueliang Wang and Junchi Zhou and Zhicheng Yang and Hang Zhou and Zhenjie Cao and Lan Ma and Mei Han and Jui-Hsin Lai",
     "booktitle": "AAAI",
     "title": "Disentangling the Benefits of Self-Supervised Learning to Deployment-Driven Downstream Tasks of Satellite Images (Student Abstract).",
     "year": "2023",
@@ -26963,7 +26963,7 @@
   "A Highly Efficient Marine Mammals Classifier Based on a Cross-Covariance Attended Compact Feed-Forward Sequential Memory Network (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuC23",
-    "author": "Xiangrui Liu and Julian Cheng",
+    "author": "Xiangrui Liu and Julian Cheng 0001",
     "booktitle": "AAAI",
     "title": "A Highly Efficient Marine Mammals Classifier Based on a Cross-Covariance Attended Compact Feed-Forward Sequential Memory Network (Student Abstract).",
     "year": "2023",
@@ -27692,7 +27692,7 @@
   "Logic Error Localization and Correction with Machine Learning (Student Abstract).": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuSL23",
-    "author": "Zhenyu Xu and Victor S. Sheng and Keyi Lu",
+    "author": "Zhenyu Xu 0006 and Victor S. Sheng and Keyi Lu",
     "booktitle": "AAAI",
     "title": "Logic Error Localization and Correction with Machine Learning (Student Abstract).",
     "year": "2023",

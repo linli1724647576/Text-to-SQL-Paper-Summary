@@ -1024,7 +1024,7 @@
   "Why the Agent Made that Decision: Contrastive Explanation Learning for Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZuoKWKQ25",
-    "author": "Rui Zuo and Simon Khan and Zifan Wang and Garrett Ethan Katz and Qinru Qiu",
+    "author": "Rui Zuo and Simon Khan and Zifan Wang 0004 and Garrett Ethan Katz and Qinru Qiu",
     "booktitle": "IJCAI",
     "title": "Why the Agent Made that Decision: Contrastive Explanation Learning for Reinforcement Learning.",
     "year": "2025",
@@ -2116,7 +2116,7 @@
   "Learnable Frequency Decomposition for Image Forgery Detection and Localization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiZLLF0LZ25",
-    "author": "Dong Li 0055 and Jiaying Zhu and Yidi Liu and Xin Lu 0006 and Xueyang Fu and Jiawei Liu 0001 and Aiping Liu and Zheng-Jun Zha",
+    "author": "Dong Li 0055 and Jiaying Zhu and Yidi Liu and Xin Lu 0008 and Xueyang Fu and Jiawei Liu 0001 and Aiping Liu and Zheng-Jun Zha",
     "booktitle": "IJCAI",
     "title": "Learnable Frequency Decomposition for Image Forgery Detection and Localization.",
     "year": "2025",
@@ -2648,7 +2648,7 @@
   "PanComplex: Leveraging Complex-Valued Neural Networks for Enhanced Pansharpening.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LuoLMLWTF25",
-    "author": "Chunhui Luo and Dong Li 0055 and Xiaoliang Ma and Xin Lu 0006 and Zhiyuan Wang and Jiangtong Tan and Xueyang Fu",
+    "author": "Chunhui Luo and Dong Li 0055 and Xiaoliang Ma and Xin Lu 0008 and Zhiyuan Wang and Jiangtong Tan and Xueyang Fu",
     "booktitle": "IJCAI",
     "title": "PanComplex: Leveraging Complex-Valued Neural Networks for Enhanced Pansharpening.",
     "year": "2025",
@@ -3418,7 +3418,7 @@
   "Unlocking Dark Vision Potential for Medical Image Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Yang0CCNTM025",
-    "author": "Hongpeng Yang and Xiangyu Hu 0005 and Yingxin Chen and Siyu Chen and Srihari Nelakuditi and Yan Tong and Shiqiang Ma and Fei Guo 0001",
+    "author": "Hongpeng Yang and Xiangyu Hu 0005 and Yingxin Chen 0001 and Siyu Chen and Srihari Nelakuditi and Yan Tong and Shiqiang Ma and Fei Guo 0001",
     "booktitle": "IJCAI",
     "title": "Unlocking Dark Vision Potential for Medical Image Segmentation.",
     "year": "2025",
@@ -5394,7 +5394,7 @@
   "Let's Group: A Plug-and-Play SubGraph Learning Method for Memory-Efficient Spatio-Temporal Graph Modeling.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/WengJW0GS025",
-    "author": "Wenchao Weng and Hanyu Jiang 0001 and Mei Wu and Xiao Han 0004 and Haidong Gao and Guojiang Shen and Xiangjie Kong 0001",
+    "author": "Wenchao Weng and Hanyu Jiang 0001 and Mei Wu 0001 and Xiao Han 0004 and Haidong Gao and Guojiang Shen and Xiangjie Kong 0001",
     "booktitle": "IJCAI",
     "title": "Let's Group: A Plug-and-Play SubGraph Learning Method for Memory-Efficient Spatio-Temporal Graph Modeling.",
     "year": "2025",
@@ -14541,7 +14541,7 @@
   "Horae: A Domain-Agnostic Language for Automated Service Regulation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/SunCZZLCWLZDY25",
-    "author": "Yutao Sun and Mingshuai Chen and Tiancheng Zhao and Kangjia Zhao and He Li and Jintao Chen 0001 and Zhongyi Wang and Liqiang Lu and Xinkui Zhao and Shuiguang Deng and Jianwei Yin",
+    "author": "Yutao Sun and Mingshuai Chen and Tiancheng Zhao and Kangjia Zhao and He Li and Jintao Chen 0001 and Zhongyi Wang 0004 and Liqiang Lu and Xinkui Zhao and Shuiguang Deng and Jianwei Yin",
     "booktitle": "IJCAI",
     "title": "Horae: A Domain-Agnostic Language for Automated Service Regulation.",
     "year": "2025",

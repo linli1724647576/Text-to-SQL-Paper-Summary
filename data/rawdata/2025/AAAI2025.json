@@ -11338,7 +11338,7 @@
   "More Text, Less Point: Towards 3D Data-Efficient Point-Language Understanding.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangHLY0HH025",
-    "author": "Yuan Tang and Xu Han 0018 and Xianzhi Li 0001 and Qiao Yu 0002 and Jinfeng Xu 0002 and Yixue Hao and Long Hu and Min Chen 0003",
+    "author": "Yuan Tang and Xu Han 0016 and Xianzhi Li 0001 and Qiao Yu 0002 and Jinfeng Xu 0002 and Yixue Hao and Long Hu and Min Chen 0003",
     "booktitle": "AAAI",
     "title": "More Text, Less Point: Towards 3D Data-Efficient Point-Language Understanding.",
     "year": "2025",
@@ -23781,7 +23781,7 @@
   "SPAC: Sparse Partitioning and Adaptive Core Tensor Pruning Model for Knowledge Graph Completion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangLW25",
-    "author": "Chuhong Yang and Bin Li and Nan Wu",
+    "author": "Chuhong Yang and Bin Li and Nan Wu 0002",
     "booktitle": "AAAI",
     "title": "SPAC: Sparse Partitioning and Adaptive Core Tensor Pruning Model for Knowledge Graph Completion.",
     "year": "2025",
@@ -42799,7 +42799,7 @@
   "JailPO: A Novel Black-Box Jailbreak Framework via Preference Optimization Against Aligned LLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiYWYWL25",
-    "author": "Hongyi Li and Jiawei Ye and Jie Wu 0003 and Tianjie Yan and Chu Wang and Zhixin Li 0003",
+    "author": "Hongyi Li 0005 and Jiawei Ye and Jie Wu 0003 and Tianjie Yan and Chu Wang and Zhixin Li 0003",
     "booktitle": "AAAI",
     "title": "JailPO: A Novel Black-Box Jailbreak Framework via Preference Optimization Against Aligned LLMs.",
     "year": "2025",

@@ -324,7 +324,7 @@
   "Q-Frame: Query-Aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhangYYLLP25",
-    "author": "Shaojie Zhang and Jiahui Yang and Jianqin Yin and Zhenbo Luo and Jian Luan 0001",
+    "author": "Shaojie Zhang 0004 and Jiahui Yang and Jianqin Yin and Zhenbo Luo and Jian Luan 0001",
     "booktitle": "ICCV",
     "title": "Q-Frame: Query-Aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs.",
     "year": "2025",
@@ -550,7 +550,7 @@
   "Training-Free Generation of Temporally Consistent Rewards from VLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhaoYXHZWCLT25",
-    "author": "Yinuo Zhao and Jiale Yuan and Zhiyuan Xu and Xiaoshuai Hao and Xinyi Zhang and Kun Wu 0001 and Zhengping Che and Chi Harold Liu and Jian Tang 0008",
+    "author": "Yinuo Zhao and Jiale Yuan and Zhiyuan Xu and Xiaoshuai Hao and Xinyi Zhang 0009 and Kun Wu 0001 and Zhengping Che and Chi Harold Liu and Jian Tang 0008",
     "booktitle": "ICCV",
     "title": "Training-Free Generation of Temporally Consistent Rewards from VLMs.",
     "year": "2025",
@@ -14911,7 +14911,7 @@
   "From Easy to Hard: The MIR Benchmark for Progressive Interleaved Multi-Image Reasoning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/DuZNDCZWHPQL25",
-    "author": "Hang Du and Jiayang Zhang and Guoshun Nan and Wendi Deng and Zhenyan Chen and Chenyang Zhang and Xiao Wang 0002 and Shan Huang and Yuqi Pan and Tao Qi and Sicong Leng",
+    "author": "Hang Du and Jiayang Zhang and Guoshun Nan and Wendi Deng and Zhenyan Chen and Chenyang Zhang and Xiao Wang 0002 and Shan Huang and Yuqi Pan and Tao Qi 0001 and Sicong Leng",
     "booktitle": "ICCV",
     "title": "From Easy to Hard: The MIR Benchmark for Progressive Interleaved Multi-Image Reasoning.",
     "year": "2025",
@@ -27008,7 +27008,7 @@
   "DeGauss: Dynamic-Static Decomposition with Gaussian Splatting for Distractor-Free 3D Reconstruction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/WangLMT25",
-    "author": "Rui Wang and Quentin Lohmeyer and Mirko Meboldt and Siyu Tang",
+    "author": "Rui Wang 0201 and Quentin Lohmeyer and Mirko Meboldt and Siyu Tang",
     "booktitle": "ICCV",
     "title": "DeGauss: Dynamic-Static Decomposition with Gaussian Splatting for Distractor-Free 3D Reconstruction.",
     "year": "2025",
@@ -32161,7 +32161,7 @@
   "Harmonyseg: Tubular Structure Segmentation With Deep-Shallow Feature Fusion and Growth-Suppression Balanced Loss.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/HuangiZLWPLHJY25",
-    "author": "Yi Huangi and Ke Zhang and Wei Liu 0127 and Yuanyuan Wang and Vishal M. Patel and Le Lu 0001 and Xu Han 0007 and Dakai Jin and Ke Yan 0006",
+    "author": "Yi Huangi and Ke Zhang and Wei Liu 0127 and Yuanyuan Wang and Vishal M. Patel and Le Lu 0001 and Xu Han 0023 and Dakai Jin and Ke Yan 0006",
     "booktitle": "ICCV",
     "title": "Harmonyseg: Tubular Structure Segmentation With Deep-Shallow Feature Fusion and Growth-Suppression Balanced Loss.",
     "year": "2025",
@@ -32371,7 +32371,7 @@
   "Text-to-Any-Skeleton Motion Generation Without Retargeting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuLDXNW25",
-    "author": "Qingyuan Liu and Ke Lu 0002 and Kun Dong 0001 and Jian Xue 0002 and Zehai Niu and Jinbao Wang 0001",
+    "author": "Qingyuan Liu 0001 and Ke Lu 0002 and Kun Dong 0001 and Jian Xue 0002 and Zehai Niu and Jinbao Wang 0001",
     "booktitle": "ICCV",
     "title": "Text-to-Any-Skeleton Motion Generation Without Retargeting.",
     "year": "2025",

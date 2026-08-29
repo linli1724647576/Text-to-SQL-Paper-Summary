@@ -157,7 +157,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/AAAI2024.json",
-          "sha256": "c779e6328e514e0f6f4262372c3520b2543c440b39a9b56b28c83fcf18b0db0e"
+          "sha256": "e1473426270a130a0246dad5104d4592dd11a1a4ebdd306f01702494bb47d35a"
         }
       ],
       "processing": {
@@ -423,7 +423,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/ACL2024.json",
-          "sha256": "e3600d213985c8ca1e6c54b2bf10fe193946cd786196ed1d4f1b7a23ad4004f2"
+          "sha256": "8e4e3927aa3a6c5c40810a0da6901a348241815533d95dc0d1627c26bb88ccd7"
         }
       ],
       "processing": {
@@ -3419,7 +3419,7 @@
       "files": [
         {
           "path": "data/rawdata/2024/NeurIPS2024-accepted.json",
-          "sha256": "a0c76ea1c65c7ab592cdd5a3003175394c2c9aa1dba30cddbc86bc18372bbb63"
+          "sha256": "debdcff5c234a38190d88301fdf7b890c551aa51361e4d130a51fd7adf95fb6b"
         },
         {
           "path": "data/rawdata/2024/NeurIPS2024.json",

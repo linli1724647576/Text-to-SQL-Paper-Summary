@@ -5663,7 +5663,7 @@
   "Unsupervised Continual Anomaly Detection with Contrastively-Learned Prompt.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/0004WNCGLWWZ24",
-    "author": "Jiaqi Liu 0004 and Kai Wu and Qiang Nie and Ying Chen and Bin-Bin Gao and Yong Liu 0032 and Jinbao Wang and Chengjie Wang 0001 and Feng Zheng 0001",
+    "author": "Jiaqi Liu 0004 and Kai Wu and Qiang Nie and Ying Chen and Bin-Bin Gao and Yong Liu 0032 and Jinbao Wang 0001 and Chengjie Wang 0001 and Feng Zheng 0001",
     "booktitle": "AAAI",
     "title": "Unsupervised Continual Anomaly Detection with Contrastively-Learned Prompt.",
     "year": "2024",
@@ -8156,7 +8156,7 @@
   "End-to-End Real-Time Vanishing Point Detection with Transformer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TongPGH24",
-    "author": "Xin Tong and Shi Peng and Yufei Guo 0002 and Xuhui Huang",
+    "author": "Xin Tong and Shi Peng and Yufei Guo 0001 and Xuhui Huang",
     "booktitle": "AAAI",
     "title": "End-to-End Real-Time Vanishing Point Detection with Transformer.",
     "year": "2024",
@@ -10608,7 +10608,7 @@
   "DME: Unveiling the Bias for Better Generalized Monocular Depth Estimation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuWZWL24",
-    "author": "Songsong Yu and Yifan Wang 0004 and Yunzhi Zhuge and Lijun Wang and Huchuan Lu",
+    "author": "Songsong Yu and Yifan Wang 0004 and Yunzhi Zhuge and Lijun Wang 0001 and Huchuan Lu",
     "booktitle": "AAAI",
     "title": "DME: Unveiling the Bias for Better Generalized Monocular Depth Estimation.",
     "year": "2024",
@@ -11085,7 +11085,7 @@
   "AvatarVerse: High-Quality & Stable 3D Avatar Creation from Text and Pose.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangCYQWCL0DZ24",
-    "author": "Huichao Zhang and Bowen Chen and Hao Yang and Liao Qu and Xu Wang and Li Chen and Chao Long and Feida Zhu 0005 and Daniel K. Du and Min Zheng",
+    "author": "Huichao Zhang and Bowen Chen and Hao Yang and Liao Qu and Xu Wang and Li Chen and Chao Long and Feida Zhu 0002 and Daniel K. Du and Min Zheng",
     "booktitle": "AAAI",
     "title": "AvatarVerse: High-Quality & Stable 3D Avatar Creation from Text and Pose.",
     "year": "2024",
@@ -11617,7 +11617,7 @@
   "Large Occluded Human Image Completion via Image-Prior Cooperating.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhaoZLW24",
-    "author": "Hengrun Zhao and Yu Zeng 0001 and Huchuan Lu and Lijun Wang",
+    "author": "Hengrun Zhao and Yu Zeng 0001 and Huchuan Lu and Lijun Wang 0001",
     "booktitle": "AAAI",
     "title": "Large Occluded Human Image Completion via Image-Prior Cooperating.",
     "year": "2024",
@@ -19122,7 +19122,7 @@
   "Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuoCLPZHM24",
-    "author": "Yufei Guo 0002 and Yuanpei Chen and Xiaode Liu and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yufei Guo 0001 and Yuanpei Chen and Xiaode Liu and Weihang Peng 0001 and Yuhan Zhang 0006 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks.",
     "year": "2024",
@@ -24526,7 +24526,7 @@
   "Fully-Connected Spatial-Temporal Graph for Multivariate Time-Series Data.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangXYWLXC24",
-    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001 and Zhenghua Chen",
+    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang 0001 and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001 and Zhenghua Chen",
     "booktitle": "AAAI",
     "title": "Fully-Connected Spatial-Temporal Graph for Multivariate Time-Series Data.",
     "year": "2024",
@@ -24540,7 +24540,7 @@
   "Graph-Aware Contrasting for Multivariate Time-Series Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangXYWLXC24a",
-    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001 and Zhenghua Chen",
+    "author": "Yucheng Wang 0001 and Yuecong Xu and Jianfei Yang 0001 and Min Wu 0008 and Xiaoli Li 0001 and Lihua Xie 0001 and Zhenghua Chen",
     "booktitle": "AAAI",
     "title": "Graph-Aware Contrasting for Multivariate Time-Series Classification.",
     "year": "2024",
@@ -26416,7 +26416,7 @@
   "Enhancing Representation of Spiking Neural Networks via Similarity-Sensitive Contrastive Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangLCPGHM24",
-    "author": "Yuhan Zhang 0006 and Xiaode Liu and Yuanpei Chen and Weihang Peng 0001 and Yufei Guo 0002 and Xuhui Huang and Zhe Ma 0001",
+    "author": "Yuhan Zhang 0006 and Xiaode Liu and Yuanpei Chen and Weihang Peng 0001 and Yufei Guo 0001 and Xuhui Huang and Zhe Ma 0001",
     "booktitle": "AAAI",
     "title": "Enhancing Representation of Spiking Neural Networks via Similarity-Sensitive Contrastive Learning.",
     "year": "2024",
@@ -29738,7 +29738,7 @@
   "SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SunHZMSC0024",
-    "author": "Liangtai Sun and Yang Han and Zihan Zhao 0001 and Da Ma and Zhennan Shen and Baocai Chen and Lu Chen 0002 and Kai Yu 0004",
+    "author": "Liangtai Sun and Yang Han 0007 and Zihan Zhao 0001 and Da Ma and Zhennan Shen and Baocai Chen and Lu Chen 0002 and Kai Yu 0004",
     "booktitle": "AAAI",
     "title": "SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research.",
     "year": "2024",
@@ -30074,7 +30074,7 @@
   "MindMap: Constructing Evidence Chains for Multi-Step Reasoning in Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuHSCL24",
-    "author": "Yangyu Wu 0001 and Xu Han 0007 and Wei Song 0010 and Miaomiao Cheng and Fei Li",
+    "author": "Yangyu Wu 0001 and Xu Han 0021 and Wei Song 0010 and Miaomiao Cheng and Fei Li",
     "booktitle": "AAAI",
     "title": "MindMap: Constructing Evidence Chains for Multi-Step Reasoning in Large Language Models.",
     "year": "2024",
@@ -34753,7 +34753,7 @@
   "Hear You Say You: An Efficient Framework for Marine Mammal Sounds' Classification.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuLDC24",
-    "author": "Xiangrui Liu and Xiaoou Liu and Shan Du 0001 and Julian Cheng",
+    "author": "Xiangrui Liu and Xiaoou Liu and Shan Du 0001 and Julian Cheng 0001",
     "booktitle": "AAAI",
     "title": "Hear You Say You: An Efficient Framework for Marine Mammal Sounds' Classification.",
     "year": "2024",

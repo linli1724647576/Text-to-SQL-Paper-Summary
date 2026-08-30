@@ -29,6 +29,31 @@
     "relevance_level": "core",
     "arxiv_id": "2311.01862"
   },
+  "A Comparative Evaluation of Schema Subsetting for LLM-based NL-to-SQL over Large-Schema Databases": {
+    "type": "ARTICLE",
+    "key": "journals/pvldb/LuomaK26",
+    "author": "Kyle Luoma and Arun Kumar 0001",
+    "booktitle": "Proc. VLDB Endow.",
+    "title": "A Comparative Evaluation of Schema Subsetting for LLM-based NL-to-SQL over Large-Schema Databases",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://www.vldb.org/pvldb/vol19/p2019-luoma.pdf",
+    "doi": "",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
+    "journal": "Proc. VLDB Endow.",
+    "labels": [
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding"
+    ],
+    "relevance_level": "core"
+  },
   "A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigmod/Katsogiannis-Meimarakis21",
@@ -15995,6 +16020,31 @@
       "Database Content Grounding",
       "Query Planning",
       "Step-by-step Reasoning",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
+  "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "journals/pvldb/LeeK26",
+    "author": "Geonho Lee and Min-Soo Kim",
+    "booktitle": "Proc. VLDB Endow.",
+    "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://www.vldb.org/pvldb/vol19/p2210-lee.pdf",
+    "doi": "",
+    "venue": "VLDB",
+    "venue_track": "数据库领域",
+    "journal": "Proc. VLDB Endow.",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Prompting and ICL",
+      "Prompt Engineering"
+    ],
+    "pipeline_stages": [
       "SQL Generation"
     ],
     "relevance_level": "core"

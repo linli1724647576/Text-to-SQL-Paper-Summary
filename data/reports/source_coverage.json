@@ -1,6 +1,6 @@
 {
   "from_year": 2020,
-  "generated_at": "2026-08-29T19:38:58Z",
+  "generated_at": "2026-08-30T19:42:55Z",
   "records": [
     {
       "kind": "conference",
@@ -1745,12 +1745,12 @@
     {
       "kind": "conference",
       "notes": "",
-      "raw_candidate_count": 78,
+      "raw_candidate_count": 128,
       "rawdata_files": [
         "data/rawdata/2026/VLDB2026.json"
       ],
       "rawdata_present": true,
-      "relevant_candidate_count": 4,
+      "relevant_candidate_count": 6,
       "source_type": "dblp-conference",
       "source_url": "https://dblp.org/db/journals/pvldb/pvldb19.xml",
       "status": "available",
@@ -1977,7 +1977,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 28,
+      "raw_candidate_count": 21,
       "rawdata_files": [
         "data/rawdata/2026/AIJ2026.json"
       ],
@@ -2089,7 +2089,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 405,
+      "raw_candidate_count": 415,
       "rawdata_files": [
         "data/rawdata/2026/TKDE2026.json"
       ],
@@ -2201,7 +2201,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 43,
+      "raw_candidate_count": 45,
       "rawdata_files": [
         "data/rawdata/2026/VLDBJ2026.json"
       ],
@@ -2313,7 +2313,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 163,
+      "raw_candidate_count": 168,
       "rawdata_files": [
         "data/rawdata/2026/TSE2026.json"
       ],
@@ -2425,7 +2425,7 @@
     {
       "kind": "journal",
       "notes": "",
-      "raw_candidate_count": 317,
+      "raw_candidate_count": 330,
       "rawdata_files": [
         "data/rawdata/2026/TOSEM2026.json"
       ],

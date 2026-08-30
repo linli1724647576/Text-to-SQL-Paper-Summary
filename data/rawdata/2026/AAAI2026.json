@@ -2817,7 +2817,7 @@
   "Personality-guided Public-Private Domain Disentangled Hypergraph-Former Network for Multimodal Depression Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FuZZJZL26",
-    "author": "Changzeng Fu and Shiwen Zhao and Yunze Zhang and Zhongquan Jian and Shiqi Zhao and Chaoran Liu",
+    "author": "Changzeng Fu and Shiwen Zhao and Yunze Zhang and Zhongquan Jian and Shiqi Zhao 0001 and Chaoran Liu",
     "booktitle": "AAAI",
     "title": "Personality-guided Public-Private Domain Disentangled Hypergraph-Former Network for Multimodal Depression Detection.",
     "year": "2026",
@@ -5884,7 +5884,7 @@
   "mmPred: Radar-based Human Motion Prediction in the Dark.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FanRZYX26",
-    "author": "Junqiao Fan and Haocong Rao and Jiarui Zhang and Jianfei Yang and Lihua Xie 0001",
+    "author": "Junqiao Fan and Haocong Rao and Jiarui Zhang and Jianfei Yang 0001 and Lihua Xie 0001",
     "booktitle": "AAAI",
     "title": "mmPred: Radar-based Human Motion Prediction in the Dark.",
     "year": "2026",
@@ -7971,7 +7971,7 @@
   "ROVER: Robust Generative Continual Identity Unlearning Against Relearning Attacks.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangCHZXCCS26",
-    "author": "Tairan Huang and Qiang Chen 0016 and Beibei Hu and Yunlong Zhao 0003 and Hongyan Xu 0002 and Zhiyuan Chen and Yi Chen and Xiu Su",
+    "author": "Tairan Huang 0001 and Qiang Chen 0016 and Beibei Hu and Yunlong Zhao 0003 and Hongyan Xu 0002 and Zhiyuan Chen and Yi Chen and Xiu Su",
     "booktitle": "AAAI",
     "title": "ROVER: Robust Generative Continual Identity Unlearning Against Relearning Attacks.",
     "year": "2026",
@@ -8013,7 +8013,7 @@
   "Can Protective Watermarking Safeguard the Copyright of 3D Gaussian Splatting?": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/HuangGLMZHWLH26",
-    "author": "Wenkai Huang 0003 and Yijia Guo and Gaolei Li and Lei Ma 0008 and Hang Zhang 0010 and Liwen Hu 0002 and Jiazheng Wang and Jianhua Li 0001 and Tiejun Huang 0001",
+    "author": "Wenkai Huang 0003 and Yijia Guo and Gaolei Li and Lei Ma 0008 and Hang Zhang 0010 and Liwen Hu 0002 and Jiazheng Wang 0001 and Jianhua Li 0001 and Tiejun Huang 0001",
     "booktitle": "AAAI",
     "title": "Can Protective Watermarking Safeguard the Copyright of 3D Gaussian Splatting?",
     "year": "2026",
@@ -9471,7 +9471,7 @@
   "Mask2IV: Interaction-Centric Video Generation via Mask Trajectories.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiZYS26",
-    "author": "Gen Li 0008 and Bo Zhao and Jianfei Yang and Laura Sevilla-Lara",
+    "author": "Gen Li 0008 and Bo Zhao and Jianfei Yang 0001 and Laura Sevilla-Lara",
     "booktitle": "AAAI",
     "title": "Mask2IV: Interaction-Centric Video Generation via Mask Trajectories.",
     "year": "2026",
@@ -9765,7 +9765,7 @@
   "DynamicEarth: How Far Are We from Open-Vocabulary Change Detection?": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiCDPXQGMW26",
-    "author": "Kaiyu Li and Xiangyong Cao and Yupeng Deng 0001 and Chao Pang 0001 and Zepeng Xin and Hui Qiao and Tieliang Gong and Deyu Meng and Zhi Wang 0002",
+    "author": "Kaiyu Li 0001 and Xiangyong Cao and Yupeng Deng 0001 and Chao Pang 0001 and Zepeng Xin and Hui Qiao and Tieliang Gong and Deyu Meng and Zhi Wang 0002",
     "booktitle": "AAAI",
     "title": "DynamicEarth: How Far Are We from Open-Vocabulary Change Detection?",
     "year": "2026",
@@ -11782,7 +11782,7 @@
   "LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LuYC26",
-    "author": "Wei Lu and Xue Yang and Si-Bao Chen 0001",
+    "author": "Wei Lu 0032 and Xue Yang and Si-Bao Chen 0001",
     "booktitle": "AAAI",
     "title": "LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention.",
     "year": "2026",
@@ -21026,7 +21026,7 @@
   "CompEvent: Complex-valued Event-RGB Fusion for Low-light Video Enhancement and Deblurring.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhongLLXJFY26",
-    "author": "Mingchen Zhong and Xin Lu 0006 and Dong Liu 0002 and Senyan Xu and Ruixuan Jiang and Xueyang Fu and Baocai Yin",
+    "author": "Mingchen Zhong and Xin Lu 0008 and Dong Liu 0002 and Senyan Xu and Ruixuan Jiang and Xueyang Fu and Baocai Yin",
     "booktitle": "AAAI",
     "title": "CompEvent: Complex-valued Event-RGB Fusion for Low-light Video Enhancement and Deblurring.",
     "year": "2026",
@@ -21516,7 +21516,7 @@
   "Zero-Shot Open-Vocabulary Human Motion Grounding with Test-Time Training.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhouCQXY26",
-    "author": "Yunjiao Zhou and Xinyan Chen 0002 and Junlang Qian and Lihua Xie 0001 and Jianfei Yang",
+    "author": "Yunjiao Zhou and Xinyan Chen 0002 and Junlang Qian and Lihua Xie 0001 and Jianfei Yang 0001",
     "booktitle": "AAAI",
     "title": "Zero-Shot Open-Vocabulary Human Motion Grounding with Test-Time Training.",
     "year": "2026",
@@ -22931,7 +22931,7 @@
   "Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/FuWGLLSY26",
-    "author": "Xingcheng Fu and Shengpeng Wang and Yisen Gao and Xianxian Li and Chunpei Li and Qingyun Sun and Dongran Yu",
+    "author": "Xingcheng Fu and Shengpeng Wang 0001 and Yisen Gao and Xianxian Li and Chunpei Li and Qingyun Sun and Dongran Yu",
     "booktitle": "AAAI",
     "title": "Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space.",
     "year": "2026",
@@ -34853,7 +34853,7 @@
   "Variational OOD State Correction for Offline Reinforcement Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JiangJT26",
-    "author": "Ke Jiang and Wen Jiang and Xiaoyang Tan",
+    "author": "Ke Jiang 0002 and Wen Jiang and Xiaoyang Tan",
     "booktitle": "AAAI",
     "title": "Variational OOD State Correction for Offline Reinforcement Learning.",
     "year": "2026",
@@ -37319,7 +37319,7 @@
   "Sparse-Scale Transformer with Bidirectional Awareness for Time Series Forecasting.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuLHLHWH26",
-    "author": "Ying Liu and Bo Liu 0005 and Sheng Huang 0001 and Gang Luo and Wenbo Hu 0001 and Meng Wang 0001 and Richang Hong",
+    "author": "Ying Liu 0096 and Bo Liu 0005 and Sheng Huang 0001 and Gang Luo and Wenbo Hu 0001 and Meng Wang 0001 and Richang Hong",
     "booktitle": "AAAI",
     "title": "Sparse-Scale Transformer with Bidirectional Awareness for Time Series Forecasting.",
     "year": "2026",
@@ -42976,7 +42976,7 @@
   "Make Foundation Models Trustworthy Again: Causal Fine-Adaptation for Medical Image Segmentation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YangCMG26",
-    "author": "Hongpeng Yang and Yingxin Chen and Shiqiang Ma and Fei Guo 0001",
+    "author": "Hongpeng Yang and Yingxin Chen 0001 and Shiqiang Ma and Fei Guo 0001",
     "booktitle": "AAAI",
     "title": "Make Foundation Models Trustworthy Again: Causal Fine-Adaptation for Medical Image Segmentation.",
     "year": "2026",
@@ -43662,7 +43662,7 @@
   "Activating Visual Context and Commonsense Reasoning Through Masked Prediction in VLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YuLHYSJL26",
-    "author": "Jiaao Yu and Shenwei Li and Mingjie Han and Yifei Yin and Wenzheng Song and Chenghao Jia and Man Lan",
+    "author": "Jiaao Yu 0001 and Shenwei Li and Mingjie Han and Yifei Yin and Wenzheng Song and Chenghao Jia and Man Lan",
     "booktitle": "AAAI",
     "title": "Activating Visual Context and Commonsense Reasoning Through Masked Prediction in VLMs.",
     "year": "2026",
@@ -51631,7 +51631,7 @@
   "Optimization and Robustness-Informed Membership Inference Attacks for LLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SongZLS26",
-    "author": "Zichen Song and Qixin Zhang and Ming Li and Yao Shu",
+    "author": "Zichen Song 0001 and Qixin Zhang and Ming Li and Yao Shu",
     "booktitle": "AAAI",
     "title": "Optimization and Robustness-Informed Membership Inference Attacks for LLMs.",
     "year": "2026",
@@ -58722,7 +58722,7 @@
   "StyleBreak: Revealing Alignment Vulnerabilities in Large Audio-Language Models via Style-Aware Audio Jailbreak.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiZWLCXYW26",
-    "author": "Hongyi Li and Chengxuan Zhou and Chu Wang and Sicheng Liang and Yanting Chen and Qinlin Xie and Jiawei Ye and Jie Wu 0003",
+    "author": "Hongyi Li 0005 and Chengxuan Zhou and Chu Wang and Sicheng Liang and Yanting Chen and Qinlin Xie and Jiawei Ye and Jie Wu 0003",
     "booktitle": "AAAI",
     "title": "StyleBreak: Revealing Alignment Vulnerabilities in Large Audio-Language Models via Style-Aware Audio Jailbreak.",
     "year": "2026",

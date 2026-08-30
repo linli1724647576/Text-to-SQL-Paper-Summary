@@ -1,4 +1,37 @@
 {
+  "Personalized w-event privacy for infinite stream estimation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7160917877",
+    "author": "Leilei Du and Xu Zhou and Peng Cheng and Lei Chen and Xuemin Lin and Wei Xi and Kenli Li",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Personalized w-event privacy for infinite stream estimation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Differential privacy, Computer science, Window (computing), Data stream, Information privacy, Data stream mining, Scheme (mathematics), Sliding window protocol, Budget constraint, Privacy protection, Distribution (mathematics), Key (lock), Event (particle physics), Data mining, Homogeneous, Differential (mechanical device), Time shifting, Real-time computing, Estimation, Privacy software, Computer security, Data access, Probability distribution",
+    "url": "https://doi.org/10.1007/s00778-026-01004-3",
+    "doi": "https://doi.org/10.1007/s00778-026-01004-3",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7160917877",
+    "arxiv_id": "2605.09054"
+  },
+  "ResidualPlanner+: a scalable matrix mechanism for marginals and beyond.": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7204037570",
+    "author": "Yingtai Xiao and Guanlin He and Levent Toksoz and Zeyu Ding and Danfeng Zhang and Daniel Kifer",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "ResidualPlanner+: a scalable matrix mechanism for marginals and beyond.",
+    "year": "2026",
+    "abstract": "Abstract Noisy marginals are a common form of confidentiality protecting data release and are useful for many downstream tasks such as contingency table analysis, construction of Bayesian networks, and even synthetic data generation. Matrix mechanisms, an important class of privacy mechanisms that provide unbiased noisy answers to linear queries, are often used to answer marginal queries. We propose ResidualPlanner and ResidualPlanner+, two highly scalable matrix mechanisms. ResidualPlanner is both optimal (among matrix mechanisms that use Gaussian noise) and scalable for answering marginal queries, while ResidualPlanner+provides support for more general workloads, such as combinations of marginals and range queries or prefix-sum queries. ResidualPlanner can optimize for many loss functions that can be written as a convex function of marginal variances (prior work was restricted to just one predefined objective function). ResidualPlanner can optimize the accuracy of marginals in large scale settings in seconds, even when the previous state of the art (HDMM) runs out of memory. It even runs on datasets with 100 attributes in a couple of minutes. Furthermore, ResidualPlanner can efficiently compute variance/covariance values for each marginal (prior methods quickly run out of memory, even for relatively small datasets). ResidualPlanner+provides support for more complex workloads that combine marginal and range/prefix-sum queries (e.g., a marginal on race, a range query on age, and a combined race/age tabulation that answers age range queries for each race). It even supports custom user-defined workloads on different attributes. With this added flexibility, ResidualPlanner+is not necessarily optimal, however it is still extremely scalable and outperforms the prior state-of-the-art (HDMM) on prefix-sum queries both in terms of accuracy and speed.",
+    "keywords": "Scalability, Computer science, Range (aeronautics), Marginal distribution, Matrix completion, Data mining, Matrix (chemical analysis), Function (biology), Gaussian, Table (database), Theoretical computer science, Scale (ratio), Algorithm, Contingency table, Bayesian probability, Class (philosophy), Marginal model, Synthetic data, Design matrix, Sparse matrix, Robustness (evolution), Graphical model, Convex optimization, Convex function, Regular polygon, Mathematical optimization",
+    "url": "https://doi.org/10.1007/s00778-026-00981-9",
+    "doi": "https://doi.org/10.1007/s00778-026-00981-9",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7204037570"
+  },
   "Towards robust and interactive text-to-visualization translation: enhancing model robustness and mitigating ambiguity in natural language queries": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7203861014",

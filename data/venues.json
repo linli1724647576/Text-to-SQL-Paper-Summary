@@ -233,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AAAI2026.json",
-          "sha256": "753e9f8aa2791cab7ae7a6d35625c41260cf5f442887c9839775d9e016e2deea"
+          "sha256": "9b4448f225ff06d378df74e14b4dadae2aab9a8120b0da62abcdd83987a670bd"
         }
       ],
       "processing": {
@@ -731,7 +731,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AIJ2026.json",
-          "sha256": "1b853133c54a33e0d3dceba9a012ba77c8df7eedae7e72aec16e09e116d2e870"
+          "sha256": "e20c90239b094474258ae4a592abd450ae22639e8d3fa11752e7775c04cbaac4"
         }
       ],
       "processing": {
@@ -2219,7 +2219,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/ICML2026-accepted.json",
-          "sha256": "bfbcc93e4f327154c47dfa3d97b21532fcf874ed48d039c250d1042141693af7"
+          "sha256": "14c714ad1fe69157dd88894d5ab413cc36f05bdc563ee9bd0a1704b3e8012e60"
         }
       ],
       "processing": {
@@ -4253,7 +4253,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TKDE2026.json",
-          "sha256": "29f7947442ca222e3de48b30b19fe49e33c94262ca5609287c0efe5592c1d563"
+          "sha256": "1c2bce505e32677f1272051931ab8235c3d836d1ffca67219bc2649aab52b76b"
         }
       ],
       "processing": {
@@ -4519,7 +4519,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TOSEM2026.json",
-          "sha256": "41d694fbd0df68d5e5d05250de1db3e19b2fbe41d00427a59b5f7ebe51fe1828"
+          "sha256": "c36248f6716ec8697795f3689d7ac8eb9bb7708e789de37b1fdf8cb64fc02aa4"
         }
       ],
       "processing": {
@@ -4785,7 +4785,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TSE2026.json",
-          "sha256": "c043b76f7aaee37f703fdf0e4a5bf4e43bc9d46dfabf4347e8fbec43372c8158"
+          "sha256": "133d89eb61ad134cf508d6c497669bd21ed2f57b3cb7740cb6c6cee0bd0694de"
         }
       ],
       "processing": {
@@ -5051,7 +5051,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDB2026.json",
-          "sha256": "38ad63b20bf485831c881fe8fb57b9346f62a974047da3db703ce924e7f2f6ee"
+          "sha256": "c4847cafa726f8dba3cf6b60df91dba83fe9a4c7a720d5215a4d91c2a845635d"
         }
       ],
       "processing": {
@@ -5317,7 +5317,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDBJ2026.json",
-          "sha256": "10e07ca87a318738ffc50bc1ecb700e3c5d847e98dd184c8bfaef682669561c2"
+          "sha256": "6e0d07f11154729855d6d1cc4efa9e82b206c63fb3b5273bbb0f8c4c94574d03"
         }
       ],
       "processing": {

@@ -4815,6 +4815,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "WildActor: Unconstrained Identity-Preserving Video Generation": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-wildactor-unconstrained-identity-preserving-video-generation",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "WildActor: Unconstrained Identity-Preserving Video Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60803",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Fourier Features Let Agents Learn High Precision Policies with Imitation Learning": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-fourier-features-let-agents-learn-high-precision-policies-with-imitation-learnin",
@@ -48645,20 +48659,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65007",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "WildActor: Unconstrained Identity-Preserving Video Generation": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-wildactor-unconstrained-identity-preserving-video-generation",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "WildActor: Unconstrained Identity-Preserving Video Generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60803",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

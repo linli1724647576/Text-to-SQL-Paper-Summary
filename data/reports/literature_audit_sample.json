@@ -125,45 +125,7 @@
       "notes": "risk-directed sample"
     },
     {
-      "title": "DeepSQLi: deep semantic learning for testing SQL injection",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ISSTA",
-      "normalized_venue": "ISSTA",
-      "category": "软件工程",
-      "year": "2020",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1145/3395363.3397375",
-        "https://doi.org/10.1145/3395363.3397375"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ASE",
-      "normalized_venue": "ASE",
-      "category": "软件工程",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/ase63991.2025.00076",
-        "https://doi.org/10.1109/ASE63991.2025.00076"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment",
+      "title": "DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
@@ -171,36 +133,53 @@
       "venue": "SIGMOD",
       "normalized_venue": "SIGMOD",
       "category": "数据库领域",
-      "year": "2025",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2025.sigmod.org/sigmod_papers.shtml"
+        "https://arxiv.org/abs/2510.17586v3"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://arxiv.org/abs/2602.12064v1"
+      ],
+      "notes": "missing doi"
+    },
+    {
+      "title": "OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDB",
+      "normalized_venue": "VLDB",
+      "category": "数据库领域",
+      "year": "2026",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "https://www.vldb.org/pvldb/vol19/p1628-li.pdf"
       ],
       "notes": "missing doi, abstract"
     },
     {
-      "title": "PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices",
-      "present_in_labeldata": true,
-      "stratum": "ccf_conference",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/icde65448.2025.00365",
-        "https://doi.org/10.1109/ICDE65448.2025.00365"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Laziness Is a Virtue When It Comes to Compositionality in Neural Semantic Parsing",
+      "title": "Photon: A Robust Cross-Domain Text-to-SQL System",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
@@ -208,18 +187,37 @@
       "venue": "ACL",
       "normalized_venue": "ACL",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2020",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2023.acl-long.470",
-        "https://aclanthology.org/2023.acl-long.470/"
+        "10.18653/v1/2020.acl-demos.24",
+        "https://doi.org/10.18653/v1/2020.acl-demos.24"
       ],
       "notes": ""
     },
     {
-      "title": "Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale",
+      "title": "LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations",
+      "present_in_labeldata": true,
+      "stratum": "ccf_conference",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2021",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2021.acl-long.198",
+        "https://doi.org/10.18653/v1/2021.acl-long.198"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
@@ -232,33 +230,34 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v40i47.41446",
-        "https://doi.org/10.1609/aaai.v40i47.41446",
-        "https://openalex.org/W7138832438"
+        "10.1609/aaai.v40i38.40484",
+        "https://doi.org/10.1609/aaai.v40i38.40484",
+        "https://openalex.org/W7138227879"
       ],
       "notes": ""
     },
     {
-      "title": "A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation",
+      "title": "A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2020",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2021",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2020.acl-main.84",
-        "https://doi.org/10.18653/v1/2020.acl-main.84"
+        "10.1145/3448016.3457543",
+        "https://doi.org/10.1145/3448016.3457543",
+        "https://openalex.org/W3177130063"
       ],
       "notes": ""
     },
     {
-      "title": "Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?",
+      "title": "Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "ccf_conference",
       "verdict": "true_positive_core",
@@ -271,7 +270,7 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2601.18119v1"
+        "https://arxiv.org/abs/2602.15564v1"
       ],
       "notes": "missing doi"
     },
@@ -580,107 +579,67 @@
       "notes": "missing doi"
     },
     {
-      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1007/s00778-023-00809-w",
-        "https://doi.org/10.1007/s00778-023-00809-w",
-        "https://openalex.org/W4386099755"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v39i17.34009",
-        "https://doi.org/10.1609/aaai.v39i17.34009",
-        "https://openalex.org/W4409364161"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v39i24.34770",
-        "https://doi.org/10.1609/aaai.v39i24.34770",
-        "https://openalex.org/W4409363613"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
+      "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "TSE",
-      "normalized_venue": "TSE",
-      "category": "软件工程",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2025.acl-long.776",
+        "https://doi.org/10.18653/v1/2025.acl-long.776",
+        "https://openalex.org/W4412945216"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Confidence Estimation for Error Detection in Text-to-SQL Systems",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v39i23.34699",
+        "https://doi.org/10.1609/aaai.v39i23.34699",
+        "https://openalex.org/W4409347892"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
       "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tse.2024.3523284",
-        "https://doi.org/10.1109/tse.2024.3523284",
-        "https://openalex.org/W4405846260"
+        "10.1109/tkde.2024.3393356",
+        "https://doi.org/10.1109/tkde.2024.3393356",
+        "https://openalex.org/W4396597709"
       ],
       "notes": ""
     },
     {
-      "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
-      "present_in_labeldata": true,
-      "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2023",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1609/aaai.v37i11.26536",
-        "https://doi.org/10.1609/aaai.v37i11.26536",
-        "https://openalex.org/W4382202695"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "DB-BERT: A Database Tuning Tool that \"Reads the Manual\"",
+      "title": "LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_application",
@@ -693,14 +652,54 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3514221.3517843",
-        "https://doi.org/10.1145/3514221.3517843",
-        "https://openalex.org/W4281972940"
+        "10.1145/3514221.3520165",
+        "https://doi.org/10.1145/3514221.3520165",
+        "https://openalex.org/W4282016830"
       ],
       "notes": ""
     },
     {
-      "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation",
+      "title": "DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2025.acl-long.748",
+        "https://aclanthology.org/2025.acl-long.748/",
+        "https://openalex.org/W4412945208"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Uncovering and Categorizing Social Biases in Text-to-SQL",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2023",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2023.acl-long.759",
+        "https://doi.org/10.18653/v1/2023.acl-long.759",
+        "https://openalex.org/W4385570388"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -713,34 +712,52 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2022.acl-long.142",
-        "https://doi.org/10.18653/v1/2022.acl-long.142",
-        "https://openalex.org/W4285195848"
+        "10.18653/v1/2022.acl-long.381",
+        "https://doi.org/10.18653/v1/2022.acl-long.381",
+        "https://openalex.org/W4285131076"
       ],
       "notes": ""
     },
     {
-      "title": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
+      "title": "SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
       "category": "AI 领域",
+      "year": "2025",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.18653/v1/2025.acl-long.552",
+        "https://aclanthology.org/2025.acl-long.552/",
+        "https://openalex.org/W4412945394"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "PRISM: Navigating Cost-Accuracy Trade-offs for NL2SQL",
+      "present_in_labeldata": true,
+      "stratum": "fill",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
       "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v40i40.40672",
-        "https://arxiv.org/abs/2511.17190v1",
-        "https://openalex.org/W7139106599"
+        "https://2026.sigmod.org/sigmod_papers.shtml"
       ],
-      "notes": ""
+      "notes": "missing doi, abstract"
     },
     {
-      "title": "dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models",
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
@@ -748,33 +765,14 @@
       "venue": "ArXiv",
       "normalized_venue": "ArXiv",
       "category": "ArXiv",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://arxiv.org/abs/2312.13264v1"
+        "https://arxiv.org/abs/2604.22934v1"
       ],
       "notes": "missing doi"
-    },
-    {
-      "title": "PURPLE: Making a Large Language Model a Better SQL Writer",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ICDE",
-      "normalized_venue": "ICDE",
-      "category": "数据库领域",
-      "year": "2024",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/icde60146.2024.00009",
-        "https://doi.org/10.1109/ICDE60146.2024.00009"
-      ],
-      "notes": ""
     }
   ]
 }

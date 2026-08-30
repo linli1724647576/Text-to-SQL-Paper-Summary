@@ -13,14 +13,14 @@
 | risk | false_positive_removed | ArXiv | 2025 | A New Paradigm of User-Centric Wireless Communication Driven by Large Language Models | removed by prune-irrelevant; risk-directed sample |
 | risk | true_positive_application | ArXiv | 2025 | Castle: Causal Cascade Updates in Relational Databases with Large Language Models | missing doi; risk-directed sample |
 | risk | true_positive_core | TOSEM | 2025 | Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach | risk-directed sample |
-| ccf_conference | true_positive_application | ISSTA | 2020 | DeepSQLi: deep semantic learning for testing SQL injection |  |
-| ccf_conference | true_positive_application | ASE | 2025 | DLBench: A Comprehensive Benchmark for SQL Translation with Large Language Models |  |
-| ccf_conference | true_positive_core | SIGMOD | 2025 | OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment | missing doi, abstract |
-| ccf_conference | true_positive_application | ICDE | 2025 | PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices |  |
-| ccf_conference | true_positive_core | ACL | 2023 | Laziness Is a Virtue When It Comes to Compositionality in Neural Semantic Parsing |  |
-| ccf_conference | true_positive_core | AAAI | 2026 | Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale |  |
-| ccf_conference | true_positive_core | ACL | 2020 | A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation |  |
-| ccf_conference | true_positive_core | ICML | 2026 | Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL? | missing doi |
+| ccf_conference | true_positive_core | SIGMOD | 2026 | DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework | missing doi |
+| ccf_conference | true_positive_core | SIGMOD | 2026 | DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning | missing doi |
+| ccf_conference | true_positive_core | VLDB | 2026 | OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision | missing doi, abstract |
+| ccf_conference | true_positive_core | ACL | 2020 | Photon: A Robust Cross-Domain Text-to-SQL System |  |
+| ccf_conference | true_positive_core | ACL | 2021 | LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations |  |
+| ccf_conference | true_positive_core | AAAI | 2026 | SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces |  |
+| ccf_conference | true_positive_core | SIGMOD | 2021 | A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems |  |
+| ccf_conference | true_positive_core | ICML | 2026 | Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL | missing doi |
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_core | TKDE | 2025 | A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going? |  |
 | readme_journal | true_positive_core | TKDE | 2026 | Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation | missing abstract |
@@ -37,13 +37,13 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
-| supplemental | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
-| supplemental | true_positive_core | AAAI | 2025 | AIA: Autoregression-Based Injection Attacks Against Text2SQL Models |  |
-| supplemental | true_positive_core | AAAI | 2025 | CogSQL: A Cognitive Framework for Enhancing Large Language Models in Text-to-SQL Translation |  |
-| supplemental | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
-| supplemental | true_positive_core | AAAI | 2023 | Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing |  |
-| supplemental | true_positive_application | SIGMOD | 2022 | DB-BERT: A Database Tuning Tool that "Reads the Manual" |  |
-| supplemental | true_positive_core | ACL | 2022 | Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation |  |
-| supplemental | true_positive_core | AAAI | 2026 | AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale |  |
-| fill | true_positive_core | ArXiv | 2023 | dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models | missing doi |
-| fill | true_positive_core | ICDE | 2024 | PURPLE: Making a Large Language Model a Better SQL Writer |  |
+| supplemental | true_positive_application | ACL | 2025 | Adaptive and Robust Translation from Natural Language to Multi-model Query Languages |  |
+| supplemental | true_positive_core | AAAI | 2025 | Confidence Estimation for Error Detection in Text-to-SQL Systems |  |
+| supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
+| supplemental | true_positive_application | SIGMOD | 2022 | LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education |  |
+| supplemental | true_positive_core | ACL | 2025 | DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph |  |
+| supplemental | true_positive_core | ACL | 2023 | Uncovering and Categorizing Social Biases in Text-to-SQL |  |
+| supplemental | true_positive_core | ACL | 2022 | Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion |  |
+| supplemental | true_positive_core | ACL | 2025 | SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL |  |
+| fill | true_positive_core | SIGMOD | 2026 | PRISM: Navigating Cost-Accuracy Trade-offs for NL2SQL | missing doi, abstract |
+| fill | true_positive_core | ArXiv | 2026 | PExA: Parallel Exploration Agent for Complex Text-to-SQL | missing doi |

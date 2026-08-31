@@ -5,7 +5,7 @@
       "files": [
         {
           "path": "data/rawdata/2020/AAAI2020.json",
-          "sha256": "1f8b80dbd72123151ad6e19b0e0e14560ec1e7d5342cb7b94873ac8988c94459"
+          "sha256": "b4e7bf619495b0dc226fe2702025d96ffa7e5f1639221a165c9be0f243b225b9"
         }
       ],
       "processing": {
@@ -3255,7 +3255,7 @@
         },
         {
           "path": "data/rawdata/2020/NeurIPS2020.json",
-          "sha256": "8acce234846d0e5e18c2ccd26bb4e8886c776e322850e36ad6412b03ce245de3"
+          "sha256": "931e6df792b296796dd0190fade7d08b082d312a24793b5c7656803dcd1d0cb1"
         }
       ],
       "processing": {

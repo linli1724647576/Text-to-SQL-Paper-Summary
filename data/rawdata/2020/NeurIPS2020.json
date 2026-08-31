@@ -3152,7 +3152,7 @@
   "Learning abstract structure for drawing by efficient motor program induction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/TianEK020",
-    "author": "Lucas Yanan Tian and Kevin Ellis and Marta Kryven and Josh Tenenbaum 0001",
+    "author": "Lucas Yanan Tian and Kevin Ellis and Marta Kryven and Josh Tenenbaum",
     "booktitle": "NeurIPS",
     "title": "Learning abstract structure for drawing by efficient motor program induction.",
     "year": "2020",
@@ -7072,7 +7072,7 @@
   "Learning Physical Graph Representations from Visual Scenes.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/BearFMLANS000Y20",
-    "author": "Daniel Bear and Chaofei Fan and Damian Mrowca and Yunzhu Li and Seth Alter and Aran Nayebi and Jeremy Schwartz and Li Fei-Fei 0001 and Jiajun Wu 0001 and Josh Tenenbaum 0001 and Daniel L. K. Yamins",
+    "author": "Daniel Bear and Chaofei Fan and Damian Mrowca and Yunzhu Li and Seth Alter and Aran Nayebi and Jeremy Schwartz and Li Fei-Fei 0001 and Jiajun Wu 0001 and Josh Tenenbaum and Daniel L. K. Yamins",
     "booktitle": "NeurIPS",
     "title": "Learning Physical Graph Representations from Visual Scenes.",
     "year": "2020",
@@ -8710,7 +8710,7 @@
   "Multi-Plane Program Induction with 3D Box Priors.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/LiMZF0S020",
-    "author": "Yikai Li and Jiayuan Mao and Xiuming Zhang and Bill Freeman and Josh Tenenbaum 0001 and Noah Snavely and Jiajun Wu 0001",
+    "author": "Yikai Li and Jiayuan Mao and Xiuming Zhang and Bill Freeman and Josh Tenenbaum and Noah Snavely and Jiajun Wu 0001",
     "booktitle": "NeurIPS",
     "title": "Multi-Plane Program Induction with 3D Box Priors.",
     "year": "2020",
@@ -12714,7 +12714,7 @@
   "Learning Compositional Rules via Neural Program Synthesis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/NyeS0L20",
-    "author": "Maxwell I. Nye and Armando Solar-Lezama and Josh Tenenbaum 0001 and Brenden M. Lake",
+    "author": "Maxwell I. Nye and Armando Solar-Lezama and Josh Tenenbaum and Brenden M. Lake",
     "booktitle": "NeurIPS",
     "title": "Learning Compositional Rules via Neural Program Synthesis.",
     "year": "2020",
@@ -15542,7 +15542,7 @@
   "Program Synthesis with Pragmatic Communication.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/PuEK0S20",
-    "author": "Yewen Pu and Kevin Ellis and Marta Kryven and Josh Tenenbaum 0001 and Armando Solar-Lezama",
+    "author": "Yewen Pu and Kevin Ellis and Marta Kryven and Josh Tenenbaum and Armando Solar-Lezama",
     "booktitle": "NeurIPS",
     "title": "Program Synthesis with Pragmatic Communication.",
     "year": "2020",
@@ -22584,7 +22584,7 @@
   "Online Bayesian Goal Inference for Boundedly Rational Planning Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/nips/Zhi-XuanMSTM20",
-    "author": "Tan Zhi-Xuan and Jordyn L. Mann and Tom Silver and Josh Tenenbaum 0001 and Vikash Mansinghka 0001",
+    "author": "Tan Zhi-Xuan and Jordyn L. Mann and Tom Silver and Josh Tenenbaum and Vikash Mansinghka 0001",
     "booktitle": "NeurIPS",
     "title": "Online Bayesian Goal Inference for Boundedly Rational Planning Agents.",
     "year": "2020",

@@ -5148,13 +5148,12 @@
     "booktitle": "AAAI",
     "title": "Query Answering with Guarded Existential Rules under Stable Model Semantics.",
     "year": "2020",
-    "abstract": "In this paper, we study the problem of query answering with guarded existential rules (also called GNTGDs) under stable model semantics. Our goal is to use existing answer set programming (ASP) solvers. However, ASP solvers handle only finitely-ground logic programs while the program translated from GNTGDs by Skolemization is not in general. To address this challenge, we introduce two novel notions of (1) guarded instantiation forest to describe the instantiation of GNTGDs and (2) prime block to characterize the repeated infinitely-ground program translated from GNTGDs. Using these notions, we prove that the ground termination problem for GNTGDs is decidable. We also devise an algorithm for query answering with GNTGDs using ASP solvers. We have implemented our approach in a prototype system. The evaluation over a set of benchmarks shows encouraging results.",
+    "abstract": "",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i03.5695",
     "doi": "10.1609/aaai.v34i03.5695",
     "venue": "AAAI2020",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W2998295907"
+    "venue_track": "AI"
   },
   "COTSAE: CO-Training of Structure and Attribute Embeddings for Entity Alignment.": {
     "type": "INPROCEEDINGS",
@@ -17592,7 +17591,7 @@
   "Few-Shot Bayesian Imitation Learning with Logical Program Policies.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/SilverALK020",
-    "author": "Tom Silver and Kelsey R. Allen and Alex K. Lew and Leslie Pack Kaelbling and Josh Tenenbaum 0001",
+    "author": "Tom Silver and Kelsey R. Allen and Alex K. Lew and Leslie Pack Kaelbling and Josh Tenenbaum",
     "booktitle": "AAAI",
     "title": "Few-Shot Bayesian Imitation Learning with Logical Program Policies.",
     "year": "2020",
@@ -24420,12 +24419,13 @@
     "booktitle": "AAAI",
     "title": "Improving Semantic Parsing Using Statistical Word Sense Disambiguation (Student Abstract).",
     "year": "2020",
-    "abstract": "",
+    "abstract": "A Semantic Parser generates a logical form graph from an utterance where the edges are semantic roles and nodes are word senses in an ontology that supports reasoning. The generated representation attempts to capture the full meaning of the utterance. While the process of parsing works to resolve lexical ambiguity, a number of errors in the logical forms arise from incorrectly assigned word sense determinations. This is especially true in logical and rule-based semantic parsers. Although the performance of statistical word sense disambiguation methods is superior to the word sense output of semantic parser, these systems do not produce the rich role structure or a detailed semantic representation of the sentence content. In this work, we use decisions from a statistical WSD system to inform a logical semantic parser and greatly improve semantic type assignments in the resulting logical forms.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7150",
     "doi": "10.1609/aaai.v34i10.7150",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3037522856"
   },
   "Towards an Integrative Educational Recommender for Lifelong Learners (Student Abstract).": {
     "type": "INPROCEEDINGS",

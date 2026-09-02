@@ -5632,7 +5632,7 @@
   "Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/WangWYDLGW22",
-    "author": "Zhuo Wang and Zezheng Wang and Zitong Yu and Weihong Deng and Jiahong Li and Tingting Gao and Zhongyuan Wang 0006",
+    "author": "Zhuo Wang and Zezheng Wang 0002 and Zitong Yu and Weihong Deng and Jiahong Li and Tingting Gao and Zhongyuan Wang 0006",
     "booktitle": "CVPR",
     "title": "Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing.",
     "year": "2022",
@@ -19011,7 +19011,7 @@
   "Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/cvpr/MaLGLCWZH22",
-    "author": "Zongyang Ma and Guan Luo and Jin Gao and Liang Li and Yuxin Chen and Shaoru Wang and Congxuan Zhang and Weiming Hu 0004",
+    "author": "Zongyang Ma and Guan Luo and Jin Gao and Liang Li 0006 and Yuxin Chen and Shaoru Wang and Congxuan Zhang and Weiming Hu 0004",
     "booktitle": "CVPR",
     "title": "Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation.",
     "year": "2022",

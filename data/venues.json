@@ -1119,7 +1119,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/CVPR2022.json",
-          "sha256": "dee9bf2a60bf98ff655d51abd0b8748c3e7fe55f85a3f99ca8091c7ddc634b42"
+          "sha256": "3778dcbc7d9af2dc39947dd3e831b1aa4d75b2b717ec3d2bc93b0ecd6d67c801"
         }
       ],
       "processing": {
@@ -3335,7 +3335,7 @@
       "files": [
         {
           "path": "data/rawdata/2022/NeurIPS2022-accepted.json",
-          "sha256": "233762ebc20ec7d368e945e6b9c342543692d7190319a57e9fda98f36ce0e6ab"
+          "sha256": "71144bd6adf022922f2ef2f9a14af068976225cc5753ddc4af8c4829898b5358"
         },
         {
           "path": "data/rawdata/2022/NeurIPS2022.json",

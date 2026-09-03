@@ -5115,7 +5115,7 @@
   "Unbiased Heterogeneous Scene Graph Generation with Relation-Aware Message Passing Neural Network.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YoonKMP23",
-    "author": "Kanghoon Yoon and Kibum Kim and Jinyoung Moon and Chanyoung Park 0001",
+    "author": "Kanghoon Yoon and Kibum Kim 0001 and Jinyoung Moon and Chanyoung Park 0001",
     "booktitle": "AAAI",
     "title": "Unbiased Heterogeneous Scene Graph Generation with Relation-Aware Message Passing Neural Network.",
     "year": "2023",
@@ -17794,7 +17794,7 @@
   "Tensorized Incomplete Multi-View Clustering with Intrinsic Graph Completion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Zhao0FZ23",
-    "author": "Shuping Zhao and Jie Wen 0001 and Lunke Fei and Bob Zhang 0001",
+    "author": "Shuping Zhao 0001 and Jie Wen 0001 and Lunke Fei and Bob Zhang 0001",
     "booktitle": "AAAI",
     "title": "Tensorized Incomplete Multi-View Clustering with Intrinsic Graph Completion.",
     "year": "2023",

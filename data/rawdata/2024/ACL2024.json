@@ -7042,7 +7042,7 @@
   "Hyperspherical Multi-Prototype with Optimal Transport for Event Argument Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/acl/ZhangZ00TL24",
-    "author": "Guangjun Zhang and Hu Zhang 0003 and Yujie Wang 0003 and Ru Li 0001 and Hongye Tan and Jiye Liang",
+    "author": "Guangjun Zhang 0001 and Hu Zhang 0003 and Yujie Wang 0003 and Ru Li 0001 and Hongye Tan and Jiye Liang",
     "booktitle": "ACL (1)",
     "title": "Hyperspherical Multi-Prototype with Optimal Transport for Event Argument Extraction.",
     "year": "2024",

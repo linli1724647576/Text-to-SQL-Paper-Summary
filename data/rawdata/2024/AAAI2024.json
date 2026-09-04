@@ -13409,7 +13409,7 @@
   "Learning Persistent Community Structures in Dynamic Networks via Topological Data Analysis.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KongZL24",
-    "author": "Dexu Kong and Anping Zhang and Yang Li",
+    "author": "Dexu Kong and Anping Zhang and Yang Li 0104",
     "booktitle": "AAAI",
     "title": "Learning Persistent Community Structures in Dynamic Networks via Topological Data Analysis.",
     "year": "2024",
@@ -24918,7 +24918,7 @@
   "H-ensemble: An Information Theoretic Approach to Reliable Few-Shot Multi-Source-Free Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuWWL24",
-    "author": "Yanru Wu and Jianning Wang and Weida Wang and Yang Li",
+    "author": "Yanru Wu and Jianning Wang and Weida Wang and Yang Li 0104",
     "booktitle": "AAAI",
     "title": "H-ensemble: An Information Theoretic Approach to Reliable Few-Shot Multi-Source-Free Transfer.",
     "year": "2024",

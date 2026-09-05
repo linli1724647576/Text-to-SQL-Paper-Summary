@@ -11718,7 +11718,7 @@
   "Federated Representation Angle Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/YiYWLL25",
-    "author": "Liping Yi and Han Yu 0001 and Gang Wang 0001 and Xiaoguang Liu 0001 and Xiaoxiao Li",
+    "author": "Liping Yi and Han Yu 0001 and Gang Wang 0001 and Xiaoguang Liu 0001 and Xiaoxiao Li 0001",
     "booktitle": "ICCV",
     "title": "Federated Representation Angle Learning.",
     "year": "2025",
@@ -18285,7 +18285,7 @@
   "AlignDiff: Learning Physically-Grounded Camera Alignment via Diffusion.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/XieGCAJJ25",
-    "author": "Liuyue Xie and Jiancong Guo and Ozan Cakmakci and Andre Araujo and László A. Jeni and Zhiheng Jia",
+    "author": "Liuyue Xie and Jiancong Guo and Ozan Cakmakci and Andre Araujo 0001 and László A. Jeni and Zhiheng Jia",
     "booktitle": "ICCV",
     "title": "AlignDiff: Learning Physically-Grounded Camera Alignment via Diffusion.",
     "year": "2025",
@@ -21533,7 +21533,7 @@
   "Flow4Agent: Long-form Video Understanding via Motion Prior from Optical Flow.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/LiuSTGL25",
-    "author": "Ruyang Liu and Shangkun Sun and Haoran Tang and Wei Gao 0003 and Ge Li 0002",
+    "author": "Ruyang Liu and Shangkun Sun and Haoran Tang 0002 and Wei Gao 0003 and Ge Li 0002",
     "booktitle": "ICCV",
     "title": "Flow4Agent: Long-form Video Understanding via Motion Prior from Optical Flow.",
     "year": "2025",
@@ -25384,7 +25384,7 @@
   "NuPlanQA: A Large-Scale Dataset and Benchmark for Multi-View Driving Scene Understanding in Multi-Modal Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ParkCMMGHW25",
-    "author": "Sung-Yeon Park and Can Cui 0009 and Yunsheng Ma and Ahmadreza Moradipari and Rohit Gupta and Kyungtae Han and Ziran Wang",
+    "author": "Sung-Yeon Park 0001 and Can Cui 0009 and Yunsheng Ma and Ahmadreza Moradipari and Rohit Gupta and Kyungtae Han and Ziran Wang",
     "booktitle": "ICCV",
     "title": "NuPlanQA: A Large-Scale Dataset and Benchmark for Multi-View Driving Scene Understanding in Multi-Modal Large Language Models.",
     "year": "2025",
@@ -30579,7 +30579,7 @@
   "Gaussian Splatting with Discretized SDF for Relightable Assets.": {
     "type": "INPROCEEDINGS",
     "key": "conf/iccv/ZhuYW25",
-    "author": "Zuo-Liang Zhu and Jian Yang and Beibei Wang",
+    "author": "Zuo-Liang Zhu and Jian Yang 0003 and Beibei Wang 0002",
     "booktitle": "ICCV",
     "title": "Gaussian Splatting with Discretized SDF for Relightable Assets.",
     "year": "2025",

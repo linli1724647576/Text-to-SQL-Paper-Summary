@@ -1318,7 +1318,7 @@
   "AccCtr: Accelerating Training-Free Conditional Control For Diffusion Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/DaiWZW025",
-    "author": "Longquan Dai and He Wang and Yiming Zhang and Shaomeng Wang and Jinhui Tang 0001",
+    "author": "Longquan Dai and He Wang 0054 and Yiming Zhang and Shaomeng Wang and Jinhui Tang 0001",
     "booktitle": "IJCAI",
     "title": "AccCtr: Accelerating Training-Free Conditional Control For Diffusion Models.",
     "year": "2025",
@@ -4707,7 +4707,7 @@
   "Balancing User-Item Structure and Interaction with Large Language Models and Optimal Transport for Multimedia Recommendation.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/LiQ00DCZBZ25",
-    "author": "Haodong Li and Lianyong Qi and Weiming Liu 0005 and Xiaolong Xu 0001 and Wanchun Dou and Yang Cao 0019 and Xuyun Zhang and Amin Beheshti and Xiaokang Zhou",
+    "author": "Haodong Li 0007 and Lianyong Qi and Weiming Liu 0005 and Xiaolong Xu 0001 and Wanchun Dou and Yang Cao 0019 and Xuyun Zhang and Amin Beheshti and Xiaokang Zhou",
     "booktitle": "IJCAI",
     "title": "Balancing User-Item Structure and Interaction with Large Language Models and Optimal Transport for Multimedia Recommendation.",
     "year": "2025",
@@ -5660,7 +5660,7 @@
   "GCTAM: Global and Contextual Truncated Affinity Combined Maximization Model For Unsupervised Graph Anomaly Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhangPHXJJ25",
-    "author": "Xiong Zhang and Hong Peng and Zhenli He and Cheng Xie 0001 and Xin Jin 0005 and Hua Jiang",
+    "author": "Xiong Zhang 0008 and Hong Peng and Zhenli He and Cheng Xie 0001 and Xin Jin 0005 and Hua Jiang",
     "booktitle": "IJCAI",
     "title": "GCTAM: Global and Contextual Truncated Affinity Combined Maximization Model For Unsupervised Graph Anomaly Detection.",
     "year": "2025",
@@ -7959,7 +7959,7 @@
   "HiTuner: Hierarchical Semantic Fusion Model Fine-Tuning on Text-Attributed Graphs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/FangCZDTW25",
-    "author": "Zihan Fang and Zhiling Cai and Yuxuan Zheng and Shide Du and Yanchao Tan and Shiping Wang",
+    "author": "Zihan Fang 0002 and Zhiling Cai and Yuxuan Zheng and Shide Du and Yanchao Tan and Shiping Wang",
     "booktitle": "IJCAI",
     "title": "HiTuner: Hierarchical Semantic Fusion Model Fine-Tuning on Text-Attributed Graphs.",
     "year": "2025",
@@ -11081,7 +11081,7 @@
   "High-Confident Local Structure Guided Consensus Graph Learning For Incomplete Multi-view Clustering.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/ZhaoFL0CC25",
-    "author": "Shuping Zhao and Lunke Fei and Qi Lai and Jie Wen 0001 and Jinrong Cui and Tingting Chai",
+    "author": "Shuping Zhao 0001 and Lunke Fei and Qi Lai and Jie Wen 0001 and Jinrong Cui and Tingting Chai",
     "booktitle": "IJCAI",
     "title": "High-Confident Local Structure Guided Consensus Graph Learning For Incomplete Multi-view Clustering.",
     "year": "2025",
@@ -11347,7 +11347,7 @@
   "Strategy-Architecture Synergy: A Multi-View Graph Contrastive Paradigm for Consistent Representations.": {
     "type": "INPROCEEDINGS",
     "key": "conf/ijcai/Zhuang0CFYL25",
-    "author": "Shuman Zhuang and Zhihao Wu 0003 and Yuhong Chen and Zihan Fang and Jiali Yin and Ximeng Liu",
+    "author": "Shuman Zhuang and Zhihao Wu 0003 and Yuhong Chen and Zihan Fang 0002 and Jiali Yin and Ximeng Liu",
     "booktitle": "IJCAI",
     "title": "Strategy-Architecture Synergy: A Multi-View Graph Contrastive Paradigm for Consistent Representations.",
     "year": "2025",

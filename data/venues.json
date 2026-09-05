@@ -195,7 +195,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/AAAI2025.json",
-          "sha256": "0806a20e471637b8beee01b6e47c4d232020f40094a213d79768c2bff9fd69da"
+          "sha256": "4113a5a441848a371caaf8b6f662a430bae6c25f8dd25f191fa74cb3953d1a68"
         }
       ],
       "processing": {
@@ -465,7 +465,7 @@
         },
         {
           "path": "data/rawdata/2025/ACL2025.json",
-          "sha256": "544e439f87e8d6c9be9187e83e2366b30bc04b7f71cd2c218cffa818b7092f6b"
+          "sha256": "fb2c3eb2b00265dd691d2e4201a07c14dc0309d516833b0b75972bf1018acfc3"
         }
       ],
       "processing": {
@@ -1659,7 +1659,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/ICCV2025.json",
-          "sha256": "fde2e47d74e0315aa1c395729af92cdad0bb23324eba99d8fccff9472a8c21f1"
+          "sha256": "62a21c643a54944b1e83e5b43f7a0bb3841022659ddded023aebee1ee1835d66"
         }
       ],
       "processing": {
@@ -2745,7 +2745,7 @@
         },
         {
           "path": "data/rawdata/2025/IJCAI2025.json",
-          "sha256": "15829d8ce7d7f4351a585816a2df30fde5060a85a593ebf3a9de4c1f85df7d18"
+          "sha256": "dda139467ea02d21838262549a4358011317dc1de98eeb8bdd8b20f407496619"
         }
       ],
       "processing": {
@@ -3697,7 +3697,7 @@
         },
         {
           "path": "data/rawdata/2025/SIGIR2025.json",
-          "sha256": "431c3e74101d5fe9c78fcae0c9b5b833dcc64dcdc92edeb37246cbc589ccba1f"
+          "sha256": "6a8a60852897c965a493edbdf84091aa7e66aef7a9a78d7758bbd498351c62d5"
         }
       ],
       "processing": {

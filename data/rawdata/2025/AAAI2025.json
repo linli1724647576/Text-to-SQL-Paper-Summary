@@ -6450,7 +6450,7 @@
   "Pedestrian Attribute Recognition: A New Benchmark Dataset and a Large Language Model Augmented Framework.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/JinWZWL25",
-    "author": "Jiandong Jin and Xiao Wang and Qian Zhu and Haiyang Wang and Chenglong Li",
+    "author": "Jiandong Jin and Xiao Wang 0014 and Qian Zhu and Haiyang Wang and Chenglong Li",
     "booktitle": "AAAI",
     "title": "Pedestrian Attribute Recognition: A New Benchmark Dataset and a Large Language Model Augmented Framework.",
     "year": "2025",
@@ -6857,7 +6857,7 @@
   "MHBench: Demystifying Motion Hallucination in VideoLLMs.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KongZCLYZ25",
-    "author": "Ming Kong and Xianzhou Zeng and Luyuan Chen and Yadong Li and Bo Yan and Qiang Zhu",
+    "author": "Ming Kong 0001 and Xianzhou Zeng and Luyuan Chen and Yadong Li and Bo Yan and Qiang Zhu",
     "booktitle": "AAAI",
     "title": "MHBench: Demystifying Motion Hallucination in VideoLLMs.",
     "year": "2025",
@@ -11268,7 +11268,7 @@
   "MUSE: Mamba Is Efficient Multi-scale Learner for Text-video Retrieval.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangCHLJLL25",
-    "author": "Haoran Tang and Meng Cao 0002 and Jinfa Huang and Ruyang Liu and Peng Jin 0001 and Ge Li 0002 and Xiaodan Liang",
+    "author": "Haoran Tang 0002 and Meng Cao 0002 and Jinfa Huang and Ruyang Liu and Peng Jin 0001 and Ge Li 0002 and Xiaodan Liang",
     "booktitle": "AAAI",
     "title": "MUSE: Mamba Is Efficient Multi-scale Learner for Text-video Retrieval.",
     "year": "2025",
@@ -11969,7 +11969,7 @@
   "EMControl: Adding Conditional Control to Text-to-Image Diffusion Models via Expectation-Maximization.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangD025",
-    "author": "He Wang and Longquan Dai and Jinhui Tang 0001",
+    "author": "He Wang 0054 and Longquan Dai and Jinhui Tang 0001",
     "booktitle": "AAAI",
     "title": "EMControl: Adding Conditional Control to Text-to-Image Diffusion Models via Expectation-Maximization.",
     "year": "2025",
@@ -14884,7 +14884,7 @@
   "RA-SGG: Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YoonKJIK025",
-    "author": "Kanghoon Yoon and Kibum Kim and Jaehyeong Jeon and Yeonjun In and Donghyun Kim and Chanyoung Park 0001",
+    "author": "Kanghoon Yoon and Kibum Kim 0001 and Jaehyeong Jeon and Yeonjun In and Donghyun Kim and Chanyoung Park 0001",
     "booktitle": "AAAI",
     "title": "RA-SGG: Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning.",
     "year": "2025",
@@ -25587,7 +25587,7 @@
   "OpenViewer: Openness-Aware Multi-View Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/DuFT0WG25",
-    "author": "Shide Du and Zihan Fang and Yanchao Tan and Changwei Wang 0001 and Shiping Wang and Wenzhong Guo",
+    "author": "Shide Du and Zihan Fang 0002 and Yanchao Tan and Changwei Wang 0001 and Shiping Wang and Wenzhong Guo",
     "booktitle": "AAAI",
     "title": "OpenViewer: Openness-Aware Multi-View Learning.",
     "year": "2025",
@@ -26512,7 +26512,7 @@
   "Federated Causally Invariant Feature Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/GuoYC0L25",
-    "author": "Xianjie Guo and Kui Yu and Lizhen Cui and Han Yu 0001 and Xiaoxiao Li",
+    "author": "Xianjie Guo and Kui Yu and Lizhen Cui and Han Yu 0001 and Xiaoxiao Li 0001",
     "booktitle": "AAAI",
     "title": "Federated Causally Invariant Feature Learning.",
     "year": "2025",
@@ -29174,7 +29174,7 @@
   "MoLE: Decoding by Mixture of Layer Experts Alleviates Hallucination in Large Vision-Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiangDHKCLCZ25",
-    "author": "Tian Liang and Yuetian Du and Jing Huang and Ming Kong and Luyuan Chen and Yadong Li and Siye Chen and Qiang Zhu",
+    "author": "Tian Liang and Yuetian Du and Jing Huang and Ming Kong 0001 and Luyuan Chen and Yadong Li and Siye Chen and Qiang Zhu",
     "booktitle": "AAAI",
     "title": "MoLE: Decoding by Mixture of Layer Experts Alleviates Hallucination in Large Vision-Language Models.",
     "year": "2025",
@@ -29874,7 +29874,7 @@
   "VVRec: Reconstruction Attacks on DL-based Volumetric Video Upstreaming via Latent Diffusion Model with Gamma Distribution.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LuZW25",
-    "author": "Rui Lu and Bihai Zhang and Dan Wang 0002",
+    "author": "Rui Lu 0004 and Bihai Zhang and Dan Wang 0002",
     "booktitle": "AAAI",
     "title": "VVRec: Reconstruction Attacks on DL-based Volumetric Video Upstreaming via Latent Diffusion Model with Gamma Distribution.",
     "year": "2025",
@@ -33937,7 +33937,7 @@
   "NoiseHGNN: Synthesized Similarity Graph-Based Neural Network for Noised Heterogeneous Graph Representation Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangX0Y25",
-    "author": "Xiong Zhang and Cheng Xie 0001 and Haoran Duan 0002 and Beibei Yu",
+    "author": "Xiong Zhang 0008 and Cheng Xie 0001 and Haoran Duan 0002 and Beibei Yu",
     "booktitle": "AAAI",
     "title": "NoiseHGNN: Synthesized Similarity Graph-Based Neural Network for Noised Heterogeneous Graph Representation Learning.",
     "year": "2025",
@@ -34595,7 +34595,7 @@
   "pFedES: Generalized Proxy Feature Extractor Sharing for Model Heterogeneous Personalized Federated Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/Yi00W0L25",
-    "author": "Liping Yi and Han Yu 0001 and Chao Ren 0006 and Gang Wang 0001 and Xiaoguang Liu 0001 and Xiaoxiao Li",
+    "author": "Liping Yi and Han Yu 0001 and Chao Ren 0006 and Gang Wang 0001 and Xiaoguang Liu 0001 and Xiaoxiao Li 0001",
     "booktitle": "AAAI",
     "title": "pFedES: Generalized Proxy Feature Extractor Sharing for Model Heterogeneous Personalized Federated Learning.",
     "year": "2025",
@@ -39616,7 +39616,7 @@
   "SECodec: Structural Entropy-based Compressive Speech Representation Codec for Speech Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangL0GMHWD25",
-    "author": "Linqin Wang and Yaping Liu and Zhengtao Yu 0001 and Shengxiang Gao and Cunli Mao and Yuxin Huang 0004 and Wenjun Wang and Ling Dong",
+    "author": "Linqin Wang and Yaping Liu and Zhengtao Yu 0001 and Shengxiang Gao and Cunli Mao and Yuxin Huang 0004 and Wenjun Wang 0009 and Ling Dong",
     "booktitle": "AAAI",
     "title": "SECodec: Structural Entropy-based Compressive Speech Representation Codec for Speech Language Models.",
     "year": "2025",

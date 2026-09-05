@@ -2428,7 +2428,7 @@
   "Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios.": {
     "type": "INPROCEEDINGS",
     "key": "conf/sigir/KimKKK025",
-    "author": "Jiwan Kim and Hongseok Kang and Sein Kim and Kibum Kim and Chanyoung Park 0001",
+    "author": "Jiwan Kim and Hongseok Kang and Sein Kim and Kibum Kim 0001 and Chanyoung Park 0001",
     "booktitle": "SIGIR",
     "title": "Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios.",
     "year": "2025",

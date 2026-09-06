@@ -2116,7 +2116,7 @@
   "KCLNet: Electrically Equivalence-Oriented Graph Representation Learning for Analog Circuits.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuLCHY26",
-    "author": "Peng Xu 0052 and Yapeng Li and Tinghuan Chen and Tsung-Yi Ho and Bei Yu 0001",
+    "author": "Peng Xu 0052 and Yapeng Li 0001 and Tinghuan Chen and Tsung-Yi Ho and Bei Yu 0001",
     "booktitle": "AAAI",
     "title": "KCLNet: Electrically Equivalence-Oriented Graph Representation Learning for Analog Circuits.",
     "year": "2026",
@@ -4077,7 +4077,7 @@
   "Video SimpleQA: Towards Factuality Evaluation in Large Video Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/CaoHWGTZWDYZLRL26",
-    "author": "Meng Cao 0002 and Pengfei Hu and Yingyao Wang and Jihao Gu and Haoran Tang and Haoze Zhao and Chen Wang and Jiahua Dong 0001 and Wangbo Yu and Ge Zhang 0009 and Xiang Li 0117 and Ian Reid 0003 and Xiaodan Liang",
+    "author": "Meng Cao 0002 and Pengfei Hu and Yingyao Wang and Jihao Gu and Haoran Tang 0002 and Haoze Zhao and Chen Wang and Jiahua Dong 0001 and Wangbo Yu and Ge Zhang 0009 and Xiang Li 0117 and Ian Reid 0003 and Xiaodan Liang",
     "booktitle": "AAAI",
     "title": "Video SimpleQA: Towards Factuality Evaluation in Large Video Language Models.",
     "year": "2026",
@@ -8994,7 +8994,7 @@
   "Easy to Learn, Yet Hard to Forget: Towards Robust Unlearning Under Bias.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/KwonKLLLK26",
-    "author": "JuneHyoung Kwon and MiHyeon Kim and Eunju Lee and Yoonji Lee and Seunghoon Lee and YoungBin Kim",
+    "author": "JuneHyoung Kwon and MiHyeon Kim and Eunju Lee 0003 and Yoonji Lee and Seunghoon Lee and YoungBin Kim",
     "booktitle": "AAAI",
     "title": "Easy to Learn, Yet Hard to Forget: Towards Robust Unlearning Under Bias.",
     "year": "2026",
@@ -9443,7 +9443,7 @@
   "Refine3D: Scene-Adaptive Reference Point Refinement for Sparse 3D Object Detection.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiLXWXXN26",
-    "author": "Fan Li and Jing Lu 0004 and Yunlu Xu and Changhong Wu and Tao Xu and Zhaoyi Xiang and Yi Niu",
+    "author": "Fan Li and Jing Lu 0004 and Yunlu Xu and Changhong Wu and Tao Xu and Zhaoyi Xiang and Yi Niu 0002",
     "booktitle": "AAAI",
     "title": "Refine3D: Scene-Adaptive Reference Point Refinement for Sparse 3D Object Detection.",
     "year": "2026",
@@ -14599,7 +14599,7 @@
   "Video Spatial Reasoning with Object-Centric 3D Rollout.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/TangCLLLLL26",
-    "author": "Haoran Tang and Meng Cao 0002 and Ruyang Liu and Xiaoxi Liang and Linglong Li and Ge Li 0002 and Xiaodan Liang",
+    "author": "Haoran Tang 0002 and Meng Cao 0002 and Ruyang Liu and Xiaoxi Liang and Linglong Li and Ge Li 0002 and Xiaodan Liang",
     "booktitle": "AAAI",
     "title": "Video Spatial Reasoning with Object-Centric 3D Rollout.",
     "year": "2026",
@@ -15607,7 +15607,7 @@
   "PC-Flow: Preference Alignment in Flow Matching via Classifier.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WangWDT26",
-    "author": "Shaomeng Wang and He Wang and Longquan Dai and Jinhui Tang 0001",
+    "author": "Shaomeng Wang and He Wang 0054 and Longquan Dai and Jinhui Tang 0001",
     "booktitle": "AAAI",
     "title": "PC-Flow: Preference Alignment in Flow Matching via Classifier.",
     "year": "2026",
@@ -17679,7 +17679,7 @@
   "SCALAR: Scale-wise Controllable Visual Autoregressive Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/XuJBLDSC26",
-    "author": "Ryan Xu and Dongyang Jin and Yancheng Bai and Rui Lan and Xu Duan and Lei Sun and Xiangxiang Chu",
+    "author": "Ryan Xu and Dongyang Jin and Yancheng Bai and Rui Lan and Xu Duan and Lei Sun 0009 and Xiangxiang Chu",
     "booktitle": "AAAI",
     "title": "SCALAR: Scale-wise Controllable Visual Autoregressive Learning.",
     "year": "2026",
@@ -20760,7 +20760,7 @@
   "Semantic-Driven Visual Progressive Refinement for Aerial-Ground Person ReID: A Challenging Large-Scale Benchmark.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhengXWWLTL26",
-    "author": "Aihua Zheng and Hao Xie and Xixi Wan and Zi Wang 0013 and Shihao Li and Jin Tang 0001 and Bin Luo 0001",
+    "author": "Aihua Zheng and Hao Xie and Xixi Wan and Zi Wang 0013 and Shihao Li 0001 and Jin Tang 0001 and Bin Luo 0001",
     "booktitle": "AAAI",
     "title": "Semantic-Driven Visual Progressive Refinement for Aerial-Ground Person ReID: A Challenging Large-Scale Benchmark.",
     "year": "2026",
@@ -23480,7 +23480,7 @@
   "Subspace-Aware Graph Construction and Contrastive Alignment for Multimodal Recommendation with Large Language Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiQLWLPGXCZZ26",
-    "author": "Haodong Li and Lianyong Qi and Weiming Liu 0005 and Fan Wang 0020 and Chong Li and Shengye Pang and Wenwen Gong and Yanwei Xu 0003 and Xiaoxiao Chi and Yang Zhang 0029 and Xiaokang Zhou",
+    "author": "Haodong Li 0007 and Lianyong Qi and Weiming Liu 0005 and Fan Wang 0020 and Chong Li and Shengye Pang and Wenwen Gong and Yanwei Xu 0003 and Xiaoxiao Chi and Yang Zhang 0029 and Xiaokang Zhou",
     "booktitle": "AAAI",
     "title": "Subspace-Aware Graph Construction and Contrastive Alignment for Multimodal Recommendation with Large Language Models.",
     "year": "2026",
@@ -35862,7 +35862,7 @@
   "C-GNN-PRUNE: A Unified Graph-Based Framework for Structure-Aware Pruning of Mixture-of-Experts Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiWW26",
-    "author": "Lin Li and Yan Wang 0037 and Zhuopeng Wang",
+    "author": "Lin Li 0101 and Yan Wang 0037 and Zhuopeng Wang",
     "booktitle": "AAAI",
     "title": "C-GNN-PRUNE: A Unified Graph-Based Framework for Structure-Aware Pruning of Mixture-of-Experts Models.",
     "year": "2026",
@@ -37081,7 +37081,7 @@
   "FedAdamW: A Communication-Efficient Optimizer with Convergence and Generalization Guarantees for Federated Large Models.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/LiuSLTLLZL26",
-    "author": "Junkang Liu and Fanhua Shang and Hongying Liu 0001 and Yuxuan Tian and Yuanyuan Liu 0001 and Jin Liu and Kewen Zhu and Zhouchen Lin",
+    "author": "Junkang Liu and Fanhua Shang and Hongying Liu 0001 and Yuxuan Tian and Yuanyuan Liu 0001 and Jin Liu 0046 and Kewen Zhu and Zhouchen Lin",
     "booktitle": "AAAI",
     "title": "FedAdamW: A Communication-Efficient Optimizer with Convergence and Generalization Guarantees for Federated Large Models.",
     "year": "2026",
@@ -42178,7 +42178,7 @@
   "DIN: Dual Impulse Network for Multi-view Representation Learning.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuLLFDW26",
-    "author": "Yilin Wu 0001 and Weihong Lin and Renjie Lin and Zihan Fang and Shide Du and Shiping Wang",
+    "author": "Yilin Wu 0001 and Weihong Lin and Renjie Lin and Zihan Fang 0002 and Shide Du and Shiping Wang",
     "booktitle": "AAAI",
     "title": "DIN: Dual Impulse Network for Multi-view Representation Learning.",
     "year": "2026",
@@ -43900,7 +43900,7 @@
   "Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZengZYHZLJZ26",
-    "author": "Hui Zeng and Daming Zhao and Pengfei Yang and WenXuan Hou and Tianyang Zheng and Hui Li and Weiye Ji and Jidong Zhai",
+    "author": "Hui Zeng and Daming Zhao and Pengfei Yang and WenXuan Hou and Tianyang Zheng and Hui Li 0131 and Weiye Ji and Jidong Zhai",
     "booktitle": "AAAI",
     "title": "Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving.",
     "year": "2026",
@@ -44012,7 +44012,7 @@
   "Learning Optimal Prompt Ensemble for Multi-source Visual Prompt Transfer.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangCWZL26",
-    "author": "Enming Zhang and Liwen Cao and Yanru Wu and Zijie Zhao and Yang Li",
+    "author": "Enming Zhang and Liwen Cao and Yanru Wu and Zijie Zhao and Yang Li 0104",
     "booktitle": "AAAI",
     "title": "Learning Optimal Prompt Ensemble for Multi-source Visual Prompt Transfer.",
     "year": "2026",
@@ -53104,7 +53104,7 @@
   "GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/WuCWDZ26",
-    "author": "Zheng Wu and Pengzhou Cheng and Zongru Wu and Lingzhong Dong and Zhuosheng Zhang 0001",
+    "author": "Zheng Wu 0005 and Pengzhou Cheng and Zongru Wu and Lingzhong Dong and Zhuosheng Zhang 0001",
     "booktitle": "AAAI",
     "title": "GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents.",
     "year": "2026",
@@ -54155,7 +54155,7 @@
   "Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-Shot Document-Level Event Arguments Extraction.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangZHFSTL26",
-    "author": "Guangjun Zhang and Hu Zhang 0003 and Yazhou Han and Yue Fan and Yuhang Shao and Hongye Tan and Ru Li 0001",
+    "author": "Guangjun Zhang 0001 and Hu Zhang 0003 and Yazhou Han and Yue Fan and Yuhang Shao and Hongye Tan and Ru Li 0001",
     "booktitle": "AAAI",
     "title": "Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-Shot Document-Level Event Arguments Extraction.",
     "year": "2026",
@@ -61691,7 +61691,7 @@
   "ChatCLIDS: Simulating Persuasive AI Dialogues to Promote Closed-Loop Insulin Adoption in Type 1 Diabetes Care.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/YaoCWHOQLY26",
-    "author": "Zonghai Yao and Talha Chafekar and Junda Wang and Shuo Han and Feiyun Ouyang and Junhui Qian and Lingxi Li and Hong Yu 0001",
+    "author": "Zonghai Yao and Talha Chafekar and Junda Wang and Shuo Han and Feiyun Ouyang and Junhui Qian and Lingxi Li 0003 and Hong Yu 0001",
     "booktitle": "AAAI",
     "title": "ChatCLIDS: Simulating Persuasive AI Dialogues to Promote Closed-Loop Insulin Adoption in Type 1 Diabetes Care.",
     "year": "2026",
@@ -64116,7 +64116,7 @@
   "TreeBridge: Aligning LLM Embeddings in Industrial Recommender Systems.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/NiCZHZCWZYL26",
-    "author": "Yabo Ni and Yuanpeng Cao and Wenhang Zhou and Bangyang Hong and Zhongyi Zhang and Enlei Cai and Kangle Wu and Anxiang Zeng and Han Yu 0001 and Xiaoxiao Li",
+    "author": "Yabo Ni and Yuanpeng Cao and Wenhang Zhou and Bangyang Hong and Zhongyi Zhang and Enlei Cai and Kangle Wu and Anxiang Zeng and Han Yu 0001 and Xiaoxiao Li 0001",
     "booktitle": "AAAI",
     "title": "TreeBridge: Aligning LLM Embeddings in Industrial Recommender Systems.",
     "year": "2026",
@@ -68880,7 +68880,7 @@
   "Placing Any Object at Any 3D Position.": {
     "type": "INPROCEEDINGS",
     "key": "conf/aaai/ZhangKHQXZZ26",
-    "author": "Junhao Zhang and Ming Kong and Zhanbin Hu and Hao Qin and Zhijie Xu and Xiaojun Zhu and Qiang Zhu",
+    "author": "Junhao Zhang and Ming Kong 0001 and Zhanbin Hu and Hao Qin and Zhijie Xu and Xiaojun Zhu and Qiang Zhu",
     "booktitle": "AAAI",
     "title": "Placing Any Object at Any 3D Position.",
     "year": "2026",

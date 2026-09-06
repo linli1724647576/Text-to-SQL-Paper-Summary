@@ -18143,6 +18143,34 @@
     "venue": "CVPR",
     "venue_track": "AI 领域"
   },
+  "SFR-Net: Steering-Fusion-Refining Network in Multi-label Zero-Shot Sewer Defect Detection": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-sfr-net-steering-fusion-refining-network-in-multi-label-zero-shot-sewer-defect-d",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "SFR-Net: Steering-Fusion-Refining Network in Multi-label Zero-Shot Sewer Defect Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36543",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
+  "GenBreak: Red Teaming Text-to-Image Generation Using Large Language Models": {
+    "type": "INPROCEEDINGS",
+    "key": "cvpr-official-2026-genbreak-red-teaming-text-to-image-generation-using-large-language-models",
+    "author": "",
+    "booktitle": "CVPR Conference",
+    "title": "GenBreak: Red Teaming Text-to-Image Generation Using Large Language Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38385",
+    "doi": "",
+    "venue": "CVPR",
+    "venue_track": "AI 领域"
+  },
   "From Scale to Speed: Adaptive Test-Time Scaling for Image Editing": {
     "type": "INPROCEEDINGS",
     "key": "cvpr-official-2026-from-scale-to-speed-adaptive-test-time-scaling-for-image-editing",
@@ -29157,20 +29185,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/40839",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "SFR-Net: Steering-Fusion-Refining Network in Multi-label Zero-Shot Sewer Defect Detection": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-sfr-net-steering-fusion-refining-network-in-multi-label-zero-shot-sewer-defect-d",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "SFR-Net: Steering-Fusion-Refining Network in Multi-label Zero-Shot Sewer Defect Detection",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/36543",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"
@@ -46909,20 +46923,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://cvpr.thecvf.com/virtual/2026/poster/38443",
-    "doi": "",
-    "venue": "CVPR",
-    "venue_track": "AI 领域"
-  },
-  "GenBreak: Red Teaming Text-to-Image Generation Using Large Language Models": {
-    "type": "INPROCEEDINGS",
-    "key": "cvpr-official-2026-genbreak-red-teaming-text-to-image-generation-using-large-language-models",
-    "author": "",
-    "booktitle": "CVPR Conference",
-    "title": "GenBreak: Red Teaming Text-to-Image Generation Using Large Language Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://cvpr.thecvf.com/virtual/2026/poster/38385",
     "doi": "",
     "venue": "CVPR",
     "venue_track": "AI 领域"

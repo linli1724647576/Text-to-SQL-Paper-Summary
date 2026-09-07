@@ -15,15 +15,15 @@
       "year": "all"
     },
     "dblp-conference:AAAI:2020": {
-      "error": "",
-      "last_attempt_at": "2026-08-31T21:46:58Z",
-      "last_success_at": "2026-08-31T21:46:58Z",
+      "error": "https://dblp.org/db/conf/aaai/aaai2020.xml: not well-formed (invalid token): line 1, column 8",
+      "last_attempt_at": "2026-09-07T20:23:07Z",
+      "last_success_at": "",
       "rawdata_path": "data/rawdata/2020/AAAI2020.json",
       "record_count": 1864,
-      "sha256": "d813c78505601dce077225a70c7aa5ef34604d5c4cf1e0c835c673af3afac512",
+      "sha256": "b4e7bf619495b0dc226fe2702025d96ffa7e5f1639221a165c9be0f243b225b9",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "complete",
+      "status": "failed",
       "track": "AI",
       "venue": "AAAI",
       "year": "2020"
@@ -995,15 +995,15 @@
       "year": "2025"
     },
     "dblp-conference:NEURIPS:2020": {
-      "error": "",
-      "last_attempt_at": "2026-08-31T21:47:19Z",
-      "last_success_at": "2026-08-31T21:47:19Z",
+      "error": "https://dblp.org/db/conf/nips/nips2020.xml: not well-formed (invalid token): line 1, column 8",
+      "last_attempt_at": "2026-09-07T20:23:09Z",
+      "last_success_at": "",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
-      "sha256": "01a8b70eac8ca2138e5354f939d5ceaafc22c7dc8cdca6b403c9bcdd36934fa0",
+      "sha256": "931e6df792b296796dd0190fade7d08b082d312a24793b5c7656803dcd1d0cb1",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "complete",
+      "status": "failed",
       "track": "AI",
       "venue": "NEURIPS",
       "year": "2020"
@@ -2046,8 +2046,8 @@
     },
     "official-accepted:ICML:2020": {
       "error": "",
-      "last_attempt_at": "2026-08-31T21:47:21Z",
-      "last_success_at": "2026-08-31T21:47:21Z",
+      "last_attempt_at": "2026-09-07T20:23:10Z",
+      "last_success_at": "2026-09-07T20:23:10Z",
       "rawdata_path": "data/rawdata/2020/ICML2020-accepted.json",
       "record_count": 1084,
       "sha256": "244ea4c141bdd48f98bfe86004b7256a43ab963b4bf43ac81e2a6ea9f9f1dd2d",
@@ -2326,8 +2326,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-08-31T21:47:25Z",
-      "last_success_at": "2026-08-31T21:47:25Z",
+      "last_attempt_at": "2026-09-07T20:23:13Z",
+      "last_success_at": "2026-09-07T20:23:13Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 0,
+    "cursor": 1,
     "history": [
       {
         "cursor": 1,
@@ -6548,9 +6548,62 @@
           "TOSEM"
         ],
         "year": 2026
+      },
+      {
+        "cursor": 1,
+        "failed": [
+          "AAAI",
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-09-07T20:24:09Z",
+        "succeeded": [
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2020
       }
     ],
-    "last_completed_at": "2026-09-06T18:57:54Z",
+    "last_completed_at": "2026-09-07T20:24:09Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
@@ -6574,6 +6627,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2026
+    "last_selected_year": 2020
   }
 }

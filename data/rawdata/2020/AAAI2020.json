@@ -5148,12 +5148,13 @@
     "booktitle": "AAAI",
     "title": "Query Answering with Guarded Existential Rules under Stable Model Semantics.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "In this paper, we study the problem of query answering with guarded existential rules (also called GNTGDs) under stable model semantics. Our goal is to use existing answer set programming (ASP) solvers. However, ASP solvers handle only finitely-ground logic programs while the program translated from GNTGDs by Skolemization is not in general. To address this challenge, we introduce two novel notions of (1) guarded instantiation forest to describe the instantiation of GNTGDs and (2) prime block to characterize the repeated infinitely-ground program translated from GNTGDs. Using these notions, we prove that the ground termination problem for GNTGDs is decidable. We also devise an algorithm for query answering with GNTGDs using ASP solvers. We have implemented our approach in a prototype system. The evaluation over a set of benchmarks shows encouraging results.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i03.5695",
     "doi": "10.1609/aaai.v34i03.5695",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998295907"
   },
   "COTSAE: CO-Training of Structure and Attribute Embeddings for Entity Alignment.": {
     "type": "INPROCEEDINGS",
@@ -5204,12 +5205,13 @@
     "booktitle": "AAAI",
     "title": "Towards Universal Languages for Tractable Ontology Mediated Query Answering.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "An ontology language for ontology mediated query answering (OMQA-language) is universal for a family of OMQA-languages if it is the most expressive one among this family. In this paper, we focus on three families of tractable OMQA-languages, including first-order rewritable languages and languages whose data complexity of the query answering is in AC0 or PTIME. On the negative side, we prove that there is, in general, no universal language for each of these families of languages. On the positive side, we propose a novel property, the locality, to approximate the first-order rewritability, and show that there exists a language of disjunctive embedded dependencies that is universal for the family of OMQA-languages with locality. All of these results apply to OMQA with query languages such as conjunctive queries, unions of conjunctive queries and acyclic conjunctive queries.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i03.5699",
     "doi": "10.1609/aaai.v34i03.5699",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W2998070951"
   },
   "On the Expressivity of ASK Queries in SPARQL.": {
     "type": "INPROCEEDINGS",
@@ -23313,12 +23315,13 @@
     "booktitle": "AAAI",
     "title": "Coding in the Liberal Arts through Natural Language Processing and Machine Learning.",
     "year": "2020",
-    "abstract": "",
+    "abstract": "An initiative recently established at our institution is creating new opportunities for students to deepen their understanding of code and computational thinking, and to embrace questions of access, equity and social justice. In this short paper we report on two contextualized computing courses in this initiative that introduce coding and computational thinking through contextualizing two subfields of AI: Natural Language Processing and Machine Learning. The goal was two-fold: to help students gain foundational computational skills to further their own creative and critical practices; and more broadly, to help them develop better-informed critiques of the use of algorithmic systems, especially AI technology.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i09.7071",
     "doi": "10.1609/aaai.v34i09.7071",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3036688608"
   },
   "Model AI Assignments 2020.": {
     "type": "INPROCEEDINGS",
@@ -24897,12 +24900,13 @@
     "booktitle": "AAAI",
     "title": "Learning Directional Sentence-Pair Embedding for Natural Language Reasoning (Student Abstract).",
     "year": "2020",
-    "abstract": "",
+    "abstract": "Enabling the models with the ability of reasoning and inference over text is one of the core missions of natural language understanding. Despite deep learning models have shown strong performance on various cross-sentence inference benchmarks, recent work has shown that they are leveraging spurious statistical cues rather than capturing deeper implied relations between pairs of sentences. In this paper, we show that the state-of-the-art language encoding models are especially bad at modeling directional relations between sentences by proposing a new evaluation task: Cause-and-Effect relation prediction task. Back by our curated Cause-and-Effect Relation dataset (Cℰℛ), we also demonstrate that a mutual attention mechanism can guide the model to focus on capturing directional relations between sentences when added to existing transformer-based models. Experiment results show that the proposed approach improves the performance on downstream applications, such as the abductive reasoning task.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v34i10.7184",
     "doi": "10.1609/aaai.v34i10.7184",
     "venue": "AAAI2020",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W3036612225"
   },
   "Re-Thinking LiDAR-Stereo Fusion Frameworks (Student Abstract).": {
     "type": "INPROCEEDINGS",

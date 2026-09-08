@@ -3,33 +3,49 @@
     "fetched_entries": 0,
     "failure_count": 0,
     "warning_count": 2,
-    "skipped_count": 19
+    "skipped_count": 20
   },
   "failures": [],
   "warnings": [
     {
-      "venue": "AAAI",
-      "year": 2020,
-      "track": "AI",
+      "venue": "SIGMOD",
+      "year": 2021,
+      "track": "DB",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/aaai/aaai2020.xml: not well-formed (invalid token): line 1, column 8"
+      "error": "https://dblp.org/db/conf/sigmod/sigmod2021.xml: not well-formed (invalid token): line 1, column 8"
     },
     {
-      "venue": "NeurIPS",
-      "year": 2020,
-      "track": "AI",
+      "venue": "KDD",
+      "year": 2021,
+      "track": "DB",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/nips/nips2020.xml: not well-formed (invalid token): line 1, column 8"
+      "error": "https://dblp.org/db/conf/kdd/kdd2021.xml: not well-formed (invalid token): line 1, column 8"
     }
   ],
   "skipped": [
     {
+      "venue": "AAAI",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "ACL",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -37,7 +53,15 @@
     },
     {
       "venue": "CVPR",
-      "year": 2020,
+      "year": 2021,
+      "track": "AI",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -45,7 +69,7 @@
     },
     {
       "venue": "ICML",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -53,23 +77,15 @@
     },
     {
       "venue": "IJCAI",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "SIGMOD",
-      "year": 2020,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
       "venue": "VLDB",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -77,15 +93,7 @@
     },
     {
       "venue": "ICDE",
-      "year": 2020,
-      "track": "DB",
-      "source_type": "dblp-conference",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "KDD",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -93,7 +101,7 @@
     },
     {
       "venue": "WWW",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -101,7 +109,7 @@
     },
     {
       "venue": "SIGIR",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -109,7 +117,7 @@
     },
     {
       "venue": "ICSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -117,7 +125,7 @@
     },
     {
       "venue": "FSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -125,7 +133,7 @@
     },
     {
       "venue": "ASE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -133,7 +141,7 @@
     },
     {
       "venue": "ISSTA",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -141,7 +149,7 @@
     },
     {
       "venue": "AIJ",
-      "year": 2020,
+      "year": 2021,
       "track": "AI",
       "source_type": "journal",
       "status": "skipped",
@@ -149,7 +157,7 @@
     },
     {
       "venue": "TKDE",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -157,7 +165,7 @@
     },
     {
       "venue": "VLDBJ",
-      "year": 2020,
+      "year": 2021,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -165,7 +173,7 @@
     },
     {
       "venue": "TSE",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",
@@ -173,7 +181,7 @@
     },
     {
       "venue": "TOSEM",
-      "year": 2020,
+      "year": 2021,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",

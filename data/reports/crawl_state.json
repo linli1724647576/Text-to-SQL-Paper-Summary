@@ -71,15 +71,15 @@
       "year": "2023"
     },
     "dblp-conference:AAAI:2024": {
-      "error": "",
-      "last_attempt_at": "2026-09-04T19:20:15Z",
-      "last_success_at": "2026-09-04T19:20:15Z",
+      "error": "https://dblp.org/db/conf/aaai/aaai2024.xml: not well-formed (invalid token): line 1, column 8",
+      "last_attempt_at": "2026-09-11T19:28:47Z",
+      "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/AAAI2024.json",
       "record_count": 2865,
-      "sha256": "0ab19aebc3852dc92b13b402fe00c80ffbb42cca3c07ef8c1a062408e16904cb",
+      "sha256": "9ab5be68ddda1a4a0d119b0509a02fdcce27d40a6066a11151f1bcfa72d835bf",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "complete",
+      "status": "failed",
       "track": "AI",
       "venue": "AAAI",
       "year": "2024"
@@ -169,15 +169,15 @@
       "year": "2023"
     },
     "dblp-conference:ACL:2024": {
-      "error": "",
-      "last_attempt_at": "2026-09-04T19:20:23Z",
-      "last_success_at": "2026-09-04T19:20:23Z",
+      "error": "https://dblp.org/db/conf/acl/acl2024.xml: not well-formed (invalid token): line 1, column 8",
+      "last_attempt_at": "2026-09-11T19:28:54Z",
+      "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/ACL2024.json",
       "record_count": 865,
-      "sha256": "30a0f2fd36ee9036fbb12d444d0230843d65b3a338cdf9f3b543f42700ff5b0b",
+      "sha256": "cb39f9f3335b12a4be481af685ff39ea49b4cfe1f0290dd7750b4e87b1baefb1",
       "source": "dblp",
       "source_type": "dblp-conference",
-      "status": "complete",
+      "status": "failed",
       "track": "AI",
       "venue": "ACL",
       "year": "2024"
@@ -2102,8 +2102,8 @@
     },
     "official-accepted:ICML:2024": {
       "error": "",
-      "last_attempt_at": "2026-09-04T19:20:25Z",
-      "last_success_at": "2026-09-04T19:20:25Z",
+      "last_attempt_at": "2026-09-11T19:28:54Z",
+      "last_success_at": "2026-09-11T19:28:54Z",
       "rawdata_path": "data/rawdata/2024/ICML2024-accepted.json",
       "record_count": 2610,
       "sha256": "93dea96302bd95bb8b82e452ba7f49b1cf7daa5abb4a357f36808a1e7b56ad9c",
@@ -2270,7 +2270,7 @@
     },
     "official-accepted:ISSTA:2024": {
       "error": "parsed only 0 entries",
-      "last_attempt_at": "2026-09-04T19:20:29Z",
+      "last_attempt_at": "2026-09-11T19:28:59Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/ISSTA2024-accepted.json",
       "record_count": 0,
@@ -2382,8 +2382,8 @@
     },
     "official-accepted:NEURIPS:2024": {
       "error": "",
-      "last_attempt_at": "2026-09-04T19:20:34Z",
-      "last_success_at": "2026-09-04T19:20:34Z",
+      "last_attempt_at": "2026-09-11T19:29:02Z",
+      "last_success_at": "2026-09-11T19:29:02Z",
       "rawdata_path": "data/rawdata/2024/NeurIPS2024-accepted.json",
       "record_count": 4461,
       "sha256": "f30bf27d10defd3559f6077f9371e06d402d287e6bb594736e7b02b87734bc69",
@@ -2522,7 +2522,7 @@
     },
     "official-accepted:WWW:2024": {
       "error": "parsed only 1 entries",
-      "last_attempt_at": "2026-09-04T19:20:37Z",
+      "last_attempt_at": "2026-09-11T19:29:06Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2024/WWW2024-accepted.json",
       "record_count": 0,
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 4,
+    "cursor": 5,
     "history": [
       {
         "cursor": 1,
@@ -6764,15 +6764,67 @@
           "TOSEM"
         ],
         "year": 2023
+      },
+      {
+        "cursor": 5,
+        "failed": [
+          "AAAI",
+          "ACL",
+          "ISSTA",
+          "WWW"
+        ],
+        "finalized_at": "2026-09-11T19:29:47Z",
+        "succeeded": [
+          "NeurIPS",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2024
       }
     ],
-    "last_completed_at": "2026-09-10T19:29:52Z",
+    "last_completed_at": "2026-09-11T19:29:47Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
       "ACL",
       "CVPR",
-      "ICCV",
       "ICML",
       "IJCAI",
       "SIGMOD",
@@ -6791,6 +6843,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2023
+    "last_selected_year": 2024
   }
 }

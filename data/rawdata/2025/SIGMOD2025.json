@@ -1537,7 +1537,8 @@
     "url": "https://doi.org/10.1145/3722212.3724480",
     "doi": "10.1145/3722212.3724480",
     "venue": "SIGMOD2025",
-    "venue_track": "DB"
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4411374201"
   },
   "Privacy and Security in Distributed Data Markets.": {
     "type": "INPROCEEDINGS",

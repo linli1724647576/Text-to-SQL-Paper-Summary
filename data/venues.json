@@ -693,7 +693,7 @@
       "files": [
         {
           "path": "data/rawdata/2025/AIJ2025.json",
-          "sha256": "a5cde2d67f606b7d2a99123690bba8c9c41b29d2a1f25b4a6b7bb7ff8ffe5c3c"
+          "sha256": "fc3eb6154ef59cd0a9b37bb70235e8d20ca1db4844df52b3ea65d1343e7af88d"
         }
       ],
       "processing": {
@@ -3949,7 +3949,7 @@
         },
         {
           "path": "data/rawdata/2025/SIGMOD2025.json",
-          "sha256": "111ad44fae13281d4a7f72f6889a2061a5d495b4819bb7d56eedd03ebee31351"
+          "sha256": "30f844bb5837d3454c39bb2007ef93029d7d87d22f6131613b8e34a9733736cf"
         }
       ],
       "processing": {

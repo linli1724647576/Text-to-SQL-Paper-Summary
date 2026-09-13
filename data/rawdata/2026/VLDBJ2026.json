@@ -1,4 +1,52 @@
 {
+  "Duster: a deduplication framework for efficient point cloud storage and retrieval": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7212376773",
+    "author": "Jiangneng Li and Gao Cong and Xiaohui Bei",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Duster: a deduplication framework for efficient point cloud storage and retrieval",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Data deduplication, Computer science, Point cloud, Search engine indexing, Frame (networking), Point (geometry), Cloud computing, Reduction (mathematics), Segmentation, Volume (thermodynamics), Octree, Sequence (biology), Data mining, Data retrieval, Random access, Real-time computing, Computer vision, Computer data storage, Artificial intelligence, Storage efficiency, Selection (genetic algorithm), Data reduction, Database",
+    "url": "https://doi.org/10.1007/s00778-026-01002-5",
+    "doi": "https://doi.org/10.1007/s00778-026-01002-5",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7212376773"
+  },
+  "Efficient and cost-effective influence and blocker minimization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7207759136",
+    "author": "Jinghao Wang and Yanping Wu and Xiaoyang Wang and Ying Zhang and Lu Qin and Wenjie Zhang and Xuemin Lin",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient and cost-effective influence and blocker minimization",
+    "year": "2026",
+    "abstract": "Abstract Online social networks have emerged as prominent platforms for individuals to rapidly share ideas and perspectives. However, their swift dissemination capabilities also make them powerful channels for the spread of misinformation. Such dissemination results in substantial economic and societal harm, highlighting the need for effective suppression. To support this practical demand, this paper investigates the influence minimization (IMIN) and blocker minimization (BM) problems. The IMIN problem aims to find a node set of size k (the given budget) to block, such that the reduction in influence spread of a given seed set S is maximized. The BM problem is the dual of IMIN, aiming to find a node set of minimum cardinality to block, such that the threshold condition is satisfied, i.e., the reduction in influence spread of S is not less than the given threshold $$\\eta $$ η . Both problems are NP-hard and involve a non-submodular objective function. Existing IMIN solutions incur high computational costs and offer no approximation guarantees on influence spread reduction. To fill the gap, we build upon the sandwich strategy to develop the first efficient algorithm with data-dependent approximation guarantees for IMIN. In particular, we design non-trivial $$(1-1/e-\\epsilon )$$ ( 1 - 1 / e - ϵ ) -approximation algorithms to optimize the proposed submodular bounding functions. For the BM problem, the existing solution is of limited effectiveness and lacks theoretical guarantees for both node set cardinality and threshold condition satisfaction. In this paper, we design a heuristic and two bicriteria approximation algorithms to address the BM problem. The heuristic is efficient and satisfies the threshold condition, but fails to ensure near-optimal cardinality. The two approximation algorithms both provide guarantees on cardinality: the first attains a tighter approximation ratio at the expense of efficiency, while the second yields a slightly weaker ratio with improved efficiency. Finally, comprehensive experiments on 9 real-world datasets are conducted to validate the efficiency and effectiveness of the proposed techniques.",
+    "keywords": "Cardinality (data modeling), Reduction (mathematics), Minification, Submodular set function, Bounding overwatch, Set (abstract data type), Node (physics), Mathematical optimization, Approximation algorithm, Heuristic, Computer science, Dual (grammatical number), Algorithm, Greedy algorithm, Linear programming, Mathematics, Optimization problem, Theoretical computer science",
+    "url": "https://doi.org/10.1007/s00778-026-01003-4",
+    "doi": "https://doi.org/10.1007/s00778-026-01003-4",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7207759136"
+  },
+  "Efficient distinctiveness maximization in datasets assemblage: from homogeneous to heterogeneous datasets": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7204992475",
+    "author": "Tingting Wang and Shixun Huang and Zhifeng Bao and J. Shane Culpepper and Volkan Dedeoglu and Reza Arablouei and Shazia Sadiq and A. K. Qin",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient distinctiveness maximization in datasets assemblage: from homogeneous to heterogeneous datasets",
+    "year": "2026",
+    "abstract": "Abstract We study the distinctiveness maximization problem for datasets assemblage: assembling a set of datasets from a repository that satisfies a user-specified target schema and query set under a budget constraint, while maximizing the number of distinct tuples. This problem is NP-hard in two scenarios: (i) when the repository contains datasets conforming to the target schema, and (ii) when no dataset individually satisfies the schema and candidates must be constructed through joins. For the first scenario, a greedy algorithm with exact distinctiveness computation achieves a $$(1-e^{-1})/2$$ ( 1 - e - 1 ) / 2 -approximation ratio, but is costly due to exhaustive tuple-wise marginal gain computation. We therefore propose an efficient machine learning (ML)-based method that directly estimates the marginal distinctiveness gain of each candidate dataset, avoiding costly exact computations. For the second scenario, we integrate a column-level merging technique into our ML framework to construct candidate datasets and estimate their distinctiveness without physically materializing join results, supporting efficient assemblage over heterogeneous datasets. Extensive experiments on real-world data pools show that our methods consistently outperform relevant baselines in effectiveness, efficiency, and scalability. A downstream case study on two ML tasks further shows that our approach identifies datasets with more useful tuples and improves ML performance.",
+    "keywords": "Optimal distinctiveness theory, Computer science, Maximization, Schema (genetic algorithms), Tuple, Homogeneous, Set (abstract data type), Data mining, Computation, Construct (python library), Greedy algorithm, Artificial intelligence, Heuristic, Machine learning, Graph, Categorization, Correctness, Data set, Hierarchy, Training set, Time complexity",
+    "url": "https://doi.org/10.1007/s00778-026-01005-2",
+    "doi": "https://doi.org/10.1007/s00778-026-01005-2",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7204992475"
+  },
   "Personalized w-event privacy for infinite stream estimation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160917877",
@@ -450,6 +498,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7160143989"
   },
+  "LEON+: towards robust ML-aided query optimization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7148740852",
+    "author": "Xu Chen and Ximu Zeng and Yuze Wang and Zibo Liang and Kai Zeng and Han Su and Kai Zheng",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "LEON+: towards robust ML-aided query optimization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Robustness (evolution), Machine learning, Artificial intelligence, Query optimization, Ranking (information retrieval), Software deployment, Data mining, Maxima and minima, Reinforcement learning, Query expansion, Relational database, Optimization problem, Regression, Learning to rank",
+    "url": "https://doi.org/10.1007/s00778-026-00973-9",
+    "doi": "https://doi.org/10.1007/s00778-026-00973-9",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7148740852"
+  },
   "Programmable Dataflows: Abstraction and Programming Model for Data Sharing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7148694636",
@@ -481,22 +545,6 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7148720765"
-  },
-  "LEON+: towards robust ML-aided query optimization": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7148740852",
-    "author": "Xu Chen and Ximu Zeng and Yuze Wang and Zibo Liang and Kai Zeng and Han Su and Kai Zheng",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "LEON+: towards robust ML-aided query optimization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Robustness (evolution), Machine learning, Artificial intelligence, Query optimization, Ranking (information retrieval), Software deployment, Data mining, Maxima and minima, Reinforcement learning, Query expansion, Relational database, Optimization problem, Regression, Learning to rank",
-    "url": "https://doi.org/10.1007/s00778-026-00973-9",
-    "doi": "https://doi.org/10.1007/s00778-026-00973-9",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7148740852"
   },
   "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations": {
     "type": "ARTICLE",

@@ -233,7 +233,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AAAI2026.json",
-          "sha256": "7c68822757e8dfcb7d3122727c773873341d804ec9d02c39f0ec3d1ed5e64230"
+          "sha256": "fbda17f788733f9c91fec598231e02073c79056fc97fc61478ce3d59dfa3f55c"
         }
       ],
       "processing": {
@@ -731,7 +731,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/AIJ2026.json",
-          "sha256": "e20c90239b094474258ae4a592abd450ae22639e8d3fa11752e7775c04cbaac4"
+          "sha256": "8971663e66db4e9d99e0c8b4acf39f567d5407d3f5e24847f06d6cefca86058c"
         }
       ],
       "processing": {
@@ -2219,7 +2219,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/ICML2026-accepted.json",
-          "sha256": "a2b35c2838e600329e48ba56803345cbcf487c047f8c8e18dc48035b8cac9e96"
+          "sha256": "086394859b26cd9e5cbf525dd66f661507f817a9062094e66a598e2aff26c056"
         }
       ],
       "processing": {
@@ -4253,7 +4253,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TKDE2026.json",
-          "sha256": "1c2bce505e32677f1272051931ab8235c3d836d1ffca67219bc2649aab52b76b"
+          "sha256": "c2b2ec9e2a7e4b472b94e79a87436a68463f26db478a48c5603d3f8c2a7ca112"
         }
       ],
       "processing": {
@@ -4519,7 +4519,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TOSEM2026.json",
-          "sha256": "c36248f6716ec8697795f3689d7ac8eb9bb7708e789de37b1fdf8cb64fc02aa4"
+          "sha256": "24f6ff1dcd84b9879cba9456195a59268fedbc2201ed69175b3f8e958cdd3b17"
         }
       ],
       "processing": {
@@ -4785,7 +4785,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/TSE2026.json",
-          "sha256": "133d89eb61ad134cf508d6c497669bd21ed2f57b3cb7740cb6c6cee0bd0694de"
+          "sha256": "082141d56b9217d3bcfa8976886a4a5bf54b58782ba8b96cee61c3d444a9c0c2"
         }
       ],
       "processing": {
@@ -5317,7 +5317,7 @@
       "files": [
         {
           "path": "data/rawdata/2026/VLDBJ2026.json",
-          "sha256": "6e0d07f11154729855d6d1cc4efa9e82b206c63fb3b5273bbb0f8c4c94574d03"
+          "sha256": "49bec3a025937bcf1e5e8f790f373dc9cc77a647cfbd241a6572d7a505616d0f"
         }
       ],
       "processing": {

@@ -65815,12 +65815,13 @@
     "booktitle": "AAAI",
     "title": "AniTales: End-to-End Multimodal Story Generation Through Natural Language Prompting (Student Abstract).",
     "year": "2026",
-    "abstract": "",
+    "abstract": "We present AniTales, a system designed to generate multimodal visual novels from natural language prompts. Our system integrates large language models for story generation, diffusion models for character art, and text-to-speech for voice acting. This paper describes the system's architecture and presents findings from a pilot user study. We evaluated the system with general users (n=10) and domain experts (n=5), focusing on usability, coherence, and visual consistency. General users reported high usability (SUS: 84/100) and strong character-dialogue consistency (4.2/5), along with an average score of 82/100 for their intention to continue using the platform. These initial results suggest AniTales is a promising approach for bridging the gap between text-based AI storytelling and end-to-end multimedia content creation.",
     "keywords": "",
     "url": "https://doi.org/10.1609/aaai.v40i48.42181",
     "doi": "10.1609/aaai.v40i48.42181",
     "venue": "AAAI2026",
-    "venue_track": "AI"
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7139134527"
   },
   "Adaptive AI for Personalized Intercultural Communication Education: A Conversational Agent Powered by Retrieval-Augmented Generation (Student Abstract).": {
     "type": "INPROCEEDINGS",

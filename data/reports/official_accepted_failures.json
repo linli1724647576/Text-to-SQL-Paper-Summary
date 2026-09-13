@@ -1,84 +1,11 @@
 {
   "summary": {
-    "fetched_entries": 3395,
-    "failure_count": 1,
+    "fetched_entries": 13469,
+    "failure_count": 0,
     "warning_count": 0,
-    "skipped_count": 9
+    "skipped_count": 0
   },
-  "failures": [
-    {
-      "venue": "KDD",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://kdd2025.kdd.org/research-track-papers/",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "failures": [],
   "warnings": [],
-  "skipped": [
-    {
-      "venue": "ACL",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICDE",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ICSE",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "FSE",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ASE",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "ISSTA",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "IJCAI",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "SIGIR",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    },
-    {
-      "venue": "SIGMOD",
-      "year": 2025,
-      "source": "official-accepted",
-      "status": "skipped",
-      "reason": "complete"
-    }
-  ]
+  "skipped": []
 }

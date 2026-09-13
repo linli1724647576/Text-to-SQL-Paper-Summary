@@ -2953,20 +2953,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-position-collaborative-agentic-ai-needs-interoperability-across-ecosystems",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/67223",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Position: Measuring Human Preferences in RLHF is a Social Science Problem": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-position-measuring-human-preferences-in-rlhf-is-a-social-science-problem",
@@ -4913,20 +4899,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-flow-based-density-ratio-estimation-for-intractable-distributions-with-applicati",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66185",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "SPARe: Stacked Parallelism with Adaptive Reordering for Fault-Tolerant LLM Pretraining Systems with 100k+ GPUs": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-spare-stacked-parallelism-with-adaptive-reordering-for-fault-tolerant-llm-pretra",
@@ -5039,20 +5011,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-criterion-conditional-in-context-learning-evaluating-criterion-shift-adaptation-",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60633",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Understanding the Ability of LLMs to Handle Character-Level Perturbation": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-understanding-the-ability-of-llms-to-handle-character-level-perturbation",
@@ -5123,6 +5081,76 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-position-collaborative-agentic-ai-needs-interoperability-across-ecosystems",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/67223",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-criterion-conditional-in-context-learning-evaluating-criterion-shift-adaptation-",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60633",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "POLIA: Policy Optimization with Visual-Object-Level Intrinsic Advantage for Multimodal Reasoning": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-polia-policy-optimization-with-visual-object-level-intrinsic-advantage-for-multi",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "POLIA: Policy Optimization with Visual-Object-Level Intrinsic Advantage for Multimodal Reasoning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66069",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Closing the Loop: Universal Repository Representation with RPG-Encoder": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-closing-the-loop-universal-repository-representation-with-rpg-encoder",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Closing the Loop: Universal Repository Representation with RPG-Encoder",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/63029",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Learning Gaussian Mixture-distributed Prototypes for 3D Scene Graph Generation from RGB-D Sequences": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-learning-gaussian-mixture-distributed-prototypes-for-3d-scene-graph-generation-f",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Learning Gaussian Mixture-distributed Prototypes for 3D Scene Graph Generation from RGB-D Sequences",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/64234",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "An Efficient Joint Learning Approach for Item Response Theory": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-an-efficient-joint-learning-approach-for-item-response-theory",
@@ -5147,6 +5175,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62846",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-flow-based-density-ratio-estimation-for-intractable-distributions-with-applicati",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66185",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Semantic Impact–Driven Visual Scheduling in Vision-Language Models": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-semantic-impact-driven-visual-scheduling-in-vision-language-models",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Semantic Impact–Driven Visual Scheduling in Vision-Language Models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/61633",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -19259,20 +19315,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/64233",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Learning Gaussian Mixture-distributed Prototypes for 3D Scene Graph Generation from RGB-D Sequences": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-learning-gaussian-mixture-distributed-prototypes-for-3d-scene-graph-generation-f",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Learning Gaussian Mixture-distributed Prototypes for 3D Scene Graph Generation from RGB-D Sequences",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/64234",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -51379,20 +51421,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Semantic Impact–Driven Visual Scheduling in Vision-Language Models": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-semantic-impact-driven-visual-scheduling-in-vision-language-models",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Semantic Impact–Driven Visual Scheduling in Vision-Language Models",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/61633",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Multimodal Meta-Verifier with Explicit Structured Recalibration": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-multimodal-meta-verifier-with-explicit-structured-recalibration",
@@ -52145,20 +52173,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65266",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Closing the Loop: Universal Repository Representation with RPG-Encoder": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-closing-the-loop-universal-repository-representation-with-rpg-encoder",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Closing the Loop: Universal Repository Representation with RPG-Encoder",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/63029",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -56527,20 +56541,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63841",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "POLIA: Policy Optimization with Visual-Object-Level Intrinsic Advantage for Multimodal Reasoning": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-polia-policy-optimization-with-visual-object-level-intrinsic-advantage-for-multi",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "POLIA: Policy Optimization with Visual-Object-Level Intrinsic Advantage for Multimodal Reasoning",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66069",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

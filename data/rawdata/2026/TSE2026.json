@@ -906,22 +906,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7131257660"
   },
-  "Adaptive Spectral Clustering and Structural Alignment for Cross-Project Defect Prediction": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7131092659",
-    "author": "Dipender Singh and Sandeep Kumar",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Adaptive Spectral Clustering and Structural Alignment for Cross-Project Defect Prediction",
-    "year": "2026",
-    "abstract": "Cross-project defect prediction (CPDP) aims to identify defect-prone modules in a target project by leveraging data from external source projects. Over time, research has shifted from single-source to multi-source CPDP to increase data diversity and capture broader defect patterns. However, naively combining multiple sources can introduce substantial data divergence and degrade performance. A key limitation is that many methods overlook intra-project heterogeneity, treating each source project as uniform. Moreover, data selection typically relies on independent metric matching, which ignores structural relationships among software metrics. To address these limitations, we propose adaptive spectral clustering and structural alignment (ASCSA), a unified framework that combines adaptive spectral clustering and structural alignment. First, adaptive spectral clustering partitions each source project into coherent clusters, mitigating intraproject heterogeneity. Second, a structural alignment method selects source clusters that preserve higher-order metric relationships with the target, avoiding misleading matches based solely on marginal distributions. Finally, a deep neural network with maximum mean discrepancy (MMD) loss minimizes residual distribution gaps to enable effective knowledge transfer. In this study, we conduct comprehensive experiments on 25 widely used software projects. The results show that ASCSA consistently outperforms state-of-the-art methods, achieving improvements in AUC ranging from 5.26% to 23.08%, and in MCC from 15.62% to 68.18%. These findings highlight the effectiveness of jointly addressing intra-project heterogeneity, and structural alignment for reliable cross-project defect prediction.",
-    "keywords": "Computer science, Cluster analysis, Data mining, Metric (unit), Spectral clustering, Divergence (linguistics), Software, Residual, Artificial intelligence, Software bug, Machine learning, Artificial neural network, Software metric, Pattern recognition (psychology), Key (lock), Algorithm, Performance metric, Selection (genetic algorithm), Hierarchical clustering, Ranging, Software quality, Data modeling",
-    "url": "https://doi.org/10.1109/tse.2026.3667334",
-    "doi": "https://doi.org/10.1109/tse.2026.3667334",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7131092659"
-  },
   "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7131135587",
@@ -937,6 +921,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7131135587"
+  },
+  "Adaptive Spectral Clustering and Structural Alignment for Cross-Project Defect Prediction": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7131092659",
+    "author": "Dipender Singh and Sandeep Kumar",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Adaptive Spectral Clustering and Structural Alignment for Cross-Project Defect Prediction",
+    "year": "2026",
+    "abstract": "Cross-project defect prediction (CPDP) aims to identify defect-prone modules in a target project by leveraging data from external source projects. Over time, research has shifted from single-source to multi-source CPDP to increase data diversity and capture broader defect patterns. However, naively combining multiple sources can introduce substantial data divergence and degrade performance. A key limitation is that many methods overlook intra-project heterogeneity, treating each source project as uniform. Moreover, data selection typically relies on independent metric matching, which ignores structural relationships among software metrics. To address these limitations, we propose adaptive spectral clustering and structural alignment (ASCSA), a unified framework that combines adaptive spectral clustering and structural alignment. First, adaptive spectral clustering partitions each source project into coherent clusters, mitigating intraproject heterogeneity. Second, a structural alignment method selects source clusters that preserve higher-order metric relationships with the target, avoiding misleading matches based solely on marginal distributions. Finally, a deep neural network with maximum mean discrepancy (MMD) loss minimizes residual distribution gaps to enable effective knowledge transfer. In this study, we conduct comprehensive experiments on 25 widely used software projects. The results show that ASCSA consistently outperforms state-of-the-art methods, achieving improvements in AUC ranging from 5.26% to 23.08%, and in MCC from 15.62% to 68.18%. These findings highlight the effectiveness of jointly addressing intra-project heterogeneity, and structural alignment for reliable cross-project defect prediction.",
+    "keywords": "Computer science, Cluster analysis, Data mining, Metric (unit), Spectral clustering, Divergence (linguistics), Software, Residual, Artificial intelligence, Software bug, Machine learning, Artificial neural network, Software metric, Pattern recognition (psychology), Key (lock), Algorithm, Performance metric, Selection (genetic algorithm), Hierarchical clustering, Ranging, Software quality, Data modeling",
+    "url": "https://doi.org/10.1109/tse.2026.3667334",
+    "doi": "https://doi.org/10.1109/tse.2026.3667334",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7131092659"
   },
   "CVH-REC: A Novel Method for Web API Recommendation Based on Cross-View HGNNs": {
     "type": "ARTICLE",
@@ -1242,22 +1242,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7125930392"
   },
-  "From Disruptions to Discussions: How GenAI Impacts Human Interactions in Software Development": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125779884",
-    "author": "Marie Salomon and Ekaterina Koshchenko and Agnia Sergeyuk and Reid Holmes and Gail C. Murphy and Thomas Fritz",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "From Disruptions to Discussions: How GenAI Impacts Human Interactions in Software Development",
-    "year": "2026",
-    "abstract": "New technologies often change how an individual performs work, such as how generative AI (GenAI) can help a developer write code. New technologies can also impact how people interact with one another, such as how GenAI’s ability to summarize API documentation can reduce the need for developers to ask each other technical questions. In this paper, we report on a two-phase mixed-method study exploring how GenAI influences how humans interact in software development. During phase one, 30 industrial software developers provided data over a period of 5 to 12 days as they worked, contributing 627 experience sampling responses and 207 end-of-workday survey responses. To gain further insight into their work, we interviewed 22 of these developers. During phase two, 131 additional professional developers responded to a survey to explore whether and how the results from phase one are seen across a larger population. Our analysis of the data found that (1) the ability of GenAI to help answer low-level technical questions in a timely way enables developers to see GenAI as a technical mentor, providing opportunities for developers to turn to tools rather than teammates; (2) developers perceive that GenAI can help them experience more focus and experience fewer flow disruptions; (3) GenAI can help developers pursue more meaningful conversations with their colleagues by shifting human interaction towards clarification, joint reasoning, and exploring alternative perspectives; and (4) in the presence of GenAI, developers report still seeking human-to-human interaction for contextual expertise, mentorship, and social connection. Together, these findings showwhat changes,when it changes, andwhat teams can do nextin response to this shift in team interaction dynamics, where GenAI increasingly handles routine technical queries and human conversations center on context, reasoning, and connection. Teams can adopt norms for delegating questions, sustain human judgment in complex decisions, and create space for expertise, mentorship, and connection, alongside increasing technical self-sufficiency.",
-    "keywords": "Computer science, Documentation, Software development, Software documentation, Software, Focus (optics), Data science, Ask price, Knowledge management, Software engineering, Software development process, Empirical research, Experience sampling method, Generative grammar, Look and feel, Software peer review, World Wide Web, Emerging technologies, Human–computer interaction, Process management, Sociotechnical system, Data collection, Technical documentation",
-    "url": "https://doi.org/10.1109/tse.2026.3655626",
-    "doi": "https://doi.org/10.1109/tse.2026.3655626",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7125779884"
-  },
   "Agentic Recommender Systems: A Systematic Literature Review": {
     "type": "REVIEW",
     "key": "https://openalex.org/W7125834859",
@@ -1273,6 +1257,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7125834859"
+  },
+  "From Disruptions to Discussions: How GenAI Impacts Human Interactions in Software Development": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125779884",
+    "author": "Marie Salomon and Ekaterina Koshchenko and Agnia Sergeyuk and Reid Holmes and Gail C. Murphy and Thomas Fritz",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "From Disruptions to Discussions: How GenAI Impacts Human Interactions in Software Development",
+    "year": "2026",
+    "abstract": "New technologies often change how an individual performs work, such as how generative AI (GenAI) can help a developer write code. New technologies can also impact how people interact with one another, such as how GenAI’s ability to summarize API documentation can reduce the need for developers to ask each other technical questions. In this paper, we report on a two-phase mixed-method study exploring how GenAI influences how humans interact in software development. During phase one, 30 industrial software developers provided data over a period of 5 to 12 days as they worked, contributing 627 experience sampling responses and 207 end-of-workday survey responses. To gain further insight into their work, we interviewed 22 of these developers. During phase two, 131 additional professional developers responded to a survey to explore whether and how the results from phase one are seen across a larger population. Our analysis of the data found that (1) the ability of GenAI to help answer low-level technical questions in a timely way enables developers to see GenAI as a technical mentor, providing opportunities for developers to turn to tools rather than teammates; (2) developers perceive that GenAI can help them experience more focus and experience fewer flow disruptions; (3) GenAI can help developers pursue more meaningful conversations with their colleagues by shifting human interaction towards clarification, joint reasoning, and exploring alternative perspectives; and (4) in the presence of GenAI, developers report still seeking human-to-human interaction for contextual expertise, mentorship, and social connection. Together, these findings showwhat changes,when it changes, andwhat teams can do nextin response to this shift in team interaction dynamics, where GenAI increasingly handles routine technical queries and human conversations center on context, reasoning, and connection. Teams can adopt norms for delegating questions, sustain human judgment in complex decisions, and create space for expertise, mentorship, and connection, alongside increasing technical self-sufficiency.",
+    "keywords": "Computer science, Documentation, Software development, Software documentation, Software, Focus (optics), Data science, Ask price, Knowledge management, Software engineering, Software development process, Empirical research, Experience sampling method, Generative grammar, Look and feel, Software peer review, World Wide Web, Emerging technologies, Human–computer interaction, Process management, Sociotechnical system, Data collection, Technical documentation",
+    "url": "https://doi.org/10.1109/tse.2026.3655626",
+    "doi": "https://doi.org/10.1109/tse.2026.3655626",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7125779884"
   },
   "When Voice Meets Touch: Conflict Analysis in Mobile Applications": {
     "type": "ARTICLE",
@@ -1306,22 +1306,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7125637239"
   },
-  "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125611784",
-    "author": "Yuxuan Chen and Mingwei Liu and Guangsheng Ou and Anji Li and Dekun Dai and Yanlin Wang and Zibin Zheng",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?",
-    "year": "2026",
-    "abstract": "Code search is essential for code reuse, allowing developers to efficiently locate relevant code snippets. The advent of powerful decoder-only Large Language Models (LLMs) has revolutionized many code intelligence tasks. However, their effectiveness for the retrieval-based task of code search, particularly compared to established encoder-based models, remains underexplored. This paper addresses this gap by presenting a large-scale systematic evaluation of eleven decoder-only LLMs, analyzing their performance across zero-shot and fine-tuned settings. <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Our results show that fine-tuned decoder-only models, particularly CodeGemma, significantly outperform encoder-only models like UniXcoder, achieving a 40.4% higher Mean Average Precision (MAP) on the CoSQA<sup>+</sup> benchmark. Our analysis further reveals two crucial nuances for practitioners: first, the relationship between model size and performance is non-monotonic, with mid-sized models often outperforming larger variants; second, the composition of the training data is critical, as a multilingual dataset enhances generalization while a small amount of data from a specific language can act as noise and interfere with model effectiveness. These findings offer a comprehensive guide to selecting and optimizing modern LLMs for code search.",
-    "keywords": "Computer science, Code (set theory), Generalization, Task (project management), Language model, Machine learning, Artificial intelligence, Data modeling, Programming language, Source code, Natural language processing, Data mining, Static program analysis, Code generation, Silver bullet, Code review, Noisy data, Source lines of code, Software metric, Predictive modelling",
-    "url": "https://doi.org/10.1109/tse.2026.3657353",
-    "doi": "https://doi.org/10.1109/tse.2026.3657353",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7125611784"
-  },
   "iRUC: Reducing Inter-Microservice Data Communication in Data-Intensive Systems via Unified Computation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125605035",
@@ -1337,6 +1321,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7125605035"
+  },
+  "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125611784",
+    "author": "Yuxuan Chen and Mingwei Liu and Guangsheng Ou and Anji Li and Dekun Dai and Yanlin Wang and Zibin Zheng",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Are Decoder-Only Large Language Models the Silver Bullet for Code Search?",
+    "year": "2026",
+    "abstract": "Code search is essential for code reuse, allowing developers to efficiently locate relevant code snippets. The advent of powerful decoder-only Large Language Models (LLMs) has revolutionized many code intelligence tasks. However, their effectiveness for the retrieval-based task of code search, particularly compared to established encoder-based models, remains underexplored. This paper addresses this gap by presenting a large-scale systematic evaluation of eleven decoder-only LLMs, analyzing their performance across zero-shot and fine-tuned settings. <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Our results show that fine-tuned decoder-only models, particularly CodeGemma, significantly outperform encoder-only models like UniXcoder, achieving a 40.4% higher Mean Average Precision (MAP) on the CoSQA<sup>+</sup> benchmark. Our analysis further reveals two crucial nuances for practitioners: first, the relationship between model size and performance is non-monotonic, with mid-sized models often outperforming larger variants; second, the composition of the training data is critical, as a multilingual dataset enhances generalization while a small amount of data from a specific language can act as noise and interfere with model effectiveness. These findings offer a comprehensive guide to selecting and optimizing modern LLMs for code search.",
+    "keywords": "Computer science, Code (set theory), Generalization, Task (project management), Language model, Machine learning, Artificial intelligence, Data modeling, Programming language, Source code, Natural language processing, Data mining, Static program analysis, Code generation, Silver bullet, Code review, Noisy data, Source lines of code, Software metric, Predictive modelling",
+    "url": "https://doi.org/10.1109/tse.2026.3657353",
+    "doi": "https://doi.org/10.1109/tse.2026.3657353",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7125611784"
   },
   "A Novel Method for Vulnerability Detection Based on Fusion and Hyperbolic Neural Network Graphs": {
     "type": "ARTICLE",
@@ -1629,6 +1629,23 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7163887715"
   },
+  "Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4407764286",
+    "author": "Ningke Li and Yahui Song and Yuekang Li and Ling Shi and Yi Liu and Haoyu Wang and Haoyu Wang",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning",
+    "year": "2026",
+    "abstract": "Large language models (LLMs) face the challenge of hallucinations -- outputs that seem coherent but are actually incorrect. A particularly damaging type is fact-conflicting hallucination (FCH), where generated content contradicts established facts. Addressing FCH presents three main challenges: 1) Automatically constructing and maintaining large-scale benchmark datasets is difficult and resource-intensive; 2) Generating complex and efficient test cases that the LLM has not been trained on -- especially those involving intricate temporal features -- is challenging, yet crucial for eliciting hallucinations; and 3) Validating the reasoning behind LLM outputs is inherently difficult, particularly with complex logical relationships, as it requires transparency in the model's decision-making process. This paper presents Drowzee, an innovative end-to-end metamorphic testing framework that utilizes temporal logic to identify fact-conflicting hallucinations (FCH) in large language models (LLMs). Drowzee builds a comprehensive factual knowledge base by crawling sources like Wikipedia and uses automated temporal-logic reasoning to convert this knowledge into a large, extensible set of test cases with ground truth answers. LLMs are tested using these cases through template-based prompts, which require them to generate both answers and reasoning steps. To validate the reasoning, we propose two semantic-aware oracles that compare the semantic structure of LLM outputs to the ground truths. Across nine LLMs in nine different knowledge domains, experimental results show that Drowzee effectively identifies rates of non-temporal-related hallucinations ranging from 24.7% to 59.8%, and rates of temporal-related hallucinations ranging from 16.7% to 39.2%.",
+    "keywords": "Computer science, Artificial intelligence, Psychology, Natural language processing",
+    "url": "https://doi.org/10.1109/tse.2026.3731191",
+    "doi": "https://doi.org/10.1109/tse.2026.3731191",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4407764286",
+    "arxiv_id": "2502.13416"
+  },
   "Efficient Black-Box Fault Localization for System-Level Test Code Using Large Language Models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7165938554",
@@ -1826,6 +1843,23 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7161122878"
   },
+  "Agent System Operations: Categorization, Challenges, and Future Directions": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7163180538",
+    "author": "Zexin Wang and Changhua Pei and Yuanhao Liu and Jingjing Li and Yintong Huo and Quan Zhou and Haotian Si and Hang Cui and Zihan Liu and Jianhui Li and Gaogang Xie and Fei Sun and Dan Pei and David Lo",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Agent System Operations: Categorization, Challenges, and Future Directions",
+    "year": "2026",
+    "abstract": "As the reasoning capabilities of Large Language Models (LLMs) continue to advance, LLM-based agent systems offer advantages in flexibility and interpretability over traditional systems, garnering increasing attention. However, despite the widespread research interest and industrial application of agent systems, these systems, like their traditional counterparts, frequently encounter anomalies. These anomalies lead to instability and insecurity, hindering their further development. Therefore, a comprehensive and systematic approach to the operation and maintenance of agent systems is urgently needed. Unfortunately, current research on the operations of agent systems is sparse. To address this gap, we have undertaken a survey on agent system operations with the aim of establishing a clear framework for the field, defining the challenges, and facilitating further development. Specifically, this paper begins by systematically defining anomalies within agent systems, categorizing them into intra-agent anomalies and inter-agent anomalies. Next, we introduce a novel and comprehensive operational framework for agent systems, dubbed Agent System Operations (AgentOps). We provide detailed definitions and explanations of its four key stages: monitoring, anomaly detection, root cause localization, and resolution.",
+    "keywords": "Interpretability, Flexibility (engineering), Computer science, Multi-agent system, Risk analysis (engineering), Key (lock), Root (linguistics), Management science, Process management, Lead (geology), Anomaly detection, Engineering, Intelligent agent",
+    "url": "https://doi.org/10.1109/tse.2026.3732207",
+    "doi": "https://doi.org/10.1109/tse.2026.3732207",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7163180538",
+    "arxiv_id": "2606.01581"
+  },
   "Characterizing Tests in IoT Software: Practices, Challenges and Opportunities": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163646014",
@@ -1995,7 +2029,7 @@
     "journal": "IEEE Transactions on Software Engineering",
     "title": "What Characterizes Pairwise Modular Smells?",
     "year": "2026",
-    "abstract": "Enhancing the modular structure of existing systems has attracted substantial research interest, primarily through (1) software modularization and (2) identifying design issues (e.g., smells) as refactoring opportunities; however, both approaches often prove impractical to guide effective improvement. Inspired by both aforementioned approaches, our previous study introduced a novel and practical architectural smell -- called Pairwise Modular Smell (or PairSmell) -- for identifying flawed architectural decisions that necessitate further examination. The objective of this study is to explain PairSmell from the perspective of pair characteristics. To this end, we first conduct a rapid review to collect and synthesize 19 pair characteristics that have been used in the literature to represent relationships between two entities. The collected characteristics are then used to train machine learning models for predicting two forms of PairSmell -- inapt separated pairs InSep and inapt collocated pairs InCol, based on a curated dataset of over 6,135,000 pairs of entities derived from 11 open-source Java projects. The trained models achieve up to a 58.6% improvement in ROC-AUC over the baselines. The interpretation of the models reveals that the most influential features for InSep are out-going dependencies, terms shared with others, and declared fields; while those for InCol include semantic similarity based on tf-idf, terms shared between the pair, terms shared with others, and in-going dependencies. We complement the work with a series of practical examples to illustrate how the influential pair characteristics impact the occurrence of PairSmell.",
+    "abstract": "Enhancing the modular structure of existing systems has attracted substantial research interest, primarily through (1) software modularization and (2) identifying design issues (e.g., smells) as refactoring opportunities; however, both approaches often prove impractical to guide effective improvement. Inspired by both aforementioned approaches, our previous study introduced a novel and practical architectural smell-called Pairwise Modular Smell (or PairSmell)-for identifying flawed architectural decisions that necessitate further examination. PairSmell is defined as the deviations between the actual modular relation (MR) and the ‘apt MR’– an MR agreed on by multiple modularization tools (as raters). Although PairSmell has shown its relevance, the reliance on external modularization tools makes it a relatively obscure concept within the community, which in turn may threaten its validity to be used in inspecting software module structure. The objective of this study is to explain PairSmell from the perspective of pair characteristics. To this end, we first conduct a rapid review to collect and synthesize 19 pair characteristics that have been used in the literature to represent relationships between two entities. The collected characteristics are then used to train machine learning models for predicting two forms of PairSmell-inapt separated pairs InSep and inapt collocated pairs InCol, based on a curated dataset of over 6,135,000 pairs of entities derived from 11 open-source Java projects. The trained models achieve up to a 58.6% improvement in ROC-AUC over the baselines. The interpretation of the models reveals that the most influential features for InSep are out-going dependencies, terms shared with others, and declared fields; while those for InCol include semantic similarity based on tf-idf, terms shared between the pair, terms shared with others, and in-going dependencies. We complement the work with a series of practical examples to illustrate how the influential pair characteristics impact the occurrence of PairSmell. Among our findings, a high number of out-going dependencies of a separated pair may raise questions about the separation, while a low level of shared terms may not justify collocating the two entities.",
     "keywords": "Computer science, Modular programming, Pairwise comparison, Modular design, Code refactoring, Complement (music), Similarity (geometry), Theoretical computer science, Software, Modularity (biology), Software engineering, Perspective (graphical), Artificial intelligence, Programming language, Software system, Java, Data mining, Component (thermodynamics), Machine learning, Interpretation (philosophy), Similitude, Software architecture, Software development, Sequence (biology), Abstraction, Software metric, Principal (computer security)",
     "url": "https://doi.org/10.1109/tse.2026.3704291",
     "doi": "https://doi.org/10.1109/tse.2026.3704291",
@@ -2115,6 +2149,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7165204701"
+  },
+  "Navigating Complexity: How Context Shapes Debugging Strategy Choices Among Expert Developers": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7165536220",
+    "author": "Maryam Arab and Jenny T. Liang and Valentina Hong and Steve Oney and Thomas D. LaToza",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Navigating Complexity: How Context Shapes Debugging Strategy Choices Among Expert Developers",
+    "year": "2026",
+    "abstract": "This repository contains supplementary materials for the study “Navigating Complexity: How Context Shapes Debugging Strategy Choices Among Expert Developers.”The study investigates how expert web developers select, adapt, and transition between debugging strategies when working on challenging web application defects. Using a multi-phase qualitative research design, we combined evidence from a literature review, a survey of developers’ challenging debugging experiences, and semi-structured interviews with expert web developers. The resulting findings characterize challenging web debugging scenarios, identify contextual factors that influence debugging strategy selection, and present a descriptive model of how expert developers adapt their strategies as debugging conditions evolve.The materials in this repository are intended to support transparency, traceability, and assessment of the study’s methodology. They include study instruments, coding guidelines, codebook structure, category definitions, and aggregated evidence tables used to connect participant accounts to the reported findings and model.Full interview transcripts and complete participant quotations are not publicly released because they contain detailed descriptions of participants’ workplace practices, technical environments, organizational contexts, tools, team structures, and project-specific debugging incidents. Even after removing direct identifiers, these accounts may remain indirectly identifiable due to the specificity of the roles, technologies, organizations, and scenarios described. Fully anonymizing the raw data would require removing or altering contextual details that are central to interpreting the qualitative findings. Therefore, consistent with participant confidentiality and consent, this repository provides curated and de-identified supplementary materials rather than raw qualitative data.",
+    "keywords": "Debugging, Computer science, Algorithmic program debugging, Context (archaeology), Software engineering, World Wide Web, Coding (social sciences), Human–computer interaction, Software bug, Web application, Knowledge management, Raw data, Qualitative research, Data science, Confidentiality, Expert system, Usability, Qualitative property, Software, Conceptualization, Information retrieval, Subject-matter expert, Troubleshooting",
+    "url": "https://doi.org/10.1109/tse.2026.3729587",
+    "doi": "https://doi.org/10.1109/tse.2026.3729587",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7165536220"
   },
   "LHGLink: LLM—Enhanced Heterogeneous Graph Learning for Issue–Issue Link Prediction": {
     "type": "ARTICLE",
@@ -2707,5 +2757,53 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7204271496"
+  },
+  "An Empirical Study of Detected and Undetected Flaky Test Failures in Real-World CI Pipelines": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7204770234",
+    "author": "Fabian Leinen and Martin Grůber and Saadet Sena Erdoğan and Andreas Stahlbauer and Alexander Pretschner",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "An Empirical Study of Detected and Undetected Flaky Test Failures in Real-World CI Pipelines",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Pipeline transport, Empirical research, Computer science, Reliability engineering, Test (biology), Reliability (semiconductor), Pipeline (software), Statistical analysis, Test method, Software bug, Test data, Condition monitoring, Embedded system, Data modeling",
+    "url": "https://doi.org/10.1109/tse.2026.3729363",
+    "doi": "https://doi.org/10.1109/tse.2026.3729363",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7204770234"
+  },
+  "How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks: An Empirical Study of Interface-Level Countermeasures": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7211890938",
+    "author": "Sanghak Oh and Eun Jung and Seung Wan Chae and Hyoungshick Kim",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks: An Empirical Study of Interface-Level Countermeasures",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Empirical research, Computer science, Code (set theory), Computer security, Data science, Software engineering, Knowledge management, Static program analysis, Code review, Program code, Software bug, World Wide Web, Risk analysis (engineering), Source code, Software",
+    "url": "https://doi.org/10.1109/tse.2026.3731966",
+    "doi": "https://doi.org/10.1109/tse.2026.3731966",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7211890938"
+  },
+  "FlakyAssessor: Static Assessment of Patch Correctness for Flaky Tests": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7211957354",
+    "author": "Zhenyu Wu and Zheyuan Li and Yan Lei and Deheng Yang and Junyi Li and Huan Xie and Chunyan Liu",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "FlakyAssessor: Static Assessment of Patch Correctness for Flaky Tests",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Correctness, Programming language, Static analysis, Reliability engineering, Computation, System testing, Program analysis, Processor scheduling, Algorithm, Embedded system, Software engineering, Engineering drawing",
+    "url": "https://doi.org/10.1109/tse.2026.3732261",
+    "doi": "https://doi.org/10.1109/tse.2026.3732261",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7211957354"
   }
 }

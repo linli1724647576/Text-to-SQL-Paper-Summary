@@ -731,7 +731,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Stochastic Process Mining: Characteristics and Challenges",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Process mining aims to obtain insights from event logs through the automated analyses of recorded process data in information systems, with the ultimate aim to improve business processes running in organisations. However, real-life event logs are often incomplete, noisy, or ambiguous, such as missing timestamps or having ambiguous event labels, which traditional deterministic models cannot capture. Recent process mining developments have considered uncertainty in process mining artifacts more explicitly: in logs of recorded process behaviour, uncertainty may implicitly or explicitly influence process mining outcomes, while in process models, explicit uncertainty allows analysts to interpret and value outcomes. In this paper, we provide a conceptual foundation for uncertainty in process mining by introducing a four-level specification that separately addresses uncertainty in log attributes (e.g., activity labels of events, frequencies) and model elements (e.g., service times, read guards). For each type of uncertainty, we illustrate the levels with concrete examples to help understanding and application. We then provide a structured overview of the state of the art in stochastic process mining, classified using our specification, and present key open research challenges.",
     "keywords": "Computer science, Process (computing), Stochastic process, Process control, Markov process, Data modeling, Process modeling, Mathematical optimization, Algorithm design, Data mining, Probability density function, Robustness (evolution)",
     "url": "https://doi.org/10.1109/tkde.2026.3715402",
     "doi": "https://doi.org/10.1109/tkde.2026.3715402",
@@ -2961,6 +2961,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7154189550"
   },
+  "Scalable Graph Discrete Reconstruction for Efficient Multi-View Clustering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7152429388",
+    "author": "Zhenyu Ma and Shengzhao Guo and Jingyu Wang and Feiping Nie and Xuelong Li",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Scalable Graph Discrete Reconstruction for Efficient Multi-View Clustering",
+    "year": "2026",
+    "abstract": "Multi-view clustering (MVC) with bipartite graph has been extensively studied to rapidly handle multi-source heterogeneous information via sparse anchors. However, most existing methods follow a two-stage learning paradigm that first learns continuous label matrix and then discretizes it, not only bringing extra trade-off parameters but yielding suboptimal solutions. Also, numerous methods still exhibit limited scalability for large-scale problems. Thus, this paper proposes two novel models for discrete, trade-off parameter-free and rapid MVC. First, the Bipartite Graph Discrete Reconstruction (BGDR) model uniquely leverages the discrete label matrices of both samples and anchors to dynamically reconstruct a consensus bipartite graph across views. This concise reconstruction style eliminates redundant computations, and anchor labels enable to enrich cluster partition information during reconstruction, enhancing both accuracy and efficiency. The final clustering outcomes are directly acquired via discrete sample labels. Second, to free the optimization time overheads from the limitation of sample size, we further devise the Compact Graph Discrete Reconstruction (CGDR) model, which reconstructs a smaller compact affinity graph among anchors for significant acceleration. Original sample labels are then gained by label propagation. Systematic experiments illuminate that both models reach superior outcomes in term of efficacy and efficiency.",
+    "keywords": "Computer science, Cluster analysis, Scalability, Graph, Theoretical computer science, Graph theory, Algorithm, Algorithm design, Data mining, Data modeling, Factor graph, Artificial intelligence, Clustering coefficient, Correlation clustering, Cut",
+    "url": "https://doi.org/10.1109/tkde.2026.3682510",
+    "doi": "https://doi.org/10.1109/tkde.2026.3682510",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7152429388"
+  },
   "A Unified Perspective for Learning Graph Representations Across Multi-Level Abstractions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7152563863",
@@ -2977,22 +2993,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7152563863",
     "arxiv_id": "2605.12685"
-  },
-  "Scalable Graph Discrete Reconstruction for Efficient Multi-View Clustering": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7152429388",
-    "author": "Zhenyu Ma and Shengzhao Guo and Jingyu Wang and Feiping Nie and Xuelong Li",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Scalable Graph Discrete Reconstruction for Efficient Multi-View Clustering",
-    "year": "2026",
-    "abstract": "Multi-view clustering (MVC) with bipartite graph has been extensively studied to rapidly handle multi-source heterogeneous information via sparse anchors. However, most existing methods follow a two-stage learning paradigm that first learns continuous label matrix and then discretizes it, not only bringing extra trade-off parameters but yielding suboptimal solutions. Also, numerous methods still exhibit limited scalability for large-scale problems. Thus, this paper proposes two novel models for discrete, trade-off parameter-free and rapid MVC. First, the Bipartite Graph Discrete Reconstruction (BGDR) model uniquely leverages the discrete label matrices of both samples and anchors to dynamically reconstruct a consensus bipartite graph across views. This concise reconstruction style eliminates redundant computations, and anchor labels enable to enrich cluster partition information during reconstruction, enhancing both accuracy and efficiency. The final clustering outcomes are directly acquired via discrete sample labels. Second, to free the optimization time overheads from the limitation of sample size, we further devise the Compact Graph Discrete Reconstruction (CGDR) model, which reconstructs a smaller compact affinity graph among anchors for significant acceleration. Original sample labels are then gained by label propagation. Systematic experiments illuminate that both models reach superior outcomes in term of efficacy and efficiency.",
-    "keywords": "Computer science, Cluster analysis, Scalability, Graph, Theoretical computer science, Graph theory, Algorithm, Algorithm design, Data mining, Data modeling, Factor graph, Artificial intelligence, Clustering coefficient, Correlation clustering, Cut",
-    "url": "https://doi.org/10.1109/tkde.2026.3682510",
-    "doi": "https://doi.org/10.1109/tkde.2026.3682510",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7152429388"
   },
   "Horizontal Multi-Party Data Publishing Under Differential Privacy via Weight-Aware Bidirectional Generative Adversarial Networks": {
     "type": "ARTICLE",
@@ -3555,6 +3555,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140283986"
   },
+  "MUST: Multi-Scale Structural-Temporal Link Prediction Model for UAV Ad Hoc Networks": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7140315542",
+    "author": "Cunlai Pu and Fangrui Wu and Rajput Ramiz Sharafat and Guangzhao Dai and Xiangbo Shu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "MUST: Multi-Scale Structural-Temporal Link Prediction Model for UAV Ad Hoc Networks",
+    "year": "2026",
+    "abstract": "Predicting future connections among Unmanned Aerial Vehicles (UAVs) is one of the fundamental tasks in UAV Ad Hoc Networks (UANETs). In adversarial environments where UAV operational information is unavailable, future link prediction must rely solely on the observed historical topo logical data. However, the highly dynamic and sparse nature of UANET topologies poses substantial challenges in capturing structural and temporal link formation patterns. Most existing link prediction methods focus only on single-scale structural features while neglecting the effects of network sparsity, thus limiting their performance when applied to UANETs. In this paper, we propose MUST, a Multi-scale Structural-Temporal link prediction model for UANETs. In our model, multi-scale structural representations are learned using a weighted graph attention network combined with multi-scale pooling, capturing features at the levels of individual UAVs, UAV communities, and the entire network, which are then fused via concatenation. Then, a stacked long short-term memory network is employed to learn the temporal dynamics of these multi-scale structural features. To address the impact of network sparsity, we develop a tailored loss function that emphasizes the contribution of existing links during training. We validate the performance of MUST using several UANET datasets generated through simulations. Extensive experimental results demonstrate that MUST achieves state-of-the-art link prediction performance in highly dynamic and sparse UANETs.",
+    "keywords": "Computer science, Computer network, Wireless ad hoc network, Link (geometry), Data modeling, Intelligent Network, Data link, Distributed computing, Mobile ad hoc network, Optimized Link State Routing Protocol, Real-time computing, Algorithm design, Electronic mail",
+    "url": "https://doi.org/10.1109/tkde.2026.3677398",
+    "doi": "https://doi.org/10.1109/tkde.2026.3677398",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7140315542"
+  },
   "PDET-LSH: Scalable In-Memory Indexing for High-Dimensional Approximate Nearest Neighbor Search With Quality Guarantees": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140272501",
@@ -3587,21 +3603,21 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140279444"
   },
-  "MUST: Multi-Scale Structural-Temporal Link Prediction Model for UAV Ad Hoc Networks": {
+  "Bridging Cross-Domain Time Series: Efficient Federated Anomaly Detection With Sharded LLMs": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7140315542",
-    "author": "Cunlai Pu and Fangrui Wu and Rajput Ramiz Sharafat and Guangzhao Dai and Xiangbo Shu",
+    "key": "https://openalex.org/W7140166725",
+    "author": "Ronghui Xu and Hao Miao and Senzhang Wang and Yan Zhao and Bin Yang and Yunjun Gao and Philip S. Yu and Christian S. Jensen",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "MUST: Multi-Scale Structural-Temporal Link Prediction Model for UAV Ad Hoc Networks",
+    "title": "Bridging Cross-Domain Time Series: Efficient Federated Anomaly Detection With Sharded LLMs",
     "year": "2026",
-    "abstract": "Predicting future connections among Unmanned Aerial Vehicles (UAVs) is one of the fundamental tasks in UAV Ad Hoc Networks (UANETs). In adversarial environments where UAV operational information is unavailable, future link prediction must rely solely on the observed historical topo logical data. However, the highly dynamic and sparse nature of UANET topologies poses substantial challenges in capturing structural and temporal link formation patterns. Most existing link prediction methods focus only on single-scale structural features while neglecting the effects of network sparsity, thus limiting their performance when applied to UANETs. In this paper, we propose MUST, a Multi-scale Structural-Temporal link prediction model for UANETs. In our model, multi-scale structural representations are learned using a weighted graph attention network combined with multi-scale pooling, capturing features at the levels of individual UAVs, UAV communities, and the entire network, which are then fused via concatenation. Then, a stacked long short-term memory network is employed to learn the temporal dynamics of these multi-scale structural features. To address the impact of network sparsity, we develop a tailored loss function that emphasizes the contribution of existing links during training. We validate the performance of MUST using several UANET datasets generated through simulations. Extensive experimental results demonstrate that MUST achieves state-of-the-art link prediction performance in highly dynamic and sparse UANETs.",
-    "keywords": "Computer science, Computer network, Wireless ad hoc network, Link (geometry), Data modeling, Intelligent Network, Data link, Distributed computing, Mobile ad hoc network, Optimized Link State Routing Protocol, Real-time computing, Algorithm design, Electronic mail",
-    "url": "https://doi.org/10.1109/tkde.2026.3677398",
-    "doi": "https://doi.org/10.1109/tkde.2026.3677398",
+    "abstract": "Time series anomaly detection aims to identify samples that deviate from a normal distribution in a time series, which is practically important to a variety of real-world applications. Existing approaches are mostly centralized and domain-specific, and thus they are hard to generalize to time series of different domains that are decentralized due to the privacy concerns and the resulting data silos across institutions. To bridge this gap, we propose FAST-MAD, the first resource-aware framework for efficient federated time series anomaly detection. Operating under a client-server architecture, different clients in FAST-MAD can handle time series from distinct domains. In particular, FAST-MAD first employs a multi-resolution transformation module to capture hierarchical local semantics, frequency-oriented patching as well as inter-time-series interaction. An LLM serves as the main body of the local model for each client, owing to its strong knowledge transfer capabilities. Further, an adaptive modularized separation mechanism is integrated with sharded federated training to reduce computational costs, which innovatively splits the LLM into a U-shaped architecture. To address data heterogeneity across different clients, we propose a decomposed client-server alignment mechanism, featuring a tailored low-rank parameter decomposition that extracts domain-common knowledge. Extensive experiments on multiple cross-domain time series datasets offer insight into the effectiveness and efficiency of FAST-MAD, which outperforms SOTA baselines by up to 10.25% in terms of F1-score and reduces the training time by 40.93%.",
+    "keywords": "Computer science, Anomaly detection, Data mining, Time series, Distributed computing, Variety (cybernetics), Bridging (networking), Series (stratigraphy), Distributed database, Data modeling, Transformation (genetics), Bridge (graph theory), Decomposition, Search engine indexing, Data access, Class (philosophy), Anomaly (physics), Sensor fusion, Machine learning, Data structure",
+    "url": "https://doi.org/10.1109/tkde.2026.3677275",
+    "doi": "https://doi.org/10.1109/tkde.2026.3677275",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140315542"
+    "openalex_id": "https://openalex.org/W7140166725"
   },
   "Four-Set Hypergraphlets for Characterization of Directed Hypergraphs": {
     "type": "ARTICLE",
@@ -3618,22 +3634,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140182339"
-  },
-  "Bridging Cross-Domain Time Series: Efficient Federated Anomaly Detection With Sharded LLMs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7140166725",
-    "author": "Ronghui Xu and Hao Miao and Senzhang Wang and Yan Zhao and Bin Yang and Yunjun Gao and Philip S. Yu and Christian S. Jensen",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Bridging Cross-Domain Time Series: Efficient Federated Anomaly Detection With Sharded LLMs",
-    "year": "2026",
-    "abstract": "Time series anomaly detection aims to identify samples that deviate from a normal distribution in a time series, which is practically important to a variety of real-world applications. Existing approaches are mostly centralized and domain-specific, and thus they are hard to generalize to time series of different domains that are decentralized due to the privacy concerns and the resulting data silos across institutions. To bridge this gap, we propose FAST-MAD, the first resource-aware framework for efficient federated time series anomaly detection. Operating under a client-server architecture, different clients in FAST-MAD can handle time series from distinct domains. In particular, FAST-MAD first employs a multi-resolution transformation module to capture hierarchical local semantics, frequency-oriented patching as well as inter-time-series interaction. An LLM serves as the main body of the local model for each client, owing to its strong knowledge transfer capabilities. Further, an adaptive modularized separation mechanism is integrated with sharded federated training to reduce computational costs, which innovatively splits the LLM into a U-shaped architecture. To address data heterogeneity across different clients, we propose a decomposed client-server alignment mechanism, featuring a tailored low-rank parameter decomposition that extracts domain-common knowledge. Extensive experiments on multiple cross-domain time series datasets offer insight into the effectiveness and efficiency of FAST-MAD, which outperforms SOTA baselines by up to 10.25% in terms of F1-score and reduces the training time by 40.93%.",
-    "keywords": "Computer science, Anomaly detection, Data mining, Time series, Distributed computing, Variety (cybernetics), Bridging (networking), Series (stratigraphy), Distributed database, Data modeling, Transformation (genetics), Bridge (graph theory), Decomposition, Search engine indexing, Data access, Class (philosophy), Anomaly (physics), Sensor fusion, Machine learning, Data structure",
-    "url": "https://doi.org/10.1109/tkde.2026.3677275",
-    "doi": "https://doi.org/10.1109/tkde.2026.3677275",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140166725"
   },
   "M4Rec: Multi-Modal Knowledge Graph Modeling of Multi-Dimensional User Preferences for Next-POI Recommendation": {
     "type": "ARTICLE",
@@ -3955,22 +3955,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7138936751"
   },
-  "Which Data Harms My Regression Model: Enhancing Model Performance on Low-Quality Data Through Fast Data Attribution": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7138925746",
-    "author": "Qingkai Sui and Yalin Wang and Chenliang Liu and Diju Liu and Xiaofang Chen and Yongfang Xie",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Which Data Harms My Regression Model: Enhancing Model Performance on Low-Quality Data Through Fast Data Attribution",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Data modeling, Regression analysis, Regression, Data mining, Artificial intelligence, Attribution, Linear regression, Electronic mail, Noisy data, Machine learning, Statistics",
-    "url": "https://doi.org/10.1109/tkde.2026.3675903",
-    "doi": "https://doi.org/10.1109/tkde.2026.3675903",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7138925746"
-  },
   "Time-Varying Social Network Opinion Dynamics Under One-Step Ahead Optimal Mechanism": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7138884800",
@@ -3986,6 +3970,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7138884800"
+  },
+  "Which Data Harms My Regression Model: Enhancing Model Performance on Low-Quality Data Through Fast Data Attribution": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7138925746",
+    "author": "Qingkai Sui and Yalin Wang and Chenliang Liu and Diju Liu and Xiaofang Chen and Yongfang Xie",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Which Data Harms My Regression Model: Enhancing Model Performance on Low-Quality Data Through Fast Data Attribution",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Data modeling, Regression analysis, Regression, Data mining, Artificial intelligence, Attribution, Linear regression, Electronic mail, Noisy data, Machine learning, Statistics",
+    "url": "https://doi.org/10.1109/tkde.2026.3675903",
+    "doi": "https://doi.org/10.1109/tkde.2026.3675903",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7138925746"
   },
   "Spectral Clustering for Community Detection of Multi-Layer Networks": {
     "type": "ARTICLE",
@@ -4612,6 +4612,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7131652681"
   },
+  "Cymo: A Flexible Storage Model With Query-Aware Indexing for Spatio-Temporal Big Data": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7131379543",
+    "author": "Yang Guo and Zili Shao",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Cymo: A Flexible Storage Model With Query-Aware Indexing for Spatio-Temporal Big Data",
+    "year": "2026",
+    "abstract": "Spatio-temporal data are continuously generated and grow exponentially with the rapid proliferation of mobile devices. Efficient storage and indexing of spatio-temporal Big Data are crucial for supporting fast queries. Due to their high write throughput and scalability, distributed NoSQL data stores such as HBase are widely adopted as storage engines in spatio-temporal Big Data systems. These systems require a key-value-based storage model to convert one or a group of spatio-temporal data points into a single key-value pair. However, existing techniques cannot govern an inherent dilemma caused by adding a time dimension within spatial information, that is, we can either optimize for space-preferred or time-preferred queries but not both. In this paper, we propose Cymo, a flexible storage model with query-aware indexing that dynamically adapts to varying query patterns across different spatial regions and evolving query behaviors over time. Our key idea is to partition the spatio-temporal space into multiple subspaces, allowing each subspace to optimize its storage model based on its specific query characteristics. Cymo features a learning model that predicts query patterns for each subspace using historical workloads. Additionally, it introduces a virtual layer that abstracts the heterogeneity of different storage models, providing a unified query interface. This design ensures that storage model variations remain transparent to applications while enabling effective query optimization based on diverse query patterns. We have implemented Cymo on HBase and integrated it into GeoMesa, a representative spatio-temporal Big Data system. Experimental results on real taxi datasets demonstrate that Cymo significantly improves query performance, achieving speedups of 1.53× to 10× compared to GeoMesa. The open-source implementation of Cymo has been released for public access.",
+    "keywords": "Computer science, NoSQL, Search engine indexing, Big data, Query optimization, Storage model, Subspace topology, Partition (number theory), Data mining, Sargable, Computer data storage, Key (lock), Dimension (graph theory), Distributed data store, Query expansion, Data modeling, Storage efficiency, Distributed database, Database, Space partitioning, Range query (database), Web search query, Information retrieval, Query language, Distributed computing, Online aggregation, Data structure, Web query classification, Materialized view, Throughput, View, Server, Spatial query, Information repository, Data warehouse, RDF query language",
+    "url": "https://doi.org/10.1109/tkde.2026.3667517",
+    "doi": "https://doi.org/10.1109/tkde.2026.3667517",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7131379543"
+  },
   "Utility-Distribution Aware Real-Time Cross Online Matching in Spatial Crowdsourcing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7131395451",
@@ -4643,22 +4659,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7131404683"
-  },
-  "Cymo: A Flexible Storage Model With Query-Aware Indexing for Spatio-Temporal Big Data": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7131379543",
-    "author": "Yang Guo and Zili Shao",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Cymo: A Flexible Storage Model With Query-Aware Indexing for Spatio-Temporal Big Data",
-    "year": "2026",
-    "abstract": "Spatio-temporal data are continuously generated and grow exponentially with the rapid proliferation of mobile devices. Efficient storage and indexing of spatio-temporal Big Data are crucial for supporting fast queries. Due to their high write throughput and scalability, distributed NoSQL data stores such as HBase are widely adopted as storage engines in spatio-temporal Big Data systems. These systems require a key-value-based storage model to convert one or a group of spatio-temporal data points into a single key-value pair. However, existing techniques cannot govern an inherent dilemma caused by adding a time dimension within spatial information, that is, we can either optimize for space-preferred or time-preferred queries but not both. In this paper, we propose Cymo, a flexible storage model with query-aware indexing that dynamically adapts to varying query patterns across different spatial regions and evolving query behaviors over time. Our key idea is to partition the spatio-temporal space into multiple subspaces, allowing each subspace to optimize its storage model based on its specific query characteristics. Cymo features a learning model that predicts query patterns for each subspace using historical workloads. Additionally, it introduces a virtual layer that abstracts the heterogeneity of different storage models, providing a unified query interface. This design ensures that storage model variations remain transparent to applications while enabling effective query optimization based on diverse query patterns. We have implemented Cymo on HBase and integrated it into GeoMesa, a representative spatio-temporal Big Data system. Experimental results on real taxi datasets demonstrate that Cymo significantly improves query performance, achieving speedups of 1.53× to 10× compared to GeoMesa. The open-source implementation of Cymo has been released for public access.",
-    "keywords": "Computer science, NoSQL, Search engine indexing, Big data, Query optimization, Storage model, Subspace topology, Partition (number theory), Data mining, Sargable, Computer data storage, Key (lock), Dimension (graph theory), Distributed data store, Query expansion, Data modeling, Storage efficiency, Distributed database, Database, Space partitioning, Range query (database), Web search query, Information retrieval, Query language, Distributed computing, Online aggregation, Data structure, Web query classification, Materialized view, Throughput, View, Server, Spatial query, Information repository, Data warehouse, RDF query language",
-    "url": "https://doi.org/10.1109/tkde.2026.3667517",
-    "doi": "https://doi.org/10.1109/tkde.2026.3667517",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7131379543"
   },
   "A Dual Imbalanced Classification Framework With Feature Transfer Guided by Memory Compensation Strategy": {
     "type": "ARTICLE",
@@ -5172,22 +5172,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7126118110"
   },
-  "Preference Guided Meta-Learning for Cross Domain Time Series Forecasting": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125971688",
-    "author": "Xingwang Li and Fei Teng and Tianrui Li and Qiang Duan",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Preference Guided Meta-Learning for Cross Domain Time Series Forecasting",
-    "year": "2026",
-    "abstract": "Time series forecasting has become a critical task in data engineering, with the volume of time series data projected to reach 180 ZB by 2025. While traditional forecasting models are typically constrained to single domains, missing opportunities for transferring temporal patterns across different domains. Through analysis, we observe that time series from different domains, despite their distinct statistical characteristics, can be fundamentally understood through temporal dependency patterns, which manifest as either long-term dependencies ( like trends and cycles) or short-term dependencies ( like fluctuations and abrupt changes). This observation motivates us to rethink cross-domain modeling from the dependency preferences perspective. We propose LSTPO, a novel framework that captures cross-domain commonalities through temporal dependency preferences and leverages a meta-learning-based approach to prevent cross-domain training forgetting. LSTPO dynamically models changes in preference over time and swiftly adapts to preference variations across different domains, enabling robust cross-domain forecasting. Through extensive experimental evaluations, we have shown that LSTPO substantially outperforms state-of-the-art forecasting methods while enhancing model transferability under few-shot learning conditions. The source code will be made publicly available upon acceptance.",
-    "keywords": "Computer science, Dependency (UML), Time series, Series (stratigraphy), Artificial intelligence, Task (project management), Machine learning, Data mining, Domain (mathematical analysis), Preference, Missing data, Data modeling, Code (set theory), Temporal database, Domain knowledge, Statistical model, Volume (thermodynamics), Transferability, Event (particle physics), Process (computing)",
-    "url": "https://doi.org/10.1109/tkde.2026.3658637",
-    "doi": "https://doi.org/10.1109/tkde.2026.3658637",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125971688"
-  },
   "Fast and Accurate Domain Adaptation for Irregular and Regular Tensor Decomposition": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125928605",
@@ -5203,6 +5187,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125928605"
+  },
+  "Preference Guided Meta-Learning for Cross Domain Time Series Forecasting": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125971688",
+    "author": "Xingwang Li and Fei Teng and Tianrui Li and Qiang Duan",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Preference Guided Meta-Learning for Cross Domain Time Series Forecasting",
+    "year": "2026",
+    "abstract": "Time series forecasting has become a critical task in data engineering, with the volume of time series data projected to reach 180 ZB by 2025. While traditional forecasting models are typically constrained to single domains, missing opportunities for transferring temporal patterns across different domains. Through analysis, we observe that time series from different domains, despite their distinct statistical characteristics, can be fundamentally understood through temporal dependency patterns, which manifest as either long-term dependencies ( like trends and cycles) or short-term dependencies ( like fluctuations and abrupt changes). This observation motivates us to rethink cross-domain modeling from the dependency preferences perspective. We propose LSTPO, a novel framework that captures cross-domain commonalities through temporal dependency preferences and leverages a meta-learning-based approach to prevent cross-domain training forgetting. LSTPO dynamically models changes in preference over time and swiftly adapts to preference variations across different domains, enabling robust cross-domain forecasting. Through extensive experimental evaluations, we have shown that LSTPO substantially outperforms state-of-the-art forecasting methods while enhancing model transferability under few-shot learning conditions. The source code will be made publicly available upon acceptance.",
+    "keywords": "Computer science, Dependency (UML), Time series, Series (stratigraphy), Artificial intelligence, Task (project management), Machine learning, Data mining, Domain (mathematical analysis), Preference, Missing data, Data modeling, Code (set theory), Temporal database, Domain knowledge, Statistical model, Volume (thermodynamics), Transferability, Event (particle physics), Process (computing)",
+    "url": "https://doi.org/10.1109/tkde.2026.3658637",
+    "doi": "https://doi.org/10.1109/tkde.2026.3658637",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7125971688"
   },
   "BOGK: Bayesian Optimization-Driven Graph Kernel Ensemble for Graph-Level Clustering": {
     "type": "ARTICLE",
@@ -5509,6 +5509,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125476064"
   },
+  "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125542493",
+    "author": "Herun Wan and Minnan Luo and Jihong Wang and Xiaojun Chang and Qinghua Zheng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Context (archaeology), Artificial intelligence, Context model, World Wide Web, Knowledge graph, Data modeling, Graph, Information retrieval, Electronic mail, The Internet, Context awareness",
+    "url": "https://doi.org/10.1109/tkde.2026.3656720",
+    "doi": "https://doi.org/10.1109/tkde.2026.3656720",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7125542493"
+  },
   "Structural Entropy Guided Meta-Learning for Few-Shot Node Classification": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125579449",
@@ -5556,22 +5572,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125527002"
-  },
-  "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125542493",
-    "author": "Herun Wan and Minnan Luo and Jihong Wang and Xiaojun Chang and Qinghua Zheng",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Context (archaeology), Artificial intelligence, Context model, World Wide Web, Knowledge graph, Data modeling, Graph, Information retrieval, Electronic mail, The Internet, Context awareness",
-    "url": "https://doi.org/10.1109/tkde.2026.3656720",
-    "doi": "https://doi.org/10.1109/tkde.2026.3656720",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125542493"
   },
   "Efficient Co-Clustering via Bipartite Graph Factorization": {
     "type": "ARTICLE",
@@ -6023,22 +6023,6 @@
     "openalex_id": "https://openalex.org/W4393118513",
     "arxiv_id": "2403.14151"
   },
-  "CIPR: Class Imbalance-Aware Pseudo-Label Regeneration for Single-Cell Multi-Omics Clustering": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7161970460",
-    "author": "Zixiao Jin and Xiao Zheng and Weiqing Yan and Chang Tang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "CIPR: Class Imbalance-Aware Pseudo-Label Regeneration for Single-Cell Multi-Omics Clustering",
-    "year": "2026",
-    "abstract": "Single-cell multi-omics clustering has emerged as a powerful paradigm for dissecting cellular heterogeneity and advancing precision medicine. Despite recent progress, most existing methods prioritize the strict alignment of heterogeneous modalities. However, this alignment process is often dominated by majority cell populations, which inadvertently suppresses the representation of rare cell types and exacerbates the long-tail effect inherent in biological data. This imbalance distorts the latent feature space, resulting in suboptimal clustering performance. To address this, we propose CIPR, a Class Imbalance-aware Pseudo-label Regeneration framework. First, CIPR constructs a unified embedding by integrating cellular attributes with local and global structural relationships. Crucially, we formulate the multi-omics pseudo-labeling process as an imbalanced Optimal Transport problem. Instead of enforcing rigid equal-sized clusters that distort true biological proportions, we introduce a soft uniform prior to guarantee a baseline representation for all cell groups. This explicitly prevents rare cell populations from being absorbed by dominant cell types, while allowing the model to naturally adapt to the inherent imbalance of single-cell data. Furthermore, CIPR incorporates a curriculum learning strategy that incrementally learns from high-confidence samples, thereby reducing noise propagation during pseudo-label generation. Finally, a cross-omics interaction mechanism mutually guides prediction distributions, minimizing inter-modality conflicts and maximizing information complementarity. Extensive experiments on various multi-omics datasets demonstrate that CIPR significantly outperforms state-of-the-art methods, particularly in identifying rare cell populations and handling severe class imbalances.",
-    "keywords": "Computer science, Cluster analysis, Class (philosophy), Data mining, Artificial intelligence, Algorithm design, Pattern recognition (psychology), Electronic mail, Data modeling, Theoretical computer science",
-    "url": "https://doi.org/10.1109/tkde.2026.3695648",
-    "doi": "https://doi.org/10.1109/tkde.2026.3695648",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7161970460"
-  },
   "STORM: Exploiting Spatiotemporal Continuity for Trajectory Similarity Learning in Road Networks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7117893800",
@@ -6054,6 +6038,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7117893800"
+  },
+  "CIPR: Class Imbalance-Aware Pseudo-Label Regeneration for Single-Cell Multi-Omics Clustering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7161970460",
+    "author": "Zixiao Jin and Xiao Zheng and Weiqing Yan and Chang Tang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "CIPR: Class Imbalance-Aware Pseudo-Label Regeneration for Single-Cell Multi-Omics Clustering",
+    "year": "2026",
+    "abstract": "Single-cell multi-omics clustering has emerged as a powerful paradigm for dissecting cellular heterogeneity and advancing precision medicine. Despite recent progress, most existing methods prioritize the strict alignment of heterogeneous modalities. However, this alignment process is often dominated by majority cell populations, which inadvertently suppresses the representation of rare cell types and exacerbates the long-tail effect inherent in biological data. This imbalance distorts the latent feature space, resulting in suboptimal clustering performance. To address this, we propose CIPR, a Class Imbalance-aware Pseudo-label Regeneration framework. First, CIPR constructs a unified embedding by integrating cellular attributes with local and global structural relationships. Crucially, we formulate the multi-omics pseudo-labeling process as an imbalanced Optimal Transport problem. Instead of enforcing rigid equal-sized clusters that distort true biological proportions, we introduce a soft uniform prior to guarantee a baseline representation for all cell groups. This explicitly prevents rare cell populations from being absorbed by dominant cell types, while allowing the model to naturally adapt to the inherent imbalance of single-cell data. Furthermore, CIPR incorporates a curriculum learning strategy that incrementally learns from high-confidence samples, thereby reducing noise propagation during pseudo-label generation. Finally, a cross-omics interaction mechanism mutually guides prediction distributions, minimizing inter-modality conflicts and maximizing information complementarity. Extensive experiments on various multi-omics datasets demonstrate that CIPR significantly outperforms state-of-the-art methods, particularly in identifying rare cell populations and handling severe class imbalances.",
+    "keywords": "Computer science, Cluster analysis, Class (philosophy), Data mining, Artificial intelligence, Algorithm design, Pattern recognition (psychology), Electronic mail, Data modeling, Theoretical computer science",
+    "url": "https://doi.org/10.1109/tkde.2026.3695648",
+    "doi": "https://doi.org/10.1109/tkde.2026.3695648",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7161970460"
   },
   "EnhanceGraph: A Continuously Enhanced Graph-based Index for High-dimensional Approximate Nearest Neighbor Search": {
     "type": "ARTICLE",
@@ -6196,7 +6196,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Order-Preserving Pattern Mining and Comparison via Indexing",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Frequent Pattern Mining (FPM) from a time series has received much attention. The problem has been studied under various matching relations, including, more recently, the order-preserving (OP) matching relation, in which two time series match if their elements share the same relative order (i.e., the same ranks). Thus, a frequent OP pattern captures a trend shared by sufficiently many parts of the input time series. Here, we propose exact, highly scalable algorithms for FPM in the OP setting. Our algorithms employ an OP suffix tree (OPST) as an index to store and query time series efficiently. Unfortunately, there are no practical algorithms for OPST construction. Thus, we first propose a novel and practical $\\mathcal{O}(n\\sigma log \\sigma)$-time and $\\mathcal{O}(n)$-space algorithm for constructing the OPST of a length-$n$ time series over an alphabet of size $\\sigma$. We also propose an alternative faster OPST construction algorithm running in $\\mathcal{O}(n log \\sigma)$ time using $\\mathcal{O}(n)$ space; this algorithm is mainly of theoretical interest. Then, we propose an exact $\\mathcal{O}(n)$-time and $\\mathcal{O}(n)$-space algorithm for mining all maximal frequent OP patterns, given an OPST. This significantly improves on the state of the art, which takes $\\Omega(n^3)$ time in the worst case. We also formalize the notion of closed frequent OP patterns and propose an exact $\\mathcal{O}(n)$-time and $\\mathcal{O}(n)$-space algorithm for mining all closed frequent OP patterns, given an OPST. In addition, we show how to utilize the OP matching relation to efficiently compare two time series based on their trends. We evaluated our algorithms extensively through experiments and case studies on real-world, multi-million-letter time series, demonstrating both their efficiency and effectiveness.",
     "keywords": "Computer science, Search engine indexing, Data mining, Artificial intelligence, Sequential Pattern Mining, Pattern recognition (psychology), K-optimal pattern discovery, Pattern analysis, Information retrieval, Pattern matching, Algorithm design, Association rule learning, Pattern detection, Feature extraction, Data modeling, Information extraction, Database index, Knowledge extraction, Web mining",
     "url": "https://doi.org/10.1109/tkde.2026.3710634",
     "doi": "https://doi.org/10.1109/tkde.2026.3710634",
@@ -6324,7 +6324,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Regional Isolation Forest: A Novel Approach for Enhanced Anomaly Detection and Interpretability",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Anomaly detection is widely used in safety- and risk sensitive applications, where both reliable detection and interpretable decision support are important. Among unsupervised methods, Isolation Forest and its variants remain attractive because of their efficiency and simple tree-based structure. However, existing hyperplane-based isolation mechanisms may produce geometry-induced score artifacts, such as ghost regions in anomaly score maps. Although geometry-aware variants of Isolation Forest have been proposed to mitigate these artifacts, residual artifacts may still arise under complex data distributions, and detector-specific interpretability is less explored, thereby leaving room for further improvement in practical applications. To address these issues, this article proposes a Regional Isolation Forest, denoted as ReIF, for improved anomaly detection and interpretation. ReIF constrains the spatial extent of recursive partitioning through bounded regional splits and controls the attenuation of inner and outer partition ranges by two geometry-related parameters. On this basis, a model-specific interpretability strategy, RIFFI, is further developed, including a local component for instance-level anomaly diagnosis and a global component for dataset-level feature summarization. Extensive experiments on simulated and real-world datasets validate the proposed framework from multiple perspectives. The results show that ReIF can effectively alleviate geometry-induced artifacts and improve detection performance under complex data distributions. Additional sensitivity analysis, shape ablation, runtime evaluation, and comparisons with SHAP and LIME further demonstrate the robustness, efficiency, and practical interpretability of the proposed method.",
     "keywords": "Interpretability, Computer science, Artificial intelligence, Anomaly detection, Pattern recognition (psychology), Data mining, Feature (linguistics), Feature extraction, Isolation (microbiology), Data modeling, Anomaly (physics), Noisy data",
     "url": "https://doi.org/10.1109/tkde.2026.3717173",
     "doi": "https://doi.org/10.1109/tkde.2026.3717173",
@@ -6804,13 +6804,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Improving Generalization and Robustness in Offline Reinforcement Learning via Boundary-Aware Data Augmentation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Current offline reinforcement learning (ORL) algorithms tend to overfit the training dataset and exhibit poor in-distribution generalization and robustness performance when deployed to real environments, thus compromising their effectiveness. Existing methods typically enhance in-distribution generalization and robustness by leveraging regularization techniques widely used in computer vision. However, due to the high sensitivity of low-level physical signals to distributional shifts, these methods still suffer from notable limitations in in-distribution generalization and robustness, making it difficult to achieve stable performance in complex environments. To address this issue, we theoretically analyze the error bounds of the behavior policy and action-value function trained with random episode interpolation, revealing that the error scales positively correlated with the distance between states. Based on this insight, we propose a method called $\\bf{B}$oundary-$\\bf{A}$ware $\\bf{D}$ata $\\bf{A}$ugmentation (BADA), which leverages neighboring states to construct interpolation boundaries, enabling the generation of synthetic data that more faithfully preserves the original data distribution. We first conduct qualitative studies in a toy environment, showing that BADA generates mixed samples that preserve desirable policy smoothness while accurately reconstructing multimodal value distributions. Extensive experiments on limited offline datasets further demonstrate that BADA attains state-of-the-art performance across diverse benchmarks.",
     "keywords": "Computer science, Robustness (evolution), Artificial intelligence, Generalization, Reinforcement learning, Machine learning, Training set, Data mining, Data modeling, Noisy data, Pattern recognition (psychology), Artificial neural network, Generalization error, Algorithm",
     "url": "https://doi.org/10.1109/tkde.2026.3729748",
     "doi": "https://doi.org/10.1109/tkde.2026.3729748",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7204952355"
+    "openalex_id": "https://openalex.org/W7204952355",
+    "arxiv_id": "2609.20300"
   },
   "Efficient Approximation Algorithms for Resolvent Subgraph Centrality on Signed Graphs": {
     "type": "ARTICLE",
@@ -7179,5 +7180,53 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7212294922"
+  },
+  "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213406017",
+    "author": "Jiaye Li and Zhongle Xie and Ke Chen and Lidan Shou and Gongsheng Yuan and Gang Chen",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Feature selection, Pattern recognition (psychology), Regularization (linguistics), Algorithm, Artificial intelligence, Feature (linguistics), Selection (genetic algorithm), Information loss, Data mining, Feature extraction, Algorithm design, Data modeling, Differential (mechanical device), Data loss, Prior information, Noisy data, Matrix algebra",
+    "url": "https://doi.org/10.1109/tkde.2026.3735205",
+    "doi": "https://doi.org/10.1109/tkde.2026.3735205",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7213406017"
+  },
+  "Heterogeneous Graph Condensation Via Joint-Granularity Gradient Matching": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213521349",
+    "author": "Shenao Yu and Fenglin Cen and Ji Xu and Jiye Liang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Heterogeneous Graph Condensation Via Joint-Granularity Gradient Matching",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Graph, Matching (statistics), Algorithm, Graph theory, Bipartite graph, Algorithm design, Topology (electrical circuits), Matrix algebra, Condensation, Signal processing, Combinatorics, Mathematics",
+    "url": "https://doi.org/10.1109/tkde.2026.3734696",
+    "doi": "https://doi.org/10.1109/tkde.2026.3734696",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7213521349"
+  },
+  "SARL: A Scalable Attribute-Informed Representation Learning Framework for Bipartite Graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213524796",
+    "author": "Jianke Yu and Hanchen Wang and Chen Chen and Xiaoyang Wang and Wenjie Zhang and Ying Zhang and Xijuan Liu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "SARL: A Scalable Attribute-Informed Representation Learning Framework for Bipartite Graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Bipartite graph, Scalability, Theoretical computer science, Representation (politics), Feature learning, Artificial intelligence, Graph, Graph theory, Matching (statistics), Algorithm, Knowledge representation and reasoning, Probably approximately correct learning, Electronic mail, Factor graph, Algorithm design, Computational learning theory",
+    "url": "https://doi.org/10.1109/tkde.2026.3735058",
+    "doi": "https://doi.org/10.1109/tkde.2026.3735058",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7213524796"
   }
 }

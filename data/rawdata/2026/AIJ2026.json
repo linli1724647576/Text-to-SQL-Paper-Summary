@@ -1,4 +1,37 @@
 {
+  "Automatic prompt debiasing via contrastive reflection for fairness enhancement in large language models": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213432600",
+    "author": "Juncheng Hu and Yingji Li and Rui Song and Kedi Lyu and Yi Chang",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Automatic prompt debiasing via contrastive reflection for fairness enhancement in large language models",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Debiasing, Computer science, Reflection (computer programming), Benchmark (surveying), Flexibility (engineering), Inference, Generalization, Task (project management), Limiting, Artificial intelligence, Machine learning, Scalability, Natural language processing, Generality, Causal inference, Generalizability theory, Enhanced Data Rates for GSM Evolution, Wishful thinking, Granularity, Data science, Human–computer interaction, Risk analysis (engineering)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104625",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104625",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7213432600"
+  },
+  "Learning neuro-symbolic convergent term rewriting systems": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4416410188",
+    "author": "Flavio Petruzzellis and Alberto Testolin and Alessandro Sperduti",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Learning neuro-symbolic convergent term rewriting systems",
+    "year": "2026",
+    "abstract": "Building neural systems that can learn to execute symbolic algorithms is a challenging open problem in artificial intelligence, especially when aiming for strong generalization and out-of-distribution performance. In this work, we introduce a general framework for learning convergent term rewriting systems using a neuro-symbolic architecture inspired by the rewriting algorithm itself. We present two modular implementations of such architecture: the Neural Rewriting System (NRS) and the Fast Neural Rewriting System (FastNRS). As a result of algorithmic-inspired design and key architectural elements, both models can generalize to out-of-distribution instances, with FastNRS offering significant improvements in terms of memory efficiency, training speed, and inference time. We evaluate both architectures on four tasks involving the simplification of mathematical formulas and further demonstrate their versatility in a multi-domain learning scenario, where a single model is trained to solve multiple types of problems simultaneously. The proposed system significantly outperforms two strong neural baselines: the Neural Data Router, a recent transformer variant specifically designed to solve algorithmic problems, and GPT-4o, one of the most powerful general-purpose large-language models. Moreover, our system matches or outperforms the o1-preview model from OpenAI that excels in reasoning benchmarks.",
+    "keywords": "Rewriting, Computer science, Modular design, Artificial intelligence, Generalization, Artificial neural network, Theoretical computer science, Inference, Key (lock), Term (time), Programming language, Implementation, Transformer, Machine learning, Equivalence (formal languages), Formalism (music), Deep learning",
+    "url": "https://doi.org/10.1016/j.artint.2026.104622",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104622",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4416410188",
+    "arxiv_id": "2507.19372"
+  },
   "Similarity of planning domain models via answer set programming": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7210275411",
@@ -14,6 +47,22 @@
     "venue": "AIJ2026",
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7210275411"
+  },
+  "Evidence-guided learning against noisy and sparse labels on graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7206181224",
+    "author": "Siyu Yi and Wei Zhang and Zhengyang Mao and Yongdao Zhou and Ziyue Qiao and Li Shen and Dacheng Tao and Jiancheng Lv and Wei Ju",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Evidence-guided learning against noisy and sparse labels on graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Pattern recognition (psychology), Machine learning, Noise (video), Mathematics, Noisy data, Graph, Algorithm, Deep learning",
+    "url": "https://doi.org/10.1016/j.artint.2026.104608",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104608",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7206181224"
   },
   "Shapley Value Computation in Ontology-Mediated Query Answering": {
     "type": "ARTICLE",
@@ -49,23 +98,6 @@
     "openalex_id": "https://openalex.org/W4415343515",
     "arxiv_id": "2507.02935"
   },
-  "Learning neuro-symbolic convergent term rewriting systems": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4416410188",
-    "author": "Flavio Petruzzellis and Alberto Testolin and Alessandro Sperduti",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "Learning neuro-symbolic convergent term rewriting systems",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Rewriting, Computer science, Modular design, Artificial intelligence, Generalization, Artificial neural network, Theoretical computer science, Inference, Key (lock), Term (time), Programming language, Implementation, Transformer, Machine learning, Equivalence (formal languages), Formalism (music), Deep learning",
-    "url": "https://doi.org/10.1016/j.artint.2026.104622",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104622",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W4416410188",
-    "arxiv_id": "2507.19372"
-  },
   "Towards efficient federated recommendation with discrete graph convolutional network": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204961218",
@@ -82,21 +114,37 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7204961218"
   },
-  "Evidence-guided Learning against Noisy and Sparse Labels on Graphs": {
+  "ADKF: Adaptive Decomposition and KAN-Based Fusion for Long-term Time Series Forecasting": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7206181224",
-    "author": "Siyu Yi and Wei Zhang and Zhengyang Mao and Yongdao Zhou and Ziyue Qiao and Li Shen and Dacheng Tao and Jiancheng Lv and Wei Ju",
+    "key": "https://openalex.org/W7213412244",
+    "author": "Yiguo Zhu and Xinyang Yuan and Cong Han and Peng Cheng",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
-    "title": "Evidence-guided Learning against Noisy and Sparse Labels on Graphs",
+    "title": "ADKF: Adaptive Decomposition and KAN-Based Fusion for Long-term Time Series Forecasting",
     "year": "2026",
     "abstract": "",
-    "keywords": "Computer science, Artificial intelligence, Pattern recognition (psychology), Machine learning, Noise (video), Mathematics, Noisy data, Graph, Algorithm, Deep learning",
-    "url": "https://doi.org/10.1016/j.artint.2026.104608",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104608",
+    "keywords": "Series (stratigraphy), Fusion, Decomposition, Computer science, Artificial intelligence, Time series, Algorithm, Sensor fusion, Pattern recognition (psychology), Decomposition method (queueing theory), Data mining, Machine learning, Mathematics, Mathematical optimization, Basis (linear algebra)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104624",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104624",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7206181224"
+    "openalex_id": "https://openalex.org/W7213412244"
+  },
+  "SiameseNet+: Classification of HDLSS Data with Tensor Affinities": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213514041",
+    "author": "Hongmin Cai and Yu Wang and Fei Qi and Junyu Li and Zhuoyao Wang and Yuhua Qian and Yiu‐ming Cheung",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "SiameseNet+: Classification of HDLSS Data with Tensor Affinities",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Affinities, Mathematics, Tensor (intrinsic definition), Artificial intelligence, Pure mathematics, Computer science, Algorithm, Tensor product, Pattern recognition (psychology), Combinatorics, Stability (learning theory), Algebra over a field",
+    "url": "https://doi.org/10.1016/j.artint.2026.104623",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104623",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7213514041"
   },
   "Editorial Board": {
     "type": "PARATEXT",
@@ -1068,22 +1116,6 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7124465673"
   },
-  "Multi-scale signal modulation for variational graph autoencoders": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7124258385",
-    "author": "Junwei Cheng and Chaobo He and Pengxing Feng and Weixiong Liu and Ke Liang",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "Multi-scale signal modulation for variational graph autoencoders",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Algorithm, Autoencoder, Computer science, Spectral graph theory, Wavelet, Graph, Gaussian, Inference, Posterior probability, Pattern recognition (psychology), Factor graph, Approximate inference, Convolution (computer science), Artificial intelligence, Mathematics, Graphical model, Probabilistic logic, Node (physics), Spectral clustering, SIGNAL (programming language), Spectral power distribution, Chebyshev polynomials, Adjacency matrix, Convolutional neural network, Computational complexity theory, Filter (signal processing), Modulation (music), Variance (accounting), Representation (politics), Graph theory, Signal processing, Discrete-time signal, Spectral method, Additive white Gaussian noise, Chebyshev filter, Theoretical computer science, Spectral density estimation",
-    "url": "https://doi.org/10.1016/j.artint.2026.104488",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104488",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7124258385"
-  },
   "Settling the score: Portioning with cardinal preferences": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4385437671",
@@ -1100,6 +1132,22 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W4385437671",
     "arxiv_id": "2307.15586"
+  },
+  "Multi-scale signal modulation for variational graph autoencoders": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7124258385",
+    "author": "Junwei Cheng and Chaobo He and Pengxing Feng and Weixiong Liu and Ke Liang",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Multi-scale signal modulation for variational graph autoencoders",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Algorithm, Autoencoder, Computer science, Spectral graph theory, Wavelet, Graph, Gaussian, Inference, Posterior probability, Pattern recognition (psychology), Factor graph, Approximate inference, Convolution (computer science), Artificial intelligence, Mathematics, Graphical model, Probabilistic logic, Node (physics), Spectral clustering, SIGNAL (programming language), Spectral power distribution, Chebyshev polynomials, Adjacency matrix, Convolutional neural network, Computational complexity theory, Filter (signal processing), Modulation (music), Variance (accounting), Representation (politics), Graph theory, Signal processing, Discrete-time signal, Spectral method, Additive white Gaussian noise, Chebyshev filter, Theoretical computer science, Spectral density estimation",
+    "url": "https://doi.org/10.1016/j.artint.2026.104488",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104488",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7124258385"
   },
   "SHACL validation in the presence of ontologies: Semantics and rewriting techniques": {
     "type": "ARTICLE",

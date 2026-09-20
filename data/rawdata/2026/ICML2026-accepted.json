@@ -5627,20 +5627,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Taming the Loss Landscape of PINNs with Noisy Feynman–Kac Supervision: Operator Preconditioning and Non-Asymptotic Error Bounds": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-taming-the-loss-landscape-of-pinns-with-noisy-feynman-kac-supervision-operator-p",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Taming the Loss Landscape of PINNs with Noisy Feynman–Kac Supervision: Operator Preconditioning and Non-Asymptotic Error Bounds",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60596",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Refined Analysis of Entropy-Regularized Actor-Critic": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-refined-analysis-of-entropy-regularized-actor-critic",
@@ -15679,6 +15665,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Single-Head Attention in High Dimensions: A Theory of Generalization, Weights Spectra, and Scaling Laws": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-single-head-attention-in-high-dimensions-a-theory-of-generalization-weights-spec",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Single-Head Attention in High Dimensions: A Theory of Generalization, Weights Spectra, and Scaling Laws",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66429",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Robust Inter-Series Dependency Modeling for Time Series Forecasting via Information-Theoretic Alignment": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-robust-inter-series-dependency-modeling-for-time-series-forecasting-via-informat",
@@ -15717,6 +15717,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63283",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "A Solvable High-Dimensional Model Where Nonlinear Autoencoders Learn Structure Invisible to PCA While Test Loss Misaligns With Generalization": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-a-solvable-high-dimensional-model-where-nonlinear-autoencoders-learn-structure-i",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "A Solvable High-Dimensional Model Where Nonlinear Autoencoders Learn Structure Invisible to PCA While Test Loss Misaligns With Generalization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60782",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Taming the Loss Landscape of PINNs with Noisy Feynman–Kac Supervision: Operator Preconditioning and Non-Asymptotic Error Bounds": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-taming-the-loss-landscape-of-pinns-with-noisy-feynman-kac-supervision-operator-p",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Taming the Loss Landscape of PINNs with Noisy Feynman–Kac Supervision: Operator Preconditioning and Non-Asymptotic Error Bounds",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60596",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -42583,20 +42611,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/64598",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "A Solvable High-Dimensional Model Where Nonlinear Autoencoders Learn Structure Invisible to PCA While Test Loss Misaligns With Generalization": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-a-solvable-high-dimensional-model-where-nonlinear-autoencoders-learn-structure-i",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "A Solvable High-Dimensional Model Where Nonlinear Autoencoders Learn Structure Invisible to PCA While Test Loss Misaligns With Generalization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60782",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -77667,20 +77681,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65164",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Single-Head Attention in High Dimensions: A Theory of Generalization, Weights Spectra, and Scaling Laws": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-single-head-attention-in-high-dimensions-a-theory-of-generalization-weights-spec",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Single-Head Attention in High Dimensions: A Theory of Generalization, Weights Spectra, and Scaling Laws",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66429",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

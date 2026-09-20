@@ -1,4 +1,20 @@
 {
+  "VLDB S.I.: harnessing the power of foundation models for data management": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213441194",
+    "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Groth and Yannis Velegrakis",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "VLDB S.I.: harnessing the power of foundation models for data management",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Very large database, Foundation (evidence), Computer science, Power (physics), Data management, Engineering, Field (mathematics), Management science, Systems engineering, Data mining, Risk analysis (engineering), Key (lock), Data science",
+    "url": "https://doi.org/10.1007/s00778-026-01009-y",
+    "doi": "https://doi.org/10.1007/s00778-026-01009-y",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7213441194"
+  },
   "Duster: a deduplication framework for efficient point cloud storage and retrieval": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7212376773",

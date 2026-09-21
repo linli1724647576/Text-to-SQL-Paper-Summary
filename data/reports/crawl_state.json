@@ -16,7 +16,7 @@
     },
     "dblp-conference:AAAI:2020": {
       "error": "https://dblp.org/db/conf/aaai/aaai2020.xml: not well-formed (invalid token): line 1, column 8",
-      "last_attempt_at": "2026-09-14T20:45:56Z",
+      "last_attempt_at": "2026-09-21T20:51:09Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2020/AAAI2020.json",
       "record_count": 1864,
@@ -996,7 +996,7 @@
     },
     "dblp-conference:NEURIPS:2020": {
       "error": "https://dblp.org/db/conf/nips/nips2020.xml: not well-formed (invalid token): line 1, column 8",
-      "last_attempt_at": "2026-09-14T20:45:57Z",
+      "last_attempt_at": "2026-09-21T20:51:12Z",
       "last_success_at": "",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020.json",
       "record_count": 1898,
@@ -2046,8 +2046,8 @@
     },
     "official-accepted:ICML:2020": {
       "error": "",
-      "last_attempt_at": "2026-09-14T20:45:57Z",
-      "last_success_at": "2026-09-14T20:45:57Z",
+      "last_attempt_at": "2026-09-21T20:51:12Z",
+      "last_success_at": "2026-09-21T20:51:12Z",
       "rawdata_path": "data/rawdata/2020/ICML2020-accepted.json",
       "record_count": 1084,
       "sha256": "244ea4c141bdd48f98bfe86004b7256a43ab963b4bf43ac81e2a6ea9f9f1dd2d",
@@ -2326,8 +2326,8 @@
     },
     "official-accepted:NEURIPS:2020": {
       "error": "",
-      "last_attempt_at": "2026-09-14T20:46:02Z",
-      "last_success_at": "2026-09-14T20:46:02Z",
+      "last_attempt_at": "2026-09-21T20:51:16Z",
+      "last_success_at": "2026-09-21T20:51:16Z",
       "rawdata_path": "data/rawdata/2020/NeurIPS2020-accepted.json",
       "record_count": 1874,
       "sha256": "958f923a2bd383f1e7884ba04c55d7c1d09ab57d76c3c28b9f0df197dc693896",
@@ -3192,7 +3192,7 @@
   },
   "version": 1,
   "year_rotation": {
-    "cursor": 0,
+    "cursor": 1,
     "history": [
       {
         "cursor": 1,
@@ -7302,9 +7302,62 @@
           "TOSEM"
         ],
         "year": 2026
+      },
+      {
+        "cursor": 1,
+        "failed": [
+          "AAAI",
+          "NeurIPS"
+        ],
+        "finalized_at": "2026-09-21T20:52:13Z",
+        "succeeded": [
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "venues": [
+          "AAAI",
+          "NeurIPS",
+          "ACL",
+          "CVPR",
+          "ICML",
+          "IJCAI",
+          "SIGMOD",
+          "VLDB",
+          "ICDE",
+          "KDD",
+          "WWW",
+          "SIGIR",
+          "ICSE",
+          "FSE",
+          "ASE",
+          "ISSTA",
+          "AIJ",
+          "TKDE",
+          "VLDBJ",
+          "TSE",
+          "TOSEM"
+        ],
+        "year": 2020
       }
     ],
-    "last_completed_at": "2026-09-20T19:20:09Z",
+    "last_completed_at": "2026-09-21T20:52:13Z",
     "last_selected": [
       "AAAI",
       "NeurIPS",
@@ -7328,6 +7381,6 @@
       "TSE",
       "TOSEM"
     ],
-    "last_selected_year": 2026
+    "last_selected_year": 2020
   }
 }

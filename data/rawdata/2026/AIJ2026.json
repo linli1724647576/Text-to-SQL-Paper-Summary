@@ -1,4 +1,36 @@
 {
+  "SiameseNet+: Classification of HDLSS data with tensor affinities": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213514041",
+    "author": "Hongmin Cai and Yu Wang and Fei Qi and Junyu Li and Zhuoyao Wang and Yuhua Qian and Yiu‐ming Cheung",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "SiameseNet+: Classification of HDLSS data with tensor affinities",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Affinities, Mathematics, Tensor (intrinsic definition), Artificial intelligence, Pure mathematics, Computer science, Algorithm, Tensor product, Pattern recognition (psychology), Combinatorics, Stability (learning theory), Algebra over a field",
+    "url": "https://doi.org/10.1016/j.artint.2026.104623",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104623",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7213514041"
+  },
+  "ADKF: Adaptive decomposition and KAN-based fusion for long-term time series forecasting": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213412244",
+    "author": "Yiguo Zhu and Xinyang Yuan and Cong Han and Peng Cheng",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "ADKF: Adaptive decomposition and KAN-based fusion for long-term time series forecasting",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Series (stratigraphy), Fusion, Decomposition, Computer science, Artificial intelligence, Time series, Algorithm, Sensor fusion, Pattern recognition (psychology), Decomposition method (queueing theory), Data mining, Machine learning, Mathematics, Mathematical optimization, Basis (linear algebra)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104624",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104624",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7213412244"
+  },
   "Automatic prompt debiasing via contrastive reflection for fairness enhancement in large language models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213432600",
@@ -31,6 +63,23 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W4416410188",
     "arxiv_id": "2507.19372"
+  },
+  "Theory of mind in action: The instruction inference task in dynamic human-agent collaboration": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4415343515",
+    "author": "Fardin Saad and Pradeep Kumar Murukannaiah and Munindar P. Singh",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Theory of mind in action: The instruction inference task in dynamic human-agent collaboration",
+    "year": "2026",
+    "abstract": "Successful human-agent teaming relies on an agent being able to understand instructions given by a (human) principal . In many cases, an instruction may be incomplete or ambiguous. In such cases, the agent must infer the unspoken intentions from their shared context, that is, it must exercise the principal’s Theory of Mind (ToM) and infer the mental states of its principal. We consider the prospects of effective human-agent collaboration using large language models (LLMs). To assess ToM in a dynamic, goal-oriented, and collaborative environment, we introduce a novel task, Instruction Inference , in which an agent assists a principal in reaching a goal by interpreting incomplete or ambiguous instructions. We present Tomcat , an LLM-based agent, designed to exhibit ToM reasoning in interpreting and responding to the principal’s instructions. We implemented two variants of Tomcat. One, dubbed Fs-CoT (Fs for few-shot, CoT for chain-of-thought), is based on a small number of examples demonstrating the requisite structured reasoning. One, dubbed CP (commonsense prompt), relies on commonsense knowledge and information about the problem. We realized both variants of Tomcat on three leading LLMs, namely, GPT-4o, DeepSeek-R1, and Gemma-3-27B. To evaluate the effectiveness of Tomcat, we conducted a study with 52 human participants in which we provided participants with the same information as the CP variant. We computed intent accuracy, action optimality, and planning optimality to measure the ToM capabilities of Tomcat and our study participants. We found that Tomcat with Fs-CoT, particularly with GPT-4o and DeepSeek-R1, achieves performance comparable to the human participants, underscoring its ToM potential for human-agent collaboration.",
+    "keywords": "Theory of mind, Commonsense reasoning, Task (project management), Inference, Computer science, Action (physics), Artificial intelligence, Commonsense knowledge, Principal (computer security), Natural language processing, Cognitive science, Measure (data warehouse), Mental model, Language understanding, Psychology, Cognitive psychology, Language model, Feature (linguistics), Task analysis, Interpretation (philosophy)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104621",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104621",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4415343515",
+    "arxiv_id": "2507.02935"
   },
   "Similarity of planning domain models via answer set programming": {
     "type": "ARTICLE",
@@ -67,7 +116,7 @@
   "Shapley Value Computation in Ontology-Mediated Query Answering": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4401202435",
-    "author": "Meghyn Bienvenu and Diego Figueira and Pierre Lafourcade",
+    "author": "Meghyn Bienvenu and Diego Figueira and Pierre M. Lafourcade",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Shapley Value Computation in Ontology-Mediated Query Answering",
@@ -81,22 +130,22 @@
     "openalex_id": "https://openalex.org/W4401202435",
     "arxiv_id": "2407.20058"
   },
-  "Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration": {
+  "Persuading Stable Matching": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W4415343515",
-    "author": "Fardin Saad and Pradeep K. Murukannaiah and Munindar P. Singh",
+    "key": "https://openalex.org/W7104693445",
+    "author": "Jonathan Shaki and Jiarui Gan and Sarit Kraus",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
-    "title": "Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration",
+    "title": "Persuading Stable Matching",
     "year": "2026",
-    "abstract": "Successful human-agent teaming relies on an agent being able to understand instructions given by a (human) principal . In many cases, an instruction may be incomplete or ambiguous. In such cases, the agent must infer the unspoken intentions from their shared context, that is, it must exercise the principal’s Theory of Mind (ToM) and infer the mental states of its principal. We consider the prospects of effective human-agent collaboration using large language models (LLMs). To assess ToM in a dynamic, goal-oriented, and collaborative environment, we introduce a novel task, Instruction Inference , in which an agent assists a principal in reaching a goal by interpreting incomplete or ambiguous instructions. We present Tomcat , an LLM-based agent, designed to exhibit ToM reasoning in interpreting and responding to the principal’s instructions. We implemented two variants of Tomcat. One, dubbed Fs-CoT (Fs for few-shot, CoT for chain-of-thought), is based on a small number of examples demonstrating the requisite structured reasoning. One, dubbed CP (commonsense prompt), relies on commonsense knowledge and information about the problem. We realized both variants of Tomcat on three leading LLMs, namely, GPT-4o, DeepSeek-R1, and Gemma-3-27B. To evaluate the effectiveness of Tomcat, we conducted a study with 52 human participants in which we provided participants with the same information as the CP variant. We computed intent accuracy, action optimality, and planning optimality to measure the ToM capabilities of Tomcat and our study participants. We found that Tomcat with Fs-CoT, particularly with GPT-4o and DeepSeek-R1, achieves performance comparable to the human participants, underscoring its ToM potential for human-agent collaboration.",
-    "keywords": "Theory of mind, Commonsense reasoning, Task (project management), Inference, Computer science, Action (physics), Artificial intelligence, Commonsense knowledge, Principal (computer security), Natural language processing, Cognitive science, Measure (data warehouse), Mental model, Language understanding, Psychology, Cognitive psychology, Language model, Feature (linguistics), Task analysis, Interpretation (philosophy)",
-    "url": "https://doi.org/10.1016/j.artint.2026.104621",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104621",
+    "abstract": "In bipartite matching problems, agents on two sides of a graph want to be paired according to their preferences. The stability of a matching depends on these preferences, which in uncertain environments also reflect agents' beliefs about the underlying state of the world. We investigate how a principal -- who observes the true state of the world -- can strategically shape these beliefs through Bayesian persuasion to induce stable matching that maximizes a desired utility. Due to the general intractability of the underlying matching optimization problem as well as the multi-receiver persuasion problem, our main considerations are two important special cases: (1) when agents can be categorized into a small number of types based on their value functions, and (2) when the number of possible world states is small. For each case, we study both public and private signaling settings. Our results draw a complete complexity landscape: we show that private persuasion remains intractable even when the number of worlds is small, while all other settings admit polynomial-time algorithms. We present efficient algorithms for each tractable case and prove NP-hardness for the intractable ones. These results illuminate the algorithmic frontier of stable matching under information design and clarify when optimal persuasion is computationally feasible.",
+    "keywords": "Persuasion, Matching (statistics), Bipartite graph, Bayesian probability, Computer science, Stability (learning theory), Theoretical computer science, Mathematics, Artificial intelligence, Graph, State (computer science), Principal (computer security), Blossom algorithm, Vertex (graph theory), Algorithm, 3-dimensional matching, Probabilistic logic, Time complexity, Mathematical optimization, Computational complexity theory, Bayes' theorem, Approximation algorithm, Private information retrieval, Value (mathematics)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104629",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104629",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W4415343515",
-    "arxiv_id": "2507.02935"
+    "openalex_id": "https://openalex.org/W7104693445",
+    "arxiv_id": "2511.04846"
   },
   "Towards efficient federated recommendation with discrete graph convolutional network": {
     "type": "ARTICLE",
@@ -114,37 +163,21 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7204961218"
   },
-  "ADKF: Adaptive Decomposition and KAN-Based Fusion for Long-term Time Series Forecasting": {
+  "Multi-Subspace Meta-Learning": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7213412244",
-    "author": "Yiguo Zhu and Xinyang Yuan and Cong Han and Peng Cheng",
+    "key": "https://openalex.org/W7214342846",
+    "author": "Weisen Jiang and Yu Zhang and James Tin Yau Kwok",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
-    "title": "ADKF: Adaptive Decomposition and KAN-Based Fusion for Long-term Time Series Forecasting",
+    "title": "Multi-Subspace Meta-Learning",
     "year": "2026",
     "abstract": "",
-    "keywords": "Series (stratigraphy), Fusion, Decomposition, Computer science, Artificial intelligence, Time series, Algorithm, Sensor fusion, Pattern recognition (psychology), Decomposition method (queueing theory), Data mining, Machine learning, Mathematics, Mathematical optimization, Basis (linear algebra)",
-    "url": "https://doi.org/10.1016/j.artint.2026.104624",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104624",
+    "keywords": "Subspace topology, Generalization, Benchmark (surveying), Task (project management), Computer science, Artificial intelligence, Machine learning, Process (computing), Task analysis, Training set, Basis (linear algebra), Pattern recognition (psychology), Data modeling, Regression, Upper and lower bounds",
+    "url": "https://doi.org/10.1016/j.artint.2026.104626",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104626",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7213412244"
-  },
-  "SiameseNet+: Classification of HDLSS Data with Tensor Affinities": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7213514041",
-    "author": "Hongmin Cai and Yu Wang and Fei Qi and Junyu Li and Zhuoyao Wang and Yuhua Qian and Yiu‐ming Cheung",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "SiameseNet+: Classification of HDLSS Data with Tensor Affinities",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Affinities, Mathematics, Tensor (intrinsic definition), Artificial intelligence, Pure mathematics, Computer science, Algorithm, Tensor product, Pattern recognition (psychology), Combinatorics, Stability (learning theory), Algebra over a field",
-    "url": "https://doi.org/10.1016/j.artint.2026.104623",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104623",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7213514041"
+    "openalex_id": "https://openalex.org/W7214342846"
   },
   "Editorial Board": {
     "type": "PARATEXT",
@@ -294,7 +327,7 @@
   "Causal explanations of safety property violations in discrete event systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7168172376",
-    "author": "Gregor Gössler and Thomas Mari and Yannick Pencolé and Louise Travé-Massuyès",
+    "author": "Gregor Gößler and Thomas Mari and Yannick Pencolé and Louise Travé-Massuyès",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Causal explanations of safety property violations in discrete event systems",
@@ -310,7 +343,7 @@
   "AI Harmonics: A human-centric and harms severity-adaptive AI risk assessment framework": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4414594716",
-    "author": "Sofia Vei and Paolo Giudici and Pavlos Sermpezis and Athena Vakali and Adelaide Emma Bernardelli",
+    "author": "Sofia Vei and Paolo Giudici and Pavlos Sermpezis and Athena I. Vakali and Adelaide Emma Bernardelli",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "AI Harmonics: A human-centric and harms severity-adaptive AI risk assessment framework",
@@ -327,7 +360,7 @@
   "Self-expression property theory guided multi-modal brain graph learning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164877689",
-    "author": "Xuexiong Luo and Jia Wu and Sheng Zhang and Jian Yang and Amin Beheshti and Bo Du and Shan Xue and Quan Z. Sheng",
+    "author": "Xuexiong Luo and Jia Wu and Sheng Zhang and Jian Yu Yang and Amin Beheshti and Bo Du and Shan Xue and Quan Z. Sheng",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Self-expression property theory guided multi-modal brain graph learning",
@@ -391,7 +424,7 @@
   "Planning with uncertainty: symmetries, policy inference, and solution compression": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4393399092",
-    "author": "Frederico Messa and André G. Pereira",
+    "author": "Frederico Messa and André Grahl Pereira",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Planning with uncertainty: symmetries, policy inference, and solution compression",
@@ -474,7 +507,7 @@
   "ATWGNNS: Graph simplified representation and learning of logical formula for premise selection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7161822674",
-    "author": "Xingxing He and Zhongxu Zhao and Yongqi Lan and Yingfang Li and Li Zou and Luis Martı́nez and Tianrui Li",
+    "author": "Xingxing He and Zhongxu Zhao and Yongqi Lan and Yingfang Li and Li Zou and Luis M. Martínez and Tianrui Li",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "ATWGNNS: Graph simplified representation and learning of logical formula for premise selection",
@@ -588,7 +621,7 @@
   "Approximate multi-objective search": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7155625204",
-    "author": "Han Zhang and Oren Salzman and T. K Satish Kumar and Ariel Felner and Carlos Hernández Ulloa and Sven Koenig",
+    "author": "Han Zhang and Oren Salzman and T. K. Satish Kumar and Ariel Felner and Carlos Hernández Ulloa and Sven Koenig",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Approximate multi-objective search",
@@ -620,7 +653,7 @@
   "From monotonic graph neural networks to datalog and back: Expressive power and practical applications": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7155558803",
-    "author": "David Tena Cucala and Bernardo Cuenca Grau and Boris Motik and Egor V. Kostylev",
+    "author": "David J. Tena Cucala and Bernardo Cuenca Grau and Boris Motik and Egor V. Kostylev",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "From monotonic graph neural networks to datalog and back: Expressive power and practical applications",
@@ -669,7 +702,7 @@
   "Decision-theoretic planning and cognitive modeling for active cyber deception": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7153550904",
-    "author": "Aditya Shinde and Prashant Doshi",
+    "author": "Aditya Vijay Shinde and Prashant Doshi",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Decision-theoretic planning and cognitive modeling for active cyber deception",
@@ -814,7 +847,7 @@
   "Interactive graph convolutional filtering": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140173978",
-    "author": "Jin Zhang and Defu Lian and Hong Xie and Yawen Li and Enhong Chen",
+    "author": "Jin Zhang and Defu Lian and Hong Ling Xie and Yawen Li and Enhong Chen",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Interactive graph convolutional filtering",
@@ -830,7 +863,7 @@
   "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140216098",
-    "author": "Luwei Sun and Shen Dongrui and Feng Han",
+    "author": "Luwei Sun and Dongrui Shen and Feng Han",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation",
@@ -1007,7 +1040,7 @@
   "Global and local context in short text neural topic model": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7130595729",
-    "author": "Tung Nguyen and Linh Ngo Van and Anh Nguyen Duc and Sang Dinh Viet",
+    "author": "Tung Nguyen and Linh Ngo Van and Anh Nguyen‐Duc and Sang Dinh Viet",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Global and local context in short text neural topic model",
@@ -1136,7 +1169,7 @@
   "Multi-scale signal modulation for variational graph autoencoders": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124258385",
-    "author": "Junwei Cheng and Chaobo He and Pengxing Feng and Weixiong Liu and Ke Liang",
+    "author": "Junwei Cheng and Chaobo He and Pengxing Feng and Weixiong LIU and Ke Liang",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Multi-scale signal modulation for variational graph autoencoders",

@@ -1,4 +1,20 @@
 {
+  "TFB-2: benchmarking and automated ensemble for time series forecasting": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214111211",
+    "author": "Zhengyu Li and Xingjian Wu and Xiangfei Qiu and Jilin Hu and Lekui Zhou and Chenjuan Guo and Aoying Zhou and Christian S. Jensen and Zhenli Sheng and Bin Yang",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "TFB-2: benchmarking and automated ensemble for time series forecasting",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Benchmarking, Computer science, Exploit, Flexibility (engineering), Identification (biology), Machine learning, Time series, Data mining, Probabilistic forecasting, Ensemble forecasting, Artificial intelligence, Set (abstract data type), Pipeline (software), Ensemble learning, Series (stratigraphy), Measure (data warehouse), Statistical model, Technology forecasting, Probabilistic logic, Operations research",
+    "url": "https://doi.org/10.1007/s00778-026-01007-0",
+    "doi": "https://doi.org/10.1007/s00778-026-01007-0",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7214111211"
+  },
   "VLDB S.I.: harnessing the power of foundation models for data management": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213441194",
@@ -50,7 +66,7 @@
   "Efficient distinctiveness maximization in datasets assemblage: from homogeneous to heterogeneous datasets": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204992475",
-    "author": "Tingting Wang and Shixun Huang and Zhifeng Bao and J. Shane Culpepper and Volkan Dedeoglu and Reza Arablouei and Shazia Sadiq and A. K. Qin",
+    "author": "Tingting Wang and Shixun Huang and Zhifeng Bao and J. Shane Culpepper and Volkan Dedeoglu and Reza Arablouei and Shazia Wasim Sadiq and A. K. Qin",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Efficient distinctiveness maximization in datasets assemblage: from homogeneous to heterogeneous datasets",
@@ -148,7 +164,7 @@
   "PrivMDC: leveraging multi-dimensional correlations to answer differentially private range queries": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7201996775",
-    "author": "José Silveira Filho and Felipe T. Brito and Victor A. E. Farias and Cheryl Flynn and Javam C. Machado and Divesh Srivastava",
+    "author": "José Silveira Filho and Felipe T. Brito and Victor A. E. Farias and Cheryl J. Flynn and Javam C. Machado and Divesh Srivastava",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "PrivMDC: leveraging multi-dimensional correlations to answer differentially private range queries",
@@ -164,7 +180,7 @@
   "Efficient prompt learning for traffic forecasting": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7172498154",
-    "author": "Qianru Zhang and Xinyi Gao and Alexander Zhou and Reynold Cheng and Siu-Ming Yiu and Hongzhi Yin",
+    "author": "Qianru Zhang and Xinyi Gao and Alexander Zhou and Reynold Cheng and Siu Ming Yiu and Hongzhi Yin",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Efficient prompt learning for traffic forecasting",
@@ -228,7 +244,7 @@
   "Towards GPU memory-aware efficient contrastive shapelet learning for unsupervised representation learning in multivariate time series": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7169887558",
-    "author": "Zhiyu Liang and Xiongfei Li and Chen Liang and Yu Hu and Yuanzhang Zhao and Zheng Liang and Jie Zhang and Hongzhi Wang and Lujia Pan",
+    "author": "Zhiyu Liang and Xiongfei Li and Chen Liang and Yu Hu and Yuanzhang Zhao and Zheng Liang and Jianfeng Zhang and Hongzhi Wang and Lujia Pan",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Towards GPU memory-aware efficient contrastive shapelet learning for unsupervised representation learning in multivariate time series",
@@ -324,7 +340,7 @@
   "On querying minimum spanning tree in temporal graphs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7166817109",
-    "author": "Yuanhang Yu and Wen Dong and Lu Qin and Dawei Cheng and Ying Zhang and Wenjie Zhang and Xuemin Lin",
+    "author": "Yuanhang Yu and Dong Wen and Lu Qin and Dawei Cheng and Ying Zhang and Wenjie Zhang and Xuemin Lin",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "On querying minimum spanning tree in temporal graphs",
@@ -404,7 +420,7 @@
   "Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164001305",
-    "author": "Luyu Qiu and Yuming Xu and Hui Li and Chen Zhang and Alexander Zhou and Peng Cheng and L Chen and Qing Li",
+    "author": "Luyu Qiu and Yuming Xu and Haoyang Li and Chen Zhang and Alexander Zhou and Peng Cheng and L Chen and Qing Li",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees",
@@ -485,7 +501,7 @@
   "Efficiently querying connected components in large temporal graphs via scalable and maintainable indices": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160644264",
-    "author": "Yuyang Xia and Haoxuan Xie and Yixiang Fang and Wensheng Luo and Chenhao Ma and Wen Dong",
+    "author": "Yuyang Xia and Haoxuan Xie and Yixiang Fang and Wensheng Luo and Chenhao Ma and Dong Wen",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Efficiently querying connected components in large temporal graphs via scalable and maintainable indices",
@@ -501,7 +517,7 @@
   "BQSched$$^{+}$$: A generalizable RL-based scheduler for varying batch concurrent queries": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160143989",
-    "author": "Chenhao Xu and Chunyu Chen and Jinglin Peng and Jiannan Wang and Gao Jun",
+    "author": "Chenhao Xu and Chunyu Chen and Jinglin Peng and Jiannan Wang and Jun Gao",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "BQSched$$^{+}$$: A generalizable RL-based scheduler for varying batch concurrent queries",
@@ -533,7 +549,7 @@
   "Programmable Dataflows: Abstraction and Programming Model for Data Sharing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7148694636",
-    "author": "Siyuan Xia and Chris Zhu and Tapan Srivastava and Bridget Fahey and Raul Castro Fernandez",
+    "author": "Siyuan Xia and Chris Zhen Gan Zhu and Tapan Srivastava and Bridget Fahey and Raul Castro Fernandez",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Programmable Dataflows: Abstraction and Programming Model for Data Sharing",
@@ -581,7 +597,7 @@
   "DIST: Efficient k-Clique Listing via Induced Subgraph Trie": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7139026079",
-    "author": "Yehyun Nam and Jihoon Jang and Kunsoo Park and Jie Yang and Chong Long",
+    "author": "Yehyun Nam and Jihoon Jang and Kunsoo Park and Jie Yang and Cheng Long",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "DIST: Efficient k-Clique Listing via Induced Subgraph Trie",
@@ -709,7 +725,7 @@
   "Missing Value Imputation in Tabular Data Lakes Unleashed: A Hybrid Approach": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124675575",
-    "author": "Feng Luo and Hai Lan and Hui Luo and Zhifeng Bao and J. Shane Culpepper and Shazia Sadiq and Xiaoli Wang",
+    "author": "Feng Luo and Hai Lan and Hui Luo and Zhifeng Bao and J. Shane Culpepper and Shazia Wasim Sadiq and Xiaoli Wang",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Missing Value Imputation in Tabular Data Lakes Unleashed: A Hybrid Approach",

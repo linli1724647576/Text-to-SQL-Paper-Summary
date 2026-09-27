@@ -2,7 +2,7 @@
   "CCISolver: End-to-End Detection and Repair of Method-Level Code-Comment Inconsistency": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4414989733",
-    "author": "Renyi Zhong and Yintong Huo and Wenwei Gu and Jinxi Kuang and Zhihan Jiang and Guangba Yu and Yichen Li and David Lo and Michael R. Lyu",
+    "author": "Renyi Zhong and Yintong Huo and Wenwei Gu and Jinxi Kuang and Zhihan Jiang and Guangba Yu and Yichen Li and David Lo and Michael Rung-Tsong Lyu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "CCISolver: End-to-End Detection and Repair of Method-Level Code-Comment Inconsistency",
@@ -35,7 +35,7 @@
   "What Characterizes Pairwise Modular Smells?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164901832",
-    "author": "Chenxing Zhong and Daniel Feitosa and Paris Avgeriou and Huang Huang and Wei Song and Hailong Zhang",
+    "author": "Chenxing Zhong and Daniel Feitosa and Paris Avgeriou and Huang Huang and Wei Song and He Zhang",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "What Characterizes Pairwise Modular Smells?",
@@ -84,7 +84,7 @@
   "LongTest: Test Prioritization for Long Text Files": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164844009",
-    "author": "Xueqi Dang and Yinghua Li and Wendkûuni C. Ouédraogo and Maxime Cordy and Mike Papadakis and Jacques Klein and Tegawendé F. Bissyandé and Yves Le Traon",
+    "author": "Xueqi Dang and Yinghua Li and Wendkûuni C. Ouédraogo and Maxime Cordy and Mike Papadakis and Jacques Klein and Tegawendé François Bissyandé and Yves Le Traon",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "LongTest: Test Prioritization for Long Text Files",
@@ -181,7 +181,7 @@
   "Towards Effective Sampling of SMT Solutions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164168781",
-    "author": "Shuangyu Lyu and Chuan Luo and Ruizhi Shi and Wei Wu and Chanjuan Liu and Chunming Hu",
+    "author": "Shuangyu Lyu and Chuan Wen Luo and Ruizhi Shi and Wei Wu and Chanjuan Liu and Chunming Hu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Towards Effective Sampling of SMT Solutions",
@@ -213,7 +213,7 @@
   "MORTAR: Multi-Turn Metamorphic Testing for LLM-Based Dialogue Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4405714843",
-    "author": "Guoxiang Guo and Aldeida Aleti and Neelofar Neelofar and Chakkrit Tantithamthavorn and Yuanyuan Qi and Tsong Yueh Chen",
+    "author": "Guoxiang Guo and Aldeida Aleti and Neelofar Neelofar and Chakkrit Kla Tantithamthavorn and Yuanyuan Qi and Tsong Yueh Chen",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "MORTAR: Multi-Turn Metamorphic Testing for LLM-Based Dialogue Systems",
@@ -280,7 +280,7 @@
   "RuleDroid: LLM-Augmented Synthesis of Static Security Detection Rules for Android Apps": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163546797",
-    "author": "Zhentao Xie and Mingyang Chen and Gao Y and Shishuai Yang and Wenrui Diao and Xiangyu Liu and Kehuan Zhang",
+    "author": "Zhentao Xie and Mingyang Chen and Yaqi Gao and Shishuai Yang and Wenrui Diao and Xiangyu Liu and Kehuan Zhang",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "RuleDroid: LLM-Augmented Synthesis of Static Security Detection Rules for Android Apps",
@@ -443,7 +443,7 @@
   "EffiReasonTrans: RL-Optimized Reasoning for Code Translation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4416057665",
-    "author": "Yanlin Wang and R. Ou and Yanli Wang and Mingwei Liu and Jiachi Chen and Ensheng Shi and Xilin Liu and Yuchi Ma and Zibin Zheng",
+    "author": "Yanlin Wang and Rongyi Ou and Yanli Wang and Mingwei Liu and Jiachi Chen and Ensheng Shi and Xilin Liu and Yuchi Ma and Zibin Zheng",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "EffiReasonTrans: RL-Optimized Reasoning for Code Translation",
@@ -492,7 +492,7 @@
   "Hetrify+: Improving the Verification Efficiency of RISC-V Heterogeneous Programs via Memory Access Specialization": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160936144",
-    "author": "Yan Li and Jiaxin Liu and Liangze Yin and Wei Dong and Shanshan Li and J Zhang",
+    "author": "Yan Li and Jiaxin Liu and Liangze Yin and Wei Yu Dong and Shanshan Li and Jin Zhang",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Hetrify+: Improving the Verification Efficiency of RISC-V Heterogeneous Programs via Memory Access Specialization",
@@ -524,7 +524,7 @@
   "CCMG: Enhancing Conventional Commit Message Generation With Hierarchical Context": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160954070",
-    "author": "W. Li and Chengwei Liu and Yiran Zhang and Xuesen Lin and Suyuan Wang and Feng Wu and Cai Fu and Yang Liu",
+    "author": "Wenke Li and Chengwei Liu and Yiran Zhang and Xuesen Lin and Suyuan Wang and Feng Wu and Cai Fu and Yang Liu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "CCMG: Enhancing Conventional Commit Message Generation With Hierarchical Context",
@@ -572,7 +572,7 @@
   "CodeMind: Evaluating Large Language Models for Implicit and Explicit Code Execution Reasoning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160542389",
-    "author": "Changshu Liu and Yu Chen and Reyhaneh Jabbarvand",
+    "author": "Changshu Liu and Yang Chen and Reyhaneh Jabbarvand",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "CodeMind: Evaluating Large Language Models for Implicit and Explicit Code Execution Reasoning",
@@ -701,7 +701,7 @@
   "MV-SZZ: An Empirical Study of a Majority Voting-Based SZZ Method": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7158862973",
-    "author": "INASE KONDO and Masanari Kondo and Daniel M. German and Yasutaka Kamei and Yoshiki Higo",
+    "author": "INASE KONDO and Masanari Kondo and Daniel M. Germán and Yasutaka Kamei and Yoshiki Higo",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "MV-SZZ: An Empirical Study of a Majority Voting-Based SZZ Method",
@@ -816,7 +816,7 @@
   "Automated Repair of Alloy Specifications in the Era of Large Language Models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7153065573",
-    "author": "Md Rashedul Hasan and Jiawei Li and Iftekhar Ahmed and Hamid Bagheri",
+    "author": "Md Rashedul Hasan and Jiawei Li and Iftekhar Ahmed and Hamid Reza Bagheri",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Automated Repair of Alloy Specifications in the Era of Large Language Models",
@@ -865,7 +865,7 @@
   "An Empirical Study of Overlooked Code Review Comments in OSS Projects": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7151364416",
-    "author": "YiKe Li and Yong Zhang and Qunhong Zeng and Lin Shi and Xin Tan and Tao Wang and Yanjie Jiang and Huan Liu",
+    "author": "YiKe Li and Yuxia Zhang and Qunhong Zeng and Lin Shi and Xin Tan and Tao Wang and Yanjie Jiang and Hui Liu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "An Empirical Study of Overlooked Code Review Comments in OSS Projects",
@@ -930,7 +930,7 @@
   "A Cross-Language Approach to Recommending Method Names According to Functional Descriptions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7148582433",
-    "author": "Waseem Akram and Yanjie Jiang and Haris Ali Khan and Furqan Jalil and Huan Liu",
+    "author": "Waseem Akram and Yanjie Jiang and Haris Ali Khan and Furqan Jalil and Hui Liu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "A Cross-Language Approach to Recommending Method Names According to Functional Descriptions",
@@ -962,7 +962,7 @@
   "DeepFWI: Identifying Bug-Sensitive Warnings With Multi-Modal Code-Warning Semantics": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4393212942",
-    "author": "Han Liu and Jian Zhang and Cen Zhang and Xiaohan Zhang and Kaixuan Li and Sen Chen and Shang‐Wei Lin and Yixiang Chen and Xinhua Li and Yang Liu",
+    "author": "Han Liu and Jian Zhang and Cen Zhang and Xiaohan Zhang and Kaixuan Li and Sen Chen and Shang‐Wei Lin and Yixiang Chen and Xinghua Li and Yang Liu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "DeepFWI: Identifying Bug-Sensitive Warnings With Multi-Modal Code-Warning Semantics",
@@ -1075,7 +1075,7 @@
   "Iter-T: ITERative Test Suite Generation for Automated Program Repair": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7134888634",
-    "author": "Ariel Godio and Simón Gutiérrez Brida and Germán Regis and Hamid Bagheri and ThanhVu Nguyen and Nazareno Aguirre and Marcelo F. Frias",
+    "author": "Ariel Godio and Simón Gutiérrez Brida and Germán Regis and Hamid Reza Bagheri and ThanhVu H. Nguyen and Nazareno Aguirre and Marcelo Fabian Frias",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Iter-T: ITERative Test Suite Generation for Automated Program Repair",
@@ -1267,7 +1267,7 @@
   "Cost-Effective Adversarial Attacks Against Code LLM With Model Attention": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7129106369",
-    "author": "Weifeng Sun and Naiqi Huang and Meng Yan and Li Huang and Zhongxin Liu and Xiao Liu and David Lo",
+    "author": "Weifeng Sun and Naiqi Huang and Meng Ling Yan and Li Huang and Zhongxin Liu and Xiao Liu and David Lo",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Cost-Effective Adversarial Attacks Against Code LLM With Model Attention",
@@ -1456,22 +1456,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7126171853"
   },
-  "Deobfuscation of Control Flow Flattening Based on Abstract Interpretation": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7126153306",
-    "author": "Soyeon Baek and Sungho Lee",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Deobfuscation of Control Flow Flattening Based on Abstract Interpretation",
-    "year": "2026",
-    "abstract": "Control Flow Flattening (CFF) is one of the control flow obfuscation techniques. It flattens control flows to conceal the sequential flow of programs. Researchers have utilized both static and dynamic approaches to deobfuscate CFF. Static methods primarily rely on symbolic execution, which leverages pattern-based information from CFF to perform effective analysis. However, these patterns can vary depending on the obfuscation tools used, and the deobfuscation techniques may only work for certain obfuscation tools. Dynamic approaches, on the other hand, face limitations as they may not cover all possible execution paths. We propose a static deobfuscation technique that is independent of obfuscation patterns. Our technique adopts abstract interpretation, which is a theoretical static analysis framework covering all execution paths. We define k-switch context sensitivity for the deobfuscation of CFF, which enables path-sensitive analysis to accurately identify the order of each execution path in obfuscated programs. Our approach utilizes the k-switch context sensitive analysis result to divide an obfuscated program into small fragments of sequentially executable blocks and reassemble the blocks to reconstruct the program’s original control flows. We demonstrate that our technique effectively reduces control flow complexity while preserving the semantics of the obfuscated program. Furthermore, by utilizing a binary lifter, we show that our method is also applicable to obfuscated binary code.",
-    "keywords": "Obfuscation, Computer science, Executable, Abstract interpretation, Static analysis, Control flow, Context (archaeology), Symbolic execution, Theoretical computer science, Semantics (computer science), Program analysis, Reverse engineering, Programming language, Flattening, Algorithm, Binary number, Flow (mathematics), Subroutine, Static program analysis, Control (management), Automation, Control flow analysis, Data-flow analysis, Interpretation (philosophy), Hypervisor, Data structure, Smoothing, Control flow graph, Dynamic program analysis, Distributed computing",
-    "url": "https://doi.org/10.1109/tse.2026.3659437",
-    "doi": "https://doi.org/10.1109/tse.2026.3659437",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7126153306"
-  },
   "CosFormer: A Code Semantic-Aware Transformer for Vulnerability Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7126246556",
@@ -1487,6 +1471,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7126246556"
+  },
+  "Deobfuscation of Control Flow Flattening Based on Abstract Interpretation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7126153306",
+    "author": "Soyeon Baek and Sungho Lee",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Deobfuscation of Control Flow Flattening Based on Abstract Interpretation",
+    "year": "2026",
+    "abstract": "Control Flow Flattening (CFF) is one of the control flow obfuscation techniques. It flattens control flows to conceal the sequential flow of programs. Researchers have utilized both static and dynamic approaches to deobfuscate CFF. Static methods primarily rely on symbolic execution, which leverages pattern-based information from CFF to perform effective analysis. However, these patterns can vary depending on the obfuscation tools used, and the deobfuscation techniques may only work for certain obfuscation tools. Dynamic approaches, on the other hand, face limitations as they may not cover all possible execution paths. We propose a static deobfuscation technique that is independent of obfuscation patterns. Our technique adopts abstract interpretation, which is a theoretical static analysis framework covering all execution paths. We define k-switch context sensitivity for the deobfuscation of CFF, which enables path-sensitive analysis to accurately identify the order of each execution path in obfuscated programs. Our approach utilizes the k-switch context sensitive analysis result to divide an obfuscated program into small fragments of sequentially executable blocks and reassemble the blocks to reconstruct the program’s original control flows. We demonstrate that our technique effectively reduces control flow complexity while preserving the semantics of the obfuscated program. Furthermore, by utilizing a binary lifter, we show that our method is also applicable to obfuscated binary code.",
+    "keywords": "Obfuscation, Computer science, Executable, Abstract interpretation, Static analysis, Control flow, Context (archaeology), Symbolic execution, Theoretical computer science, Semantics (computer science), Program analysis, Reverse engineering, Programming language, Flattening, Algorithm, Binary number, Flow (mathematics), Subroutine, Static program analysis, Control (management), Automation, Control flow analysis, Data-flow analysis, Interpretation (philosophy), Hypervisor, Data structure, Smoothing, Control flow graph, Dynamic program analysis, Distributed computing",
+    "url": "https://doi.org/10.1109/tse.2026.3659437",
+    "doi": "https://doi.org/10.1109/tse.2026.3659437",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7126153306"
   },
   "Human Cognitive Pattern Simulation for Crowdsourced Test Report Consistency Detection": {
     "type": "ARTICLE",
@@ -1523,7 +1523,7 @@
   "Agentic Recommender Systems: A Systematic Literature Review": {
     "type": "REVIEW",
     "key": "https://openalex.org/W7125834859",
-    "author": "Ivens da Silva Portugal and Paulo Alencar and Donald Cowan",
+    "author": "Ivens Portugal and Paulo Carvalho de Alencar and D. D. Cowan",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Agentic Recommender Systems: A Systematic Literature Review",
@@ -1732,7 +1732,7 @@
   "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125170620",
-    "author": "Huan Xie and Zhengxiong Deng and Yan Lei and Maojin Li and Meng Yan and David Lo",
+    "author": "Huan Xie and Zhengxiong Deng and Yan Lei and Maojin Li and Meng Ling Yan and David Lo",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs",
@@ -1812,7 +1812,7 @@
   "Steer Your Model: Secure Code Generation With Contrastive Decoding": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118181520",
-    "author": "Li Huang and Meng Yan and Tao Yin and Weifeng Sun and Zhongxin Liu and Hongyu Zhang and David Lo",
+    "author": "Li Huang and Meng Ling Yan and Tao Yin and Weifeng Sun and Zhongxin Liu and Hongyu Zhang and David Lo",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Steer Your Model: Secure Code Generation With Contrastive Decoding",
@@ -1828,7 +1828,7 @@
   "Deep Learning Framework Testing via Model Mutation: How Far Are We?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118193374",
-    "author": "Yanzhou Mu and R J Wang and Juan Zhai and Chunrong Fang and Xiang Chen and Peiran Yang and Zhixiang Cao and Ruixiang Qian and Shaoyu Yang and Zhenyu Chen",
+    "author": "Yanzhou Mu and Rong Wang and Juan Zhai and Chunrong Fang and Xiang Chen and Peiran Yang and Zhixiang Cao and Ruixiang Qian and Shaoyu Yang and Zhenyu Chen",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Deep Learning Framework Testing via Model Mutation: How Far Are We?",
@@ -1939,6 +1939,23 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7106714041",
     "arxiv_id": "2511.18343"
+  },
+  "Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorphic Testing": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7117257013",
+    "author": "Wenzhao Wu and Yahui Tang and Mingfei Cheng and Wenbing Tang and Yuan Zhou and Yang Liu",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorphic Testing",
+    "year": "2026",
+    "abstract": "As embodied agents advance toward real-world deployment, ensuring optimal decisions becomes critical for resource-constrained applications. Current evaluation methods focus primarily on functional correctness, overlooking the non-functional optimality of generated plans. This gap can lead to significant performance degradation and resource waste. We identify and formalize the problem of Non-optimal Decisions (NoDs), where agents complete tasks successfully but inefficiently. We present NoD-DGMT, a systematic framework for detecting NoDs in embodied agent task planning via diversity-guided metamorphic testing. Our key insight is that optimal planners should exhibit invariant behavioral properties under specific transformations. We design four novel metamorphic relations capturing fundamental optimality properties: position detour suboptimality, action optimality completeness, condition refinement monotonicity, and scene perturbation invariance. To maximize detection efficiency, we introduce a diversity-guided selection strategy that actively selects test cases exploring different violation categories, avoiding redundant evaluations while ensuring comprehensive diversity coverage. Extensive experiments on the AI2-THOR simulator with four state-of-the-art planning models demonstrate that NoD-DGMT achieves violation detection rates of 31.9% on average, with our diversity-guided filter improving rates by 4.3% and diversity scores by 3.3 on average. NoD-DGMT significantly outperforms six baseline methods, with 16.8% relative improvement over the best baseline, and demonstrates consistent superiority across different model architectures and task complexities.",
+    "keywords": "Computer science, Embodied cognition, Task (project management), Artificial intelligence, Key (lock), Machine learning, Set (abstract data type), Action selection, Position (finance), Bridging (networking), Filter (signal processing), Focus (optics), Task analysis, Selection (genetic algorithm), Resource allocation, Invariant (physics), Resource (disambiguation), Norm (philosophy), Sequential analysis, Baseline (sea), Limited resources, Action (physics), Distributed computing, Scheme (mathematics), Resource management (computing)",
+    "url": "https://doi.org/10.1109/tse.2026.3736694",
+    "doi": "https://doi.org/10.1109/tse.2026.3736694",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7117257013",
+    "arxiv_id": "2512.20083"
   },
   "A Journal for the Second Quarter of the Century": {
     "type": "ARTICLE",
@@ -2234,7 +2251,7 @@
   "On the Time Efficiency of Code Generated and Optimized by Large Language Models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167228623",
-    "author": "Yun Peng and Jun Wan and Xiaoxue Ren and Tim Menzies and Michael R. Lyu",
+    "author": "Yun Peng and Jun Wan and Xiaoxue Ren and Tim Menzies and Michael Rung-Tsong Lyu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "On the Time Efficiency of Code Generated and Optimized by Large Language Models",
@@ -2346,7 +2363,7 @@
   "Experience-Driven Test Case Generation for Deterministic MPI Programs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167729928",
-    "author": "X L Zhao and Shuo Sun and Gai‐Ge Wang and Dongyue Gao and Dunwei Gong",
+    "author": "Xiaoqi Zhao and Shuo Sun and Gai‐Ge Wang and Dongyue Gao and Dunwei Gong",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Experience-Driven Test Case Generation for Deterministic MPI Programs",
@@ -2426,7 +2443,7 @@
   "TCRCA: Topology-Guided Causal Inference for Root Cause Analysis in Microservices": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7169865453",
-    "author": "J. Li and Shi Ying",
+    "author": "Junjun Li and Shi Ying",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "TCRCA: Topology-Guided Causal Inference for Root Cause Analysis in Microservices",
@@ -2474,7 +2491,7 @@
   "Sweat the Details: Exercise Breaks and AI Assistance in Code Summarization": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7170188933",
-    "author": "Amy Wei and Priscila Santiesteban and Westley Weimer",
+    "author": "Amy Wei and Priscila Santiesteban and Westley R. Weimer",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Sweat the Details: Exercise Breaks and AI Assistance in Code Summarization",
@@ -2586,7 +2603,7 @@
   "IEEF: Enhancing Commit Message Generation by Segmenting Key Information in High-quality Data": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7196948397",
-    "author": "Xiangping Chen and Zhiquan Huang and Yuan Huang and Xiaocong Zhou and Zibin Zheng and Gang Huang",
+    "author": "Xiangping Chen and Zhiquan Huang and Yuan Huang and Xiaocong Zhou and Zibin Zheng and Gang L. Huang",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "IEEF: Enhancing Commit Message Generation by Segmenting Key Information in High-quality Data",
@@ -2822,5 +2839,117 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7211957354"
+  },
+  "Improved V-Method and Its Tool Support for Specification-Based Testing": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213942447",
+    "author": "Shaoying Liu and Yanzhao Xia and Yu Du and Hiroyuki Okamura and Tadashi Dohi",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Improved V-Method and Its Tool Support for Specification-Based Testing",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Software engineering, System testing, Key (lock), Reliability engineering, Software, Systems engineering, Software testing, Real-time testing, Programming language",
+    "url": "https://doi.org/10.1109/tse.2026.3736434",
+    "doi": "https://doi.org/10.1109/tse.2026.3736434",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7213942447"
+  },
+  "LGL-DynT4: A Multi-Modal Benchmark with Aligned Dynamic Traces for Semantic Clone Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214127809",
+    "author": "Guilin Li and Tao Zhou and Huaiyu Bi and Bin Yang and Xuemei Huang and Shenggen Ju",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "LGL-DynT4: A Multi-Modal Benchmark with Aligned Dynamic Traces for Semantic Clone Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Benchmark (surveying), clone (Java method), Artificial intelligence, Data mining, Semantics (computer science), Theoretical computer science, Programming language, Machine learning, Exploit",
+    "url": "https://doi.org/10.1109/tse.2026.3736035",
+    "doi": "https://doi.org/10.1109/tse.2026.3736035",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214127809"
+  },
+  "A Unified Framework for Code Vulnerability Detection via Adaptive Pooling and Symbolic Relational Graph Representation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214158221",
+    "author": "Xiang Li and Jing Zhang",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "A Unified Framework for Code Vulnerability Detection via Adaptive Pooling and Symbolic Relational Graph Representation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Pooling, Theoretical computer science, Representation (politics), Code (set theory), Graph, Relational database, Symbolic data analysis, Source code, Artificial intelligence, Symbolic execution, Data mining, Vulnerability (computing), Code generation, Programming language, Graph theory, Expressive power, Knowledge representation and reasoning, Vulnerability assessment",
+    "url": "https://doi.org/10.1109/tse.2026.3733377",
+    "doi": "https://doi.org/10.1109/tse.2026.3733377",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214158221"
+  },
+  "Meta-Learning for Time Series-based Tasks in Software Engineering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214174852",
+    "author": "Federico Di Menna and Luca Traini and Vittorio Cortellessa",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Meta-Learning for Time Series-based Tasks in Software Engineering",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Software engineering, Software construction, Software development, Social software engineering, Software system, Search-based software engineering, Software, Component-based software engineering, Software Engineering Process Group, Personal software process, Programming language, Software requirements, Software analytics, Software quality, Verification and validation, Systems engineering, Model-driven architecture, Task (project management), Software development process, Software measurement, Software maintenance, Software design, Software sizing, Software verification",
+    "url": "https://doi.org/10.1109/tse.2026.3737670",
+    "doi": "https://doi.org/10.1109/tse.2026.3737670",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214174852"
+  },
+  "Placard: Adaptive Seed Scheduling with Enhanced Static Information": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214179138",
+    "author": "Shaojie Yang and Yongjun Wang and Haoran Xu and Yongxin Chen and Fangliang Xu and Shaojing Fu",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Placard: Adaptive Seed Scheduling with Enhanced Static Information",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Scheduling (production processes), Processor scheduling, Distributed computing, Real-time computing, Dynamic priority scheduling, Static analysis, Algorithm design, Algorithm, Fair-share scheduling, Job shop scheduling, Retard",
+    "url": "https://doi.org/10.1109/tse.2026.3733114",
+    "doi": "https://doi.org/10.1109/tse.2026.3733114",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214179138"
+  },
+  "What Makes Effective Knowledge Distillation for Large Language Models in Code Generation?": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214189617",
+    "author": "Yujia Chen and Jian Dong and Zhongqi Li and Yuchi Ma and Cuiyun Gao",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "What Makes Effective Knowledge Distillation for Large Language Models in Code Generation?",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Programming language, Code (set theory), Code generation, Software engineering, Knowledge-based systems, Artificial intelligence, Theoretical computer science, Language model, Source code, Data modeling, Natural language processing, Modeling language, Key (lock), Natural language, Distillation, Knowledge representation and reasoning, Data mining, Program analysis, Specification language",
+    "url": "https://doi.org/10.1109/tse.2026.3737589",
+    "doi": "https://doi.org/10.1109/tse.2026.3737589",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214189617"
+  },
+  "MALIGN: Method-Level Alignment for Android Malware Detection with Multimodal Hierarchical Fusion": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214209591",
+    "author": "Xun Li and Hongxue Wang and Qiushi Zhang and Shanquan Gao and Yihui Wang and Mengxi Zhang and Dandan Chen",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "MALIGN: Method-Level Alignment for Android Malware Detection with Multimodal Hierarchical Fusion",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Malware, Android (operating system), Android malware, Artificial intelligence, Fusion, Sensor fusion, Data mining, Android application, Operating system, Server, Information fusion",
+    "url": "https://doi.org/10.1109/tse.2026.3729562",
+    "doi": "https://doi.org/10.1109/tse.2026.3729562",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214209591"
   }
 }

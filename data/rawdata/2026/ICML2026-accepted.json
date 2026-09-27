@@ -15959,6 +15959,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Cycle-of-Science: Reliable Reasoning through Counterfactual Verification for Agent Decision Making": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-cycle-of-science-reliable-reasoning-through-counterfactual-verification-for-agen",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Cycle-of-Science: Reliable Reasoning through Counterfactual Verification for Agent Decision Making",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/64408",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Unifying Deep Stochastic Processes for Image Enhancement": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-unifying-deep-stochastic-processes-for-image-enhancement",
@@ -15997,6 +16011,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63324",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Non-Euclidean Gradient Descent Operates at the Edge of Stability": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-non-euclidean-gradient-descent-operates-at-the-edge-of-stability",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Non-Euclidean Gradient Descent Operates at the Edge of Stability",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/61486",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16053,6 +16081,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63328",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-an-exploration-of-non-euclidean-gradient-descent-muon-and-its-many-variants",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/64390",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Weaving in the Clouds: Achieving Synergistic Collaboration among LLM Agents via Federated Learning": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-weaving-in-the-clouds-achieving-synergistic-collaboration-among-llm-agents-via-f",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Weaving in the Clouds: Achieving Synergistic Collaboration among LLM Agents via Federated Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66521",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16141,6 +16197,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Offline Reinforcement Learning of High-Quality Behaviors Under Robust Style Alignment": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-offline-reinforcement-learning-of-high-quality-behaviors-under-robust-style-alig",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Offline Reinforcement Learning of High-Quality Behaviors Under Robust Style Alignment",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62084",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Needles in the Haystack: Addressing Signal Dilution Improves scRNA-seq Perturbation Response Modeling and Evaluation": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-needles-in-the-haystack-addressing-signal-dilution-improves-scrna-seq-perturbati",
@@ -16193,6 +16263,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63342",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Adaptive Quasimetric Mapping : Principled Topological Abstraction for Robust Offline Goal-Conditioned Navigation": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-adaptive-quasimetric-mapping-principled-topological-abstraction-for-robust-offli",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Adaptive Quasimetric Mapping : Principled Topological Abstraction for Robust Offline Goal-Conditioned Navigation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/63675",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16277,6 +16361,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63361",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Fine-Tune Once, Reuse Across Models: Bayesian Task-Update Factors and Approximations": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-fine-tune-once-reuse-across-models-bayesian-task-update-factors-and-approximatio",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Fine-Tune Once, Reuse Across Models: Bayesian Task-Update Factors and Approximations",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62247",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16487,6 +16585,34 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63400",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Position: Breaking the Dual Curse of Multilingual AI Requires Socio-Technical Guardrails, Not Post-Hoc Alignment": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-position-breaking-the-dual-curse-of-multilingual-ai-requires-socio-technical-gua",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Position: Breaking the Dual Curse of Multilingual AI Requires Socio-Technical Guardrails, Not Post-Hoc Alignment",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/67071",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Position: LLM Benchmark Datasets should be Contamination-Resistant": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-position-llm-benchmark-datasets-should-be-contamination-resistant",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Position: LLM Benchmark Datasets should be Contamination-Resistant",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/67191",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -17509,20 +17635,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63653",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Adaptive Quasimetric Mapping : Principled Topological Abstraction for Robust Offline Goal-Conditioned Navigation": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-adaptive-quasimetric-mapping-principled-topological-abstraction-for-robust-offli",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Adaptive Quasimetric Mapping : Principled Topological Abstraction for Robust Offline Goal-Conditioned Navigation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/63675",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -20043,20 +20155,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/64403",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Cycle-of-Science: Reliable Reasoning through Counterfactual Verification for Agent Decision Making": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-cycle-of-science-reliable-reasoning-through-counterfactual-verification-for-agen",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Cycle-of-Science: Reliable Reasoning through Counterfactual Verification for Agent Decision Making",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/64408",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -31947,20 +32045,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Position: Breaking the Dual Curse of Multilingual AI Requires Socio-Technical Guardrails, Not Post-Hoc Alignment": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-position-breaking-the-dual-curse-of-multilingual-ai-requires-socio-technical-gua",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Position: Breaking the Dual Curse of Multilingual AI Requires Socio-Technical Guardrails, Not Post-Hoc Alignment",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/67071",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Position: AI Lock-In Is in Progress, and We Must Be Prepared": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-position-ai-lock-in-is-in-progress-and-we-must-be-prepared",
@@ -38261,20 +38345,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Offline Reinforcement Learning of High-Quality Behaviors Under Robust Style Alignment": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-offline-reinforcement-learning-of-high-quality-behaviors-under-robust-style-alig",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Offline Reinforcement Learning of High-Quality Behaviors Under Robust Style Alignment",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62084",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Flatness-Aware Stochastic Gradient Langevin Dynamics": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-flatness-aware-stochastic-gradient-langevin-dynamics",
@@ -43619,20 +43689,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65816",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Position: LLM Benchmark Datasets should be Contamination-Resistant": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-position-llm-benchmark-datasets-should-be-contamination-resistant",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Position: LLM Benchmark Datasets should be Contamination-Resistant",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/67191",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -58617,20 +58673,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-an-exploration-of-non-euclidean-gradient-descent-muon-and-its-many-variants",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/64390",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Toward Effective Multimodal Graph Foundation Model: A Divide-and-Conquer Based Approach": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-toward-effective-multimodal-graph-foundation-model-a-divide-and-conquer-based-ap",
@@ -61879,20 +61921,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Non-Euclidean Gradient Descent Operates at the Edge of Stability": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-non-euclidean-gradient-descent-operates-at-the-edge-of-stability",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Non-Euclidean Gradient Descent Operates at the Edge of Stability",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/61486",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Goal-Conditioned Agents that Learn Everything All at Once": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-goal-conditioned-agents-that-learn-everything-all-at-once",
@@ -64731,20 +64759,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62238",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Fine-Tune Once, Reuse Across Models: Bayesian Task-Update Factors and Approximations": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-fine-tune-once-reuse-across-models-bayesian-task-update-factors-and-approximatio",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Fine-Tune Once, Reuse Across Models: Bayesian Task-Update Factors and Approximations",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62247",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -87831,20 +87845,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/66516",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Weaving in the Clouds: Achieving Synergistic Collaboration among LLM Agents via Federated Learning": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-weaving-in-the-clouds-achieving-synergistic-collaboration-among-llm-agents-via-f",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Weaving in the Clouds: Achieving Synergistic Collaboration among LLM Agents via Federated Learning",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66521",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

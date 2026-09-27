@@ -1,4 +1,101 @@
 {
+  "Exploring the Potential of Diffusion Large Language Models in Code Generation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4415088061",
+    "author": "Chengze Li and Yitong Zhang and Jia Li and Liyi Cai and Ge Li",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Exploring the Potential of Diffusion Large Language Models in Code Generation",
+    "year": "2026",
+    "abstract": "Large Language Models (LLMs) have revolutionized the landscape of code generation. Existing LLMs mainly employ autoregressive generation, i.e., generating code token-by-token from left to right. However, the underlying autoregressive generation has two limitations in code generation. First, autoregressive LLMs typically generate only one token per step, showing low efficiency in practice. Second, programming is a non-sequential process involving back-and-forth editing, while autoregressive LLMs only employ the left-to-right generation order. These two intrinsic limitations hinder the further development of LLMs in code generation. Recently, diffusion LLMs have emerged as a promising alternative. They provide two characteristics that are particularly relevant to code generation: multi-token prediction ( i.e., generating multiple tokens at each step) and flexible generation order ( i.e., flexibly determining which positions to generate tokens). However, there is no systematic study exploring diffusion LLMs in code generation. To bridge the knowledge gap, we present the first empirical study of diffusion LLMs for code generation. Our study involves 7 representative diffusion LLMs and conducts experiments on a wide range of benchmarks. Based on the results, we summarize the following findings. ❶ Current diffusion LLMs show promising but uneven code generation ability, with open-source diffusion LLMs becoming competitive in several settings and closed-source diffusion LLMs showing stronger results. For example, on MBPP+, the best-performing diffusion LLM achieves a pass@1 score of 79.1%, compared with 73.3% for the best evaluated autoregressive baseline. ❷ Diffusion LLMs exhibit stronger length extrapolation behavior in our long-code-understanding experiments. ❸ We explore factors impacting the effectiveness and efficiency of diffusion LLMs, and provide practical guidance. ❹ We discuss several promising future directions to improve diffusion LLMs on code generation. We open-source all source code, data, and results to facilitate future research.",
+    "keywords": "Code (set theory), Diffusion, Empirical research, Computer science, Mainstream, Econometrics, Diffusion of innovations, Risk management, Economics, Autoregressive model, Process (computing)",
+    "url": "https://doi.org/10.1145/3848514",
+    "doi": "https://doi.org/10.1145/3848514",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4415088061",
+    "arxiv_id": "2509.11252"
+  },
+  "Effective Fuzzing-based Prototype Pollution Detection via Forced Execution and Template Synthesis": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214164810",
+    "author": "Dezhen Kong and Peisen Yao and Jiakun Liu and Lingfeng Bao",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Effective Fuzzing-based Prototype Pollution Detection via Forced Execution and Template Synthesis",
+    "year": "2026",
+    "abstract": "Prototype pollution is a critical class of taint-style vulnerabilities in JavaScript programs, enabling attackers to tamper with object prototypes and thereby alter program behavior in unexpected and often dangerous ways. Despite its severity, existing detection techniques struggle with excessive false positives and poor scalability. In this work, we present Forecast , a lightweight fuzzing-based approach that integrates both forced execution based dynamic analysis and template-based exploit generation to effectively detect prototype pollution vulnerabilities and generate working exploits. Forecast enables better flexibility and scalability and avoids imprecise modeling of JavaScript syntax in static analysis. Our evaluation of curated benchmarks and real-world Node.js packages shows that Forecast identifies more vulnerabilities than prior approaches, including Explode.js , Graph.js , ObjLupAnsys , and ODGen . Specifically, on the benchmark of known vulnerabilities from prior works, Forecast can identify 228 out of 238 vulnerabilities and generate working exploits for them. Forecast also discovers 24 zero-day vulnerabilities between over 60k popular packages collected from npm registry. Additionally, compared to ODGen and ObjLupAnsys , Forecast demonstrates better scalability by mitigating time-out for many packages.",
+    "keywords": "Computer science, Exploit, Scalability, JavaScript, Flexibility (engineering), Benchmark (surveying), False positive paradox, Syntax, Java, Fuzz testing, Object-oriented programming, Real-time computing, Abstract syntax tree, Runtime verification, Class (philosophy), Noise (video), Secure coding, Static analysis, Computer security, Software engineering, Embedded system, Reusability, Distributed computing, Semantics (computer science)",
+    "url": "https://doi.org/10.1145/3848632",
+    "doi": "https://doi.org/10.1145/3848632",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214164810"
+  },
+  "GHA-Agent: A Multi-Agent Framework for GitHub Actions Log Parsing": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214070872",
+    "author": "Chuyue Wu and Mingyuan Zhang and Y. Ling and Pinjia He and Sijie Xu and Yao Li and Tao Zhang",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "GHA-Agent: A Multi-Agent Framework for GitHub Actions Log Parsing",
+    "year": "2026",
+    "abstract": "The advent of continuous integration and continuous deployment (CI/CD) technologies has significantly reduced development cycles for engineering teams. As the world's largest open-source repository, the GitHub Actions (GHA) platform has rapidly become the preferred tool for developers. However, GHA failures generate massive volumes of unstructured logs, making root cause analysis (RCA) exceptionally challenging. Existing log parsing research primarily focuses on structured system logs, relying on static templates that struggle to handle the highly dynamic and unstructured nature of GHA logs. Although recent explorations into unstructured log parsing have emerged, two core challenges persist in the GHA context: First, there is a lack of a standard benchmark dataset covering the entire process from log parsing to code repair. Second, it is difficult to semantically distinguish among different failure modes such as build errors, test failures, and runtime exceptions. This study proposes a multi-agent log parsing framework and the end-to-end evaluation benchmark GHA-Bench to address these challenges. GHA-Agent is built on an LLM-driven multi-agent architecture for zero-shot error localization in extremely long logs. It integrates autonomous tool invocation with context-aware parsing strategy selection to enable effective reasoning over highly unstructured log data. GHA-Bench includes failure logs from 323 real repositories with manually labeled parsing results and corresponding golden patches, supporting comprehensive evaluation. Experimental results demonstrate that GHA-Agent achieves 97.75% error coverage in log parsing. In a downstream manual evaluation, experts accepted the generated log diagnoses for 83.0% of instances and the root-cause reports for 78.0% of instances, indicating that GHA-Agent often preserves evidence useful for code-level diagnosis.",
+    "keywords": "Computer science, Parsing, Benchmark (surveying), Unstructured data, Process (computing), Code (set theory), Source code, Programming language, Artificial intelligence, Data mining, Root (linguistics), Root cause, Software deployment, Selection (genetic algorithm), Machine learning, Database, JavaScript, Information retrieval, Architecture",
+    "url": "https://doi.org/10.1145/3849478",
+    "doi": "https://doi.org/10.1145/3849478",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214070872"
+  },
+  "Mining Invariants to Enhance Fuzzing for Detecting Functional Bugs in Smart Contracts": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214093428",
+    "author": "Xingshuang Lin and Binbin Zhao and Qinge Xie and Na Ruan and Jiliang Li and Shouling Ji",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Mining Invariants to Enhance Fuzzing for Detecting Functional Bugs in Smart Contracts",
+    "year": "2026",
+    "abstract": "Smart contracts, which are fundamental to DeFi financial systems, are vulnerable to exploitable bugs that can cause substantial monetary losses. A recent study shows that over 80% of these exploitable bugs, primarily functional bugs, evade detection by existing tools. Automatically identifying functional bugs in smart contracts is challenging from multiple perspectives. The primary issue is the significant gap between understanding the high-level logic of the business model and checking the low-level implementations in smart contracts. Furthermore, identifying deeply rooted functional bugs in smart contracts requires the automated generation of effective detection oracles based on various bug features. To address these challenges, we design PromFuzz++, an automated and scalable system for detecting functional bugs in smart contracts. In PromFuzz++, we first propose a dual-agent framework to identify potentially vulnerable functions for further analysis. We then implement a dual-stage coupling approach that generates invariant checkers using logic information extracted from these functions, enhancing bug-oriented fuzzing on target contracts. Our evaluation shows that PromFuzz++ achieves 86.96% recall and a 93.02% F1-score, improving both metrics by at least 50% over state-of-the-art methods. An in-depth analysis of 10 real-world DeFi projects uncovered 30 zero-day bugs, 24 of which have been assigned CVE IDs.",
+    "keywords": "Computer science, Fuzz testing, Scalability, Implementation, Software bug, Symbolic execution, Model checking, Invariant (physics), Machine learning, Artificial intelligence, Automation, Software engineering, Programming language, Precision and recall, Static analysis, Bridging (networking), Embedded system, Software",
+    "url": "https://doi.org/10.1145/3849091",
+    "doi": "https://doi.org/10.1145/3849091",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214093428"
+  },
+  "UI2Case: A Multi-Agent Framework for Test Case Generation from UI Designs via Multimodal Large Language Models": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214024604",
+    "author": "Zesong Xu and 车明亮 and Shaoxiong Guo and Fuke Shen and Tongquan Wei",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "UI2Case: A Multi-Agent Framework for Test Case Generation from UI Designs via Multimodal Large Language Models",
+    "year": "2026",
+    "abstract": "High-fidelity user interface (UI) designs are widely used in many UI-centric development workflows to document layout structures, visual appearances, and intended interactions before implementation, thereby providing an important basis for early validation and downstream quality assurance when such artifacts are available. However, automatically deriving comprehensive, accurate, and structured UI test cases from static UI design artifacts remains challenging, as it demands robust multimodal understanding and reasoning over implicit interactions and multi-screen navigation without access to implementation-level signals. To address these challenges, we present UI2Case, a multi-agent framework that leverages multimodal large language models (MLLMs) to automatically generate test cases directly from UI designs. The framework decomposes the generation process into four agents: a Navigation Agent for inferring page transitions, a Layout Agent for parsing component hierarchies, an Interaction Agent for identifying user actions, and a Synthesis Agent for deterministically assembling structured test cases. Evaluation on six real-world UI designs from an industrial product line shows that UI2Case achieves an average F1-score of 97.0% while substantially reducing test case generation time compared with manual authoring. Additional experiments on the RICO-36 benchmark show that UI2Case outperforms single-model prompting and structured GUI testing baselines, remains portable across five multimodal backbones, and benefits from each task-specific agent. The framework has also been integrated into production testing, where manual test case authoring effort was reduced by over 70% in aggregate. These results demonstrate the effectiveness and practical potential of combining MLLMs with agent-based collaboration for UI test case generation.",
+    "keywords": "Computer science, Workflow, Parsing, Human–computer interaction, Test case, User interface, Component (thermodynamics), Benchmark (surveying), Multimodal interaction, Software engineering, Process (computing), Interface (matter), Test (biology), Software quality assurance, User experience design, Artificial intelligence, Graphical user interface testing, Quality (philosophy), Scenario testing, Test suite, Fuzz testing, Programming language, Quality assurance, User interface design, Graphical user interface, Machine learning, Debugging",
+    "url": "https://doi.org/10.1145/3848034",
+    "doi": "https://doi.org/10.1145/3848034",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214024604"
+  },
+  "RAHGRec: A Role-Aware Hypergraph-Based Framework for Project–Library Recommendation in Python Ecosystem with Knowledge-Graph Relations": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7214043229",
+    "author": "Abhinav Jamwal and Sandeep Kumar",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "RAHGRec: A Role-Aware Hypergraph-Based Framework for Project–Library Recommendation in Python Ecosystem with Knowledge-Graph Relations",
+    "year": "2026",
+    "abstract": "The Project-Library relationship plays a central role in modern-day software development but choosing libraries which are not just compatible but also well-suited to the particular setting of the project has always been an issue. Most of today's project-library recommendations systems rely on the co-usage information extracted from history or the latent representations derived through pairwise interactions. These systems have proven to perform excellently in environments where there is abundant data but they tend to face challenges distinguishing between common co-adoption and actual compatibility, thus enhancing false correlations. In this paper, we propose RAHGRec , a role-aware hypergraph–based recommendation framework that integrates higher-order co-use patterns with semantic relationships from a knowledge graph to support Project library recommendation. RAHGRec models project–library usage as hypergraphs to reflect how groups of libraries are adopted together, and it directly leverages typed semantic relations such as dependency links, topical similarity, and maintainer-related signals through role-aware propagation mechanisms. By restricting higher-order message passing according to these semantic roles, the framework can differentiate between co-usage that is merely frequent in the data and adoption that truly fits the surrounding context. We evaluated RAHGRec on a large-scale Python ecosystem benchmark comprising 12,421 projects, 963 libraries, and over 121,000 project–library interactions enriched with contextual metadata. The results show that RAHGRec consistently surpasses the state-of-the-art baselines across all reported metrics, including precision, recall, F1, MRR, and coverage. The advantage is most pronounced under the sparse and long-tail interaction settings, which underscores the value of role-aware, semantically constrained higher-order modeling for producing reliable and context-sensitive library recommendations when observed project–library histories are limited.",
+    "keywords": "Computer science, Python (programming language), Pairwise comparison, Dependency graph, Information retrieval, Data science, Dependency (UML), Graph, Software, Benchmark (surveying), Linked data, Semantic data model, World Wide Web, Software engineering, Knowledge graph, Semantic Web, Semantics (computer science), Software development, Data mining, Semantic similarity, Theoretical computer science, Semantic mapping, Baseline (sea), Change impact analysis",
+    "url": "https://doi.org/10.1145/3846193",
+    "doi": "https://doi.org/10.1145/3846193",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7214043229"
+  },
   "SPDZCoder: Combining Expert Knowledge with LLMs for Generating Privacy-Computing Code": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213560729",
@@ -183,7 +280,7 @@
   "Scalable and Adaptive Log-based Anomaly Detection: A Synergistic Approach": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213246168",
-    "author": "Jinyang Liu and Junjie Huang and Zhihan Jiang and Yintong Huo and Zhuangbin Chen and Jiazhen Gu and C. Q. Feng and Minzhi Yan and Michael R. Lyu",
+    "author": "Jinyang Liu and Junjie Huang and Zhihan Jiang and Yintong Huo and Zhuangbin Chen and Jiazhen Gu and C. Q. Feng and Minzhi Yan and Michael Rung-Tsong Lyu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Scalable and Adaptive Log-based Anomaly Detection: A Synergistic Approach",
@@ -279,7 +376,7 @@
   "KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213355055",
-    "author": "Bo Yang and Xiao Zhang and Weisong Sun and G. Ma and Han Liu and Xiaowei Yang and Qian Xiong and Yiran Zhang and Tianlin Li and Yang Liu and Zhi Jin",
+    "author": "Bo Yang and Xiao Zhang and Weisong Sun and G. Ma and Han Liu and Xiaowei Yang and Qian Xiong and Yiran Zhang and Tianlin Li and Yang Liu and Zhi Gang Jin",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation",
@@ -311,7 +408,7 @@
   "The Promise and Pitfalls of GenAI-Powered Mobile Apps: Perspectives from User Reviews": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7212295062",
-    "author": "Wuxia Bai and Yanjie Zhao and Kai Chen and Haoyu Wang",
+    "author": "Wanna Bai and Yanjie Zhao and Kai Chen and Haoyu Wang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "The Promise and Pitfalls of GenAI-Powered Mobile Apps: Perspectives from User Reviews",
@@ -327,7 +424,7 @@
   "The Relationship between Human Values, Job Satisfaction, and Well-being among Thai IT Employees in Thailand: An Exploratory Study": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7210914300",
-    "author": "Rakkan Tiasakul and Birgit Penzenstadler and Letícia Duboc and M. Calvo Gomez and X. Vilasis-Cardona and Mahsa Abedini",
+    "author": "Rakkan Tiasakul and Birgit Penzenstadler and Letícia Duboc and M. Calvo Gomez and Xavier Vilasis and Mahsa Abedini",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "The Relationship between Human Values, Job Satisfaction, and Well-being among Thai IT Employees in Thailand: An Exploratory Study",
@@ -521,7 +618,7 @@
   "Why Transformers? A Comprehensive Overview of Transformers in Artificial Intelligence for IT Operations": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204803108",
-    "author": "Binpeng Shi and Shenglin Zhang and Jingya Wang and Bowen Hao and Minyi Shao and Yu Luo and Wenwei Gu and Yongqian Sun and Sibo Xia and Y. Zhao and Dan Pei",
+    "author": "Binpeng Shi and Shenglin Zhang and Jingya Wang and Bowen Hao and Minyi Shao and Yu Luo and Wenwei Gu and Yongqian Sun and Sibo Xia and Yongxin Zhao and Dan Pei",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Why Transformers? A Comprehensive Overview of Transformers in Artificial Intelligence for IT Operations",
@@ -537,7 +634,7 @@
   "Multi-Agent Strategies for Bridging Programming Language Gaps in Code Generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204858664",
-    "author": "Micheline Bénédicte Moumoula and Serge Lionel Nikiema and Albérick Euraste Djiré and Abdoul Kader Kaboré and Jacques Klein and Tegawendé F. Bissyandé",
+    "author": "Micheline Bénédicte Moumoula and Serge Lionel Nikiema and Albérick Euraste Djiré and Abdoul Kader Kaboré and Jacques Klein and Tegawendé François Bissyandé",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Multi-Agent Strategies for Bridging Programming Language Gaps in Code Generation",
@@ -619,7 +716,7 @@
   "ChatRCA: A Root Cause Analysis Method via LLMs-based Multi-Agent with Human-in-the-Loop": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204603481",
-    "author": "Mingxuan Hui and Lu Wang and Qingshan Li and L. Zhang and Zhongliang Bai and Jingzhao Hu and Hao Li and Yang Ren and Feiyue Song and Yimian Wang and Tao Sun and Liwen Luo",
+    "author": "Mingxuan Hui and Lu Wang and Qingshan Li and Luyan Zhang and Zhongliang Bai and Jingzhao Hu and Hao Li and Yang Ren and Feiyue Song and Yimian Wang and Tao Sun and Liwen Luo",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "ChatRCA: A Root Cause Analysis Method via LLMs-based Multi-Agent with Human-in-the-Loop",
@@ -732,7 +829,7 @@
   "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis": {
     "type": "REVIEW",
     "key": "https://openalex.org/W7155029538",
-    "author": "Zeyang Ma and Jinqiu Yang and Tse-Hsun Chen",
+    "author": "Zeyang Ma and Jinqiu Yang and Tse-Hsun (Peter) Chen",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis",
@@ -863,7 +960,7 @@
   "Balancing Richness and Reliability: An Explore-Construct-Verify Framework for API Knowledge Graph Construction": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7203735228",
-    "author": "Yanbang Sun and Qing Huang and Zhenchang Xing and Xiaoxue Ren and Xiaohong Li and Junjie Wang and Huan Jin and Zhiping Liu",
+    "author": "Yanbang Sun and Qing Yun Huang and Zhenchang Xing and Xiaoxue Ren and Xiaohong Li and Junjie Wang and Huan Jin and Zhiping Liu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Balancing Richness and Reliability: An Explore-Construct-Verify Framework for API Knowledge Graph Construction",
@@ -895,7 +992,7 @@
   "Software Engineering for Self-Adaptive Robotics: A Research Agenda": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7203760610",
-    "author": "Hassan Sartaj and Shaukat Ali and Ana Cavalcanti and Lukas Esterle and Cláudio Gomes and Peter Gorm Larsen and Anastasios Tefas and Jim Woodcock and Houxiang Zhang",
+    "author": "Hassan Sartaj and Shaukat Ali and Ana Cavalcanti and Lukas Esterle and Cláudio Ângelo Gonçalves Gomes and Peter Gorm Larsen and Anastasios Tefas and Jim Woodcock and Houxiang Zhang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Software Engineering for Self-Adaptive Robotics: A Research Agenda",
@@ -944,7 +1041,7 @@
   "Semantically-Equivalent Transformations-Based Backdoor Attacks against Neural Code Models: Characterization and Mitigation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7117110328",
-    "author": "Junyao Ye and Zhen Li and Xi Tang and Shouhuai Xu and Deqing Zou and Z. S. Yuan and Hai Jin",
+    "author": "Junyao Ye and Zhen Li and Xi Tang and Shouhuai Xu and Deqing Zou and Zhongsheng Yuan and Hai Jin",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Semantically-Equivalent Transformations-Based Backdoor Attacks against Neural Code Models: Characterization and Mitigation",
@@ -1025,7 +1122,7 @@
   "TrajectoryTest: A Trajectory-Specific Test Input Prioritization Technique and Empirical Evaluation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7202072319",
-    "author": "Xueqi Dang and Yinghua Li and Wendkûuni C. Ouédraogo and Mike Papadakis and Jacques Klein and Tegawendé F. Bissyandé and Yves Le Traon",
+    "author": "Xueqi Dang and Yinghua Li and Wendkûuni C. Ouédraogo and Mike Papadakis and Jacques Klein and Tegawendé François Bissyandé and Yves Le Traon",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "TrajectoryTest: A Trajectory-Specific Test Input Prioritization Technique and Empirical Evaluation",
@@ -1041,7 +1138,7 @@
   "Selecting and Combining Large Language Models in Scalable Code Clone Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4415880809",
-    "author": "Muslim Chochlov and Gul Aftab Ahmed and James Vincent Patten and Abdul Razzaq and Yuanhua Han and LU Guo-xian and David Gregg and Jim Buckley",
+    "author": "Muslim Chochlov and Gul Aftab Ahmed and James Vincent Patten and Abdul Razzaq and Yuanhua Han and LU Guo-xian and David P. Gregg and Jim Buckley",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Selecting and Combining Large Language Models in Scalable Code Clone Detection",
@@ -1058,7 +1155,7 @@
   "On the Diffusion of Test Smells in LLM-Generated Unit Tests": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4403571118",
-    "author": "Wendkûuni C. Ouédraogo and Yinghua Li and Xueqi Dang and Xunzhu Tang and Anil Koyuncu and Jacques Klein and David Lo and Tegawendé F. Bissyandé",
+    "author": "Wendkûuni C. Ouédraogo and Yinghua Li and Xueqi Dang and Xunzhu Tang and Anil Koyuncu and Jacques Klein and David Lo and Tegawendé François Bissyandé",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "On the Diffusion of Test Smells in LLM-Generated Unit Tests",
@@ -1317,7 +1414,7 @@
   "ExplorIt : Simulation-based Fuzzing for Autonomous Driving Systems via Multi-Agent Interaction Modeling": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7171498324",
-    "author": "Bufan Gao and Zongan Huang and Jiarun Dai and Kairui Yang and Yixing Luo and Yingjie Fu and Yuan Zhang and Min Yang and Tao Xie",
+    "author": "Bufan Gao and Zongan Huang and Jiarun Dai and Kairui Yang and Yixing Luo and Yingjie Fu and Yuan Zhang and Min Jian Yang and Tao Xie",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "ExplorIt : Simulation-based Fuzzing for Autonomous Driving Systems via Multi-Agent Interaction Modeling",
@@ -1397,7 +1494,7 @@
   "AutoScope: Code Knowledge Enhanced Span-level Sampling for Distributed Tracing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7170295182",
-    "author": "Yulun Wu and Guangba Yu and Zhihan Jiang and Yichen Li and Michael R. Lyu",
+    "author": "Yulun Wu and Guangba Yu and Zhihan Jiang and Yichen Li and Michael Rung-Tsong Lyu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "AutoScope: Code Knowledge Enhanced Span-level Sampling for Distributed Tracing",
@@ -1413,7 +1510,7 @@
   "Human Attention During Localization of Memory Bugs in C Programs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4414891761",
-    "author": "Emory Michaels and Robert Wallace and Matthew K. Robison and Yuhao Huang and Collin McMillan",
+    "author": "Emory Michaels and Robert Wallace and Matthew Kyle Robison and Yuhao Huang and Collin McMillan",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Human Attention During Localization of Memory Bugs in C Programs",
@@ -1544,7 +1641,7 @@
   "Node-Centric Systematic Testing for Distributed Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7169617451",
-    "author": "Yu Liang and Yu Gao and Wensheng Dou and Wenhan Feng and Zheng Qin and Zhen Tang and Hui Li and Wei Wang and Jun Wei",
+    "author": "Yu Liang and Yu Gao and Wensheng Dou and Wenhan Feng and Zheng Qin and Zhen Hua Tang and Hui Li and Wei Wang and Jun Wei",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Node-Centric Systematic Testing for Distributed Systems",
@@ -1626,7 +1723,7 @@
   "Large Language Models for Quantum Software Engineering: Opportunities and Challenges in Modeling, Generation, Testing, and Repair": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7168362986",
-    "author": "Jiaming Ye and Qiang Hu and Fuyuan Zhang and Shangzhou Xia and Xiaoyu Guo and Xiongfei Wu and Yongqiang Lyu and Jianjun Zhao",
+    "author": "Jiaming Ye and Qiang Hu and F Zhang and Shangzhou Xia and Xiaoyu Guo and Xiongfei Wu and Yongqiang Lyu and Jianjun Zhao",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Large Language Models for Quantum Software Engineering: Opportunities and Challenges in Modeling, Generation, Testing, and Repair",
@@ -1819,7 +1916,7 @@
   "AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167464647",
-    "author": "Z. Wang and Guangba Yu and Michael R. Lyu",
+    "author": "Zirui Wang and Guangba Yu and Michael Rung-Tsong Lyu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems",
@@ -1965,7 +2062,7 @@
   "LLM-Driven Collaborative Model for Untangling Commits via Explicit and Implicit Dependency Reasoning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4414416610",
-    "author": "Bo Hou and Xin Tan and Kai Zheng and Fang Liu and Yinghao Zhu and Li Zhang",
+    "author": "Bo Hou and Xin Lin Tan and Kai Feng Zheng and Fang Liu and Yinghao Zhu and Li Zhang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "LLM-Driven Collaborative Model for Untangling Commits via Explicit and Implicit Dependency Reasoning",
@@ -1982,7 +2079,7 @@
   "Dyn NPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7166047416",
-    "author": "You Lu and Yifan Tian and K Zhang and Dingji Wang and Bihuan Chen and H Q Jiang and Qing‐Quan Chen and Kun Hu and Xin Peng",
+    "author": "You Jun Lu and Yifan Tian and K Zhang and Dingji Wang and Bihuan Chen and Haowen Jiang and Qing‐Quan Chen and Kun Hu and Xin Peng",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Dyn NPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation",
@@ -1998,7 +2095,7 @@
   "Can Large Language Models Reason About Complex Execution Paths? An Empirical Study on Python": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7166120532",
-    "author": "Wenhan Wang and Kaibo Liu and Zeyu Sun and An Ran Chen and Ge Li and Gang Huang and Lei Ma",
+    "author": "Wenhan Wang and Kaibo Liu and Zeyu Sun and An Ran Chen and Ge Li and Gang L. Huang and Lei Ma",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Can Large Language Models Reason About Complex Execution Paths? An Empirical Study on Python",
@@ -2176,7 +2273,7 @@
   "PseudoBridge: Pseudo Code as the Bridge for Better Semantic and Logic Alignment in Code Retrieval": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4414789461",
-    "author": "Y J Li and Xinyi Liu and Weidong Yang and Ben Fei and Shuhao Li and Mingjie Zhou and Lipeng Ma",
+    "author": "Yixuan Li and Xinyi Liu and Weidong Yang and Ben Fei and Shuhao Li and Mingjie Zhou and Lipeng Ma",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "PseudoBridge: Pseudo Code as the Bridge for Better Semantic and Logic Alignment in Code Retrieval",
@@ -2226,7 +2323,7 @@
   "Retrieval-Augmented Unit Test Suggestion Generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7165383818",
-    "author": "Hongyan Li and Weifeng Sun and Meng Yan",
+    "author": "Hongyan Li and Weifeng Sun and Meng Ling Yan",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Retrieval-Augmented Unit Test Suggestion Generation",
@@ -2254,6 +2351,23 @@
     "venue": "TOSEM2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7165404720"
+  },
+  "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4415986063",
+    "author": "Yedidel Louck and Ariel Stulman and Amit Z. Dvir",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
+    "year": "2026",
+    "abstract": "Google's A2A protocol provides a secure communication framework for AI agents, but it has critical limitations when handling highly sensitive information such as payment credentials and identity documents. These gaps increase the risk of unintended harms, including unauthorized disclosure, privilege escalation, and misuse of private data in generative multi-agent environments. In this paper, we identify key weaknesses in A2A: insufficient token lifetime control, lack of strong customer authentication, overbroad access scopes, and missing consent flows. We propose a modular, interceptor-based architecture to address these weaknesses. Our refinements introduce a Zero-Trust Interceptor that enforces explicit consent orchestration, ephemeral scoped tokens, and direct user-to-service data channels to minimize exposure across time, context, and topology. A component-level evaluation of the interceptor's deterministic enforcement logic, conducted across 5,000 protocol-enforcement trials, demonstrates that the enhanced protocol structurally eliminates the sensitive-data leakage paths covered by the tested checks, yielding a 0% structural success rate under the stated enforcement assumptions and keeping enforcement overhead at the sub-millisecond level. Comparative analysis highlights the advantages of our deterministic, protocol-level enforcement over both the original A2A specification and stochastic model-based safeguards. These contributions establish a practical, statistically validated path for evolving A2A into a privacy-preserving framework for multi-agent systems.",
+    "keywords": "Computer security, Unintended consequences, Computer science, Protocol (science), Security token, Key (lock), Internet privacy, Payment, Risk analysis (engineering), Adversarial system, Resource (disambiguation), Negotiation, General Data Protection Regulation, Ascription, Data sharing, Identification (biology), Privilege (computing), Transparency (behavior), Business, Public key infrastructure, Private information retrieval, Data access, Certificate, Information sensitivity, Empirical research, Data loss, Psychological intervention",
+    "url": "https://doi.org/10.1145/3821216",
+    "doi": "https://doi.org/10.1145/3821216",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4415986063",
+    "arxiv_id": "2505.12490"
   },
   "Enhancing Software Maintenance: A Learning to Rank Approach for Co-changed Method Identification": {
     "type": "ARTICLE",
@@ -2287,23 +2401,6 @@
     "venue": "TOSEM2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7165156746"
-  },
-  "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4415986063",
-    "author": "Yedidel Louck and Ariel Stulman and Amit Dvir",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
-    "year": "2026",
-    "abstract": "Google's A2A protocol provides a secure communication framework for AI agents, but it has critical limitations when handling highly sensitive information such as payment credentials and identity documents. These gaps increase the risk of unintended harms, including unauthorized disclosure, privilege escalation, and misuse of private data in generative multi-agent environments. In this paper, we identify key weaknesses in A2A: insufficient token lifetime control, lack of strong customer authentication, overbroad access scopes, and missing consent flows. We propose a modular, interceptor-based architecture to address these weaknesses. Our refinements introduce a Zero-Trust Interceptor that enforces explicit consent orchestration, ephemeral scoped tokens, and direct user-to-service data channels to minimize exposure across time, context, and topology. A component-level evaluation of the interceptor's deterministic enforcement logic, conducted across 5,000 protocol-enforcement trials, demonstrates that the enhanced protocol structurally eliminates the sensitive-data leakage paths covered by the tested checks, yielding a 0% structural success rate under the stated enforcement assumptions and keeping enforcement overhead at the sub-millisecond level. Comparative analysis highlights the advantages of our deterministic, protocol-level enforcement over both the original A2A specification and stochastic model-based safeguards. These contributions establish a practical, statistically validated path for evolving A2A into a privacy-preserving framework for multi-agent systems.",
-    "keywords": "Computer security, Unintended consequences, Computer science, Protocol (science), Security token, Key (lock), Internet privacy, Payment, Risk analysis (engineering), Adversarial system, Resource (disambiguation), Negotiation, General Data Protection Regulation, Ascription, Data sharing, Identification (biology), Privilege (computing), Transparency (behavior), Business, Public key infrastructure, Private information retrieval, Data access, Certificate, Information sensitivity, Empirical research, Data loss, Psychological intervention",
-    "url": "https://doi.org/10.1145/3821216",
-    "doi": "https://doi.org/10.1145/3821216",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4415986063",
-    "arxiv_id": "2505.12490"
   },
   "A-ProS: Towards Reliable Autonomous Programming Through Multi-Model Feedback": {
     "type": "ARTICLE",
@@ -2401,6 +2498,23 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7164674108"
   },
+  "ActRef: Enhancing the Understanding of Python Code Refactoring with Action-Based Analysis": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4417513106",
+    "author": "Siqi Wang and Xing Hu and Xinyu Wang and Xin Xia",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "ActRef: Enhancing the Understanding of Python Code Refactoring with Action-Based Analysis",
+    "year": "2026",
+    "abstract": "Refactoring is the process of improving the code structure of a software system without altering its behavior. It is crucial for managing code evolution in software development. Identifying refactoring actions in source code is essential for understanding software evolution and guiding developers in maintaining and improving code quality. However, existing tools frequently struggle to detect complex and diverse refactoring types in Python, because most of them are designed for Java-centric environments. This limitation hinders their ability to address Python's dynamic and flexible syntax effectively. This study presents an action-based Refactoring Analysis Framework named ActRef , a novel algorithm designed to advance the detection and understanding of Python refactorings through a unique code change action-based analysis of code changes. ActRef mines 15 refactoring types (e.g., move, rename, extract, and inline operations) based on diff actions, covering 4 granularity levels, including variable, method, class, and module levels. By focusing on the code change actions, ActRef provides a Python-adaptive solution to detect intricate refactoring patterns. Our evaluation is conducted on 1,915 manually validated refactoring instances from 136 open-source Python projects. The evaluation results show that ActRef achieves high precision (0.80) and recall (0.92), effectively identifying 15 refactoring types. Compared with leading baselines, including PyRef, PyRef with MLRefScanner, DeepSeek-R1, and ChatGPT-4, ActRef consistently demonstrates superior performance in detecting Python refactorings across various types. While matching PyRef in runtime efficiency, ActRef supports a broader spectrum of refactoring types and more refactoring mining levels. ActRef shows an effective and scalable approach for mining refactorings in dynamic Python codebases and introduces a new perspective on understanding code.",
+    "keywords": "Code refactoring, Python (programming language), Computer science, Programming language, Source code, Software, Software evolution, Software maintenance, Scalability, Software engineering, Granularity, Code (set theory), Code smell, Software system, Static analysis, Static program analysis, Legacy system, Software quality, Software development, Object-oriented programming, MIT License",
+    "url": "https://doi.org/10.1145/3816040",
+    "doi": "https://doi.org/10.1145/3816040",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4417513106",
+    "arxiv_id": "2505.06553"
+  },
   "Can Language Models Go Beyond Coding? Assessing the Capability of Language Models to Build Real-World Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4415939064",
@@ -2417,23 +2531,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4415939064",
     "arxiv_id": "2511.00780"
-  },
-  "SemOpt: LLM-Driven Code Optimization via Rule-Based Analysis": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4415952345",
-    "author": "Yuwei Zhao and Yuan-an Xiao and Qianyu Xiao and Zhao Zhang and Yingfei Xiong",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "SemOpt: LLM-Driven Code Optimization via Rule-Based Analysis",
-    "year": "2026",
-    "abstract": "Automated code optimization improves program performance through refactoring, and recent studies leverage LLMs for this purpose. Existing approaches mine optimization commits from open-source codebases to build large-scale knowledge bases, then employ retrieval techniques such as BM25 to obtain relevant examples for hotspot code, guiding LLMs in optimization. However, semantically equivalent optimizations often appear in syntactically dissimilar code, so current retrieval methods fail to identify pertinent examples, leading to suboptimal results. To address these limitations, we propose SemOpt, a framework that leverages static program analysis to identify code segments, retrieve optimization strategies, and generate optimized results. SemOpt has three LLM-powered components: (1) a strategy library builder that extracts and clusters strategies from code modifications, (2) a rule generator that produces Semgrep static analysis rules to capture each strategy's applicability, and (3) an optimizer that generates optimized code using the strategy library. On a benchmark of 151 C/C++ and 150 Python optimization tasks, SemOpt shows consistent improvements across different LLMs, increasing successful optimizations by 1.38 to 28 times on C/C++ and 4.60 to 6.33 times on Python versus the baseline. On large-scale projects, SemOpt improves performance metrics by 5.04%–218.07% on C/C++ and 61.77%–479.90% on Python, showing cross-language generalization and practical effectiveness.",
-    "keywords": "Computer science, Code refactoring, Code (set theory), Benchmark (surveying), Program optimization, Metaheuristic, Key (lock), Source code, Code generation, Optimization problem, Data mining, Construct (python library), Focus (optics), Multi-objective optimization, Programming language, Global optimization, Coding (social sciences), Generator (circuit theory), Optimization algorithm, Computer engineering",
-    "url": "https://doi.org/10.1145/3820167",
-    "doi": "https://doi.org/10.1145/3820167",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4415952345",
-    "arxiv_id": "2510.16384"
   },
   "Digital Twin-based Out-of-Distribution Detection in Autonomous Vessels": {
     "type": "ARTICLE",
@@ -2452,22 +2549,22 @@
     "openalex_id": "https://openalex.org/W4416911043",
     "arxiv_id": "2504.19816"
   },
-  "ActRef: Enhancing the Understanding of Python Code Refactoring with Action-Based Analysis": {
+  "SemOpt: LLM-Driven Code Optimization via Rule-Based Analysis": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W4417513106",
-    "author": "Siqi Wang and Xing Hu and Xinyu Wang and Xin Xia",
+    "key": "https://openalex.org/W4415952345",
+    "author": "Yuwei Zhao and Yuan-an Xiao and Qianyu Xiao and Zhao Zhang and Yingfei Xiong",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "ActRef: Enhancing the Understanding of Python Code Refactoring with Action-Based Analysis",
+    "title": "SemOpt: LLM-Driven Code Optimization via Rule-Based Analysis",
     "year": "2026",
-    "abstract": "Refactoring is the process of improving the code structure of a software system without altering its behavior. It is crucial for managing code evolution in software development. Identifying refactoring actions in source code is essential for understanding software evolution and guiding developers in maintaining and improving code quality. However, existing tools frequently struggle to detect complex and diverse refactoring types in Python, because most of them are designed for Java-centric environments. This limitation hinders their ability to address Python's dynamic and flexible syntax effectively. This study presents an action-based Refactoring Analysis Framework named ActRef , a novel algorithm designed to advance the detection and understanding of Python refactorings through a unique code change action-based analysis of code changes. ActRef mines 15 refactoring types (e.g., move, rename, extract, and inline operations) based on diff actions, covering 4 granularity levels, including variable, method, class, and module levels. By focusing on the code change actions, ActRef provides a Python-adaptive solution to detect intricate refactoring patterns. Our evaluation is conducted on 1,915 manually validated refactoring instances from 136 open-source Python projects. The evaluation results show that ActRef achieves high precision (0.80) and recall (0.92), effectively identifying 15 refactoring types. Compared with leading baselines, including PyRef, PyRef with MLRefScanner, DeepSeek-R1, and ChatGPT-4, ActRef consistently demonstrates superior performance in detecting Python refactorings across various types. While matching PyRef in runtime efficiency, ActRef supports a broader spectrum of refactoring types and more refactoring mining levels. ActRef shows an effective and scalable approach for mining refactorings in dynamic Python codebases and introduces a new perspective on understanding code.",
-    "keywords": "Code refactoring, Python (programming language), Computer science, Programming language, Source code, Software, Software evolution, Software maintenance, Scalability, Software engineering, Granularity, Code (set theory), Code smell, Software system, Static analysis, Static program analysis, Legacy system, Software quality, Software development, Object-oriented programming, MIT License",
-    "url": "https://doi.org/10.1145/3816040",
-    "doi": "https://doi.org/10.1145/3816040",
+    "abstract": "Automated code optimization improves program performance through refactoring, and recent studies leverage LLMs for this purpose. Existing approaches mine optimization commits from open-source codebases to build large-scale knowledge bases, then employ retrieval techniques such as BM25 to obtain relevant examples for hotspot code, guiding LLMs in optimization. However, semantically equivalent optimizations often appear in syntactically dissimilar code, so current retrieval methods fail to identify pertinent examples, leading to suboptimal results. To address these limitations, we propose SemOpt, a framework that leverages static program analysis to identify code segments, retrieve optimization strategies, and generate optimized results. SemOpt has three LLM-powered components: (1) a strategy library builder that extracts and clusters strategies from code modifications, (2) a rule generator that produces Semgrep static analysis rules to capture each strategy's applicability, and (3) an optimizer that generates optimized code using the strategy library. On a benchmark of 151 C/C++ and 150 Python optimization tasks, SemOpt shows consistent improvements across different LLMs, increasing successful optimizations by 1.38 to 28 times on C/C++ and 4.60 to 6.33 times on Python versus the baseline. On large-scale projects, SemOpt improves performance metrics by 5.04%–218.07% on C/C++ and 61.77%–479.90% on Python, showing cross-language generalization and practical effectiveness.",
+    "keywords": "Computer science, Code refactoring, Code (set theory), Benchmark (surveying), Program optimization, Metaheuristic, Key (lock), Source code, Code generation, Optimization problem, Data mining, Construct (python library), Focus (optics), Multi-objective optimization, Programming language, Global optimization, Coding (social sciences), Generator (circuit theory), Optimization algorithm, Computer engineering",
+    "url": "https://doi.org/10.1145/3820167",
+    "doi": "https://doi.org/10.1145/3820167",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4417513106",
-    "arxiv_id": "2505.06553"
+    "openalex_id": "https://openalex.org/W4415952345",
+    "arxiv_id": "2510.16384"
   },
   "An Empirical Study on Evaluating Accessible Code Generation Capabilities of LLMs": {
     "type": "ARTICLE",
@@ -2521,7 +2618,7 @@
   "Scenario-Guided LLM-based Mobile App GUI Testing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4416137816",
-    "author": "Shengcheng Yu and Yuchen Ling and Chunrong Fang and Quan Zhou and Yi Zhao and Chunyang Chen and Shaomin Zhu and Zhenyu Chen",
+    "author": "Shengcheng Yu and Yuchen Ling and Chunrong Fang and Quan Zhi Zhou and Yi Zhao and Chunyang Chen and Shaomin Zhu and Zhenyu Chen",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Scenario-Guided LLM-based Mobile App GUI Testing",
@@ -2568,6 +2665,23 @@
     "openalex_id": "https://openalex.org/W7164057147",
     "arxiv_id": "2606.14796"
   },
+  "Evaluating the Use of LLMs for Documentation to Code Traceability": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4417538438",
+    "author": "Ebube Alor and SayedHassan Khatoonabadi and Emad Shihab",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Evaluating the Use of LLMs for Documentation to Code Traceability",
+    "year": "2026",
+    "abstract": "Large Language Models (LLMs) offer new potential for automating documentation-to-code traceability, yet their capabilities and limitations remain underexplored. We evaluate three LLMs (Claude Sonnet, GPT-4o, and o3-mini) on documentation-to-code traceability across diverse software projects. We create two datasets from open-source systems (Unity Catalog and Crawl4AI), curated to minimize training-data overlap with the evaluated models, and derive a 27-project benchmark from CoDocBench and TransArc to study generalizability across established codebases. Our experiments assess three capabilities: (1) trace link identification, (2) relationship explanation quality, and (3) multi-step chain reconstruction, while comparing LLMs against TF-IDF, BM25, and CodeBERT baselines. On the curated datasets, the best LLM attains F1-scores of 79.4% and 80.4%, and on the Established Projects benchmark, LLMs reach average F1 up to 92.3%, substantially outperforming traditional baselines except in a single dense system. Fully correct explanations cover 42.9%–71.1% of links, while partial correctness exceeds 97%, and chain endpoints are almost always recovered, though intermediate steps are often imperfect. We also show that task framing, particularly one-to-many matching, is crucial for recall, whereas naive many-to-many prompts achieve around 5% F1 due to enumeration bias. Overall, LLMs are promising assistants for trace discovery when combined with human oversight and careful tool design.",
+    "keywords": "Traceability, TRACE (psycholinguistics), Documentation, Computer science, Artifact (error), Identification (biology), Key (lock), Data science, Matching (statistics), Code (set theory), Software engineering, Point (geometry), Source code, Risk analysis (engineering), Software, Computer security, False positive paradox, Conflation, Linkage (software), Metadata, Information retrieval, Data mining, Variety (cybernetics), Software maintenance, Risk management, Risk assessment, Presentation (obstetrics), World Wide Web, Best practice, sort",
+    "url": "https://doi.org/10.1145/3819820",
+    "doi": "https://doi.org/10.1145/3819820",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4417538438",
+    "arxiv_id": "2506.16440"
+  },
   "Abstract Syntax Tree for Programming Language Understanding and Representation": {
     "type": "CONFERENCE-ABSTRACT",
     "key": "https://openalex.org/W7163740557",
@@ -2600,23 +2714,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W4415937833",
     "arxiv_id": "2511.00517"
-  },
-  "Evaluating the Use of LLMs for Documentation to Code Traceability": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4417538438",
-    "author": "Ebube Alor and SayedHassan Khatoonabadi and Emad Shihab",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "Evaluating the Use of LLMs for Documentation to Code Traceability",
-    "year": "2026",
-    "abstract": "Large Language Models (LLMs) offer new potential for automating documentation-to-code traceability, yet their capabilities and limitations remain underexplored. We evaluate three LLMs (Claude Sonnet, GPT-4o, and o3-mini) on documentation-to-code traceability across diverse software projects. We create two datasets from open-source systems (Unity Catalog and Crawl4AI), curated to minimize training-data overlap with the evaluated models, and derive a 27-project benchmark from CoDocBench and TransArc to study generalizability across established codebases. Our experiments assess three capabilities: (1) trace link identification, (2) relationship explanation quality, and (3) multi-step chain reconstruction, while comparing LLMs against TF-IDF, BM25, and CodeBERT baselines. On the curated datasets, the best LLM attains F1-scores of 79.4% and 80.4%, and on the Established Projects benchmark, LLMs reach average F1 up to 92.3%, substantially outperforming traditional baselines except in a single dense system. Fully correct explanations cover 42.9%–71.1% of links, while partial correctness exceeds 97%, and chain endpoints are almost always recovered, though intermediate steps are often imperfect. We also show that task framing, particularly one-to-many matching, is crucial for recall, whereas naive many-to-many prompts achieve around 5% F1 due to enumeration bias. Overall, LLMs are promising assistants for trace discovery when combined with human oversight and careful tool design.",
-    "keywords": "Traceability, TRACE (psycholinguistics), Documentation, Computer science, Artifact (error), Identification (biology), Key (lock), Data science, Matching (statistics), Code (set theory), Software engineering, Point (geometry), Source code, Risk analysis (engineering), Software, Computer security, False positive paradox, Conflation, Linkage (software), Metadata, Information retrieval, Data mining, Variety (cybernetics), Software maintenance, Risk management, Risk assessment, Presentation (obstetrics), World Wide Web, Best practice, sort",
-    "url": "https://doi.org/10.1145/3819820",
-    "doi": "https://doi.org/10.1145/3819820",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4417538438",
-    "arxiv_id": "2506.16440"
   },
   "F-800: Agentic Fuzzing Termination via Function Clustering: Toward Smarter Early Stopping": {
     "type": "ARTICLE",
@@ -2669,7 +2766,7 @@
   "Demystifying Errors in LLM Reasoning Traces: An Empirical Study of Code Execution Simulation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4416932930",
-    "author": "Mohammad Abdollahı and Khandaker Rifah Tasnia and Soumit Kanti Saha and Jinqiu Yang and Song Wang and Hadi Hemmati",
+    "author": "Mohammad Reza Abdollahi and Khandaker Rifah Tasnia and Soumit Kanti Saha and Jinqiu Yang and Song Wang and Hadi Hemmati",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Demystifying Errors in LLM Reasoning Traces: An Empirical Study of Code Execution Simulation",
@@ -2686,7 +2783,7 @@
   "Analyzing C/C++ Library Migrations at the Package-level: Prevalence, Domains, Targets and Rationales across Seven Package Management Tools": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162782188",
-    "author": "Haiqiao Gu and Y. Zhao and Kai Gao and Minghui Zhou",
+    "author": "Haiqiao Gu and Yiliang Zhao and Kai Gao and Minghui Zhou",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Analyzing C/C++ Library Migrations at the Package-level: Prevalence, Domains, Targets and Rationales across Seven Package Management Tools",
@@ -2784,7 +2881,7 @@
   "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162320027",
-    "author": "Roman Nekrasov and Stefano Fossati and Indika Kumara and Damian Andrew Tamburri and W.J.A.M. van den Heuvel",
+    "author": "Roman Nekrasov and Stefano Fossati and Indika Kumara and Damian A. Tamburri and W.J.A.M. van den Heuvel",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection",
@@ -2883,7 +2980,7 @@
   "Beyond Functional Correctness: A Knowledge-Enhanced Iterative Framework for Generating Criteria-Compliant Code": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162188956",
-    "author": "Y Zhang and Wei Dong and Shangwen Wang and J Zhang and Siyu Zhang and J Liu",
+    "author": "Y Zhang and Wei Yu Dong and Shangwen Wang and J Zhang and Siyu Zhang and J Liu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Beyond Functional Correctness: A Knowledge-Enhanced Iterative Framework for Generating Criteria-Compliant Code",
@@ -2899,7 +2996,7 @@
   "Simplifying Mixed Boolean-Arithmetic Obfuscation by Program Synthesis and Equality Saturation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162208201",
-    "author": "J. Lee and S E Lee and Eunsun Cho and Woosuk Lee",
+    "author": "Jaehyung Lee and S E Lee and Eunsun Cho and Woosuk Lee",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Simplifying Mixed Boolean-Arithmetic Obfuscation by Program Synthesis and Equality Saturation",
@@ -2915,7 +3012,7 @@
   "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162215889",
-    "author": "Carol Hanna and David Elliman and W Emmerich and Federica Sarro and Justyna Petke",
+    "author": "Carol Hanna and David A.C. Elliman and W Emmerich and Federica Sarro and Justyna Petke",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities",
@@ -2931,7 +3028,7 @@
   "Simulation Approaches for Supporting Microservice Architectures: A Systematic Review": {
     "type": "REVIEW",
     "key": "https://openalex.org/W7162079223",
-    "author": "Andila Asim and Nour Ali",
+    "author": "Andila Asim and Nour Alí",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Simulation Approaches for Supporting Microservice Architectures: A Systematic Review",
@@ -2996,7 +3093,7 @@
   "Causality-Driven Test Case Minimisation for Cyber-Physical Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7162021764",
-    "author": "Michael Foster and Christopher M. Poskitt and Nicholas Latimer and Neil Walkinshaw and Richard Somers and RM Hierons",
+    "author": "Michael Foster and Christopher M. Poskitt and Nicholas R. Latimer and Neil Walkinshaw and Richard J. Somers and Robert M. Hierons",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Causality-Driven Test Case Minimisation for Cyber-Physical Systems",
@@ -3108,7 +3205,7 @@
   "TaskFlow: LLMs for Android Taint Specification": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7161248592",
-    "author": "Marco Alecci and Jordan Samhi and Marc Miltenberger and Steven Arzt and Tegawendé F. Bissyandé and Jacques Klein",
+    "author": "Marco Alecci and Jordan Samhi and Marc Miltenberger and Steven Arzt and Tegawendé François Bissyandé and Jacques Klein",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "TaskFlow: LLMs for Android Taint Specification",
@@ -3286,7 +3383,7 @@
   "Navigating the Risks: A Survey of Security and Privacy Threats in LLM-Based Agents": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160556498",
-    "author": "Yuyou Gan and Yi Yang and Z W and Ping He and Rui Zeng and Yuxing Wang and Qingming Li and Chunyi Zhou and Songze Li and T Y Wang and Yunjun Gao and Yingcai Wu and Shouling Ji",
+    "author": "Yuyou Gan and Yi Yang and Z W and Ping He and Rui Zeng and Yiming Wang and Qingming Li and Chunyi Zhou and Songze Li and T Y Wang and Yunjun Gao and Yingcai Wu and Shouling Ji",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Navigating the Risks: A Survey of Security and Privacy Threats in LLM-Based Agents",
@@ -3334,7 +3431,7 @@
   "Arash : Token-Efficient LLM-Assisted Crash Root Cause Analysis in Fuzz Driver Generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160087277",
-    "author": "Maoyi Xie and Kaixuan Li and Jingquan Ge and Wei Ma and Yuqiang Sun and Ziqiao Kong and Cen Zhang and Dongge Liu and Oliver Chang and Yang Liu",
+    "author": "Maoyi Xie and Kaixuan Li and Jingquan Ge and Wei Ma and Yuqiang Sun and Ziqiao Kong and Cen Zhang and Dongge Liu and Oliver H. Chang and Yang Liu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Arash : Token-Efficient LLM-Assisted Crash Root Cause Analysis in Fuzz Driver Generation",
@@ -3625,7 +3722,7 @@
   "Bytecode Obfuscation for Smart Contracts via Structural and Semantic Perturbation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154745866",
-    "author": "Pengcheng Zhang and Xiao Wang and Yanxiang Tong and Hai Dong and Y H Xiao and Shunhui Ji",
+    "author": "Pengcheng Zhang and Xiao Wang and Yanxiang Tong and Hai Ying Dong and Y H Xiao and Shunhui Ji",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Bytecode Obfuscation for Smart Contracts via Structural and Semantic Perturbation",
@@ -3641,7 +3738,7 @@
   "Fault-Tolerant Design and Multi-Objective Model Checking for Real-Time Deep Reinforcement Learning Systems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154746917",
-    "author": "Guoxin Su and Thomas J. Robinson and Hoa Khanh Dam and Li Liu and David S. Rosenblum",
+    "author": "Guoxin Su and Thomas John Robinson and Hoa Khanh Dam and Li Liu and David S. Rosenblum",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Fault-Tolerant Design and Multi-Objective Model Checking for Real-Time Deep Reinforcement Learning Systems",
@@ -3689,7 +3786,7 @@
   "Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154481516",
-    "author": "Tingwei Zhu and Zhongzhen Wen and S J Liu and Y C Li and Tian Zhang and Xin Xia",
+    "author": "Tingwei Zhu and Zhongzhen Wen and S J Liu and Yi Li and Tian Zhang and Xin Xia",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions",
@@ -3754,7 +3851,7 @@
   "Stakeholder Value Criteria for Technical Debt Acquisition Decisions: An Empirical Analysis": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7153497020",
-    "author": "João Pedro Bittencourt and Rodrigo Spínola and Rita Suzana P. Maciel",
+    "author": "João Pedro Bittencourt and Rodrigo Oliveira Spinola and Rita Suzana Maciel",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Stakeholder Value Criteria for Technical Debt Acquisition Decisions: An Empirical Analysis",
@@ -3804,7 +3901,7 @@
   "Towards Improved DNN-Based Android Malware Detection via Uncertainty Estimation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7152036687",
-    "author": "Haodong Li and Xiao Cheng and Liu Wang and Haoyu Wang",
+    "author": "Haodong Li and Xiao Yu Cheng and Liu Wang and Haoyu Wang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Towards Improved DNN-Based Android Malware Detection via Uncertainty Estimation",
@@ -3885,7 +3982,7 @@
   "Rethinking Services in the Quantum Age: The SOQ Paradigm": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4416373175",
-    "author": "José Garcí­a-Alonso and Enrique Moguel and Jaime Alvarado‐Valiente and Javier Romero‐Álvarez and Álvaro M. Aparicio-Morales and Juan M. Murillo and Francisco Javier Cavero and Adrián Romero-Flores and Alfonso E. Márquez-Chamorro and José Antonio Parejo and Antonio Ruiz–Cortés and Giuseppe Bisicchia and Alessandro Bocci and Antonio Brogi",
+    "author": "José Manuel García-Alonso and Enrique Moguel and Jaime Alvarado‐Valiente and Javier Romero‐Álvarez and Álvaro M. Aparicio-Morales and Juan M. Murillo and Francisco Javier Cavero and Adrián Romero-Flores and Alfonso Eduardo Marquez-Chamorro and José Antonio Parejo and Antonio Ruiz–Cortés and Giuseppe Bisicchia and Alessandro Bocci and Antonio Brogi",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Rethinking Services in the Quantum Age: The SOQ Paradigm",
@@ -3902,7 +3999,7 @@
   "As Long As I See It - OSVHunter: Understanding and Detecting Open-Secret Vulnerabilities in Smart Contracts": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7149357202",
-    "author": "Songyan Ji and Jin Wu and Wei Zhang and Ming Han and Limin Ma and Jian Dong",
+    "author": "Songyan Ji and Jin Xiang Wu and Wei Zhang and Ming Han and Limin Ma and Jian Dong",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "As Long As I See It - OSVHunter: Understanding and Detecting Open-Secret Vulnerabilities in Smart Contracts",
@@ -3982,7 +4079,7 @@
   "Quantitative analysis of the information content of use case diagrams using the objectified FBS metric based on normalized entropy": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7147161477",
-    "author": "Stanisław J. Niepostyn and Wiktor B. Daszczuk",
+    "author": "Stanisław Jerzy Niepostyn and Wiktor B. Daszczuk",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Quantitative analysis of the information content of use case diagrams using the objectified FBS metric based on normalized entropy",
@@ -4046,7 +4143,7 @@
   "Towards an Oracle for Binary Decomposition Under Compilation Variance": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7144180628",
-    "author": "Ang Jia and He Jiang and Zhilei Ren and Xiaochen Li and Zhipeng Yang and Yaxin Duan and Ming Fan and Ting Liu",
+    "author": "Ang Jia and He Jiang and Zhilei Ren and Xiaochen Li and Zhipeng Yang and Yaxin Duan and Ming Yu Fan and Ting Liu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Towards an Oracle for Binary Decomposition Under Compilation Variance",
@@ -4062,7 +4159,7 @@
   "Benchmarking LLMs for Unit Test Generation from Real-World Functions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7141844560",
-    "author": "Dong Huang and Jie M. Zhang and Mark Harman and Q. Zhang and Mingzhe Du and See-Kiong Ng",
+    "author": "Dong Huang and Jie M. Zhang and Mark Harman and Q. Zhang and Mingzhe Du and See Kiong Ng",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Benchmarking LLMs for Unit Test Generation from Real-World Functions",
@@ -4271,7 +4368,7 @@
   "Software Performance Engineering for Foundation Model-Powered Software": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140323846",
-    "author": "Haoxiang Zhang and Shi Chang and Arthur Leung and Kishanthan Thangarajah and Boyuan Chen and Hanan Lutfiyya and Ahmed E. Hassan",
+    "author": "Haoxiang Zhang and Shi Chang and Arthur Leung and Kishanthan Thangarajah and Boyuan Chen and Hanan L. Lutfiyya and Ahmed E. Hassan",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Software Performance Engineering for Foundation Model-Powered Software",
@@ -4287,7 +4384,7 @@
   "Adaptive Anomaly Detection for Multi-Dimensional Issue Reports": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140329308",
-    "author": "Xu Wang and Minghui Chu and Hongwei Yu and Chuan Luo and Chunming Hu",
+    "author": "Xu Wang and Minghui Chu and Hongwei Yu and Chuan Wen Luo and Chunming Hu",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Adaptive Anomaly Detection for Multi-Dimensional Issue Reports",
@@ -4303,7 +4400,7 @@
   "Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7137885661",
-    "author": "Qian Chen and Rouyi Chen and Chenyang Yu and Ruyan Liu and C. Zhang and Yu Wang and Ke Wang and Linzhang Wang",
+    "author": "Qian Chen and Rouyi Chen and Chenyang Yu and Ruyan Liu and Chi Zhang and Yu Wang and Ke Wang and Linzhang Wang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks",
@@ -4559,7 +4656,7 @@
   "Theory of Troubleshooting: The Developer’s Cognitive Experience of Overcoming Confusion": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7134064037",
-    "author": "Arty Starr and Margaret-Anne Storey",
+    "author": "Arty Starr and Margaret‐Anne Storey",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Theory of Troubleshooting: The Developer’s Cognitive Experience of Overcoming Confusion",
@@ -4656,7 +4753,7 @@
   "A Systematic Literature Review on Large Language Models for Automated Program Repair": {
     "type": "REVIEW",
     "key": "https://openalex.org/W7133184417",
-    "author": "Quanjun Zhang and Chunrong Fang and Yang Xie and Yuxiang Ma and Weisong Sun and Yun Yang and Zhenyu Chen",
+    "author": "Quanjun Zhang and Chunrong Fang and Yang Xie and Yuxiang Ma and Weisong Sun and Yun Jin Yang and Zhenyu Chen",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "A Systematic Literature Review on Large Language Models for Automated Program Repair",
@@ -4672,7 +4769,7 @@
   "Automatically Engineering Trusted Software: A Research Roadmap": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7133189305",
-    "author": "Yuriy Brun and Saikat Chakraborty and Claire Le Goues and Corina S. Păsăreanu and Adish Singla",
+    "author": "Yuriy Brun and Saikat Chakraborty and Claire Le Goues and Corina S. Păsăreanu and Adish Kumar Singla",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Automatically Engineering Trusted Software: A Research Roadmap",
@@ -4705,7 +4802,7 @@
   "Exploring the Garden of Forking Paths in Empirical Software Engineering Research: A Multiverse Analysis": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7133206891",
-    "author": "Nathan Cassee and Robert Feldt",
+    "author": "Nathan Cassee and ROBERT H. FELDT",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Exploring the Garden of Forking Paths in Empirical Software Engineering Research: A Multiverse Analysis",
@@ -4849,7 +4946,7 @@
   "Securing the Foundation of AI: A Deep Dive into Dependency Management and Security in Deep Learning Frameworks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7130649250",
-    "author": "Xin Tan and B X Hou and Li Zhang",
+    "author": "Xin Lin Tan and Bo Hou and Li Zhang",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Securing the Foundation of AI: A Deep Dive into Dependency Management and Security in Deep Learning Frameworks",
@@ -5233,7 +5330,7 @@
   "Boosting Metamorphic Testing: A General Metamorphic Specification Language and a Supporting System": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7128299384",
-    "author": "Chang-ai Sun and SiYi Wu and XiaoYi Zhang and Pak‐Lok Poon",
+    "author": "Chang‐ai Sun and SiYi Wu and XiaoYi Zhang and Pak‐Lok Poon",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Boosting Metamorphic Testing: A General Metamorphic Specification Language and a Supporting System",
@@ -5361,7 +5458,7 @@
   "Actionable Framework for Understanding and Improving Social and Human Factors That Influence the Requirements Management in Software Ecosystems": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7127564333",
-    "author": "Rodrigo Feitosa and Paulo Malcher and C. A Vieira and Pablo Oliveira Antonino and Rodrigo Pereira dos Santos",
+    "author": "Rodrigo Feitosa and Paulo Malcher and Cassiano Medeiros Vieira Junior and Pablo Oliveira Antonino and Rodrigo Pereira dos Santos",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Actionable Framework for Understanding and Improving Social and Human Factors That Influence the Requirements Management in Software Ecosystems",
@@ -5474,7 +5571,7 @@
   "How Hard Can It Be? Quantifying MITRE Attack Campaigns with Attack Trees and cATM Logic": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4403345384",
-    "author": "Stefano M. Nicoletti and Milan Lopuhaä-Zwakenberg and Mariëlle Stoelinga and Fabio Massacci and Carlos E. Budde",
+    "author": "Stefano Maria Nicoletti and Milan Lopuhaä-Zwakenberg and Mariëlle I. A. Stoelinga and Fabio Massacci and Carlos E. Budde",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "How Hard Can It Be? Quantifying MITRE Attack Campaigns with Attack Trees and cATM Logic",
@@ -5604,7 +5701,7 @@
   "Charting Uncertain Waters: A Socio-Technical Roadmap for Sustaining Open Source Communities in the Age of GenAI": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124730205",
-    "author": "Zixuan Feng and Reed M. Milewicz and Emerson Murphy-Hill and Tyler Menezes and Alexander Serebrenik and Igor Steinmacher and Anita Sarma",
+    "author": "Zixuan Feng and Reed M. Milewicz and Emerson R. Murphy-Hill and Tyler Menezes and Alexander Serebrenik and Igor Steinmacher and Anita Sarma",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Charting Uncertain Waters: A Socio-Technical Roadmap for Sustaining Open Source Communities in the Age of GenAI",

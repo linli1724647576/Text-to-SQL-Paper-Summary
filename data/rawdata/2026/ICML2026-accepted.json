@@ -13929,20 +13929,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "DSGCR: Decomposed Spectral Geometry-Aware Cross-Modal Semantic Representation for 3D Visual Grounding": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-dsgcr-decomposed-spectral-geometry-aware-cross-modal-semantic-representation-for",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "DSGCR: Decomposed Spectral Geometry-Aware Cross-Modal Semantic Representation for 3D Visual Grounding",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62786",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "ANTiC: Adaptive Neural Temporal In Situ Compressor": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-antic-adaptive-neural-temporal-in-situ-compressor",
@@ -14121,20 +14107,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62837",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "What Reward Structure Enables Efficient Sparse-Reward RL? A Proof-of-Concept with Policy-Aware Matrix Completion": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-what-reward-structure-enables-efficient-sparse-reward-rl-a-proof-of-concept-with",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "What Reward Structure Enables Efficient Sparse-Reward RL? A Proof-of-Concept with Policy-Aware Matrix Completion",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62842",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16631,6 +16603,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-pair2scene-learning-local-object-relations-for-procedural-scene-generation",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/63859",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-trifuse-enhancing-attention-based-gui-grounding-via-multimodal-fusion",
@@ -16701,6 +16687,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Grouter: Decoupling Routing from Representation for Accelerated MoE Training": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-grouter-decoupling-routing-from-representation-for-accelerated-moe-training",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Grouter: Decoupling Routing from Representation for Accelerated MoE Training",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60478",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "UniJEPA: Enhancing Robot Policy via Unified Continuous and Discrete Representation Learning": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-unijepa-enhancing-robot-policy-via-unified-continuous-and-discrete-representatio",
@@ -16739,6 +16739,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63431",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization’s Impact on VLMs Beyond Accuracy": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-less-precise-can-be-more-reliable-a-systematic-evaluation-of-quantization-s-impa",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization’s Impact on VLMs Beyond Accuracy",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/63466",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16785,6 +16799,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-gotabpfn-from-feature-ordering-to-compact-tokenization-for-tabular-foundation-mo",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62523",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Beyond Extrapolation: Knowledge Utilization Paradigm with Bidirectional Inspiration for Time Series Forecasting": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-beyond-extrapolation-knowledge-utilization-paradigm-with-bidirectional-inspirati",
@@ -16823,6 +16851,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63453",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "What Reward Structure Enables Efficient Sparse-Reward RL? A Proof-of-Concept with Policy-Aware Matrix Completion": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-what-reward-structure-enables-efficient-sparse-reward-rl-a-proof-of-concept-with",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "What Reward Structure Enables Efficient Sparse-Reward RL? A Proof-of-Concept with Policy-Aware Matrix Completion",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62842",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16879,6 +16921,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63463",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-calpro-prior-aware-evidential-conformal-prediction-with-structure-aware-sensitiv",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66475",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -16991,6 +17047,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63481",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "DSGCR: Decomposed Spectral Geometry-Aware Cross-Modal Semantic Representation for 3D Visual Grounding": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-dsgcr-decomposed-spectral-geometry-aware-cross-modal-semantic-representation-for",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "DSGCR: Decomposed Spectral Geometry-Aware Cross-Modal Semantic Representation for 3D Visual Grounding",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62786",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -18167,20 +18237,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63858",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-pair2scene-learning-local-object-relations-for-procedural-scene-generation",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/63859",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -31891,20 +31947,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization’s Impact on VLMs Beyond Accuracy": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-less-precise-can-be-more-reliable-a-systematic-evaluation-of-quantization-s-impa",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization’s Impact on VLMs Beyond Accuracy",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/63466",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Rethinking Memory in Continual Learning: Beyond a Monolithic Store of the Past": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-rethinking-memory-in-continual-learning-beyond-a-monolithic-store-of-the-past",
@@ -42471,20 +42513,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/60866",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-gotabpfn-from-feature-ordering-to-compact-tokenization-for-tabular-foundation-mo",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62523",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -60097,20 +60125,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62246",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Grouter: Decoupling Routing from Representation for Accelerated MoE Training": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-grouter-decoupling-routing-from-representation-for-accelerated-moe-training",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Grouter: Decoupling Routing from Representation for Accelerated MoE Training",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60478",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -87523,20 +87537,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/61488",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-calpro-prior-aware-evidential-conformal-prediction-with-structure-aware-sensitiv",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66475",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

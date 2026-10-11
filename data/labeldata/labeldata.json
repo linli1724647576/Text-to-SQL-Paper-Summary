@@ -13401,6 +13401,36 @@
     "relevance_level": "core",
     "arxiv_id": "2604.25325"
   },
+  "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7220420742",
+    "author": "Minh Tam Pham and Thanh Trung Huynh and Thanh Dat Hoang and Quoc Viet Hung Nguyen and Hongzhi Yin and Thanh Tam Nguyen",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Ambiguity, Schema (genetic algorithms), Artificial intelligence, Data mining, Resolution (logic), Value (mathematics), Data modeling, Algorithm, Natural language processing, Algorithm design, Pattern recognition (psychology), Information retrieval, Electronic mail",
+    "url": "https://doi.org/10.1109/tkde.2026.3740539",
+    "doi": "10.1109/tkde.2026.3740539",
+    "venue": "TKDE",
+    "venue_track": "数据库领域",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "openalex_id": "https://openalex.org/W7220420742",
+    "labels": [
+      "Task Setting",
+      "Single-turn Text-to-SQL",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Grounding",
+      "Context Retrieval",
+      "SQL Generation"
+    ],
+    "relevance_level": "core"
+  },
   "RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2205.06983v2",
@@ -19770,19 +19800,20 @@
   },
   "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7125803306",
+    "key": "https://openalex.org/W4415348225",
     "author": "Yifu Liu and Yin Zhu and Yingqi Gao and Zhiling Luo and Xiaoxia Li and Xiaorong Shi and Yuntao Hong and Jinyang Gao and Yu Li and Bolin Ding and Jingren Zhou",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
     "year": "2026",
     "abstract": "To leverage the advantages of LLM in addressing challenges in the Text-to-SQL task, we present XiYan-SQL, an innovative framework effectively generating and utilizing multiple SQL candidates. It consists of three components: 1) a Schema Filter module filtering and obtaining multiple relevant schemas; 2) a multi-generator ensemble approach generating multiple high-quality and diverse SQL queries; 3) a selection model with a candidate reorganization strategy implemented to obtain the optimal SQL query. Specifically, for the multi-generator ensemble, we employ a multi-task fine-tuning strategy to enhance the capabilities of SQL generation models for the intrinsic alignment between SQL and text, and construct multiple generation models with distinct generation styles by fine-tuning across different SQL formats. The experimental results and comprehensive analysis demonstrate the effectiveness and robustness of our framework. Overall, XiYan-SQL achieves a new SOTA performance of 75.63% on the notable BIRD benchmark, surpassing all previous methods. It also attains SOTA performance on the Spider test set with an accuracy of 89.65%.",
-    "keywords": "Computer science, SQL, Robustness (evolution), Leverage (statistics), Data mining, Data modeling, Schema (genetic algorithms), Filter (signal processing), Set (abstract data type), PL/SQL, Relational database, Language Integrated Query, Artificial intelligence, Construct (python library), Scalability, Stored procedure, Data manipulation language, Nested set model, Database, Data structure, Machine learning, SQL/PSM, Database schema, Boosting (machine learning)",
+    "keywords": "Computer science, SQL, Leverage (statistics), Robustness (evolution), Data mining, Filter (signal processing), PL/SQL, Set (abstract data type), Schema (genetic algorithms), Construct (python library), Nested set model, Data modeling, Artificial intelligence, Language Integrated Query, Machine learning, Test set, Test case, Data manipulation language, Boosting (machine learning), Scalability, Relational database, Stored procedure, Selection (genetic algorithm), SQL/PSM",
     "url": "https://doi.org/10.1109/tkde.2026.3657851",
     "doi": "10.1109/tkde.2026.3657851",
     "venue": "TKDE",
     "venue_track": "数据库领域",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "openalex_id": "https://openalex.org/W7125803306",
+    "openalex_id": "https://openalex.org/W4415348225",
+    "arxiv_id": "2507.04701",
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",

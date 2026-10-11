@@ -275,22 +275,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
+      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
-      "category": "数据库领域",
-      "year": "2024",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
+      "year": "2025",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1007/s00778-024-00837-0",
-        "https://doi.org/10.1007/s00778-024-00837-0",
-        "https://openalex.org/W4391883497"
+        "10.1145/3767739",
+        "https://doi.org/10.1145/3767739",
+        "https://openalex.org/W4414241772"
       ],
       "notes": ""
     },
@@ -315,24 +315,24 @@
       "notes": ""
     },
     {
-      "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
+      "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
       "category": "数据库领域",
-      "year": "2026",
+      "year": "2024",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2026.3716724",
-        "https://doi.org/10.1109/tkde.2026.3716724",
-        "https://openalex.org/W7170260222"
+        "10.1007/s00778-024-00837-0",
+        "https://doi.org/10.1007/s00778-024-00837-0",
+        "https://openalex.org/W4391883497"
       ],
-      "notes": "missing abstract"
+      "notes": ""
     },
     {
       "title": "A Survey on Deep Reinforcement Learning for Data Processing and Analytics",
@@ -375,7 +375,7 @@
       "notes": ""
     },
     {
-      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+      "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_core",
@@ -388,11 +388,11 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2026.3657851",
-        "https://doi.org/10.1109/tkde.2026.3657851",
-        "https://openalex.org/W7125803306"
+        "10.1109/tkde.2026.3716724",
+        "https://doi.org/10.1109/tkde.2026.3716724",
+        "https://openalex.org/W7170260222"
       ],
-      "notes": ""
+      "notes": "missing abstract"
     },
     {
       "title": "prompt4vis: prompting large language models with example mining for tabular data visualization",
@@ -415,22 +415,22 @@
       "notes": ""
     },
     {
-      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
+      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TOSEM",
-      "normalized_venue": "TOSEM",
-      "category": "软件工程",
-      "year": "2025",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "VLDBJ",
+      "normalized_venue": "VLDBJ",
+      "category": "数据库领域",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3767739",
-        "https://doi.org/10.1145/3767739",
-        "https://openalex.org/W4414241772"
+        "10.1007/s00778-023-00809-w",
+        "https://doi.org/10.1007/s00778-023-00809-w",
+        "https://openalex.org/W4386099755"
       ],
       "notes": ""
     },
@@ -579,6 +579,26 @@
       "notes": "missing doi"
     },
     {
+      "title": "Zero-Shot Text-to-SQL Learning with Auxiliary Task",
+      "present_in_labeldata": true,
+      "stratum": "supplemental",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
+      "venue": "AAAI",
+      "normalized_venue": "AAAI",
+      "category": "AI 领域",
+      "year": "2020",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1609/aaai.v34i05.6246",
+        "https://doi.org/10.1609/aaai.v34i05.6246",
+        "https://openalex.org/W2997970380"
+      ],
+      "notes": ""
+    },
+    {
       "title": "Adaptive and Robust Translation from Natural Language to Multi-model Query Languages",
       "present_in_labeldata": true,
       "stratum": "supplemental",
@@ -679,7 +699,7 @@
       "notes": ""
     },
     {
-      "title": "Uncovering and Categorizing Social Biases in Text-to-SQL",
+      "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
@@ -687,14 +707,14 @@
       "venue": "ACL",
       "normalized_venue": "ACL",
       "category": "AI 领域",
-      "year": "2023",
+      "year": "2022",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2023.acl-long.759",
-        "https://doi.org/10.18653/v1/2023.acl-long.759",
-        "https://openalex.org/W4385570388"
+        "10.18653/v1/2022.acl-long.142",
+        "https://doi.org/10.18653/v1/2022.acl-long.142",
+        "https://openalex.org/W4285195848"
       ],
       "notes": ""
     },
@@ -719,22 +739,22 @@
       "notes": ""
     },
     {
-      "title": "SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL",
+      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
       "present_in_labeldata": true,
-      "stratum": "supplemental",
+      "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2025",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2025.acl-long.552",
-        "https://aclanthology.org/2025.acl-long.552/",
-        "https://openalex.org/W4412945394"
+        "10.1109/tkde.2026.3657851",
+        "https://doi.org/10.1109/tkde.2026.3657851",
+        "https://openalex.org/W4415348225"
       ],
       "notes": ""
     },
@@ -755,24 +775,6 @@
         "https://2026.sigmod.org/sigmod_papers.shtml"
       ],
       "notes": "missing doi, abstract"
-    },
-    {
-      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
-      "present_in_labeldata": true,
-      "stratum": "fill",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ArXiv",
-      "normalized_venue": "ArXiv",
-      "category": "ArXiv",
-      "year": "2026",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "https://arxiv.org/abs/2604.22934v1"
-      ],
-      "notes": "missing doi"
     }
   ]
 }

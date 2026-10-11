@@ -1,4 +1,20 @@
 {
+  "LLM-powered clustering for entity resolution": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7218691673",
+    "author": "Jiajie Fu and Haitong Tang and Arijit Khan and Sharad Mehrotra and Xiangyu Ke and Yunjun Gao",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "LLM-powered clustering for entity resolution",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Scalability, Cluster analysis, Data mining, Pairwise comparison, Partition (number theory), Set (abstract data type), Scheme (mathematics), Key (lock), Security token, Data set, Selection (genetic algorithm), Focus (optics), Machine learning, Artificial intelligence, Inference, Data quality, Data deduplication, Quality (philosophy), Task (project management), Granularity, Missing data, Field (mathematics), Relational database, Constrained clustering, Information retrieval, Table (database)",
+    "url": "https://doi.org/10.1007/s00778-026-01006-1",
+    "doi": "https://doi.org/10.1007/s00778-026-01006-1",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7218691673"
+  },
   "TFB-2: benchmarking and automated ensemble for time series forecasting": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7214111211",
@@ -18,7 +34,7 @@
   "VLDB S.I.: harnessing the power of foundation models for data management": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213441194",
-    "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Groth and Yannis Velegrakis",
+    "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Thomas Groth and Yannis Velegrakis",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "VLDB S.I.: harnessing the power of foundation models for data management",
@@ -223,7 +239,8 @@
     "doi": "https://doi.org/10.1007/s00778-026-00975-7",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7170829036"
+    "openalex_id": "https://openalex.org/W7170829036",
+    "arxiv_id": "2603.28080"
   },
   "PINE: Extracting Correlated Token Pairs for Explainable Entity Matching": {
     "type": "ARTICLE",
@@ -388,7 +405,7 @@
   "State Migration in Styx: Towards Serverless Transactional Functions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7165117195",
-    "author": "Kyriakos Psarakis and George C. Christodoulou and George Siachamis and Marios Fragkoulis and Asterios Katsifodimos",
+    "author": "Kyriakos Psarakis and George Christodoulou and George Siachamis and Marios Fragkoulis and Asterios Katsifodimos",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "State Migration in Styx: Towards Serverless Transactional Functions",

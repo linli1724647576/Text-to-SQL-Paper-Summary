@@ -1164,7 +1164,7 @@
   "One Size Does Not Fit All: Revisiting Code Context Engineering for Repository-Level Code Generation": {
     "type": "INPROCEEDINGS",
     "key": "fse-official-2026-one-size-does-not-fit-all-revisiting-code-context-engineering-for-repository-lev",
-    "author": "Yichen LI and Qiye Lin and Yun Peng and Zhihan Jiang and Jinyang Liu and Chaozheng Wang and Yintong Huo and Cuiyun Gao",
+    "author": "Yichen Li and Qiye Lin and Yun Peng and Zhihan Jiang and Jinyang Liu and Chaozheng Wang and Yintong Huo and Cuiyun Gao",
     "booktitle": "FSE Conference",
     "title": "One Size Does Not Fit All: Revisiting Code Context Engineering for Repository-Level Code Generation",
     "year": "2026",
@@ -2802,7 +2802,7 @@
   "Cascaded Code Editing: Large-Small Model Collaboration for Effective and Efficient Code Editing": {
     "type": "INPROCEEDINGS",
     "key": "fse-official-2026-cascaded-code-editing-large-small-model-collaboration-for-effective-and-efficien",
-    "author": "Chaozheng Wang and Zezhou Yang and Shuzheng Gao and Cuiyun Gao Harbin Institute of Technology, Shenzhen and Li Zongjie and Yichen LI and Ting Peng and Hailiang Huang and Yuetang Deng and Michael Lyu",
+    "author": "Chaozheng Wang and Zezhou Yang and Shuzheng Gao and Cuiyun Gao Harbin Institute of Technology, Shenzhen and Li Zongjie and Yichen Li and Ting Peng and Hailiang Huang and Yuetang Deng and Michael Lyu",
     "booktitle": "FSE Conference",
     "title": "Cascaded Code Editing: Large-Small Model Collaboration for Effective and Efficient Code Editing",
     "year": "2026",

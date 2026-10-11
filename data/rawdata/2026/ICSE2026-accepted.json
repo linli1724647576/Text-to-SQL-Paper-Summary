@@ -3824,7 +3824,7 @@
   "PredicateFix: Repairing Static Analysis Alerts with Bridging Predicates": {
     "type": "INPROCEEDINGS",
     "key": "icse-official-2026-predicatefix-repairing-static-analysis-alerts-with-bridging-predicates",
-    "author": "Yuan-An Xiao and Weixuan Wang and Dong Liu and Junwei Zhou and Shengyu Cheng and Yingfei Xiong",
+    "author": "Yuan-An Xiao and Weixuan Wang and Yong Liu and Junwei Zhou and Shengyu Cheng and Yingfei Xiong",
     "booktitle": "ICSE Conference",
     "title": "PredicateFix: Repairing Static Analysis Alerts with Bridging Predicates",
     "year": "2026",

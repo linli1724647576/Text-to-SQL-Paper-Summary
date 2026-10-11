@@ -951,20 +951,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-spike-htr-spiking-neural-transformer-for-handwritten-text-recognition",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66461",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Fleet: Few Shots Lead Effective AI-generated Image Detection": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-fleet-few-shots-lead-effective-ai-generated-image-detection",
@@ -17457,6 +17443,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "ArcDAE: Asymmetric Rectified Contrastive Diffusion Autoencoder for Unified Representation Learning": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-arcdae-asymmetric-rectified-contrastive-diffusion-autoencoder-for-unified-repres",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "ArcDAE: Asymmetric Rectified Contrastive Diffusion Autoencoder for Unified Representation Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60839",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Prefix-Cache-Aware Data Reordering for LLM-Augmented Database Analytics": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-prefix-cache-aware-data-reordering-for-llm-augmented-database-analytics",
@@ -17509,6 +17509,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63631",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Optimizing Few-Step Generation with Adaptive Matching Distillation": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-optimizing-few-step-generation-with-adaptive-matching-distillation",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/64175",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -17695,6 +17709,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-spike-htr-spiking-neural-transformer-for-handwritten-text-recognition",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66461",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "DecoVer: A Decompose-and-Verify Neuro-Symbolic Framework for Embodied Task Planning with BC+": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-decover-a-decompose-and-verify-neuro-symbolic-framework-for-embodied-task-planni",
@@ -17705,6 +17733,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63653",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "ADHD Disease Detection Based on Short- and Long-Term Brain Function Encoding and Memory Graph Network": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-adhd-disease-detection-based-on-short-and-long-term-brain-function-encoding-and-",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "ADHD Disease Detection Based on Short- and Long-Term Brain Function Encoding and Memory Graph Network",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/64929",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -17985,6 +18027,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63773",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Learning to Emulate Chaos: Adversarial Optimal Transport Regularization": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-learning-to-emulate-chaos-adversarial-optimal-transport-regularization",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Learning to Emulate Chaos: Adversarial Optimal Transport Regularization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60531",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -19273,20 +19329,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/64162",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Optimizing Few-Step Generation with Adaptive Matching Distillation": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-optimizing-few-step-generation-with-adaptive-matching-distillation",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/64175",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -48621,20 +48663,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "ArcDAE: Asymmetric Rectified Contrastive Diffusion Autoencoder for Unified Representation Learning": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-arcdae-asymmetric-rectified-contrastive-diffusion-autoencoder-for-unified-repres",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "ArcDAE: Asymmetric Rectified Contrastive Diffusion Autoencoder for Unified Representation Learning",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60839",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Position: Unlabeled ≠ No Human Supervision in Visual Learning": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-position-unlabeled-no-human-supervision-in-visual-learning",
@@ -49499,20 +49527,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/66287",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "ADHD Disease Detection Based on Short- and Long-Term Brain Function Encoding and Memory Graph Network": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-adhd-disease-detection-based-on-short-and-long-term-brain-function-encoding-and-",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "ADHD Disease Detection Based on Short- and Long-Term Brain Function Encoding and Memory Graph Network",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/64929",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -59873,20 +59887,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/66809",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Learning to Emulate Chaos: Adversarial Optimal Transport Regularization": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-learning-to-emulate-chaos-adversarial-optimal-transport-regularization",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Learning to Emulate Chaos: Adversarial Optimal Transport Regularization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60531",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

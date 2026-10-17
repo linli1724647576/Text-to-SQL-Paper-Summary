@@ -12632,13 +12632,14 @@
     "booktitle": "ICCV",
     "title": "The Silent Assistant: NoiseQuery as Implicit Guidance for Goal-Driven Image Generation.",
     "year": "2025",
-    "abstract": "",
+    "abstract": "In this work, we introduce NoiseQuery as a novel method for enhanced noise initialization in versatile goal-driven text-to-image (T2I) generation. Specifically, we propose to leverage an aligned Gaussian noise as implicit guidance to complement explicit user-defined inputs, such as text prompts, for better generation quality and controllability. Unlike existing noise optimization methods designed for specific models, our approach is grounded in a fundamental examination of the generic finite-step noise scheduler design in diffusion formulation, allowing better generalization across different diffusion-based architectures in a tuning-free manner. This model-agnostic nature allows us to construct a reusable noise library compatible with multiple T2I models and enhancement techniques, serving as a foundational layer for more effective generation. Extensive experiments demonstrate that NoiseQuery enables fine-grained control and yields significant performance boosts not only over high-level semantics but also over low-level visual attributes, which are typically difficult to specify through text alone, with seamless integration into current workflows with minimal computational overhead.",
     "keywords": "",
     "url": "https://doi.org/10.1109/iccv51701.2025.01637",
     "doi": "10.1109/ICCV51701.2025.01637",
     "venue": "ICCV2025",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7160172743"
+    "openalex_id": "https://openalex.org/W7160172743",
+    "arxiv_id": "2412.05101"
   },
   "Evagaussians: Event Stream Assisted Gaussian Splatting from Blurry Images.": {
     "type": "INPROCEEDINGS",

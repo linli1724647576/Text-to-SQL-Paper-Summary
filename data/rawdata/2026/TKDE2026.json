@@ -6248,13 +6248,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Effective Bug Detection in Graph Database Engines: An LLM-Based Approach",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Graph database engines play a pivotal role in efficiently storing and managing graph data across various domains, including bioinformatics, knowledge graphs, and recommender systems. Ensuring data accuracy within graph database engines is paramount, as inaccuracies can yield unreliable analytical outcomes. Current bug-detection approaches are confined to specific graph query languages, limiting their applicabilities when handling graph database engines that use various graph query languages across various domains. Moreover, they require extensive prior knowledge to generate queries for detecting bugs. To address these challenges, we introduces DGDB, a novel paradigm harnessing large language models(LLM), such as ChatGPT, for comprehensive bug detection in graph database engines. DGDB leverages ChatGPT to generate high-quality queries for different graph query languages. It subsequently employs differential testing to identify bugs in graph database engines. We applied this paradigm to graph database engines using the Gremlin query language and those using the Cypher query language, generating approximately 4,000 queries each. In the latest versions of Neo4j, Agensgraph, and JanusGraph databases, we detected 2, 5, and 3 wrong-result bugs, respectively.",
     "keywords": "Computer science, Graph, Database, Graph database, Data mining, Data modeling, Database theory, Distributed database, Information retrieval, Graph theory, Artificial intelligence, Database design, Relational database, Algorithm design",
     "url": "https://doi.org/10.1109/tkde.2026.3656491",
     "doi": "https://doi.org/10.1109/tkde.2026.3656491",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125473043"
+    "openalex_id": "https://openalex.org/W7125473043",
+    "arxiv_id": "2402.00292"
   },
   "Disentangled Contrastive Multi-View Clustering via Semantic Relevance Invariance": {
     "type": "ARTICLE",

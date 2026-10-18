@@ -6201,20 +6201,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "PromptDyG: Test-Time Prompt Adaptation on Dynamic Graphs": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-promptdyg-test-time-prompt-adaptation-on-dynamic-graphs",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "PromptDyG: Test-Time Prompt Adaptation on Dynamic Graphs",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/60760",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Causal Disentangled Anchor Learning for Scalable Fair Multi-view Clustering": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-causal-disentangled-anchor-learning-for-scalable-fair-multi-view-clustering",
@@ -11017,20 +11003,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Full-Spectrum Graph Neural Networks: Expressive and Scalable": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-full-spectrum-graph-neural-networks-expressive-and-scalable",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Full-Spectrum Graph Neural Networks: Expressive and Scalable",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62111",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Creat3r: Confidence Reaggregation for Exploration-aware Active 3D Reconstruction": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-creat3r-confidence-reaggregation-for-exploration-aware-active-3d-reconstruction",
@@ -12371,20 +12343,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/62487",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "CoGeoAD: Hierarchical Color-Geometric Fusion with Multi-View Attention for Zero-Shot 3D Anomaly Detection": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-cogeoad-hierarchical-color-geometric-fusion-with-multi-view-attention-for-zero-s",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "CoGeoAD: Hierarchical Color-Geometric Fusion with Multi-View Attention for Zero-Shot 3D Anomaly Detection",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62489",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -15553,20 +15511,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-efficient-multi-modal-dataset-distillation-via-analytic-parameter-matching",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/63258",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Resource-Efficient Reinforcement for Reasoning Large Language Models via Dynamic One-Shot Policy Refinement": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-resource-efficient-reinforcement-for-reasoning-large-language-models-via-dynamic",
@@ -18087,6 +18031,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "MIRA: A Score for Conditional Distribution Accuracy and Model Comparison": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-mira-a-score-for-conditional-distribution-accuracy-and-model-comparison",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "MIRA: A Score for Conditional Distribution Accuracy and Model Comparison",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/61301",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Rethinking Neural Network Learning Rates: A Stackelberg Perspective": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-rethinking-neural-network-learning-rates-a-stackelberg-perspective",
@@ -18115,6 +18073,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-efficient-multi-modal-dataset-distillation-via-analytic-parameter-matching",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/63258",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "DISCO: Mitigating Bias in Deep Learning with Conditional Distance Correlation": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-disco-mitigating-bias-in-deep-learning-with-conditional-distance-correlation",
@@ -18139,6 +18111,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63813",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Full-Spectrum Graph Neural Networks: Expressive and Scalable": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-full-spectrum-graph-neural-networks-expressive-and-scalable",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Full-Spectrum Graph Neural Networks: Expressive and Scalable",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62111",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -18195,6 +18181,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/68831",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-graph-grpo-training-graph-flow-models-with-reinforcement-learning",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/65744",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -18269,6 +18269,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "PromptDyG: Test-Time Prompt Adaptation on Dynamic Graphs": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-promptdyg-test-time-prompt-adaptation-on-dynamic-graphs",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "PromptDyG: Test-Time Prompt Adaptation on Dynamic Graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/60760",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Enhancing Affine Maximizer Auctions with Correlation-Aware Payment": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-enhancing-affine-maximizer-auctions-with-correlation-aware-payment",
@@ -18307,6 +18321,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63861",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Normality Calibration in Semi-supervised Graph Anomaly Detection": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-normality-calibration-in-semi-supervised-graph-anomaly-detection",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Normality Calibration in Semi-supervised Graph Anomaly Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62208",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -18503,6 +18531,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/63926",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "PromptPilot: Game-Theoretic Multi-Agent Prompt Optimization for Segment Anything": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-promptpilot-game-theoretic-multi-agent-prompt-optimization-for-segment-anything",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "PromptPilot: Game-Theoretic Multi-Agent Prompt Optimization for Segment Anything",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/65063",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -18787,6 +18829,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "CoGeoAD: Hierarchical Color-Geometric Fusion with Multi-View Attention for Zero-Shot 3D Anomaly Detection": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-cogeoad-hierarchical-color-geometric-fusion-with-multi-view-attention-for-zero-s",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "CoGeoAD: Hierarchical Color-Geometric Fusion with Multi-View Attention for Zero-Shot 3D Anomaly Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/62489",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "Prompt Tuning for CLIP on the Pretrained Manifold": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-prompt-tuning-for-clip-on-the-pretrained-manifold",
@@ -18829,6 +18885,20 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
+  "Boosting Monocular Metric Depth Estimation via Bokeh Rendering": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-boosting-monocular-metric-depth-estimation-via-bokeh-rendering",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Boosting Monocular Metric Depth Estimation via Bokeh Rendering",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/65700",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
   "HiPER: Hierarchical Plan–Execute RL for Multi-Turn LLM Agents": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-hiper-hierarchical-plan-execute-rl-for-multi-turn-llm-agents",
@@ -18839,6 +18909,20 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/64058",
+    "doi": "",
+    "venue": "ICML",
+    "venue_track": "AI 领域"
+  },
+  "Seeing the Unseen: Physics-as-Representation for Generalizable Gaze Perception": {
+    "type": "INPROCEEDINGS",
+    "key": "icml-official-2026-seeing-the-unseen-physics-as-representation-for-generalizable-gaze-perception",
+    "author": "",
+    "booktitle": "ICML Conference",
+    "title": "Seeing the Unseen: Physics-as-Representation for Generalizable Gaze Perception",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://icml.cc/virtual/2026/poster/66816",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -26683,20 +26767,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Boosting Monocular Metric Depth Estimation via Bokeh Rendering": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-boosting-monocular-metric-depth-estimation-via-bokeh-rendering",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Boosting Monocular Metric Depth Estimation via Bokeh Rendering",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/65700",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Harmonized Dual Policy Improvement for Modelic Reinforcement Learning": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-harmonized-dual-policy-improvement-for-modelic-reinforcement-learning",
@@ -26959,20 +27029,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65738",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-graph-grpo-training-graph-flow-models-with-reinforcement-learning",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/65744",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -49951,20 +50007,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "Seeing the Unseen: Physics-as-Representation for Generalizable Gaze Perception": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-seeing-the-unseen-physics-as-representation-for-generalizable-gaze-perception",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Seeing the Unseen: Physics-as-Representation for Generalizable Gaze Perception",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/66816",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "Noise as a Natural Regularizer in Markov Decision Processes: Connecting Environmental Stochasticity and Policy Simplicity": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-noise-as-a-natural-regularizer-in-markov-decision-processes-connecting-environme",
@@ -57745,20 +57787,6 @@
     "abstract": "GRPO-style reinforcement learning (RL)-based LLM fine-tuning algorithms have recently gained popularity. Relying on heuristic trust-region approximations, however, they can lead to brittle optimization behavior, as global importance-ratio clipping and group-wise normalization fail to regulate samples whose importance ratios fall outside the clipping range. We propose Query-Adaptive Trust-Region policy Optimization (QUATRO), which directly enforces trust-region constraints through a principled optimization. This yields a clear and interpretable objective that enables explicit control over policy updates and stable, entropy-controlled optimization, with a stabilizer terms arising intrinsically from the exact trust-region formulation. Empirically verified on diverse mathematical reasoning benchmarks, QUATRO shows stable training under increased policy staleness and aggressive learning rates, maintaining well-controlled entropy throughout training.",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/65885",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "MIRA: A Score for Conditional Distribution Accuracy and Model Comparison": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-mira-a-score-for-conditional-distribution-accuracy-and-model-comparison",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "MIRA: A Score for Conditional Distribution Accuracy and Model Comparison",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/61301",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"
@@ -77195,20 +77223,6 @@
     "venue": "ICML",
     "venue_track": "AI 领域"
   },
-  "PromptPilot: Game-Theoretic Multi-Agent Prompt Optimization for Segment Anything": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-promptpilot-game-theoretic-multi-agent-prompt-optimization-for-segment-anything",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "PromptPilot: Game-Theoretic Multi-Agent Prompt Optimization for Segment Anything",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/65063",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
   "RLIE: Rule Generation with Logistic Regression, Iterative Refinement, and Evaluation for Large Language Models": {
     "type": "INPROCEEDINGS",
     "key": "icml-official-2026-rlie-rule-generation-with-logistic-regression-iterative-refinement-and-evaluatio",
@@ -87173,20 +87187,6 @@
     "abstract": "",
     "keywords": "",
     "url": "https://icml.cc/virtual/2026/poster/66435",
-    "doi": "",
-    "venue": "ICML",
-    "venue_track": "AI 领域"
-  },
-  "Normality Calibration in Semi-supervised Graph Anomaly Detection": {
-    "type": "INPROCEEDINGS",
-    "key": "icml-official-2026-normality-calibration-in-semi-supervised-graph-anomaly-detection",
-    "author": "",
-    "booktitle": "ICML Conference",
-    "title": "Normality Calibration in Semi-supervised Graph Anomaly Detection",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://icml.cc/virtual/2026/poster/62208",
     "doi": "",
     "venue": "ICML",
     "venue_track": "AI 领域"

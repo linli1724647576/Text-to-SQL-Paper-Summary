@@ -1,4 +1,117 @@
 {
+  "Superrocket: efficient kernel-based transformation selection for fast and accurate time series classification": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223446406",
+    "author": "Zhiyu Liang and Chen Li and Xiongfei Li and Shourong Li and Zheng Liang and Chen Liang and Huaiyuan Liu and Shi Qiu and Jin Wang and Hongzhi Wang",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Superrocket: efficient kernel-based transformation selection for fast and accurate time series classification",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Transformation (genetics), Selection (genetic algorithm), Computational complexity theory, Overhead (engineering), Classifier (UML), Feature selection, Artificial intelligence, Optimization problem, Mathematical optimization, Algorithm, Series (stratigraphy), Machine learning, Minification, Time series, Optimization algorithm, Support vector machine, Efficient algorithm, Execution time, Feature (linguistics), Data mining, Selection algorithm, Time complexity",
+    "url": "https://doi.org/10.1007/s00778-026-01008-z",
+    "doi": "https://doi.org/10.1007/s00778-026-01008-z",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223446406"
+  },
+  "Intra-query runtime elasticity": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223277146",
+    "author": "Xukang Zhang and Huanchen Zhang and 孟小峰",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Intra-query runtime elasticity",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cloud computing, Elasticity (physics), Online aggregation, Query optimization, Distributed computing, Online analytical processing, Sargable, Latency (audio), Parallel computing, Tuple, Runtime system, Massively parallel, Query expansion, Range query (database), Execution time, User interface, Database, Data structure, Parallelism (grammar), Interface (matter), Task parallelism, Executable, Query plan, Data parallelism, Search engine, Skyline, Big data, Point (geometry)",
+    "url": "https://doi.org/10.1007/s00778-026-01016-z",
+    "doi": "https://doi.org/10.1007/s00778-026-01016-z",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223277146"
+  },
+  "LMG index: a robust and efficient learned index framework for balancing multiple performance dimensions": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223105842",
+    "author": "Yuzhen Chen and Bin Yao",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "LMG index: a robust and efficient learned index framework for balancing multiple performance dimensions",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Index (typography), Algorithm, Robustness (evolution), Data mining, Mathematics, Process capability index, Key (lock), Pattern recognition (psychology), Matching (statistics), Feature (linguistics), Stability (learning theory), Principal component analysis, Component (thermodynamics)",
+    "url": "https://doi.org/10.1007/s00778-026-01014-1",
+    "doi": "https://doi.org/10.1007/s00778-026-01014-1",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223105842"
+  },
+  "Efficient shortest path counting in dynamic road network": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7222906418",
+    "author": "Muhammad Farhan and Henning Köehler",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient shortest path counting in dynamic road network",
+    "year": "2026",
+    "abstract": "Abstract The shortest path counting is an important problem for various applications in road networks, such as traffic analysis, reliability assessment, and navigation services. Existing methods, such as 2-hop labeling schemes, precompute shortest-path distances and counts to enable fast query responses, but they face scalability challenges in large and dynamically changing networks. In this work, we propose an efficient solution, Dynamic Count Labeling (DCL) , for shortest path count queries on dynamic road networks. DCL consists of three key components: a tree hierarchy , a 2-hop count labeling scheme , and a shortcut count graph scheme . The tree hierarchy organizes the network to guide the 2-hop labeling design and ensures efficient query processing by limiting the search space to a small subset of relevant label entries. The shortcut count graph scheme enables efficient construction and dynamic maintenance of the 2-hop labels under edge weight increases and decreases. We further develop dynamic algorithms to update both the shortcut count graph and the 2-hop labels in response to network changes. Additionally, we introduce a parallel version of our algorithms that leverages the label structure for high parallel efficiency. Experimental results demonstrate that DCL can compete with existing approaches for static graphs in terms of construction time, index size and query time, while enabling efficient index updates for dynamic graphs, at a fraction of reconstruction costs.",
+    "keywords": "Computer science, Scalability, Shortest path problem, Graph, Tree (set theory), Path (computing), Scheme (mathematics), Key (lock), Theoretical computer science, Dynamic network analysis, Hierarchy, Enhanced Data Rates for GSM Evolution, Limiting, Graph theory, Dynamic programming, Face (sociological concept), Network topology, Data mining, Algorithm, Fraction (chemistry), Tree structure, Data structure, Measure (data warehouse), Shortest-path tree, Time complexity, Computational complexity theory, Distributed computing",
+    "url": "https://doi.org/10.1007/s00778-026-01015-0",
+    "doi": "https://doi.org/10.1007/s00778-026-01015-0",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7222906418"
+  },
+  "Fast construction of partitioned learned Bloom filter with theoretical guarantees": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4403579457",
+    "author": "Atsuki Sato and Yusuke Matsui",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Fast construction of partitioned learned Bloom filter with theoretical guarantees",
+    "year": "2026",
+    "abstract": "Abstract Bloom filter is a widely used classic data structure for approximate membership queries. Learned Bloom filters improve memory efficiency by leveraging machine learning, with the partitioned learned Bloom filter (PLBF) being among the most memory-efficient variants. However, PLBF suffers from high construction cost, with time complexity $$\\mathcal {O}(N^3k)$$ O ( N 3 k ) , where N and k are hyperparameters. In this paper, we propose three methods, fast PLBF , fast PLBF++ , and fast PLBF# , that reduce the construction complexity to $$\\mathcal {O}(N^2k)$$ O ( N 2 k ) , $$\\mathcal {O}(Nk \\log N)$$ O ( N k log N ) , and $$\\mathcal {O}(Nk \\log k)$$ O ( N k log k ) , respectively. Fast PLBF preserves the original PLBF structure and memory efficiency. Although fast PLBF++ and fast PLBF# may have different structures, we theoretically prove they are equivalent to PLBF under ideal data distribution. Furthermore, for non-ideal scenarios, we introduce an instance-specific measure of deviation from the ideal distribution and use it to bound the resulting difference in memory efficiency between PLBF and fast PLBF++. Experiments on real-world datasets demonstrate that, under the default setting ( $$N=1000$$ N = 1000 and $$k=5$$ k = 5 ), fast PLBF, fast PLBF++, and fast PLBF# are up to 58.7, 74.5, and 75.7 times faster to construct than original PLBF, respectively. In an ablation with larger k , which enables the construction of more accurate PLBFs, the speedups reach 235, 865, and 871 times at $$k=50$$ k = 50 . Additionally, fast PLBF maintains the same data structure as PLBF, and fast PLBF++ and fast PLBF# achieve nearly identical memory efficiency.",
+    "keywords": "Bloom filter, Bloom, Computer science, Filter (signal processing), Parallel computing, Algorithm, Theoretical computer science, Geology, Computer vision, Oceanography",
+    "url": "https://doi.org/10.1007/s00778-026-01011-4",
+    "doi": "https://doi.org/10.1007/s00778-026-01011-4",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4403579457",
+    "arxiv_id": "2410.13278"
+  },
+  "Parajoin: A Parallelism-aware approximate filtered similarity join method in vector databases": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7221878313",
+    "author": "Kangping Yi and Bin Yao and Bo Tang",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Parajoin: A Parallelism-aware approximate filtered similarity join method in vector databases",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Join (topology), Computer science, Algorithm, Similarity (geometry), Data mining, Mathematics, Database, Filter (signal processing), Pattern recognition (psychology), Artificial intelligence, Similitude, Theoretical computer science, Identification (biology), Set (abstract data type), Matching (statistics), Noise (video), Support vector machine, Sequence (biology)",
+    "url": "https://doi.org/10.1007/s00778-026-01012-3",
+    "doi": "https://doi.org/10.1007/s00778-026-01012-3",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7221878313"
+  },
+  "SEFRQO-Plus: a self-evolving query optimizer via large language models and retrieval-augmented generation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7222048420",
+    "author": "Hanwen Liu and Q. Zhang and Ryan Marcus and Ibrahim Sabek",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "SEFRQO-Plus: a self-evolving query optimizer via large language models and retrieval-augmented generation",
+    "year": "2026",
+    "abstract": "Abstract Query optimization is a crucial problem in database systems that has been studied for decades. Learned query optimizers (LQOs) can improve performance over time by incorporating feedback; however, they suffer from cold-start issues and often require retraining when workloads shift or schemas change. We initially proposed SEFRQO, a Self-Evolving Fine-tuned RAG-based Query Optimizer, which leverages fine-tuned LLMs to address these challenges and uses in-context learning to achieve continuous evolution. However, its system design relies on the assumption of repetitive query workloads, requires executing queries statically upon their first encounter (incurring extra overhead), and utilizes only partial feedback from the best historical records (insufficient feedback design). In this paper, we present SEFRQO-Plus, which resolves the above limitations. First, we design a feedback-oriented vector database with query structure-aware embeddings to support effective similarity search, and we incorporate multi-layered histories as references to enrich the feedback. Then, we enhance the prompt optimization workflow by utilizing multi-dimensional historical feedback to drive continuous self-evolution. Moreover, we provide formal theoretical proofs to validate the advantages of our customized query group relative policy optimization. Evaluations show that SEFRQO-Plus outperforms state-of-the-art LQOs, achieving reductions of 66.52% and 69.79% in query latency for the complete CEB and Stack workloads, respectively, compared to PostgreSQL. SEFRQO-Plus achieves an additional 15% improvement over the initial SEFRQO. Moreover, it generalizes effectively across multiple workloads and scenarios, and even across different DBMSes.",
+    "keywords": "Computer science, Query optimization, Sargable, Query language, Query expansion, Online aggregation, Workflow, RDF query language, Web search query, Query by Example, Web query classification, Mathematical proof, View, Data mining, Theoretical computer science, Boolean conjunctive query, Asynchronous communication, Information retrieval, Query plan, Spatial query, Similarity (geometry), Object Query Language, Embedding, Artificial intelligence",
+    "url": "https://doi.org/10.1007/s00778-026-00999-z",
+    "doi": "https://doi.org/10.1007/s00778-026-00999-z",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7222048420"
+  },
   "LLM-powered clustering for entity resolution": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7218691673",
@@ -34,7 +147,7 @@
   "VLDB S.I.: harnessing the power of foundation models for data management": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7213441194",
-    "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Thomas Groth and Yannis Velegrakis",
+    "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Groth and Yannis Velegrakis",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "VLDB S.I.: harnessing the power of foundation models for data management",
@@ -196,7 +309,7 @@
   "Efficient prompt learning for traffic forecasting": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7172498154",
-    "author": "Qianru Zhang and Xinyi Gao and Alexander Zhou and Reynold Cheng and Siu Ming Yiu and Hongzhi Yin",
+    "author": "Qianru Zhang and Xinyi Gao and Alexander Zhou and Reynold Cheng and Siu‐Ming Yiu and Hongzhi Yin",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Efficient prompt learning for traffic forecasting",
@@ -228,7 +341,7 @@
   "Can large language models be a cardinality estimator? An empirical study": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7170829036",
-    "author": "Liangzu Liu and Yinjun Wu and Yue Wang and Zhuo Chang and R N Su and Peizhi Wu and Jianjun Chen and Fuxin Jiang and Rui Shi and Bin Cui and Tieying Zhang",
+    "author": "Liangzu Liu and Yinjun Wu and Yue Wang and Zhuo Chang and Runze Su and Peizhi Wu and Jianjun Chen and Fuxin Jiang and Rui Shi and Bin Cui and Tieying Zhang",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Can large language models be a cardinality estimator? An empirical study",
@@ -325,7 +438,7 @@
   "Distilled documentation for dialect-specific SQL generation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167202673",
-    "author": "Till Döhmen and Adithya Krishnan and Hamilton Ulmer and Peter Boncz and Sebastian Schelter",
+    "author": "Till Döhmen and Adithya Krishnan and Hamilton Ulmer and Peter A. Boncz and Sebastian Schelter",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Distilled documentation for dialect-specific SQL generation",
@@ -337,22 +450,6 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7167202673"
-  },
-  "$$\\textsf{IACS}^{+}$$: Inductive Attributed Community Search via Learning across Graphs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7166810957",
-    "author": "Ao Liu and Shuheng Fang and Kangfei Zhao and Zhixun Li and Jeffrey Xu Yu and Zhiwei Zhang and Guoli Yang and Kaiyu Feng and Ye Yuan and Guoren Wang",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "$$\\textsf{IACS}^{+}$$: Inductive Attributed Community Search via Learning across Graphs",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Artificial intelligence, Feature (linguistics), Set (abstract data type), Theoretical computer science, Matching (statistics), Class (philosophy), Task (project management), Key (lock), Term (time), Perspective (graphical), Mathematics",
-    "url": "https://doi.org/10.1007/s00778-026-00990-8",
-    "doi": "https://doi.org/10.1007/s00778-026-00990-8",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7166810957"
   },
   "On querying minimum spanning tree in temporal graphs": {
     "type": "ARTICLE",
@@ -369,6 +466,22 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7166817109"
+  },
+  "$$\\textsf{IACS}^{+}$$: Inductive Attributed Community Search via Learning across Graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7166810957",
+    "author": "Ao Liu and Shuheng Fang and Kangfei Zhao and Zhixun Li and Jeffrey Xu Yu and Zhiwei Zhang and Guoli Yang and Kaiyu Feng and Ye Yuan and Guoren Wang",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "$$\\textsf{IACS}^{+}$$: Inductive Attributed Community Search via Learning across Graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Feature (linguistics), Set (abstract data type), Theoretical computer science, Matching (statistics), Class (philosophy), Task (project management), Key (lock), Term (time), Perspective (graphical), Mathematics",
+    "url": "https://doi.org/10.1007/s00778-026-00990-8",
+    "doi": "https://doi.org/10.1007/s00778-026-00990-8",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7166810957"
   },
   "Hypergraph decomposition with intersection bounds": {
     "type": "ARTICLE",
@@ -437,7 +550,7 @@
   "Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7164001305",
-    "author": "Luyu Qiu and Yuming Xu and Haoyang Li and Chen Zhang and Alexander Zhou and Peng Cheng and L Chen and Qing Li",
+    "author": "Luyu Qiu and Yuming Xu and Haoyang Li and Chen Zhang and Alexander Zhou and Peng Cheng and Lei Chen and Qing Li",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees",
@@ -502,7 +615,7 @@
   "MetaStore: A system for effectively analyzing deep learning meta-data at scale": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160844770",
-    "author": "Linan Zheng and Huayi Zhang and Samuel Madden and Elke Rundensteiner and Lei Cao",
+    "author": "Linan Zheng and Huayi Zhang and Samuel R. Madden and Elke Rundensteiner and Lei Cao",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "MetaStore: A system for effectively analyzing deep learning meta-data at scale",
@@ -577,7 +690,8 @@
     "doi": "https://doi.org/10.1007/s00778-025-00961-5",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7148694636"
+    "openalex_id": "https://openalex.org/W7148694636",
+    "arxiv_id": "2408.04092"
   },
   "Efficient graph embedding at scale: optimizing CPU-GPU-SSD integration": {
     "type": "ARTICLE",
@@ -593,7 +707,8 @@
     "doi": "https://doi.org/10.1007/s00778-026-00974-8",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7148720765"
+    "openalex_id": "https://openalex.org/W7148720765",
+    "arxiv_id": "2505.09258"
   },
   "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations": {
     "type": "ARTICLE",
@@ -785,7 +900,8 @@
     "doi": "https://doi.org/10.1007/s00778-025-00953-5",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7122621386"
+    "openalex_id": "https://openalex.org/W7122621386",
+    "arxiv_id": "2501.01631"
   },
   "Finding Locally Densest Subgraphs: Convex Programming with Edge and Triangle Density": {
     "type": "ARTICLE",
@@ -801,7 +917,8 @@
     "doi": "https://doi.org/10.1007/s00778-025-00958-0",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7118144988"
+    "openalex_id": "https://openalex.org/W7118144988",
+    "arxiv_id": "2504.10937"
   },
   "KOG: A secret sharing-based scalable privacy-preserving training framework for decision trees": {
     "type": "ARTICLE",

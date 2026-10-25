@@ -56,7 +56,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "SWTD: A Sliding Window Index for Routing in Dynamic Time-Dependent Road Networks",
     "year": "2026",
-    "abstract": "",
+    "abstract": "The Time-Dependent Shortest Path (TDSP) problem aims to find the departure time with minimal travel time between locations in road networks with time-varying traffic conditions. This problem is fundamental to modern navigation systems, which use traffic prediction models to continuously update each road's travel time at different future times. However, finding TDSP in real-time based on these frequent prediction updates remains an unsolved problem. Existing methods either compute results from scratch (ensuring accuracy but sacrificing efficiency) or ignore updates (ensuring efficiency but sacrificing accuracy). To break this obstacle, we propose a Sliding Window Time-Dependent index (SWTD) that is both fast and accurate. Our solution addresses two fundamental limitations of existing methods: (1) the expensive graph searches required during queries or index maintenance, and (2) the large computational complexity arising from processing long time horizons (e.g. 12 hours). Firstly, SWTD adapts the search-free H2H index with virtual components for time-dependent travel times. Secondly, it employs a sliding window mechanism that maintains the index only for the near-future prediction window (e.g. 2 hours). The window slides forward periodically (e.g. every 10 minutes) to cover the entire domain, each time incorporating new traffic predictions. To enable the index to also slides, we develop novel algorithms that efficiently extend the index to new time intervals and update it to reflect changes in traffic predictions. We further optimize SWTD's query throughput during index sliding by identifying unaffected queries and leveraging the partially updated index. Experiments on real-world data show our SWTD accelerates query processing by 2-3 orders of magnitude and improves index availability by 90% compared to the state-of-the-art (SOTA). Notably, SWTD is the first solution, to our knowledge, that enables both high query efficiency and accuracy for real-time TDSP under continuously updated traffic predictions.",
     "keywords": "Computer science, Routing (electronic design automation), Computer network, Sliding window protocol, Window (computing), Index (typography), Real-time computing, Network topology, Adaptive routing, Algorithm design, Vehicle dynamics, Intelligent Network, Dynamic Source Routing, Routing protocol, Static routing, Data modeling, Multipath routing, Link-state routing protocol, Distributed computing, Electronic mail, Key (lock), Robustness (evolution)",
     "url": "https://doi.org/10.1109/tkde.2026.3732475",
     "doi": "https://doi.org/10.1109/tkde.2026.3732475",
@@ -765,7 +765,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "FedMixer: Heterogeneity-Resilient Federated Learning for Time Series Forecasting",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Time series forecasting (TSF) models the underlying patterns of historical and current time series data to make predictions for future trends, which is widely applied in varying areas to enhance decision-making, optimize resource allocation, and improve operational efficiency. However, traditional TSF approaches are increasingly challenged by data privacy concerns and the demand for large datasets. Federated learning (FL) is a distributed training framework that allows models to be trained locally on clients. However, the heterogeneity of time series data across clients significantly impacts model performance. Unlike well-studied domains like image classification, the issue of data heterogeneity in TSF remains underexplored. In this paper, we propose FedMixer, a heterogeneity-resilient FL method designed for TSF tasks. FedMixer employs an adaptive spectral clustering mechanism to group clients and assigns tailored heterogeneous models to each cluster, allowing personalized model configurations that suit varying data characteristics among clients. To achieve aggregation across models with heterogeneous structures, we propose a mutual distillation design to facilitate effective knowledge sharing, allowing clients from different clusters to learn from each other. Extensive experiments on four datasets demonstrate that FedMixer consistently outperforms baseline methods, offering superior prediction accuracy and robustness in data heterogeneity and scalability, while maintaining computational and communication efficiency.",
     "keywords": "Computer science, Time series, Series (stratigraphy), Data mining, Data modeling, Distributed database, Artificial intelligence, Algorithm design, Database, Server",
     "url": "https://doi.org/10.1109/tkde.2026.3721795",
     "doi": "https://doi.org/10.1109/tkde.2026.3721795",
@@ -797,7 +797,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "AdaPrompt: Adaptive Prompt Learning to Alleviate Semantic Inconsistency for Conversational Recommendation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Conversational Recommender Systems (CRSs) aim to proactively elicit user preferences through natural language conversations. However, CRSs usually face the challenge of semantic inconsistency between the conversation module and recommendation module. Many existing methods strive to leverage prompt learning to unify these two modules, but the prompt templates they designed are still manually created and weakly correlated. To address these issues, we propose a novel paradigm, Adaptive Prompt Learning to Alleviate Semantic Inconsistency for Conversational Recommendation (AdaPrompt), which consists of Adaptive Prompt Learning (APL) and Prompt-Enhanced CRS (PECRS). First, APL focuses on the adaptive learning of both task-agnostic and task-oriented tokens by utilizing knowledge-aware prompt tuning on large-scale Pre-trained Language Models (PLMs). Then, PECRS aims to utilize these two types of tokens to dynamically construct conversation-oriented and recommendation-oriented prompt templates, to proactively elicit the highly-consistent knowledge from the base PLMs to generate responses and predict items, respectively, thereby alleviating semantic inconsistency between both modules. Extensive experiments on four public CRS-based datasets show that our AdaPrompt achieves new state-of-the-art performance and exhibits its superiority of addressing semantic inconsistency in the CRS.",
     "keywords": "Computer science, Artificial intelligence, Semantics (computer science), Natural language processing, Recommender system, Information retrieval, Knowledge-based systems, Data modeling, Training set, Semantic Web, Deep learning, Machine learning",
     "url": "https://doi.org/10.1109/tkde.2026.3719576",
     "doi": "https://doi.org/10.1109/tkde.2026.3719576",
@@ -846,13 +846,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Fairness in Augmented Graph Learning: A Survey",
     "year": "2026",
-    "abstract": "",
-    "keywords": "",
+    "abstract": "Graph learning has evolved into Augmented Graph Learning (AGL) by integrating specialized machine learning (ML) techniques. Examples include federated learning, graph transformers, and graph condensation. While enhancing model utility, AGL introduces unique intersectional fairness challenges that traditional GNN debiasing frameworks, which primarily focus on message-passing regulations, fail to address. This paper provides a systematic investigation into this emerging field, termed FairGX. We first delineate the shift from conventional fairness-aware graph learning to the FairGX paradigm, identifying novel bias sources inherent in ML augmentations, such as dual-side disparities in federated aggregation and attention-head skewness. A structured taxonomy is established to categorize existing literature based on their technical integration and fairness objectives. Furthermore, we analyze the impact of diverse ML paradigms on algorithmic equity, emphasizing the unique challenges in human-centered applications and the absence of a unified framework. We conclude by identifying five critical future directions, including novel metrics for AGL, fairness-privacy synergy, and Fairness-aware LLM4Graph/Graph4LLM. This survey serves as a foundational roadmap for developing robust and equitable graph systems in complex ML environments.",
+    "keywords": "Computer science, Debiasing, Categorization, Graph, Theoretical computer science, Data science, Graph database, Taxonomy (biology), Graph theory, Machine learning, Focus (optics), Artificial intelligence, Graph algorithms, Recommender system, Data modeling, Exploit",
     "url": "https://doi.org/10.1109/tkde.2026.3719932",
     "doi": "https://doi.org/10.1109/tkde.2026.3719932",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7172384862"
+    "openalex_id": "https://openalex.org/W7172384862",
+    "arxiv_id": "2504.21296"
   },
   "Hi-Chain: Hierarchical and Intelligent Blockchain Data Storage Scheme for UAV Networks": {
     "type": "ARTICLE",
@@ -873,7 +874,7 @@
   "Hypergraph-Structured Variational Inference for Next-Basket Recommendation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7172394998",
-    "author": "Wen Yang and Ziyi Liu and Rui Hong Zhou and Lu Chen and Jianxin Li and Chengfei Liu and Jiajie Xu",
+    "author": "Wen Yang and Ziyi Liu and Rui Hong Zhou and Lu Chen and Jianxin Li and Chengfei Liu A and Jiajie Xu",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Hypergraph-Structured Variational Inference for Next-Basket Recommendation",
@@ -1039,7 +1040,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "PMatch: A Secure Framework for Querying Private Localized Graph Patterns",
     "year": "2026",
-    "abstract": "",
+    "abstract": "202610 bcjz",
     "keywords": "Computer science, Graph, Theoretical computer science, Graph theory, Data modeling, Data mining, Distributed database, Algorithm design, Relational database, Electronic mail, Data integrity, Public-key cryptography",
     "url": "https://doi.org/10.1109/tkde.2026.3718737",
     "doi": "https://doi.org/10.1109/tkde.2026.3718737",
@@ -1243,7 +1244,7 @@
   "TOE: Tackling Distribution Shifts in Time Series via Three-Perspective Online Ensemble": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7171536167",
-    "author": "Yujue Zhou and Jiarong Liu and Hong Peng and Shuanghua Yang and Bowen Du",
+    "author": "Yujue Zhou and Jiarong Liu and Hong Peng and Shuang‐Hua Yang and Bowen Du",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "TOE: Tackling Distribution Shifts in Time Series via Three-Perspective Online Ensemble",
@@ -1259,7 +1260,7 @@
   "Auction-Aware Crowdsourced Parcel Assignment for Cooperative Urban Logistics": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7171546968",
-    "author": "Guanglei Zhu and Jiawen Zhang and Xuhui Song and Shuo He and Yafei Li and Jiangliang Xu and Mingliang Xu",
+    "author": "Guanglei Zhu and Jiawen Zhang and Xuhui Song and Shuo He and Yafei Li and Jianliang Xu and Mingliang Xu",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Auction-Aware Crowdsourced Parcel Assignment for Cooperative Urban Logistics",
@@ -1297,8 +1298,8 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Counterfactual Fairness Prediction on Missing Data",
     "year": "2026",
-    "abstract": "",
-    "keywords": "",
+    "abstract": "Machine learning, viewed through a causal lens, has sparked a strong interest in the pursuit of fairness. Counterfactual fairness, a popular notion within this framework, evaluates the fairness of a model by comparing its predictions for each individual in the real world with those in counterfactual scenarios, where sensitive attributes (e.g., race, gender, age) are modified. Existing methods for learning counterfactual fairness models rely on having access to complete and clean data. However, real-world data are often of low quality, frequently affected by issues such as missing values. These challenges hinder the training of accurate causal models and mislead the development of counterfactual fairness models. In this paper, we propose the Counterfactual Fair prediction over Missing Data (CFairMD) method to bridge this important gap. CFairMD proposes a causal importance-weighted autoencoder to impute missing data and perform counterfactual inference. It integrates missing data within a joint model framework that captures the relationships between covariates and outcomes. Additionally, we design a counterfactual symmetric function to generate fair representations, complemented by a causally invariant penalty. Theoretical analysis shows that CFairMD achieves counterfactual fairness guarantees in a scalable and flexible manner. Extensive experimental results on four benchmarking datasets show that CFairMD outperforms eight state-of-the-art approaches, with over 22% higher counterfactual fairness gain on average.",
+    "keywords": "Counterfactual thinking, Computer science, Missing data, Econometrics, Artificial intelligence, Machine learning, Scalability, Counterfactual conditional, Data modeling, Benchmark (surveying), Covariate, Data mining, Causal model, Function (biology), Benchmarking, Autoencoder, Data-driven, Imputation (statistics)",
     "url": "https://doi.org/10.1109/tkde.2026.3717344",
     "doi": "https://doi.org/10.1109/tkde.2026.3717344",
     "venue": "TKDE2026",
@@ -1324,7 +1325,7 @@
   "RWKV-TS+: Adaptive Long-Range Prompt for Multiple Time Series Tasks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7171399439",
-    "author": "Huaxin Pang and Xiaoxia Xie and Y Li and Zhuobin Jiang and Xi Zhang and Huaqi Zhang and Shikui Wei and Yao Zhao and Yufeng Zhao",
+    "author": "Huaxin Pang and Xiaoxia Xie and Y Li and Zhuobin Jiang and Xiaoping Zhang and Huaqi Zhang and Shikui Wei and Yao Zhao and Yufeng Zhao",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "RWKV-TS+: Adaptive Long-Range Prompt for Multiple Time Series Tasks",
@@ -1340,7 +1341,7 @@
   "DSCAN: Structural Clustering on Directed Graphs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7171401907",
-    "author": "Lingkai Meng and Long Yuan and X L Lin and Zi Chen and Shiyu Yang and K Wang",
+    "author": "Lingkai Meng and Long Yuan and Xuemin Lin and Zi Chen and Shiyu Yang and K Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "DSCAN: Structural Clustering on Directed Graphs",
@@ -1484,7 +1485,7 @@
   "Stochastic Process Mining: Characteristics and Challenges": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7169791053",
-    "author": "Sander J. J. Leemans and Xixi Lu and David Chapela-Campa and Claudio Di Ciccio and Izack Cohen and Benoît Depaire and Stephan A. Fahrenkrog-Petersen and Avigdor Gal and Massimiliano de Leoni and Henrik Leopold and Orlenys López Pintado and Felix Mannhardt and Fabrizio Maria Maggi and Niels Martin and Marco Montali and Marco Pegoraro and Artem Polyvyanyy and Arik Senderovich and Sam Verboven and Akio Watanabe and Matthias Weidlich and Jan Martijn E. M. van der Werf",
+    "author": "Sander J. J. Leemans and Xixi Lu and David Chapela-Campa and Claudio Di Ciccio and Izack Cohen and Benoît Depaire and Stephan A. Fahrenkrog-Petersen and Avigdor Gal and Massimiliano de Leoni and Henrik Leopold and Orlenys López‐Pintado and Felix Mannhardt and Fabrizio Maria Maggi and Niels Martin and Marco Montali and Marco Pegoraro and Artem Polyvyanyy and Arik Senderovich and Sam Verboven and Akio Watanabe and Matthias Weidlich and Jan Martijn E. M. van der Werf",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Stochastic Process Mining: Characteristics and Challenges",
@@ -1533,7 +1534,7 @@
   "Incomplete Multi-View Clustering via Cross-View Diversity Enhanced Fine-Grained Tensor Completion": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167930156",
-    "author": "Chundan Liu and Yongyong Chen and Kang Zhao and Junyu Dong and Panpan Zheng and Chong Peng and Qiang Cheng",
+    "author": "Chundan Liu and Yongyong Chen and Kang Zhao and Junyu Dong and Panpan Zheng and Chong Peng and Qiang Shawn Cheng",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Incomplete Multi-View Clustering via Cross-View Diversity Enhanced Fine-Grained Tensor Completion",
@@ -1646,7 +1647,7 @@
   "Threefold Consensus-Driven Anchor Alignment for Efficient Multi-View Clustering": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167503186",
-    "author": "Chuan Tang and Miaomiao Li and Yi-Xiang Wang and Renxiang Guan and Siwei Wang and Chang Tang and En Zhu and X Y Liu",
+    "author": "Chuan Tang and Miaomiao Li and Jun Wang and Renxiang Guan and Siwei Wang and Chang Tang and En Zhu and X Y Liu",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Threefold Consensus-Driven Anchor Alignment for Efficient Multi-View Clustering",
@@ -1691,6 +1692,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4399454054",
     "arxiv_id": "2406.03712"
+  },
+  "Multi-Kernelized Fuzzy Granular Outlier Detector": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7166847988",
+    "author": "Pengfei Zhang and Zhong Yuan and Siyi Yu and Jiawei Luo and Xin Min and Tianrui Li and Yu Zheng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Multi-Kernelized Fuzzy Granular Outlier Detector",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://doi.org/10.1109/tkde.2026.3708765",
+    "doi": "https://doi.org/10.1109/tkde.2026.3708765",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7166847988"
   },
   "Capturing Context-Aware Route Choice Semantics for Trajectory Representation Learning": {
     "type": "ARTICLE",
@@ -1744,7 +1761,7 @@
   "A Robustness Enhancement Strategy for Structure-Sensitive Tasks via Diverse Adversarial Perturbations": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7166843887",
-    "author": "Xi Zhang and Weiwei Li and Qunpeng Hu and Yi-Xiang Wang and Fangfang Liu and Quan-Ke Pan and Weiren Yu and Qun Jin",
+    "author": "Xinyi Zhang and Weiwei Li and Qunpeng Hu and Jingchao Wang and Fangfang Liu and Quan-Ke Pan and Weiren Yu and Qun Jin",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "A Robustness Enhancement Strategy for Structure-Sensitive Tasks via Diverse Adversarial Perturbations",
@@ -1756,22 +1773,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7166843887"
-  },
-  "Multi-Kernelized Fuzzy Granular Outlier Detector": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7166847988",
-    "author": "Pengfei Zhang and Zhong Yuan and Siyi Yu and Jiawei Luo and Xin Min and Tianrui Li and Yu Zheng",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Multi-Kernelized Fuzzy Granular Outlier Detector",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://doi.org/10.1109/tkde.2026.3708765",
-    "doi": "https://doi.org/10.1109/tkde.2026.3708765",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7166847988"
   },
   "IFCDR: A Cross-Domain Information Fusion-Based Architecture for Cross Domain Recommendation": {
     "type": "ARTICLE",
@@ -2226,7 +2227,7 @@
   "Pretrained Model Recommendation for Downstream Fine-Tuning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4392735792",
-    "author": "Jiameng Bai and Sai Wu and Jie Guang Song and Junbo Zhao and Gang Chen",
+    "author": "Jiameng Bai and Sai Wu and Jie Song and Junbo Zhao and Gang Chen",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Pretrained Model Recommendation for Downstream Fine-Tuning",
@@ -2259,7 +2260,7 @@
   "Efficient Structure-Aware Discrete Clustering via Multi-Order Anchor Graphs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163870819",
-    "author": "Ben Qiang Yang and Xi Zhang and Yi Zhou and Haoxin Wu and Feiping Nie and Badong Chen",
+    "author": "Ben Qiang Yang and Xuetao Zhang and Yi Zhou and Haoxin Wu and Feiping Nie and Badong Chen",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Efficient Structure-Aware Discrete Clustering via Multi-Order Anchor Graphs",
@@ -2639,7 +2640,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3699701",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7163220819"
+    "openalex_id": "https://openalex.org/W7163220819",
+    "arxiv_id": "2502.02061"
   },
   "FocusKG: A Novel Multimodal Knowledge Graph Dataset With Temporal Information for Link Prediction": {
     "type": "ARTICLE",
@@ -2772,7 +2774,7 @@
   "A Unified Framework With Capped Tensor Norm Minimization for Multiview Subspace Learning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7161800415",
-    "author": "Yao Fu and Zhi Wang and Dong Hu and Tao Jia and Chao Gao and Zhili Wang",
+    "author": "Yao Fu and Zhi Wang and Dong Hu and Tao Jia and Chao Gao and Zhen Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "A Unified Framework With Capped Tensor Norm Minimization for Multiview Subspace Learning",
@@ -2869,7 +2871,7 @@
   "Integrating Entropy Regulation and Dual-Objective Optimization for Personalized Exercise Recommendation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7161304331",
-    "author": "Zhonglong Guan and Xinghe Cheng and Zezheng Wu and Ke Liang and Qing Yang and Yi-Xiang Wang and Jian Zhang",
+    "author": "Zhonglong Guan and Xinghe Cheng and Zezheng Wu and Ke Liang and Qing Yang and Jiapu Wang and J Zhang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Integrating Entropy Regulation and Dual-Objective Optimization for Personalized Exercise Recommendation",
@@ -3127,7 +3129,7 @@
   "MESE: Mining Emotional and Semantic Evolution From User Comments for Fake News Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160386174",
-    "author": "Rong Xu and Jiaxing Shang and Mengya Guan and Yi-Xiang Wang and Haoyue Cui and Geyong Min",
+    "author": "Rong Xu and Jiaxing Shang and Mengya Guan and Jingqing Wang and Haoyue Cui and Geyong Min",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "MESE: Mining Emotional and Semantic Evolution From User Comments for Fake News Detection",
@@ -3175,7 +3177,7 @@
   "Exploring Backdoor Attack and Defense for LLM-Empowered Recommendations": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4416052668",
-    "author": "Liangbo Ning and Wenqi Fan and Qing X. Li",
+    "author": "Liangbo Ning and Wenqi Fan and Qing Li",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Exploring Backdoor Attack and Defense for LLM-Empowered Recommendations",
@@ -3513,7 +3515,7 @@
   "Furion: Efficient and Atomic Cross-Blockchain Transactions Through Multi-Future Exploration": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154630381",
-    "author": "Ru Cheng and Yifan Zhou and Jiang Qing Xiao and Shijie Zhang and Haoyu Dong and Hai Jin and Bo Li",
+    "author": "Ru Cheng and Yifan Zhou and Jiang Xiao and Shijie Zhang and Haoyu Dong and Hai Jin and Bo Li",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Furion: Efficient and Atomic Cross-Blockchain Transactions Through Multi-Future Exploration",
@@ -3546,7 +3548,7 @@
   "Intra-Group Individual Item Fairness-Aware Recommendation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154570477",
-    "author": "Ruijia Ma and L Zhang and Rongbo Qi and Chunyao Song and Tingjian Ge",
+    "author": "Ruijia Ma and Lin Zhang and Rongbo Qi and Chunyao Song and Tingjian Ge",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Intra-Group Individual Item Fairness-Aware Recommendation",
@@ -3677,7 +3679,7 @@
   "Maximal Prevalent Region Identification and Classification for Spatial Co-location Patterns": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7154062292",
-    "author": "Ting Yang and Li Wang and Peizhong Yang and Lihua Zhou",
+    "author": "Ting Yang and Lizhen Wang and Peizhong Yang and Lihua Zhou",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Maximal Prevalent Region Identification and Classification for Spatial Co-location Patterns",
@@ -3822,7 +3824,7 @@
   "Enhancing Large Language Models Reasoning via Multi-Path Optimization on Knowledge Graph": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7151794708",
-    "author": "Jiyong Liao and Chubo Liu and Yan Ding and Haotian Wang and Zhuo Tang and Kenli Li and Keqin Li",
+    "author": "Jiyong Liao and Chubo Liu and Yan Ding and Haotian Wang and Zhuo Tang and Keqin Li and Keqin Li",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Enhancing Large Language Models Reasoning via Multi-Path Optimization on Knowledge Graph",
@@ -4144,7 +4146,7 @@
   "ODGNet: Learning Dynamic Variable Association for Online Time Series Forecasting": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7147323780",
-    "author": "Yushuo Liu and Yulong Wang and Kai You Wang",
+    "author": "Yushuo Liu and Yulong Wang and Kai Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "ODGNet: Learning Dynamic Variable Association for Online Time Series Forecasting",
@@ -4192,7 +4194,7 @@
   "GNN Defender: Overcoming Mixed Noise Through Cross-Correction Over Nodes and Edges": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7143399400",
-    "author": "Xi Zhang and Yutao Liu and Hao Wang and Wei Xie and Wei Wang",
+    "author": "Xiaobo Zhang and Yutao Liu and Hao Wang and Wei Xie and Wei Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "GNN Defender: Overcoming Mixed Noise Through Cross-Correction Over Nodes and Edges",
@@ -4267,7 +4269,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3678084",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140614103"
+    "openalex_id": "https://openalex.org/W7140614103",
+    "arxiv_id": "2512.04385"
   },
   "Exploiting Global Information for Partial Multi-Label Learning": {
     "type": "ARTICLE",
@@ -4320,7 +4323,7 @@
   "Noise-Filtering Enhanced Graph Transformer for Robust Fake News Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140283986",
-    "author": "Junyou Zhu and Chao Gao and Ze Yin and X. L. Li and Zhen Wang and Jürgen Kurths",
+    "author": "Junyou Zhu and Chao Gao and Ze Yin and Xianghua Li and Zhen Wang and Jürgen Kurths",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Noise-Filtering Enhanced Graph Transformer for Robust Fake News Detection",
@@ -4347,7 +4350,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3677398",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140315542"
+    "openalex_id": "https://openalex.org/W7140315542",
+    "arxiv_id": "2505.09331"
   },
   "PDET-LSH: Scalable In-Memory Indexing for High-Dimensional Approximate Nearest Neighbor Search With Quality Guarantees": {
     "type": "ARTICLE",
@@ -4381,6 +4385,23 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140279444"
   },
+  "Four-Set Hypergraphlets for Characterization of Directed Hypergraphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7140182339",
+    "author": "Heechan Moon and Hyunju Kim and Sunwoo Kim and Kijung Shin",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Four-Set Hypergraphlets for Characterization of Directed Hypergraphs",
+    "year": "2026",
+    "abstract": "A directed hypergraph, which consists of nodes and hyperarcs, is a higher-order data structure that naturally models directional group interactions (e.g., chemical reactions of molecules). Although there have been extensive studies on local structures of (directed) graphs in the real world, those of directed hypergraphs remain unexplored. In this work, we focus on measurements, findings, and applications related to local structures of directed hypergraphs, and they together contribute to a systematic understanding of various real-world systems interconnected by directed group interactions. Our first contribution is to define 91directed hypergraphlets(DHGs), which disjointly categorize directed connections and overlaps among four node sets that compose two incident hyperarcs. Our second contribution is to develop exact and approximate algorithms for counting the occurrences of each DHGs. Our last contribution is to characterize 11 real-world directed hypergraphs and individual hyperarcs in them using the occurrences of DHGs, which reveals clear domain-based local structural patterns. Our experiments demonstrate that our DHG-based characterization gives up to$12\\%$and$33\\%$better performances on hypergraph clustering and hyperarc prediction, respectively, than baseline characterization methods. Moreover, we show that CODA-A, which is our proposed approximate algorithm, is up to$36\\times$faster than its competitors with similar characterization quality.",
+    "keywords": "Characterization (materials science), Hypergraph, Computer science, Directed graph, Cluster analysis, Focus (optics), Directed acyclic graph, Group (periodic table), Node (physics), Theoretical computer science, Algorithm, Data structure, Combinatorics, Mathematics, Electronic mail, Categorization, Cluster (spacecraft), Discrete mathematics, Strongly connected component, Graph theory",
+    "url": "https://doi.org/10.1109/tkde.2026.3677137",
+    "doi": "https://doi.org/10.1109/tkde.2026.3677137",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7140182339",
+    "arxiv_id": "2311.14289"
+  },
   "Bridging Cross-Domain Time Series: Efficient Federated Anomaly Detection With Sharded LLMs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140166725",
@@ -4396,22 +4417,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140166725"
-  },
-  "Four-Set Hypergraphlets for Characterization of Directed Hypergraphs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7140182339",
-    "author": "Heechan Moon and Hyunju Kim and Sunwoo Kim and Kijung Shin",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Four-Set Hypergraphlets for Characterization of Directed Hypergraphs",
-    "year": "2026",
-    "abstract": "A directed hypergraph, which consists of nodes and hyperarcs, is a higher-order data structure that naturally models directional group interactions (e.g., chemical reactions of molecules). Although there have been extensive studies on local structures of (directed) graphs in the real world, those of directed hypergraphs remain unexplored. In this work, we focus on measurements, findings, and applications related to local structures of directed hypergraphs, and they together contribute to a systematic understanding of various real-world systems interconnected by directed group interactions. Our first contribution is to define 91directed hypergraphlets(DHGs), which disjointly categorize directed connections and overlaps among four node sets that compose two incident hyperarcs. Our second contribution is to develop exact and approximate algorithms for counting the occurrences of each DHGs. Our last contribution is to characterize 11 real-world directed hypergraphs and individual hyperarcs in them using the occurrences of DHGs, which reveals clear domain-based local structural patterns. Our experiments demonstrate that our DHG-based characterization gives up to$12\\%$and$33\\%$better performances on hypergraph clustering and hyperarc prediction, respectively, than baseline characterization methods. Moreover, we show that CODA-A, which is our proposed approximate algorithm, is up to$36\\times$faster than its competitors with similar characterization quality.",
-    "keywords": "Characterization (materials science), Hypergraph, Computer science, Directed graph, Cluster analysis, Focus (optics), Directed acyclic graph, Group (periodic table), Node (physics), Theoretical computer science, Algorithm, Data structure, Combinatorics, Mathematics, Electronic mail, Categorization, Cluster (spacecraft), Discrete mathematics, Strongly connected component, Graph theory",
-    "url": "https://doi.org/10.1109/tkde.2026.3677137",
-    "doi": "https://doi.org/10.1109/tkde.2026.3677137",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140182339"
   },
   "M4Rec: Multi-Modal Knowledge Graph Modeling of Multi-Dimensional User Preferences for Next-POI Recommendation": {
     "type": "ARTICLE",
@@ -4445,6 +4450,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140217806"
   },
+  "KICGPTv2: Large Language Model With Knowledge in Context for Knowledge Graph Completion": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7140120596",
+    "author": "Yanbin Wei and Q Huang and James Tin-Yau Kwok and Yu Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "KICGPTv2: Large Language Model With Knowledge in Context for Knowledge Graph Completion",
+    "year": "2026",
+    "abstract": "Knowledge Graph Completion (KGC) is an essential task aimed at mitigating the issue of incompleteness in knowledge graphs, thereby enhancing their utility for various downstream applications. Existing KGC models predominantly fall into two categories: structure-based and semantic-based approaches. Structure-based methods often encounter challenges with long-tail entities due to the scarcity of structural information and imbalanced entity distributions. Conversely, semantic-based methods, while addressing those limitations, necessitate extensive training of language models and specific finetuning for each knowledge graph, thus constraining their practical efficiency. To alleviate those limitations in both approaches, in this paper, we propose KICGPTv2, an innovative framework that synergizes a large language model (LLM) with traditional KGC methods. This integration effectively mitigates the long-tail entity problem without incurring significant additional training overhead. Central to the KICGPTv2 model is a novel in-context learning strategy, termed Knowledge Prompt, which encodes structural knowledge into demonstrations to effectively guide the LLM. Comprehensive evaluations on various KGC tasks, including link prediction, relation prediction, and triple classification, underscore the efficacy of the KICGPTv2 model, highlighting its ability to achieve competitive performance with reduced training demands and without the need for finetuning",
+    "keywords": "Computer science, Knowledge graph, Natural language processing, Artificial intelligence, Context model, Context (archaeology), Knowledge-based systems, Data modeling, Language model, Graph, Conceptual graph, Knowledge representation and reasoning, Knowledge modeling, Natural language, Domain knowledge, Knowledge extraction, Information retrieval, Language identification, Query language, Knowledge base, Knowledge engineering, Universal Networking Language, Graph theory, Data model (GIS), Open Knowledge Base Connectivity, Knowledge acquisition, Question answering",
+    "url": "https://doi.org/10.1109/tkde.2026.3674507",
+    "doi": "https://doi.org/10.1109/tkde.2026.3674507",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7140120596"
+  },
   "STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140086938",
@@ -4461,26 +4482,10 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7140086938"
   },
-  "KICGPTv2: Large Language Model With Knowledge in Context for Knowledge Graph Completion": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7140120596",
-    "author": "Yanbin Wei and Q Huang and James Tin-Yau Kwok and Yang Zhang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "KICGPTv2: Large Language Model With Knowledge in Context for Knowledge Graph Completion",
-    "year": "2026",
-    "abstract": "Knowledge Graph Completion (KGC) is an essential task aimed at mitigating the issue of incompleteness in knowledge graphs, thereby enhancing their utility for various downstream applications. Existing KGC models predominantly fall into two categories: structure-based and semantic-based approaches. Structure-based methods often encounter challenges with long-tail entities due to the scarcity of structural information and imbalanced entity distributions. Conversely, semantic-based methods, while addressing those limitations, necessitate extensive training of language models and specific finetuning for each knowledge graph, thus constraining their practical efficiency. To alleviate those limitations in both approaches, in this paper, we propose KICGPTv2, an innovative framework that synergizes a large language model (LLM) with traditional KGC methods. This integration effectively mitigates the long-tail entity problem without incurring significant additional training overhead. Central to the KICGPTv2 model is a novel in-context learning strategy, termed Knowledge Prompt, which encodes structural knowledge into demonstrations to effectively guide the LLM. Comprehensive evaluations on various KGC tasks, including link prediction, relation prediction, and triple classification, underscore the efficacy of the KICGPTv2 model, highlighting its ability to achieve competitive performance with reduced training demands and without the need for finetuning",
-    "keywords": "Computer science, Knowledge graph, Natural language processing, Artificial intelligence, Context model, Context (archaeology), Knowledge-based systems, Data modeling, Language model, Graph, Conceptual graph, Knowledge representation and reasoning, Knowledge modeling, Natural language, Domain knowledge, Knowledge extraction, Information retrieval, Language identification, Query language, Knowledge base, Knowledge engineering, Universal Networking Language, Graph theory, Data model (GIS), Open Knowledge Base Connectivity, Knowledge acquisition, Question answering",
-    "url": "https://doi.org/10.1109/tkde.2026.3674507",
-    "doi": "https://doi.org/10.1109/tkde.2026.3674507",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140120596"
-  },
   "Multi-Scale Adaptive Convolutional Graph for Multi-Stream Concept Drift": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140080067",
-    "author": "Ming Zhou and Jie Lu and Guangquan Zhang",
+    "author": "Ming Zhou and Jie Lu B and Guangquan Zhang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Multi-Scale Adaptive Convolutional Graph for Multi-Stream Concept Drift",
@@ -4571,7 +4576,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3676662",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7140116172"
+    "openalex_id": "https://openalex.org/W7140116172",
+    "arxiv_id": "2506.03817"
   },
   "Plog: An Efficient and Privacy-Preserving Collaborative Learning Framework on Vertically Partitioned Graph Data": {
     "type": "ARTICLE",
@@ -4592,7 +4598,7 @@
   "Fairness-Aware Hypergraph Self-Supervised Learning With Sampling-Efficient Signals": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140135426",
-    "author": "Fan Li and Xiaoyang Wang and Dawei Cheng and Ying Zhang and Wenjie Zhang and X. Sheldon Lin",
+    "author": "Fan Li and Xiaoyang Wang and Dawei Cheng and Ying Zhang and Wenjie Zhang and Xuemin Lin",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Fairness-Aware Hypergraph Self-Supervised Learning With Sampling-Efficient Signals",
@@ -4653,22 +4659,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7139910074"
   },
-  "Adaptive Granules-Based Semi-Supervised Feature Selection for Hybrid Data": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7139934341",
-    "author": "Zhenchao Yan and Songlin He and Jianhui Yu and Chase Qishi Wu",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Adaptive Granules-Based Semi-Supervised Feature Selection for Hybrid Data",
-    "year": "2026",
-    "abstract": "The surge in online interactions and advancement in Big Data related techniques have generated vast amounts of hybrid data in the sense that the data are symbolic, numerical or missing features, and usually only a small number of data objects possess true labels due to high annotation costs. A necessary step of fully releasing the potential of these partially labeled hybrid data lies in feature selection, for which the neighborhood rough set (NRS) is an efficient mathematical method to apply. In NRS, setting proper neighborhood granules greatly influences the effectiveness and robustness of algorithms atop it. However, existing methods usually determine the optimal neighborhood radius of neighborhood granule via computationally intensive grid search, where the neighborhood radius for each object is the same, i.e., “unadaptive”. Some methods investigate adaptive granulation strategies, yet they inevitably hinge on preset parameters or a-prior knowledge. To tackle this problem, we propose an adaptive granules-enabled semi-supervised feature selection method that can adaptively generate suitable neighborhood radii for both labeled and unlabeled objects. The core idea lies in using the purity of decision labels as the threshold for granularity maximization construction. Then, by combining with neighborhood entropy and local density, a feature metric is designed to measure the feature significance. A semi-supervised feature selection algorithm is utilized to select feature subset by using the information from both labeled and unlabeled objects. Instead of hinging on expert knowledge, the proposed method only rely on the data per se. Experimental results on real-world datasets demonstrate the effectiveness of the designed method and its superiority over other state-of-the-art.",
-    "keywords": "Computer science, Artificial intelligence, Feature selection, Pattern recognition (psychology), Feature (linguistics), Selection (genetic algorithm), Data mining, Feature extraction, Data modeling, Noisy data, Algorithm design, Algorithm, Data association",
-    "url": "https://doi.org/10.1109/tkde.2026.3676114",
-    "doi": "https://doi.org/10.1109/tkde.2026.3676114",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7139934341"
-  },
   "TrashToTreasure: An Informative and Interactive Multi-View Classification Framework": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7139940802",
@@ -4684,6 +4674,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7139940802"
+  },
+  "Adaptive Granules-Based Semi-Supervised Feature Selection for Hybrid Data": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7139934341",
+    "author": "Zhenchao Yan and Songlin He and Jianhui Yu and Chase Qishi Wu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Adaptive Granules-Based Semi-Supervised Feature Selection for Hybrid Data",
+    "year": "2026",
+    "abstract": "Neighborhood rough set is an efficient, robust, and scalable learning method for feature selection. However, the scale of neighborhood granules has a significant impact on the effectiveness and robustness of feature selection algorithms based on this theory. In addition, the data in practical applications are often collected from different types of sources and partially objects obtain decision labels. To address the problem of neighborhood granularity scale in partially labeled hybrid data, this paper proposes an adaptive object neighborhood radius generation algorithm that adaptively generates different neighborhood radius for each labeled and unlabeled objects relying only on the distribution of the data itself. On this basis, we combine neighborhood entropy and local density, and use the information of labeled and unlabeled objects to proposes a semi-supervised feature selection algorithm. Finally, the experimental results on UCI data set demonstrate the effectiveness of the designed semi-supervised feature selection algorithm and its superiority compared with other feature selection algorithms.",
+    "keywords": "Computer science, Artificial intelligence, Feature selection, Pattern recognition (psychology), Feature (linguistics), Selection (genetic algorithm), Data mining, Feature extraction, Data modeling, Noisy data, Algorithm design, Algorithm, Data association",
+    "url": "https://doi.org/10.1109/tkde.2026.3676114",
+    "doi": "https://doi.org/10.1109/tkde.2026.3676114",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7139934341"
   },
   "ReFEND: Leveraging Social Sentiment Resonances for Fake News Detection": {
     "type": "ARTICLE",
@@ -4768,7 +4774,7 @@
   "Spectral Clustering for Community Detection of Multi-Layer Networks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7138870198",
-    "author": "Junjie Zhao and K. C. Wang and Guyan Ni and Ying Li and Peng Chen and Xiaojun Duan and Shenglong Hu",
+    "author": "Junjie Zhao and Keyi Wang and Guyan Ni and Ying Li and Peng Chen and Xiaojun Duan and Shenglong Hu",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Spectral Clustering for Community Detection of Multi-Layer Networks",
@@ -4875,23 +4881,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3675012",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7137805936"
-  },
-  "Short-Video Propagation Influence Rating: A New Real-World Dataset and a New Large Graph Model": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7136252370",
-    "author": "Dizhan Xue and Shengsheng Qian and Chuanrui Hu and Changsheng Xu",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Short-Video Propagation Influence Rating: A New Real-World Dataset and a New Large Graph Model",
-    "year": "2026",
-    "abstract": "Short-video platforms have gained immense popularity, captivating the interest of millions, if not billions, of users globally. Recently, researchers have highlighted the significance of analyzing the propagation of short-videos, which typically involves discovering commercial values, public opinions, user behaviors, etc. This paper proposes a new Short-video Propagation Influence Rating (SPIR) task and aims to promote SPIR from both the dataset and method perspectives. First, we propose a new Cross-platform Short-Video (XS-Video) dataset, which aims to provide a large-scale and real-world short-video propagation network across various platforms to facilitate research on short-video propagation. Our XS-Video dataset includes 117,720 videos, 381,926 samples, and 535 topics across 5 biggest Chinese platforms, annotated with the propagation influence from level 0 to 9. To the best of our knowledge, this is the first large-scale short-video dataset that contains cross-platform data or provides all of the views, likes, shares, collects, fans, comments, and comment content. Second, we propose a Large Graph Model (LGM) named NetGPT, based on a novel three-stage training mechanism, to bridge heterogeneous graph-structured data with the powerful reasoning ability and knowledge of Large Language Models (LLMs). Our NetGPT can comprehend and analyze the short-video propagation graph, enabling it to predict the long-term propagation influence of short-videos. Comprehensive experimental results evaluated by both classification and regression metrics on our XS-Video dataset indicate the superiority of our method for SPIR. Our dataset and code will be open upon acceptance.",
-    "keywords": "Computer science, Data modeling, Graph, Data mining, Graph theory, Artificial intelligence, Theoretical computer science, Algorithm, Algorithm design, Electronic mail, Factor graph",
-    "url": "https://doi.org/10.1109/tkde.2026.3674132",
-    "doi": "https://doi.org/10.1109/tkde.2026.3674132",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7136252370"
+    "openalex_id": "https://openalex.org/W7137805936",
+    "arxiv_id": "2412.03611"
   },
   "OKG-LLM: Aligning Ocean Knowledge Graph With Observation Data via LLMs for Global Sea Surface Temperature Prediction": {
     "type": "ARTICLE",
@@ -4909,6 +4900,23 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W4416552358",
     "arxiv_id": "2508.00933"
+  },
+  "Short-Video Propagation Influence Rating: A New Real-World Dataset and a New Large Graph Model": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7136252370",
+    "author": "Dizhan Xue and Shengsheng Qian and Chuanrui Hu and Changsheng Xu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Short-Video Propagation Influence Rating: A New Real-World Dataset and a New Large Graph Model",
+    "year": "2026",
+    "abstract": "Short-video platforms have gained immense popularity, captivating the interest of millions, if not billions, of users globally. Recently, researchers have highlighted the significance of analyzing the propagation of short-videos, which typically involves discovering commercial values, public opinions, user behaviors, etc. This paper proposes a new Short-video Propagation Influence Rating (SPIR) task and aims to promote SPIR from both the dataset and method perspectives. First, we propose a new Cross-platform Short-Video (XS-Video) dataset, which aims to provide a large-scale and real-world short-video propagation network across various platforms to facilitate research on short-video propagation. Our XS-Video dataset includes 117,720 videos, 381,926 samples, and 535 topics across 5 biggest Chinese platforms, annotated with the propagation influence from level 0 to 9. To the best of our knowledge, this is the first large-scale short-video dataset that contains cross-platform data or provides all of the views, likes, shares, collects, fans, comments, and comment content. Second, we propose a Large Graph Model (LGM) named NetGPT, based on a novel three-stage training mechanism, to bridge heterogeneous graph-structured data with the powerful reasoning ability and knowledge of Large Language Models (LLMs). Our NetGPT can comprehend and analyze the short-video propagation graph, enabling it to predict the long-term propagation influence of short-videos. Comprehensive experimental results evaluated by both classification and regression metrics on our XS-Video dataset indicate the superiority of our method for SPIR. Our dataset and code will be open upon acceptance.",
+    "keywords": "Computer science, Data modeling, Graph, Data mining, Graph theory, Artificial intelligence, Theoretical computer science, Algorithm, Algorithm design, Electronic mail, Factor graph",
+    "url": "https://doi.org/10.1109/tkde.2026.3674132",
+    "doi": "https://doi.org/10.1109/tkde.2026.3674132",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7136252370",
+    "arxiv_id": "2503.23746"
   },
   "Uncertainty-Aware Online Time Series Multi-Step Forecasting Framework in Cloud Systems": {
     "type": "ARTICLE",
@@ -5068,7 +5076,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3673401",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7135081562"
+    "openalex_id": "https://openalex.org/W7135081562",
+    "arxiv_id": "2403.20208"
   },
   "Contrastive Fidelity-Maximised Explanations for Graph-Based Rumour Detection": {
     "type": "ARTICLE",
@@ -5148,7 +5157,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3671872",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7134817535"
+    "openalex_id": "https://openalex.org/W7134817535",
+    "arxiv_id": "2504.16056"
   },
   "A Survey of Deep Learning for Time Series Forecasting: Taxonomy, Analysis and Future Directions": {
     "type": "ARTICLE",
@@ -5244,7 +5254,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3669747",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7133343357"
+    "openalex_id": "https://openalex.org/W7133343357",
+    "arxiv_id": "2211.12875"
   },
   "Training-Free Graph-Based Imputation of Missing Modalities in Multimodal Recommendation": {
     "type": "ARTICLE",
@@ -5814,13 +5825,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Safety in Graph Machine Learning: Threats and Safeguards",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Graph Machine Learning (Graph ML) has witnessed substantial advancements in recent years. With their remarkable ability to process graph-structured data, Graph ML techniques have been extensively utilized across diverse applications, including critical domains like finance, healthcare, and transportation. Despite their societal benefits, recent research highlights significant safety concerns associated with the widespread use of Graph ML models. Lacking safety-focused designs, these models can produce unreliable predictions, demonstrate poor generalizability, and compromise data confidentiality. In high-stakes scenarios such as financial fraud detection, these vulnerabilities could jeopardize both individuals and society at large. Therefore, it is imperative to prioritize the development of safety-oriented Graph ML models to mitigate these risks and enhance public confidence in their applications. In this survey paper, we explore three critical aspects vital for enhancing safety in Graph ML: reliability, generalizability, and confidentiality. We categorize and analyze threats to each aspect under three headings: model threats, data threats, and attack threats. This novel taxonomy guides our review of effective strategies to protect against these threats. Our systematic review lays a groundwork for future research aimed at developing practical, safety-centered Graph ML models. Furthermore, we highlight the significance of safe Graph ML practices and suggest promising avenues for further investigation in this crucial area.",
     "keywords": "Computer science, Computer security, Graph, Graph theory, Data modeling, Algorithm design, Data integrity, Theoretical computer science, Electronic mail, Server",
     "url": "https://doi.org/10.1109/tkde.2026.3660054",
     "doi": "https://doi.org/10.1109/tkde.2026.3660054",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7128304085"
+    "openalex_id": "https://openalex.org/W7128304085",
+    "arxiv_id": "2405.11034"
   },
   "Robust Cross Supervision With Target Mining for Source-Free Graph Domain Adaptation": {
     "type": "ARTICLE",
@@ -6045,7 +6057,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3658366",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125813926"
+    "openalex_id": "https://openalex.org/W7125813926",
+    "arxiv_id": "2411.00382"
   },
   "Hierarchical Document-Aware Interest Profiling in Personalized Search": {
     "type": "ARTICLE",
@@ -6114,7 +6127,7 @@
   "Answering Range Queries for Arbitrary Distribution Under Shuffled Differential Privacy": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125660953",
-    "author": "Leixia Wang and Q. Ye and H. Hu and Xiaofeng Meng",
+    "author": "Leixia Wang and Q. Ye and Haibo Hu and Xiaofeng Meng",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Answering Range Queries for Arbitrary Distribution Under Shuffled Differential Privacy",
@@ -6135,13 +6148,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Reliable Reasoning Path: Distilling Effective Guidance for LLM Reasoning With Knowledge Graphs",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Large language models (LLMs) often struggle with knowledge-intensive tasks due to a lack of background knowledge and a tendency to hallucinate. To address these limitations, integrating knowledge graphs (KGs) with LLMs has been intensively studied. Existing KG-enhanced LLMs focus on supplementary factual knowledge, but still struggle with solving complex questions. We argue that refining the relationships among facts and organizing them into a logically consistent reasoning path is equally important as factual knowledge itself. Despite their potential, extracting reliable reasoning paths from KGs poses the following challenges: the complexity of graph structures and the existence of multiple generated paths, making it difficult to distinguish between useful and redundant ones. To tackle these challenges, we propose the RRP framework to mine the knowledge graph, which combines the semantic strengths of LLMs with structural information obtained through relation embedding and bidirectional distribution learning. Additionally, we introduce a rethinking module that evaluates and refines reasoning paths according to their significance. Experimental results on two public datasets show that RRP achieves state-of-the-art performance compared to existing baseline methods. Moreover, RRP can be easily integrated into various LLMs to enhance their reasoning abilities in a plug-and-play manner. By generating high-quality reasoning paths tailored to specific questions, RRP distills effective guidance for LLM reasoning.",
     "keywords": "Computer science, Knowledge graph, Artificial intelligence, Automated reasoning, Knowledge representation and reasoning, Knowledge-based systems, Theoretical computer science, Reliability (semiconductor), Model-based reasoning, Conceptual graph, Case-based reasoning, Knowledge engineering, Key (lock), Opportunistic reasoning, Graph, Knowledge acquisition, Graph theory, Semantics (computer science), Reasoning system, Data mining, Data modeling, Circumscription, Machine learning",
     "url": "https://doi.org/10.1109/tkde.2026.3656900",
     "doi": "https://doi.org/10.1109/tkde.2026.3656900",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125612734"
+    "openalex_id": "https://openalex.org/W7125612734",
+    "arxiv_id": "2506.10508"
   },
   "Learning Feature Encoder With Synthetic Anomalies for Weakly Supervised Graph Anomaly Detection": {
     "type": "ARTICLE",
@@ -6168,18 +6182,19 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Freyja: Efficient Join Discovery in Data Lakes",
     "year": "2026",
-    "abstract": "We study the problem of efficiently computing rankings of joinable attributes in data lakes. Traditional set-overlap measures produce numerous false positives in this scenario, while modern, more accurate Table Representation Learning (TRL) techniques incur prohibitive computational costs. In contrast to the state-of-the-art, we adopt a novel notion of join quality tailored to data lakes relying on a metric that combines multiset Jaccard and cardinality proportion. The proposed metric merges the best of both worlds by leveraging syntactic measures while achieving accuracy scores comparable to those of TRL approaches. Generating rankings of joinable pairs is highly scalable at both preparation and query time, since we train a general-purpose predictive model. Predictions are based on data profiles, succinct and efficiently computed representations of dataset characteristics. Our experiments show that our system, Freyja, matches and improves upon, the results obtained by the state-of-the-art while reducing execution costs by orders of magnitude.",
+    "abstract": "Data lakes are massive repositories of raw and heterogeneous data, designed to meet the requirements of modern data storage. Nonetheless, this same philosophy increases the complexity of performing discovery tasks to find relevant data for subsequent processing. As a response to these growing challenges, we present FREYJA, a modern data discovery system capable of effectively exploring data lakes, aimed at finding candidates to perform joins and increase the number of attributes for downstream tasks. More precisely, we want to compute rankings that sort potential joins by their relevance. Modern mechanisms apply advanced table representation learning (TRL) techniques to yield accurate joins. Yet, this incurs high computational costs when dealing with elevated volumes of data. In contrast to the state-of-the-art, we adopt a novel notion of join quality tailored to data lakes, which leverages syntactic measurements while achieving accuracy comparable to that of TRL approaches. To obtain this metric in a scalable manner we train a general purpose predictive model. Predictions are based, rather than on large-scale datasets, on data profiles, succinct representations that capture the underlying characteristics of the data. Our experiments show that our system, FREYJA, matches the results of the state-of-the-art whilst reducing the execution times by several orders of magnitude.",
     "keywords": "Computer science, Jaccard index, Multiset, Scalability, Join (topology), Metric (unit), Cardinality (data modeling), Data mining, False positive paradox, Table (database), Representation (politics), Theoretical computer science, Contrast (vision), Quality (philosophy), Abstraction, Information retrieval, Data modeling, Data warehouse, Machine learning, Data quality, Intersection (aeronautics), Semantics (computer science)",
     "url": "https://doi.org/10.1109/tkde.2026.3656786",
     "doi": "https://doi.org/10.1109/tkde.2026.3656786",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125680642"
+    "openalex_id": "https://openalex.org/W7125680642",
+    "arxiv_id": "2412.06637"
   },
   "Toward Federated Learning of Deep Graph Neural Networks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125608144",
-    "author": "Zhihua Tian and Y. G. Ding and R. W. Zhang and Yao Tang and Jian Liu and Kui Ren",
+    "author": "Zhihua Tian and Y. G. Ding and Rui Zhang and Yao Tang and Jian Liu and Kui Ren",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Toward Federated Learning of Deep Graph Neural Networks",
@@ -6305,6 +6320,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125579449"
   },
+  "Efficient Co-Clustering via Bipartite Graph Factorization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125593457",
+    "author": "Xiaowei Zhao and Liuyun Guo and Xiaojun Chang and Jun Guo and Feiping Nie and Qiang Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Efficient Co-Clustering via Bipartite Graph Factorization",
+    "year": "2026",
+    "abstract": "Sample-anchor bipartite graph-based co-clustering has demonstrated potential in enhancing clustering efficiency, yet existing methods suffer from two primary limitations. First, the intrinsic geometric relationships among anchors are often disregarded, leading to inadequate smoothness in anchor representations. Second, the inability to directly infer discrete one-hot pseudo-labels for both samples and anchors compromises the stability and interpretability of clustering results. To address these issues, this paper presents BGFC, a bipartite graph factorization clustering model. The proposed approach employs non-negative matrix factorization of the bipartite graph to directly obtain one-hot pseudo-labels for both anchors and samples, thereby promoting local consistency in label assignments. Furthermore, a compact anchor similarity graph is constructed and refined via low-rank decomposition to encourage coherence among geometrically related anchors. An alternating optimization algorithm is developed to jointly update all model variables, enabling efficient and scalable training. Extensive experiments on benchmark datasets show that BGFC consistently outperforms state-of-theart bipartite graph-based co-clustering methods in terms of clustering performance and computational efficiency.",
+    "keywords": "Computer science, Bipartite graph, Graph, Factorization, Graph theory, Matrix decomposition, Combinatorics, Theoretical computer science, Algorithm, Discrete mathematics, Factor graph, Algorithm design, Clique-width, Mathematics, Efficient algorithm",
+    "url": "https://doi.org/10.1109/tkde.2026.3656520",
+    "doi": "https://doi.org/10.1109/tkde.2026.3656520",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7125593457"
+  },
   "Ensemble Shapley: Toward an Efficient and Reliable Data Valuation With Guided Ensemble Aggregation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125489693",
@@ -6336,22 +6367,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125527002"
-  },
-  "Efficient Co-Clustering via Bipartite Graph Factorization": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125593457",
-    "author": "Xiaowei Zhao and Liuyun Guo and Xiaojun Chang and Jun Guo and Feiping Nie and Qiang Zhang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Efficient Co-Clustering via Bipartite Graph Factorization",
-    "year": "2026",
-    "abstract": "Sample-anchor bipartite graph-based co-clustering has demonstrated potential in enhancing clustering efficiency, yet existing methods suffer from two primary limitations. First, the intrinsic geometric relationships among anchors are often disregarded, leading to inadequate smoothness in anchor representations. Second, the inability to directly infer discrete one-hot pseudo-labels for both samples and anchors compromises the stability and interpretability of clustering results. To address these issues, this paper presents BGFC, a bipartite graph factorization clustering model. The proposed approach employs non-negative matrix factorization of the bipartite graph to directly obtain one-hot pseudo-labels for both anchors and samples, thereby promoting local consistency in label assignments. Furthermore, a compact anchor similarity graph is constructed and refined via low-rank decomposition to encourage coherence among geometrically related anchors. An alternating optimization algorithm is developed to jointly update all model variables, enabling efficient and scalable training. Extensive experiments on benchmark datasets show that BGFC consistently outperforms state-of-theart bipartite graph-based co-clustering methods in terms of clustering performance and computational efficiency.",
-    "keywords": "Computer science, Bipartite graph, Graph, Factorization, Graph theory, Matrix decomposition, Combinatorics, Theoretical computer science, Algorithm, Discrete mathematics, Factor graph, Algorithm design, Clique-width, Mathematics, Efficient algorithm",
-    "url": "https://doi.org/10.1109/tkde.2026.3656520",
-    "doi": "https://doi.org/10.1109/tkde.2026.3656520",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125593457"
   },
   "pFedMoE: Data-Level Personalization With Mixture of Experts in Model-Heterogeneous Personalized Federated Learning": {
     "type": "ARTICLE",
@@ -6481,22 +6496,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125189051"
   },
-  "C2P-M: Critical Connection Protection in Multiplex Graphs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7124883803",
-    "author": "Conggai Li and Wei Ni and Ming Ding and Youyang Qu and J. Chen and W. ZHANG and Thierry Rakotoarivelo",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "C2P-M: Critical Connection Protection in Multiplex Graphs",
-    "year": "2026",
-    "abstract": "Multiplex graphs represent diverse real-world interactions among entities, where multiple relationship types coexist within the same set of entities. These graphs introduce privacy risks, as data collectors can exploit cross-layer dependencies to infer hidden and sensitive connections. In this work, we propose aC2P-Mframework that identifies and protects critical connections while preserving the structural information in multiplex graphs. Unlike conventional methods for single-layer graphs that perturb all edges uniformly,C2P-Mselectively protects critical connections, maintaining the analytical usability of the graph. To achieve this, we introduce the multiplex$p$-cohesion model, which incorporates new score functions that account for both intra-layer and inter-layer dependencies, enabling precise identification of critical connections for each vertex. For privacy protection, our method protects the identified critical connections, leveraging an adaptive Randomized Response (RR) mechanism to ensure$\\varepsilon$-Local Differential Privacy (LDP). We formally prove thatC2P-Msatisfies$\\varepsilon$-LDP. Extensive experiments on eight real-world multiplex graph datasets demonstrate thatC2P-Msignificantly outperforms baseline privacy-preserving methods, achieving a better privacy-utility trade-off.",
-    "keywords": "Computer science, Multiplex, Exploit, Differential privacy, Theoretical computer science, Set (abstract data type), Graph, Usability, Identification (biology), Graph theory, Information privacy, Call graph, Connection (principal bundle), Information sensitivity, Privacy protection, Data mining, Directed graph, Distributed computing",
-    "url": "https://doi.org/10.1109/tkde.2026.3655741",
-    "doi": "https://doi.org/10.1109/tkde.2026.3655741",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7124883803"
-  },
   "A Hybrid Edge Classifier: Combining TinyML-Optimised CNN With RRAM-CMOS ACAM for Energy-Efficient Inference": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125020473",
@@ -6511,7 +6510,24 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3655717",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125020473"
+    "openalex_id": "https://openalex.org/W7125020473",
+    "arxiv_id": "2502.10089"
+  },
+  "C2P-M: Critical Connection Protection in Multiplex Graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7124883803",
+    "author": "Conggai Li and Wei Ni and Ming Ding and Youyang Qu and Jianjun Chen and W. ZHANG and Thierry Rakotoarivelo",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "C2P-M: Critical Connection Protection in Multiplex Graphs",
+    "year": "2026",
+    "abstract": "Multiplex graphs represent diverse real-world interactions among entities, where multiple relationship types coexist within the same set of entities. These graphs introduce privacy risks, as data collectors can exploit cross-layer dependencies to infer hidden and sensitive connections. In this work, we propose aC2P-Mframework that identifies and protects critical connections while preserving the structural information in multiplex graphs. Unlike conventional methods for single-layer graphs that perturb all edges uniformly,C2P-Mselectively protects critical connections, maintaining the analytical usability of the graph. To achieve this, we introduce the multiplex$p$-cohesion model, which incorporates new score functions that account for both intra-layer and inter-layer dependencies, enabling precise identification of critical connections for each vertex. For privacy protection, our method protects the identified critical connections, leveraging an adaptive Randomized Response (RR) mechanism to ensure$\\varepsilon$-Local Differential Privacy (LDP). We formally prove thatC2P-Msatisfies$\\varepsilon$-LDP. Extensive experiments on eight real-world multiplex graph datasets demonstrate thatC2P-Msignificantly outperforms baseline privacy-preserving methods, achieving a better privacy-utility trade-off.",
+    "keywords": "Computer science, Multiplex, Exploit, Differential privacy, Theoretical computer science, Set (abstract data type), Graph, Usability, Identification (biology), Graph theory, Information privacy, Call graph, Connection (principal bundle), Information sensitivity, Privacy protection, Data mining, Directed graph, Distributed computing",
+    "url": "https://doi.org/10.1109/tkde.2026.3655741",
+    "doi": "https://doi.org/10.1109/tkde.2026.3655741",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7124883803"
   },
   "Light Shapley: Improving the Scalability of Equitable Data Utility Valuation": {
     "type": "ARTICLE",
@@ -6532,7 +6548,7 @@
   "Unraveling Spatio-Temporal Foundation Models via the Pipeline Lens: A Comprehensive Review": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7123354967",
-    "author": "Yu Fang and Hao Miao and Yuxuan Liang and Liwei Deng and Yue Li Cui and Ximu Zeng and Yuyang Xia and Yan Li Zhao and Torben Bach Pedersen and C. N. Jensen and Xiaofang Zhou and Kai Zheng",
+    "author": "Yu Fang and Hao Miao and Yuxuan Liang and Liwei Deng and Yue Cui and Ximu Zeng and Yuyang Xia and Yan Li Zhao and Torben Bach Pedersen and C. N. Jensen and Xiaofang Zhou and Kai Zheng",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Unraveling Spatio-Temporal Foundation Models via the Pipeline Lens: A Comprehensive Review",
@@ -6624,7 +6640,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3651583",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7123348866"
+    "openalex_id": "https://openalex.org/W7123348866",
+    "arxiv_id": "2411.01780"
   },
   "Class-Aware Multi-Granularity Co-Diffusion Models for Learning With Noisy Labels on Imbalanced Datasets": {
     "type": "ARTICLE",
@@ -6645,7 +6662,7 @@
   "DLTTS: Diffusion Model for Long-Tailed Time Series Generation in Industrial Scenarios": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118169749",
-    "author": "Weijun Hu and Haifeng Zhang and Wenbin Chen and Kaihong Chen and J. Y. Long and Wenli Shang and Zhong Cao",
+    "author": "Weijun Hu and Haifeng Zhang and Wenbin Chen and Kaihong Chen and Jinhao Long and Wenli Shang and Zhong Cao",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "DLTTS: Diffusion Model for Long-Tailed Time Series Generation in Industrial Scenarios",
@@ -6804,6 +6821,23 @@
     "openalex_id": "https://openalex.org/W4405089005",
     "arxiv_id": "2412.03058"
   },
+  "T3MAL: Test-Time Fast Adaptation for Robust Multi-Scale Information Diffusion Prediction": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4415309966",
+    "author": "Wenting Zhu and Chaozhuo Li and Qingpo Yang and Xi Zhang and Philip S. Yu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "T3MAL: Test-Time Fast Adaptation for Robust Multi-Scale Information Diffusion Prediction",
+    "year": "2026",
+    "abstract": "Information diffusion prediction (IDP) is a pivotal task for understanding how information propagates among users. Most existing methods commonly adhere to a conventional training-test paradigm, where models are pretrained on training data and then directly applied to test samples. However, the success of this paradigm hinges on the assumption that the data are independently and identically distributed, which often fails in practical social networks due to the inherent uncertainty and variability of user behavior. In the paper, we address the novel challenge of distribution shifts within IDP tasks and propose a robust test-time training (TTT)-based framework for multi-scale diffusion prediction, named T3MAL. The core idea is to flexibly adapt a trained model to accommodate the distribution of each test instance before making predictions via a self-supervised auxiliary task. Specifically, T3MAL introduces a BYOL-inspired self-supervised auxiliary network that shares a common feature extraction backbone with the primary diffusion prediction network to guide instance-specific adaptation during testing. Furthermore, T3MAL enables fast and accurate test-time adaptation by incorporating a novel meta-auxiliary learning scheme and a lightweight adaptor, which together provide better weight initialization for TTT and mitigate catastrophic forgetting. Extensive experiments on three public datasets demonstrate that T3MAL outperforms various state-of-the-art methods.",
+    "keywords": "Computer science, Initialization, Adaptation (eye), Matching (statistics), Task (project management), Data mining, Artificial intelligence, Machine learning, Feature (linguistics), Robustness (evolution), Test data, Scheme (mathematics), Core (optical fiber), Key (lock), Diffusion, Independent and identically distributed random variables, Training set, Feature extraction, Term (time), Algorithm, Interval (graph theory), Artificial neural network, Field (mathematics), Prior information, Complex network, Measure (data warehouse), Pattern recognition (psychology), Path (computing)",
+    "url": "https://doi.org/10.1109/tkde.2026.3735853",
+    "doi": "https://doi.org/10.1109/tkde.2026.3735853",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4415309966",
+    "arxiv_id": "2507.12880"
+  },
   "STORM: Exploiting Spatiotemporal Continuity for Trajectory Similarity Learning in Road Networks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7117893800",
@@ -6839,7 +6873,7 @@
   "M $^{2}$ Rec: M ulti-scale M amba for Efficient Sequential Rec ommendation": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163585997",
-    "author": "Qianru Zhang and Liang Qu and Honggang Wen and D J Huang and Siu‐Ming Yiu and Nguyen Quoc Viet Hung and Hongzhi Yin",
+    "author": "Qianru Zhang and Liang Qu and Honggang Wen and Dong Huang and Siu‐Ming Yiu and Quoc Viet Hung Nguyen and Hongzhi Yin",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "M $^{2}$ Rec: M ulti-scale M amba for Efficient Sequential Rec ommendation",
@@ -6852,22 +6886,56 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163585997"
   },
-  "T3MAL: Test-Time Fast Adaptation for Robust Multi-Scale Information Diffusion Prediction": {
+  "FlexTSF: A Flexible Forecasting Model for Time Series With Variable Regularities": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W4415309966",
-    "author": "Wenting Zhu and Chaozhuo Li and Qingpo Yang and Xi Zhang and Philip S. Yu",
+    "key": "https://openalex.org/W7211964205",
+    "author": "Jingge Xiao and Yile Chen and Gao Cong and Wolfgang Nejdl and Simon Gottschalk",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "T3MAL: Test-Time Fast Adaptation for Robust Multi-Scale Information Diffusion Prediction",
+    "title": "FlexTSF: A Flexible Forecasting Model for Time Series With Variable Regularities",
     "year": "2026",
-    "abstract": "Information diffusion prediction (IDP) is a pivotal task for understanding how information propagates among users. Most existing methods commonly adhere to a conventional training-test paradigm, where models are pretrained on training data and then directly applied to test samples. However, the success of this paradigm hinges on the assumption that the data are independently and identically distributed, which often fails in practical social networks due to the inherent uncertainty and variability of user behavior. In the paper, we address the novel challenge of distribution shifts within IDP tasks and propose a robust test-time training (TTT)-based framework for multi-scale diffusion prediction, named T3MAL. The core idea is to flexibly adapt a trained model to accommodate the distribution of each test instance before making predictions via a self-supervised auxiliary task. Specifically, T3MAL introduces a BYOL-inspired self-supervised auxiliary network that shares a common feature extraction backbone with the primary diffusion prediction network to guide instance-specific adaptation during testing. Furthermore, T3MAL enables fast and accurate test-time adaptation by incorporating a novel meta-auxiliary learning scheme and a lightweight adaptor, which together provide better weight initialization for TTT and mitigate catastrophic forgetting. Extensive experiments on three public datasets demonstrate that T3MAL outperforms various state-of-the-art methods.",
-    "keywords": "Computer science, Initialization, Adaptation (eye), Matching (statistics), Task (project management), Data mining, Artificial intelligence, Machine learning, Feature (linguistics), Robustness (evolution), Test data, Scheme (mathematics), Core (optical fiber), Key (lock), Diffusion, Independent and identically distributed random variables, Training set, Feature extraction, Term (time), Algorithm, Interval (graph theory), Artificial neural network, Field (mathematics), Prior information, Complex network, Measure (data warehouse), Pattern recognition (psychology), Path (computing)",
-    "url": "https://doi.org/10.1109/tkde.2026.3735853",
-    "doi": "https://doi.org/10.1109/tkde.2026.3735853",
+    "abstract": "Forecasting time series with irregular temporal structures remains challenging for universal pre-trained models. Existing approaches often assume regular sampling or depend heavily on imputation, limiting their applicability in real-world scenarios where irregularities are prevalent due to diverse sensing devices and recording practices. We introduce FlexTSF, a flexible forecasting model specifically designed for time series data with variable temporal regularities. At its foundation lies the IVP Patcher, a continuous-time patching module leveraging Initial Value Problems (IVPs) to inherently support uneven time intervals, variable sequence lengths, and missing values. FlexTSF employs a decoder-only architecture that integrates normalized timestamp inputs and domain-specific statistics through a specialized causal self-attention mechanism, enabling adaptability across domains. Extensive experiments on 16 datasets demonstrate FlexTSF's effectiveness, significantly outperforming existing models in classic forecasting scenarios, zero-shot generalization, and low-resource fine-tuning conditions. Ablation studies confirm the contributions of each design component and the advantage of not relying on predefined fixed patch lengths.",
+    "keywords": "Computer science, Time series, Series (stratigraphy), Variable (mathematics), Data modeling, Algorithm, Data mining, Artificial intelligence, Algorithm design, Mathematical optimization",
+    "url": "https://doi.org/10.1109/tkde.2026.3732095",
+    "doi": "https://doi.org/10.1109/tkde.2026.3732095",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W4415309966",
-    "arxiv_id": "2507.12880"
+    "openalex_id": "https://openalex.org/W7211964205",
+    "arxiv_id": "2410.23160"
+  },
+  "Ensemble-based Deep Multilayer Community Search": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4406133446",
+    "author": "Jianwei Wang and Yuehai Wang and Kai Wang and Xuemin Lin and Wenjie Zhang and Ying Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Ensemble-based Deep Multilayer Community Search",
+    "year": "2026",
+    "abstract": "Multilayer graphs, consisting of multiple interconnected layers, are widely used to model diverse relationships in the real world. A community is a cohesive subgraph that offers valuable insights for analyzing (multilayer) graphs. Recently, there has been an emerging trend focused on searching query-driven communities within the multilayer graphs. However, existing methods for multilayer community search are either 1) rule-based, which suffer from structure inflexibility; or 2) learning-based, which rely on labeled data or fail to capture layer-specific characteristics. To address these, we propose EnMCS, an Ensemble-based unsupervised (i.e., label-free) Multilayer Community Search framework. EnMCS contains two key components, i.e., HoloSearch which identifies potential communities in each layer while integrating both layer-shared and layer-specific information, and EMerge which is an Expectation-Maximization (EM)-based method that synthesizes the potential communities from each layer into a consensus community. Specifically, HoloSearch first employs a graph-diffusion-based model that integrates three label-free loss functions to learn layer-specific and layer-shared representations for each node. Communities in each layer are then identified based on nodes that exhibit high similarity in layer-shared representations while demonstrating low similarity in layer-specific representations w.r.t. the query nodes. To account for the varying layer-specific characteristics of each layer when merging communities, EMerge models the error rates of layers and true community as latent variables. It then employs the EM algorithm to simultaneously minimize the error rates of layers and predict the final consensus community through iterative maximum likelihood estimation. Experiments over 10 real-world datasets highlight the superiority of EnMCS in terms of both efficiency and effectiveness.",
+    "keywords": "Computer science, Artificial intelligence, Data science",
+    "url": "https://doi.org/10.1109/tkde.2026.3743914",
+    "doi": "https://doi.org/10.1109/tkde.2026.3743914",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4406133446",
+    "arxiv_id": "2501.02194"
+  },
+  "One Fits All: General Mobility Trajectory Modeling via Masked Conditional Diffusion": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4406785376",
+    "author": "Qingyue Long and Can Rong and Huandong Wang and Yong Li",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "One Fits All: General Mobility Trajectory Modeling via Masked Conditional Diffusion",
+    "year": "2026",
+    "abstract": "Trajectory data play a crucial role in many applications, ranging from network optimization to urban planning. Existing studies on trajectory data are task-specific, and their applicability is limited to the specific tasks on which they have been trained, such as generation, recovery, or prediction. However, the potential of a unified model has not yet been fully explored in trajectory modeling. Although various trajectory tasks differ in inputs, outputs, objectives, and conditions, they share common mobility patterns. Based on these common patterns, we can construct a general framework that enables a single model to address different tasks. However, building a trajectory task-general framework faces two critical challenges: 1) the diversity in the formats of different tasks and 2) the complexity of the conditions imposed on different tasks. In this work, we propose a general trajectory modeling framework via masked conditional diffusion (named GenMove). Specifically, we utilize mask conditions to unify diverse formats. To adapt to complex conditions associated with different tasks, we utilize historical trajectory data to obtain contextual trajectory embeddings, which include rich contexts such as spatiotemporal characteristics and user preferences. Integrating the contextual trajectory embedding into diffusion models through a classifier-free guidance approach allows the model to flexibly adjust its outputs based on different conditions. Extensive experiments on mainstream tasks demonstrate that our model significantly outperforms state-of-the-art baselines, with the highest performance improvement exceeding 13% in generation tasks.",
+    "keywords": "Trajectory, Diffusion, Statistical physics, Computer science, Econometrics, Applied mathematics, Mathematics, Physics, Thermodynamics, Astronomy",
+    "url": "https://doi.org/10.1109/tkde.2026.3737477",
+    "doi": "https://doi.org/10.1109/tkde.2026.3737477",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4406785376",
+    "arxiv_id": "2501.13347"
   },
   "Quantifying and Minimizing Perception Gap in Social Networks": {
     "type": "ARTICLE",
@@ -6955,7 +7023,7 @@
   "Order-Preserving Pattern Mining and Comparison via Indexing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7167485980",
-    "author": "L Li and Wiktor Zuba and Grigorios Loukides and Solon P. Pissis and Maria Matsangidou",
+    "author": "Ling Li and Wiktor Zuba and Grigorios Loukides and Solon P. Pissis and Maria Matsangidou",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Order-Preserving Pattern Mining and Comparison via Indexing",
@@ -7132,7 +7200,7 @@
   "Augmenting Expert Elicitation with LLMs for Building Causal Models to Aid Decision Making": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7211883760",
-    "author": "O. A. Shaposhnyk and Svetlana Yanushkevich",
+    "author": "O. A. Shaposhnyk and Svetlana N. Yanushkevich",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Augmenting Expert Elicitation with LLMs for Building Causal Models to Aid Decision Making",
@@ -7185,7 +7253,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Wasserstein Barycentric Flow for Cross Embedding Transformation on Recommendation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "With rapid advancement of Internet and web technologies, Cross-Domain Recommendation (CDR) models have gained widespread attention as a solution to the challenges of cold-start issues. In this paper, we focus on the Non-Overlapped Multi-Domain Recommendation (NOMDR) problem. That is, we aim to provide users in one domain with items in other domains according to user preference characteristics without explicit domain-shareable information, such as overlapping users. It has two main challenges, i.e., (CH1) how to exploit shareable and domain-invariant knowledge in the latent space for efficient and accurate multi-domain embedding transformation and (CH2) How to develop a computationally efficient training strategy for optimizing the bidirectional transformation process on multiple domains. To address these two challenges, we propose CETRec, a cross embedding transformation model for solving the NOMDR problem. CETRec contains two modules, i.e., joint preference exploration module, and general cross embedding transformation module. Specifically, we propose Wasserstein Barycentric Flow (WBF) and Wasserstein Alternative Fixed-point Iteration (WAFI) algorithm to discover shareable latent space among multiple domains in general cross embedding transformation module for solving CH1. Moreover, we propose the balanced consistentguidance loss with a simulation-free training strategy on general barycentric Wasserstein path for solving CH2. Our empirical studies on Douban and Amazon datasets demonstrate that CETRec significantly outperforms the state-of-the-art models.",
     "keywords": "Computer science, Embedding, Transformation (genetics), Barycentric coordinate system, Flow (mathematics), Algorithm, Theoretical computer science, Mathematics, Topology (electrical circuits), Algebra over a field, Applied mathematics, Discrete mathematics, Mathematical optimization",
     "url": "https://doi.org/10.1109/tkde.2026.3731876",
     "doi": "https://doi.org/10.1109/tkde.2026.3731876",
@@ -7212,7 +7280,7 @@
   "Data Poisoning Attacks and Defenses to Local Differential Privacy Protocols: A Survey": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7211942080",
-    "author": "Xinyu Li and Xuebin Ren and Shusen Yang and Qing Han and Lei Kaijia and Haofeng Wang",
+    "author": "Xinyu Li and Xuebin Ren and Shusen Yang and Qing Han and Kaijia Lei and Haofeng Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Data Poisoning Attacks and Defenses to Local Differential Privacy Protocols: A Survey",
@@ -7241,22 +7309,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7211943965"
   },
-  "FlexTSF: A Flexible Forecasting Model for Time Series With Variable Regularities": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7211964205",
-    "author": "Jingge Xiao and Yile Chen and Gao Cong and Wolfgang Nejdl and Simon Gottschalk",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "FlexTSF: A Flexible Forecasting Model for Time Series With Variable Regularities",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Time series, Series (stratigraphy), Variable (mathematics), Data modeling, Algorithm, Data mining, Artificial intelligence, Algorithm design, Mathematical optimization",
-    "url": "https://doi.org/10.1109/tkde.2026.3732095",
-    "doi": "https://doi.org/10.1109/tkde.2026.3732095",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7211964205"
-  },
   "A Survey of Relation Extraction: From Deep Learning to Large Language Models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7212148844",
@@ -7281,7 +7333,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Rethinking Model Merging: Partial Merging Via Conflict Mitigation and Adaptive Weighting",
     "year": "2026",
-    "abstract": "",
+    "abstract": "The combinatorial synthesis of independently fine-tuned large models, model merging, promises a paradigm shift towards artificial general intelligence, enabling broad multi-task capabilities without the prohibitive data and energy costs of continuous retraining. However, integrating diverse, task-specific models in decentralized environments is severely bottlenecked by catastrophic parameter interference and the strict dichotomy between global knowledge sharing and local privacy. In this work, we propose PACER (Partial Adaptive Conflict-Resolving), a novel framework that fundamentally resolves the trade-off between task-specific personalization and global generalization. By dynamically decoupling neural architectures into private proprietary subspaces and shared collaborative dimensions, PACER intrinsically isolates critical local knowledge. To synthesize the shared representations, we develop a conflict-aware orthogonal projection mechanism coupled with adaptive consensus weighting, mathematically neutralizing inter-model interference while amplifying synergistic updates. Extensive experiments demonstrate that PACER outperforms existing approaches in accuracy, adaptability, and efficiency, offering a scalable approach towards effective model merging in decentralized environments.",
     "keywords": "Computer science, Weighting, Data mining, Data modeling, Artificial intelligence, Mathematical optimization, Algorithm, Algorithm design, Convergence (economics), Electronic mail",
     "url": "https://doi.org/10.1109/tkde.2026.3733291",
     "doi": "https://doi.org/10.1109/tkde.2026.3733291",
@@ -7405,7 +7457,7 @@
   "Are We Really Making Much Progress in Text Classification? a Comparative Review": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7214073685",
-    "author": "Ansgar Scherp and Andor Diera and Fabian Karl and Bao Xin Lin and Bhakti Khera and Tim Meuser and Tushar Singhal and Lukas Paul Achatius Galke",
+    "author": "Ansgar Scherp A and Andor Diera and Fabian Karl and Bao Xin Lin and Bhakti Khera and Tim Meuser and Tushar Singhal and Lukas Paul Achatius Galke",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Are We Really Making Much Progress in Text Classification? a Comparative Review",
@@ -7459,13 +7511,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Tackling the Modality Inhibitance Effect with Wavelet-based Modality Integration in Multi-modal Recommendation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Harnessing rich modality features has recently gained prominence in multi-modal recommendation systems (MRSs). To delineate user modality preferences, existing works focus on modality fusion, which can be achieved via attentive summation or concatenation. In this work, we introduce the modality inhibitance effect - a phenomenon which limits existing MRSs when these models transit from dual-modal to tri-modal configurations resulting in significant performance degradation. In particular, apart from the modal-specific contamination encapsulated in the newly introduced modality, the inclusion of new features results in excessive informational redundancy, thereby severely impeding effective integration within current approaches. To address the modality inhibitance effect, we propose a new multi-scale modality wavelet (MMWave) multi-modal recommender, which aims to fully capitalize on essential modality features and suppress modal-specific noise. This is acheived by employing wavelet decomposition from a multi-scale (time \\& frequency) perspective, ensuring that only essential (non-redundant) features of each modality are extracted. We then account for the latent associations between item modality features by designing a new structure-aware multi-modal graph learning module that captures high-order latent structural information pertaining to items. To modulate the relative contributions of modality features and achieve effective integration, we then propose a new adaptive modality regulator component that employs a new cross-weight integration strategy. Experiments conducted on four real-world datasets validate the efficacy of our proposed model. The source code for this work has been made publicly available at https://github.com/kennethorq/MMWave.",
     "keywords": "Modality (human–computer interaction), Computer science, Artificial intelligence, Modalities, Medical physics, Information retrieval, Data integration, Key (lock), Medical imaging, Data mining",
     "url": "https://doi.org/10.1109/tkde.2026.3737154",
     "doi": "https://doi.org/10.1109/tkde.2026.3737154",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7214160474"
+    "openalex_id": "https://openalex.org/W7214160474",
+    "arxiv_id": "2610.16229"
   },
   "MASK: Multi-Agent Collaboration for Optimizing Adversarial Attacks on Multi-Agent Systems": {
     "type": "ARTICLE",
@@ -7726,7 +7779,7 @@
   "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7220420742",
-    "author": "Minh Tam Pham and Thanh Trung Huynh and Thanh Dat Hoang and Quoc Viet Hung Nguyen and Hongzhi Yin and Thanh Tam Nguyen",
+    "author": "Minh Tam Pham and Thanh Trung Huynh and Thanh Dat Hoang and Quoc Viet Hung Nguyen and Hongzhi Yin and Thành Tâm Nguyên",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL",
@@ -7850,5 +7903,133 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7221176157"
+  },
+  "Consistency-Guided Anchor in Multi-view Subspace Clustering with Prior-Aware Tensor Norm": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7221589788",
+    "author": "Jianwei Gao and Yiming Tang and Witold Pedrycz and Liu Liu and Min Hu and Jingyuan Xu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Consistency-Guided Anchor in Multi-view Subspace Clustering with Prior-Aware Tensor Norm",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cluster analysis, Subspace topology, Tensor (intrinsic definition), Algorithm, Norm (philosophy), Matrix norm, Mathematics, Tensor decomposition, Matrix algebra, Algebra over a field, Algorithm design, Combinatorics, Artificial intelligence, Multidimensional systems, Spectral clustering, Discrete mathematics, Signal processing, Pattern recognition (psychology)",
+    "url": "https://doi.org/10.1109/tkde.2026.3743168",
+    "doi": "https://doi.org/10.1109/tkde.2026.3743168",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7221589788"
+  },
+  "When the Shortest Path Collects Spatial Keywords: A Journey to Select the Best Algorithm": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7221650436",
+    "author": "Jiajia Li and Yang Song and Mengxuan Zhang and Keyan Cao and Na Guo and Yi Yang and Lei Li",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "When the Shortest Path Collects Spatial Keywords: A Journey to Select the Best Algorithm",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Path (computing), Algorithm, Algorithm design, Shortest path problem, Theoretical computer science, Approximation algorithm, Computation, Artificial intelligence, Data mining, Set (abstract data type), K shortest path routing",
+    "url": "https://doi.org/10.1109/tkde.2026.3743213",
+    "doi": "https://doi.org/10.1109/tkde.2026.3743213",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7221650436"
+  },
+  "Neural Model Shaping via Selective Feature Learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7221705470",
+    "author": "Tao Guo and Song Guo and Bo Tang and Junxiao Wang and Jiewei Zhang and Wenchao Xu and Laizhong Cui",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Neural Model Shaping via Selective Feature Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Artificial neural network, Feature (linguistics), Pattern recognition (psychology), Feature extraction, Deep learning, Feature learning, Data modeling, Backpropagation, Signal processing, Feature vector, Field (mathematics)",
+    "url": "https://doi.org/10.1109/tkde.2026.3743416",
+    "doi": "https://doi.org/10.1109/tkde.2026.3743416",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7221705470"
+  },
+  "A Survey on Multimodal LLMs from the Perspective of Input-Output Space Extension": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7221788158",
+    "author": "Zejun Li and Jiwen Zhang and Dianyi Wang and Ye Wang and Xuanjing Huang and Zhongyu Wei",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "A Survey on Multimodal LLMs from the Perspective of Input-Output Space Extension",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Perspective (graphical), Computer science, Extension (predicate logic), Space (punctuation), Data science, Artificial intelligence, Knowledge management, Space technology, Management science, Computer security, History of computing, Human–computer interaction, Visualization",
+    "url": "https://doi.org/10.1109/tkde.2026.3743749",
+    "doi": "https://doi.org/10.1109/tkde.2026.3743749",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7221788158"
+  },
+  "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7222175540",
+    "author": "Linjiang Guo and Nitin Bisht and Shiqing Wu and Guandong Xu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Decoding methods, Artificial intelligence, Data mining, Algorithm design, Encoding (memory), Algorithm, Data modeling, Pattern recognition (psychology), Sequential decoding",
+    "url": "https://doi.org/10.1109/tkde.2026.3740693",
+    "doi": "https://doi.org/10.1109/tkde.2026.3740693",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7222175540"
+  },
+  "Thinking Fast and Slow: A Dual-System Framework for Multimodal Fake News Detection Via Dynamic Scheduling": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223015304",
+    "author": "Xuejian Huang and Tinghuai Ma and Hao Tang and Yuming Su and Huan Rong and HuaYang Li and Dexi Liu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Thinking Fast and Slow: A Dual-System Framework for Multimodal Fake News Detection Via Dynamic Scheduling",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Scheduling (production processes), Fake news, Processor scheduling, Artificial intelligence, Algorithm design, Human–computer interaction, Real-time computing, Dynamic priority scheduling, Computer security, Distributed computing, Data mining",
+    "url": "https://doi.org/10.1109/tkde.2026.3745591",
+    "doi": "https://doi.org/10.1109/tkde.2026.3745591",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223015304"
+  },
+  "Decoupled User–Item Representation Calibration for Two-Sided Fairness in Recommendation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223135914",
+    "author": "Renwu Geng and Weiming Liu and Fan Wang and Liang Hu and Chaochao Chen",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Decoupled User–Item Representation Calibration for Two-Sided Fairness in Recommendation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Representation (politics), Calibration, Algorithm, Theoretical computer science, Artificial intelligence, Data mining, Algorithm design, Signal processing, Matrix algebra",
+    "url": "https://doi.org/10.1109/tkde.2026.3745701",
+    "doi": "https://doi.org/10.1109/tkde.2026.3745701",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223135914"
+  },
+  "Multi-Scale Information Diffusion Prediction With Staged Mutual Information Optimization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223222598",
+    "author": "Tianyang Shao and Mattia Samory and Xiang Hui Zhao",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Multi-Scale Information Diffusion Prediction With Staged Mutual Information Optimization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Mutual information, Computer science, Data mining, Diffusion, Information system, Information theory, Data modeling, Interaction information, Artificial intelligence, Algorithm, Mathematical optimization, Information engineering, Conditional mutual information, Information processing, Reduction (mathematics), Complete information, Pointwise mutual information, Algorithm design, Electronic mail",
+    "url": "https://doi.org/10.1109/tkde.2026.3738421",
+    "doi": "https://doi.org/10.1109/tkde.2026.3738421",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223222598"
   }
 }

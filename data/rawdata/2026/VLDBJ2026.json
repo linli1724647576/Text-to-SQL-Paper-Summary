@@ -33,19 +33,20 @@
   },
   "LMG index: a robust and efficient learned index framework for balancing multiple performance dimensions": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7223105842",
+    "key": "https://openalex.org/W7117987895",
     "author": "Yuzhen Chen and Bin Yao",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "LMG index: a robust and efficient learned index framework for balancing multiple performance dimensions",
     "year": "2026",
     "abstract": "",
-    "keywords": "Computer science, Artificial intelligence, Index (typography), Algorithm, Robustness (evolution), Data mining, Mathematics, Process capability index, Key (lock), Pattern recognition (psychology), Matching (statistics), Feature (linguistics), Stability (learning theory), Principal component analysis, Component (thermodynamics)",
+    "keywords": "Search engine indexing, Computer science, Stability (learning theory), Generality, Key (lock), Data mining, Process (computing), Point (geometry), Index (typography), Range (aeronautics), Latency (audio), Robustness (evolution), Database index, Space (punctuation), Process capability index, Term (time), Mathematical optimization, Artificial intelligence, Algorithm, Identification (biology)",
     "url": "https://doi.org/10.1007/s00778-026-01014-1",
     "doi": "https://doi.org/10.1007/s00778-026-01014-1",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7223105842"
+    "openalex_id": "https://openalex.org/W7117987895",
+    "arxiv_id": "2512.24824"
   },
   "Efficient shortest path counting in dynamic road network": {
     "type": "ARTICLE",
@@ -145,7 +146,7 @@
     "openalex_id": "https://openalex.org/W7214111211"
   },
   "VLDB S.I.: harnessing the power of foundation models for data management": {
-    "type": "ARTICLE",
+    "type": "EDITORIAL",
     "key": "https://openalex.org/W7213441194",
     "author": "Melisachew Wudage Chekol and Çağatay Demiralp and George Fletcher and Paul Groth and Yannis Velegrakis",
     "booktitle": "The VLDB Journal",
@@ -676,6 +677,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7148740852"
   },
+  "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7155560874",
+    "author": "Xiao Yunyi and Hiroyoshi Ito and Lei Chen and Atsuyuki Morishima",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations",
+    "year": "2026",
+    "abstract": "Abstract Large-scale crowdsourcing with high-quality results, such as online surveys and data labeling tasks, is in wide demand. Existing techniques on task assignment result quality optimization, however, have addressed only a part of optimization space that does not necessarily reflect the real-world problem. For example, in reality, the proper worker set for task assignment and the workers’ submissions to the task are non-obvious in advance, which is not considered by existing techniques. Hence, this paper discusses a task assignment algorithm that dynamically probes the proper worker set(s) and worker submission models for the task to optimize task assignments in terms of quality, time, and expense. Specifically, we introduce CrowdBwO (Crowd Bandit with Optimization), a novel multi-armed bandit algorithm that is based on batched bandits and bandits with Knapsack and incorporates worker submission models. CrowdBwO dynamically determines and utilizes proper worker set(s) and worker submission models for each task under uncertainty to achieve high-performance crowdsourcing. We conducted extensive experiments with synthetic workers and real workers to evaluate CrowdBwO in two specific problem settings. Our extensive experimental results demonstrate that CrowdBwO is significant for real-world crowdsourcing and has a high performance.",
+    "keywords": "Crowdsourcing, Task (project management), Computer science, Set (abstract data type), Quality (philosophy), Knapsack problem, Machine learning, Artificial intelligence, Space (punctuation), Data mining, Operations research, Data set, Task analysis, Assignment problem",
+    "url": "https://doi.org/10.1007/s00778-026-00969-5",
+    "doi": "https://doi.org/10.1007/s00778-026-00969-5",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7155560874"
+  },
   "Programmable Dataflows: Abstraction and Programming Model for Data Sharing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7148694636",
@@ -709,22 +726,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7148720765",
     "arxiv_id": "2505.09258"
-  },
-  "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7155560874",
-    "author": "Yunyi Xiao and Hiroyoshi Ito and Lei Chen and Atsuyuki Morishima",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations",
-    "year": "2026",
-    "abstract": "Abstract Large-scale crowdsourcing with high-quality results, such as online surveys and data labeling tasks, is in wide demand. Existing techniques on task assignment result quality optimization, however, have addressed only a part of optimization space that does not necessarily reflect the real-world problem. For example, in reality, the proper worker set for task assignment and the workers’ submissions to the task are non-obvious in advance, which is not considered by existing techniques. Hence, this paper discusses a task assignment algorithm that dynamically probes the proper worker set(s) and worker submission models for the task to optimize task assignments in terms of quality, time, and expense. Specifically, we introduce CrowdBwO (Crowd Bandit with Optimization), a novel multi-armed bandit algorithm that is based on batched bandits and bandits with Knapsack and incorporates worker submission models. CrowdBwO dynamically determines and utilizes proper worker set(s) and worker submission models for each task under uncertainty to achieve high-performance crowdsourcing. We conducted extensive experiments with synthetic workers and real workers to evaluate CrowdBwO in two specific problem settings. Our extensive experimental results demonstrate that CrowdBwO is significant for real-world crowdsourcing and has a high performance.",
-    "keywords": "Crowdsourcing, Task (project management), Computer science, Set (abstract data type), Quality (philosophy), Knapsack problem, Machine learning, Artificial intelligence, Space (punctuation), Data mining, Operations research, Data set, Task analysis, Assignment problem",
-    "url": "https://doi.org/10.1007/s00778-026-00969-5",
-    "doi": "https://doi.org/10.1007/s00778-026-00969-5",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7155560874"
   },
   "DIST: Efficient k-Clique Listing via Induced Subgraph Trie": {
     "type": "ARTICLE",

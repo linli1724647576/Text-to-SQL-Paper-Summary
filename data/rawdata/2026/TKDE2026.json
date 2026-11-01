@@ -492,7 +492,7 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Efficient Poisoning Attacks Against Reinforcement Learning-Based Recommender Systems",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Recommender systems play a crucial role in predicting and suggesting related options for users in different scenarios, including e-commerce, social media, and streaming services. Currently, deep reinforcement learning (DRL)-based recommendation systems have gained significant popularity in both industry and academia, e.g., Spotify, Netflix, Google, and YouTube, since DRL enables modeling long-term interactions between users and the system to enhance the recommendation experience. This paper illustrates that attackers could manipulate DRL-based recommender systems by inserting maliciously constructed interaction data between users and the system. The poisoning attack on these systems is modeled as a non-convex integer programming problem. To address this challenge, a three-phase framework (named ePARL) is proposed to maximize the hit ratio (i.e., the proportion of target items appearing in the user's recommendations) while ensuring high efficiency and evading detection. The insight of ePARL is to increase the ranking of the target item while maintaining the ranking of other items. ePARL supports generating multiple fake user records in a single round, effectively reducing attack costs. Considering the sequential decision-making characteristics of reinforcement learning, ePARL reorganizes the order of items for fake users to mimic the sequential features of normal users, a factor often overlooked in the prior literature. The experiments on several real-world datasets reveal the robustness and effectiveness of ePARL, as well as its superior stealthiness against related detection approaches.",
     "keywords": "Computer science, Recommender system, Reinforcement learning, Artificial intelligence, Computer security, Algorithm design, Machine learning, Data mining, Electronic mail, Reinforcement",
     "url": "https://doi.org/10.1109/tkde.2026.3722474",
     "doi": "https://doi.org/10.1109/tkde.2026.3722474",
@@ -1048,6 +1048,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7171874300"
   },
+  "Privacy Budgeting for Spatio-Temporal Trajectories": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7171713231",
+    "author": "Suirui Zhu and Chao Sun and Xin Yuan and Conggai Li and Wei Ni and Wenjie Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Privacy Budgeting for Spatio-Temporal Trajectories",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://doi.org/10.1109/tkde.2026.3718033",
+    "doi": "https://doi.org/10.1109/tkde.2026.3718033",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7171713231"
+  },
   "Investigating Mask-Aware Prototype Learning for Tabular Anomaly Detection": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4415134462",
@@ -1073,13 +1089,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Pandora: Leveraging Code-Driven Knowledge Transfer for Unified Structured Knowledge Reasoning",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Unified Structured Knowledge Reasoning (USKR) aims to answer natural language questions by using structured sources such as tables, databases, and knowledge graphs in a unified way. Existing USKR methods rely on task-specific strategies or bespoke representations, which hinder their ability to dismantle barriers between different SKR tasks, thereby constraining their overall performance in cross-task scenarios. In this paper, we introduce \\textsc{Pandora}, a novel USKR framework that addresses the limitations of existing methods by leveraging two key innovations. First, we propose a code-based unified knowledge representation using \\textsc{Python}'s \\textsc{Pandas} API, which aligns seamlessly with the pre-training of LLMs. This representation facilitates a cohesive approach to handling different structured knowledge sources. Building on this foundation, we employ knowledge transfer to bolster the unified reasoning process of LLMs by automatically building cross-task memory. By adaptively correcting reasoning using feedback from code execution, \\textsc{Pandora} showcases impressive unified reasoning capabilities. Extensive experiments on six widely used benchmarks across three SKR tasks demonstrate that \\textsc{Pandora} outperforms existing unified reasoning frameworks and competes effectively with task-specific methods.",
     "keywords": "Computer science, Knowledge transfer, Knowledge-based systems, Knowledge representation and reasoning, Open Knowledge Base Connectivity, Knowledge management, Knowledge acquisition, Knowledge engineering, Artificial intelligence, Knowledge base, Case-based reasoning, Knowledge extraction, Model-based reasoning, Domain knowledge, Automated reasoning, Data modeling, Knowledge integration, Information retrieval, Key (lock), Data science",
     "url": "https://doi.org/10.1109/tkde.2026.3718049",
     "doi": "https://doi.org/10.1109/tkde.2026.3718049",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7171624793"
+    "openalex_id": "https://openalex.org/W7171624793",
+    "arxiv_id": "2508.17905"
   },
   "Enhancing Graph Neural Network Explainers Using a Distribution Shift Consistency-Guided Generator": {
     "type": "ARTICLE",
@@ -1128,22 +1145,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7171703551"
-  },
-  "Privacy Budgeting for Spatio-Temporal Trajectories": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7171713231",
-    "author": "Suirui Zhu and Chao Sun and Xin Yuan and Conggai Li and Wei Ni and Wenjie Zhang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Privacy Budgeting for Spatio-Temporal Trajectories",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://doi.org/10.1109/tkde.2026.3718033",
-    "doi": "https://doi.org/10.1109/tkde.2026.3718033",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7171713231"
   },
   "LFAMLedger: Account Migration Across Blockchain Shards Using a Lock-Free Mechanism": {
     "type": "ARTICLE",
@@ -2241,6 +2242,22 @@
     "openalex_id": "https://openalex.org/W4392735792",
     "arxiv_id": "2403.06382"
   },
+  "MST-DHC: A User-Friendly Hyperparameter-Free and Cluster-Size Balanced Clustering Algorithm": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7163916218",
+    "author": "Xinyu Chen and Chao Zhang and Dacheng Tao",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "MST-DHC: A User-Friendly Hyperparameter-Free and Cluster-Size Balanced Clustering Algorithm",
+    "year": "2026",
+    "abstract": "A minimum spanning tree (MST) connects all vertices with a minimum sum of total weights and encodes the intrinsic relatedness information among these vertices, whose distribution behavior is also characterized by the edge weights of the MST. Inspired by this fact, we propose a user-friendly MST-based divisive hierarchical clustering (MST-DHC) algorithm that is hyperparameter-free and cluster-size balanced. In particular, MST-DHC selects the cluster to be segmented according to the second-order difference of the edge weight sequence of the MST, which is derived from the dataset, and then adjusts the weight of each edge in the MST to keep the sizes of the segmented clusters as balanced as possible. To improve the confidence of the clustering results, we then introduce an auxiliary method to screen the points lying in the low density regions of the data space by using the geodesic distance which is defined as the sum of edge-weight along the unique path between two vertices in the MST. Different from the existing MST-based clustering algorithms, the proposed MST-DHC does not contain any hyperparameter except the number of clusters$k$, and can balance the cluster sizes. The usage of screening method merely needs to preassign the number of points to be maintained for the subsequent clustering process. Therefore, this algorithm has a higher user-friendliness and applicability than the existing ones. The numerical experiments support the effectiveness of MST-DHC, and show that 1) MST-DHC outperforms the classical clustering algorithms; and 2) the screening method improves the clustering performance of MST-DHC.",
+    "keywords": "Computer science, Cluster analysis, Canopy clustering algorithm, Correlation clustering, Algorithm, CURE data clustering algorithm, Algorithm design, Data mining, Artificial intelligence, Data stream clustering, Fuzzy clustering, Pattern recognition (psychology), Single-linkage clustering, Data modeling, Approximation algorithm, Biclustering",
+    "url": "https://doi.org/10.1109/tkde.2026.3701540",
+    "doi": "https://doi.org/10.1109/tkde.2026.3701540",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7163916218"
+  },
   "A Knowledge-Based Semi-Supervised Crystal Property Prediction Framework With Consistency Regularization": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163864912",
@@ -2321,22 +2338,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163908281"
   },
-  "MST-DHC: A User-Friendly Hyperparameter-Free and Cluster-Size Balanced Clustering Algorithm": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7163916218",
-    "author": "Xinyu Chen and Chao Zhang and Dacheng Tao",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "MST-DHC: A User-Friendly Hyperparameter-Free and Cluster-Size Balanced Clustering Algorithm",
-    "year": "2026",
-    "abstract": "A minimum spanning tree (MST) connects all vertices with a minimum sum of total weights and encodes the intrinsic relatedness information among these vertices, whose distribution behavior is also characterized by the edge weights of the MST. Inspired by this fact, we propose a user-friendly MST-based divisive hierarchical clustering (MST-DHC) algorithm that is hyperparameter-free and cluster-size balanced. In particular, MST-DHC selects the cluster to be segmented according to the second-order difference of the edge weight sequence of the MST, which is derived from the dataset, and then adjusts the weight of each edge in the MST to keep the sizes of the segmented clusters as balanced as possible. To improve the confidence of the clustering results, we then introduce an auxiliary method to screen the points lying in the low density regions of the data space by using the geodesic distance which is defined as the sum of edge-weight along the unique path between two vertices in the MST. Different from the existing MST-based clustering algorithms, the proposed MST-DHC does not contain any hyperparameter except the number of clusters$k$, and can balance the cluster sizes. The usage of screening method merely needs to preassign the number of points to be maintained for the subsequent clustering process. Therefore, this algorithm has a higher user-friendliness and applicability than the existing ones. The numerical experiments support the effectiveness of MST-DHC, and show that 1) MST-DHC outperforms the classical clustering algorithms; and 2) the screening method improves the clustering performance of MST-DHC.",
-    "keywords": "Computer science, Cluster analysis, Canopy clustering algorithm, Correlation clustering, Algorithm, CURE data clustering algorithm, Algorithm design, Data mining, Artificial intelligence, Data stream clustering, Fuzzy clustering, Pattern recognition (psychology), Single-linkage clustering, Data modeling, Approximation algorithm, Biclustering",
-    "url": "https://doi.org/10.1109/tkde.2026.3701540",
-    "doi": "https://doi.org/10.1109/tkde.2026.3701540",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7163916218"
-  },
   "K Graph Centers": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163923112",
@@ -2369,22 +2370,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163669416"
   },
-  "ANN-Cache: Accelerating Approximate Nearest Neighbor Search via Caching": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4412625501",
-    "author": "Lingli Li and Zhanyu He and Zhuo Zhang and Ying Deng",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "ANN-Cache: Accelerating Approximate Nearest Neighbor Search via Caching",
-    "year": "2026",
-    "abstract": "Approximate nearest neighbor (ANN) search in the high-dimensional Euclidean space is a pivotal problem for various data science and AI applications. The performance of traditional in-memory ANN methods decreases dramatically when handling large-scale data due to their substantial expansion of main memory. Recently, disk-resident ANN methods have drawn considerable attention to enable large-scale ANN search. However, despite their significant improvements, they still suffer from high query latency due to heavy I/O cost. In this paper, we propose ANN-CACHE, an I/O-efficient cache-conscious ANN framework that leverages the skew in query workloads to reduce I/O cost. To the best of our knowledge, we are the first to formally study exploring caching to accelerate disk-based ANN search. ANN-CACHE consists of two components: (i) a discriminator that checks whether a query's ANN points are cached. If so, an in-memory lookup in the cache is triggered; otherwise, a lookup in the disk-resident index is conducted; and (ii) an LSH-based cache that stores historical queries and their results to support efficient ANN search. Considering a query q, if the cache contains historical queries that are similar to q and their ANNs, we can obtain q's result from these queries' results without accessing the disk-resident index. Experimental results demonstrate that our framework achieves 3×-9× speedup while maintaining consistently higher accuracy compared to the baselines, by introducing less than 50 MB of additional memory overhead on datasets of 10M size.",
-    "keywords": "Cache, Computer science, k-nearest neighbors algorithm, Parallel computing, Artificial intelligence",
-    "url": "https://doi.org/10.1109/tkde.2026.3700562",
-    "doi": "https://doi.org/10.1109/tkde.2026.3700562",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W4412625501"
-  },
   "A Parameter-Free Multi-View Clustering Framework With Adaptive Anchors for Large-Scale Data": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163647139",
@@ -2400,6 +2385,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163647139"
+  },
+  "ANN-Cache: Accelerating Approximate Nearest Neighbor Search via Caching": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4412625501",
+    "author": "Lingli Li and Zhanyu He and Zhuo Zhang and Ying Deng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "ANN-Cache: Accelerating Approximate Nearest Neighbor Search via Caching",
+    "year": "2026",
+    "abstract": "Approximate nearest neighbor (ANN) search in the high-dimensional Euclidean space is a pivotal problem for various data science and AI applications. The performance of traditional in-memory ANN methods decreases dramatically when handling large-scale data due to their substantial expansion of main memory. Recently, disk-resident ANN methods have drawn considerable attention to enable large-scale ANN search. However, despite their significant improvements, they still suffer from high query latency due to heavy I/O cost. In this paper, we propose ANN-CACHE, an I/O-efficient cache-conscious ANN framework that leverages the skew in query workloads to reduce I/O cost. To the best of our knowledge, we are the first to formally study exploring caching to accelerate disk-based ANN search. ANN-CACHE consists of two components: (i) a discriminator that checks whether a query's ANN points are cached. If so, an in-memory lookup in the cache is triggered; otherwise, a lookup in the disk-resident index is conducted; and (ii) an LSH-based cache that stores historical queries and their results to support efficient ANN search. Considering a query q, if the cache contains historical queries that are similar to q and their ANNs, we can obtain q's result from these queries' results without accessing the disk-resident index. Experimental results demonstrate that our framework achieves 3×-9× speedup while maintaining consistently higher accuracy compared to the baselines, by introducing less than 50 MB of additional memory overhead on datasets of 10M size.",
+    "keywords": "Cache, Computer science, k-nearest neighbors algorithm, Parallel computing, Artificial intelligence",
+    "url": "https://doi.org/10.1109/tkde.2026.3700562",
+    "doi": "https://doi.org/10.1109/tkde.2026.3700562",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W4412625501"
   },
   "Fragmented Graph Pattern Matching on Large Graphs": {
     "type": "ARTICLE",
@@ -2500,7 +2501,7 @@
   "DUAL-Know: A Description-Augmented and Uncertainty-Aware GraphRAG Framework for Anesthesiology Question Answering": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163575142",
-    "author": "Hongzhi Qi and J D Li and Yanhu Ge and Huimin Wu and Yuqi Cai and Shuyao Che and Tianqiang Sheng and Qing Zhao and Chaojin Chen",
+    "author": "Huaying Qi and J D Li and Yanhu Ge and Huimin Wu and Yuqi Cai and Shuyao Che and Tianqiang Sheng and Qing Zhao and Chaojin Chen",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "DUAL-Know: A Description-Augmented and Uncertainty-Aware GraphRAG Framework for Anesthesiology Question Answering",
@@ -2562,6 +2563,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163224127"
   },
+  "SAPP: Achieving Semantic-Aware Differential Privacy for Spatiotemporal Trajectory Data Publishing": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7163166262",
+    "author": "Haojie Yuan and Lei Wu and Ye Su and H Z Wang and Weizhi Meng and Z H Liu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "SAPP: Achieving Semantic-Aware Differential Privacy for Spatiotemporal Trajectory Data Publishing",
+    "year": "2026",
+    "abstract": "With the increasing availability of large-scale spatiotemporal data from location-based services, trajectory publishing has become essential for data-driven analysis and intelligent applications. However, insufficient protection of trajectory location data may result in the disclosure of user privacy and social relationship information. To address this issue, we propose a semantic-aware privacy-preserving trajectory data publishing scheme (SAPP). First, a sliding-window algorithm is employed to extract stay points as key semantic locations and to generate a uniformly sampled set of candidate obfuscation points. Then, a semantic-aware scoring function is designed to probabilistically select candidate points that preserve semantics while avoiding sensitive regions. Furthermore, SAPP computes the sensitivity of each location based on semantic frequency and dynamically allocates the privacy budget. Finally, random noise is added to candidate trajectories using the Laplace mechanism. Through a dual-perturbation mechanism, spatial correlations in sensitive regions are weakened. Security analysis and experimental results further demonstrate that, compared with existing approaches, SAPP reduces TPPS and SFRR by up to 18% and 14%, respectively, indicating stronger resistance against trajectory inference and semantic leakage attacks while maintaining high data utility and time efficiency.",
+    "keywords": "Computer science, Differential privacy, Data publishing, Trajectory, Data mining, Information privacy, Data modeling, Privacy protection, Differential (mechanical device), Algorithm design, Big data, Privacy software",
+    "url": "https://doi.org/10.1109/tkde.2026.3699376",
+    "doi": "https://doi.org/10.1109/tkde.2026.3699376",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7163166262"
+  },
   "HQT-TI: An Efficient Hilbert Curve Based Index for Spatial Keyword Queries": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7163205462",
@@ -2609,22 +2626,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163156595"
-  },
-  "SAPP: Achieving Semantic-Aware Differential Privacy for Spatiotemporal Trajectory Data Publishing": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7163166262",
-    "author": "Haojie Yuan and Lei Wu and Ye Su and H Z Wang and Weizhi Meng and Z H Liu",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "SAPP: Achieving Semantic-Aware Differential Privacy for Spatiotemporal Trajectory Data Publishing",
-    "year": "2026",
-    "abstract": "With the increasing availability of large-scale spatiotemporal data from location-based services, trajectory publishing has become essential for data-driven analysis and intelligent applications. However, insufficient protection of trajectory location data may result in the disclosure of user privacy and social relationship information. To address this issue, we propose a semantic-aware privacy-preserving trajectory data publishing scheme (SAPP). First, a sliding-window algorithm is employed to extract stay points as key semantic locations and to generate a uniformly sampled set of candidate obfuscation points. Then, a semantic-aware scoring function is designed to probabilistically select candidate points that preserve semantics while avoiding sensitive regions. Furthermore, SAPP computes the sensitivity of each location based on semantic frequency and dynamically allocates the privacy budget. Finally, random noise is added to candidate trajectories using the Laplace mechanism. Through a dual-perturbation mechanism, spatial correlations in sensitive regions are weakened. Security analysis and experimental results further demonstrate that, compared with existing approaches, SAPP reduces TPPS and SFRR by up to 18% and 14%, respectively, indicating stronger resistance against trajectory inference and semantic leakage attacks while maintaining high data utility and time efficiency.",
-    "keywords": "Computer science, Differential privacy, Data publishing, Trajectory, Data mining, Information privacy, Data modeling, Privacy protection, Differential (mechanical device), Algorithm design, Big data, Privacy software",
-    "url": "https://doi.org/10.1109/tkde.2026.3699376",
-    "doi": "https://doi.org/10.1109/tkde.2026.3699376",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7163166262"
   },
   "Reason4Rec: Deliberative User Preference Alignment of Large Language Models for Recommendation": {
     "type": "ARTICLE",
@@ -3371,7 +3372,7 @@
   "CACE: A Framework for Generating Counterfactual Explanations Aligned With Causal Structure via Jointly Learned Conditional Distributions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7160178997",
-    "author": "Jacob Sanderson and Hua Mao and Qiuji Yi and Wai Lok Woo",
+    "author": "J.E. Sanderson and Hua Mao and Qiuji Yi and Wai Lok Woo",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "CACE: A Framework for Generating Counterfactual Explanations Aligned With Causal Structure via Jointly Learned Conditional Distributions",
@@ -3824,7 +3825,7 @@
   "Enhancing Large Language Models Reasoning via Multi-Path Optimization on Knowledge Graph": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7151794708",
-    "author": "Jiyong Liao and Chubo Liu and Yan Ding and Haotian Wang and Zhuo Tang and Keqin Li and Keqin Li",
+    "author": "Jiyong Liao and Chubo Liu and Yan Ding and Haotian Wang and Zhuo Tang and Kenli Li and Keqin Li",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Enhancing Large Language Models Reasoning via Multi-Path Optimization on Knowledge Graph",
@@ -4173,7 +4174,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3679080",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7147424289"
+    "openalex_id": "https://openalex.org/W7147424289",
+    "arxiv_id": "2610.39667"
   },
   "ProitMTA: A Multi-Target Model Poisoning Attack Framework for Federated Recommendation Systems With Proxy Items": {
     "type": "ARTICLE",
@@ -4372,7 +4374,7 @@
   "Enhancing Event Causality Extraction With Mention-Level Causal Evidence and Global Causal Graph Reasoning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140279444",
-    "author": "Ruili Pu and Yang Li and Jun Zhao and Suge Wang and Xiaoli Li and Deyu Li and Jian Liao and Jianxing Zheng and Bin Liang and Kam-Fai Wong",
+    "author": "Ruili Pu and Yang Li and Jun Zhao and Suge Wang and Xiaoli Li and Deyu Li and Jian Liao and Jianxing Zheng and Bin Liang and Kam‐Fai Wong",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Enhancing Event Causality Extraction With Mention-Level Causal Evidence and Global Causal Graph Reasoning",
@@ -4533,7 +4535,7 @@
   "SMDG: Enhancing In-Memory Dynamic Graph Processing With Storage-Class Memory": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7140081257",
-    "author": "Tongfeng Weng and Mo Sha and Xu Zhou and Jingjing Lu and Wentao Huang and Kenli Li and Kian‐Lee Tan",
+    "author": "Tongfeng Weng and Mo Sha and Xu Zhou and Jingjing Lu and Wentao Huang and Keqin Li and Kian‐Lee Tan",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "SMDG: Enhancing In-Memory Dynamic Graph Processing With Storage-Class Memory",
@@ -4774,7 +4776,7 @@
   "Spectral Clustering for Community Detection of Multi-Layer Networks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7138870198",
-    "author": "Junjie Zhao and Keyi Wang and Guyan Ni and Ying Li and Peng Chen and Xiaojun Duan and Shenglong Hu",
+    "author": "Junjie Zhao and Wang Keyi and Guyan Ni and Ying Li and Peng Chen and Xiaojun Duan and Shenglong Hu",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Spectral Clustering for Community Detection of Multi-Layer Networks",
@@ -5289,22 +5291,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7133299584"
   },
-  "Epiphron: Resource-Efficient Distributed Key-Value Storage": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7133304904",
-    "author": "Ruidong Zhu and Zili Zhang and Bingyang Wu and Xin Yao and Renhai Chen and Gong Zhang and Xuanzhe Liu and Xin Jin",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Epiphron: Resource-Efficient Distributed Key-Value Storage",
-    "year": "2026",
-    "abstract": "In-memory key-value storage necessitates a substantial quantity of computation and storage resources for both performance and scalability, thereby diminishing the resources available for user applications. The emergence of programmable network hardware, including SmartNICs and programmable switches, provides the opportunity to offload operations from server CPUs. We present Epiphron, a novel distributed in-memory key-value store architecture that co-designs with off-path SmartNICs and programmable switches. Facing the limited performance of off-path SmartNICs, Epiphron successfully achieves high resource efficiency while keeping load balancing and fault tolerance by$(i)$hybridizing erasure coding with replication in storage management,$(ii)$accelerating read operations with a new data plane design (conflict detection and RDMA-compatible forwarding) on programmable switches,$(iii)$employing a network protocol extended from one-sided RDMA. We evaluate Epiphron on Barefoot Tofino switches, NVIDIA BlueField-2 SmartNICs, and commodity servers. The experimental results demonstrate that compared to existing solutions, Epiphron improves throughput by up to 2.2× and consumes 47% less memory while completely bypassing server CPUs.",
-    "keywords": "Computer science, Erasure code, Fault tolerance, Distributed data store, Replication (statistics), Throughput, Operating system, Storage area network, Distributed computing, Forwarding plane, Embedded system, Computer network, File server, iSCSI, Server, Protocol (science), Computer data storage, Memory architecture, Load balancing (electrical power), High availability, Networking hardware, Network processor, Distributed database, Coding (social sciences), Load management, Random access memory, Network File System, Erasure",
-    "url": "https://doi.org/10.1109/tkde.2026.3669983",
-    "doi": "https://doi.org/10.1109/tkde.2026.3669983",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7133304904"
-  },
   "An Optimization Solver of Min-Max Cut for Spectral Clustering": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7133329888",
@@ -5320,6 +5306,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7133329888"
+  },
+  "Epiphron: Resource-Efficient Distributed Key-Value Storage": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7133304904",
+    "author": "Ruidong Zhu and Zili Zhang and Bingyang Wu and Xin Yao and Renhai Chen and Gong Zhang and Xuanzhe Liu and Xin Jin",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Epiphron: Resource-Efficient Distributed Key-Value Storage",
+    "year": "2026",
+    "abstract": "In-memory key-value storage necessitates a substantial quantity of computation and storage resources for both performance and scalability, thereby diminishing the resources available for user applications. The emergence of programmable network hardware, including SmartNICs and programmable switches, provides the opportunity to offload operations from server CPUs. We present Epiphron, a novel distributed in-memory key-value store architecture that co-designs with off-path SmartNICs and programmable switches. Facing the limited performance of off-path SmartNICs, Epiphron successfully achieves high resource efficiency while keeping load balancing and fault tolerance by$(i)$hybridizing erasure coding with replication in storage management,$(ii)$accelerating read operations with a new data plane design (conflict detection and RDMA-compatible forwarding) on programmable switches,$(iii)$employing a network protocol extended from one-sided RDMA. We evaluate Epiphron on Barefoot Tofino switches, NVIDIA BlueField-2 SmartNICs, and commodity servers. The experimental results demonstrate that compared to existing solutions, Epiphron improves throughput by up to 2.2× and consumes 47% less memory while completely bypassing server CPUs.",
+    "keywords": "Computer science, Erasure code, Fault tolerance, Distributed data store, Replication (statistics), Throughput, Operating system, Storage area network, Distributed computing, Forwarding plane, Embedded system, Computer network, File server, iSCSI, Server, Protocol (science), Computer data storage, Memory architecture, Load balancing (electrical power), High availability, Networking hardware, Network processor, Distributed database, Coding (social sciences), Load management, Random access memory, Network File System, Erasure",
+    "url": "https://doi.org/10.1109/tkde.2026.3669983",
+    "doi": "https://doi.org/10.1109/tkde.2026.3669983",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7133304904"
   },
   "Training-Free and Unbiased Graph Collaborative Filtering for Personalized Recommendations": {
     "type": "ARTICLE",
@@ -5912,7 +5914,8 @@
     "doi": "https://doi.org/10.1109/tkde.2026.3659207",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7126117698"
+    "openalex_id": "https://openalex.org/W7126117698",
+    "arxiv_id": "2510.11160"
   },
   "${\\sf FinePar}$FinePar: A Fine-Grained Data Partitioning Framework for Cloud-Edge-Device Architectures": {
     "type": "ARTICLE",
@@ -6255,6 +6258,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125538863"
   },
+  "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125542493",
+    "author": "Herun Wan and Minnan Luo and Jihong Wang and Xiaojun Chang and Qinghua Zheng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection",
+    "year": "2026",
+    "abstract": "Graph-based Twitter bot detectors are proven more effective than feature-based and text-based. Mainstream detectors only employ friend relationships, bringing two limitations: (i) friend relationships are sparse, ignoring implicit interactions between users, and (ii) bots would follow humans to expand their influence, challenging the homophily principle. This paper aims to learn a homophilous context graph containing implicit interactions, which faces two challenges: (i) existing homophily measures are influenced by the class distribution, which is not suitable for the class imbalance situation of bot detection, and (ii) existing graph learning paradigm would introduce noisy neighbors and consume computing resources. To this end, we first propose a class-independent homophily measure, which is proven to be robust to class distribution. Meanwhile, we propose HCGBot, which transforms graph learning into similarity metric learning. HCGBot contains a neighbor-mask GNN layer, which masks users that hardly implicitly interact and extracts topology and weight information from the context graph. Finally, we design a hybrid loss to optimize HCGBot, which maximizes the class-independent homophily measure while detecting bots. Extensive experiments prove that HCGBot achieves the best performance and learns a more homophilous context graph with high efficiency. Further analysis illustrates that HCGBot can detect social bots in more realistic situations.",
+    "keywords": "Computer science, Context (archaeology), Artificial intelligence, Context model, World Wide Web, Knowledge graph, Data modeling, Graph, Information retrieval, Electronic mail, The Internet, Context awareness",
+    "url": "https://doi.org/10.1109/tkde.2026.3656720",
+    "doi": "https://doi.org/10.1109/tkde.2026.3656720",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7125542493"
+  },
   "Effective Bug Detection in Graph Database Engines: An LLM-Based Approach": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7125473043",
@@ -6287,22 +6306,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7125476064"
-  },
-  "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125542493",
-    "author": "Herun Wan and Minnan Luo and Jihong Wang and Xiaojun Chang and Qinghua Zheng",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "HCGBot: Learning Homophilous Context Graphs for Twitter Bot Detection",
-    "year": "2026",
-    "abstract": "Graph-based Twitter bot detectors are proven more effective than feature-based and text-based. Mainstream detectors only employ friend relationships, bringing two limitations: (i) friend relationships are sparse, ignoring implicit interactions between users, and (ii) bots would follow humans to expand their influence, challenging the homophily principle. This paper aims to learn a homophilous context graph containing implicit interactions, which faces two challenges: (i) existing homophily measures are influenced by the class distribution, which is not suitable for the class imbalance situation of bot detection, and (ii) existing graph learning paradigm would introduce noisy neighbors and consume computing resources. To this end, we first propose a class-independent homophily measure, which is proven to be robust to class distribution. Meanwhile, we propose HCGBot, which transforms graph learning into similarity metric learning. HCGBot contains a neighbor-mask GNN layer, which masks users that hardly implicitly interact and extracts topology and weight information from the context graph. Finally, we design a hybrid loss to optimize HCGBot, which maximizes the class-independent homophily measure while detecting bots. Extensive experiments prove that HCGBot achieves the best performance and learns a more homophilous context graph with high efficiency. Further analysis illustrates that HCGBot can detect social bots in more realistic situations.",
-    "keywords": "Computer science, Context (archaeology), Artificial intelligence, Context model, World Wide Web, Knowledge graph, Data modeling, Graph, Information retrieval, Electronic mail, The Internet, Context awareness",
-    "url": "https://doi.org/10.1109/tkde.2026.3656720",
-    "doi": "https://doi.org/10.1109/tkde.2026.3656720",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7125542493"
   },
   "Structural Entropy Guided Meta-Learning for Few-Shot Node Classification": {
     "type": "ARTICLE",
@@ -6516,7 +6519,7 @@
   "C2P-M: Critical Connection Protection in Multiplex Graphs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124883803",
-    "author": "Conggai Li and Wei Ni and Ming Ding and Youyang Qu and Jianjun Chen and W. ZHANG and Thierry Rakotoarivelo",
+    "author": "Conggai Li and Wei Ni and Ming Ding and Youyang Qu and J. Chen and W. ZHANG and Thierry Rakotoarivelo",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "C2P-M: Critical Connection Protection in Multiplex Graphs",
@@ -6610,22 +6613,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7123344796"
   },
-  "PRISM: Link Prediction in Attributed Networks With Uncertain Modalities": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7123357430",
-    "author": "Ruohan Yang and Muhammad Asif Ali and Huan Wang and Zhongfei Mark Zhang and Junyang Chen and Di Wang",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "PRISM: Link Prediction in Attributed Networks With Uncertain Modalities",
-    "year": "2026",
-    "abstract": "Link prediction for attributed graphs has garnered significant attention due to its ability to enhance predictive performance by leveraging multi-modal node attributes. However, real-world challenges such as privacy concerns, content restrictions, and attribute constraints often result in nodes facing varying degrees of missing modalities in their attributes, significantly limiting the effectiveness of existing approaches. Building on this fact, we propose a model for linkPRediction in attrIbuted networkSwith uncertainModalities (PRISM), which learns the shared representations across various scenarios of missing modalities through dual-level adversarial training.PRISMcomprises four modules,i.e.,a GCN extractor, an adversarial extractor, an attentive fusion, and an adaptive aggregator. The GCN extractor leverages graph convolutional networks (GCN) to extract fundamental representations from the network topology. The adversarial extractor employs dual-level adversarial training to acquire the shared representations across various multi-modal scenarios at the node-level and link-level, respectively. The attentive fusion applies the multi-head attention mechanism to integrate the shared representations and the fundamental representations. The adaptive aggregator comprehensively considers both node-level and link-level representations to predict the existence of links. Experimental evaluation using real-world datasets demonstrates thatPRISMsignificantly outperforms existing state-of-the-art link prediction methods for multi-modal attributed graphs under missing modalities by improving the Recall@50 metric (R@50) by up to 38.79%.",
-    "keywords": "Computer science, Adversarial system, Modalities, Artificial intelligence, Metric (unit), Machine learning, Node (physics), Fusion mechanism, Representation (politics), Graph, Inference, Robustness (evolution), Link (geometry), Limiting, Extractor, Matching (statistics), Data mining, Feature learning, Theoretical computer science, Performance metric, Mechanism (biology), Categorization, Key (lock), Sensor fusion, Missing data, Deep learning",
-    "url": "https://doi.org/10.1109/tkde.2026.3652729",
-    "doi": "https://doi.org/10.1109/tkde.2026.3652729",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7123357430"
-  },
   "Clustering Based on Density Propagation and Subcluster Merging": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7123348866",
@@ -6642,6 +6629,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7123348866",
     "arxiv_id": "2411.01780"
+  },
+  "PRISM: Link Prediction in Attributed Networks With Uncertain Modalities": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7123357430",
+    "author": "Ruohan Yang and Muhammad Asif Ali and Huan Wang and Zhongfei Mark Zhang and Junyang Chen and Di Wang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "PRISM: Link Prediction in Attributed Networks With Uncertain Modalities",
+    "year": "2026",
+    "abstract": "Link prediction for attributed graphs has garnered significant attention due to its ability to enhance predictive performance by leveraging multi-modal node attributes. However, real-world challenges such as privacy concerns, content restrictions, and attribute constraints often result in nodes facing varying degrees of missing modalities in their attributes, significantly limiting the effectiveness of existing approaches. Building on this fact, we propose a model for linkPRediction in attrIbuted networkSwith uncertainModalities (PRISM), which learns the shared representations across various scenarios of missing modalities through dual-level adversarial training.PRISMcomprises four modules,i.e.,a GCN extractor, an adversarial extractor, an attentive fusion, and an adaptive aggregator. The GCN extractor leverages graph convolutional networks (GCN) to extract fundamental representations from the network topology. The adversarial extractor employs dual-level adversarial training to acquire the shared representations across various multi-modal scenarios at the node-level and link-level, respectively. The attentive fusion applies the multi-head attention mechanism to integrate the shared representations and the fundamental representations. The adaptive aggregator comprehensively considers both node-level and link-level representations to predict the existence of links. Experimental evaluation using real-world datasets demonstrates thatPRISMsignificantly outperforms existing state-of-the-art link prediction methods for multi-modal attributed graphs under missing modalities by improving the Recall@50 metric (R@50) by up to 38.79%.",
+    "keywords": "Computer science, Adversarial system, Modalities, Artificial intelligence, Metric (unit), Machine learning, Node (physics), Fusion mechanism, Representation (politics), Graph, Inference, Robustness (evolution), Link (geometry), Limiting, Extractor, Matching (statistics), Data mining, Feature learning, Theoretical computer science, Performance metric, Mechanism (biology), Categorization, Key (lock), Sensor fusion, Missing data, Deep learning",
+    "url": "https://doi.org/10.1109/tkde.2026.3652729",
+    "doi": "https://doi.org/10.1109/tkde.2026.3652729",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7123357430"
   },
   "Class-Aware Multi-Granularity Co-Diffusion Models for Learning With Noisy Labels on Imbalanced Datasets": {
     "type": "ARTICLE",
@@ -6723,6 +6726,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7118192415"
   },
+  "Account Risk Detection in Large-Scale Financial Graphs With Auxiliary Asset Prediction": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7118192730",
+    "author": "Jingye Zhao and Jianan Shen and Jianwei Wang and Tianyuan Zhou and Ruijia Wu and Kai Wang and Xuemin Lin",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Account Risk Detection in Large-Scale Financial Graphs With Auxiliary Asset Prediction",
+    "year": "2026",
+    "abstract": "Account risk detection, which aims to identify accounts at forced liquidation risk within financial account-asset bipartite graphs, is crucial for ensuring financial market stability and economic resilience. Although traditional node-classification-based anomaly detection techniques can be applied to this task, these approaches often exhibit two key limitations: (1) insufficient consideration of asset fluctuations, resulting in unsatisfactory accuracy; and (2) scalability challenges, making them unsuitable for large-scale financial graphs. To address these issues, we propose RiskGuard, a novel framework for account risk detection that integrates auxiliary asset prediction and gradient-based sampling. First, we introduce an auxiliary asset prediction paradigm to capture the critical influence of asset fluctuations on account risk. Rather than solely predicting account risk, our unified model employs aTemporal-AttentionNet(TANet) to jointly predict asset fluctuations and account risk. This auxiliary task enables the model to learn fluctuation-aware asset representations, significantly enhancing prediction accuracy. To overcome scalability challenges, we design GLUE, an online graph sampler leveraging gradient entropy. GLUE dynamically adjusts sampling weights based on model gradients and graph structure, prioritizing high-entropy nodes in the neighborhood for improved efficiency. Extensive experiments on five financial datasets demonstrate that RiskGuard outperforms existing techniques in accuracy while achieving high efficiency in processing large financial graphs.",
+    "keywords": "Computer science, Scalability, Asset (computer security), Anomaly detection, Key (lock), Financial asset, Bipartite graph, Graph, Asset allocation, Task (project management), Matching (statistics), Financial market, Data mining, Stability (learning theory), Financial risk, Finance, Sampling (signal processing), Machine learning, Basis risk, Capital asset pricing model, Econometrics, Data modeling",
+    "url": "https://doi.org/10.1109/tkde.2026.3650965",
+    "doi": "https://doi.org/10.1109/tkde.2026.3650965",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7118192730"
+  },
   "Groundhog: Accelerating Spatio-Temporal Data Analytics With Fine-Grained In-Storage Processing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118215055",
@@ -6742,7 +6761,7 @@
   "Fast Diversified Top-k Rule Discovery via User-Guided Embeddings": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118167117",
-    "author": "Ziyan Han and Wanjia Chen and Yunpeng Han and Rui Mao and Jianbin Qin",
+    "author": "Ziyan Han and Wanjia Chen and Yan Han and Rui Mao and Jianbin Qin",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Fast Diversified Top-k Rule Discovery via User-Guided Embeddings",
@@ -6754,22 +6773,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7118167117"
-  },
-  "Account Risk Detection in Large-Scale Financial Graphs With Auxiliary Asset Prediction": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7118192730",
-    "author": "Jingye Zhao and Jianan Shen and Jianwei Wang and Tianyuan Zhou and Ruijia Wu and Kai Wang and Xuemin Lin",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Account Risk Detection in Large-Scale Financial Graphs With Auxiliary Asset Prediction",
-    "year": "2026",
-    "abstract": "Account risk detection, which aims to identify accounts at forced liquidation risk within financial account-asset bipartite graphs, is crucial for ensuring financial market stability and economic resilience. Although traditional node-classification-based anomaly detection techniques can be applied to this task, these approaches often exhibit two key limitations: (1) insufficient consideration of asset fluctuations, resulting in unsatisfactory accuracy; and (2) scalability challenges, making them unsuitable for large-scale financial graphs. To address these issues, we propose RiskGuard, a novel framework for account risk detection that integrates auxiliary asset prediction and gradient-based sampling. First, we introduce an auxiliary asset prediction paradigm to capture the critical influence of asset fluctuations on account risk. Rather than solely predicting account risk, our unified model employs aTemporal-AttentionNet(TANet) to jointly predict asset fluctuations and account risk. This auxiliary task enables the model to learn fluctuation-aware asset representations, significantly enhancing prediction accuracy. To overcome scalability challenges, we design GLUE, an online graph sampler leveraging gradient entropy. GLUE dynamically adjusts sampling weights based on model gradients and graph structure, prioritizing high-entropy nodes in the neighborhood for improved efficiency. Extensive experiments on five financial datasets demonstrate that RiskGuard outperforms existing techniques in accuracy while achieving high efficiency in processing large financial graphs.",
-    "keywords": "Computer science, Scalability, Asset (computer security), Anomaly detection, Key (lock), Financial asset, Bipartite graph, Graph, Asset allocation, Task (project management), Matching (statistics), Financial market, Data mining, Stability (learning theory), Financial risk, Finance, Sampling (signal processing), Machine learning, Basis risk, Capital asset pricing model, Econometrics, Data modeling",
-    "url": "https://doi.org/10.1109/tkde.2026.3650965",
-    "doi": "https://doi.org/10.1109/tkde.2026.3650965",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7118192730"
   },
   "A Comprehensive Survey of Time Series Forecasting: Concepts, Challenges, and Future Directions": {
     "type": "ARTICLE",
@@ -6885,6 +6888,22 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7163585997"
+  },
+  "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7213406017",
+    "author": "Jiaye Li and Zhongle Xie and Ke Chen and Lidan Shou and Gongsheng Yuan and Gang Chen",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Feature selection, Pattern recognition (psychology), Regularization (linguistics), Algorithm, Artificial intelligence, Feature (linguistics), Selection (genetic algorithm), Information loss, Data mining, Feature extraction, Algorithm design, Data modeling, Differential (mechanical device), Data loss, Prior information, Noisy data, Matrix algebra",
+    "url": "https://doi.org/10.1109/tkde.2026.3735205",
+    "doi": "https://doi.org/10.1109/tkde.2026.3735205",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7213406017"
   },
   "FlexTSF: A Flexible Forecasting Model for Time Series With Variable Regularities": {
     "type": "ARTICLE",
@@ -7280,7 +7299,7 @@
   "Data Poisoning Attacks and Defenses to Local Differential Privacy Protocols: A Survey": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7211942080",
-    "author": "Xinyu Li and Xuebin Ren and Shusen Yang and Qing Han and Kaijia Lei and Haofeng Wang",
+    "author": "Xinyu Li and Xuebin Ren and Shusen Yang and Qing Han and Lei Kaijia and Haofeng Wang",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Data Poisoning Attacks and Defenses to Local Differential Privacy Protocols: A Survey",
@@ -7356,22 +7375,6 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7212294922"
-  },
-  "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7213406017",
-    "author": "Jiaye Li and Zhongle Xie and Ke Chen and Lidan Shou and Gongsheng Yuan and Gang Chen",
-    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
-    "journal": "IEEE Transactions on Knowledge and Data Engineering",
-    "title": "Balanced Multi-View Feature Selection Via Differential Information Loss and $\\ell _{\\ln, 2}^{2}$-Norm Regularization",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Feature selection, Pattern recognition (psychology), Regularization (linguistics), Algorithm, Artificial intelligence, Feature (linguistics), Selection (genetic algorithm), Information loss, Data mining, Feature extraction, Algorithm design, Data modeling, Differential (mechanical device), Data loss, Prior information, Noisy data, Matrix algebra",
-    "url": "https://doi.org/10.1109/tkde.2026.3735205",
-    "doi": "https://doi.org/10.1109/tkde.2026.3735205",
-    "venue": "TKDE2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7213406017"
   },
   "Heterogeneous Graph Condensation Via Joint-Granularity Gradient Matching": {
     "type": "ARTICLE",
@@ -7976,13 +7979,14 @@
     "journal": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Session-based recommendation (SBR) infers user interest from limited interaction sequences, yet current models show a consistent performance drop when longer histories are available. This degradation is associated with decoder designs that overemphasize recent items while underutilizing distant, yet semantically relevant, interactions, leading to poor modeling of long-range dependencies and multi-interest behaviors. To address this challenge, we introduce MIDA (Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation), a lightweight and encoder-agnostic framework that provides a reformulation of the decoding stage. The central design principle is a two-space decoupling: clustering operates on raw item embeddings so that semantic groupings are not distorted by encoder-learned relational biases; encoder outputs are reserved for aggregation, where sequential context remains intact. Concretely, MIDA (i) employs differentiable multi-interest clustering on raw embeddings, preserving semantic structure that encoder representations would otherwise obscure, and (ii) fuses stability and plasticity branches through a gate conditioned on average cluster size, so that the inferred clustering structure directly governs aggregation behavior through a structural coupling across the two stages. Extensive experiments on multiple benchmark datasets demonstrate that MIDA consistently outperforms state-of-the-art methods, with meaningful accuracy improvements while remaining computationally practical.",
     "keywords": "Computer science, Decoding methods, Artificial intelligence, Data mining, Algorithm design, Encoding (memory), Algorithm, Data modeling, Pattern recognition (psychology), Sequential decoding",
     "url": "https://doi.org/10.1109/tkde.2026.3740693",
     "doi": "https://doi.org/10.1109/tkde.2026.3740693",
     "venue": "TKDE2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7222175540"
+    "openalex_id": "https://openalex.org/W7222175540",
+    "arxiv_id": "2610.34192"
   },
   "Thinking Fast and Slow: A Dual-System Framework for Multimodal Fake News Detection Via Dynamic Scheduling": {
     "type": "ARTICLE",
@@ -8031,5 +8035,197 @@
     "venue": "TKDE2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7223222598"
+  },
+  "Topology-Driven Stream Clustering via Hierarchical Nearest Neighbor Chains": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223659958",
+    "author": "Lin Zhao and Yuan Yu and Feiping Nie and Xuelong Li",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Topology-Driven Stream Clustering via Hierarchical Nearest Neighbor Chains",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cluster analysis, k-nearest neighbors algorithm, Pattern recognition (psychology), Nearest-neighbor chain algorithm, Data mining, Artificial intelligence, Data stream clustering, Best bin first, Algorithm, Algorithm design, Hierarchical clustering, Nearest neighbour algorithm, Data modeling, Nearest neighbor search, Single-linkage clustering, Chain (unit), Nearest neighbor graph",
+    "url": "https://doi.org/10.1109/tkde.2026.3747047",
+    "doi": "https://doi.org/10.1109/tkde.2026.3747047",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223659958"
+  },
+  "$LBSC^+$: Learning-based Cost-aware Caching with Performance Optimization for Cloud Databases": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223667069",
+    "author": "Zhongle Xie and Zhaoxuan Ji and Kehan Liu and Peng Lu and Quanqing Xu and Meihui Zhang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "$LBSC^+$: Learning-based Cost-aware Caching with Performance Optimization for Cloud Databases",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cloud computing, Database, Distributed database, Distributed computing, Computer network, Server, Data modeling, Optimization problem, Scheduling (production processes), Cloud database, Data mining, Algorithm design, Database theory, Query optimization",
+    "url": "https://doi.org/10.1109/tkde.2026.3747416",
+    "doi": "https://doi.org/10.1109/tkde.2026.3747416",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223667069"
+  },
+  "Structure-Coupled Generative Graph Condensation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223851640",
+    "author": "Huidong Wu and Dengsheng Wu and Yichao Wang and Haoran Yang and Xiangyu Zhao and Jianping Li",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Structure-Coupled Generative Graph Condensation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://doi.org/10.1109/tkde.2026.3747865",
+    "doi": "https://doi.org/10.1109/tkde.2026.3747865",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7223851640"
+  },
+  "Potential Knowledge Persistence: Fast Algorithm and Its Applications": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224449443",
+    "author": "Zhi-Chong Peng and Hao-Yu Tsai and Scott C.-H. Huang and Wu Hsiao-Chun and Chi-Yo Huang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Potential Knowledge Persistence: Fast Algorithm and Its Applications",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Algorithm design, Algorithm, Artificial intelligence, Knowledge-based systems, Signal processing, Data mining, Data modeling, Approximation algorithm, Key (lock)",
+    "url": "https://doi.org/10.1109/tkde.2026.3748021",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748021",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224449443"
+  },
+  "Secure Cohesive Subgraph Mining on Multilayer Graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224475677",
+    "author": "Zeqiang Xiao and Zhaonian Zou and Run-An Wang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Secure Cohesive Subgraph Mining on Multilayer Graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Theoretical computer science, Graph theory, Graph, Algorithm, Electronic mail, Algorithm design, Data mining, Data modeling, Class (philosophy), Approximation algorithm, Data structure",
+    "url": "https://doi.org/10.1109/tkde.2026.3748372",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748372",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224475677"
+  },
+  "AutoPRL: Automated Path Representation Learning via Learnable View Generator": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224588031",
+    "author": "Sean Bin Yang and Ying Sun and Yunyao CHeng and Hao Miao and Jilin Hu and Bin Yang and Torben Bach Pedersen and Christian S. Jensen",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "AutoPRL: Automated Path Representation Learning via Learnable View Generator",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Representation (politics), Generator (circuit theory), Artificial intelligence, Path (computing), Algorithm, Theoretical computer science, Class (philosophy), Algorithm design, External Data Representation",
+    "url": "https://doi.org/10.1109/tkde.2026.3748231",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748231",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224588031"
+  },
+  "Revised Recurrence-Aware Long-Term Cognitive Classifier for Structured Data": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224658204",
+    "author": "Gonzalo Nápoles and Yamisleydi Salgueiro",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Revised Recurrence-Aware Long-Term Cognitive Classifier for Structured Data",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Classifier (UML), Pattern recognition (psychology), Structured prediction, Natural language processing, Noisy data, Semi-structured data, Data modeling, Cognition, Machine learning, Data mining",
+    "url": "https://doi.org/10.1109/tkde.2026.3748297",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748297",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224658204"
+  },
+  "Attribute-Wavelet-Fusion Cascading: Full-Dynamic Spectral Graph Anomaly Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224742538",
+    "author": "Jianbo Zheng and Fangrong Zheng and Xiaoge Li and Jin Zhang and Chao Yang and Xiao-Ming Wu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Attribute-Wavelet-Fusion Cascading: Full-Dynamic Spectral Graph Anomaly Detection",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Anomaly detection, Artificial intelligence, Graph, Pattern recognition (psychology), Algorithm, Graph theory, Signal processing, Noise (video), Data compression, Probability density function, Spectral analysis, Matrix decomposition",
+    "url": "https://doi.org/10.1109/tkde.2026.3748449",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748449",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224742538"
+  },
+  "A Dual-Memory Consolidation Framework for Data-Efficient Active Learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224782289",
+    "author": "Hui Geng and Tianjiao Wan and Yi Su and Qisheng Xu and Zijian Gao and Hengzhu Liu and Dawei Feng and Kele Xu",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "A Dual-Memory Consolidation Framework for Data-Efficient Active Learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Consolidation (business), Active learning (machine learning), Knowledge management, Artificial intelligence, Electronic learning, Human–computer interaction, Process management, Data science, Focus (optics)",
+    "url": "https://doi.org/10.1109/tkde.2026.3749035",
+    "doi": "https://doi.org/10.1109/tkde.2026.3749035",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224782289"
+  },
+  "CoMatch: A Collective Matching Approach for Multi-query Oriented Continuous Subgraph Matching": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224823879",
+    "author": "Ziyi Ma and Xingjian Li and Jianye Yang and Lihua Yin and Zhaoquan Gu and Liang Yang and Xi Luo and Xuemin Lin",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "CoMatch: A Collective Matching Approach for Multi-query Oriented Continuous Subgraph Matching",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Matching (statistics), Theoretical computer science, Pattern matching, Algorithm, Subgraph isomorphism problem, Graph theory, Algorithm design, Induced subgraph isomorphism problem, Graph, Blossom algorithm, Approximation algorithm",
+    "url": "https://doi.org/10.1109/tkde.2026.3748445",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748445",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224823879"
+  },
+  "SAM: A Stability-Aware Manager for Adaptive Cache Allocation in Multi-Tenant Embedded Databases at the Edge": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224859763",
+    "author": "Haoran Zhang and Yu Yan and Zhiyu Liang and Decheng Zuo and Hongzhi Wang",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "SAM: A Stability-Aware Manager for Adaptive Cache Allocation in Multi-Tenant Embedded Databases at the Edge",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Cache, Database, Enhanced Data Rates for GSM Evolution, Distributed database, Cache algorithms, Smart Cache, Operating system, Computer network, Distributed computing, CPU cache, Relational database, Storage management, Data modeling, Parallel computing, Server, Transaction processing, Resource management (computing), Edge device, Edge computing",
+    "url": "https://doi.org/10.1109/tkde.2026.3748929",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748929",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224859763"
+  },
+  "Mitigating Imbalance and Distribution Shift in Node Classification via Norm Consistency": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224930581",
+    "author": "Shenzhi Yang and Haobo Wang and Yixuan Tang and Jun Xia and Jingbo Zhou and Xiaofang Zhang and Gao Yunjun",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "Mitigating Imbalance and Distribution Shift in Node Classification via Norm Consistency",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Consistency (knowledge bases), Algorithm, Norm (philosophy), Node (physics), Data mining, Data consistency, Algorithm design, Probability distribution, Distribution (mathematics), Data modeling, Theoretical computer science, Artificial intelligence, Electronic mail, Probability density function, Matrix algebra, Strong consistency, Mathematical optimization",
+    "url": "https://doi.org/10.1109/tkde.2026.3748943",
+    "doi": "https://doi.org/10.1109/tkde.2026.3748943",
+    "venue": "TKDE2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7224930581"
   }
 }

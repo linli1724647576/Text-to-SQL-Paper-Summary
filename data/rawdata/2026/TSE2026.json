@@ -331,7 +331,7 @@
     "journal": "IEEE Transactions on Software Engineering",
     "title": "AI or Ally? Understanding Student Reliance on GitHub Copilot and Human Peers Through Eye Tracking",
     "year": "2026",
-    "abstract": "version:NA",
+    "abstract": "",
     "keywords": "Computer science, Eye tracking, Human–computer interaction, Self reliance, Multimedia, Tracking (education), Key (lock), Situation awareness, Task analysis, Knowledge management, Computer security, Artificial intelligence, Computer-mediated communication, World Wide Web, Software",
     "url": "https://doi.org/10.1109/tse.2026.3705249",
     "doi": "https://doi.org/10.1109/tse.2026.3705249",
@@ -950,13 +950,14 @@
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions",
     "year": "2026",
-    "abstract": "",
+    "abstract": "AI-based code review tools automatically review and comment on pull requests to improve code quality. Despite their growing presence, little is known about their actual impact. We present a large-scale empirical study of 16 popular AI-based code review actions for GitHub workflows, analyzing more than 22,000 review comments in 178 repositories. We investigate (1) how these tools are adopted and configured, (2) whether their comments lead to code changes, and (3) which factors influence their effectiveness. We develop a two-stage LLM-assisted framework to determine whether review comments are addressed, and use interpretable machine learning to identify influencing factors. Our findings show that, while adoption is growing, effectiveness varies widely. Comments that are concise, contain code snippets, and are manually triggered, particularly those from hunk-level review tools, are more likely to result in code changes. These results highlight the importance of careful tool design and suggest directions for improving AI-based code review systems.",
     "keywords": "Computer science, Code (set theory), Programming language, Source code, Lead (geology), Code review, Software engineering, Static program analysis, Code generation, Program analysis, Program code",
     "url": "https://doi.org/10.1109/tse.2026.3688237",
     "doi": "https://doi.org/10.1109/tse.2026.3688237",
     "venue": "TSE2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7159928099"
+    "openalex_id": "https://openalex.org/W7159928099",
+    "arxiv_id": "2508.18771"
   },
   "Automated Localization of Affected Libraries and Versions from Vulnerability Reports": {
     "type": "ARTICLE",
@@ -1014,13 +1015,14 @@
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Optimizing Knowledge Utilization for Multi-Intent Comment Generation With Large Language Models",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Code comment generation aims to produce a generic overview of a code snippet, helping developers understand and maintain code. However, generic summaries alone are insufficient to meet the diverse needs of practitioners; for example, developers expect the implementation insights to be presented in an untangled manner, while users seek clear usage instructions. This highlights the necessity of multi-intent comment generation. With the widespread adoption of Large Language Models (LLMs) for code-related tasks, these models have been leveraged to tackle the challenge of multi-intent comment generation. Despite their successes, state-of-the-art LLM-based approaches often struggle to construct correct relationships among intents, code, and comments within a smaller number of demonstration examples. To mitigate this issue, we propose a framework named KUMIC for multi-intent comment generation. Built upon in-context learning, KUMIC leverages Chain-of-Thought (CoT) to optimize knowledge utilization for LLMs to generate intent-specific comments. Specifically, KUMIC first designs a retrieval mechanism to obtain similar demonstration examples, which exhibit high code-comment consistency. Then, KUMIC leverages CoT to guide LLMs to focus on statements facilitating the derivation of code comments aligned with specific intents. In this context, KUMIC constructs a mapping knowledge chain, linking code to intent-specific statements to comments, which enables LLMs to follow similar reasoning steps when generating the desired comments. We conduct extensive experiments to evaluate KUMIC, and the results demonstrate that KUMIC outperforms state-of-the-art baselines by 14.49\\%, 22.41\\%, 20.72\\%, and 12.94\\% in terms of BLEU, METEOR, ROUGE-L, and SBERT, respectively.",
     "keywords": "Computer science, Artificial intelligence, Programming language, Software engineering, Data modeling, Natural language processing, Language model, Natural language, Knowledge-based systems, Natural language generation, Machine learning, Data science, Modeling language, Knowledge representation and reasoning, Data mining",
     "url": "https://doi.org/10.1109/tse.2026.3687241",
     "doi": "https://doi.org/10.1109/tse.2026.3687241",
     "venue": "TSE2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7158606543"
+    "openalex_id": "https://openalex.org/W7158606543",
+    "arxiv_id": "2510.25195"
   },
   "P-NPR: Practical Neural Program Repair via Learning to Ensemble": {
     "type": "ARTICLE",
@@ -1195,13 +1197,14 @@
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Self-Admitted GenAI Usage in Open-Source Software",
     "year": "2026",
-    "abstract": "The widespread adoption of generative AI (GenAI) tools such as GitHub Copilot and ChatGPT is transforming software development. Since generated source code is virtually impossible to distinguish from manually written code, their real-world usage and impact on opensource software (OSS) development remain poorly understood. In this paper, we introduce the concept of self-admitted GenAI usage, that is, developers explicitly referring to the use of GenAI tools for content creation in software artifacts. Using this concept as a lens to study how GenAI tools are integrated into OSS projects, we analyze a curated sample of more than 200,000 GitHub repositories, identifying 1,292 such self-admissions across 156 repositories in commit messages, code comments, and project documentation. Using a mixed methods approach, we derive a taxonomy of 32 tasks, 10 content types, and 11 purposes associated with GenAI usage based on 1,292 qualitatively coded mentions. We then analyze 13 documents with policies and usage guidelines for GenAI tools and conduct a developer survey to uncover the ethical, legal, and practical concerns behind them. Our findings reveal that developers actively manage how GenAI is used in their projects, highlighting the need for project-level transparency, attribution, and quality control practices in AI-assisted software development. Finally, we examine the longitudinal impact of GenAI adoption on code churn in 151 repositories with self-admitted GenAI usage and find no general increase, contradicting popular narratives on the impact of GenAI on software development.",
+    "abstract": "Strategized LaTeX removal and whitespace normalization approachThe widespread adoption of generative AI (GenAI) tools such as GitHub Copilot and ChatGPT is transforming software development. Since generated source code is virtually impossible to distinguish from manually written code, their real-world usage and impact on open-source software (OSS) development remain poorly understood. In this paper, we introduce the concept of self-admitted GenAI usage, that is, developers explicitly referring to the use of GenAI tools for content creation in software artifacts. Using this concept as a lens to study how GenAI tools are integrated into OSS projects, we analyze a curated sample of more than 200,000 GitHub repositories, identifying 1,292 such self-admissions across 156 repositories in commit messages, code comments, and project documentation. Using a mixed methods approach, we derive a taxonomy of 32 tasks, 10 content types, and 11 purposes associated with GenAI usage based on 1,292 qualitatively coded mentions. We then analyze 13 documents with policies and usage guidelines for GenAI tools and conduct a developer survey to uncover the ethical, legal, and practical concerns behind them. Our findings reveal that developers actively manage how GenAI is used in their projects, highlighting the need for project-level transparency, attribution, and quality control practices in AI-assisted software development. Finally, we examine the longitudinal impact of GenAI adoption on code churn in 151 repositories with self-admitted GenAI usage and find no general increase, contradicting popular narratives on the impact of GenAI on software development.",
     "keywords": "Computer science, Commit, Software engineering, Software development, Software quality, Software, Source code, Software peer review, Static program analysis, Code smell, Code review, Sample (material), Software construction, Backporting, World Wide Web, Quality (philosophy), Code (set theory), Taxonomy (biology), Personal software process, Data science, Software evolution, Software metric, Social software engineering, Software development process, Software system, Software analytics, Package development process, Verification and validation, Codebase, Software project management, Profiling (computer programming), Database",
     "url": "https://doi.org/10.1109/tse.2026.3681886",
     "doi": "https://doi.org/10.1109/tse.2026.3681886",
     "venue": "TSE2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7151947723"
+    "openalex_id": "https://openalex.org/W7151947723",
+    "arxiv_id": "2507.10422"
   },
   "An Empirical Study of Overlooked Code Review Comments in OSS Projects": {
     "type": "ARTICLE",
@@ -1494,7 +1497,8 @@
     "doi": "https://doi.org/10.1109/tse.2026.3668601",
     "venue": "TSE2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7131388287"
+    "openalex_id": "https://openalex.org/W7131388287",
+    "arxiv_id": "2502.15292"
   },
   "FENSE: Feedback-Driven Incremental Symbolic Execution for Redundant Path Elimination": {
     "type": "ARTICLE",
@@ -1529,22 +1533,6 @@
     "openalex_id": "https://openalex.org/W7131257660",
     "arxiv_id": "2509.17776"
   },
-  "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7131135587",
-    "author": "Xin-Cheng Wen and Xinchen Wang and Yujia Chen and Ruida Hu and David Lo and Cuiyun Gao",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection",
-    "year": "2026",
-    "abstract": "Deep Learning (DL)-based methods have proven to be effective for software vulnerability detection, with a potential for substantial productivity enhancements for detecting vulnerabilities. Current methods mainly focus on detecting single functions (i.e., intra-procedural vulnerabilities), ignoring the more complex inter-procedural vulnerability detection scenarios in practice. For example, developers routinely engage with program analysis to detect vulnerabilities that span multiple functions within repositories. In addition, the widely-used benchmark datasets generally contain only intra-procedural vulnerabilities, leaving the assessment of inter-procedural vulnerability detection capabilities unexplored.To mitigate the issues, we propose a holistic multi-level evaluation system, namedVulEval, aiming at evaluating the detection performance of inter- and intra-procedural vulnerabilities simultaneously. Specifically, VulEval consists of three interconnected evaluation tasks:(1) Function-Level Vulnerability Detection, aiming at detecting intra-procedural vulnerability given a code snippet;(2) Vulnerability-Related Dependency Prediction, aiming at retrieving the vulnerable-related dependency from call graphs for providing developers with explanations about the vulnerabilities; and(3) Repository-Level Vulnerability Detection, aiming at detecting inter-procedural vulnerabilities by combining with the dependencies identified in the second task. VulEval also consists of a large-scale dataset, with a total of 4,196 CVE entries, 232,239 functions, and corresponding 4,699 repository-level source code in C/C++ programming languages. By evaluating 19 vulnerability detection methods on the data split randomly and by time respectively, we observe that the repository-level vulnerability detection framework outperforms the corresponding function-level methods, with an increase of 7.43% in precision, 3.38% in recall, 4.91% in F1 score, and 5.24% in MCC on average except for PILOT. It indicates that incorporating vulnerability-related dependencies facilitates vulnerability detection. Our experimental results also demonstrate that the performance of program-analysis- and prompt-based methods are not affected when splitting the data by time. In addition, our findings indicate that the split setting, retrieval techniques, and vulnerability types have substantial impacts on the performance of repository-level vulnerability detection. We conclude our insights and takeaways for researchers and developers for software vulnerability detection in practice.",
-    "keywords": "Computer science, Vulnerability (computing), Dependency (UML), Vulnerability assessment, Benchmark (surveying), Software, Function (biology), Code (set theory), Data mining, Machine learning, Artificial intelligence, Vulnerability management, Source code, Source lines of code, Focus (optics), Relation (database), Dependency graph, Exploit, Secure coding, Computer security, Static analysis, Software quality, Software bug, Object detection",
-    "url": "https://doi.org/10.1109/tse.2026.3662145",
-    "doi": "https://doi.org/10.1109/tse.2026.3662145",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7131135587"
-  },
   "Adaptive Spectral Clustering and Structural Alignment for Cross-Project Defect Prediction": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7131092659",
@@ -1561,10 +1549,26 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7131092659"
   },
+  "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7131135587",
+    "author": "Xin-Cheng Wen and Xinchen Wang and Yujia Chen and Ruida Hu and David Lo and Cuiyun Gao",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection",
+    "year": "2026",
+    "abstract": "Deep Learning (DL)-based methods have proven to be effective for software vulnerability detection, with a potential for substantial productivity enhancements for detecting vulnerabilities. Current methods mainly focus on detecting single functions (i.e., intra-procedural vulnerabilities), ignoring the more complex inter-procedural vulnerability detection scenarios in practice. For example, developers routinely engage with program analysis to detect vulnerabilities that span multiple functions within repositories. In addition, the widely-used benchmark datasets generally contain only intra-procedural vulnerabilities, leaving the assessment of inter-procedural vulnerability detection capabilities unexplored.To mitigate the issues, we propose a holistic multi-level evaluation system, namedVulEval, aiming at evaluating the detection performance of inter- and intra-procedural vulnerabilities simultaneously. Specifically, VulEval consists of three interconnected evaluation tasks:(1) Function-Level Vulnerability Detection, aiming at detecting intra-procedural vulnerability given a code snippet;(2) Vulnerability-Related Dependency Prediction, aiming at retrieving the vulnerable-related dependency from call graphs for providing developers with explanations about the vulnerabilities; and(3) Repository-Level Vulnerability Detection, aiming at detecting inter-procedural vulnerabilities by combining with the dependencies identified in the second task. VulEval also consists of a large-scale dataset, with a total of 4,196 CVE entries, 232,239 functions, and corresponding 4,699 repository-level source code in C/C++ programming languages. By evaluating 19 vulnerability detection methods on the data split randomly and by time respectively, we observe that the repository-level vulnerability detection framework outperforms the corresponding function-level methods, with an increase of 7.43% in precision, 3.38% in recall, 4.91% in F1 score, and 5.24% in MCC on average except for PILOT. It indicates that incorporating vulnerability-related dependencies facilitates vulnerability detection. Our experimental results also demonstrate that the performance of program-analysis- and prompt-based methods are not affected when splitting the data by time. In addition, our findings indicate that the split setting, retrieval techniques, and vulnerability types have substantial impacts on the performance of repository-level vulnerability detection. We conclude our insights and takeaways for researchers and developers for software vulnerability detection in practice.",
+    "keywords": "Computer science, Vulnerability (computing), Dependency (UML), Vulnerability assessment, Benchmark (surveying), Software, Function (biology), Code (set theory), Data mining, Machine learning, Artificial intelligence, Vulnerability management, Source code, Source lines of code, Focus (optics), Relation (database), Dependency graph, Exploit, Secure coding, Computer security, Static analysis, Software quality, Software bug, Object detection",
+    "url": "https://doi.org/10.1109/tse.2026.3662145",
+    "doi": "https://doi.org/10.1109/tse.2026.3662145",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7131135587"
+  },
   "CVH-REC: A Novel Method for Web API Recommendation Based on Cross-View HGNNs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7130567790",
-    "author": "Shanquan Gao and Yihui Wang and Zhenwei Ou",
+    "author": "Shanquan Gao and Yihui Wang and 歐振偉",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "CVH-REC: A Novel Method for Web API Recommendation Based on Cross-View HGNNs",
@@ -1695,7 +1699,7 @@
   "Visibility of Domain Elements in the Elicitation Process Interviews: A Family of Empirical Studies": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4405626389",
-    "author": "Alejandrina M. Aranda and Óscar Dieste and Jose Ignacio Panach and Natalia Juristo",
+    "author": "Alejandrina M. Aranda and Óscar Dieste and José Ignacio Panach and Natalia Juristo",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Visibility of Domain Elements in the Elicitation Process Interviews: A Family of Empirical Studies",
@@ -1761,7 +1765,7 @@
   "A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7127158911",
-    "author": "Minyu Shu and Meng Fan and Yuxia Zhang and Tao Wang and Hui Liu",
+    "author": "Minyu Shu and Fan Wu Meng and Yuxia Zhang and Tao Wang and Hui Liu",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem",
@@ -1804,7 +1808,8 @@
     "doi": "https://doi.org/10.1109/tse.2026.3659804",
     "venue": "TSE2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7126171853"
+    "openalex_id": "https://openalex.org/W7126171853",
+    "arxiv_id": "2504.12461"
   },
   "CosFormer: A Code Semantic-Aware Transformer for Vulnerability Detection": {
     "type": "ARTICLE",
@@ -2064,6 +2069,22 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7125500545"
   },
+  "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125170620",
+    "author": "Huan Xie and Zhengxiong Deng and Yan Lei and Maojin Li and Meng Ling Yan and David Lo",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs",
+    "year": "2026",
+    "abstract": "As deep learning (DL) systems are increasingly deployed in safety-critical domains, e.g., intelligent planning and autonomous driving, localizing faults that occur in such systems becomes indispensable. Inevitably, DL systems also suffer from faults like traditional software. Although single fault localization for DL programs has been studied, the multiple-fault localization for DL programs remains underexplored. We notice that mutation analysis is a powerful technique for locating multiple faults since it can simulate the faulty behaviors of a DL program by generating multiple mutants simultaneously. Thus, we propose MuMuFL: StatisticalMutation-basedMultipleFaultLocalization approach to locate the multiple faulty statements residing in a faulty DL program. The insight of MuMuFL is that the different behaviors of mutants provide valuable information for pinpointing the faulty statements of a DL fault. MuMuFL defines and leverages DL mutation operators on a DL program to simulate the faulty DL behavior. Then, MuMuFL evaluates the difference in the accuracy between the original DL model and the mutated DL model to quantify the suspiciousness of each statement being faulty. Finally, the large-scale experiments show that MuMuFL effectively localizes DL faults, e.g., localizing 36% of multiple-fault DL programs, whereas the best-performing baseline can only localize 14% of them.",
+    "keywords": "Computer science, Artificial intelligence, Process (computing), Mutation, Notice, Deep learning, Statement (logic), Fault (geology), Baseline (sea), Machine learning, Data mining, Problem statement, Statistical model, Statistical analysis, Mutation testing, Fault detection and isolation, Fault model, Theoretical computer science, Autoencoder, Mutant",
+    "url": "https://doi.org/10.1109/tse.2026.3655800",
+    "doi": "https://doi.org/10.1109/tse.2026.3655800",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7125170620"
+  },
   "Subgraph-Oriented Testing for Deep Learning Libraries": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124892447",
@@ -2080,22 +2101,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7124892447",
     "arxiv_id": "2412.06430"
-  },
-  "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7125170620",
-    "author": "Huan Xie and Zhengxiong Deng and Yan Lei and Maojin Li and Meng Ling Yan and David Lo",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Mutants Will Tell: Statistical Mutation-Based Multiple Fault Localization for Deep Learning Programs",
-    "year": "2026",
-    "abstract": "As deep learning (DL) systems are increasingly deployed in safety-critical domains, e.g., intelligent planning and autonomous driving, localizing faults that occur in such systems becomes indispensable. Inevitably, DL systems also suffer from faults like traditional software. Although single fault localization for DL programs has been studied, the multiple-fault localization for DL programs remains underexplored. We notice that mutation analysis is a powerful technique for locating multiple faults since it can simulate the faulty behaviors of a DL program by generating multiple mutants simultaneously. Thus, we propose MuMuFL: StatisticalMutation-basedMultipleFaultLocalization approach to locate the multiple faulty statements residing in a faulty DL program. The insight of MuMuFL is that the different behaviors of mutants provide valuable information for pinpointing the faulty statements of a DL fault. MuMuFL defines and leverages DL mutation operators on a DL program to simulate the faulty DL behavior. Then, MuMuFL evaluates the difference in the accuracy between the original DL model and the mutated DL model to quantify the suspiciousness of each statement being faulty. Finally, the large-scale experiments show that MuMuFL effectively localizes DL faults, e.g., localizing 36% of multiple-fault DL programs, whereas the best-performing baseline can only localize 14% of them.",
-    "keywords": "Computer science, Artificial intelligence, Process (computing), Mutation, Notice, Deep learning, Statement (logic), Fault (geology), Baseline (sea), Machine learning, Data mining, Problem statement, Statistical model, Statistical analysis, Mutation testing, Fault detection and isolation, Fault model, Theoretical computer science, Autoencoder, Mutant",
-    "url": "https://doi.org/10.1109/tse.2026.3655800",
-    "doi": "https://doi.org/10.1109/tse.2026.3655800",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7125170620"
   },
   "Safety Analysis of Over-the-Air Updates for CPS: A Contract-Driven Approach": {
     "type": "ARTICLE",
@@ -2262,6 +2267,23 @@
     "openalex_id": "https://openalex.org/W4416059677",
     "arxiv_id": "2506.18398"
   },
+  "Agent System Operations: Categorization, Challenges, and Future Directions": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7163180538",
+    "author": "Zexin Wang and Changhua Pei and Yuanhao Liu and Jingjing Li and Yintong Huo and Quan Zhou and Haotian Si and Hang Cui and Zihan Liu and Jianhui Li and Gaogang Xie and Fei Sun and Dan Pei and David Lo",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Agent System Operations: Categorization, Challenges, and Future Directions",
+    "year": "2026",
+    "abstract": "As the reasoning capabilities of Large Language Models (LLMs) continue to advance, LLM-based agent systems offer advantages in flexibility and interpretability over traditional systems, garnering increasing attention. However, despite the widespread research interest and industrial application of agent systems, these systems, like their traditional counterparts, frequently encounter anomalies. These anomalies lead to instability and insecurity, hindering their further development. Therefore, a comprehensive and systematic approach to the operation and maintenance of agent systems is urgently needed. Unfortunately, current research on the operations of agent systems is sparse. To address this gap, we have undertaken a survey on agent system operations with the aim of establishing a clear framework for the field, defining the challenges, and facilitating further development. Specifically, this paper begins by systematically defining anomalies within agent systems, categorizing them into intra-agent anomalies and inter-agent anomalies. Next, we introduce a novel and comprehensive operational framework for agent systems, dubbed Agent System Operations (AgentOps). We provide detailed definitions and explanations of its four key stages: monitoring, anomaly detection, root cause localization, and resolution.",
+    "keywords": "Interpretability, Flexibility (engineering), Computer science, Multi-agent system, Risk analysis (engineering), Key (lock), Root (linguistics), Management science, Process management, Lead (geology), Anomaly detection, Engineering, Intelligent agent",
+    "url": "https://doi.org/10.1109/tse.2026.3732207",
+    "doi": "https://doi.org/10.1109/tse.2026.3732207",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7163180538",
+    "arxiv_id": "2606.01581"
+  },
   "Investigating Causality in Software Repositories Using Cohort-Based Methods": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7168408511",
@@ -2277,6 +2299,22 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7168408511"
+  },
+  "Semantic Consensus Decoding: Backdoor Defense for Verilog Code Generation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7168427928",
+    "author": "Guang Yang and Xing Hu and Xiang Chen and Xin Xia",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Semantic Consensus Decoding: Backdoor Defense for Verilog Code Generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Backdoor, Programming language, Code (set theory), Code generation, Semantics (computer science), Theoretical computer science, Permission, Verilog, Program analysis, Authorization, Software engineering, Source code",
+    "url": "https://doi.org/10.1109/tse.2026.3713510",
+    "doi": "https://doi.org/10.1109/tse.2026.3713510",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7168427928"
   },
   "An Empirical Study of Kotlin-Java Cross-Dependency Issues and Their Detection": {
     "type": "ARTICLE",
@@ -2380,6 +2418,23 @@
     "openalex_id": "https://openalex.org/W7117257013",
     "arxiv_id": "2512.20083"
   },
+  "StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7123295167",
+    "author": "Qiaoxing Li and Chenchen Yu and Chuanyi Li and Xin-Cheng Wen and Cheryl Q. E. Lee and Cuiyun Gao and Bin Luo",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection",
+    "year": "2026",
+    "abstract": "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets. Recently, most SPD studies have targeted Open-Source Software (OSS), yet a large portion of real-world software is closed-source, where patches are distributed as binaries without accessible source code. The limited binary SPD approaches often lift binaries to abstraction levels, i.e., assembly code or pseudo-code. However, assembly code is register-based instructions conveying limited semantics, while pseudo-code lacks parser-compatible grammar to extract structure, both hindering accurate vulnerability-fix representation learning. In addition, previous studies often obtain training and testing data from the same project for evaluation, which fails to reflect closed-source conditions. To alleviate the above challenges, we propose \\textbf{\\textit{StriderSPD}}, a \\underline{Str}ucture-gu\\underline{ide}d joint \\underline{r}epresentation \\underline{SPD} framework of binary code that integrates a graph branch into a large language model (LLM), leveraging structural information to guide the LLM in identifying security patches. Our novel design of the adapters in the graph branch effectively aligns the representations between assembly code and pseudo-code at the LLM's token level. We further present a two-stage training strategy to address the optimization imbalance caused by the large parameter disparity between StriderSPD's two branches, which enables proper branch fitting. To enable more realistic evaluation, we construct a binary SPD benchmark that is disjoint from prior datasets in both projects and domains and extensively evaluate StriderSPD on this benchmark.",
+    "keywords": "Computer science, Software, Source code, Construct (python library), Binary code, Binary number, Graph, Theoretical computer science, Benchmark (surveying), Software security assurance, Software system, Disjoint sets, Representation (politics), Abstraction, Data mining, Code (set theory), Artificial intelligence, Component-based software engineering, Programming language, Software development, Reverse engineering, Software framework, Software engineering, Machine learning, Software construction, Security token, Joint (building), External Data Representation, Masking (illustration), Distributed computing, Machine code, Secure coding, Attack surface",
+    "url": "https://doi.org/10.1109/tse.2026.3747569",
+    "doi": "https://doi.org/10.1109/tse.2026.3747569",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7123295167",
+    "arxiv_id": "2601.05772"
+  },
   "A Journal for the Second Quarter of the Century": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7123351612",
@@ -2446,23 +2501,6 @@
     "openalex_id": "https://openalex.org/W7159017350",
     "arxiv_id": "2604.26686"
   },
-  "Agent System Operations: Categorization, Challenges, and Future Directions": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7163180538",
-    "author": "Zexin Wang and Changhua Pei and Yuanhao Liu and Jingjing Li and Yintong Huo and Quan Zhou and Haotian Si and Hang Cui and Zihan Liu and Jianhui Li and Gaogang Xie and Fei Sun and Dan Pei and David Lo",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Agent System Operations: Categorization, Challenges, and Future Directions",
-    "year": "2026",
-    "abstract": "As the reasoning capabilities of Large Language Models (LLMs) continue to advance, LLM-based agent systems offer advantages in flexibility and interpretability over traditional systems, garnering increasing attention. However, despite the widespread research interest and industrial application of agent systems, these systems, like their traditional counterparts, frequently encounter anomalies. These anomalies lead to instability and insecurity, hindering their further development. Therefore, a comprehensive and systematic approach to the operation and maintenance of agent systems is urgently needed. Unfortunately, current research on the operations of agent systems is sparse. To address this gap, we have undertaken a survey on agent system operations with the aim of establishing a clear framework for the field, defining the challenges, and facilitating further development. Specifically, this paper begins by systematically defining anomalies within agent systems, categorizing them into intra-agent anomalies and inter-agent anomalies. Next, we introduce a novel and comprehensive operational framework for agent systems, dubbed Agent System Operations (AgentOps). We provide detailed definitions and explanations of its four key stages: monitoring, anomaly detection, root cause localization, and resolution.",
-    "keywords": "Interpretability, Flexibility (engineering), Computer science, Multi-agent system, Risk analysis (engineering), Key (lock), Root (linguistics), Management science, Process management, Lead (geology), Anomaly detection, Engineering, Intelligent agent",
-    "url": "https://doi.org/10.1109/tse.2026.3732207",
-    "doi": "https://doi.org/10.1109/tse.2026.3732207",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7163180538",
-    "arxiv_id": "2606.01581"
-  },
   "Navigating Complexity: How Context Shapes Debugging Strategy Choices Among Expert Developers": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7165536220",
@@ -2494,22 +2532,6 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7167729928"
-  },
-  "Semantic Consensus Decoding: Backdoor Defense for Verilog Code Generation": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7168427928",
-    "author": "Guang Yang and Xing Hu and Xiang Chen and Xin Xia",
-    "booktitle": "IEEE Transactions on Software Engineering",
-    "journal": "IEEE Transactions on Software Engineering",
-    "title": "Semantic Consensus Decoding: Backdoor Defense for Verilog Code Generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Backdoor, Programming language, Code (set theory), Code generation, Semantics (computer science), Theoretical computer science, Permission, Verilog, Program analysis, Authorization, Software engineering, Source code",
-    "url": "https://doi.org/10.1109/tse.2026.3713510",
-    "doi": "https://doi.org/10.1109/tse.2026.3713510",
-    "venue": "TSE2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7168427928"
   },
   "Generalization or Memorization: Data Contamination for Large Language Models in Code Generation": {
     "type": "ARTICLE",
@@ -2805,7 +2827,7 @@
   "Composite Digital Twins: From Formalization to a Scalable, Semantic Graph-Based Architecture with OpenTwins": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7204077092",
-    "author": "Julia Robles and Sergio Infante and Cristian Martín and Manuel Díáz",
+    "author": "Julia Robles and Sergio Quiñones Infante and Cristian Martín and Manuel Díáz",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "Composite Digital Twins: From Formalization to a Scalable, Semantic Graph-Based Architecture with OpenTwins",
@@ -2901,7 +2923,7 @@
   "How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks: An Empirical Study of Interface-Level Countermeasures": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7211890938",
-    "author": "Sanghak Oh and Eun Jung and Sangjun Chae and Hyoungshick Kim",
+    "author": "Sanghak Oh and Eun Jung and Seung Wan Chae and Hyoungshick Kim",
     "booktitle": "IEEE Transactions on Software Engineering",
     "journal": "IEEE Transactions on Software Engineering",
     "title": "How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks: An Empirical Study of Interface-Level Countermeasures",
@@ -3138,5 +3160,69 @@
     "venue": "TSE2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7223332220"
+  },
+  "SGABC: Surrogate-Guided Adaptive Bee Colony Optimization for Accelerated Testing of Automated Driving Vehicles": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223687068",
+    "author": "Rui Tang and Bing Zhu and Peixing Zhang and Cheng Wu and Shizheng Jia",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "SGABC: Surrogate-Guided Adaptive Bee Colony Optimization for Accelerated Testing of Automated Driving Vehicles",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial bee colony algorithm, Real-time computing, Acceleration, Simulation, Automation, Control engineering, Reliability engineering, Key (lock), Optimization algorithm, Vehicle safety",
+    "url": "https://doi.org/10.1109/tse.2026.3747352",
+    "doi": "https://doi.org/10.1109/tse.2026.3747352",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7223687068"
+  },
+  "Left Behind, Not Forgotten: Reusing Regression Tests to Find Bugs in WebAssembly Runtimes": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223700408",
+    "author": "Ishrak Hayet and Mohsen EsfandyariDoulabi and Giorgi Merabishvili and Marcelo d’Amorim",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Left Behind, Not Forgotten: Reusing Regression Tests to Find Bugs in WebAssembly Runtimes",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Reuse, Programming language, Parallel computing, Software bug, Regression analysis, Data modeling, Theoretical computer science, Algorithm, Regression, Software, Regression testing, Semantics (computer science), Symbolic execution, Software maintenance, Concurrency, Computation, Execution time",
+    "url": "https://doi.org/10.1109/tse.2026.3747692",
+    "doi": "https://doi.org/10.1109/tse.2026.3747692",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7223700408"
+  },
+  "Is Accessibility Information the Silent Enabler? An Empirical Study on LLM-Driven GUI Testing": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224026057",
+    "author": "Jianlin Yu and Qi Jiang and Jingtao Cui and Shun Liu and Huaxiao Liu",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Is Accessibility Information the Silent Enabler? An Empirical Study on LLM-Driven GUI Testing",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Empirical research, Software engineering, Human–computer interaction, Information system, Graphical user interface, Programming language, Data science, Test (biology), World Wide Web",
+    "url": "https://doi.org/10.1109/tse.2026.3748166",
+    "doi": "https://doi.org/10.1109/tse.2026.3748166",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224026057"
+  },
+  "Stack Trace-Based Crash Deduplication with Transformer Adaptation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224353367",
+    "author": "Md Afif Al Mamun and Gias Uddin and Lan Xia and Longyu Zhang",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "journal": "IEEE Transactions on Software Engineering",
+    "title": "Stack Trace-Based Crash Deduplication with Transformer Adaptation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Data deduplication, Stack (abstract data type), Crash, Transformer, Adaptation (eye), Real-time computing, Embedded system, Distributed computing, Processor scheduling",
+    "url": "https://doi.org/10.1109/tse.2026.3748787",
+    "doi": "https://doi.org/10.1109/tse.2026.3748787",
+    "venue": "TSE2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224353367"
   }
 }

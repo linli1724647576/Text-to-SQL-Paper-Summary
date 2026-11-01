@@ -1,4 +1,170 @@
 {
+  "Beyond Accuracy: Behavioral Dynamics of Agentic Multi-Hunk Repair": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4416341616",
+    "author": "Noor Nashid and Daniel Ding and Keheliya Gallaba and Ahmed E. Hassan and Ali Mesbah",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Beyond Accuracy: Behavioral Dynamics of Agentic Multi-Hunk Repair",
+    "year": "2026",
+    "abstract": "Automated program repair has traditionally focused on single-hunk defects, overlooking multi-hunk bugs that are prevalent in real-world systems. Repairing these bugs requires coordinated edits across multiple, disjoint code regions, posing substantially greater challenges. We present the first systematic study of LLM-driven coding agents ( Claude Code, Codex, Gemini-cli , and Qwen Code ) on this task. We evaluate these four state-of-the-art agents on 404 multi-hunk bugs from the PolyHunk dataset, yielding 1,616 repair trajectories for large-scale behavioral analysis. We employ fine-grained metrics to assess localization, repair accuracy, regression behavior, and operational dynamics across agents. We find that localization capability varies substantially, with Codex achieving the highest success rate (75.3%) and Qwen Code the lowest (40.4%). Repair accuracy also differs widely, ranging from 26.98% ( Qwen Code ) to 92.82% ( Claude Code ), and consistently declines with increasing bug dispersion and complexity (hunk divergence and spatial proximity). High-performing agents (Claude Code and Codex) demonstrate superior semantic consistency, achieving positive average regression reduction, whereas lower-performing agents often introduce new test failures. Notably, agents do not fail fast ; failed repairs consume substantially more resources (33%–440% more input tokens) and require longer execution time (35%–330%). Additionally, we developed Maple to provide agents with repository-level context. Empirical results show that Maple improves repair accuracy of Gemini-cli by ∼21% through enhanced localization. By analyzing fine-grained metrics and trajectory-level analysis, this study moves beyond accuracy to explain how coding agents localize, reason, and act during multi-hunk repair. Our findings underscore the impact of bug divergence and spatial proximity on multi-hunk repair success for coding agents.",
+    "keywords": "Computer science, Disjoint sets, Coding (social sciences), Empirical research, Regression, Code (set theory), Regression testing, Regression analysis, Artificial intelligence, Machine learning, Debugging, Dynamics (music), Software bug, Agent-based model, Source code, Symbolic execution",
+    "url": "https://doi.org/10.1145/3860529",
+    "doi": "https://doi.org/10.1145/3860529",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4416341616",
+    "arxiv_id": "2511.11012"
+  },
+  "The Rise of Language Models in Mining Software Repositories: A Survey": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7148609447",
+    "author": "Miguel Romero-Arjona and Saman Barakat and Ana B. Sánchez and Sergio Segura",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "The Rise of Language Models in Mining Software Repositories: A Survey",
+    "year": "2026",
+    "abstract": "The Mining Software Repositories (MSR) field focuses on analyzing the rich data contained in software repositories to derive actionable insights into software processes and products. Mining repositories at scale requires techniques capable of handling large volumes of heterogeneous data, a challenge for which language models (LMs) are increasingly well-suited. Since the advent of Transformer-based architectures, LMs have been rapidly adopted across a wide range of MSR tasks. This article presents a comprehensive survey of the use of LMs in MSR, based on an analysis of 177 papers. We examine how LMs are applied, the types of artifacts analyzed, which models are used, how their adoption has evolved over time, and the availability of supplementary materials and tools supporting reproducibility and reuse. Building on this analysis, we propose a taxonomy of LM applications in MSR, identify key trends shaping the field, and highlight open challenges alongside actionable directions for future research.",
+    "keywords": "Computer science, Data science, Software, Field (mathematics), Key (lock), Software engineering, Scale (ratio), Software analytics, Taxonomy (biology), Software peer review, Data modeling, Range (aeronautics), Data mining, Software development, Software quality, World Wide Web, Measure (data warehouse), Software review",
+    "url": "https://doi.org/10.1145/3861019",
+    "doi": "https://doi.org/10.1145/3861019",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7148609447",
+    "arxiv_id": "2604.00787"
+  },
+  "TreeMind : Automatically Reproducing Android Bug Reports via LLM-empowered Monte Carlo Tree Search": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224829523",
+    "author": "Zhengyu Chen and Zhaoyi Meng and Weisheng S. Zhao and Wansen Wang and Wenchao Huang and Jie Cui and Hong Zhong and Yan Xiong",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "TreeMind : Automatically Reproducing Android Bug Reports via LLM-empowered Monte Carlo Tree Search",
+    "year": "2026",
+    "abstract": "Automatically reproducing Android app crashes from textual bug reports is challenging, particularly when the reports are incomplete and modern UIs exhibit high combinatorial complexity. Approaches relying on reinforcement learning or large language models (LLMs) struggle to infer missing steps and reconstruct user action sequences in vast UI interaction spaces. We present TreeMind, which integrates LLMs with an adapted Monte Carlo Tree Search (MCTS) for strategic UI exploration in bug reproduction. TreeMind formulates the reproduction as a target-driven search problem and leverages MCTS to iteratively refine action sequences. To enhance MCTS with semantic reasoning, we introduce two LLM-guided agents: Expander generates promising actions based on the current UI state and exploration history, while Simulator estimates the likelihood that each candidate action leads toward successful reproduction using dynamic environment feedback. With multi-modal UI inputs and tailored prompts, TreeMind performs feedback-aware navigation that identifies essential user actions and incrementally reconstructs reproduction paths. We evaluate TreeMind on 100 Android bug reports, including 90 from three benchmarks and 10 from GitHub. Experimental results show that it outperforms four state-of-the-art baselines in reproduction success rate and average time cost over all runs, suggesting the promise of integrating LLM reasoning with MCTS-based planning for automated bug reproduction.",
+    "keywords": "Computer science, Android (operating system), Reinforcement learning, Artificial intelligence, Machine learning, Monte Carlo tree search, Fuzz testing, Tree (set theory), Decision tree, Human–computer interaction, Symbolic execution, Action (physics), Taint checking, Combinatorial explosion, Language model",
+    "url": "https://doi.org/10.1145/3860893",
+    "doi": "https://doi.org/10.1145/3860893",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224829523"
+  },
+  "Mind the Attack: How security threats are shaping software deployed on Unmanned Aerial Vehicles": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224951329",
+    "author": "Xiaoling Wei and Jacob Klymenko and Damiano Torre and Davide Fucci",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Mind the Attack: How security threats are shaping software deployed on Unmanned Aerial Vehicles",
+    "year": "2026",
+    "abstract": "Context Autonomous unmanned aerial vehicles (UAVs) are increasingly used in applications that depend on reliable software operation, making security an important concern. Objective This paper provides a systematic, software-oriented overview of security attacks against autonomous UAVs, identifying attack types, affected software components, and mitigation strategies. Methods We conduct a systematic mapping study (SMS) of the literature and selected 185 peer-reviewed primary studies from an initial pool of 1,797 articles. Guided by seven research questions, we analyze attacks, targeted software components, exploited vulnerabilities, and detection and mitigation techniques. Results Our findings map UAV vulnerabilities across a seven-layer software taxonomy and reveal cross-layer attack paths that can affect autonomy and physical safety. Existing studies rely heavily on simulation and limited open-source datasets, while defenses primarily use machine learning. Limited attention to control-theoretic methods and inconsistent reporting of deployment-critical metrics further constrain real-world applicability on resource-constrained UAVs. Conclusions We identify 17 key takeaways and 13 actionable recommendations for the autonomous UAV software engineering community. Security analysis should move beyond individual components to the autonomy pipeline, where attacks can propagate across layers and affect safety. Future research should prioritize integrated cyber-physical defenses, closed-loop evaluation, reproducibility, collaboration, and resource-aware deployment.",
+    "keywords": "Computer science, Software, Computer security, Context (archaeology), Software security assurance, Secure coding, Autonomy, Key (lock), Drone, Threat model, Software development, Social software engineering, Software engineering, Software system, Systems engineering, Software requirements, Risk analysis (engineering), Data science, Software peer review, Exploit, Security engineering, Honeypot",
+    "url": "https://doi.org/10.1145/3860892",
+    "doi": "https://doi.org/10.1145/3860892",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224951329"
+  },
+  "Spell : Synthesis of Programmatic Edits Using LLMs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224639728",
+    "author": "Daniel Ramos and Catarina Gamboa and Inês Lynce and Vasco M. Manquinho and Ruben Martins and Claire Le Goues",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Spell : Synthesis of Programmatic Edits Using LLMs",
+    "year": "2026",
+    "abstract": "Library migration is a common but error-prone task in software development. Developers may need to replace one library with another due to reasons like changing requirements or licensing changes. Migration typically entails updating and rewriting source code manually. While automated migration tools exist, most rely on mining examples from real-world projects that have already undergone similar migrations. However, these data are scarce, and collecting them for arbitrary pairs of libraries is difficult. Moreover, these migration tools often miss out on leveraging modern code transformation infrastructure. In this paper, we present a new approach to automated API migration that sidesteps the limitations described above. Instead of relying on existing migration data or using LLMs directly for transformation, we use LLMs to extract migration examples. Next, we use an agent to generalize those examples to reusable transformation scripts in PolyglotPiranha, a modern code transformation tool. Our method distills latent migration knowledge from LLMs into structured, testable, and repeatable migration logic, without requiring preexisting corpora or manual engineering effort. Experimental results across Python libraries show that our system can generate diverse migration examples and synthesize transformation scripts that generalize to real-world codebases.",
+    "keywords": "Scripting language, Computer science, Python (programming language), Programming language, Compiler, Rewriting, Software engineering, Source code, Spell, World Wide Web, Data science, Model transformation, Legacy system, Transformation (genetics), Data migration, Software, Code (set theory), Correctness, Software development, Task (project management), Program transformation",
+    "url": "https://doi.org/10.1145/3857915",
+    "doi": "https://doi.org/10.1145/3857915",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224639728"
+  },
+  "Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7224130218",
+    "author": "Jaemin Hong and Hyunhee Kang and Sukyoung Ryu",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation",
+    "year": "2026",
+    "abstract": "Translating legacy systems from C to Rust promises to enhance their reliability. However, existing translators fail to generate Rust code that fully utilizes Rust's language features, such as algebraic data types. This work focuses on tuples and Option/Result types, an important subset of algebraic data types. These are used as return types to represent functions that return multiple values or may fail. Due to the absence of these types, C programs use output parameters , i.e., pointer-type parameters for producing outputs. As output parameters make code less readable and more error-prone, their use is discouraged in Rust. To address this problem, this paper presents techniques for removing output parameters during C-to-Rust translation. The main challenge is identifying and classifying output parameters. As a solution, we propose a static analysis accompanied by abstract read/write sets , which approximate the sets of read and written pointers, and two sensitivities: write set sensitivity and nullity sensitivity . Our evaluation shows the proposed approach is (1) efficient, processing up to 395k LOC within 386 seconds; (2) useful, identifying 3,287 output parameters across 97 real-world programs; and (3) test-validated, with all 38 programs that have test suites passing their tests after transformation when aliased pointer detection is enabled.",
+    "keywords": "Computer science, Pointer (user interface), Tuple, Programming language, Data type, Algebraic number, Set (abstract data type), Algorithm, Theoretical computer science, Program transformation, Code (set theory), Source code, Transformation (genetics), Test data, Rust (programming language), Sensitivity (control systems), Data structure, Algebraic properties, Algebraic structure, Static analysis, Data mining, Program analysis",
+    "url": "https://doi.org/10.1145/3860636",
+    "doi": "https://doi.org/10.1145/3860636",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7224130218"
+  },
+  "Feature-Aware Test Generation for Deep Learning Models": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7125277402",
+    "author": "Xingcheng Chen and Oliver Weißl and Andrea Stocco",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Feature-Aware Test Generation for Deep Learning Models",
+    "year": "2026",
+    "abstract": "As deep learning (DL) models are widely used in software systems, test generation plays a crucial role in assessing the quality of such models before deployment. To date, the most advanced test generators rely on generative AI to synthesize inputs; however, these approaches remain limited in providing semantic insight into the causes of misbehaviours and in offering fine-grained semantic controllability over the generated inputs. In this paper, we introduce Detect, a feature-aware test generation framework for vision-based DL models that generates inputs by perturbing disentangled semantic attributes within the latent space. Detect perturbs individual latent features in a controlled way and observes how these changes affect the model’s output. Through this process, it identifies which features lead to behaviour shifts and uses a vision-language model for semantic attribution. Detect enables semantically controlled perturbations in StyleGAN’s disentangled latent space, allowing us to test whether a model generalizes under task-relevant feature changes and remains invariant under task-irrelevant ones. Empirical results across image classification and detection tasks show that Detect generates high-quality test cases with fine-grained control, reveals distinct shortcut behaviours across model architectures (convolutional and transformer-based), and bugs that are not captured by accuracy metrics. Specifically, Detect outperforms a state-of-the-art test generator in decision boundary discovery and provides more interpretable feature-level diagnoses than a leading spurious feature localization method in identifying robustness failures. Our findings show that fully fine-tuned convolutional models are prone to overfitting on localized cues, such as co-occurring visual traits, while weakly supervised transformers tend to rely on global features, such as environmental variances. These findings highlight the value of interpretable and feature-aware testing in improving DL model reliability, and refocus DL testing from class-level failure discovery to feature-level, semantically grounded diagnosis and repair.",
+    "keywords": "Computer science, Computer science, Artificial intelligence, Artificial intelligence, Overfitting, Overfitting, Deep learning, Deep learning, Machine learning, Machine learning, Spurious relationship, Spurious relationship, Robustness (evolution), Robustness (evolution), Generative model, Generative model, Generative grammar, Generative grammar, Semantics (computer science), Semantics (computer science), Convolutional neural network, Convolutional neural network, Controllability, Controllability, Feature (linguistics), Feature (linguistics), Generator (circuit theory), Generator (circuit theory), Supervised learning, Supervised learning, Categorization, Categorization, Boosting (machine learning), Boosting (machine learning), Decision boundary, Decision boundary, Feature learning, Feature learning, Generalization, Generalization",
+    "url": "https://doi.org/10.1145/3860533",
+    "doi": "https://doi.org/10.1145/3860533",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7125277402",
+    "arxiv_id": "2601.14081"
+  },
+  "A Fresh Look at Best Inductive Loop Invariant Synthesis for Bit-Vector Relations": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7171806898",
+    "author": "HANRUI ZUO and Peisen Yao and Kui Ren",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "A Fresh Look at Best Inductive Loop Invariant Synthesis for Bit-Vector Relations",
+    "year": "2026",
+    "abstract": "Synthesizing best inductive invariants (BII) is fundamental to program analysis and verification, yet existing approaches face significant efficiency challenges. We introduce a new formulation for the problem through the lens of mathematical optimization over quantified constraints in first-order theories. The formulation offers a constructive and operational perspective on the BII problem and opens new algorithmic avenues. Building on this formulation, we present two new algorithms for bit-vector programs: a strategically guided linear search that exploits the lattice structure and a bitwise greedy approach that resolves bound bits from high to low with a solver-call count linear in bit-width. We evaluate our approach on a comprehensive benchmark suite, demonstrating significant performance improvements over conventional methods based on symbolic abstraction and chaotic iteration. Experimental results demonstrate our approach solves up to 86% more benchmarks than baseline methods, with improved scaling in solver-call count for high bit-widths and improved verification effectiveness when integrated with k-induction.",
+    "keywords": "Benchmark (surveying), Mathematics, Computer science, Abstraction, Greedy algorithm, Invariant (physics), Constructive, Theoretical computer science, Algorithm, Mathematical optimization, Exploit, Linear programming, Scaling, Optimization problem, Perspective (graphical), Local consistency, Cryptography, Time complexity, Lattice (music), Model checking, Bitwise operation",
+    "url": "https://doi.org/10.1145/3860543",
+    "doi": "https://doi.org/10.1145/3860543",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7171806898",
+    "arxiv_id": "2607.26386"
+  },
+  "MOS: Towards Effective Smart Contract Vulnerability Detection through Mixture-of-Experts Tuning of Large Language Models": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4416543895",
+    "author": "Hang Yuan and Lei Yu and Zhirong Huang and Jingyuan Zhang and Junyi Lu and Shiqiang Cheng and Li Yang and Fengjun Zhang and Jiajia Ma and Chun Zuo",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "MOS: Towards Effective Smart Contract Vulnerability Detection through Mixture-of-Experts Tuning of Large Language Models",
+    "year": "2026",
+    "abstract": "Smart contract vulnerabilities pose significant security risks to blockchain systems, potentially leading to severe financial losses. Existing methods face several limitations: (1) Program analysis-based approaches heavily rely on predefined patterns, lacking flexibility and adaptability to new vulnerability types; (2) Deep learning-based methods lack explanations for their detection results; (3) Large language model-based approaches suffer from high false positive rates. To address these challenges, we propose MOS, a smart contract vulnerability detection framework based on mixture-of-experts tuning (MOE-Tuning) of large language models. First, we conduct Continual Pre-training on a large-scale smart contract dataset to provide a domain-enhanced initialization for the subsequent MOE-Tuning process. Second, to provide reliable explanations for detected vulnerabilities, we construct a high-quality MOE-Tuning dataset through a multi-stage pipeline combining large language model generation and expert verification. Third, we design a vulnerability-aware routing mechanism that activates the most relevant expert networks by analyzing code features and their matching degree with experts, addressing the limitation of predefined patterns in program analysis approaches. Finally, we extend the feed-forward layers of the LLM after Continual Pre-training into multiple parallel expert networks, each specializing in specific vulnerability patterns. We also employ a dual-objective loss function: one for optimizing vulnerability detection and explanation performance, and another for balancing expert utilization through an auxiliary loss based on the scaled dot product of expert assignment frequencies and average routing probabilities, thereby improving model performance in complex vulnerability scenarios. Extensive experiments show that MOS consistently outperforms existing state-of-the-art methods in four foundational and historically significant vulnerability types (Reentrancy, Timestamp, Integer Overflow/Underflow, Delegatecall) with average improvements of 6.38% in F1 score and 4.84% in accuracy. The vulnerability explanations generated by MOS also demonstrate high quality, achieving positive ratings (scores of 3 and 4 on a 4-point scale) of 82.96%, 85.21% and 94.58% for correctness, completeness, and conciseness, respectively, through a combined approach of human evaluation and LLM evaluation. Extensibility experiments show that MOS effectively handles new vulnerability types (Access Control, Price Oracle Manipulation, Logic Errors, Lack of Input Validation, Slippage, and Risky First Deposit), consistently outperforming all baseline methods across six additional vulnerability categories. MOS achieved an average F1 score of 83.94% and an average accuracy of 87.82%, demonstrating its strong extensibility and flexibility in handling new vulnerabilities.",
+    "keywords": "Computer science, Vulnerability (computing), Flexibility (engineering), Cross entropy, Vulnerability assessment, Matching (statistics), Construct (python library), Computer security, Machine learning, Artificial intelligence, Code (set theory), False alarm, Smart contract, Entropy (arrow of time), Pipeline (software), Language model, Fuzz testing, Data mining, Risk analysis (engineering), Natural language, Subject-matter expert, Face (sociological concept), Source code",
+    "url": "https://doi.org/10.1145/3859369",
+    "doi": "https://doi.org/10.1145/3859369",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W4416543895",
+    "arxiv_id": "2504.12234"
+  },
+  "Automated Logging Is Language-Sensitive: A Multilingual Benchmark and Empirical Study of LLMs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7155060994",
+    "author": "Renyi Zhong and Yichen Li and Yulun Wu and Jinxi Kuang and Yintong Huo and Michael R. Lyu",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Automated Logging Is Language-Sensitive: A Multilingual Benchmark and Empirical Study of LLMs",
+    "year": "2026",
+    "abstract": "Logging statements are central to debugging, failure diagnosis, and production observability, yet writing them requires developers to decide where to place a logging statement, which API and severity level to use, and what runtime information to expose. Automated logging aims to reduce this burden, but existing evidence remains dominated by Java-centric repositorysnapshot datasets. Thus, Java-centered benchmarks do not show whether findings on model behavior and model selection generalize to other programming languages or to real-world maintenance changes that introduce logging statements. This paper presents MultiLogBench, a multilingual benchmark and empirical study spanning six programming language ecosystems. MultiLogBench contains 63,965 production-code repository-snapshot instances, 744 revision-history cases where developers introduce logging statements during maintenance, and a paired transformed revision-history branch for robustness analysis. Using seven contemporary large language models under a unified protocol, we evaluate logging-site localization, frameworkanchor matching, severity prediction, message generation, variable recovery, and cascaded overall quality. Results show that automated logging is sensitive to language-ecosystem conditions. On repository-snapshot data, absolute performance levels and component profiles vary across language-specific subsets, with position prediction exhibiting the largest average withinmodel component gap. The six language-specific CCS leaderboards are nevertheless highly correlated, with a mean pairwise Spearman correlation of 0.912, and identify the same top two models; reordering is concentrated among the middle- and lower-tier models. Among the primary structural buckets, loop and nested-callable sites are the hardest. On revision-history data, the six-language mean declines across all displayed metrics, cross-language score dispersion persists, the component profile shifts toward greater framework-anchor dispersion, and the repository-snapshot top-two stability does not persist. Transformed inputs do not cause a broad same-direction performance collapse. These results show that single-language evaluation is informative for identifying the leading models in the controlled repository-snapshot benchmark, but is insufficient for estimating absolute performance across language ecosystems, diagnosing component-specific weaknesses beyond the evaluated language, or establishing a fine-grained model ordering below the top two that transfers across languages.",
+    "keywords": "Logging, Computer science, Robustness (evolution), Benchmark (surveying), Matching (statistics), Empirical research, Code (set theory), Language model, Selection (genetic algorithm), Variable (mathematics), Data mining, Artificial intelligence, Machine learning, Feature selection, Empirical evidence, Software engineering, Natural language processing, Data science, Baseline (sea), Natural language, Database, Data modeling, Empirical modelling, Specification, Environment variable",
+    "url": "https://doi.org/10.1145/3860542",
+    "doi": "https://doi.org/10.1145/3860542",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7155060994",
+    "arxiv_id": "2604.17529"
+  },
   "Agentic Refactoring: An Empirical Study of AI Coding Agents": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7104698776",
@@ -815,7 +981,7 @@
   "Model checking of hyperproperties for high-level relational models": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4417447667",
-    "author": "Nuno Moreira Macedo and Hugo Pacheco",
+    "author": "Nuno Moreira Macedo and Hugo Pereira Pacheco",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "Model checking of hyperproperties for high-level relational models",
@@ -1134,7 +1300,8 @@
     "doi": "https://doi.org/10.1145/3843234",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W4409838632"
+    "openalex_id": "https://openalex.org/W4409838632",
+    "arxiv_id": "2504.14158"
   },
   "Security of Cross-Platform and Cross-Language Software Technologies: A Systematic Review": {
     "type": "REVIEW",
@@ -1575,7 +1742,8 @@
     "doi": "https://doi.org/10.1145/3833417",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7172299201"
+    "openalex_id": "https://openalex.org/W7172299201",
+    "arxiv_id": "2507.02309"
   },
   "Code Refinement with Repository Context: How Far are We?": {
     "type": "ARTICLE",
@@ -1721,7 +1889,8 @@
     "doi": "https://doi.org/10.1145/3834771",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7171643834"
+    "openalex_id": "https://openalex.org/W7171643834",
+    "arxiv_id": "2507.22442"
   },
   "C2|Q⟩: A Robust Framework for Bridging Classical and Quantum Software Development — RCR Report": {
     "type": "ARTICLE",
@@ -3293,6 +3462,22 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7162341256"
   },
+  "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7162215889",
+    "author": "Carol Hanna and David Elliman and W. Emmerich and Federica Sarro and Justyna Petke",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities",
+    "year": "2026",
+    "abstract": "Ensuring best practices for emergency bug handling is critical, yet the process remains elusive in the industry. In our previous work, we conducted the first study on hot fixing industrial practices to gain initial insights. Through an online questionnaire, we surveyed 24 employees of Zühlke, a mid-sized IT company, and 136 software practitioners from a wide range of companies, roles, and geographical areas. While our original work revealed valuable initial insights into industrial hot fixing practices, it also surfaced inconsistencies across participant responses, particularly in terminology, automation levels, and process structure. This suggested that hot fixing workflows vary significantly depending on factors such as system maturity, application domain, and organizational context. To investigate this, in this paper, we explore the workflows of nine distinct project teams working with clients across a range of sectors at Zühlke through semi-structured interviews with their technical leads and senior software engineers. These interviews provide first-hand, context-rich accounts of hot fixing practices across domains to reveal bottlenecks and opportunities for improvement. Together, our survey and case study results provide an empirically grounded view of hot fixing in practice, offering concrete recommendations for software engineering researchers and practitioners working to improve recovery workflows in production systems.",
+    "keywords": "Workflow, Automation, Work (physics), Process (computing), Computer science, Software, Knowledge management, Process management, Best practice, Engineering management, Software development, Software engineering, Crowdsourcing, Production (economics), Team software process, Data science, Process automation system",
+    "url": "https://doi.org/10.1145/3816247",
+    "doi": "https://doi.org/10.1145/3816247",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7162215889"
+  },
   "Mapping NVD Records to Their Vulnerability-fixing Commits: How Hard is It?": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4417308555",
@@ -3357,22 +3542,6 @@
     "venue": "TOSEM2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7162208201"
-  },
-  "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7162215889",
-    "author": "Carol Hanna and David Elliman and W. Emmerich and Federica Sarro and Justyna Petke",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "A Mixed-Method Study of Hot Fixing in Industry: Practices, Bottlenecks, and Opportunities",
-    "year": "2026",
-    "abstract": "Ensuring best practices for emergency bug handling is critical, yet the process remains elusive in the industry. In our previous work, we conducted the first study on hot fixing industrial practices to gain initial insights. Through an online questionnaire, we surveyed 24 employees of Zühlke, a mid-sized IT company, and 136 software practitioners from a wide range of companies, roles, and geographical areas. While our original work revealed valuable initial insights into industrial hot fixing practices, it also surfaced inconsistencies across participant responses, particularly in terminology, automation levels, and process structure. This suggested that hot fixing workflows vary significantly depending on factors such as system maturity, application domain, and organizational context. To investigate this, in this paper, we explore the workflows of nine distinct project teams working with clients across a range of sectors at Zühlke through semi-structured interviews with their technical leads and senior software engineers. These interviews provide first-hand, context-rich accounts of hot fixing practices across domains to reveal bottlenecks and opportunities for improvement. Together, our survey and case study results provide an empirically grounded view of hot fixing in practice, offering concrete recommendations for software engineering researchers and practitioners working to improve recovery workflows in production systems.",
-    "keywords": "Workflow, Automation, Work (physics), Process (computing), Computer science, Software, Knowledge management, Process management, Best practice, Engineering management, Software development, Software engineering, Crowdsourcing, Production (economics), Team software process, Data science, Process automation system",
-    "url": "https://doi.org/10.1145/3816247",
-    "doi": "https://doi.org/10.1145/3816247",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7162215889"
   },
   "Simulation Approaches for Supporting Microservice Architectures: A Systematic Review": {
     "type": "REVIEW",
@@ -3717,7 +3886,7 @@
   "GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4415939116",
-    "author": "Jie JW Wu and Ayanda Patrick Herlihy and Ahmad Saleem Mirza and Ali Afoud and Fatemeh H. Fard",
+    "author": "Jie JW Wu and Ayanda Patrick Herlihy and AHMAD SALEEM MIRZA and Ali Afoud and Fatemeh H. Fard",
     "booktitle": "ACM Transactions on Software Engineering and Methodology",
     "journal": "ACM Transactions on Software Engineering and Methodology",
     "title": "GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents",
@@ -3970,7 +4139,8 @@
     "doi": "https://doi.org/10.1145/3811920",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7155645207"
+    "openalex_id": "https://openalex.org/W7155645207",
+    "arxiv_id": "2507.21954"
   },
   "Towards Reliable Generation of Executable Workflows by Foundation Models": {
     "type": "ARTICLE",
@@ -4330,7 +4500,8 @@
     "doi": "https://doi.org/10.1145/3806653",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7149544452"
+    "openalex_id": "https://openalex.org/W7149544452",
+    "arxiv_id": "2508.19882"
   },
   "Rethinking Services in the Quantum Age: The SOQ Paradigm": {
     "type": "ARTICLE",
@@ -4492,7 +4663,8 @@
     "doi": "https://doi.org/10.1145/3787853",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7147540734"
+    "openalex_id": "https://openalex.org/W7147540734",
+    "arxiv_id": "2503.07243"
   },
   "Towards an Oracle for Binary Decomposition Under Compilation Variance": {
     "type": "ARTICLE",
@@ -4575,7 +4747,8 @@
     "doi": "https://doi.org/10.1145/3802581",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7142410377"
+    "openalex_id": "https://openalex.org/W7142410377",
+    "arxiv_id": "2510.24799"
   },
   "Enhancing Automated Unit Test Generation with Large Language Models: A Systematic Literature Review": {
     "type": "REVIEW",
@@ -5377,7 +5550,8 @@
     "doi": "https://doi.org/10.1145/3797276",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7130607038"
+    "openalex_id": "https://openalex.org/W7130607038",
+    "arxiv_id": "2510.24367"
   },
   "Enhanced Web Testing with LLMs: A Research Roadmap": {
     "type": "ARTICLE",
@@ -5411,6 +5585,22 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7129030749"
   },
+  "JIT-MTL: Just-in-Time Defect Localization and Prediction with Multi-Task Learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7129043062",
+    "author": "Zongwen Shen and Wentao Zou and Xiang Chen and Jidong Ge and Chuanyi Li and Shuai Cao and Xuewei Zhang and LiGuo Huang and Bin Luo",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "JIT-MTL: Just-in-Time Defect Localization and Prediction with Multi-Task Learning",
+    "year": "2026",
+    "abstract": "Severe software defects can lead to significant issues and even result in substantial financial losses. As a result, automated code defect detection has garnered widespread attention. To fix these defects as soon as possible, J ust- I n- T ime D efect P rediction (JIT-DP) and J ust- I n- T ime D efect L ocalization (JIT-DL) have been investigated. Specifically, JIT-DP aims to predict commit-level defects when a code change is submitted, and JIT-DL aims to perform line-level defect localization before they lead to failures. Several methods have been developed for JIT-DP and JIT-DL, with those using C ode P re- T rained M odels (CPTMs) leading to the best results. However, most previous studies concentrate on JIT-DP, even though JIT-DL is arguably more crucial. Identifying which specific lines of a commit are defective facilitates the prediction of whether the commit is defective. Therefore, we propose a M ulti- T ask L earning method (JIT-MTL) designed to address both JIT-DP and JIT-DL. Specifically, we train a CPTM to simultaneously identify defective commits and lines. The line-level predictions are directly used for JIT-DL, while the commit-level predictions for the same commit are merged to determine the results for JIT-DP. To enhance the accuracy of line-level predictions, we provide the CPTM with additional commit-level information, including commit-level defect code representation and expert features. Experimental results on the JIT-Defect4J dataset show that JIT-MTL outperforms the state-of-the-art baselines, with improvements of 14% in F1 in JIT-DP, 53.9% in Top-10 Accuracy, and 36.4% in Top-5 Accuracy in JIT-DL.",
+    "keywords": "Commit, Computer science, Code (set theory), Software, Representation (politics), Artificial intelligence, Source lines of code, Machine learning, Source code, Data mining, Software bug, Static analysis",
+    "url": "https://doi.org/10.1145/3797269",
+    "doi": "https://doi.org/10.1145/3797269",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7129043062"
+  },
   "Separate Bombs from Firecrackers: Intention-guided Vulnerability Assessment via LLM": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7129013812",
@@ -5443,22 +5633,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7129020261",
     "arxiv_id": "2505.19736"
-  },
-  "JIT-MTL: Just-in-Time Defect Localization and Prediction with Multi-Task Learning": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7129043062",
-    "author": "Zongwen Shen and Wentao Zou and Xiang Chen and Jidong Ge and Chuanyi Li and Shuai Cao and Xuewei Zhang and LiGuo Huang and Bin Luo",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "JIT-MTL: Just-in-Time Defect Localization and Prediction with Multi-Task Learning",
-    "year": "2026",
-    "abstract": "Severe software defects can lead to significant issues and even result in substantial financial losses. As a result, automated code defect detection has garnered widespread attention. To fix these defects as soon as possible, J ust- I n- T ime D efect P rediction (JIT-DP) and J ust- I n- T ime D efect L ocalization (JIT-DL) have been investigated. Specifically, JIT-DP aims to predict commit-level defects when a code change is submitted, and JIT-DL aims to perform line-level defect localization before they lead to failures. Several methods have been developed for JIT-DP and JIT-DL, with those using C ode P re- T rained M odels (CPTMs) leading to the best results. However, most previous studies concentrate on JIT-DP, even though JIT-DL is arguably more crucial. Identifying which specific lines of a commit are defective facilitates the prediction of whether the commit is defective. Therefore, we propose a M ulti- T ask L earning method (JIT-MTL) designed to address both JIT-DP and JIT-DL. Specifically, we train a CPTM to simultaneously identify defective commits and lines. The line-level predictions are directly used for JIT-DL, while the commit-level predictions for the same commit are merged to determine the results for JIT-DP. To enhance the accuracy of line-level predictions, we provide the CPTM with additional commit-level information, including commit-level defect code representation and expert features. Experimental results on the JIT-Defect4J dataset show that JIT-MTL outperforms the state-of-the-art baselines, with improvements of 14% in F1 in JIT-DP, 53.9% in Top-10 Accuracy, and 36.4% in Top-5 Accuracy in JIT-DL.",
-    "keywords": "Commit, Computer science, Code (set theory), Software, Representation (politics), Artificial intelligence, Source lines of code, Machine learning, Source code, Data mining, Software bug, Static analysis",
-    "url": "https://doi.org/10.1145/3797269",
-    "doi": "https://doi.org/10.1145/3797269",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7129043062"
   },
   "Why Are My Pull Request Descriptions Constantly Revised? Understanding Modifying Descriptions and Reviewer Suggestions": {
     "type": "ARTICLE",
@@ -5538,7 +5712,8 @@
     "doi": "https://doi.org/10.1145/3797477",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7128822507"
+    "openalex_id": "https://openalex.org/W7128822507",
+    "arxiv_id": "2503.14079"
   },
   "Promptware Engineering: Software Engineering for Prompt-Enabled Systems": {
     "type": "ARTICLE",
@@ -5556,6 +5731,22 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7128488406",
     "arxiv_id": "2503.02400"
+  },
+  "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models": {
+    "type": "REVIEW",
+    "key": "https://openalex.org/W7128496016",
+    "author": "Saima Afrin and Md. Zahidul Haque and Antonio Mastropaolo",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models",
+    "year": "2026",
+    "abstract": "The rise of Artificial Intelligence (AI)-and particularly Large Language Models (LLMs) for code–has reshaped Software Engineering (SE) by enabling the automation of tasks such as code generation, bug detection, and repair. However, these models require significant computational resources for training and fine-tuning, posing challenges for real-world adoption in resource-constrained environments. To address this, the research community has increasingly turned to Parameter-Efficient Fine-Tuning (PEFT)–a class of techniques that enables the adaptation of large models by updating only a small subset of parameters, rather than the entire model. In this Systematic Literature Review (SLR), we examine the growing application of PEFT techniques–across a wide range of software engineering tasks. We analyze how these methods are used to optimize various deep learning (DL) architectures, focusing on their impact on both performance and efficiency. Our study synthesizes findings from 28 peer-reviewed papers, identifying patterns in configuration strategies and adaptation trade-offs. The outcome of this review is a comprehensive taxonomy that categorizes PEFT usage by task type, distinguishing between generative (e.g., Code Summarization) and non-generative (e.g., Code Clone Detection) scenarios. Our findings aim to inform future research and guide the practical deployment of PEFT in sustainable, AI-powered software development. Our artifacts are publicly available at https://github.com/alvi75/SLR-PEFT",
+    "keywords": "Computer science, Software engineering, Systematic review, Adaptation (eye), Software deployment, Data science, Taxonomy (biology), Task (project management), Code review, Automation, Software, Code (set theory), Artificial intelligence, Static program analysis, Model-driven architecture, Software development, Software requirements, Subject-matter expert, Code generation, Generative grammar, Source code, Machine learning",
+    "url": "https://doi.org/10.1145/3796522",
+    "doi": "https://doi.org/10.1145/3796522",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7128496016"
   },
   "A Large-Scale Empirical Evaluation of LLMs for Automated Self-Admitted Technical Debt Repayment": {
     "type": "ARTICLE",
@@ -5589,22 +5780,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7128487267",
     "arxiv_id": "2501.00125"
-  },
-  "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models": {
-    "type": "REVIEW",
-    "key": "https://openalex.org/W7128496016",
-    "author": "Saima Afrin and Md. Zahidul Haque and Antonio Mastropaolo",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models",
-    "year": "2026",
-    "abstract": "The rise of Artificial Intelligence (AI)-and particularly Large Language Models (LLMs) for code–has reshaped Software Engineering (SE) by enabling the automation of tasks such as code generation, bug detection, and repair. However, these models require significant computational resources for training and fine-tuning, posing challenges for real-world adoption in resource-constrained environments. To address this, the research community has increasingly turned to Parameter-Efficient Fine-Tuning (PEFT)–a class of techniques that enables the adaptation of large models by updating only a small subset of parameters, rather than the entire model. In this Systematic Literature Review (SLR), we examine the growing application of PEFT techniques–across a wide range of software engineering tasks. We analyze how these methods are used to optimize various deep learning (DL) architectures, focusing on their impact on both performance and efficiency. Our study synthesizes findings from 28 peer-reviewed papers, identifying patterns in configuration strategies and adaptation trade-offs. The outcome of this review is a comprehensive taxonomy that categorizes PEFT usage by task type, distinguishing between generative (e.g., Code Summarization) and non-generative (e.g., Code Clone Detection) scenarios. Our findings aim to inform future research and guide the practical deployment of PEFT in sustainable, AI-powered software development. Our artifacts are publicly available at https://github.com/alvi75/SLR-PEFT",
-    "keywords": "Computer science, Software engineering, Systematic review, Adaptation (eye), Software deployment, Data science, Taxonomy (biology), Task (project management), Code review, Automation, Software, Code (set theory), Artificial intelligence, Static program analysis, Model-driven architecture, Software development, Software requirements, Subject-matter expert, Code generation, Generative grammar, Source code, Machine learning",
-    "url": "https://doi.org/10.1145/3796522",
-    "doi": "https://doi.org/10.1145/3796522",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7128496016"
   },
   "CRFD: Causal and Interpretable Fault Diagnosis Using Counterfactual Reasoning for Microservices on Multi-source Observability Data": {
     "type": "ARTICLE",
@@ -5848,22 +6023,6 @@
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7127564333"
   },
-  "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7127301959",
-    "author": "Xuemeng Cai and Jiakun Liu and Cunyang Liu and Lingfeng Bao and Yijun Yu and Lingxiao Jiang",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools",
-    "year": "2026",
-    "abstract": "Rust has become increasingly popular in recent years due to its safety and high performance. Despite these advantages, Rust projects rarely start from scratch in practice, and many Rust-based systems instead use hybrid programming, where Rust interoperates with existing C/C++ code. To reduce the manual effort involved in this interoperation (interop) process, several interop tools have been proposed to facilitate hybrid programming between Rust and C/C++. However, the challenges and limitations of these tools remain largely unexplored, leaving developers unclear about the future directions and users unclear about the appropriate usage scenarios. To fill the gap, we mined 320 bugs in the popular interop tools, i.e., Bindgen , Cbindgen , and CXX . We observe that the main obstacle is not tool crashes or performance issues, but the inability to generate correct and functional code. The leading types of failures are generating code that is unfaithful to the original code’s intent and generating incomplete code. Memory layout mismatch is the most common cause with Bindgen . Input with complex struct is the biggest challenge across tools, followed by the usage with specific tool configuration options for customized binding generation. Even input with primitive data types can be problematic. We also observe a common fix pattern that updates the control flow and condition. Based on our findings, we propose a series of suggestions to developers, users, and future researchers. For example, we suggest the developers validate configuration combinations, provide clearer documentation, and implement default-safe mechanisms to prevent failures related to unexpected tool configuration options.",
-    "keywords": "Computer science, Interoperation, Rust (programming language), Software engineering, Scratch, Code (set theory), Obstacle, Interoperability, Programming language, Control flow, Distributed computing, Java, Legacy system, Scripting language, Reverse engineering, Debugging, Software design pattern, Source code, Data flow diagram, Memory safety",
-    "url": "https://doi.org/10.1145/3795532",
-    "doi": "https://doi.org/10.1145/3795532",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7127301959"
-  },
   "No More Hidden Pitfalls? Exposing Smart Contract Bad Practices with LLM-Powered Hybrid Analysis": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7127376086",
@@ -5879,6 +6038,22 @@
     "venue": "TOSEM2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7127376086"
+  },
+  "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7127301959",
+    "author": "Xuemeng Cai and Jiakun Liu and Cunyang Liu and Lingfeng Bao and Yijun Yu and Lingxiao Jiang",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools",
+    "year": "2026",
+    "abstract": "Rust has become increasingly popular in recent years due to its safety and high performance. Despite these advantages, Rust projects rarely start from scratch in practice, and many Rust-based systems instead use hybrid programming, where Rust interoperates with existing C/C++ code. To reduce the manual effort involved in this interoperation (interop) process, several interop tools have been proposed to facilitate hybrid programming between Rust and C/C++. However, the challenges and limitations of these tools remain largely unexplored, leaving developers unclear about the future directions and users unclear about the appropriate usage scenarios. To fill the gap, we mined 320 bugs in the popular interop tools, i.e., Bindgen , Cbindgen , and CXX . We observe that the main obstacle is not tool crashes or performance issues, but the inability to generate correct and functional code. The leading types of failures are generating code that is unfaithful to the original code’s intent and generating incomplete code. Memory layout mismatch is the most common cause with Bindgen . Input with complex struct is the biggest challenge across tools, followed by the usage with specific tool configuration options for customized binding generation. Even input with primitive data types can be problematic. We also observe a common fix pattern that updates the control flow and condition. Based on our findings, we propose a series of suggestions to developers, users, and future researchers. For example, we suggest the developers validate configuration combinations, provide clearer documentation, and implement default-safe mechanisms to prevent failures related to unexpected tool configuration options.",
+    "keywords": "Computer science, Interoperation, Rust (programming language), Software engineering, Scratch, Code (set theory), Obstacle, Interoperability, Programming language, Control flow, Distributed computing, Java, Legacy system, Scripting language, Reverse engineering, Debugging, Software design pattern, Source code, Data flow diagram, Memory safety",
+    "url": "https://doi.org/10.1145/3795532",
+    "doi": "https://doi.org/10.1145/3795532",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7127301959"
   },
   "Delving into History: Retrieve Less but Augment More on Commit Message Generation": {
     "type": "ARTICLE",
@@ -6141,7 +6316,8 @@
     "doi": "https://doi.org/10.1145/3789210",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7124730205"
+    "openalex_id": "https://openalex.org/W7124730205",
+    "arxiv_id": "2508.04921"
   },
   "Exploring Large Language Models in Resolving Environment-Related Crash Bugs: Localizing and Repairing": {
     "type": "ARTICLE",
@@ -6287,7 +6463,8 @@
     "doi": "https://doi.org/10.1145/3786791",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7118199383"
+    "openalex_id": "https://openalex.org/W7118199383",
+    "arxiv_id": "2510.22249"
   },
   "Isolating Compiler Faults via Multiple Pairs of Adversarial Compilation Configurations": {
     "type": "ARTICLE",
@@ -6319,7 +6496,8 @@
     "doi": "https://doi.org/10.1145/3787101",
     "venue": "TOSEM2026",
     "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7118194594"
+    "openalex_id": "https://openalex.org/W7118194594",
+    "arxiv_id": "2610.40234"
   },
   "Exploring Multi-Lingual Bias of Large Code Models in Code Generation": {
     "type": "ARTICLE",
@@ -6338,22 +6516,6 @@
     "openalex_id": "https://openalex.org/W7118067677",
     "arxiv_id": "2404.19368"
   },
-  "Towards More Accurate App Review Response Generation with Fine-Grained Filtering": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7118067470",
-    "author": "Zhengquan Li and Yao Li and Tao Zhang and Cuiyun Gao and Zishuo Ding",
-    "booktitle": "ACM Transactions on Software Engineering and Methodology",
-    "journal": "ACM Transactions on Software Engineering and Methodology",
-    "title": "Towards More Accurate App Review Response Generation with Fine-Grained Filtering",
-    "year": "2026",
-    "abstract": "App reviews serve as one of the essential information sources and decision-making bases for developers in the process of software maintenance. Timely and proactive responses to app reviews can effectively enhance user experience for apps and improve the app’s ratings in the app store. However, existing automatic response generation models ignore the importance of timestamps in historical response records and are unable to capture the historical semantic information in the reviews. To address these issues, we propose FFSGen, a novel framework that automatically generates review responses through a fine-grained filtering and semantic retrieval method. FFSGen leverages semantic similarity to retrieve similar samples, efficiently selects valuable samples, and constructs a multi-step instructional prompt as input to employ an LLM to generate responses corresponding to app reviews. Our experimental results demonstrate that the model outperforms the current state-of-the-art model by 5.66% on BLEU-4. The assessment results on METEOR, ROUGE, and human evaluation further validate that our model can generate more accurate response contents compared to existing best-performing models.",
-    "keywords": "Computer science, Timestamp, Information retrieval, Process (computing), Semantic similarity, Software, Data mining, Similarity (geometry), Semantic data model, Machine learning, Artificial intelligence, Response time, Semantics (computer science), Human–computer interaction, Software engineering, Collaborative filtering, Metadata, Data science, Semantic analysis (machine learning), World Wide Web",
-    "url": "https://doi.org/10.1145/3786790",
-    "doi": "https://doi.org/10.1145/3786790",
-    "venue": "TOSEM2026",
-    "venue_track": "SE",
-    "openalex_id": "https://openalex.org/W7118067470"
-  },
   "Just-in-Time Quality Assurance with Assistance of Automated Defect Prediction and Code Testing": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7118088020",
@@ -6369,5 +6531,21 @@
     "venue": "TOSEM2026",
     "venue_track": "SE",
     "openalex_id": "https://openalex.org/W7118088020"
+  },
+  "Towards More Accurate App Review Response Generation with Fine-Grained Filtering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7118067470",
+    "author": "Zhengquan Li and Yao Li and Tao Zhang and Cuiyun Gao and Zishuo Ding",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "title": "Towards More Accurate App Review Response Generation with Fine-Grained Filtering",
+    "year": "2026",
+    "abstract": "App reviews serve as one of the essential information sources and decision-making bases for developers in the process of software maintenance. Timely and proactive responses to app reviews can effectively enhance user experience for apps and improve the app’s ratings in the app store. However, existing automatic response generation models ignore the importance of timestamps in historical response records and are unable to capture the historical semantic information in the reviews. To address these issues, we propose FFSGen, a novel framework that automatically generates review responses through a fine-grained filtering and semantic retrieval method. FFSGen leverages semantic similarity to retrieve similar samples, efficiently selects valuable samples, and constructs a multi-step instructional prompt as input to employ an LLM to generate responses corresponding to app reviews. Our experimental results demonstrate that the model outperforms the current state-of-the-art model by 5.66% on BLEU-4. The assessment results on METEOR, ROUGE, and human evaluation further validate that our model can generate more accurate response contents compared to existing best-performing models.",
+    "keywords": "Computer science, Timestamp, Information retrieval, Process (computing), Semantic similarity, Software, Data mining, Similarity (geometry), Semantic data model, Machine learning, Artificial intelligence, Response time, Semantics (computer science), Human–computer interaction, Software engineering, Collaborative filtering, Metadata, Data science, Semantic analysis (machine learning), World Wide Web",
+    "url": "https://doi.org/10.1145/3786790",
+    "doi": "https://doi.org/10.1145/3786790",
+    "venue": "TOSEM2026",
+    "venue_track": "SE",
+    "openalex_id": "https://openalex.org/W7118067470"
   }
 }

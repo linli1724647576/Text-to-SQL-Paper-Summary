@@ -26,7 +26,7 @@
 | readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
 | readme_journal | true_positive_application | TKDE | 2022 | A Survey on Deep Reinforcement Learning for Data Processing and Analytics |  |
 | readme_journal | true_positive_application | TKDE | 2025 | NALSpatial: A Natural Language Interface for Spatial Databases |  |
-| readme_journal | true_positive_core | TKDE | 2026 | Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation | missing abstract |
+| readme_journal | true_positive_application | TKDE | 2026 | Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
 | readme_journal | true_positive_core | VLDBJ | 2023 | xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph |  |
 | arxiv | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |

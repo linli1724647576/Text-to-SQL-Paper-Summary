@@ -13404,11 +13404,11 @@
   "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7220420742",
-    "author": "Minh Tam Pham and Thanh Trung Huynh and Thanh Dat Hoang and Quoc Viet Hung Nguyen and Hongzhi Yin and Thanh Tam Nguyen",
+    "author": "Minh Tam Pham and Thanh Trung Huynh and Thanh Dat Hoang and Quoc Viet Hung Nguyen and Hongzhi Yin and Thành Tâm Nguyên",
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Text-to-SQL systems allow users to interact with databases using natural language questions, but their effectiveness is often limited by ambiguity in user questions. A question is considered ambiguous only if it admits at least two distinct SQL queries, schema and value ambiguities are common and easily introduced by users in Text-to-SQL queries. Schema ambiguity arises when multiple database columns contain semantically overlapping information and the user's question fails to explicitly specify the targeted column. Value ambiguity emerges when users' question reference entities differently from their stored representations, such as using common or alternative names rather than exact database values. We propose the RAQS-SQL framework to Resolve schema and value Ambiguities in QuestionS for Text-to-SQL system. To handle schema-level ambiguity, we use a model that aligns the word in the question that expresses the user's intent directly with relevant database columns. To handle value ambiguity, we introduce techniques leveraging semantic similarities and hierarchical entity relationships of value entities stored in the database and in the question. We construct a new dataset (AmbiVal) from the established BIRD and Spider benchmarks to support the evaluation of value ambiguity in Text-to-SQL tasks. Experimental results show that RAQS-SQL outperforms baselines on ambiguity benchmarks, reaching 52.45% on AmbiQT, 47.99% execution accuracy (EX) on AmbiVal, and 31.31% AllFound on AMBROSIA, while remaining competitive on standard benchmarks with 83.26% execution accuracy (EX) on Spider and 63.04% EX on BIRD.",
     "keywords": "Computer science, Ambiguity, Schema (genetic algorithms), Artificial intelligence, Data mining, Resolution (logic), Value (mathematics), Data modeling, Algorithm, Natural language processing, Algorithm design, Pattern recognition (psychology), Information retrieval, Electronic mail",
     "url": "https://doi.org/10.1109/tkde.2026.3740539",
     "doi": "10.1109/tkde.2026.3740539",
@@ -13419,13 +13419,19 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Cross-domain Text-to-SQL",
       "Grounding and Retrieval",
+      "Value Linking",
       "Schema / Content Retrieval",
       "Benchmarks and Evaluation",
+      "Benchmark",
       "Empirical Study"
     ],
     "pipeline_stages": [
+      "Task Understanding",
+      "Intent Detection",
       "Grounding",
+      "Value Linking",
       "Context Retrieval",
       "SQL Generation"
     ],
@@ -17966,7 +17972,7 @@
     "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
     "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
     "year": "2026",
-    "abstract": "",
+    "abstract": "Text-to-SQL has emerged as a fundamental task for enabling natural language interfaces to relational databases, playing a critical role in data analytics, business intelligence, and end-user database interaction. Extensive research efforts have been devoted to this task, ranging from traditional semantic parsing approaches to recent large language model (LLM)-based methods. Despite recent advances, existing LLM-based Text-to-SQL approaches largely rely on one-shot prompt-based generation. This paradigm suffers from two fundamental limitations: entangled contextual information that obscures reasoning, and the absence of systematic validation mechanisms for detecting and correcting SQL errors. To address these challenges, we propose MCP-Text2SQL, a protocol-driven framework that reformulates Text-to-SQL as a controllable and verifiable generation process. Instead of relying on monolithic prompts, MCP-Text2SQL decomposes heterogeneous contextual knowledge into semantically isolated model context protocol context servers and coordinates them through an explicit generation protocol. Furthermore, we introduce a verifiable SQL generation loop that integrates schema validation and execution-based feedback as structured protocol interactions, enabling deterministic and error-aware SQL revision without modifying model parameters. We evaluate MCP-Text2SQL on standard Text-to-SQL benchmarks and demonstrate that protocol-guided context orchestration and verifiable generation substantially improve both generation accuracy and robustness. Our results suggest that MCP provides a principled system-level abstraction for Text-to-SQL, shifting the focus from prompt engineering to controllable and verifiable generation workflows.",
     "keywords": "Computer science, Context (archaeology), Orchestration, Database, Information retrieval, Database theory, Query optimization, View, Context model, Data modeling, Query language, World Wide Web, Distributed database, Relational database, Data mining",
     "url": "https://doi.org/10.1109/tkde.2026.3716724",
     "doi": "10.1109/tkde.2026.3716724",
@@ -17977,17 +17983,32 @@
     "labels": [
       "Task Setting",
       "Single-turn Text-to-SQL",
+      "Enterprise / BI Text-to-SQL",
+      "Conversational Data Analysis",
       "Text-to-DSL / Hybrid Query",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
       "Grounding and Retrieval",
-      "Schema / Content Retrieval"
+      "Schema / Content Retrieval",
+      "Agentic Feedback and Repair",
+      "Self-correction and Repair",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
     ],
     "pipeline_stages": [
       "Task Understanding",
       "Grounding",
       "Context Retrieval",
-      "SQL Generation"
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation"
     ],
-    "relevance_level": "core"
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "Text2Cypher Across Languages: Evaluating and Finetuning LLMs": {
     "type": "ARTICLE",

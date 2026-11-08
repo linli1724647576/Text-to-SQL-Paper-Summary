@@ -378,8 +378,8 @@
       "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
       "venue": "TKDE",
       "normalized_venue": "TKDE",
       "category": "数据库领域",
@@ -392,7 +392,7 @@
         "https://doi.org/10.1109/tkde.2026.3716724",
         "https://openalex.org/W7170260222"
       ],
-      "notes": "missing abstract"
+      "notes": ""
     },
     {
       "title": "prompt4vis: prompting large language models with example mining for tabular data visualization",

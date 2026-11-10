@@ -1,32 +1,23 @@
 {
   "summary": {
-    "fetched_entries": 1084,
-    "failure_count": 1,
+    "fetched_entries": 3492,
+    "failure_count": 0,
     "warning_count": 0,
     "skipped_count": 2
   },
-  "failures": [
-    {
-      "venue": "NeurIPS",
-      "year": 2020,
-      "source": "official-accepted",
-      "status": "failed",
-      "url": "https://proceedings.neurips.cc/paper/2020",
-      "error": "<urlopen error timed out>"
-    }
-  ],
+  "failures": [],
   "warnings": [],
   "skipped": [
     {
       "venue": "IJCAI",
-      "year": 2020,
+      "year": 2021,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"
     },
     {
       "venue": "SIGMOD",
-      "year": 2020,
+      "year": 2021,
       "source": "official-accepted",
       "status": "skipped",
       "reason": "complete"

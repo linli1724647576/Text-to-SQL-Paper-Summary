@@ -1,4 +1,20 @@
 {
+  "Less is more: re-architecting the reachability query processing pipeline": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7225854545",
+    "author": "Can Lu and Xinyu Li and Sijin Wang and Kangfei Zhao and Xin Lin and Yikai Zhang and Yao Xin and Keke Tang and Jeffrey Xu Yu",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Less is more: re-architecting the reachability query processing pipeline",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Reachability, Pipeline (software), Query optimization, Theoretical computer science, Data mining, Set (abstract data type), Database, Data processing, Algorithm, Query language, Programming language",
+    "url": "https://doi.org/10.1007/s00778-026-01017-y",
+    "doi": "https://doi.org/10.1007/s00778-026-01017-y",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7225854545"
+  },
   "Superrocket: efficient kernel-based transformation selection for fast and accurate time series classification": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7223446406",
@@ -240,7 +256,8 @@
     "doi": "https://doi.org/10.1007/s00778-026-00981-9",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7204037570"
+    "openalex_id": "https://openalex.org/W7204037570",
+    "arxiv_id": "2305.08175"
   },
   "Towards robust and interactive text-to-visualization translation: enhancing model robustness and mitigating ambiguity in natural language queries": {
     "type": "ARTICLE",
@@ -321,7 +338,8 @@
     "doi": "https://doi.org/10.1007/s00778-026-00983-7",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7172498154"
+    "openalex_id": "https://openalex.org/W7172498154",
+    "arxiv_id": "2605.08273"
   },
   "Static and streaming algorithms for random sampling over spatial range joins": {
     "type": "ARTICLE",
@@ -452,22 +470,6 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7167202673"
   },
-  "On querying minimum spanning tree in temporal graphs": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7166817109",
-    "author": "Yuanhang Yu and Dong Wen and Lu Qin and Dawei Cheng and Ying Zhang and Wenjie Zhang and Xuemin Lin",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "On querying minimum spanning tree in temporal graphs",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Minimum spanning tree, Spanning tree, Graph, Theoretical computer science, Inefficiency, Context (archaeology), Connected dominating set, Speedup, Time complexity, Computational complexity theory, Overhead (engineering), Tree (set theory), Efficient algorithm, Kruskal's algorithm, Pruning, Algorithm, Mathematics, Baseline (sea), Online algorithm, Running time, Temporal database, Space (punctuation), Undirected graph, Approximation algorithm, Steiner tree problem, Interval graph, Graph database, Graph algorithms, Query optimization, Relational database",
-    "url": "https://doi.org/10.1007/s00778-026-00989-1",
-    "doi": "https://doi.org/10.1007/s00778-026-00989-1",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7166817109"
-  },
   "$$\\textsf{IACS}^{+}$$: Inductive Attributed Community Search via Learning across Graphs": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7166810957",
@@ -483,6 +485,22 @@
     "venue": "VLDBJ2026",
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7166810957"
+  },
+  "On querying minimum spanning tree in temporal graphs": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7166817109",
+    "author": "Yuanhang Yu and Dong Wen and Lu Qin and Dawei Cheng and Ying Zhang and Wenjie Zhang and Xuemin Lin",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "On querying minimum spanning tree in temporal graphs",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Minimum spanning tree, Spanning tree, Graph, Theoretical computer science, Inefficiency, Context (archaeology), Connected dominating set, Speedup, Time complexity, Computational complexity theory, Overhead (engineering), Tree (set theory), Efficient algorithm, Kruskal's algorithm, Pruning, Algorithm, Mathematics, Baseline (sea), Online algorithm, Running time, Temporal database, Space (punctuation), Undirected graph, Approximation algorithm, Steiner tree problem, Interval graph, Graph database, Graph algorithms, Query optimization, Relational database",
+    "url": "https://doi.org/10.1007/s00778-026-00989-1",
+    "doi": "https://doi.org/10.1007/s00778-026-00989-1",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7166817109"
   },
   "Hypergraph decomposition with intersection bounds": {
     "type": "ARTICLE",
@@ -519,7 +537,7 @@
   "State Migration in Styx: Towards Serverless Transactional Functions": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7165117195",
-    "author": "Kyriakos Psarakis and George Christodoulou and George Siachamis and Marios Fragkoulis and Asterios Katsifodimos",
+    "author": "Kyriakos Psarakis and George N. Christodoulou and George Siachamis and Marios Fragkoulis and Asterios Katsifodimos",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
     "title": "State Migration in Styx: Towards Serverless Transactional Functions",
@@ -677,6 +695,23 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7148740852"
   },
+  "Efficient graph embedding at scale: optimizing CPU-GPU-SSD integration": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7148720765",
+    "author": "Zhonggen Li and Xiangyu Ke and Yifan Zhu and Yunjun Gao and Feifei Li",
+    "booktitle": "The VLDB Journal",
+    "journal": "The VLDB Journal",
+    "title": "Efficient graph embedding at scale: optimizing CPU-GPU-SSD integration",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Embedding, Graph, Theoretical computer science, Algorithm, Mathematics, Graph theory, Artificial intelligence, Computation, Efficient algorithm",
+    "url": "https://doi.org/10.1007/s00778-026-00974-8",
+    "doi": "https://doi.org/10.1007/s00778-026-00974-8",
+    "venue": "VLDBJ2026",
+    "venue_track": "DB",
+    "openalex_id": "https://openalex.org/W7148720765",
+    "arxiv_id": "2505.09258"
+  },
   "Efficient Task Assignment for Multi-Workerset Crowdsourcing with Time and Expense Considerations": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7155560874",
@@ -710,23 +745,6 @@
     "openalex_id": "https://openalex.org/W7148694636",
     "arxiv_id": "2408.04092"
   },
-  "Efficient graph embedding at scale: optimizing CPU-GPU-SSD integration": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7148720765",
-    "author": "Zhonggen Li and Xiangyu Ke and Yifan Zhu and Yunjun Gao and Feifei Li",
-    "booktitle": "The VLDB Journal",
-    "journal": "The VLDB Journal",
-    "title": "Efficient graph embedding at scale: optimizing CPU-GPU-SSD integration",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Embedding, Graph, Theoretical computer science, Algorithm, Mathematics, Graph theory, Artificial intelligence, Computation, Efficient algorithm",
-    "url": "https://doi.org/10.1007/s00778-026-00974-8",
-    "doi": "https://doi.org/10.1007/s00778-026-00974-8",
-    "venue": "VLDBJ2026",
-    "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7148720765",
-    "arxiv_id": "2505.09258"
-  },
   "DIST: Efficient k-Clique Listing via Induced Subgraph Trie": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7139026079",
@@ -741,7 +759,8 @@
     "doi": "https://doi.org/10.1007/s00778-026-00966-8",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7139026079"
+    "openalex_id": "https://openalex.org/W7139026079",
+    "arxiv_id": "2502.00317"
   },
   "Lamba: A pretrained model for latency prediction over distributed databases": {
     "type": "ARTICLE",
@@ -871,21 +890,22 @@
     "venue_track": "DB",
     "openalex_id": "https://openalex.org/W7124675575"
   },
-  "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates": {
+  "Finding Locally Densest Subgraphs: Convex Programming with Edge and Triangle Density": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7119879082",
-    "author": "Wieger R. Punter and Odysseas Papapetrou and Minos Garofalakis",
+    "key": "https://openalex.org/W7118144988",
+    "author": "Yi Yang and Chenhao Ma and Reynold Cheng and Laks V. S. Lakshmanan and Xiaolin Han",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
-    "title": "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates",
+    "title": "Finding Locally Densest Subgraphs: Convex Programming with Edge and Triangle Density",
     "year": "2026",
-    "abstract": "Abstract A key need in different disciplines is to perform analytics over fast-paced data streams, similar in nature to the traditional OLAP analytics in relational databases - i.e., with aggregates and selection predicates. Storing unbounded streams, however, is not a realistic, or desired approach due to the high storage requirements, and the delays introduced when storing massive data. Accordingly, many synopses/sketches have been proposed that can summarize the stream in small memory (usually sufficiently small to be stored in RAM), such that aggregate queries can be efficiently approximated, without storing the full stream. However, past synopses predominantly focus on summarizing single-attribute streams, and cannot handle selection predicates and constraints on arbitrary subsets of multiple attributes efficiently. In this work, we propose OmniSketch, the first sketch that scales to fast-paced and complex data streams (with many attributes), and supports count aggregates with predicates on multiple attributes, dynamically chosen at query time. OmniSketch supports streams containing both inserts and deletes, under the bounded deletes streaming model. OmniSketch offers probabilistic guarantees, a favorable space-accuracy tradeoff, and a worst-case logarithmic complexity for updating and for query execution. We demonstrate experimentally with both real and synthetic data that OmniSketch outperforms the state-of-the-art and can approximate complex ad-hoc queries within the configured accuracy guarantees, with small memory requirements.",
-    "keywords": "Computer science, Online analytical processing, Sketch, Analytics, Data stream mining, Aggregate (composite), Data mining, Probabilistic logic, Selection (genetic algorithm), Bounded function, Theoretical computer science, Data stream, Relational database, Key (lock), Focus (optics), Stream processing, Logarithm, Task (project management), Online aggregation, Data analysis, Conjunctive query, Big data, Query optimization, Data structure, Data warehouse, Database, Query language, Track (disk drive), Query plan, Clickstream, Time complexity, Online algorithm",
-    "url": "https://doi.org/10.1007/s00778-025-00960-6",
-    "doi": "https://doi.org/10.1007/s00778-025-00960-6",
+    "abstract": "",
+    "keywords": "Graph, Graph factorization, Mathematics, Regular polygon, Theoretical computer science, Combinatorics, Computer science, Connected component, Cluster (spacecraft), Enhanced Data Rates for GSM Evolution, Algorithm, Complement graph, Factor-critical graph, Discrete mathematics, Distance-hereditary graph, Cluster analysis, Approximation algorithm, Strength of a graph, Induced subgraph, Line graph, Graph theory, Linear programming, Efficient algorithm, Induced subgraph isomorphism problem",
+    "url": "https://doi.org/10.1007/s00778-025-00958-0",
+    "doi": "https://doi.org/10.1007/s00778-025-00958-0",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7119879082"
+    "openalex_id": "https://openalex.org/W7118144988",
+    "arxiv_id": "2504.10937"
   },
   "Revisiting data analysis with Pre-trained foundation models": {
     "type": "ARTICLE",
@@ -904,22 +924,21 @@
     "openalex_id": "https://openalex.org/W7122621386",
     "arxiv_id": "2501.01631"
   },
-  "Finding Locally Densest Subgraphs: Convex Programming with Edge and Triangle Density": {
+  "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates": {
     "type": "ARTICLE",
-    "key": "https://openalex.org/W7118144988",
-    "author": "Yi Yang and Chenhao Ma and Reynold Cheng and Laks V. S. Lakshmanan and Xiaolin Han",
+    "key": "https://openalex.org/W7119879082",
+    "author": "Wieger R. Punter and Odysseas Papapetrou and Minos Garofalakis",
     "booktitle": "The VLDB Journal",
     "journal": "The VLDB Journal",
-    "title": "Finding Locally Densest Subgraphs: Convex Programming with Edge and Triangle Density",
+    "title": "OmniSketch: Multi-dimensional update stream analytics with arbitrary predicates",
     "year": "2026",
-    "abstract": "",
-    "keywords": "Graph, Graph factorization, Mathematics, Regular polygon, Theoretical computer science, Combinatorics, Computer science, Connected component, Cluster (spacecraft), Enhanced Data Rates for GSM Evolution, Algorithm, Complement graph, Factor-critical graph, Discrete mathematics, Distance-hereditary graph, Cluster analysis, Approximation algorithm, Strength of a graph, Induced subgraph, Line graph, Graph theory, Linear programming, Efficient algorithm, Induced subgraph isomorphism problem",
-    "url": "https://doi.org/10.1007/s00778-025-00958-0",
-    "doi": "https://doi.org/10.1007/s00778-025-00958-0",
+    "abstract": "Abstract A key need in different disciplines is to perform analytics over fast-paced data streams, similar in nature to the traditional OLAP analytics in relational databases - i.e., with aggregates and selection predicates. Storing unbounded streams, however, is not a realistic, or desired approach due to the high storage requirements, and the delays introduced when storing massive data. Accordingly, many synopses/sketches have been proposed that can summarize the stream in small memory (usually sufficiently small to be stored in RAM), such that aggregate queries can be efficiently approximated, without storing the full stream. However, past synopses predominantly focus on summarizing single-attribute streams, and cannot handle selection predicates and constraints on arbitrary subsets of multiple attributes efficiently. In this work, we propose OmniSketch, the first sketch that scales to fast-paced and complex data streams (with many attributes), and supports count aggregates with predicates on multiple attributes, dynamically chosen at query time. OmniSketch supports streams containing both inserts and deletes, under the bounded deletes streaming model. OmniSketch offers probabilistic guarantees, a favorable space-accuracy tradeoff, and a worst-case logarithmic complexity for updating and for query execution. We demonstrate experimentally with both real and synthetic data that OmniSketch outperforms the state-of-the-art and can approximate complex ad-hoc queries within the configured accuracy guarantees, with small memory requirements.",
+    "keywords": "Computer science, Online analytical processing, Sketch, Analytics, Data stream mining, Aggregate (composite), Data mining, Probabilistic logic, Selection (genetic algorithm), Bounded function, Theoretical computer science, Data stream, Relational database, Key (lock), Focus (optics), Stream processing, Logarithm, Task (project management), Online aggregation, Data analysis, Conjunctive query, Big data, Query optimization, Data structure, Data warehouse, Database, Query language, Track (disk drive), Query plan, Clickstream, Time complexity, Online algorithm",
+    "url": "https://doi.org/10.1007/s00778-025-00960-6",
+    "doi": "https://doi.org/10.1007/s00778-025-00960-6",
     "venue": "VLDBJ2026",
     "venue_track": "DB",
-    "openalex_id": "https://openalex.org/W7118144988",
-    "arxiv_id": "2504.10937"
+    "openalex_id": "https://openalex.org/W7119879082"
   },
   "KOG: A secret sharing-based scalable privacy-preserving training framework for decision trees": {
     "type": "ARTICLE",

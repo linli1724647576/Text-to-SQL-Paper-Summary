@@ -9092,6 +9092,43 @@
     "relevance_level": "core",
     "arxiv_id": "2604.13686"
   },
+  "InfTS-LLM: Aligning Streaming Time Series With LLMs for Beyond-Context Question Answering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7225867467",
+    "author": "Wei Li and Zhe Xie and Xinli Hao and Chenglong Li and Bin Yang and Dan Pei and Christian S.Jensen and Xiaofeng Meng",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "InfTS-LLM: Aligning Streaming Time Series With LLMs for Beyond-Context Question Answering",
+    "year": "2026",
+    "abstract": "Time Series Question Answering (TSQA) refers to answering natural language questions over numerical sequences. Recently, multimodal Large Language Models (LLMs) have been increasingly applied to analyze temporal relations and semantics. However, the limited in-context length of LLMs constrains existing methods for extremely long observations, such as database usage monitoring, where LLMs are required to perform understanding, reasoning, and prediction over multiple streaming time series metrics. This setting introduces two fundamental challenges: efficient temporal-pattern detection and beyond-context temporal coverage. To address these challenges, we propose InfTS-LLM, a zero-shot method with two components: (a) The Representative Detector extracts representative subsequences with temporal patterns. It adopts a linear-time Cascade Detection algorithm for efficient temporal-pattern detection. (b) The Feedback Instructor constructs Pattern-guided Chains of Thought for deep thinking with LLMs. It generates feedback scores to maintain the Memory Pool with an effective eviction mechanism for beyond-context temporal coverage. Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art performance: 1) average F1 gains of 26.6–52.7% on understanding and 21.6–55.6% on reasoning tasks; 2) average up to 37.9% F1 and 24.9% AUC improvements on prediction tasks; and 3) over 40% reduction in token usage. Further analysis reveals strengths across time series representations: visual representations enhance understanding, textual representations boost reasoning, and numerical representations improve prediction.",
+    "keywords": "Computer science, Question answering, Series (stratigraphy), Information retrieval, World Wide Web, Time series, Natural language processing, Artificial intelligence, Electronic mail, The Internet, Data science, Knowledge-based systems",
+    "url": "https://doi.org/10.1109/tkde.2026.3753132",
+    "doi": "10.1109/tkde.2026.3753132",
+    "venue": "TKDE",
+    "venue_track": "数据库领域",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "openalex_id": "https://openalex.org/W7225867467",
+    "labels": [
+      "Prompting and ICL",
+      "Zero-shot / Few-shot ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "SQL Generation",
+      "Prompt-based Generation"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
+  },
   "Insights into Natural Language Database Query Errors: From Attention Misalignment to User Handling Strategies": {
     "type": "ARTICLE",
     "key": "http://arxiv.org/abs/2402.07304v1",
@@ -12472,6 +12509,53 @@
       "SQL Generation"
     ],
     "relevance_level": "core"
+  },
+  "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7225890267",
+    "author": "Ying Liu and W. J. Zhang and Cong Cao and Fangfang Yuan and Hao Peng and Yanbing Liu and Jin B. Hong and Zhiyuan Ma and Bowen Zhou",
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "title": "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering",
+    "year": "2026",
+    "abstract": "Constructing reliable evidence chains across massive corpora for open-domain multi-hop question answering remains a core challenge in knowledge-intensive information retrieval. End-to-end approaches that retrieve and reason in a single pass struggle with multi-hop queries, as a single retrieval step cannot simultaneously locate all bridge passages required for chained reasoning. This necessitates multi-step pipelines, yet these face two bottlenecks:1) Evidence Chain Fragility.Retrieval errors at early hops cascade and amplify through subsequent steps without reasoning-guided planning.2) Cross-Module Attribution.Multistep trajectory training cannot attribute errors to specific pipeline stages, limiting generalization. To address these issues, we proposePRISMA, a multi-agent framework with aPlan-Retrieve-Inspect-Solve-MemoizeArchitecture that reflects expert information seeking behavior. PRISMA elevates structured generation from an intra-model constraint to an inter-agent communication schema, where each agent's output simultaneously enforces its own reasoning discipline and defines the input interface for downstream agents. An Inspector acts as an in-loop verifier, auditing the evidence chain at each hop and triggering targeted recovery. We adopt a decoupled training strategy with agentspecific rewards: Stage I specializes the Planner and Solver as task experts; Stage II freezes the trained pipeline and trains the Inspector on trajectory-conditioned verification, as stable execution traces are essential for learning meaningful error patterns. A recovery-gain analysis quantifies the net contribution of the verification stage. Across all ten benchmarks,PRISMAconsistently outperforms all trained baselines and delivers overall performance competitive with larger closed-source API models, supporting efficient real-world deployment.",
+    "keywords": "Computer science, Question answering, Information retrieval, Natural language processing, Artificial intelligence, Semantics (computer science), Natural language, World Wide Web, Data modeling, Knowledge-based systems, Information system, Circumscription, Information extraction",
+    "url": "https://doi.org/10.1109/tkde.2026.3752901",
+    "doi": "10.1109/tkde.2026.3752901",
+    "venue": "TKDE",
+    "venue_track": "数据库领域",
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "openalex_id": "https://openalex.org/W7225890267",
+    "labels": [
+      "Task Setting",
+      "Cross-domain Text-to-SQL",
+      "Pre-training and Fine-tuning",
+      "Supervised Fine-tuning",
+      "Prompting and ICL",
+      "Prompt Engineering",
+      "Chain-of-Thought Reasoning",
+      "Grounding and Retrieval",
+      "Schema / Content Retrieval",
+      "Planning and Generation",
+      "Query Decomposition",
+      "Agentic Feedback and Repair",
+      "Agentic Workflow",
+      "Verification and Guardrails",
+      "Benchmarks and Evaluation",
+      "Empirical Study"
+    ],
+    "pipeline_stages": [
+      "Task Understanding",
+      "Domain Constraint Understanding",
+      "Grounding",
+      "Context Retrieval",
+      "Query Planning",
+      "Step-by-step Reasoning",
+      "Verification & Repair"
+    ],
+    "relevance_level": "application",
+    "quality_flags": [
+      "application_related"
+    ]
   },
   "PURPLE: Making a Large Language Model a Better SQL Writer": {
     "type": "INPROCEEDINGS",

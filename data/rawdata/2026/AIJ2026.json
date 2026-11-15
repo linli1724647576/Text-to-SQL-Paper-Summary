@@ -1,4 +1,84 @@
 {
+  "Editorial Board": {
+    "type": "PARATEXT",
+    "key": "https://openalex.org/W7121214057",
+    "author": "",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Editorial Board",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "",
+    "url": "https://doi.org/10.1016/s0004-3702(26)00004-4",
+    "doi": "https://doi.org/10.1016/s0004-3702(26)00004-4",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7121214057"
+  },
+  "Constraint-search collaborative genetic algorithm for Bayesian network structure learning": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7225121553",
+    "author": "Zuowei He and Hengyang Lu and Shuwei Zhu and Yunyang Shi and Wei Hua Fang and Kalyanmoy Deb",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Constraint-search collaborative genetic algorithm for Bayesian network structure learning",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Bayesian network, Artificial intelligence, Machine learning, Constraint (computer-aided design), Benchmark (surveying), Convergence (economics), Bayesian probability, Operator (biology), Causal structure, Data mining, Genetic algorithm, Artificial neural network, Key (lock), Limit (mathematics), Bridge (graph theory), Mechanism (biology), Causal reasoning, Causal model, Dynamic Bayesian network, Mutation, Hybrid algorithm (constraint satisfaction), Core (optical fiber), Initialization",
+    "url": "https://doi.org/10.1016/j.artint.2026.104655",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104655",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7225121553"
+  },
+  "Controlled Query Evaluation under Epistemic Policies": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7225893160",
+    "author": "Gianluca Cima and Domenico Lembo and Lorenzo Marconi and Riccardo Rosati and Domenico Fabio Savo",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Controlled Query Evaluation under Epistemic Policies",
+    "year": "2026",
+    "abstract": "In this paper, we investigate the use of epistemic dependencies to define data protection policies within Controlled Query Evaluation (CQE), a framework for confidentiality-preserving query answering over ontologies and databases. The proposed policy language significantly extends the expressive power of CQE compared to existing approaches, enabling the specification of powerful and practically relevant data protection rules. We examine the expressive capabilities of this framework and analyze the data complexity of CQE for (unions of) conjunctive queries for ontologies specified using the Description Logic D L - L i t e ℛ . Although the general problem proves to be intractable, we identify a tractable case for acyclic epistemic dependencies by developing a tailored query rewriting algorithm. This outcome fosters the possibility of practical implementations and wider applicability of our enhanced CQE approach.",
+    "keywords": "Computer science, Artificial intelligence, Query optimization, Epistemology, Boolean conjunctive query, Epistemic modal logic, Theoretical computer science, Database query, Query expansion, Query language, Circumscription, Management science",
+    "url": "https://doi.org/10.1016/j.artint.2026.104657",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104657",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7225893160"
+  },
+  "STEANet: Efficiently learning spatio-temporal affective representations from videos": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7227808199",
+    "author": "Jin Zhou and Yun Yi and Hanli Wang and Tinghua Wang and Wenyu Hu and Pengjie Tang",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "STEANet: Efficiently learning spatio-temporal affective representations from videos",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Psychology, Representation (politics), Natural language processing, Feature learning, Human–computer interaction, Feature (linguistics), Cognitive psychology, Affect (linguistics)",
+    "url": "https://doi.org/10.1016/j.artint.2026.104660",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104660",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7227808199"
+  },
+  "Efficient Extraction of EL+-Ontology Deductive Modules": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7229894539",
+    "author": "Hui Yang and Yue Ma and Nicole Bidoit",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Efficient Extraction of EL+-Ontology Deductive Modules",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Extraction (chemistry), Artificial intelligence, Programming language, Algorithm, Deductive reasoning, Component (thermodynamics), Mathematics, Class (philosophy), Engineering drawing",
+    "url": "https://doi.org/10.1016/j.artint.2026.104658",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104658",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7229894539"
+  },
   "Enhancing few-shot continual relation extraction via pairwise augmentation and guided sharpness-aware optimization": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7223791744",
@@ -14,6 +94,22 @@
     "venue": "AIJ2026",
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7223791744"
+  },
+  "HiMAE: High-intensity mask-based autoencoder framework for unsupervised human action recognition": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7223648337",
+    "author": "Jianqi Zhong and Zhenrong Wang and Xu Tan and Wenming Cao",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "HiMAE: High-intensity mask-based autoencoder framework for unsupervised human action recognition",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Computer science, Artificial intelligence, Autoencoder, Context (archaeology), Representation (politics), Action (physics), Unsupervised learning, Exploit, Process (computing), Machine learning, Pattern recognition (psychology), Masking (illustration), Block (permutation group theory), Feature learning, Component (thermodynamics), Motion (physics), Independent component analysis, Action recognition, Construct (python library), Context model, Matching (statistics), Feature extraction, Deep learning, Spatial contextual awareness",
+    "url": "https://doi.org/10.1016/j.artint.2026.104647",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104647",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7223648337"
   },
   "Central description length (CDL) clustering validation index": {
     "type": "ARTICLE",
@@ -63,7 +159,8 @@
     "doi": "https://doi.org/10.1016/j.artint.2026.104641",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7221066044"
+    "openalex_id": "https://openalex.org/W7221066044",
+    "arxiv_id": "2407.16735"
   },
   "Optimal any-angle path planning in static and dynamic environments": {
     "type": "ARTICLE",
@@ -140,7 +237,7 @@
     "journal": "Artificial Intelligence",
     "title": "Rising rested bandits: Lower bounds and efficient algorithms",
     "year": "2026",
-    "abstract": "This paper is in the field of stochastic Multi-Armed Bandits (MABs), i.e. those sequential selection techniques able to learn online using only the feedback given by the chosen option (a.k.a. $arm$). We study a particular case of the rested bandits in which the arms' expected reward is monotonically non-decreasing and concave. We study the inherent sample complexity of the regret minimization problem by deriving suitable regret lower bounds. Then, we design an algorithm for the rested case $\\textit{R-ed-UCB}$, providing a regret bound depending on the properties of the instance and, under certain circumstances, of $\\widetilde{\\mathcal{O}}(T^{\\frac{2}{3}})$. We empirically compare our algorithms with state-of-the-art methods for non-stationary MABs over several synthetically generated tasks and an online model selection problem for a real-world dataset",
+    "abstract": "This paper is in the field of stochastic Multi-Armed Bandits (MABs), i.e., those sequential selection techniques able to learn online using only the feedback given by the chosen option (a.k.a. arm). We study a particular case of the rested bandits in which the arms’ expected reward is monotonically non-decreasing and concave. We study the inherent sample complexity of the regret minimization problem by deriving suitable regret lower bounds. Then, we design an algorithm for the rested case ( R-ed-UCB ), providing a regret bound depending on the properties of the instance and, under certain circumstances, of ̃ 𝒪 ⁡ ( 𝑇 2 3 ) . We empirically compare our algorithms with state-of-the-art methods for non-stationary MABs over several synthetically generated tasks and an online model selection problem for a real-world dataset.",
     "keywords": "Algorithm, Computer science, Mathematical economics, Mathematics",
     "url": "https://doi.org/10.1016/j.artint.2026.104638",
     "doi": "https://doi.org/10.1016/j.artint.2026.104638",
@@ -148,22 +245,6 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W4405023379",
     "arxiv_id": "2411.14446"
-  },
-  "Editorial Board": {
-    "type": "PARATEXT",
-    "key": "https://openalex.org/W7121214057",
-    "author": "",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "Editorial Board",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "",
-    "url": "https://doi.org/10.1016/s0004-3702(26)00004-4",
-    "doi": "https://doi.org/10.1016/s0004-3702(26)00004-4",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7121214057"
   },
   "Capacity alternating-time temporal epistemic logic": {
     "type": "ARTICLE",
@@ -173,29 +254,13 @@
     "journal": "Artificial Intelligence",
     "title": "Capacity alternating-time temporal epistemic logic",
     "year": "2026",
-    "abstract": "",
-    "keywords": "",
+    "abstract": "mas verification comprises formal techniques for modelling distributed and intelligent systems, expressing system properties, and verifying those properties. Agents within such systems may possess distinct profiles (e.g. personality traits, levels of experience, or physical characteristics) or may specialise during execution (e.g. through software or hardware updates, or restrictions from access control policies). These aspects are captured through the novel concept of capacity, which determines the subset of actions that an agent can perform, thereby constraining the agent’s behaviour throughout the interaction. This article considers mas with imperfect information regarding both states and actions, where capacity assignments are secret at system initialisation. This general framework enables the modelling of a broad range of mas; however, verification is undecidable in the general case. To address this challenge, we investigate memory constraints and structural restrictions. Our contributions are as follows: (i) we introduce capatel, a logic for expressing strategic, temporal, and epistemic properties of imperfect information mas with capacities, (ii) we analyse and compare distinct semantics that capture agents with fixed profiles or agents specialising, (iii) we study the model-checking problems depending on agent information and memory capabilities and we prove complexity bounds, and (iv) we illustrate the relevance of capatel in the active cybersecurity context.",
+    "keywords": "Computer science, Undecidable problem, Theoretical computer science, Epistemic modal logic, Semantics (computer science), Relevance (law), Range (aeronautics), Imperfect, Model checking, Artificial intelligence, Formal semantics (linguistics), Perfect information, Control (management), Multi-agent system, Programming language, Software, Operational semantics, Non-monotonic logic, Intelligent agent, Formal verification, Autonomous agent, Information system, Theory, Temporal logic, Software agent",
     "url": "https://doi.org/10.1016/j.artint.2026.104628",
     "doi": "https://doi.org/10.1016/j.artint.2026.104628",
     "venue": "AIJ2026",
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7215698865"
-  },
-  "HiMAE: High-intensity Mask-based Autoencoder Framework for Unsupervised Human Action Recognition": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7223648337",
-    "author": "Jianqi Zhong and Zhenrong Wang and Xu Tan and Wenming Cao",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "HiMAE: High-intensity Mask-based Autoencoder Framework for Unsupervised Human Action Recognition",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Computer science, Artificial intelligence, Autoencoder, Context (archaeology), Representation (politics), Action (physics), Unsupervised learning, Exploit, Process (computing), Machine learning, Pattern recognition (psychology), Masking (illustration), Block (permutation group theory), Feature learning, Component (thermodynamics), Motion (physics), Independent component analysis, Action recognition, Construct (python library), Context model, Matching (statistics), Feature extraction, Deep learning, Spatial contextual awareness",
-    "url": "https://doi.org/10.1016/j.artint.2026.104647",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104647",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7223648337"
   },
   "PASER: Patchified Spectral Representation Learning for Non-Stationary and Non-Periodic User Behavior Sequence": {
     "type": "ARTICLE",
@@ -348,7 +413,7 @@
   "Similarity of planning domain models via answer set programming": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7210275411",
-    "author": "Lukáš Chrpa and Carmine Dodaro and Marco Maratea A and Marco Mochi and Mauro Vallati",
+    "author": "Lukáš Chrpa and Carmine Dodaro and Marco Maratea and Marco Mochi and Mauro Vallati",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Similarity of planning domain models via answer set programming",
@@ -636,23 +701,6 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7163384527"
   },
-  "Planning with uncertainty: symmetries, policy inference, and solution compression": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W4393399092",
-    "author": "Frederico Messa and André Grahl Pereira",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "Planning with uncertainty: symmetries, policy inference, and solution compression",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Space (punctuation), Compression (physics), Computer science, Space policy, Physics, Thermodynamics, Operating system",
-    "url": "https://doi.org/10.1016/j.artint.2026.104574",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104574",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W4393399092",
-    "arxiv_id": "2403.19883"
-  },
   "Proven advantage of multiobjective evolutionary algorithms for problems with different degrees of conflict": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W4403966500",
@@ -669,6 +717,23 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W4403966500",
     "arxiv_id": "2408.04207"
+  },
+  "Planning with uncertainty: symmetries, policy inference, and solution compression": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W4393399092",
+    "author": "Frederico Messa and André Grahl Pereira",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Planning with uncertainty: symmetries, policy inference, and solution compression",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Space (punctuation), Compression (physics), Computer science, Space policy, Physics, Thermodynamics, Operating system",
+    "url": "https://doi.org/10.1016/j.artint.2026.104574",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104574",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W4393399092",
+    "arxiv_id": "2403.19883"
   },
   "A successful strategy for iterated Prisoner’s dilemma with any number of channels": {
     "type": "ARTICLE",
@@ -1009,7 +1074,25 @@
     "doi": "https://doi.org/10.1016/j.artint.2026.104525",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7140282989"
+    "openalex_id": "https://openalex.org/W7140282989",
+    "arxiv_id": "2411.15951"
+  },
+  "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation": {
+    "type": "ARTICLE",
+    "key": "https://openalex.org/W7140216098",
+    "author": "Luwei Sun and Dongrui Shen and Feng Han",
+    "booktitle": "Artificial Intelligence",
+    "journal": "Artificial Intelligence",
+    "title": "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation",
+    "year": "2026",
+    "abstract": "",
+    "keywords": "Approximation error, Computer science, Term (time), Algorithm, Focus (optics), Basis (linear algebra), Estimation, Component (thermodynamics), Measure (data warehouse), Error analysis, Applied mathematics, Mean squared prediction error, Mathematics, Computational complexity theory, Upper and lower bounds, Mathematical optimization, Error detection and correction, Long-term prediction, Artificial intelligence, Data mining, Synthetic data, Observational error, Approximation algorithm, Data modeling, Errors-in-variables models, Approximation theory, Estimation theory, Architecture, Word error rate, Theoretical computer science, Experimental data",
+    "url": "https://doi.org/10.1016/j.artint.2026.104526",
+    "doi": "https://doi.org/10.1016/j.artint.2026.104526",
+    "venue": "AIJ2026",
+    "venue_track": "AI",
+    "openalex_id": "https://openalex.org/W7140216098",
+    "arxiv_id": "2407.11678"
   },
   "Factored planning in partially observable and deterministic multi-agent domains": {
     "type": "ARTICLE",
@@ -1043,22 +1126,6 @@
     "venue_track": "AI",
     "openalex_id": "https://openalex.org/W7140173978",
     "arxiv_id": "2309.01453"
-  },
-  "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation": {
-    "type": "ARTICLE",
-    "key": "https://openalex.org/W7140216098",
-    "author": "Luwei Sun and Dongrui Shen and Feng Han",
-    "booktitle": "Artificial Intelligence",
-    "journal": "Artificial Intelligence",
-    "title": "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation",
-    "year": "2026",
-    "abstract": "",
-    "keywords": "Approximation error, Computer science, Term (time), Algorithm, Focus (optics), Basis (linear algebra), Estimation, Component (thermodynamics), Measure (data warehouse), Error analysis, Applied mathematics, Mean squared prediction error, Mathematics, Computational complexity theory, Upper and lower bounds, Mathematical optimization, Error detection and correction, Long-term prediction, Artificial intelligence, Data mining, Synthetic data, Observational error, Approximation algorithm, Data modeling, Errors-in-variables models, Approximation theory, Estimation theory, Architecture, Word error rate, Theoretical computer science, Experimental data",
-    "url": "https://doi.org/10.1016/j.artint.2026.104526",
-    "doi": "https://doi.org/10.1016/j.artint.2026.104526",
-    "venue": "AIJ2026",
-    "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7140216098"
   },
   "Prescribed performance-based optimal formation tracking control of nonlinear heterogeneous multi-agent systems via identifier-critic-actor reinforcement learning": {
     "type": "ARTICLE",
@@ -1128,7 +1195,7 @@
   "Revisiting the notions of extension and acceptance over incomplete abstract argumentation frameworks": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7135178511",
-    "author": "Bettina Fazzinga A and Sergio Flesca and Filippo Furfaro",
+    "author": "Bettina Fazzinga and Sergio Flesca and Filippo Furfaro",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Revisiting the notions of extension and acceptance over incomplete abstract argumentation frameworks",
@@ -1189,7 +1256,8 @@
     "doi": "https://doi.org/10.1016/j.artint.2026.104500",
     "venue": "AIJ2026",
     "venue_track": "AI",
-    "openalex_id": "https://openalex.org/W7131635382"
+    "openalex_id": "https://openalex.org/W7131635382",
+    "arxiv_id": "2106.05065"
   },
   "A unified theoretical framework for the last-iterate convergence of stochastic adaptive optimization": {
     "type": "ARTICLE",
@@ -1210,7 +1278,7 @@
   "Global and local context in short text neural topic model": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7130595729",
-    "author": "Tung Nguyen and Linh Ngo Van and Anh Nguyen Duc and Dinh Viet Sang",
+    "author": "Tung Nguyen and Linh Ngo Van and Đức Anh Nguyễn and Dinh Viet Sang",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Global and local context in short text neural topic model",
@@ -1309,7 +1377,7 @@
   "Symbolic pattern planning": {
     "type": "ARTICLE",
     "key": "https://openalex.org/W7124465673",
-    "author": "Matteo Cardellini and Enrico Giunchiglia and Marco Maratea A",
+    "author": "Matteo Cardellini and Enrico Giunchiglia and Marco Maratea",
     "booktitle": "Artificial Intelligence",
     "journal": "Artificial Intelligence",
     "title": "Symbolic pattern planning",

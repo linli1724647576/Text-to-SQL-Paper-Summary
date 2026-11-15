@@ -275,22 +275,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Requirements-Driven Automated Software Testing: A Systematic Review",
+      "title": "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "TOSEM",
-      "normalized_venue": "TOSEM",
-      "category": "软件工程",
-      "year": "2025",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1145/3767739",
-        "https://doi.org/10.1145/3767739",
-        "https://openalex.org/W4414241772"
+        "10.1109/tkde.2026.3752901",
+        "https://doi.org/10.1109/tkde.2026.3752901",
+        "https://openalex.org/W7225890267"
       ],
       "notes": ""
     },
@@ -311,6 +311,26 @@
         "10.1109/tkde.2025.3592032",
         "https://doi.org/10.1109/tkde.2025.3592032",
         "https://openalex.org/W4412623423"
+      ],
+      "notes": ""
+    },
+    {
+      "title": "Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference",
+      "present_in_labeldata": true,
+      "stratum": "readme_journal",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TSE",
+      "normalized_venue": "TSE",
+      "category": "软件工程",
+      "year": "2024",
+      "venue_ok": true,
+      "year_ok": true,
+      "doi_or_url_ok": true,
+      "external_sources": [
+        "10.1109/tse.2024.3523284",
+        "https://doi.org/10.1109/tse.2024.3523284",
+        "https://openalex.org/W4405846260"
       ],
       "notes": ""
     },
@@ -355,31 +375,11 @@
       "notes": ""
     },
     {
-      "title": "NALSpatial: A Natural Language Interface for Spatial Databases",
+      "title": "RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
-      "year": "2025",
-      "venue_ok": true,
-      "year_ok": true,
-      "doi_or_url_ok": true,
-      "external_sources": [
-        "10.1109/tkde.2025.3525587",
-        "https://doi.org/10.1109/tkde.2025.3525587",
-        "https://openalex.org/W4406028351"
-      ],
-      "notes": ""
-    },
-    {
-      "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
-      "present_in_labeldata": true,
-      "stratum": "readme_journal",
-      "verdict": "true_positive_application",
-      "relevance_level_expected": "application",
+      "verdict": "true_positive_core",
+      "relevance_level_expected": "core",
       "venue": "TKDE",
       "normalized_venue": "TKDE",
       "category": "数据库领域",
@@ -388,9 +388,9 @@
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2026.3716724",
-        "https://doi.org/10.1109/tkde.2026.3716724",
-        "https://openalex.org/W7170260222"
+        "10.1109/tkde.2026.3740539",
+        "https://doi.org/10.1109/tkde.2026.3740539",
+        "https://openalex.org/W7220420742"
       ],
       "notes": ""
     },
@@ -415,22 +415,22 @@
       "notes": ""
     },
     {
-      "title": "xDBTagger: explainable natural language interface to databases using keyword mappings and schema graph",
+      "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
       "present_in_labeldata": true,
       "stratum": "readme_journal",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "VLDBJ",
-      "normalized_venue": "VLDBJ",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
       "category": "数据库领域",
-      "year": "2023",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1007/s00778-023-00809-w",
-        "https://doi.org/10.1007/s00778-023-00809-w",
-        "https://openalex.org/W4386099755"
+        "10.1109/tkde.2026.3716724",
+        "https://doi.org/10.1109/tkde.2026.3716724",
+        "https://openalex.org/W7170260222"
       ],
       "notes": ""
     },
@@ -579,22 +579,22 @@
       "notes": "missing doi"
     },
     {
-      "title": "Zero-Shot Text-to-SQL Learning with Auxiliary Task",
+      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "AAAI",
-      "normalized_venue": "AAAI",
-      "category": "AI 领域",
-      "year": "2020",
+      "venue": "TKDE",
+      "normalized_venue": "TKDE",
+      "category": "数据库领域",
+      "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1609/aaai.v34i05.6246",
-        "https://doi.org/10.1609/aaai.v34i05.6246",
-        "https://openalex.org/W2997970380"
+        "10.1109/tkde.2026.3657851",
+        "https://doi.org/10.1109/tkde.2026.3657851",
+        "https://openalex.org/W4415348225"
       ],
       "notes": ""
     },
@@ -639,22 +639,22 @@
       "notes": ""
     },
     {
-      "title": "Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective",
+      "title": "Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling",
       "present_in_labeldata": true,
       "stratum": "supplemental",
       "verdict": "true_positive_application",
       "relevance_level_expected": "application",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
-      "year": "2024",
+      "venue": "TOSEM",
+      "normalized_venue": "TOSEM",
+      "category": "软件工程",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2024.3393356",
-        "https://doi.org/10.1109/tkde.2024.3393356",
-        "https://openalex.org/W4396597709"
+        "10.1145/3579638",
+        "https://doi.org/10.1145/3579638",
+        "https://openalex.org/W4319736724"
       ],
       "notes": ""
     },
@@ -699,22 +699,22 @@
       "notes": ""
     },
     {
-      "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation",
+      "title": "Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans",
       "present_in_labeldata": true,
       "stratum": "supplemental",
-      "verdict": "true_positive_core",
-      "relevance_level_expected": "core",
-      "venue": "ACL",
-      "normalized_venue": "ACL",
-      "category": "AI 领域",
-      "year": "2022",
+      "verdict": "true_positive_application",
+      "relevance_level_expected": "application",
+      "venue": "SIGMOD",
+      "normalized_venue": "SIGMOD",
+      "category": "数据库领域",
+      "year": "2021",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.18653/v1/2022.acl-long.142",
-        "https://doi.org/10.18653/v1/2022.acl-long.142",
-        "https://openalex.org/W4285195848"
+        "10.1145/3448016.3452822",
+        "https://doi.org/10.1145/3448016.3452822",
+        "https://openalex.org/W3168999116"
       ],
       "notes": ""
     },
@@ -739,42 +739,42 @@
       "notes": ""
     },
     {
-      "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+      "title": "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "TKDE",
-      "normalized_venue": "TKDE",
-      "category": "数据库领域",
-      "year": "2026",
+      "venue": "ACL",
+      "normalized_venue": "ACL",
+      "category": "AI 领域",
+      "year": "2023",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "10.1109/tkde.2026.3657851",
-        "https://doi.org/10.1109/tkde.2026.3657851",
-        "https://openalex.org/W4415348225"
+        "10.18653/v1/2023.acl-long.887",
+        "https://doi.org/10.18653/v1/2023.acl-long.887",
+        "https://openalex.org/W4385570411"
       ],
       "notes": ""
     },
     {
-      "title": "PRISM: Navigating Cost-Accuracy Trade-offs for NL2SQL",
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
       "present_in_labeldata": true,
       "stratum": "fill",
       "verdict": "true_positive_core",
       "relevance_level_expected": "core",
-      "venue": "SIGMOD",
-      "normalized_venue": "SIGMOD",
-      "category": "数据库领域",
+      "venue": "ArXiv",
+      "normalized_venue": "ArXiv",
+      "category": "ArXiv",
       "year": "2026",
       "venue_ok": true,
       "year_ok": true,
       "doi_or_url_ok": true,
       "external_sources": [
-        "https://2026.sigmod.org/sigmod_papers.shtml"
+        "https://arxiv.org/abs/2604.22934v1"
       ],
-      "notes": "missing doi, abstract"
+      "notes": "missing doi"
     }
   ]
 }

@@ -2,69 +2,60 @@
   "summary": {
     "fetched_entries": 0,
     "failure_count": 0,
-    "warning_count": 5,
-    "skipped_count": 16
+    "warning_count": 4,
+    "skipped_count": 18
   },
   "failures": [],
   "warnings": [
     {
-      "venue": "ACL",
-      "year": 2022,
+      "venue": "AAAI",
+      "year": 2023,
       "track": "AI",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/acl/acl2022.xml: not well-formed (invalid token): line 1, column 8"
+      "error": "https://dblp.org/db/conf/aaai/aaai2023.xml: not well-formed (invalid token): line 1, column 8"
     },
     {
-      "venue": "CVPR",
-      "year": 2022,
+      "venue": "ACL",
+      "year": 2023,
       "track": "AI",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/cvpr/cvpr2022.xml: not well-formed (invalid token): line 1, column 8"
+      "error": "https://dblp.org/db/conf/acl/acl2023.xml: not well-formed (invalid token): line 1, column 8"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "track": "AI",
+      "source": "dblp",
+      "source_type": "dblp-conference",
+      "status": "existing_kept",
+      "error": "https://dblp.org/db/conf/iccv/iccv2023.xml: not well-formed (invalid token): line 1, column 8"
     },
     {
       "venue": "SIGMOD",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source": "dblp",
       "source_type": "dblp-conference",
       "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/sigmod/sigmod2022.xml: not well-formed (invalid token): line 1, column 8"
-    },
-    {
-      "venue": "ICSE",
-      "year": 2022,
-      "track": "SE",
-      "source": "dblp",
-      "source_type": "dblp-conference",
-      "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/icse/icse2022.xml: not well-formed (invalid token): line 1, column 8"
-    },
-    {
-      "venue": "FSE",
-      "year": 2022,
-      "track": "SE",
-      "source": "dblp",
-      "source_type": "dblp-conference",
-      "status": "existing_kept",
-      "error": "https://dblp.org/db/conf/sigsoft/sigsoft2022.xml: not well-formed (invalid token): line 1, column 8"
+      "error": "https://dblp.org/db/conf/sigmod/sigmod2023.xml: not well-formed (invalid token): line 1, column 8"
     }
   ],
   "skipped": [
     {
-      "venue": "AAAI",
-      "year": 2022,
+      "venue": "NeurIPS",
+      "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
-      "venue": "NeurIPS",
-      "year": 2022,
+      "venue": "CVPR",
+      "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -72,7 +63,7 @@
     },
     {
       "venue": "ICML",
-      "year": 2022,
+      "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -80,7 +71,7 @@
     },
     {
       "venue": "IJCAI",
-      "year": 2022,
+      "year": 2023,
       "track": "AI",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -88,7 +79,7 @@
     },
     {
       "venue": "VLDB",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -96,7 +87,7 @@
     },
     {
       "venue": "ICDE",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -104,7 +95,7 @@
     },
     {
       "venue": "KDD",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -112,7 +103,7 @@
     },
     {
       "venue": "WWW",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -120,15 +111,31 @@
     },
     {
       "venue": "SIGIR",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "dblp-conference",
       "status": "skipped",
       "reason": "complete"
     },
     {
+      "venue": "ICSE",
+      "year": 2023,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
+      "venue": "FSE",
+      "year": 2023,
+      "track": "SE",
+      "source_type": "dblp-conference",
+      "status": "skipped",
+      "reason": "complete"
+    },
+    {
       "venue": "ASE",
-      "year": 2022,
+      "year": 2023,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -136,7 +143,7 @@
     },
     {
       "venue": "ISSTA",
-      "year": 2022,
+      "year": 2023,
       "track": "SE",
       "source_type": "dblp-conference",
       "status": "skipped",
@@ -144,7 +151,7 @@
     },
     {
       "venue": "AIJ",
-      "year": 2022,
+      "year": 2023,
       "track": "AI",
       "source_type": "journal",
       "status": "skipped",
@@ -152,7 +159,7 @@
     },
     {
       "venue": "TKDE",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -160,7 +167,7 @@
     },
     {
       "venue": "VLDBJ",
-      "year": 2022,
+      "year": 2023,
       "track": "DB",
       "source_type": "journal",
       "status": "skipped",
@@ -168,7 +175,7 @@
     },
     {
       "venue": "TSE",
-      "year": 2022,
+      "year": 2023,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",
@@ -176,7 +183,7 @@
     },
     {
       "venue": "TOSEM",
-      "year": 2022,
+      "year": 2023,
       "track": "SE",
       "source_type": "journal",
       "status": "skipped",

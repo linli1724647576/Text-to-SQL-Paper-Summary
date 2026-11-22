@@ -21,14 +21,14 @@
 | ccf_conference | true_positive_core | AAAI | 2026 | SafeNLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces |  |
 | ccf_conference | true_positive_core | SIGMOD | 2021 | A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems |  |
 | ccf_conference | true_positive_core | ICML | 2026 | Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL | missing doi |
-| readme_journal | true_positive_application | TKDE | 2026 | PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering |  |
+| readme_journal | true_positive_core | TKDE | 2025 | Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL |  |
 | readme_journal | true_positive_core | TKDE | 2025 | A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going? |  |
-| readme_journal | true_positive_application | TSE | 2024 | Do Chase Your Tail! Missing Key Aspects Augmentation in Textual Vulnerability Descriptions of Long-Tail Software Through Feature Inference |  |
-| readme_journal | true_positive_core | VLDBJ | 2024 | Speech-to-SQL: toward speech-driven SQL query generation from natural language question |  |
-| readme_journal | true_positive_application | TKDE | 2022 | A Survey on Deep Reinforcement Learning for Data Processing and Analytics |  |
-| readme_journal | true_positive_core | TKDE | 2026 | RAQS-SQL: Schema and Value Ambiguity Resolution in Text-to-SQL |  |
+| readme_journal | true_positive_core | VLDBJ | 2026 | Distilled documentation for dialect-specific SQL generation |  |
+| readme_journal | true_positive_application | TOSEM | 2026 | Requirements-Driven Automated Software Testing: A Systematic Review |  |
+| readme_journal | true_positive_core | TKDE | 2026 | XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL |  |
+| readme_journal | true_positive_application | TKDE | 2026 | PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering |  |
 | readme_journal | true_positive_application | VLDBJ | 2025 | prompt4vis: prompting large language models with example mining for tabular data visualization |  |
-| readme_journal | true_positive_application | TKDE | 2026 | Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation |  |
+| readme_journal | true_positive_application | TKDE | 2022 | A Survey on Deep Reinforcement Learning for Data Processing and Analytics |  |
 | arxiv | true_positive_application | ArXiv | 2026 | TCMIIES: A Browser-Based LLM-Powered Intelligent Information Extraction System for Academic Literature | missing doi |
 | arxiv | true_positive_core | ArXiv | 2024 | From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems | missing doi |
 | arxiv | true_positive_core | ArXiv | 2023 | UNITE: A Unified Benchmark for Text-to-SQL Evaluation | missing doi |
@@ -37,13 +37,13 @@
 | arxiv | true_positive_application | ArXiv | 2026 | On the Limitations of Large Language Models for Conceptual Database Modeling | missing doi |
 | arxiv | true_positive_core | ArXiv | 2025 | ConstrainedSQL: Training LLMs for Text2SQL via Constrained Reinforcement Learning | missing doi |
 | arxiv | true_positive_core | ArXiv | 2022 | Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect | missing doi |
-| supplemental | true_positive_core | TKDE | 2026 | XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL |  |
+| supplemental | true_positive_core | ACL | 2025 | Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL |  |
 | supplemental | true_positive_application | ACL | 2025 | Adaptive and Robust Translation from Natural Language to Multi-model Query Languages |  |
 | supplemental | true_positive_core | AAAI | 2025 | Confidence Estimation for Error Detection in Text-to-SQL Systems |  |
-| supplemental | true_positive_application | TOSEM | 2023 | Extraction of Phrase-based Concepts in Vulnerability Descriptions through Unsupervised Labeling |  |
-| supplemental | true_positive_application | SIGMOD | 2022 | LANTERN: Boredom-conscious Natural Language Description Generation of Query Execution Plans for Database Education |  |
+| supplemental | true_positive_application | TKDE | 2024 | Empowering Molecule Discovery for Molecule-Caption Translation With Large Language Models: A ChatGPT Perspective |  |
+| supplemental | true_positive_application | TKDE | 2026 | InfTS-LLM: Aligning Streaming Time Series With LLMs for Beyond-Context Question Answering |  |
 | supplemental | true_positive_core | ACL | 2025 | DCG-SQL: Enhancing In-Context Learning for Text-to-SQL with Deep Contextual Schema Link Graph |  |
-| supplemental | true_positive_application | SIGMOD | 2021 | Towards Enhancing Database Education: Natural Language Generation Meets Query Execution Plans |  |
+| supplemental | true_positive_application | ACL | 2025 | TST: A Schema-Based Top-Down and Dynamic-Aware Agent of Text-to-Table Tasks |  |
 | supplemental | true_positive_core | ACL | 2022 | Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion |  |
-| fill | true_positive_core | ACL | 2023 | XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations |  |
+| fill | true_positive_core | ArXiv | 2025 | X-SQL: Expert Schema Linking and Understanding of Text-to-SQL with Multi-LLMs | missing doi |
 | fill | true_positive_core | ArXiv | 2026 | PExA: Parallel Exploration Agent for Complex Text-to-SQL | missing doi |
